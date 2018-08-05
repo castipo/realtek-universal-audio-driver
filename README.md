@@ -116,7 +116,7 @@ URI: ms-windows-store://pdp/?PFN=RealtekSemiconductorCorp.HPAudioControl_dt26b99
 
 1. Uninstall Realtek HDA Driver from Control Panel and Device Manager
 
-To prevent Device Manager auto install Realtek HDA Driver automatically:
+To prevent Device Manager install Realtek HDA Driver automatically:
 
 2. Delete Realtek HDA Driver from Windows Driver Store using DriverStore Explorer
 
