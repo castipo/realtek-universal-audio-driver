@@ -1,13 +1,15 @@
 # Realtek Universal Audio Driver (UAD)
 
-#### Repository Updated: 2/8/2018
+#### Repository Updated: 5/8/2018
 
 ---------------------------------------
 
 ## Table of Contents
 - [Lastest Infomation](#lastest-info)
 - [Requirement](#requirement)
+- [Notice](#notice)
 - [Download](#download)
+- [Preparation](#preparation)
 - [Installation](#installation)
 - [Uninstallation](#uninstallation)
 
@@ -31,18 +33,20 @@ Lowyat.NET:
 
 https://forum.lowyat.net/topic/658002
 
+Windows 10 Forums:
+
+https://www.tenforums.com/drivers-hardware/5993-latest-realtek-hd-audio-driver-version.html
+
 ---------------------------------------
 
 <h2 id="requirement">Requirement</h2>
 
-Operating System: At least Windows 10 Version 1709 (64 Bit)
+Operating System: At least Windows 10 Version 1703 RS2 Build 15063 (64 Bit)
 
 ---------------------------------------
 <h2 id="notice">Notice</h2>
 
 If your PC had preinstalled HDA driver with a desktop version (non-UWP) of audio enhancers, UAD will not work with that desktop version of audio enhancers.
-
-Unintall Realtek HDA Driver first!!!
 
 Realtek HD Audio Codec Driver Patcher (A1) by Pihto (DTSi &DLL unlock) not work on UAD
 
@@ -108,6 +112,18 @@ URI: ms-windows-store://pdp/?PFN=RealtekSemiconductorCorp.HPAudioControl_dt26b99
 
 ---------------------------------------
 
+<h2 id="notice">Preparation:</h2>
+
+1. Uninstall Realtek HDA Driver from Control Panel and Device Manager
+
+To prevent Device Manager auto install Realtek HDA Driver automatically:
+
+2. Delete Realtek HDA Driver from Windows Driver Store using DriverStore Explorer
+
+3. Stop Windows Update Service: `sc stop wuauserv`
+
+---------------------------------------
+
 <h2 id="installation">Installation</h2>
 
 ### A. Using Universal Audio Driver Inf Editor
@@ -159,29 +175,29 @@ URI: ms-windows-store://pdp/?PFN=RealtekSemiconductorCorp.HPAudioControl_dt26b99
 	| 10EC      | 0887      | 1043         | 8577         |
 	
 
-2. Install UAD driver (Codec_XXXX folder)
+2. Install UAD driver (Codec_XXXX folder - Replace XXXX with folder name version) 
  
 	 HDXRT.inf
 	 
-	`PnPUtil /i /a D:\UAD\Realtek\Codec_8501\HDXRT.inf`
+	`PnPUtil /i /a D:\UAD\Realtek\Codec_XXXX\HDXRT.inf`
  
 	 HDXRTSST.inf
 	 
-	`PnPUtil /i /a D:\UAD\Realtek\Codec_8501\HDXRTSST.inf`
+	`PnPUtil /i /a D:\UAD\Realtek\Codec_XXXX\HDXRTSST.inf`
 
-3. Install Realtek Device Extension (CodecExtOem_RTK_XXXX folder)
+3. Install Realtek Device Extension (CodecExtOem_RTK_XXXX - Replace XXXX with folder name version)
 
 	 HDX_GenericExt_RTK.inf
 	 
 	`PnPUtil /i /a D:\UAD\Realtek\CodecExtOem_RTK_8492\HDX_GenericExt_RTK.inf`
 
-3. Install Realtek Audio Effects Component (RealtekAPO_XXX folder), Realtek Hardware Support Application (RealtekHSA_xxx folder) and Realtek Audio Universal Service (RealtekService_XX folder)
+3. Install Realtek Audio Effects Component (RealtekAPO_XXX folder), Realtek Hardware Support Application (RealtekHSA_XXX folder) and Realtek Audio Universal Service (RealtekService_XX folder). Replace XXX and XX with folder name version.
+	 
+	`PnPUtil /i /a D:\UAD\Realtek\RealtekAPO_XXX\RealtekAPO.inf`
 
-	`PnPUtil /i /a D:\UAD\Realtek\RealtekAPO_635\RealtekAPO.inf`
+	`PnPUtil /i /a D:\UAD\Realtek\RealtekHSA_XX\RealtekHSA.inf`
 
-	`PnPUtil /i /a D:\UAD\Realtek\RealtekHSA_128\RealtekHSA.inf`
-
-	`PnPUtil /i /a D:\UAD\Realtek\RealtekService_92\RealtekService.inf`
+	`PnPUtil /i /a D:\UAD\Realtek\RealtekService_XX\RealtekService.inf`
 
 
 5. Install Realtek Audio Control / HP Audio Control using <a href="https://github.com/colinkiama/UWP-Package-Installer">UWP-Package-Installer</a> (<a href="http://puresoftapps.blogspot.com/2018/07/uwp-package-installer-easiest-way-to.html">Tutorial</a>)
