@@ -189,7 +189,7 @@ To prevent Device Manager install Realtek HDA Driver automatically:
 
 	 HDX_GenericExt_RTK.inf
 	 
-	`PnPUtil /i /a D:\UAD\Realtek\CodecExtOem_RTK_8492\HDX_GenericExt_RTK.inf`
+	`PnPUtil /i /a D:\UAD\Realtek\CodecExtOem_RTK_XXXX\HDX_GenericExt_RTK.inf`
 
 3. Install Realtek Audio Effects Component (RealtekAPO_XXX folder), Realtek Hardware Support Application (RealtekHSA_XXX folder) and Realtek Audio Universal Service (RealtekService_XX folder). Replace XXX and XX with folder name version.
 	 
