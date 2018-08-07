@@ -3,7 +3,7 @@ Signature   = "$WINDOWS NT$"
 Class       = SoftwareComponent
 ClassGuid   = {5c4c3332-344d-483c-8739-259e934c9cc8}
 Provider    = %Provider%
-DriverVer = 07/24/2018,1.1.5.0
+DriverVer = 07/31/2018,1.1.6.0
 CatalogFile = A-VoluteNh3ApoSwc.cat
 
 [SourceDisksNames]
@@ -47,6 +47,10 @@ PETrust=true
 %Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_0400
 %Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_0401
 %Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_0500
+%Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_0600
+%Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_0700
+%Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_0800
+%Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_0900
 %Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_FFFF
 
 [ApoComponent_Install]
