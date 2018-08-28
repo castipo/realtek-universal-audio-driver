@@ -92,6 +92,8 @@ https://github.com/lostindark/DriverStoreExplorer/releases/latest
 
 * Xperi: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/UAD/ThirdParty/Xperi
 
+* SoundResearch: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/UAD/ThirdParty/SoundResearchs
+
 ### Control Panel
 
 Realtek Audio Control / HP Audio Control require Microsoft.VCLibs.140.00 x64 appx dependencry
