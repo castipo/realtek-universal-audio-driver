@@ -1,6 +1,6 @@
 # Realtek Universal Audio Driver (UAD)
 
-#### Repository Updated: 27/8/2018
+#### Repository Updated: 28/8/2018
 
 ---------------------------------------
 
@@ -57,6 +57,10 @@ Realtek HD Audio Codec Driver Patcher (A1) by Pihto (DTSi &DLL unlock) not work 
 ### Universal Audio Driver
 
 https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/UAD/Realtek
+
+### Universal Audio Driver for USB
+
+https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/UAD/USBAud
 
 ### Setup Program for UAD
 

@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {C3A63EDD-2D27-4B66-B155-5E94B43D926A}
-DriverVer   = 12/05/2017,1.0.0.10
+DriverVer   = 01/02/2018,1.0.0.12
 CatalogFile = LenovoExtRtXUsb.cat
 
 [Manufacturer]
@@ -33,9 +33,11 @@ HKR,InterfaceSetting,WaveIn5,0x10008,"SysRecCustomizedFx"
 ;; APO CLSID registration for render endpoints
 HKR,InterfaceSetting\SysCustomizedFx\FX\0,%DelInterfaceKey%,%REG_MULTI_SZ%,%PKEY_FX_PreMixEffectClsid%,%PKEY_FX_PostMixEffectClsid%,%PKEY_FX_UserInterfaceClsid%,%PKEY_FX_StreamEffectClsid%,%PKEY_FX_ModeEffectClsid%,%PKEY_FX_EndpointEffectClsid%,%PKEY_FX_Offload_StreamEffectClsid%,%PKEY_FX_Offload_ModeEffectClsid%
 HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_FX_Association%,,%KSNODETYPE_ANY%
-HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_CompositeFX_StreamEffectClsid%,%REG_MULTI_SZ%,%FX_DOLBYAPO_DAPv251_CLSID%
-HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_CompositeFX_EndpointEffectClsid%,%REG_MULTI_SZ%,%FX_DOLBYAPO_VLLDP_CLSID%,%REALTEK_EFX_CLSID%
-HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_SFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+;HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_CompositeFX_StreamEffectClsid%,%REG_MULTI_SZ%,%REALTEK_SFX_CLSID%
+;HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_CompositeFX_ModeEffectClsid%,%REG_MULTI_SZ%,%REALTEK_MFX_CLSID%
+HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_CompositeFX_EndpointEffectClsid%,%REG_MULTI_SZ%,%REALTEK_EFX_CLSID%
+;HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_SFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+;HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_MFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
 HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_EFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
 HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_BYPASS_TP_EFFECTS%,%REG_DWORD%,0x1
 
@@ -50,10 +52,15 @@ HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%PKEY_BYPASS_TP_EFFECTS%,%REG_DWORD
 
 [DeviceExtension_Install.Components]
 AddComponent = RealtekAPO,,RealtekUSBAPO_Install
+AddComponent = RealtekSRV,,RealtekSRV_Install
 
 [RealtekUSBAPO_Install]
 ComponentIDs = VEN_10EC&AID_0002
 Description = "Realtek Audio Effects Component (USB)"
+
+[RealtekSRV_Install]
+ComponentIDs = VEN_10EC&SID_0001
+Description = "Realtek Audio Universal Service"
 
 [Strings]
 OEM                  = "Lenovo"
@@ -93,9 +100,8 @@ PKEY_EFX_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-B5EC-A92
 ;;PKEY_MFX_Offload_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-B5EC-A92A0367664B},12"
 PKEY_BYPASS_TP_EFFECTS = "{0F8412D3-DC5C-4DB3-B174-DC47A859435C},0"
 
-FX_DOLBYAPO_DAPv251_CLSID			= "{D9916FA0-99F7-11E7-BF21-6C0B849889E1}"
-FX_DOLBYAPO_VLLDP_CLSID				= "{D9916F9E-99F7-11E7-BF21-6C0B849889E1}"
-
+REALTEK_SFX_CLSID    = "{DDD6EC70-B6A2-460b-BEB2-BB8138FE9CE9}"
+REALTEK_MFX_CLSID    = "{ACE4B6FC-0E07-4f56-A9FF-1526DD35AB3B}"
 REALTEK_EFX_CLSID     = "{AB8EDD89-64A1-4D58-A961-34E85144060F}"
 REALTEKREC_MFX_CLSID  = "{AE2E9D99-0B84-415b-82CB-E41F1E5E84D1}"
 REALTEKREC_EFX_CLSID  = "{A7AC9689-BFB6-4a63-A7E7-B1AF0FE0F343}"
