@@ -1,0 +1,113 @@
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = Extension
+ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Provider    = %OEM%
+ExtensionId = {DC161FD6-6AE5-4100-8F2F-BE69BD1C3A66}  ;; Please get one from MSFT, this id is only for testing purpose !!
+DriverVer   = 05/21/2018,1.0.6.0
+CatalogFile = dtsoemapo3ss3dextpkg.cat
+
+[SourceDisksNames]
+222 = %DiskId1%
+
+[SourceDisksFiles]
+SS3D_presets_117906EA.xml=222
+SS3D_presets_1179077E.xml=222
+SS3D_presets_11790736.xml=222
+SS3D_presets_11790784.xml=222
+
+[DestinationDirs]
+DefaultDestDir = 11, DTS\PC\APO3x ; %windir%\system32\DTS\PC\Apo3x
+
+;[DTS.CopyList]
+;;dtsapo3oemconfig.xml
+
+[Manufacturer]
+%OEM% = DeviceExtensions,NTamd64
+
+[DeviceExtensions.NTamd64]
+;; below SSIDs should be replaced by actual ones in formal release
+%Device.ExtensionDesc% = Model11790780,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_11790780
+%Device.ExtensionDesc% = Model11790780,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1179077E
+%Device.ExtensionDesc% = Model11790736,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_11790736
+%Device.ExtensionDesc% = Model117906EA,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_117906EA
+%Device.ExtensionDesc% = Model11790784,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_11790784
+
+[Model11790780]
+CopyFiles = CopyList.Model11790780
+AddReg = PresetAddReg
+
+[Model11790736]
+CopyFiles = CopyList.Model11790736
+AddReg = PresetAddReg
+
+[Model117906EA]
+CopyFiles = CopyList.Model117906EA
+AddReg = PresetAddReg
+
+[Model11790784]
+CopyFiles = CopyList.Model11790784
+AddReg = PresetAddReg
+
+[CopyList.Model11790780]
+dtsapo3oemconfig.xml, SS3D_presets_1179077E.xml
+
+[CopyList.Model11790736]
+dtsapo3oemconfig.xml, SS3D_presets_11790736.xml
+
+[CopyList.Model117906EA]
+dtsapo3oemconfig.xml, SS3D_presets_117906EA.xml
+
+[CopyList.Model11790784]
+dtsapo3oemconfig.xml, SS3D_presets_11790784.xml
+
+[PresetAddReg]
+;; render endpoint settings
+HKR,InterfaceSetting,PrimaryLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                  ;; PrimaryLineOutTopo stands for Speakers(or Redirected headphone/speaker) endpoint
+HKR,InterfaceSetting,SingleLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                   ;; SingleLineOutTopo stands for Speakers(or Redirected headphone/speaker) endpoint
+HKR,InterfaceSetting,SecondaryLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                ;; SecondaryLineOutTopo stands for Headphone endpoint
+HKR,InterfaceSetting,RearLineOutTopoSST,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                  ;; RearLineOutTopoSST stands for Speakers(or Redirected headphone/speaker) endpoint with audio offloading DSP supported
+HKR,InterfaceSetting,RearLineOutTopoSST2,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                 ;; RearLineOutTopoSST2 stands for Speakers(or Redirected headphone/speaker) endpoint with audio offloading DSP supported
+HKR,InterfaceSetting,RearLineOutTopoSST3,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                 ;; RearLineOutTopoSST3 stands for Headphone endpoint with audio offloading DSP supported
+HKR,InterfaceSetting,RearLineOutTopoDock,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                 ;; RearLineOutTopoDock stands for Speakers endpoint on docking station
+
+;; Preset values in property store
+HKR,InterfaceSetting\ApoPreset1\EP\0, "{7A8B74C8-FA66-4460-8542-D6119C59E9D4},4", %REG_DWORD%, 0x100  ;; SRS APO 3 on Realtek
+
+[Model11790780.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+[Model11790736.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+[Model117906EA.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+[Model11790784.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+[DTSAPO_Install]
+;;HardwareIds = APO\VEN_DTSI&AID_DTSI1
+ComponentIDs = VEN_DTSI&AID_DTSI1
+Description = "DTS Audio Effects Component"
+;;Capabilities = 0x00000008
+
+[DTSHSA_Install]
+ComponentIDs = VEN_DTSI&HID_DTSISS3D
+Description = "DTS StudioSound Hardware Support Application"
+;;Capabilities = 0x00000008
+
+[Strings]
+OEM                  = "DTS"
+Device.ExtensionDesc = "OEM Device Extension"
+ExtendedFriendlyName = "Realtek(R) Audio"
+DiskId1              = "OEM Audio Device Extension Installation Disk (DTS)"
+
+REG_BINARY = 0x00000001
+REG_DWORD = 0x00010001
+REG_MULTI_SZ = 0x00010000
+REG_MULTI_SZ_APPEND = 0x00010008

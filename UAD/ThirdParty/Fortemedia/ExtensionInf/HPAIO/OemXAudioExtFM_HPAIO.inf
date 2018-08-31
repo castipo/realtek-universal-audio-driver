@@ -1,0 +1,203 @@
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = Extension
+ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Provider    = %OEM%
+ExtensionId = {86F65302-34A5-441C-8E16-C05C2D9E6151}
+DriverVer   = 07/20/2018,1.0.3.37
+CatalogFile = OemXAudioExt_fm.cat
+
+[SourceDisksNames]
+222 = %DiskId1%
+
+[SourceDisksFiles]
+SAMSfpa_103C844E.dat=222
+;SAMSfpa_103C8419.dat=222
+SAMSfpa_103C84EE.dat=222
+SAMSfpa_103C84EF.dat=222
+SAMSfpa_103C84F0.dat=222
+SAMSfpi_103C844E.dat=222
+;SAMSfpi_103C8419.dat=222
+SAMSfpi_103C84EE.dat=222
+;SAMSfpi_103C84EF.dat=222
+;SAMSfpi_103C84F0.dat=222
+RTMICAR_103C844E.dat=222
+;RTMICAR_103C8419.dat=222
+RTMICAR_103C84EE.dat=222
+RTMICAR_103C84EF.dat=222
+RTMICAR_103C84F0.dat=222
+configuration_103C844E.tf=222
+configuration_103C84EE.tf=222
+
+
+[DestinationDirs]
+FMDAT_103C844E.CopyList = 12 ; %windir%\system32\drivers
+;FMDAT_103C8419.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_103C84EE.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_103C84EF.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_103C84F0.CopyList = 12 ; %windir%\system32\drivers
+FMPPDAT_103C844E.CopyList = 11 ; %windir%\system32
+;FMPPDAT_103C8419.CopyList = 11 ; %windir%\system32
+FMPPDAT_103C84EE.CopyList = 11 ; %windir%\system32
+;FMPPDAT_103C84EF.CopyList = 11 ; %windir%\system32
+;FMPPDAT_103C84F0.CopyList = 11 ; %windir%\system32
+INTELTF_103C844E.CopyList = 11,cAVS\Intel(R) Audio Service\ConfigurationFiles
+INTELTF_103C84EE.CopyList = 11,cAVS\Intel(R) Audio Service\ConfigurationFiles
+
+
+
+[FMDAT_103C844E.CopyList]
+SAMSfpa.dat, SAMSfpa_103C844E.dat
+RTMICAR.dat, RTMICAR_103C844E.dat 
+
+;[FMDAT_103C8419.CopyList]
+;SAMSfpa.dat, SAMSfpa_103C8419.dat
+;RTMICAR.dat, RTMICAR_103C8419.dat 
+
+[FMDAT_103C84EE.CopyList]
+SAMSfpa.dat, SAMSfpa_103C84EE.dat
+RTMICAR.dat, RTMICAR_103C84EE.dat  
+
+[FMDAT_103C84EF.CopyList]
+SAMSfpa.dat, SAMSfpa_103C84EF.dat
+RTMICAR.dat, RTMICAR_103C84EF.dat 
+
+[FMDAT_103C84F0.CopyList]
+SAMSfpa.dat, SAMSfpa_103C84F0.dat
+RTMICAR.dat, RTMICAR_103C84F0.dat 
+
+[FMPPDAT_103C844E.CopyList]
+SAMSfpi.dat, SAMSfpi_103C844E.dat
+
+;[FMPPDAT_103C8419.CopyList]
+;SAMSfpi.dat, SAMSfpi_103C8419.dat
+
+[FMPPDAT_103C84EE.CopyList]
+SAMSfpi.dat, SAMSfpi_103C84EE.dat 
+
+;[FMPPDAT_103C84EF.CopyList]
+;SAMSfpi.dat, SAMSfpi_103C84EF.dat
+
+;[FMPPDAT_103C84F0.CopyList]
+;SAMSfpi.dat, SAMSfpi_103C84F0.dat
+
+[INTELTF_103C844E.CopyList]
+configuration.tf, configuration_103C844E.tf
+
+[INTELTF_103C84EE.CopyList]
+configuration.tf, configuration_103C84EE.tf  
+ 
+[Manufacturer]
+%OEM% = DeviceExtensions,NTamd64
+
+[DeviceExtensions.NTamd64]
+%Device.ExtensionDesc% = DeviceExtension_Install_103C844E,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_103C844E
+;%Device.ExtensionDesc% = DeviceExtension_Install_103C8419,HDAUDIO\FUNC_01&VEN_10EC&DEV_0293&SUBSYS_103C8419
+%Device.ExtensionDesc% = DeviceExtension_Install_103C84EE,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_103C84EE
+%Device.ExtensionDesc% = DeviceExtension_Install_103C84EF,HDAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_103C84EF
+%Device.ExtensionDesc% = DeviceExtension_Install_103C84F0,HDAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_103C84F0
+
+[DeviceExtension_Install_103C844E]
+CopyFiles = FMDAT_103C844E.CopyList, FMPPDAT_103C844E.CopyList, INTELTF_103C844E.CopyList
+AddReg = PresetAddReg
+AddReg = CortanaKey_103C844E_AddReg
+AddReg = FortemediaSstPpDll.AddReg
+
+[DeviceExtension_Install_103C844E.HW]
+
+;[DeviceExtension_Install_103C8419]
+;CopyFiles = FMDAT_103C8419.CopyList, FMPPDAT_103C8419.CopyList
+;CopyFiles = FMDAT_103C8419.CopyList
+;AddReg = PresetAddReg
+
+;[DeviceExtension_Install_103C8419.HW]
+
+[DeviceExtension_Install_103C84EE]
+CopyFiles = FMDAT_103C84EE.CopyList, FMPPDAT_103C84EE.CopyList, INTELTF_103C84EE.CopyList
+AddReg = PresetAddReg
+AddReg = CortanaKey_103C84EE_AddReg
+AddReg = FortemediaSstPpDll.AddReg
+
+[DeviceExtension_Install_103C84EE.HW]
+
+[DeviceExtension_Install_103C84EF]
+;CopyFiles = FMDAT_103C84EF.CopyList, FMPPDAT_103C84EF.CopyList
+CopyFiles = FMDAT_103C84EF.CopyList
+AddReg = CortanaKey_103C84EF_AddReg
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_103C84EF.HW]
+
+[DeviceExtension_Install_103C84F0]
+;CopyFiles = FMDAT_103C84F0.CopyList, FMPPDAT_103C84F0.CopyList
+CopyFiles = FMDAT_103C84F0.CopyList
+AddReg = CortanaKey_103C84F0_AddReg
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_103C84F0.HW]
+
+;[FriendlyName_AddReg]
+;HKR,,FriendlyName,,%ExtendedFriendlyName%
+
+[DeviceExtension_Install_103C844E.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+;[DeviceExtension_Install_103C8419.Components]
+;AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_103C84EE.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_103C84EF.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_103C84F0.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[CortanaKey_103C844E_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C84EE_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9200
+
+[CortanaKey_103C84EF_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9200
+
+[CortanaKey_103C84F0_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9200
+
+[PresetAddReg]
+HKR,InterfaceSetting,RtMicInTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RtFrontMicInTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RtMicArTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,DigitalMICTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RtMicInSSTTopo,0x10008,"FMAPOPreset1"
+
+HKR,InterfaceSetting\FMAPOPreset1\FX\0,%K2_ID%,0x00010001,0x03
+HKR,InterfaceSetting\FMAPOPreset1\FX\0,%K7_ID%,0x00010001,0x800000
+
+[FortemediaSstPpDll.AddReg]
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",0x00020000,%%SystemRoot%%\system32\FM_Speech_PP64.dll
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllConfigurationFile",0x00020000,%%SystemRoot%%\system32\SAMSfpi.dat
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\cAVS\Intel(R) Audio Service\ConfigurationFiles\configuration.tf"
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ForceSwWov",%REG_DWORD%,0x00000001
+HKLM,SYSTEM\CurrentControlSet\Services\IntcOED\Parameters,"VADAPIMode",%REG_DWORD%,0x00000001
+
+
+[FMAPO_Install]
+ComponentIDs = VEN_1319&AID_0001
+Description = "Fortemedia SAMSoft Effects Component"
+
+[Strings]
+OEM                  = "Fortemeida"
+Device.ExtensionDesc = "Fortemedia SAMSoft Device Extension"
+ExtendedFriendlyName = "Realtek(R) Audio"
+DiskId1              = "Fortemedia SAMSoft Audio Device Extension Installation Disk"
+
+REG_BINARY = 0x00000001
+REG_DWORD = 0x00010001
+REG_MULTI_SZ = 0x00010000
+REG_MULTI_SZ_APPEND = 0x00010008
+
+K2_ID = "{2b24be42-a892-11dc-8314-0800200c9a66},2"
+K7_ID = "{2b24be42-a892-11dc-8314-0800200c9a66},7"
