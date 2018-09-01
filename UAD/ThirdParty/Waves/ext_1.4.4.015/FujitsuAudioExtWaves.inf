@@ -1,0 +1,74 @@
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = Extension
+ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Provider    = %OEM%
+ExtensionId = {EAD3D183-D3F8-4847-BE10-001B3E2A2FB9}
+DriverVer   = 04/16/2018,1.4.4.015
+CatalogFile = FujitsuAudioExtWaves.cat
+
+[SourceDisksNames]
+222 = %DiskId1%
+
+[SourceDisksFiles]
+MaxxAudio_Data.cab=222
+
+[DestinationDirs]
+MaxxAudio.CopyList = 12 ; %windir%\system32
+
+[MaxxAudio.CopyList]
+MaxxAudio_Data.cab
+
+[Manufacturer]
+%OEM% = DeviceExtensions,NTamd64
+
+[DeviceExtensions.NTamd64]
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10CF2105
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10CF2104
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10CF2106
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10CF1622
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10CF2000
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0283&SUBSYS_10CF1522
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10CF2208
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10CF2209
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10CF2206
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10CF2207
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10CF2204
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10CF2205
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_10CF2102
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10CF1654
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10CF2215
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_10CF2103
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_10CF2201
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10CF1661
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10CF2214
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10CF1662
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10CF2211
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10CF2210
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10CF2213
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10CF2212
+
+[DeviceExtension_Install]
+CopyFiles = MaxxAudio.CopyList
+
+[DeviceExtension_Install.HW]
+AddReg = FriendlyName_AddReg
+
+[FriendlyName_AddReg]
+HKR,,FriendlyName,,%ExtendedFriendlyName%
+
+[DeviceExtension_Install.Devices]
+AddDevice = WavesAPO,,WavesAPO_Install
+
+[WavesAPO_Install]
+HardwareIds = APO\VEN_WAVES&AID_MA75MV45_FUJITSU
+Description = "Waves Audio Effects Component"
+Capabilities = 0x00000008
+
+[Strings]
+OEM                  = "Fujitsu"
+Waves                = "Waves"
+Device.ExtensionDesc = "Fujitsu Device Extension"
+ExtendedFriendlyName = "Realtek(R) Audio"
+DiskId1              = "Fujitsu Audio Device Extension Installation Disk (Waves)"
+
