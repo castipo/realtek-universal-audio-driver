@@ -4,30 +4,30 @@ Class=SoftwareComponent
 ClassGUID={5c4c3332-344d-483c-8739-259e934c9cc8}
 Provider=%ProviderName%
 DriverVer=08/07/2018,2.0.8.26
-CatalogFile=SEAPO64UR.cat
+CatalogFile=SEAPO32UR.cat
 
 [SourceDisksNames]
 222=%DiskDescription%
 
 [SourceDisksFiles]
-SEAPO64UR.dll=222
-SECOMN64UR.dll=222
-SEHDRA64UR.dll=222
-HPIMMA64UR.dll=222
-SEHDHF64UR.dll=222
-SECOMN64UR.exe=222
+SEAPO32UR.dll=222
+SECOMN32UR.dll=222
+SEHDRA32UR.dll=222
+HPIMMA32UR.dll=222
+SEHDHF32UR.dll=222
+SECOMN32UR.exe=222
 SEAPODATUR.zip=222
 
 [DestinationDirs]
-SfxFx.CopyList=11     ; %windir%\system32
+SfxFx.CopyList=11     ; %windir%\SysWOW64
 SECOMNURService.CopyList=11
 
 [SignatureAttributes]
-SEAPO64UR.dll=SignatureAttributes.PETrust
-SECOMN64UR.dll=SignatureAttributes.PETrust
-SEHDRA64UR.dll=SignatureAttributes.PETrust
-HPIMMA64UR.dll=SignatureAttributes.PETrust
-SEHDHF64UR.dll=SignatureAttributes.PETrust
+SEAPO32UR.dll=SignatureAttributes.PETrust
+SECOMN32UR.dll=SignatureAttributes.PETrust
+SEHDRA32UR.dll=SignatureAttributes.PETrust
+HPIMMA32UR.dll=SignatureAttributes.PETrust
+SEHDHF32UR.dll=SignatureAttributes.PETrust
 
 [SignatureAttributes.DRM]
 DRMLevel=1300
@@ -36,9 +36,9 @@ DRMLevel=1300
 PETrust=true
 
 [Manufacturer]
-%MfgName%=ApoComponents,NTamd64
+%MfgName%=ApoComponents,NTx86
 
-[ApoComponents.NTamd64]
+[ApoComponents.NTx86]
 %Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_0A2E&AID_0002&VER_02000826
 
 [ApoComponent_Install]
@@ -53,15 +53,15 @@ AddService=,2    ; no function driver
 AddService=SECOMNURService,0x00000800,SECOMNURService_Install
 
 [SfxFx.CopyList]
-SEAPO64UR.dll,,,0x0100
-SECOMN64UR.dll,,,0x0100
-SEHDRA64UR.dll,,,0x0100
-HPIMMA64UR.dll,,,0x0100
-SEHDHF64UR.dll,,,0x0100
+SEAPO32UR.dll,,,0x0100
+SECOMN32UR.dll,,,0x0100
+SEHDRA32UR.dll,,,0x0100
+HPIMMA32UR.dll,,,0x0100
+SEHDHF32UR.dll,,,0x0100
 SEAPODATUR.zip,,,0x00000800 ; COPYFLG_NODECOMP
 
 [SECOMNURService.CopyList]
-SECOMN64UR.exe
+SECOMN32UR.exe
 
 [SECOMNURService_Install]
 Description="Sound Research SECOMNUR Service"
@@ -69,19 +69,19 @@ DisplayName="Sound Research SECOMNUR Service"
 ServiceType=0x00000010
 StartType=2
 ErrorControl=1
-ServiceBinary="""%%SystemRoot%%\System32\SECOMN64UR.exe"""
+ServiceBinary="""%%SystemRoot%%\System32\SECOMN32UR.exe"""
 
 [SfxFx.COM.AddReg]
 HKCR,CLSID\%SYSFX_SFX_CLSID%,,0,%SYSFX_SFX_CLASS_FriendlyName%
-HKCR,CLSID\%SYSFX_SFX_CLSID%\InprocServer32,,0x00020000,%%SystemRoot%%\System32\SEAPO64UR.dll
+HKCR,CLSID\%SYSFX_SFX_CLSID%\InprocServer32,,0x00020000,%%SystemRoot%%\System32\SEAPO32UR.dll
 HKCR,CLSID\%SYSFX_SFX_CLSID%\InprocServer32,ThreadingModel,0,"Both"
 
 HKCR,CLSID\%SYSFX_MFX_CLSID%,,0,%SYSFX_MFX_CLASS_FriendlyName%
-HKCR,CLSID\%SYSFX_MFX_CLSID%\InprocServer32,,0x00020000,%%SystemRoot%%\System32\SEAPO64UR.dll
+HKCR,CLSID\%SYSFX_MFX_CLSID%\InprocServer32,,0x00020000,%%SystemRoot%%\System32\SEAPO32UR.dll
 HKCR,CLSID\%SYSFX_MFX_CLSID%\InprocServer32,ThreadingModel,0,"Both"
 
 HKCR,CLSID\%SYSFX_EFX_CLSID%,,0,%SYSFX_EFX_CLASS_FriendlyName%
-HKCR,CLSID\%SYSFX_EFX_CLSID%\InprocServer32,,0x00020000,%%SystemRoot%%\System32\SEAPO64UR.dll
+HKCR,CLSID\%SYSFX_EFX_CLSID%\InprocServer32,,0x00020000,%%SystemRoot%%\System32\SEAPO32UR.dll
 HKCR,CLSID\%SYSFX_EFX_CLSID%\InprocServer32,ThreadingModel,0,"Both"
 
 HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_SFX_CLSID%, "FriendlyName", ,%SYSFX_SFX_FriendlyName%

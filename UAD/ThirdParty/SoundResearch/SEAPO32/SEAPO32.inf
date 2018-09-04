@@ -4,30 +4,30 @@ Class=SoftwareComponent
 ClassGUID={5c4c3332-344d-483c-8739-259e934c9cc8}
 Provider=%ProviderName%
 DriverVer=08/07/2018,2.0.8.26
-CatalogFile=SEAPO64UR.cat
+CatalogFile=SEAPO32.cat
 
 [SourceDisksNames]
 222=%DiskDescription%
 
 [SourceDisksFiles]
-SEAPO64UR.dll=222
-SECOMN64UR.dll=222
-SEHDRA64UR.dll=222
-HPIMMA64UR.dll=222
-SEHDHF64UR.dll=222
-SECOMN64UR.exe=222
-SEAPODATUR.zip=222
+SEAPO32.dll=222
+SECOMN32.dll=222
+SEHDRA32.dll=222
+HPIMMA32.dll=222
+SEHDHF32.dll=222
+SECOMN32.exe=222
+SEAPODAT.zip=222
 
 [DestinationDirs]
-SfxFx.CopyList=11     ; %windir%\system32
-SECOMNURService.CopyList=11
+SfxFx.CopyList=11     ; %windir%\SysWOW64
+SECOMNService.CopyList=11
 
 [SignatureAttributes]
-SEAPO64UR.dll=SignatureAttributes.PETrust
-SECOMN64UR.dll=SignatureAttributes.PETrust
-SEHDRA64UR.dll=SignatureAttributes.PETrust
-HPIMMA64UR.dll=SignatureAttributes.PETrust
-SEHDHF64UR.dll=SignatureAttributes.PETrust
+SEAPO32.dll=SignatureAttributes.PETrust
+SECOMN32.dll=SignatureAttributes.PETrust
+SEHDRA32.dll=SignatureAttributes.PETrust
+HPIMMA32.dll=SignatureAttributes.PETrust
+SEHDHF32.dll=SignatureAttributes.PETrust
 
 [SignatureAttributes.DRM]
 DRMLevel=1300
@@ -36,52 +36,52 @@ DRMLevel=1300
 PETrust=true
 
 [Manufacturer]
-%MfgName%=ApoComponents,NTamd64
+%MfgName%=ApoComponents,NTx86
 
-[ApoComponents.NTamd64]
-%Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_0A2E&AID_0002&VER_02000826
+[ApoComponents.NTx86]
+%Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_0A2E&AID_0001&VER_02000826
 
 [ApoComponent_Install]
 Include=wdmaudio.inf
 Needs=mssysfx.CopyFilesAndRegister
 CopyFiles=SfxFx.CopyList
 AddReg=SfxFx.COM.AddReg
-CopyFiles=SECOMNURService.CopyList
+CopyFiles=SECOMNService.CopyList
 
 [ApoComponent_Install.Services]
 AddService=,2    ; no function driver
-AddService=SECOMNURService,0x00000800,SECOMNURService_Install
+AddService=SECOMNService,0x00000800,SECOMNService_Install
 
 [SfxFx.CopyList]
-SEAPO64UR.dll,,,0x0100
-SECOMN64UR.dll,,,0x0100
-SEHDRA64UR.dll,,,0x0100
-HPIMMA64UR.dll,,,0x0100
-SEHDHF64UR.dll,,,0x0100
-SEAPODATUR.zip,,,0x00000800 ; COPYFLG_NODECOMP
+SEAPO32.dll,,,0x0100
+SECOMN32.dll,,,0x0100
+SEHDRA32.dll,,,0x0100
+HPIMMA32.dll,,,0x0100
+SEHDHF32.dll,,,0x0100
+SEAPODAT.zip,,,0x00000800 ; COPYFLG_NODECOMP
 
-[SECOMNURService.CopyList]
-SECOMN64UR.exe
+[SECOMNService.CopyList]
+SECOMN32.exe
 
-[SECOMNURService_Install]
-Description="Sound Research SECOMNUR Service"
-DisplayName="Sound Research SECOMNUR Service"
+[SECOMNService_Install]
+Description="Sound Research SECOMN Service"
+DisplayName="Sound Research SECOMN Service"
 ServiceType=0x00000010
 StartType=2
 ErrorControl=1
-ServiceBinary="""%%SystemRoot%%\System32\SECOMN64UR.exe"""
+ServiceBinary="""%%SystemRoot%%\System32\SECOMN32.exe"""
 
 [SfxFx.COM.AddReg]
 HKCR,CLSID\%SYSFX_SFX_CLSID%,,0,%SYSFX_SFX_CLASS_FriendlyName%
-HKCR,CLSID\%SYSFX_SFX_CLSID%\InprocServer32,,0x00020000,%%SystemRoot%%\System32\SEAPO64UR.dll
+HKCR,CLSID\%SYSFX_SFX_CLSID%\InprocServer32,,0x00020000,%%SystemRoot%%\System32\SEAPO32.dll
 HKCR,CLSID\%SYSFX_SFX_CLSID%\InprocServer32,ThreadingModel,0,"Both"
 
 HKCR,CLSID\%SYSFX_MFX_CLSID%,,0,%SYSFX_MFX_CLASS_FriendlyName%
-HKCR,CLSID\%SYSFX_MFX_CLSID%\InprocServer32,,0x00020000,%%SystemRoot%%\System32\SEAPO64UR.dll
+HKCR,CLSID\%SYSFX_MFX_CLSID%\InprocServer32,,0x00020000,%%SystemRoot%%\System32\SEAPO32.dll
 HKCR,CLSID\%SYSFX_MFX_CLSID%\InprocServer32,ThreadingModel,0,"Both"
 
 HKCR,CLSID\%SYSFX_EFX_CLSID%,,0,%SYSFX_EFX_CLASS_FriendlyName%
-HKCR,CLSID\%SYSFX_EFX_CLSID%\InprocServer32,,0x00020000,%%SystemRoot%%\System32\SEAPO64UR.dll
+HKCR,CLSID\%SYSFX_EFX_CLSID%\InprocServer32,,0x00020000,%%SystemRoot%%\System32\SEAPO32.dll
 HKCR,CLSID\%SYSFX_EFX_CLSID%\InprocServer32,ThreadingModel,0,"Both"
 
 HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_SFX_CLSID%, "FriendlyName", ,%SYSFX_SFX_FriendlyName%
@@ -95,7 +95,7 @@ HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_SFX_CLSID%, "MinOutputConnections
 HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_SFX_CLSID%, "MaxOutputConnections", 0x00010001, 1
 HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_SFX_CLSID%, "MaxInstances", 0x00010001, 0xffffffff
 HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_SFX_CLSID%, "NumAPOInterfaces", 0x00010001, 1
-HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_SFX_CLSID%, "APOInterface0", ,"{6D7740E3-0AC8-4BC6-B4A8-157B39D85E36}"
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_SFX_CLSID%, "APOInterface0", ,"{8B104161-6438-4876-9B23-02C6B19DCF0C}"
 
 HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_MFX_CLSID%, "FriendlyName", ,%SYSFX_MFX_FriendlyName%
 HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_MFX_CLSID%, "Copyright", ,%SRCopyRight%
@@ -108,7 +108,7 @@ HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_MFX_CLSID%, "MinOutputConnections
 HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_MFX_CLSID%, "MaxOutputConnections", 0x00010001, 1
 HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_MFX_CLSID%, "MaxInstances", 0x00010001, 0xffffffff
 HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_MFX_CLSID%, "NumAPOInterfaces", 0x00010001, 1
-HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_MFX_CLSID%, "APOInterface0", ,"{A54AEDC4-D220-4A11-82B6-33A45AF2B284}"
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_MFX_CLSID%, "APOInterface0", ,"{40F3818F-9EB6-4965-913F-54E754E13CA7}"
 
 HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_EFX_CLSID%, "FriendlyName", ,%SYSFX_EFX_FriendlyName%
 HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_EFX_CLSID%, "Copyright", ,%SRCopyRight%
@@ -121,7 +121,7 @@ HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_EFX_CLSID%, "MinOutputConnections
 HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_EFX_CLSID%, "MaxOutputConnections", 0x00010001, 1
 HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_EFX_CLSID%, "MaxInstances", 0x00010001, 0xffffffff
 HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_EFX_CLSID%, "NumAPOInterfaces", 0x00010001, 1
-HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_EFX_CLSID%, "APOInterface0", ,"{EC8AE7E3-61EE-4B91-BF26-19F323E7BA7D}"
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_EFX_CLSID%, "APOInterface0", ,"{A51B85FD-6415-4CB8-A4DC-62913BD5BA1A}"
 
 [Strings]
 ; see audioenginebaseapo.idl for APO_FLAG enum values
@@ -132,12 +132,12 @@ EFX_APO_FLAG_DEFAULT = 0x0000000F
 ProviderName   ="Sound Research Corp."
 MfgName        ="Sound Research Corp."
 SRCopyRight    ="Copyright (c) Sound Research, Corp."
-Apo.ComponentDesc = "Sound Research USB Audio Effects Component"
+Apo.ComponentDesc = "Sound Research Audio Effects Component"
 DiskDescription="Installation Media"
 
-SYSFX_SFX_CLSID="{3B0B71B7-84EF-45E4-A487-4752F265FE3B}"
-SYSFX_MFX_CLSID="{05406B9B-7987-47B9-B04C-DFBE86C2128A}"
-SYSFX_EFX_CLSID="{9F0B902C-14FD-4E06-9620-4A71BDC518AE}"
+SYSFX_SFX_CLSID="{F71CA881-A2E0-43D1-9B8D-CEF14AA0D58D}"
+SYSFX_MFX_CLSID="{C26AD82E-B1CB-4BDF-87E9-CACD7FD6C6FD}"
+SYSFX_EFX_CLSID="{8F3540DF-18B0-4943-B916-D4A79801587D}"
 
 SYSFX_SFX_FriendlyName="SEAPOLFXSFX"
 SYSFX_MFX_FriendlyName="SEAPOGFXMFX"
