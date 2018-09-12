@@ -7,15 +7,15 @@ Signature 	= "$Windows NT$"
 Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider 	= %ManufacturerName%
-ExtensionId = {CB84A59A-C024-4121-926E-D449C79C52F6}
-CatalogFile = dax3_ext_dolbyatmosspeakersystem.cat
-DriverVer = 08/06/2018,3.20200.221.0
+ExtensionId = {921A418E-4AF8-46FD-A1A1-3C77BB41B78B}
+CatalogFile = dax3_ext_dolbyatmos.cat
+DriverVer = 09/06/2018,3.20200.226.0
 
 [Manufacturer]
 %ManufacturerName% = DeviceExtensions,NTamd64
 
 [DeviceExtensions.NTamd64]
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA383E
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_1A581000
 
 [DeviceExtension_Install.NT]
 AddReg = PresetAddReg, DolbyAPO_AddReg
@@ -47,29 +47,29 @@ AddComponent = DolbyAPO_DAX3HSA,, DolbyAPO_ComponentInstall_DAX3HSA
 ComponentIds = VEN_DOLBY&PID_DAX3APOSVC  ; Matches with SWC\VEN_DOLBY&PID_DAX3APOSVC
 
 [DolbyAPO_ComponentInstall_DAX3HSA]
-ComponentIds = VEN_DOLBY&PID_DAX3HSA_DolbyAtmosSpeakerSystemForGaming  ; Matches with SWC\VEN_DOLBY&PID_DAX3HSA_DolbyAtmosSpeakerSystemForGaming
+ComponentIds = VEN_DOLBY&PID_DAX3HSA_DolbyAtmos ; Matches with SWC\VEN_DOLBY&PID_DAX3HSA_DolbyAtmos
 
 [SourceDisksNames]
 222="APO Installation Disk",,,
 
 [SourceDisksFiles]
-HDAUDIO_DEV_0298_SUBSYS_17AA383E_PCI_SUBSYS_382617AA.xml = 222
-Operator_Info_Lenovo.xml = 222
-Headphone_Default_Generic_Small_DolbyAtmosSpeakerSystemForGaming.xml = 222
-Headphone_Default_Generic_Medium_DolbyAtmosSpeakerSystemForGaming.xml = 222
-Headphone_Default_Generic_Large_DolbyAtmosSpeakerSystemForGaming.xml = 222
-Headphone_Default_Generic_Default_DolbyAtmosSpeakerSystemForGaming.xml = 222
+HDAUDIO_DEV_0298_SUBSYS_1A581000_PCI_SUBSYS_10001A58.xml = 222
+Operator_Info_Razer.xml = 222
+Headphone_Default_Generic_Small_DolbyAtmos.xml = 222
+Headphone_Default_Generic_Medium_DolbyAtmos.xml = 222
+Headphone_Default_Generic_Large_DolbyAtmos.xml = 222
+Headphone_Default_Generic_Default_DolbyAtmos.xml = 222
 
 [DestinationDirs]
 DolbyAPO_CopyFiles = 10,system32\dolbyaposvc
 
 [DolbyAPO_CopyFiles]
-HDAUDIO_DEV_0298_SUBSYS_17AA383E_PCI_SUBSYS_382617AA.xml
-Operator_Info_Lenovo.xml
-Headphone_Default_Generic_Small_DolbyAtmosSpeakerSystemForGaming.xml
-Headphone_Default_Generic_Medium_DolbyAtmosSpeakerSystemForGaming.xml
-Headphone_Default_Generic_Large_DolbyAtmosSpeakerSystemForGaming.xml
-Headphone_Default_Generic_Default_DolbyAtmosSpeakerSystemForGaming.xml
+HDAUDIO_DEV_0298_SUBSYS_1A581000_PCI_SUBSYS_10001A58.xml
+Operator_Info_Razer.xml
+Headphone_Default_Generic_Small_DolbyAtmos.xml
+Headphone_Default_Generic_Medium_DolbyAtmos.xml
+Headphone_Default_Generic_Large_DolbyAtmos.xml
+Headphone_Default_Generic_Default_DolbyAtmos.xml
 
 [Strings]
 ManufacturerName 	= "Dolby"

@@ -7,15 +7,15 @@ Signature 	= "$Windows NT$"
 Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider 	= %ManufacturerName%
-ExtensionId = {AEDA38B4-2C6F-4F4E-B9F1-F4032FBFD641}
-CatalogFile = dax3_ext_dolbyaudiopremium.cat
-DriverVer = 07/15/2018,2.1001.222.0
+ExtensionId = {CB84A59A-C024-4121-926E-D449C79C52F6}
+CatalogFile = dax3_ext_dolbyatmosspeakersystem.cat
+DriverVer = 09/06/2018,3.20200.222.0
 
 [Manufacturer]
 %ManufacturerName% = DeviceExtensions,NTamd64
 
 [DeviceExtensions.NTamd64]
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA2272
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA383E
 
 [DeviceExtension_Install.NT]
 AddReg = PresetAddReg, DolbyAPO_AddReg
@@ -26,12 +26,13 @@ CopyFiles = DolbyAPO_CopyFiles
 HKR,InterfaceSetting,PrimaryLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                  ;; PrimaryLineOutTopo stands for Speakers(or Redirected headphone/speaker) endpoint
 HKR,InterfaceSetting,SingleLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                   ;; SingleLineOutTopo stands for Speakers(or Redirected headphone/speaker) endpoint
 HKR,InterfaceSetting,SecondaryLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset2"                ;; SecondaryLineOutTopo stands for Headphone endpoint
-
-HKR,InterfaceSetting,RearLineOutTopoSST,%REG_MULTI_SZ_APPEND%,"ApoPreset1"					;; Speakers(or Redirected headphone/speaker) endpoint with audio offloading DSP supported (Intel SST) 
-HKR,InterfaceSetting,RearLineOutTopoSST3,%REG_MULTI_SZ_APPEND%,"ApoPreset2"					;; Headphone endpoint with audio offloading DSP supported (Intel SST)
-
-HKR,InterfaceSetting,RearLineOutTopoHAP,%REG_MULTI_SZ_APPEND%,"ApoPreset1"					;; Speakers(or Redirected headphone/speaker) endpoint with audio offloading DSP supported (AMD HAP) 
-HKR,InterfaceSetting,RearLineOutTopoHAP3,%REG_MULTI_SZ_APPEND%,"ApoPreset2"					;; Headphone endpoint with audio offloading DSP supported (AMD HAP)
+;; ISST topologies
+HKR,InterfaceSetting,RearLineOutTopoSST,%REG_MULTI_SZ_APPEND%,"ApoPreset1"
+HKR,InterfaceSetting,RearLineOutTopoSST2,%REG_MULTI_SZ_APPEND%,"ApoPreset1"
+HKR,InterfaceSetting,RearLineOutTopoSST3,%REG_MULTI_SZ_APPEND%,"ApoPreset1"
+;; AMD topologies
+HKR,InterfaceSetting,RearLineOutTopoHAP,%REG_MULTI_SZ_APPEND%,"ApoPreset1"
+HKR,InterfaceSetting,RearLineOutTopoHAP3,%REG_MULTI_SZ_APPEND%,"ApoPreset1"
 
 [DolbyAPO_AddReg]
 ; Add Dolby enabled device indicator string here.
@@ -46,35 +47,29 @@ AddComponent = DolbyAPO_DAX3HSA,, DolbyAPO_ComponentInstall_DAX3HSA
 ComponentIds = VEN_DOLBY&PID_DAX3APOSVC  ; Matches with SWC\VEN_DOLBY&PID_DAX3APOSVC
 
 [DolbyAPO_ComponentInstall_DAX3HSA]
-ComponentIds = VEN_DOLBY&PID_DAX3HSA_DolbyAudioPremium  ; Matches with SWC\VEN_DOLBY&PID_DAX3HSA_DolbyAudioPremium
+ComponentIds = VEN_DOLBY&PID_DAX3HSA_Gaming  ; Matches with SWC\VEN_DOLBY&PID_DAX3HSA_Gaming
 
 [SourceDisksNames]
 222="APO Installation Disk",,,
 
 [SourceDisksFiles]
-HDAUDIO_DEV_0285_SUBSYS_17AA2272_PCI_SUBSYS_227217AA.xml = 222
-Headphone_Lenovo_ThinkPadX1_InEarHeadphone_DolbyAudioPremium.xml = 222
-Headphone_Lenovo_Lenovo_500ExtraBassInEar_DolbyAudioPremium.xml = 222
-Headphone_Lenovo_Lenovo_500EarBud_DolbyAudioPremium.xml = 222
+HDAUDIO_DEV_0298_SUBSYS_17AA383E_PCI_SUBSYS_382617AA.xml = 222
 Operator_Info_Lenovo.xml = 222
-Headphone_Default_Generic_Small_DolbyAudioPremium.xml = 222
-Headphone_Default_Generic_Medium_DolbyAudioPremium.xml = 222
-Headphone_Default_Generic_Large_DolbyAudioPremium.xml = 222
-Headphone_Default_Generic_Default_DolbyAudioPremium.xml = 222
+Headphone_Default_Generic_Small_DolbyAtmosSpeakerSystemForGaming.xml = 222
+Headphone_Default_Generic_Medium_DolbyAtmosSpeakerSystemForGaming.xml = 222
+Headphone_Default_Generic_Large_DolbyAtmosSpeakerSystemForGaming.xml = 222
+Headphone_Default_Generic_Default_DolbyAtmosSpeakerSystemForGaming.xml = 222
 
 [DestinationDirs]
 DolbyAPO_CopyFiles = 10,system32\dolbyaposvc
 
 [DolbyAPO_CopyFiles]
-HDAUDIO_DEV_0285_SUBSYS_17AA2272_PCI_SUBSYS_227217AA.xml
-Headphone_Lenovo_ThinkPadX1_InEarHeadphone_DolbyAudioPremium.xml
-Headphone_Lenovo_Lenovo_500ExtraBassInEar_DolbyAudioPremium.xml
-Headphone_Lenovo_Lenovo_500EarBud_DolbyAudioPremium.xml
+HDAUDIO_DEV_0298_SUBSYS_17AA383E_PCI_SUBSYS_382617AA.xml
 Operator_Info_Lenovo.xml
-Headphone_Default_Generic_Small_DolbyAudioPremium.xml
-Headphone_Default_Generic_Medium_DolbyAudioPremium.xml
-Headphone_Default_Generic_Large_DolbyAudioPremium.xml
-Headphone_Default_Generic_Default_DolbyAudioPremium.xml
+Headphone_Default_Generic_Small_DolbyAtmosSpeakerSystemForGaming.xml
+Headphone_Default_Generic_Medium_DolbyAtmosSpeakerSystemForGaming.xml
+Headphone_Default_Generic_Large_DolbyAtmosSpeakerSystemForGaming.xml
+Headphone_Default_Generic_Default_DolbyAtmosSpeakerSystemForGaming.xml
 
 [Strings]
 ManufacturerName 	= "Dolby"
