@@ -1,0 +1,41 @@
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = Extension
+ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Provider    = %OrganizationName%
+ExtensionId = {61217785-6b8f-4c25-979c-c0d88484784e}
+DriverVer   = 06/13/2018,1.0.0.77
+CatalogFile = GigabyteAJSExt.cat
+
+[Manufacturer]
+%MfgName% = DeviceExtensions,NTamd64.10.0...15063
+
+[DeviceExtensions.NTamd64.10.0...15063]
+%Device.ExtensionDesc% = DeviceExtension_SV_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_1458A0C0
+%Device.ExtensionDesc% = DeviceExtension_SV_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_1458A0C7
+%Device.ExtensionDesc% = DeviceExtension_SV_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_1458A0CB
+
+[DeviceExtension_SV_Install]
+;AddReg = IntcAzAudModelAddReg
+
+[DeviceExtension_SV_Install.HW]
+AddReg = FriendlyName_AddReg
+
+[FriendlyName_AddReg]
+HKR,,FriendlyName,,%ExtendedFriendlyName%
+
+
+[DeviceExtension_SV_Install.Components]
+AddComponent = GigabyteAJSC,,GigabyteAJSC_Install
+
+[GigabyteAJSC_Install]
+ComponentIDs = VEN_1458&AJSC_0001
+Description = "Gigabyte Audio Jack Sense Component"
+
+[Strings]
+OrganizationName     = "GIGA-BYTE TECHNOLOGY CO., LTD."
+MfgName              = "Realtek"
+Realtek	             = "Realtek"
+Device.ExtensionDesc = "Gigabyte's Realtek Device Extension"
+ExtendedFriendlyName = "Realtek(R) Audio"
+
