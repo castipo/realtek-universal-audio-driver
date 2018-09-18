@@ -69,6 +69,7 @@ https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/
 ### Universal Audio Driver Inf Editor
 
 1.3.0: https://drop.me/B4bZmE
+
 1.3.2: https://drop.me/MOKg3j
 
 
