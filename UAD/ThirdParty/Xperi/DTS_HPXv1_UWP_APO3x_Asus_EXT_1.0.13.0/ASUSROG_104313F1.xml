@@ -40,11 +40,11 @@
             <process tech_id="DTS HPX" />
         </chain>
 
-        <chain_v2 position="SFX" input="Any" output="Any">
+        <chain_v2 position="SFX" input="Any" output="Stereo">
             <process tech_id="DTS HPX" instance_id="SFX" />
         </chain_v2>
 
-        <chain_v2 position="OSFX" input="Any" output="Any">
+        <chain_v2 position="OSFX" input="Any" output="Stereo">
             <process tech_id="DTS HPX" instance_id="OSFX" />
         </chain_v2>
 
@@ -78,11 +78,11 @@
             <process tech_id="DTS HPX" />
         </chain>
 
-        <chain_v2 position="SFX" input="Any" output="Any">
+        <chain_v2 position="SFX" input="Any" output="Stereo">
             <process tech_id="DTS HPX" instance_id="SFX" />
         </chain_v2>
 
-        <chain_v2 position="OSFX" input="Any" output="Any">
+        <chain_v2 position="OSFX" input="Any" output="Stereo">
             <process tech_id="DTS HPX" instance_id="OSFX" />
         </chain_v2>
 
@@ -116,11 +116,11 @@
             <process tech_id="DTS HPX" />
         </chain>
 
-        <chain_v2 position="SFX" input="Any" output="Any">
+        <chain_v2 position="SFX" input="Any" output="Stereo">
             <process tech_id="DTS HPX" instance_id="SFX" />
         </chain_v2>
 
-        <chain_v2 position="OSFX" input="Any" output="Any">
+        <chain_v2 position="OSFX" input="Any" output="Stereo">
             <process tech_id="DTS HPX" instance_id="OSFX" />
         </chain_v2>
 
@@ -154,11 +154,11 @@
             <process tech_id="DTS HPX" />
         </chain>
 
-        <chain_v2 position="SFX" input="Any" output="Any">
+        <chain_v2 position="SFX" input="Any" output="Stereo">
             <process tech_id="DTS HPX" instance_id="SFX" />
         </chain_v2>
 
-        <chain_v2 position="OSFX" input="Any" output="Any">
+        <chain_v2 position="OSFX" input="Any" output="Stereo">
             <process tech_id="DTS HPX" instance_id="OSFX" />
         </chain_v2>
 
@@ -408,11 +408,11 @@
         <control name="SFX:HPX-Stereo Mode" public="true">0</control>
     <!-- End HPX controls -->
 
-    <chain_v2 position="SFX" input="Any" output="Any">
+    <chain_v2 position="SFX" input="Any" output="Stereo">
         <process tech_id="DTS HPX" instance_id="SFX" />
     </chain_v2>
 
-    <chain_v2 position="OSFX" input="Any" output="Any">
+    <chain_v2 position="OSFX" input="Any" output="Stereo">
         <process tech_id="DTS HPX" instance_id="OSFX" />
     </chain_v2>
     <!-- chain elements for Win8.1 -->
@@ -676,11 +676,11 @@
         <control name="SFX:HPX-Stereo Mode" public="true">0</control>
     <!-- End HPX controls -->
 
-    <chain_v2 position="SFX" input="Any" output="Any">
+    <chain_v2 position="SFX" input="Any" output="Stereo">
         <process tech_id="DTS HPX" instance_id="SFX" />
     </chain_v2>
 
-    <chain_v2 position="OSFX" input="Any" output="Any">
+    <chain_v2 position="OSFX" input="Any" output="Stereo">
         <process tech_id="DTS HPX" instance_id="OSFX" />
     </chain_v2>
     <!-- chain elements for Win8.1 -->
@@ -944,11 +944,11 @@
         <control name="SFX:HPX-Stereo Mode" public="true">0</control>
     <!-- End HPX controls -->
 
-    <chain_v2 position="SFX" input="Any" output="Any">
+    <chain_v2 position="SFX" input="Any" output="Stereo">
         <process tech_id="DTS HPX" instance_id="SFX" />
     </chain_v2>
 
-    <chain_v2 position="OSFX" input="Any" output="Any">
+    <chain_v2 position="OSFX" input="Any" output="Stereo">
         <process tech_id="DTS HPX" instance_id="OSFX" />
     </chain_v2>
     <!-- chain elements for Win8.1 -->
@@ -1213,11 +1213,11 @@
         <control name="SFX:HPX-Stereo Mode" public="true">0</control>
     <!-- End HPX controls -->
 
-    <chain_v2 position="SFX" input="Any" output="Any">
+    <chain_v2 position="SFX" input="Any" output="Stereo">
         <process tech_id="DTS HPX" instance_id="SFX" />
     </chain_v2>
 
-    <chain_v2 position="OSFX" input="Any" output="Any">
+    <chain_v2 position="OSFX" input="Any" output="Stereo">
         <process tech_id="DTS HPX" instance_id="OSFX" />
     </chain_v2>
     <!-- chain elements for Win8.1 -->
@@ -1481,11 +1481,11 @@
         <control name="SFX:HPX-Stereo Mode" public="true">0</control>
     <!-- End HPX controls -->
 
-    <chain_v2 position="SFX" input="Any" output="Any">
+    <chain_v2 position="SFX" input="Any" output="Stereo">
         <process tech_id="DTS HPX" instance_id="SFX" />
     </chain_v2>
 
-    <chain_v2 position="OSFX" input="Any" output="Any">
+    <chain_v2 position="OSFX" input="Any" output="Stereo">
         <process tech_id="DTS HPX" instance_id="OSFX" />
     </chain_v2>
     <!-- chain elements for Win8.1 -->
@@ -1751,11 +1751,11 @@
         <control name="SFX:HPX-Stereo Mode" public="true">0</control>
     <!-- End HPX controls -->
 
-    <chain_v2 position="SFX" input="Any" output="Any">
+    <chain_v2 position="SFX" input="Any" output="Stereo">
         <process tech_id="DTS HPX" instance_id="SFX" />
     </chain_v2>
 
-    <chain_v2 position="OSFX" input="Any" output="Any">
+    <chain_v2 position="OSFX" input="Any" output="Stereo">
         <process tech_id="DTS HPX" instance_id="OSFX" />
     </chain_v2>
     <!-- chain elements for Win8.1 -->
@@ -2020,11 +2020,11 @@
         <control name="SFX:HPX-Stereo Mode" public="true">0</control>
     <!-- End HPX controls -->
 
-    <chain_v2 position="SFX" input="Any" output="Any">
+    <chain_v2 position="SFX" input="Any" output="Stereo">
         <process tech_id="DTS HPX" instance_id="SFX" />
     </chain_v2>
 
-    <chain_v2 position="OSFX" input="Any" output="Any">
+    <chain_v2 position="OSFX" input="Any" output="Stereo">
         <process tech_id="DTS HPX" instance_id="OSFX" />
     </chain_v2>
     <!-- chain elements for Win8.1 -->
@@ -2289,11 +2289,11 @@
         <control name="SFX:HPX-Stereo Mode" public="true">0</control>
     <!-- End HPX controls -->
 
-    <chain_v2 position="SFX" input="Any" output="Any">
+    <chain_v2 position="SFX" input="Any" output="Stereo">
         <process tech_id="DTS HPX" instance_id="SFX" />
     </chain_v2>
 
-    <chain_v2 position="OSFX" input="Any" output="Any">
+    <chain_v2 position="OSFX" input="Any" output="Stereo">
         <process tech_id="DTS HPX" instance_id="OSFX" />
     </chain_v2>
     <!-- chain elements for Win8.1 -->

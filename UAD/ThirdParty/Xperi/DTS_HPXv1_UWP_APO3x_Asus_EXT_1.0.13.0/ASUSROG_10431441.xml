@@ -123,7 +123,6 @@
         <chain_v2 position="OSFX" input="Any" output="Stereo">
             <process tech_id="DTS HPX" instance_id="OSFX" />
         </chain_v2>
-
     </operating_mode>
 
 

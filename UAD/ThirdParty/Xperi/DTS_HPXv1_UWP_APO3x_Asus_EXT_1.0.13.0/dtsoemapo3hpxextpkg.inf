@@ -3,8 +3,8 @@ Signature   = "$WINDOWS NT$"
 Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
-ExtensionId = {09DC1C3E-7128-45E4-BC9F-8EC777E49F40}
-DriverVer   = 05/10/2018,1.0.10.0
+ExtensionId = {E8CF48F9-F7A1-427F-8A7E-407990B25687}
+DriverVer   = 06/25/2018,1.0.13.0
 CatalogFile = dtsoemapo3hpxextpkg.cat
 
 [SourceDisksNames]
@@ -30,6 +30,8 @@ DefaultDestDir = 11, DTS\PC\APO3x ; %windir%\system32\DTS\PC\Apo3x
 [DeviceExtensions.NTamd64]
 ;; below SSIDs should be replaced by actual ones in formal release
 %Device.ExtensionDesc% = ASUSMBHPX,HDAUDIO\FUNC_01&VEN_10EC&DEV_1168&SUBSYS_10438724
+%Device.ExtensionDesc% = ASUSMBHPX,HDAUDIO\FUNC_01&VEN_10EC&DEV_1168&SUBSYS_10438786
+%Device.ExtensionDesc% = ASUSMBHPX,HDAUDIO\FUNC_01&VEN_10EC&DEV_0900&SUBSYS_1043868F
 %Device.ExtensionDesc% = ASUSROG_104310C1,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_104310C1
 %Device.ExtensionDesc% = ASUSROG_104315CE,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_104315CE
 %Device.ExtensionDesc% = ASUSROG_10431391,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10431391
@@ -102,8 +104,7 @@ HKR,InterfaceSetting,SecondaryLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset1"    
 HKR,InterfaceSetting,RearLineOutTopoSST,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                  ;; RearLineOutTopoSST stands for Speakers(or Redirected headphone/speaker) endpoint with audio offloading DSP supported
 HKR,InterfaceSetting,RearLineOutTopoSST2,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                 ;; RearLineOutTopoSST2 stands for Speakers(or Redirected headphone/speaker) endpoint with audio offloading DSP supported
 HKR,InterfaceSetting,RearLineOutTopoSST3,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                 ;; RearLineOutTopoSST3 stands for Headphone endpoint with audio offloading DSP supported
-HKR,InterfaceSetting,RearLineOutTopoDock,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                 ;; RearLineOutTopoDock stands for Speakers endpoint on docking station
-
+HKR,InterfaceSetting,RearLineOutTopoDock,%REG_MULTI_SZ_APPEND%,"ApoPreset1"   
 ;; Preset values in property store
 HKR,InterfaceSetting\ApoPreset1\EP\0, "{7A8B74C8-FA66-4460-8542-D6119C59E9D4},4", %REG_DWORD%, 0x100  ;; DTS APO 3 on Realtek
 
@@ -160,7 +161,7 @@ Description = "DTS Audio Hardware Support Application"
 [Strings]
 OEM                  = "DTS"
 Device.ExtensionDesc = "OEM Device Extension"
-ExtendedFriendlyName = "Realtek(R) Audio"
+ExtendedFriendlyName = "Device Audio"
 DiskId1              = "OEM Audio Device Extension Installation Disk (DTS)"
 
 REG_BINARY = 0x00000001
