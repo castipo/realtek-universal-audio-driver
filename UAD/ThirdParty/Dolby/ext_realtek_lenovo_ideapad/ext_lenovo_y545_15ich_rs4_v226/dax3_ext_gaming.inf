@@ -7,16 +7,15 @@ Signature 	= "$Windows NT$"
 Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider 	= %ManufacturerName%
-ExtensionId = {A30141F5-58BB-4FE9-9126-9CC08A7E3539}
-CatalogFile = dax3_ext_dolbyaudio.cat
-DriverVer = 08/28/2018,3.20200.228.0
+ExtensionId = {DC7EC5A8-5110-41FB-8CB5-5AFAE8C4B682}
+CatalogFile = dax3_ext_gaming.cat
+DriverVer = 09/19/2018,3.20200.226.0
 
 [Manufacturer]
 %ManufacturerName% = DeviceExtensions,NTamd64
 
 [DeviceExtensions.NTamd64]
-%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3820
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA381F
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3821
 
 [DeviceExtension_Install.NT]
 AddReg = PresetAddReg, DolbyAPO_AddReg
@@ -48,31 +47,29 @@ AddComponent = DolbyAPO_DAX3HSA,, DolbyAPO_ComponentInstall_DAX3HSA
 ComponentIds = VEN_DOLBY&PID_DAX3APOSVC  ; Matches with SWC\VEN_DOLBY&PID_DAX3APOSVC
 
 [DolbyAPO_ComponentInstall_DAX3HSA]
-ComponentIds = VEN_DOLBY&PID_DAX3HSA_DolbyAudio  ; Matches with SWC\VEN_DOLBY&PID_DAX3HSA_DolbyAudio
+ComponentIds = VEN_DOLBY&PID_DAX3HSA_Gaming  ; Matches with SWC\VEN_DOLBY&PID_DAX3HSA_Gaming
 
 [SourceDisksNames]
 222="APO Installation Disk",,,
 
 [SourceDisksFiles]
-INTELAUDIO_DEV_0257_SUBSYS_17AA3820_PCI_SUBSYS_380717AA.xml = 222
-HDAUDIO_DEV_0257_SUBSYS_17AA381F_PCI_SUBSYS_381F17AA.xml = 222
+INTELAUDIO_DEV_0257_SUBSYS_17AA3821_PCI_SUBSYS_380F17AA.xml = 222
 Operator_Info_Lenovo.xml = 222
-Headphone_Default_Generic_Small_DolbyAudio.xml = 222
-Headphone_Default_Generic_Medium_DolbyAudio.xml = 222
-Headphone_Default_Generic_Large_DolbyAudio.xml = 222
-Headphone_Default_Generic_Default_DolbyAudio.xml = 222
+Headphone_Default_Generic_Small_Gaming.xml = 222
+Headphone_Default_Generic_Medium_Gaming.xml = 222
+Headphone_Default_Generic_Large_Gaming.xml = 222
+Headphone_Default_Generic_Default_Gaming.xml = 222
 
 [DestinationDirs]
 DolbyAPO_CopyFiles = 10,system32\dolbyaposvc
 
 [DolbyAPO_CopyFiles]
-INTELAUDIO_DEV_0257_SUBSYS_17AA3820_PCI_SUBSYS_380717AA.xml
-HDAUDIO_DEV_0257_SUBSYS_17AA381F_PCI_SUBSYS_381F17AA.xml
+INTELAUDIO_DEV_0257_SUBSYS_17AA3821_PCI_SUBSYS_380F17AA.xml
 Operator_Info_Lenovo.xml
-Headphone_Default_Generic_Small_DolbyAudio.xml
-Headphone_Default_Generic_Medium_DolbyAudio.xml
-Headphone_Default_Generic_Large_DolbyAudio.xml
-Headphone_Default_Generic_Default_DolbyAudio.xml
+Headphone_Default_Generic_Small_Gaming.xml
+Headphone_Default_Generic_Medium_Gaming.xml
+Headphone_Default_Generic_Large_Gaming.xml
+Headphone_Default_Generic_Default_Gaming.xml
 
 [Strings]
 ManufacturerName 	= "Dolby"
