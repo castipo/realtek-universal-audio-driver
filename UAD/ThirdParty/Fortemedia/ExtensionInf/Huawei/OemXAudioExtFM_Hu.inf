@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {86F65302-34A5-441C-8E16-C05C2D9E6151}
-DriverVer   = 08/23/2018,1.0.3.40
+DriverVer   = 09/05/2018,1.0.3.44
 CatalogFile = OemXAudioExt_fm.cat
 
 [SourceDisksNames]
