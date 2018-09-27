@@ -17,25 +17,15 @@
 
 <h2 id="lastest-info">Lastest Infomation</h2>
 
-Station-Drivers:
+* <a href="https://www.station-drivers.com/index.php?option=com_kunena&view=topic&catid=18&id=17&Itemid=858&lang=en">Station-Drivers - [DRIVERS] Realtek High Definition Audio Codecs (HDA/UAD)</a>
 
-https://www.station-drivers.com/index.php?option=com_kunena&view=topic&catid=18&id=17&Itemid=858&lang=en
+* <a href="https://forums.mydigitallife.net/threads/update-realtek-high-definition-audio.72236/">My Digital Life- [Update] Realtek High Definition Audio</a>
 
-My Digital Life:
+* <a href="https://forums.laptopvideo2go.com/topic/24364-latest-realtek-audio-codecs/">LaptopVideo2Go - Latest Realtek Audio Codecs</a>
 
-https://forums.mydigitallife.net/threads/update-realtek-high-definition-audio.72236/
+* <a href="https://forum.lowyat.net/topic/658002">Lowyat.NET - Realtek High Definition Audio Driver, for XP/Vista/Win7/Linux - 32/64bit</a>
 
-LaptopVideo2Go:
-
-https://forums.laptopvideo2go.com/topic/24364-latest-realtek-audio-codecs
-
-Lowyat.NET:
-
-https://forum.lowyat.net/topic/658002
-
-Windows 10 Forums:
-
-https://www.tenforums.com/drivers-hardware/5993-latest-realtek-hd-audio-driver-version.html
+* <a href="https://www.tenforums.com/drivers-hardware/5993-latest-realtek-hd-audio-driver-version.html">Windows 10 Forum - Latest Realtek HD Audio Driver Version</a>
 
 ---------------------------------------
 
