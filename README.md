@@ -27,6 +27,8 @@
 
 * <a href="https://www.tenforums.com/drivers-hardware/5993-latest-realtek-hd-audio-driver-version.html">Windows 10 Forum - Latest Realtek HD Audio Driver Version</a>
 
+* <a href="https://rsload.net/soft/21650-realtek-high-definition-audio-drivers.html">RSLOAD.NET - Realtek High Definition Audio Drivers</a>
+
 ---------------------------------------
 
 <h2 id="requirement">Requirement</h2>
