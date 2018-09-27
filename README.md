@@ -102,7 +102,7 @@ https://github.com/lostindark/DriverStoreExplorer/releases/latest
 Download form Github: https://github.com/alanfox2000/realtek-universal-audio-driver/releases
 
 <table>
-    <caption>Download form Microsoft Store</caption>
+    <caption>Download form Microsoft Store:</caption>
     <tr>
         <th align="left">Realtek Audio Control</th>
     </tr>
