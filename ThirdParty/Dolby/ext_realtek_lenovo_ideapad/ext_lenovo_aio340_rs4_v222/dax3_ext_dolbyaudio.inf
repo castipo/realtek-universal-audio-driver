@@ -9,7 +9,7 @@ ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider 	= %ManufacturerName%
 ExtensionId = {F9B994E5-54D4-472F-B8D1-10EC30B49349}
 CatalogFile = dax3_ext_dolbyaudio.cat
-DriverVer = 08/28/2018,3.20200.221.0
+DriverVer = 09/25/2018,3.20200.222.0
 
 [Manufacturer]
 %ManufacturerName% = DeviceExtensions,NTamd64
