@@ -87,8 +87,6 @@ https://github.com/lostindark/DriverStoreExplorer/releases/latest
 
 ### Third Party
 
-All Third Party: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/ThirdParty
-
 <table>
     <tr>
         <td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/ThirdParty">All</a></td>
@@ -98,6 +96,8 @@ All Third Party: https://minhaskamal.github.io/DownGit/#/home?url=https://github
 	<td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/ThirdParty/Fortemedia">Fortemedia</a></td>
 	<td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/ThirdParty/Gigabyte">Gigabyte</a></td>
 	<td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/ThirdParty/ICEPower">ICEPower</a></td>	
+    </tr>
+    <tr>
 	<td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/ThirdParty/Intel">Intel</a></td>
 	<td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/ThirdParty/Maxim">Maxim</td>
 	<td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/ThirdParty/SoundResearch">SoundResearch</a></td>
