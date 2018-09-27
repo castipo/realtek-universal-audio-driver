@@ -58,8 +58,9 @@ Realtek HD Audio Codec Driver Patcher (A1) by Pihto (DTSi &DLL unlock) not work 
 
 <table>
     <tr>
+	<th></th>
         <th>Generic</th>
-	<th>USB/th>
+	<th>USB</th>
     </tr>
     <tr>
         <th>UAD</th>
@@ -106,9 +107,9 @@ All Third Party: https://minhaskamal.github.io/DownGit/#/home?url=https://github
     </tr>
 </table>
 
-### Control Panel
+### Realtek / HP Audio Control
 
-Realtek Audio Control / HP Audio Control require Microsoft.VCLibs.140.00 x64 appx dependencry
+Realtek / HP Audio Control require Microsoft.VCLibs.140.00 x64 appx dependencry
 
 Download form Github: https://github.com/alanfox2000/realtek-universal-audio-driver/releases
 
@@ -121,6 +122,9 @@ Realtek Audio Control
 URL: https://www.microsoft.com/en-us/store/p/realtek-audio-control/9p2b8mcsvpln
 
 URI: ms-windows-store://pdp/?PFN=RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj
+
+[ftp](ftp://example.com/foo)
+
 
 HP Audio Control
 
