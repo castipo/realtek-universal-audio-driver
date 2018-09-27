@@ -54,17 +54,24 @@ Realtek HD Audio Codec Driver Patcher (A1) by Pihto (DTSi &DLL unlock) not work 
 
 <h2 id="download">Download</h2>
 
-### Universal Audio Driver
+### Universal Audio Driver and Setup Program
 
-https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/UAD/Realtek
-
-### Universal Audio Driver for USB
-
-https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/UAD/USBAud
-
-### Setup Program for UAD
-
-https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/UAD/XSetup
+<table>
+    <tr>
+        <th>Generic</th>
+	<th>USB/th>
+    </tr>
+    <tr>
+        <th>UAD</th>
+	<td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/UAD/Realtek">Download</a></td>
+	<td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/UAD_USB/Realtek">Download</a></td>
+    </tr>
+    <tr>
+        <th>Setup Program</th>	    
+	<td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/UAD/XSetup">Download</a></td>
+	<td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/UAD_USB/XSetup">Download</a></td>
+    </tr>
+</table>
 
 ### Universal Audio Driver Inf Editor
 
@@ -79,30 +86,25 @@ https://github.com/lostindark/DriverStoreExplorer/releases/latest
 
 ### Third Party
 
-* All Third Party: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/UAD/ThirdParty
+All Third Party: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/ThirdParty
 
-* A-Volute: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/UAD/ThirdParty/A-Volute
-
-* Creative: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/UAD/ThirdParty/Creative
-
-* Dolby: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/UAD/ThirdParty/Dolby
-
-* Fortemedia: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/UAD/ThirdParty/Fortemedia
-
-* Gigabyte Audio Jack Sense Universal Service:
-https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/UAD/ThirdParty/GigabyteAJSExt
-
-* ICEPower: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/UAD/ThirdParty/ICEPower
-
-* Maxim: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/UAD/ThirdParty/Maxim
-
-* SoundResearch: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/UAD/ThirdParty/SoundResearch
-
-* Synaptics (Conexant): https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/UAD/ThirdParty/Synaptics
-
-* Waves: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/UAD/ThirdParty/Waves
-
-* Xperi: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/UAD/ThirdParty/Xperi
+<table>
+    <tr>
+        <td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/ThirdParty">All</a></td>
+	<td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/ThirdParty/A-Volute">A-Volute</a></td>
+        <td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/ThirdParty/Creative">Creative</a></td>
+	<td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/ThirdParty/Dolby">Dolby</a></td>
+	<td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/ThirdParty/Fortemedia">Fortemedia</a></td>
+	<td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/ThirdParty/Gigabyte">Gigabyte</a></td>
+	<td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/ThirdParty/ICEPower">ICEPower</a></td>	
+	<td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/ThirdParty/Intel">Intel</a></td>
+	<td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/ThirdParty/Maxim">Maxim</td>
+	<td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/ThirdParty/SoundResearch">SoundResearch</a></td>
+	<td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/ThirdParty/Synaptics">Synaptics</a></td>
+	<td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/ThirdParty/Waves">Waves</a></td>
+	<td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/ThirdParty/Xperi">Xperi</a></td>
+    </tr>
+</table>
 
 ### Control Panel
 
