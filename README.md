@@ -99,7 +99,7 @@ https://github.com/lostindark/DriverStoreExplorer/releases/latest
 
 ### Realtek/HP Audio Control
 
-Download form Github: https://github.com/alanfox2000/realtek-universal-audio-driver/releases
+Download form this repository: https://github.com/alanfox2000/realtek-universal-audio-driver/releases
 
 <table>
     <caption>Download form Microsoft Store:</caption>
