@@ -123,9 +123,6 @@ URL: https://www.microsoft.com/en-us/store/p/realtek-audio-control/9p2b8mcsvpln
 
 URI: ms-windows-store://pdp/?PFN=RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj
 
-[ftp](ftp://example.com/foo)
-
-
 HP Audio Control
 
 URL: https://www.microsoft.com/en-us/p/hp-audio-control/9n77pw08dt9s
