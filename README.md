@@ -109,25 +109,27 @@ https://github.com/lostindark/DriverStoreExplorer/releases/latest
 
 ### Realtek/HP Audio Control
 
-Realtek/HP Audio Control require Microsoft.VCLibs.140.00 x64 appx dependencry
-
 Download form Github: https://github.com/alanfox2000/realtek-universal-audio-driver/releases
 
-Microsoft.VCLibs.140.00 14.0.25426.0 x64
+<table>
+    <caption>Download form Microsoft Store</caption>
+    <tr>
+        <th align="left">Realtek Audio Control</th>
+    </tr>
+        <td>https://www.microsoft.com/en-us/store/p/realtek-audio-control/9p2b8mcsvpln</td>
+    <tr>	
+        <td>ms-windows-store://pdp/?PFN=RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj</td>
+    </tr>	    
+    <tr>
+        <th align="left">HP Audio Control</th>
+    </tr>
+        <td>https://www.microsoft.com/en-us/p/hp-audio-control/9n77pw08dt9s</td>
+    <tr>	
+        <td>ms-windows-store://pdp/?PFN=RealtekSemiconductorCorp.HPAudioControl_dt26b99r8h8gj</td>
+    </tr>	    
+</table>
 
-http://mdluup.ct8.pl/get.php?id=f76233f8-e4ac-4970-95ec-e9fcba50091e_rev.2
-
-Realtek Audio Control
-
-URL: https://www.microsoft.com/en-us/store/p/realtek-audio-control/9p2b8mcsvpln
-
-URI: ms-windows-store://pdp/?PFN=RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj
-
-HP Audio Control
-
-URL: https://www.microsoft.com/en-us/p/hp-audio-control/9n77pw08dt9s
-
-URI: ms-windows-store://pdp/?PFN=RealtekSemiconductorCorp.HPAudioControl_dt26b99r8h8gj
+Realtek/HP Audio Control require <a href="https://github.com/alanfox2000/realtek-universal-audio-driver/releases/download/1.2.142.0/Microsoft.VCLibs.140.00_14.0.26706.0_x64__8wekyb3d8bbwe.Appx">Microsoft.VCLibs.140.00 x64 appx</a> dependencry at least version 14.0.25426.0 (Newest Version: 14.0.26706.0)
 
 ---------------------------------------
 
