@@ -107,9 +107,9 @@ https://github.com/lostindark/DriverStoreExplorer/releases/latest
     </tr>
 </table>
 
-### Realtek / HP Audio Control
+### Realtek/HP Audio Control
 
-Realtek / HP Audio Control require Microsoft.VCLibs.140.00 x64 appx dependencry
+Realtek/HP Audio Control require Microsoft.VCLibs.140.00 x64 appx dependencry
 
 Download form Github: https://github.com/alanfox2000/realtek-universal-audio-driver/releases
 
