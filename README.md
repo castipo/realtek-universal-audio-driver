@@ -96,6 +96,7 @@ https://github.com/lostindark/DriverStoreExplorer/releases/latest
 	<td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/ThirdParty/Synaptics">Synaptics</a></td>
 	<td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/ThirdParty/Waves">Waves</a></td>
 	<td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/ThirdParty/Xperi">Xperi</a></td>
+	<td><a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/alanfox2000/realtek-universal-audio-driver/tree/master/ThirdParty/YamahaAE">YamahaAE</a></td>
     </tr>
 </table>
 
