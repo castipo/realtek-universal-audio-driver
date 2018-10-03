@@ -4,22 +4,25 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %Provider%
 ExtensionId = {4DBBC440-ACCA-11E7-BE06-448A5B99B4C1}
-DriverVer   = 07/22/2018,1.3.2.0
+DriverVer   = 09/16/2018,1.5.0.0
 CatalogFile = AVoluteAWSCExt.cat
 
 [SourceDisksNames]
 222 = %DiskId1%
 
 [SourceDisksFiles]
-CassiniMLKProductSettings.exe=222
-Install.dat=222
+CassiniMLKProductSettings.cab=222
+;;Nahimic3DellProductSettings.cab=222
 
 [DestinationDirs]
-AVoluteProdSettings.CopyList = 10,\A-Volute\AWSoundCenter	; Windows\A-Volute\AWSoundCenter
+AVoluteProdSettings.CopyList = 11,\A-Volute\AGSConfigurator	; Windows\System32\A-Volute\AGSConfigurator\
+;;AVoluteProdSettings_Nahimic3Dell.CopyList = 11,\A-Volute\AGSConfigurator	; Windows\System32\A-Volute\AGSConfigurator\
 
 [AVoluteProdSettings.CopyList]
-CassiniMLKProductSettings.exe
-Install.dat
+CassiniMLKProductSettings.cab
+
+;;[AVoluteProdSettings_Nahimic3Dell.CopyList]
+;;Nahimic3DellProductSettings.cab
 
 [Manufacturer]
 %Provider% = DeviceExtensions,NTamd64
@@ -39,10 +42,22 @@ Install.dat
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808ED		;;Vulcan upsell
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808EE
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808EF
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808EA		;;Vulcan basic
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808EB
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808EC
+
+;; Nahimic3Dell systems (Vulcan basic)
+;;%Device.ExtensionDesc% = DeviceExtension_Install_Nahimic3Dell,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808EA
+;;%Device.ExtensionDesc% = DeviceExtension_Install_Nahimic3Dell,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808EB
+;;%Device.ExtensionDesc% = DeviceExtension_Install_Nahimic3Dell,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808EC
 
 [DeviceExtension_Install]
 CopyFiles = AVoluteProdSettings.CopyList
 AddReg = SoundCenter_AddReg
+
+;;[DeviceExtension_Install_Nahimic3Dell]
+;;CopyFiles = AVoluteProdSettings_Nahimic3Dell.CopyList
+;;AddReg = SoundCenter_AddReg
 
 [SoundCenter_AddReg]
 ;; render endpoint settings
