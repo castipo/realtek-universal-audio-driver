@@ -109,7 +109,7 @@ Download form this repository: https://github.com/alanfox2000/realtek-universal-
     <tr>
         <th align="left">Realtek Audio Control</th>
     </tr>
-        <td>https://www.microsoft.com/en-us/store/p/realtek-audio-control/9p2b8mcsvpln</td>
+        <td>https://www.microsoft.com/en-us/p/realtek-audio-control/9p2b8mcsvpln</td>
     <tr>	
         <td>ms-windows-store://pdp/?PFN=RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj</td>
     </tr>	    
