@@ -102,10 +102,10 @@ https://github.com/lostindark/DriverStoreExplorer/releases/latest
 
 ### Realtek/HP Audio Control
 
-Download form this repository: https://github.com/alanfox2000/realtek-universal-audio-driver/releases
+Download from this repository: https://github.com/alanfox2000/realtek-universal-audio-driver/releases
 
 <table>
-    <caption>Download form Microsoft Store:</caption>
+    <caption>Download from Microsoft Store:</caption>
     <tr>
         <th align="left">Realtek Audio Control</th>
     </tr>
@@ -130,11 +130,13 @@ Realtek/HP Audio Control require <a href="https://github.com/alanfox2000/realtek
 
 1. Uninstall Realtek HDA Driver from Control Panel and Device Manager
 
+2.Turn on developer mode in order to install and run Realtek/HP Audio Control from outside the Windows Store
+
 To prevent Device Manager install Realtek HDA Driver automatically:
 
-2. Delete Realtek HDA Driver from Windows Driver Store using DriverStore Explorer
+3. Delete Realtek HDA Driver from Windows Driver Store using DriverStore Explorer
 
-3. Stop Windows Update Service: `sc stop wuauserv`
+4. Stop Windows Update Service: `sc stop wuauserv`
 
 ---------------------------------------
 
