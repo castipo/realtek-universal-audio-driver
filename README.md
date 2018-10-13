@@ -130,7 +130,7 @@ Realtek/HP Audio Control require <a href="https://github.com/alanfox2000/realtek
 
 1. Uninstall Realtek HDA Driver from Control Panel and Device Manager
 
-2. Turn on developer mode in order to install and run Realtek/HP Audio Control from outside the Windows Store
+2. Turn on developer mode in order to install and run Realtek/HP Audio Control from outside the Microsoft Store
 
 To prevent Device Manager install Realtek HDA Driver automatically:
 
