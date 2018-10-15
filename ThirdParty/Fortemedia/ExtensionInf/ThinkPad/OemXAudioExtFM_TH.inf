@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {86F65302-34A5-441C-8E16-C05C2D9E6151}
-DriverVer   = 09/05/2018,1.0.3.44
+DriverVer   = 09/20/2018,1.0.3.46
 CatalogFile = OemXAudioExt_fm.cat
 
 [SourceDisksNames]
@@ -73,6 +73,9 @@ SAMSfpi_17AA2284.dat=222
 SAMSfpi_17AA2286.dat=222
 SAMSfpi_17AA2288.dat=222
 configuration_17AA5077.tf=222
+configuration_17AA2266.tf=222
+configuration_17AA2267.tf=222
+configuration_17AA2276.tf=222
 
 [DestinationDirs]
 FMDAT_17AA506E.CopyList = 12 ; %windir%\system32\drivers
@@ -221,12 +224,15 @@ RTMICAR.dat, RTMICAR_17AA2288.dat
 
 [FMPPDAT_17AA2266.CopyList]
 SAMSfpi.dat, SAMSfpi_17AA2266.dat
+configuration.tf, configuration_17AA2266.tf
 
 [FMPPDAT_17AA2267.CopyList]
 SAMSfpi.dat, SAMSfpi_17AA2267.dat
+configuration.tf, configuration_17AA2267.tf
 
 [FMPPDAT_17AA2276.CopyList]
 SAMSfpi.dat, SAMSfpi_17AA2276.dat
+configuration.tf, configuration_17AA2276.tf
 
 [FMPPDAT_17AA5077.CopyList]
 SAMSfpi.dat, SAMSfpi_17AA5077.dat
@@ -323,7 +329,7 @@ AddReg = PresetAddReg
 CopyFiles = FMDAT_17AA2266.CopyList, FMPPDAT_17AA2266.CopyList
 AddReg = CortanaKey_17AA2266_AddReg
 AddReg = PresetAddReg
-AddReg = FortemediaSstPpDllNoTf.AddReg
+AddReg = FortemediaSstPpDll.AddReg
 
 [DeviceExtension_Install_17AA2266.HW]
 
@@ -340,7 +346,7 @@ AddReg = DisAddReg
 CopyFiles = FMDAT_17AA2267.CopyList, FMPPDAT_17AA2267.CopyList
 AddReg = CortanaKey_17AA2267_AddReg
 AddReg = PresetAddReg
-AddReg = FortemediaSstPpDllNoTf.AddReg
+AddReg = FortemediaSstPpDll.AddReg
 
 [DeviceExtension_Install_17AA2267.HW]
 
@@ -383,7 +389,7 @@ AddReg = PresetAddReg
 CopyFiles = FMDAT_17AA2276.CopyList, FMPPDAT_17AA2276.CopyList
 AddReg = CortanaKey_17AA2276_AddReg
 AddReg = PresetAddReg
-AddReg = FortemediaSstPpDllNoTf.AddReg
+AddReg = FortemediaSstPpDll.AddReg
 
 [DeviceExtension_Install_17AA2276.HW]
 
@@ -592,15 +598,15 @@ HKR,InterfaceSetting\FMAPOPreset1\FX\0,%K7_ID%,0x00010001,0x800004
 HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",0x00020000,%%SystemRoot%%\system32\FM_Speech_PP64.dll
 HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllConfigurationFile",0x00020000,%%SystemRoot%%\system32\SAMSfpi.dat
 HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\configuration.tf"
-HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ForceSwWov",%REG_DWORD%,0x00000001
-HKLM,SYSTEM\CurrentControlSet\Services\IntcOED\Parameters,"VADAPIMode",%REG_DWORD%,0x00000001
+;HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ForceSwWov",%REG_DWORD%,0x00000001
+;HKLM,SYSTEM\CurrentControlSet\Services\IntcOED\Parameters,"VADAPIMode",%REG_DWORD%,0x00000001
 
 [FortemediaSstPpDllNoTf.AddReg]
 HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",0x00020000,%%SystemRoot%%\system32\FM_Speech_PP64.dll
 HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllConfigurationFile",0x00020000,%%SystemRoot%%\system32\SAMSfpi.dat
 ;HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\configuration.tf"
-HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ForceSwWov",%REG_DWORD%,0x00000001
-HKLM,SYSTEM\CurrentControlSet\Services\IntcOED\Parameters,"VADAPIMode",%REG_DWORD%,0x00000001
+;HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ForceSwWov",%REG_DWORD%,0x00000001
+;HKLM,SYSTEM\CurrentControlSet\Services\IntcOED\Parameters,"VADAPIMode",%REG_DWORD%,0x00000001
 
 [FMAPO_Install]
 ComponentIDs = VEN_1319&AID_0001
