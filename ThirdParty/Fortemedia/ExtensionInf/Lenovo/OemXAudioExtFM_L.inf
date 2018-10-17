@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {86F65302-34A5-441C-8E16-C05C2D9E6151}
-DriverVer   = 09/20/2018,1.0.3.46
+DriverVer   = 09/26/2018,1.0.3.47
 CatalogFile = OemXAudioExt_fm.cat
 
 [SourceDisksNames]
@@ -95,6 +95,10 @@ SAMSfpa_17AA381010EC0257.dat=222
 SAMSfpa_17AA381310EC0257.dat=222
 SAMSfpa_17AA382110EC0257.dat=222
 SAMSfpa_17AA380C10EC0257.dat=222
+SAMSfpa_17AA381610EC0298.dat=222
+SAMSfpa_17AA381710EC0298.dat=222
+SAMSfpa_17AA384110EC0298.dat=222
+SAMSfpa_17AA384210EC0298.dat=222
 RTMICAR_17AA3901.dat=222
 RTMICAR_17AA3902.dat=222
 RTMICAR_17AA3903.dat=222
@@ -140,6 +144,10 @@ RTMICAR_17AA381010EC0257.dat=222
 RTMICAR_17AA381310EC0257.dat=222
 RTMICAR_17AA382110EC0257.dat=222
 RTMICAR_17AA380C10EC0257.dat=222
+RTMICAR_17AA381610EC0298.dat=222
+RTMICAR_17AA381710EC0298.dat=222
+RTMICAR_17AA384110EC0298.dat=222
+RTMICAR_17AA384210EC0298.dat=222
 SAMSfpi_17AA3814.dat=222
 SAMSfpi_17AA391D.dat=222
 SAMSfpi_17AA391E.dat=222
@@ -148,6 +156,8 @@ SAMSfpi_10EC11AE.dat=222
 SAMSfpi_17AA380510EC0257.dat=222
 SAMSfpi_17AA380110EC0285.dat=222
 SAMSfpi_17AA381710EC0285.dat=222
+SAMSfpi_17AA381610EC0298.dat=222
+SAMSfpi_17AA381710EC0298.dat=222
 configuration_17AA3814.tf=222
 configuration_17AA391D.tf=222
 configuration_17AA391E.tf=222
@@ -239,6 +249,10 @@ FMDAT_17AA381010EC0257.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_17AA381310EC0257.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_17AA382110EC0257.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_17AA380C10EC0257.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_17AA381610EC0298.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_17AA381710EC0298.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_17AA384110EC0298.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_17AA384210EC0298.CopyList = 12 ; %windir%\system32\drivers
 FMPPDAT_17AA3814.CopyList = 11 ; %windir%\system32
 FMPPDAT_17AA391D.CopyList = 11 ; %windir%\system32
 FMPPDAT_17AA391E.CopyList = 11 ; %windir%\system32
@@ -247,6 +261,8 @@ FMPPDAT_10EC11AE.CopyList = 11 ; %windir%\system32
 FMPPDAT_17AA380510EC0257.CopyList = 11 ; %windir%\system32
 FMPPDAT_17AA380110EC0285.CopyList = 11 ; %windir%\system32
 FMPPDAT_17AA381710EC0285.CopyList = 11 ; %windir%\system32
+FMPPDAT_17AA381610EC0298.CopyList = 11 ; %windir%\system32
+FMPPDAT_17AA381710EC0298.CopyList = 11 ; %windir%\system32
 ;INTELTF_17AA3814.CopyList = 11 ; %windir%\system32
 ;INTELTF_17AA391E.CopyList = 11 ; %windir%\system32
 ;INTELTF_17AA391E.CopyList = 11 ; %windir%\system32
@@ -549,6 +565,22 @@ RTMICAR.dat, RTMICAR_17AA382110EC0257.dat
 SAMSfpa.dat, SAMSfpa_17AA380C10EC0257.dat
 RTMICAR.dat, RTMICAR_17AA380C10EC0257.dat
 
+[FMDAT_17AA381610EC0298.CopyList]
+SAMSfpa.dat, SAMSfpa_17AA381610EC0298.dat
+RTMICAR.dat, RTMICAR_17AA381610EC0298.dat
+
+[FMDAT_17AA381710EC0298.CopyList]
+SAMSfpa.dat, SAMSfpa_17AA381710EC0298.dat
+RTMICAR.dat, RTMICAR_17AA381710EC0298.dat
+
+[FMDAT_17AA384110EC0298.CopyList]
+SAMSfpa.dat, SAMSfpa_17AA384110EC0298.dat
+RTMICAR.dat, RTMICAR_17AA384110EC0298.dat
+
+[FMDAT_17AA384210EC0298.CopyList]
+SAMSfpa.dat, SAMSfpa_17AA384210EC0298.dat
+RTMICAR.dat, RTMICAR_17AA384210EC0298.dat
+
 [FMPPDAT_17AA3814.CopyList]
 SAMSfpi.dat, SAMSfpi_17AA3814.dat
 configuration.tf, configuration_17AA3814.tf
@@ -576,6 +608,12 @@ SAMSfpi.dat, SAMSfpi_17AA380110EC0285.dat
 
 [FMPPDAT_17AA381710EC0285.CopyList]
 SAMSfpi.dat, SAMSfpi_17AA381710EC0285.dat
+
+[FMPPDAT_17AA381610EC0298.CopyList]
+SAMSfpi.dat, SAMSfpi_17AA381610EC0298.dat
+
+[FMPPDAT_17AA381710EC0298.CopyList]
+SAMSfpi.dat, SAMSfpi_17AA381710EC0298.dat
 
 ;[INTELTF_17AA391E.CopyList]
 ;configuration.tf, configuration_17AA391E.tf
@@ -677,8 +715,11 @@ SAMSfpi.dat, SAMSfpi_17AA381710EC0285.dat
 %Device.ExtensionDesc% = DeviceExtension_Install_17AA381010EC0257,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3810
 %Device.ExtensionDesc% = DeviceExtension_Install_17AA381310EC0257,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3813
 %Device.ExtensionDesc% = DeviceExtension_Install_17AA382110EC0257,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3821
-%Device.ExtensionDesc% = DeviceExtension_Install_17AA380C10EC0257,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA380C
-
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA380C10EC0257,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA380C
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA381610EC0298,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA3816
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA381710EC0298,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA3817
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA384110EC0298,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA3841
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA384210EC0298,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA3842
 
 [DeviceExtension_Install_17AA3837]
 CopyFiles = FMDAT_17AA3837.CopyList
@@ -1253,6 +1294,36 @@ AddReg = PresetAddReg
 
 [DeviceExtension_Install_17AA380C10EC0257.HW]
 
+[DeviceExtension_Install_17AA381610EC0298]
+CopyFiles = FMDAT_17AA381610EC0298.CopyList, FMPPDAT_17AA381610EC0298.CopyList
+AddReg = CortanaKey_17AA381610EC0298_AddReg
+AddReg = PresetAddReg
+AddReg = FortemediaSstPpDllNoTf.AddReg
+
+[DeviceExtension_Install_17AA381610EC0298.HW]
+
+[DeviceExtension_Install_17AA381710EC0298]
+CopyFiles = FMDAT_17AA381710EC0298.CopyList, FMPPDAT_17AA381710EC0298.CopyList
+AddReg = CortanaKey_17AA381710EC0298_AddReg
+AddReg = PresetAddReg
+AddReg = FortemediaSstPpDllNoTf.AddReg
+
+[DeviceExtension_Install_17AA381710EC0298.HW]
+
+[DeviceExtension_Install_17AA384110EC0298]
+CopyFiles = FMDAT_17AA384110EC0298.CopyList
+AddReg = CortanaKey_17AA384110EC0298_AddReg
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA384110EC0298.HW]
+
+[DeviceExtension_Install_17AA384210EC0298]
+CopyFiles = FMDAT_17AA384210EC0298.CopyList
+AddReg = CortanaKey_17AA384210EC0298_AddReg
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA384210EC0298.HW]
+
 ;[FriendlyName_AddReg]
 ;HKR,,FriendlyName,,%ExtendedFriendlyName%
 
@@ -1508,6 +1579,18 @@ AddComponent = FMAPO,,FMAPO_Install
 [DeviceExtension_Install_17AA380C10EC0257.Components]
 AddComponent = FMAPO,,FMAPO_Install
 
+[DeviceExtension_Install_17AA381610EC0298.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_17AA381710EC0298.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_17AA384110EC0298.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_17AA384210EC0298.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
 [PresetAddReg]
 HKR,InterfaceSetting,RtMicInTopo,0x10008,"FMAPOPreset1"
 HKR,InterfaceSetting,RtFrontMicInTopo,0x10008,"FMAPOPreset1"
@@ -1679,6 +1762,18 @@ HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
 
 [CortanaKey_17AA380C10EC0257_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
+
+[CortanaKey_17AA381610EC0298_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
+
+[CortanaKey_17AA381710EC0298_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
+
+[CortanaKey_17AA384110EC0298_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
+
+[CortanaKey_17AA384210EC0298_AddReg]
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
 
 
