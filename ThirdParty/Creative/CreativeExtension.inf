@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %Creative%
 ExtensionId = {1BBB99B1-03DF-4468-81DC-11A3F1BF6E7E}
-DriverVer = 08/20/2018,2.0.0.22
+DriverVer = 10/08/2018,2.0.0.25
 CatalogFile = CreativeExtension.cat
 
 [SourceDisksNames]
@@ -57,6 +57,12 @@ MBFILT.x64.CopyList=12
 %ExtensionDesc% = Extension_Install.NTx86,HDAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_10251231
 %ExtensionDesc% = Extension_Install.NTx86,HDAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_1025123F
 ;;SBC5
+%ExtensionDesc% = Extension_Install.NTx86,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D05105F
+%ExtensionDesc% = Extension_Install.NTx86,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D051060
+%ExtensionDesc% = Extension_Install.NTx86,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D051061
+%ExtensionDesc% = Extension_Install.NTx86,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D051064
+%ExtensionDesc% = Extension_Install.NTx86,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D051065
+%ExtensionDesc% = Extension_Install.NTx86,HDAUDIO\FUNC_01&VEN_10EC&DEV_0887&SUBSYS_1458A0BA
 %ExtensionDesc% = Extension_Install.NTx86,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D05105D
 %ExtensionDesc% = Extension_Install.NTx86,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D05105E
 %ExtensionDesc% = Extension_Install.NTx86,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_155860A1
@@ -156,6 +162,12 @@ MBFILT.x64.CopyList=12
 %ExtensionDesc% = Extension_Install.NTamd64,HDAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_10251231
 %ExtensionDesc% = Extension_Install.NTamd64,HDAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_1025123F
 ;;SBC5
+%ExtensionDesc% = Extension_Install.NTamd64,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D05105F
+%ExtensionDesc% = Extension_Install.NTamd64,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D051060
+%ExtensionDesc% = Extension_Install.NTamd64,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D051061
+%ExtensionDesc% = Extension_Install.NTamd64,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D051064
+%ExtensionDesc% = Extension_Install.NTamd64,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D051065
+%ExtensionDesc% = Extension_Install.NTamd64,HDAUDIO\FUNC_01&VEN_10EC&DEV_0887&SUBSYS_1458A0BA
 %ExtensionDesc% = Extension_Install.NTamd64,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D05105D
 %ExtensionDesc% = Extension_Install.NTamd64,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D05105E
 %ExtensionDesc% = Extension_Install.NTamd64,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_155860A1
