@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %Provider%
 ExtensionId = {4DBBC440-ACCA-11E7-BE06-448A5B99B4C1}
-DriverVer   = 09/16/2018,1.5.0.0
+DriverVer   = 10/15/2018,1.5.2.0
 CatalogFile = AVoluteAWSCExt.cat
 
 [SourceDisksNames]
@@ -32,8 +32,6 @@ CassiniMLKProductSettings.cab
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_10280877
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0899&SUBSYS_10280836
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0899&SUBSYS_10280833
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_102808A3		;;Cassini MLK 2
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_102808A4
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0289&SUBSYS_102808A1		;;Orion
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0289&SUBSYS_102808A2
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0899&SUBSYS_102808F7		;;Shadowcat CFL-R
@@ -45,6 +43,8 @@ CassiniMLKProductSettings.cab
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808EA		;;Vulcan basic
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808EB
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808EC
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0289&SUBSYS_1028093B		;;Yamato 15 
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0289&SUBSYS_1028093C		;;Yamato 17
 
 ;; Nahimic3Dell systems (Vulcan basic)
 ;;%Device.ExtensionDesc% = DeviceExtension_Install_Nahimic3Dell,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808EA
@@ -114,10 +114,14 @@ HKR,InterfaceSetting,RtMicInSSTTopo,0x10008,"RecordSoundCenterConfig"
 ;; Playback
 HKR,InterfaceSetting\PlaybackSoundCenterConfig\EP\0, %PKEY_SoundCenterSupported%,%REG_DWORD%,0x1
 HKR,InterfaceSetting\PlaybackSoundCenterConfig\EP\1, %PKEY_SoundCenterSupported%,%REG_DWORD%,0x1
+HKR,InterfaceSetting\PlaybackSoundCenterConfig\EP\0, %PKEY_InstalledProductId%,%REG_SZ%,%ProductId%
+HKR,InterfaceSetting\PlaybackSoundCenterConfig\EP\1, %PKEY_InstalledProductId%,%REG_SZ%,%ProductId%
 
 ;; Record
 HKR,InterfaceSetting\RecordSoundCenterConfig\EP\0, %PKEY_SoundCenterSupported%,%REG_DWORD%,0x1
 HKR,InterfaceSetting\RecordSoundCenterConfig\EP\1, %PKEY_SoundCenterSupported%,%REG_DWORD%,0x1
+HKR,InterfaceSetting\RecordSoundCenterConfig\EP\0, %PKEY_InstalledProductId%,%REG_SZ%,%ProductId%
+HKR,InterfaceSetting\RecordSoundCenterConfig\EP\1, %PKEY_InstalledProductId%,%REG_SZ%,%ProductId%
 
 [DeviceExtension_Install.Components]
 AddComponent = AVOLUTE_NH3APO,,APO_Install
@@ -130,8 +134,11 @@ Description = "A-Volute Nh3 Audio Effects Component"
 Provider              	= "A-Volute"
 Device.ExtensionDesc 	= "A-Volute APO Extension"
 DiskId1              	= "A-Volute Extension Installation Disk"
+ProductId               = "DellInc.AlienwareSoundCenter"
 PKEY_SoundCenterSupported  = "{E8B011C4-6BC4-40A4-8103-4F8A35E1345C},0"
+PKEY_InstalledProductId    = "{f33f39c8-96e6-40d9-90f4-53e886d26b7b},11"
 
+REG_SZ    = 0x00000000
 REG_DWORD = 0x00010001
 
 
