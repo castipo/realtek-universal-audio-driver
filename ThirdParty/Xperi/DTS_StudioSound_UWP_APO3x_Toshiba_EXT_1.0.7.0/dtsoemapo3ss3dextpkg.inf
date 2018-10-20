@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {DC161FD6-6AE5-4100-8F2F-BE69BD1C3A66}  ;; Please get one from MSFT, this id is only for testing purpose !!
-DriverVer   = 05/21/2018,1.0.6.0
+DriverVer   = 07/02/2018,1.0.7.0
 CatalogFile = dtsoemapo3ss3dextpkg.cat
 
 [SourceDisksNames]
