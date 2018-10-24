@@ -3,7 +3,7 @@ Signature="$Windows NT$"
 Class=SoftwareComponent
 ClassGUID={5c4c3332-344d-483c-8739-259e934c9cc8}
 Provider=%ProviderName%
-DriverVer=09/14/2018,2.0.8.28
+DriverVer=10/23/2018,2.0.8.31
 CatalogFile=SEAPO32.cat
 
 [SourceDisksNames]
@@ -39,7 +39,7 @@ PETrust=true
 %MfgName%=ApoComponents,NTx86
 
 [ApoComponents.NTx86]
-%Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_0A2E&AID_0001&VER_02000828
+%Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_0A2E&AID_0001&VER_02000831
 
 [ApoComponent_Install]
 Include=wdmaudio.inf
