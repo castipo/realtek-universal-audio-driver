@@ -104,14 +104,6 @@ GOTO Start
 CLS
 :CodecExtOem
 >output.txt (
-%signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_SaumsungExt_SAMS_RTK.inf"
-%signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_SaumsungExt_SAMS_RTK_HAP.inf"
-%signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_ShuttleExt_RTK.inf"
-%signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_ShuttleExt_XPERI_RTK.inf"
-%signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_Test_DOLBY_RTK.inf"
-%signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_ToshibaExt_RTK.inf"
-%signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_ToshibaExt_XPERI_RTK.inf"
-%signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_ToshibaExt_XPERI4_RTK.inf"
 %signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_VAIO_RTK.inf"
 %signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_WhiteExt_CT_RTK.inf"
 %signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_WhiteExt_DOLBY_FORTE.inf"
@@ -119,6 +111,7 @@ CLS
 %signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_WhiteExt_RTK.inf"
 %signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_WhiteExt_RTK_FORTE.inf"
 %signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_WhiteExt_XPERI_RTK.inf"
+%signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_WovExt_RTK.inf"
 %signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_AcerExt_CT_RTK.inf"
 %signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_AcerExt_DOLBY_INTEL.inf"
 %signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_AcerExt_DOLBY_RTK.inf"
@@ -160,6 +153,8 @@ CLS
 %signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_HpExt_SR_FORTE.inf"
 %signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_HpExt_SR_FORTE2.inf"
 %signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_HpExt_SR_RTK.inf"
+%signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_HpExt_SR_RTK_WOV.inf"
+%signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_HpExt_SR_RTK2.inf"
 %signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_HpExt_XPERI_CNXT.inf"
 %signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_HpExt_XPERI_RTK.inf"
 %signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_HuaweiExt_DOLBY_FORTE.inf"
@@ -184,6 +179,15 @@ CLS
 %signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_PagatronExt_RTK.inf"
 %signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_Panasonic_RTK.inf"
 %signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_RazerExt_DOLBY_RTK.inf"
+%signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_RazerExt_RTK.inf"
+%signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_SaumsungExt_SAMS_RTK.inf"
+%signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_SaumsungExt_SAMS_RTK_HAP.inf"
+%signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_ShuttleExt_RTK.inf"
+%signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_ShuttleExt_XPERI_RTK.inf"
+%signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_Test_DOLBY_RTK.inf"
+%signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_ToshibaExt_RTK.inf"
+%signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_ToshibaExt_XPERI_RTK.inf"
+%signtool% verify /v /pa /c %CodecExtOemCat% "%CodecExtOem%\HDX_ToshibaExt_XPERI4_RTK.inf"
 )
 pause
 GOTO Start
