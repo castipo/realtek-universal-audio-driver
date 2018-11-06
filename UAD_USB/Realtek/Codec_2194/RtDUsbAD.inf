@@ -4,14 +4,14 @@
 ;
 
 [Version]
-CatalogFile=RtXUsbAD.cat
+CatalogFile=RtDUsbAD.cat
 Signature="$Windows NT$"
 Class=MEDIA
 ClassGUID={4d36e96c-e325-11ce-bfc1-08002be10318}
 Provider=%OrganizationName%
 DriverPackageType=PlugAndPlay
 DriverPackageDisplayName=%PackageDisplayName%
-DriverVer=07/04/2018,6.3.9600.2184
+DriverVer=10/18/2018,6.3.9600.2194
 
 [Manufacturer]
 %MfgName%=RtkUsbAudio,NTamd64.10.0...16299
@@ -52,12 +52,17 @@ ExcludeFromSelect = *
 %USB\CLASS_01.DeviceDesc%=RtkUsbAD,USB\VID_0BDA&PID_402D&MI_00
 %USB\CLASS_01.DeviceDesc%=RtkUsbAD,USB\VID_0BDA&PID_4802&MI_00
 %USB\CLASS_01.DeviceDesc%=RtkUsbAD,USB\VID_0BDA&PID_4803&MI_00
+%USB\CLASS_01.DeviceDesc%=RtkUsbAD,USB\VID_0BDA&PID_4837&MI_00
 %USB\CLASS_01.DeviceDesc%=RtkUsbAD,USB\VID_0BDA&PID_487A&MI_00
 %USB\CLASS_01.DeviceDesc%=RtkUsbAD,USB\VID_0BDA&PID_4889&MI_00
 %USB\CLASS_01.DeviceDesc%=RtkUsbAD,USB\VID_0BDA&PID_4916&MI_00
+%USB\CLASS_01.DeviceDesc%=RtkUsbAD,USB\VID_0BDA&PID_4917&MI_00
+%USB\CLASS_01.DeviceDesc%=RtkUsbAD,USB\VID_0BDA&PID_4910&MI_00
 %USB\CLASS_01.DeviceDesc%=RtkUsbAD,USB\VID_0BDA&PID_491A&MI_00
 %USB\CLASS_01.DeviceDesc%=RtkUsbAD,USB\VID_0BDA&PID_491B&MI_00
 %USB\CLASS_01.DeviceDesc%=RtkUsbAD,USB\VID_0BDA&PID_491C&MI_00
+%USB\CLASS_01.DeviceDesc%=RtkUsbAD,USB\VID_0BDA&PID_4928&MI_00
+%USB\CLASS_01.DeviceDesc%=RtkUsbAD,USB\VID_0BDA&PID_4942&MI_00
 %USB\CLASS_01.DeviceDesc%=RtkUsbAD,USB\VID_103C&PID_830A&MI_00
 ;Lenovo Hub 500 Audio with Dolby=     RtkUsbAD,USB\VID_17EF&PID_A017&MI_00
 Lenovo Hub 500 Audio=     RtkUsbAD,USB\VID_17EF&PID_A017&MI_00
@@ -66,11 +71,15 @@ ThinkPad Dock USB Audio=  RtkUsbAD,USB\VID_17EF&PID_306F&MI_00
 %USB\CLASS_01.DeviceDesc%=RtkUsbAD,USB\VID_04C5&PID_14A3&MI_00
 %USB\CLASS_01.DeviceDesc%=RtkUsbAD,USB\VID_04C5&PID_1570&MI_00
 %USB\CLASS_01.DeviceDesc%=RtkUsbAD,USB\VID_04C5&PID_1571&MI_00
+;HP USB Media Audio=       RtkUsbAD,USB\VID_0BDA&PID_482A&MI_00
+%USB\CLASS_01.DeviceDesc%=RtkUsbAD,USB\VID_046D&PID_0A8F&MI_00
+G950 microphone=          RtkUsbAD,USB\VID_046D&PID_0A85&MI_00
+GC21-Audio=               RtkUsbAD,USB\VID_0B05&PID_9D09&MI_00
 ;============================================================================
 
 [RtkUsbAD.NT]
 Include=ks.inf, wdmaudio.inf
-Needs=KS.Registration, WDMAUDIO.Registration
+Needs=KS.Registration, WDMAUDIO.Registration, mssysfx.CopyFilesAndRegister
 CopyFiles=RtkUsbAD.CopyList
 AddReg=RtkUsbAD.AddReg
 
@@ -85,6 +94,10 @@ AddInterface=%KSCATEGORY_AUDIO%, %KSNAME_RearLineOutWave3%,RtkUsbAD.Interface.Wa
 AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RearLineOutWave3%,RtkUsbAD.Interface.WaveOut
 AddInterface=%KSCATEGORY_AUDIO%, %KSNAME_RearLineOutWave4%,RtkUsbAD.Interface.WaveOut
 AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RearLineOutWave4%,RtkUsbAD.Interface.WaveOut
+AddInterface=%KSCATEGORY_AUDIO%, %KSNAME_RearLineOutWave5%,RtkUsbAD.Interface.WaveOut
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RearLineOutWave5%,RtkUsbAD.Interface.WaveOut
+AddInterface=%KSCATEGORY_AUDIO%, %KSNAME_RearLineOutWave6%,RtkUsbAD.Interface.WaveOut
+AddInterface=%KSCATEGORY_RENDER%,%KSNAME_RearLineOutWave6%,RtkUsbAD.Interface.WaveOut
 AddInterface=%KSCATEGORY_AUDIO%,  %KSNAME_RearLineInWave1%,RtkUsbAD.Interface.WaveMicIn
 AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInWave1%,RtkUsbAD.Interface.WaveMicIn
 AddInterface=%KSCATEGORY_AUDIO%,  %KSNAME_RearLineInWave2%,RtkUsbAD.Interface.Curve
@@ -95,6 +108,8 @@ AddInterface=%KSCATEGORY_AUDIO%,  %KSNAME_RearLineInWave4%,RtkUsbAD.Interface.Cu
 AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInWave4%,RtkUsbAD.Interface.Curve
 AddInterface=%KSCATEGORY_AUDIO%,  %KSNAME_RearLineInWave5%,RtkUsbAD.Interface.WaveMicIn
 AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInWave5%,RtkUsbAD.Interface.WaveMicIn
+AddInterface=%KSCATEGORY_AUDIO%,  %KSNAME_RearLineInWave6%,RtkUsbAD.Interface.WaveMicIn
+AddInterface=%KSCATEGORY_CAPTURE%,%KSNAME_RearLineInWave6%,RtkUsbAD.Interface.WaveMicIn
 
 [RtkUsbAD.Interface.Curve]
 AddReg=RtkUsbAD.Interface.Addreg.Curve
@@ -129,7 +144,7 @@ DisplayName    = %RtkUsbAD.SvcDesc%
 ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
 StartType      = 3                  ; SERVICE_DEMAND_START
 ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
-ServiceBinary  = %10%\system32\drivers\RtUsbA64.2184.sys
+ServiceBinary  = %10%\system32\drivers\RtUsbA64.2194.sys
 
 ;============================================================================
 
@@ -137,7 +152,7 @@ ServiceBinary  = %10%\system32\drivers\RtUsbA64.2184.sys
 ;; Usb audio specific registry update sutff
 HKR,,SetupPreferredAudioDevices,3,01,00,00,00
 HKR,,AssociatedFilters,,"wdmaud,redbook"
-HKR,,Driver,,RtUsbA64.2184.sys
+HKR,,Driver,,RtUsbA64.2194.sys
 
 HKR,,CLSID,,%Proxy.CLSID%
 
@@ -154,8 +169,8 @@ HKR,Drivers\mixer\wdmaud.drv,Description,,%USBGenericDesc%
 HKR,Drivers\aux\wdmaud.drv,Description,,%USBGenericDesc%
 
 [RtkUsbAD.CopyList]
-RtUsbA64.2184.sys, RtUsbA64.sys
-RTUSBAIODAT.2184.DAT, RTUSBAIODAT.DAT
+RtUsbA64.2194.sys, RtUsbA64.sys
+RTUSBAIODAT.2194.DAT, RTUSBAIODAT.DAT
 
 [SysFx.AddReg]
 HKR,"EP\\0",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
@@ -183,11 +198,14 @@ KSNAME_RearLineOutWave1="WaveOut1"
 KSNAME_RearLineOutWave2="WaveOut2"
 KSNAME_RearLineOutWave3="WaveOut3"
 KSNAME_RearLineOutWave4="WaveOut4"
+KSNAME_RearLineOutWave5="WaveOut5"
+KSNAME_RearLineOutWave6="WaveOut6"
 KSNAME_RearLineInWave1="WaveIn1"
 KSNAME_RearLineInWave2="WaveIn2"
 KSNAME_RearLineInWave3="WaveIn3"
 KSNAME_RearLineInWave4="WaveIn4"
 KSNAME_RearLineInWave5="WaveIn5"
+KSNAME_RearLineInWave6="WaveIn6"
 
 PackageDisplayName="Realtek USB Audio Driver"
 InsDisksName=="Realtek USB Audio Installation Disk"
