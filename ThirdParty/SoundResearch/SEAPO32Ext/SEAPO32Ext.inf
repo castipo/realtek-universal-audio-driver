@@ -4,7 +4,7 @@ Signature="$WINDOWS NT$"
 Class=Extension
 ClassGuid={e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider=%ProviderName%
-DriverVer=11/04/2018,15.41.34.1199
+DriverVer=11/05/2018,15.41.44.9156
 CatalogFile=SEAPO32Ext.cat
 
 [SourceDisksNames]
