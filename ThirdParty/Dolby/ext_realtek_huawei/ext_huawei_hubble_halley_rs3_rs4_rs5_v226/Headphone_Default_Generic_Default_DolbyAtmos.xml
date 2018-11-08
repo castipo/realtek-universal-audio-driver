@@ -13,10 +13,10 @@
     <setting>
         <geq_maximum_range value="192"/>
         <product value="DAX 3 Windows"/>
-        <sku value="DolbyAudioPremium"/>
+        <sku value="DolbyAtmos"/>
         <operator value="Default"/>
     </setting>
-    <endpoint type="headphone" brand="Generic" model="Small" operating_mode="normal" fs="48000" ch_count="2">
+    <endpoint type="headphone" brand="Generic" model="Default" operating_mode="normal" fs="48000" ch_count="2">
         <profile type="dynamic">
             <tuning-cp>
                 <audio-optimizer-enable value="0"/>
@@ -98,12 +98,12 @@
                 <volume-modeler-enable value="0"/>
                 <volume-modeler-calibration value="0"/>
                 <output-mode-partial-surround-virtualizer-enable value="1"/>
-                <output-mode-partial-height-virtualizer-enable value="0"/>
+                <output-mode-partial-height-virtualizer-enable value="1"/>
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
-                    <gain_l value="-16,16,32,32,32,48,48,32,-16,-96,-64,-62,-60,-90,-56,-4,-4,-4,-2,-16"/>
-                    <gain_r value="-16,16,32,32,32,48,48,32,-16,-96,-64,-62,-60,-90,-56,-4,-4,-4,-2,-16"/>
+                    <gain_l value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
+                    <gain_r value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
                 </audio-optimizer-bands>
                 <audio-optimizer-enable value="1"/>
                 <postgain value="0"/>
@@ -200,12 +200,12 @@
                 <volume-modeler-enable value="0"/>
                 <volume-modeler-calibration value="0"/>
                 <output-mode-partial-surround-virtualizer-enable value="1"/>
-                <output-mode-partial-height-virtualizer-enable value="0"/>
+                <output-mode-partial-height-virtualizer-enable value="1"/>
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
-                    <gain_l value="-16,16,32,32,32,48,48,32,-16,-96,-64,-62,-60,-90,-56,-4,-4,-4,-2,-16"/>
-                    <gain_r value="-16,16,32,32,32,48,48,32,-16,-96,-64,-62,-60,-90,-56,-4,-4,-4,-2,-16"/>
+                    <gain_l value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
+                    <gain_r value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
                 </audio-optimizer-bands>
                 <audio-optimizer-enable value="1"/>
                 <postgain value="0"/>
@@ -306,8 +306,8 @@
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
-                    <gain_l value="-16,16,32,32,32,48,48,32,-16,-96,-64,-62,-60,-90,-56,-4,-4,-4,-2,-16"/>
-                    <gain_r value="-16,16,32,32,32,48,48,32,-16,-96,-64,-62,-60,-90,-56,-4,-4,-4,-2,-16"/>
+                    <gain_l value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
+                    <gain_r value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
                 </audio-optimizer-bands>
                 <audio-optimizer-enable value="1"/>
                 <postgain value="0"/>
@@ -404,12 +404,12 @@
                 <volume-modeler-enable value="0"/>
                 <volume-modeler-calibration value="0"/>
                 <output-mode-partial-surround-virtualizer-enable value="1"/>
-                <output-mode-partial-height-virtualizer-enable value="0"/>
+                <output-mode-partial-height-virtualizer-enable value="1"/>
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
-                    <gain_l value="-16,16,32,32,32,48,48,32,-16,-96,-64,-62,-60,-90,-56,-4,-4,-4,-2,-16"/>
-                    <gain_r value="-16,16,32,32,32,48,48,32,-16,-96,-64,-62,-60,-90,-56,-4,-4,-4,-2,-16"/>
+                    <gain_l value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
+                    <gain_r value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
                 </audio-optimizer-bands>
                 <audio-optimizer-enable value="1"/>
                 <postgain value="0"/>
@@ -510,8 +510,8 @@
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
-                    <gain_l value="-16,16,32,32,32,48,48,32,-16,-96,-64,-62,-60,-90,-56,-4,-4,-4,-2,-16"/>
-                    <gain_r value="-16,16,32,32,32,48,48,32,-16,-96,-64,-62,-60,-90,-56,-4,-4,-4,-2,-16"/>
+                    <gain_l value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
+                    <gain_r value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
                 </audio-optimizer-bands>
                 <audio-optimizer-enable value="1"/>
                 <postgain value="0"/>
@@ -608,12 +608,12 @@
                 <volume-modeler-enable value="0"/>
                 <volume-modeler-calibration value="0"/>
                 <output-mode-partial-surround-virtualizer-enable value="1"/>
-                <output-mode-partial-height-virtualizer-enable value="0"/>
+                <output-mode-partial-height-virtualizer-enable value="1"/>
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
-                    <gain_l value="-16,16,32,32,32,48,48,32,-16,-96,-64,-62,-60,-90,-56,-4,-4,-4,-2,-16"/>
-                    <gain_r value="-16,16,32,32,32,48,48,32,-16,-96,-64,-62,-60,-90,-56,-4,-4,-4,-2,-16"/>
+                    <gain_l value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
+                    <gain_r value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
                 </audio-optimizer-bands>
                 <audio-optimizer-enable value="1"/>
                 <postgain value="0"/>
@@ -710,12 +710,12 @@
                 <volume-modeler-enable value="0"/>
                 <volume-modeler-calibration value="0"/>
                 <output-mode-partial-surround-virtualizer-enable value="1"/>
-                <output-mode-partial-height-virtualizer-enable value="0"/>
+                <output-mode-partial-height-virtualizer-enable value="1"/>
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
-                    <gain_l value="-16,16,32,32,32,48,48,32,-16,-96,-64,-62,-60,-90,-56,-4,-4,-4,-2,-16"/>
-                    <gain_r value="-16,16,32,32,32,48,48,32,-16,-96,-64,-62,-60,-90,-56,-4,-4,-4,-2,-16"/>
+                    <gain_l value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
+                    <gain_r value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
                 </audio-optimizer-bands>
                 <audio-optimizer-enable value="1"/>
                 <postgain value="0"/>
@@ -812,12 +812,12 @@
                 <volume-modeler-enable value="0"/>
                 <volume-modeler-calibration value="0"/>
                 <output-mode-partial-surround-virtualizer-enable value="1"/>
-                <output-mode-partial-height-virtualizer-enable value="0"/>
+                <output-mode-partial-height-virtualizer-enable value="1"/>
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
-                    <gain_l value="-16,16,32,32,32,48,48,32,-16,-96,-64,-62,-60,-90,-56,-4,-4,-4,-2,-16"/>
-                    <gain_r value="-16,16,32,32,32,48,48,32,-16,-96,-64,-62,-60,-90,-56,-4,-4,-4,-2,-16"/>
+                    <gain_l value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
+                    <gain_r value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
                 </audio-optimizer-bands>
                 <audio-optimizer-enable value="1"/>
                 <postgain value="0"/>

@@ -13,10 +13,10 @@
     <setting>
         <geq_maximum_range value="192"/>
         <product value="DAX 3 Windows"/>
-        <sku value="DolbyAudioPremium"/>
+        <sku value="DolbyAudio"/>
         <operator value="Default"/>
     </setting>
-    <endpoint type="headphone" brand="Generic" model="Medium" operating_mode="normal" fs="48000" ch_count="2">
+    <endpoint type="headphone" brand="Generic" model="Default" operating_mode="normal" fs="48000" ch_count="2">
         <profile type="dynamic">
             <tuning-cp>
                 <audio-optimizer-enable value="0"/>
@@ -39,13 +39,13 @@
                 <bass-extraction-enable value="0"/>
                 <bass-extraction-cutoff-frequency value="200"/>
                 <calibration-boost value="0"/>
-                <dialog-enhancer-enable value="1"/>
+                <dialog-enhancer-enable value="0"/>
                 <dialog-enhancer-amount value="5"/>
                 <dialog-enhancer-ducking value="0"/>
                 <graphic-equalizer-enable value="0"/>
                 <graphic-equalizer-bands preset="array_20_zero"/>
                 <height-filter-mode value="0"/>
-                <ieq-enable value="1"/>
+                <ieq-enable value="0"/>
                 <ieq-amount value="10"/>
                 <ieq-bands-set preset="ieq_balanced"/>
                 <mi-dialog-enhancer-steering-enable value="1"/>
@@ -97,13 +97,13 @@
                 <volume-leveler-out-target value="-320"/>
                 <volume-modeler-enable value="0"/>
                 <volume-modeler-calibration value="0"/>
-                <output-mode-partial-surround-virtualizer-enable value="1"/>
+                <output-mode-partial-surround-virtualizer-enable value="0"/>
                 <output-mode-partial-height-virtualizer-enable value="0"/>
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
-                    <gain_l value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,12,12,12,14,0"/>
-                    <gain_r value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,12,12,12,14,0"/>
+                    <gain_l value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
+                    <gain_r value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
                 </audio-optimizer-bands>
                 <audio-optimizer-enable value="1"/>
                 <postgain value="0"/>
@@ -141,7 +141,7 @@
                 <bass-extraction-enable value="0"/>
                 <bass-extraction-cutoff-frequency value="200"/>
                 <calibration-boost value="0"/>
-                <dialog-enhancer-enable value="1"/>
+                <dialog-enhancer-enable value="0"/>
                 <dialog-enhancer-amount value="5"/>
                 <dialog-enhancer-ducking value="0"/>
                 <graphic-equalizer-enable value="0"/>
@@ -199,13 +199,13 @@
                 <volume-leveler-out-target value="-320"/>
                 <volume-modeler-enable value="0"/>
                 <volume-modeler-calibration value="0"/>
-                <output-mode-partial-surround-virtualizer-enable value="1"/>
+                <output-mode-partial-surround-virtualizer-enable value="0"/>
                 <output-mode-partial-height-virtualizer-enable value="0"/>
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
-                    <gain_l value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,12,12,12,14,0"/>
-                    <gain_r value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,12,12,12,14,0"/>
+                    <gain_l value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
+                    <gain_r value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
                 </audio-optimizer-bands>
                 <audio-optimizer-enable value="1"/>
                 <postgain value="0"/>
@@ -249,7 +249,7 @@
                 <graphic-equalizer-enable value="0"/>
                 <graphic-equalizer-bands preset="array_20_zero"/>
                 <height-filter-mode value="0"/>
-                <ieq-enable value="1"/>
+                <ieq-enable value="0"/>
                 <ieq-amount value="8"/>
                 <ieq-bands-set preset="ieq_balanced"/>
                 <mi-dialog-enhancer-steering-enable value="0"/>
@@ -306,8 +306,8 @@
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
-                    <gain_l value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,12,12,12,14,0"/>
-                    <gain_r value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,12,12,12,14,0"/>
+                    <gain_l value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
+                    <gain_r value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
                 </audio-optimizer-bands>
                 <audio-optimizer-enable value="1"/>
                 <postgain value="0"/>
@@ -403,13 +403,13 @@
                 <volume-leveler-out-target value="-320"/>
                 <volume-modeler-enable value="0"/>
                 <volume-modeler-calibration value="0"/>
-                <output-mode-partial-surround-virtualizer-enable value="1"/>
+                <output-mode-partial-surround-virtualizer-enable value="0"/>
                 <output-mode-partial-height-virtualizer-enable value="0"/>
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
-                    <gain_l value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,12,12,12,14,0"/>
-                    <gain_r value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,12,12,12,14,0"/>
+                    <gain_l value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
+                    <gain_r value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
                 </audio-optimizer-bands>
                 <audio-optimizer-enable value="1"/>
                 <postgain value="0"/>
@@ -447,7 +447,7 @@
                 <bass-extraction-enable value="0"/>
                 <bass-extraction-cutoff-frequency value="200"/>
                 <calibration-boost value="0"/>
-                <dialog-enhancer-enable value="1"/>
+                <dialog-enhancer-enable value="0"/>
                 <dialog-enhancer-amount value="10"/>
                 <dialog-enhancer-ducking value="0"/>
                 <graphic-equalizer-enable value="0"/>
@@ -510,8 +510,8 @@
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
-                    <gain_l value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,12,12,12,14,0"/>
-                    <gain_r value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,12,12,12,14,0"/>
+                    <gain_l value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
+                    <gain_r value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
                 </audio-optimizer-bands>
                 <audio-optimizer-enable value="1"/>
                 <postgain value="0"/>
@@ -549,7 +549,7 @@
                 <bass-extraction-enable value="0"/>
                 <bass-extraction-cutoff-frequency value="200"/>
                 <calibration-boost value="0"/>
-                <dialog-enhancer-enable value="1"/>
+                <dialog-enhancer-enable value="0"/>
                 <dialog-enhancer-amount value="10"/>
                 <dialog-enhancer-ducking value="0"/>
                 <graphic-equalizer-enable value="0"/>
@@ -607,13 +607,13 @@
                 <volume-leveler-out-target value="-320"/>
                 <volume-modeler-enable value="0"/>
                 <volume-modeler-calibration value="0"/>
-                <output-mode-partial-surround-virtualizer-enable value="1"/>
+                <output-mode-partial-surround-virtualizer-enable value="0"/>
                 <output-mode-partial-height-virtualizer-enable value="0"/>
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
-                    <gain_l value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,12,12,12,14,0"/>
-                    <gain_r value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,12,12,12,14,0"/>
+                    <gain_l value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
+                    <gain_r value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
                 </audio-optimizer-bands>
                 <audio-optimizer-enable value="1"/>
                 <postgain value="0"/>
@@ -651,7 +651,7 @@
                 <bass-extraction-enable value="0"/>
                 <bass-extraction-cutoff-frequency value="200"/>
                 <calibration-boost value="0"/>
-                <dialog-enhancer-enable value="1"/>
+                <dialog-enhancer-enable value="0"/>
                 <dialog-enhancer-amount value="10"/>
                 <dialog-enhancer-ducking value="0"/>
                 <graphic-equalizer-enable value="0"/>
@@ -709,13 +709,13 @@
                 <volume-leveler-out-target value="-320"/>
                 <volume-modeler-enable value="0"/>
                 <volume-modeler-calibration value="0"/>
-                <output-mode-partial-surround-virtualizer-enable value="1"/>
+                <output-mode-partial-surround-virtualizer-enable value="0"/>
                 <output-mode-partial-height-virtualizer-enable value="0"/>
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
-                    <gain_l value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,12,12,12,14,0"/>
-                    <gain_r value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,12,12,12,14,0"/>
+                    <gain_l value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
+                    <gain_r value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
                 </audio-optimizer-bands>
                 <audio-optimizer-enable value="1"/>
                 <postgain value="0"/>
@@ -753,7 +753,7 @@
                 <bass-extraction-enable value="0"/>
                 <bass-extraction-cutoff-frequency value="200"/>
                 <calibration-boost value="0"/>
-                <dialog-enhancer-enable value="1"/>
+                <dialog-enhancer-enable value="0"/>
                 <dialog-enhancer-amount value="10"/>
                 <dialog-enhancer-ducking value="0"/>
                 <graphic-equalizer-enable value="0"/>
@@ -811,13 +811,13 @@
                 <volume-leveler-out-target value="-320"/>
                 <volume-modeler-enable value="0"/>
                 <volume-modeler-calibration value="0"/>
-                <output-mode-partial-surround-virtualizer-enable value="1"/>
+                <output-mode-partial-surround-virtualizer-enable value="0"/>
                 <output-mode-partial-height-virtualizer-enable value="0"/>
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
-                    <gain_l value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,12,12,12,14,0"/>
-                    <gain_r value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,12,12,12,14,0"/>
+                    <gain_l value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
+                    <gain_r value="0,0,0,0,0,0,0,0,0,0,0,2,4,6,8,10,12,12,14,16"/>
                 </audio-optimizer-bands>
                 <audio-optimizer-enable value="1"/>
                 <postgain value="0"/>

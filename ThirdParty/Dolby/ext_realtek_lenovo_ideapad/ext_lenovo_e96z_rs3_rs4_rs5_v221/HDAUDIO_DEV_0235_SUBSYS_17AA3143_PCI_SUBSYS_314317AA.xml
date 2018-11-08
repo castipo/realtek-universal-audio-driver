@@ -2,6 +2,8 @@
 <device_data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <xml_version value="3.2.0"/>
     <dtt_version value="3.1.6"/>
+    <tuning_version value="1"/>
+    <tuning_date value="11/01/2018 19:18:33"/>
     <constant>
         <band_20_freq fs_44100="43,129,215,301,431,603,775,947,1206,1550,2067,2756,3618,4651,5685,7063,8958,11025,13781,18777" fs_48000="47,141,234,328,469,656,844,1031,1313,1688,2250,3000,3750,4688,5813,7125,9000,11250,13875,19688"/>
         <ieq_detailed target="150,142,188,216,189,195,202,199,210,225,230,236,235,235,214,165,112,49,-24,-217"/>
@@ -108,7 +110,7 @@
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
-                    <gain_l value="0,152,192,38,-110,-107,-9,1,65,128,-28,33,11,-100,-3,25,153,144,112,48"/>
+                    <gain_l value="0,152,192,38,-110,-107,-9,1,65,128,-27,33,11,-99,-3,25,153,144,112,48"/>
                     <gain_r value="0,152,192,88,-112,-168,-75,-9,60,120,-32,25,3,-102,-3,11,126,134,112,48"/>
                 </audio-optimizer-bands>
                 <audio-optimizer-enable value="1"/>
@@ -210,7 +212,7 @@
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
-                    <gain_l value="0,152,192,38,-110,-107,-9,1,65,128,-28,33,11,-100,-3,25,153,144,112,48"/>
+                    <gain_l value="0,152,192,38,-110,-107,-9,1,65,128,-27,33,11,-99,-3,25,153,144,112,48"/>
                     <gain_r value="0,152,192,88,-112,-168,-75,-9,60,120,-32,25,3,-102,-3,11,126,134,112,48"/>
                 </audio-optimizer-bands>
                 <audio-optimizer-enable value="1"/>
@@ -312,7 +314,7 @@
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
-                    <gain_l value="0,152,192,38,-110,-107,-9,1,65,128,-28,33,11,-100,-3,25,153,144,112,48"/>
+                    <gain_l value="0,152,192,38,-110,-107,-9,1,65,128,-27,33,11,-99,-3,25,153,144,112,48"/>
                     <gain_r value="0,152,192,88,-112,-168,-75,-9,60,120,-32,25,3,-102,-3,11,126,134,112,48"/>
                 </audio-optimizer-bands>
                 <audio-optimizer-enable value="1"/>
@@ -414,7 +416,7 @@
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
-                    <gain_l value="0,152,192,38,-110,-107,-9,1,65,128,-28,33,11,-100,-3,25,153,144,112,48"/>
+                    <gain_l value="0,152,192,38,-110,-107,-9,1,65,128,-27,33,11,-99,-3,25,153,144,112,48"/>
                     <gain_r value="0,152,192,88,-112,-168,-75,-9,60,120,-32,25,3,-102,-3,11,126,134,112,48"/>
                 </audio-optimizer-bands>
                 <audio-optimizer-enable value="1"/>
@@ -454,7 +456,7 @@
                 <bass-extraction-cutoff-frequency value="200"/>
                 <calibration-boost value="0"/>
                 <dialog-enhancer-enable value="1"/>
-                <dialog-enhancer-amount value="3"/>
+                <dialog-enhancer-amount value="8"/>
                 <dialog-enhancer-ducking value="0"/>
                 <graphic-equalizer-enable value="0"/>
                 <graphic-equalizer-bands preset="array_20_zero"/>
@@ -516,7 +518,7 @@
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
-                    <gain_l value="0,0,0,0,-110,-107,-9,1,65,128,-28,33,11,-100,-3,25,153,144,112,48"/>
+                    <gain_l value="0,0,0,0,-110,-107,-9,1,65,128,-27,33,11,-99,-3,25,153,144,112,48"/>
                     <gain_r value="0,0,0,0,-112,-168,-75,-9,60,120,-32,25,3,-102,-3,11,126,134,112,48"/>
                 </audio-optimizer-bands>
                 <audio-optimizer-enable value="1"/>
@@ -618,7 +620,7 @@
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
-                    <gain_l value="0,152,192,38,-110,-107,-9,1,65,128,-28,33,11,-100,-3,25,153,144,112,48"/>
+                    <gain_l value="0,152,192,38,-110,-107,-9,1,65,128,-27,33,11,-99,-3,25,153,144,112,48"/>
                     <gain_r value="0,152,192,88,-112,-168,-75,-9,60,120,-32,25,3,-102,-3,11,126,134,112,48"/>
                 </audio-optimizer-bands>
                 <audio-optimizer-enable value="1"/>
@@ -720,7 +722,7 @@
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
-                    <gain_l value="0,152,192,38,-110,-107,-9,1,65,128,-28,33,11,-100,-3,25,153,144,112,48"/>
+                    <gain_l value="0,152,192,38,-110,-107,-9,1,65,128,-27,33,11,-99,-3,25,153,144,112,48"/>
                     <gain_r value="0,152,192,88,-112,-168,-75,-9,60,120,-32,25,3,-102,-3,11,126,134,112,48"/>
                 </audio-optimizer-bands>
                 <audio-optimizer-enable value="1"/>
@@ -822,7 +824,7 @@
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
-                    <gain_l value="0,152,192,38,-110,-107,-9,1,65,128,-28,33,11,-100,-3,25,153,144,112,48"/>
+                    <gain_l value="0,152,192,38,-110,-107,-9,1,65,128,-27,33,11,-99,-3,25,153,144,112,48"/>
                     <gain_r value="0,152,192,88,-112,-168,-75,-9,60,120,-32,25,3,-102,-3,11,126,134,112,48"/>
                 </audio-optimizer-bands>
                 <audio-optimizer-enable value="1"/>
@@ -924,14 +926,14 @@
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
-                    <gain_l preset="array_20_zero"/>
-                    <gain_r preset="array_20_zero"/>
+                    <gain_l value="0,152,192,38,-110,-107,-9,1,65,128,-27,33,11,-99,-3,25,153,144,112,48"/>
+                    <gain_r value="0,152,192,88,-112,-168,-75,-9,60,120,-32,25,3,-102,-3,11,126,134,112,48"/>
                 </audio-optimizer-bands>
                 <audio-optimizer-enable value="0"/>
                 <postgain value="0"/>
                 <regulator-relaxation-amount value="96"/>
                 <regulator-overdrive value="0"/>
-                <regulator-timbre-preservation value="16"/>
+                <regulator-timbre-preservation value="12"/>
                 <regulator-speaker-dist-enable value="0"/>
                 <regulator-tuning>
                     <threshold_high preset="array_20_zero"/>
