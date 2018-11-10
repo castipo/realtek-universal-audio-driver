@@ -1,6 +1,6 @@
 # Realtek Universal Audio Driver (UAD)
 
-#### Repository Updated: 7/11/2018
+#### Repository Updated: 10/11/2018
 
 ---------------------------------------
 
