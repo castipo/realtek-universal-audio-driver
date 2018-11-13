@@ -1,0 +1,2923 @@
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTSamsung.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 14F701B6F250A4B71B3B46F49BD80E1CF46591A4
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTSamsung.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTVAIO.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 1A1EEEF2DFEE4B6B170E2324396CEEA29BA00718
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTVAIO.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTWHITE.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): AF2B5A34E7E08AF8293F21D00767EFDCF334D677
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTWHITE.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXToshiba.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): C73D1A2EC8CCC2B70C4203CB68AB5750442245D5
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXToshiba.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXVAIO.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 767E57C73319C6C5BBA6802B1ED78780AEA881F2
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXVAIO.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXWHITE.inf
+
+Number of files successfully Verified: 0
+Number of warnings: 0
+Number of errors: 1
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\RTAIODAT.DAT
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 9EC5FF21AC61788736E52A275A0406155B1BAFC5
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\RTAIODAT.DAT
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\RtEventLog.dll
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 6561D458211A00B190A719D74C2FEAC6C974AA28
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\RtEventLog.dll
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\RTKVHD64.sys
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 15E44EDFCC1E98421A6D96F628D540779847E0D0
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\RTKVHD64.sys
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\amdacpksl.sys
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 0D3C0475606CD6C6C191B5CDA5C90A1782D7A9ED
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\amdacpksl.sys
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXACERAIO.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): B3285FCE2AD5B8AFC34A737BA06D68AA02517712
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXACERAIO.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXACERNB.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 8BA5CA8D60B0686B67F0F37AA13908194BD9C0BA
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXACERNB.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXAMD.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 86AC26EA3856299EE1C8A0F3905623F0C1812F3B
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXAMD.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXAsrok.inf
+
+Number of files successfully Verified: 0
+Number of warnings: 0
+Number of errors: 1
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXASUS.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): B42939E1FD87D8ADF2EA411E5765A5D7870AFB81
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXASUS.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXBPCAS.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): C77BEF51FB05ACC0E5EA6E473FF2D44081FBF058
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXBPCAS.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXClevo.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 158E3847FFA8002E6B3A0B6AC2A4732A4C64F528
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXClevo.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXCompal.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 0877DA05E956DBA17183C4CBA5C253F4B7BDF2D6
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXCompal.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXCPC.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 71806D939CA7A85211F309084F292437254D0ADD
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXCPC.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXDELLBC2018.inf
+
+Number of files successfully Verified: 0
+Number of warnings: 0
+Number of errors: 1
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXDELLBCSST2018.inf
+
+Number of files successfully Verified: 0
+Number of warnings: 0
+Number of errors: 1
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXDELLCSMB2018.inf
+
+Number of files successfully Verified: 0
+Number of warnings: 0
+Number of errors: 1
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXDELLSSTCSMB2018.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): AFB867108E23F731DE45E3F7FD7FC10A2108AED4
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXDELLSSTCSMB2018.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXECS.inf
+
+Number of files successfully Verified: 0
+Number of warnings: 0
+Number of errors: 1
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXFTS.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 8F7C913DE393A32CEBAF9BB4E50C9FE48FCAEADB
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXFTS.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXFujitsu.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): ACF0980C7C44F0BFDEF14373FBDD6BAA1BF9A812
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXFujitsu.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXGigabyte.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): BFF77AE40F585D48B3EB454D8610F85D3195BFEE
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXGigabyte.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXHAPAcerNB.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 82D4B79EDF8D7E7CA38AE93F83E9EB70D1A0622F
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXHAPAcerNB.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXHAPAMD.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 216AB960040E48C13ABE442E3F14A533B6EB92E2
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXHAPAMD.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXHAPHPNB.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 0870F103233DF4732EE5BCA8A77FCA373872393E
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXHAPHPNB.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXHAPLenovo.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): BE345DE2747D4FFA140783DB3D29E4FDFE5274E2
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXHAPLenovo.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXHAPSamsung.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): E2335AB395DC0CC6337B239060DDFC8A6DE9B169
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXHAPSamsung.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXHPAI4.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 8706AB62E465AE75E0126C289FC16FDFCE1213A0
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXHPAI4.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXHPBNB.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 93F5D30CE3BFA20C7C7CCC1A6E1F2967B65C61F4
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXHPBNB.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXHPBPC.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 6030BE7878B1029FB066BE5029D7F60072232A7E
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXHPBPC.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXHPBPCAIO.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): A0353E1899564107301F5A20306018EC1EF77AAC
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXHPBPCAIO.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXHPNB.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): C82C91D7DE17442DD12AACC44A8240FD42D9832C
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXHPNB.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXHuawei.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): E417A81DB9DF61A6A3ACA8FDBDFFFB952A86A759
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXHuawei.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXINTEL.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 528C8FD57A13654C3AB86454AE2A72011C13623C
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXINTEL.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXInventec.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): A82B2F67CA7FFB9CB68EA2F5663D0F4A9B77393C
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXInventec.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXLG.inf
+
+Number of files successfully Verified: 0
+Number of warnings: 0
+Number of errors: 1
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXLV.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 61F9388BA9B1055837D64337C3EA882E432EFDDC
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXLV.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXLVSST.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 4CA63D6197ED736747ADF0A8D4713C8EC8807C5B
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXLVSST.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXMI.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 4CC20BA40654C2A6809AF929624253C7D45C9720
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXMI.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXMitac.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 992718C2FAEE5F0B220C9CB07BD226A83BF560F4
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXMitac.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXMSI.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): D4A114F61B8765812F951774CD8FC265D2694196
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXMSI.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXNEC.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 77D01B67AE921C53128CCC40E688B2749E9340A5
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXNEC.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXNECSST.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 436EBE78DCB307E61D995EAC972510AA64A8896D
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXNECSST.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXNexstGo.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): D3D677D4950A5C11A0169F55240056D518924592
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXNexstGo.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXNexstGoSST.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): B21BB1273BE0EDF2A9CABE0A551DC8EEAB654BB2
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXNexstGoSST.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXPagatron.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): CFB464F02B2B365015753FE4018EA8345DFB35D4
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXPagatron.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXPanasonic.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 3FDF59EE8D35F646182BF885D8705E79B02A9555
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXPanasonic.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXRazer.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 74FA2FC4612DC4F9377B0E16BD87FCFA6A9F4AC8
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXRazer.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXRT.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): AD9CC8A2BD685E9E415E4E50B5110A96F1047ACC
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXRT.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXRTBase.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 9C30473951C70556A14F86BC60ACD5D10E19123D
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXRTBase.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXRTSST.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 463741EE8424434C017582DFFF7D5E73AE983DC1
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXRTSST.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXRTTest.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): ACADF877364E2920B6D9DCD1F1C714F75104C6A3
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXRTTest.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSamsung.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 51857380953BEB08F567EC302C082D8A7086EDBA
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSamsung.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXShuttle.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 9931C8B9CF8BFE05CFB68A67E8CDAD6228640743
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXShuttle.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTACERAIO.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 18C98B998CE2C685358093E57DF90F2680368666
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTACERAIO.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTACERNB.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): C100A5D10C96CA6B3CD058B33B7C41A28EA071F3
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTACERNB.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTAMS.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 6D5F1432162C13E4BDD1E9106E9F61F3EFDC7EB9
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTAMS.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTAsrock.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 560C24DB741C5757F6C431AD6E3A711436591E4F
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTAsrock.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTASUS.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 2F8DC49BBC20E0EA3382A24CFE6A038BA670B222
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTASUS.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTClevo.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 3513C7F3E4BF8C37789FE0200B65F6A9BB01F853
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTClevo.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTHPAIO.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 5AFA2405B566A936897BF42E11BBEEB65B440756
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTHPAIO.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTHPAIO1.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): D50E2585B0E4D6D3D357F43673F4B44B4AC10794
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTHPAIO1.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTHPBNB.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 6FCD19D6179BC7D7E7F2C3D95297140A0DE505C8
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTHPBNB.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTHPNB.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 06858D0811307E67587ED5173E8722ABAFE25835
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTHPNB.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTHuawei.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 75A38C68D2F4B65B1CE1ED62B7601339353B2A2D
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTHuawei.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTINTEL.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 61932E55577A1F5B00A69FEAB7EA34E761F6CDA2
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTINTEL.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTIntelRVP.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 7239DE2335649F8963B53398DCA9121661F01BCA
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTIntelRVP.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTMI.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 5B79A0925F4363CCFEAB5D72B7E7A4AEFE5D6381
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTMI.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
+
+Verifying: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTPagatron.inf
+File is signed in catalog: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\hdxrt.cat
+Hash of file (sha1): 65DF9069D7B275CF6A373EF42109CFEC78F79241
+
+Signing Certificate Chain:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Windows Third Party Component CA 2012
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Mon Apr 19 07:58:38 2027
+        SHA1 hash: 77A10EBF07542725218CD83A01B521C57BC67F73
+
+            Issued to: Microsoft Windows Hardware Compatibility Publisher
+            Issued by: Microsoft Windows Third Party Component CA 2012
+            Expires:   Sat Sep 21 03:45:06 2019
+            SHA1 hash: 5FB840AB811BC4BAB5C3B996FB2CC426CCC99449
+
+The signature is timestamped: Thu Nov 08 16:26:35 2018
+Timestamp Verified by:
+    Issued to: Microsoft Root Certificate Authority 2010
+    Issued by: Microsoft Root Certificate Authority 2010
+    Expires:   Sun Jun 24 06:04:01 2035
+    SHA1 hash: 3B1EFD3A66EA28B16697394703A72CA340A05BD5
+
+        Issued to: Microsoft Time-Stamp PCA 2010
+        Issued by: Microsoft Root Certificate Authority 2010
+        Expires:   Wed Jul 02 05:46:55 2025
+        SHA1 hash: 2AA752FE64C49ABE82913C463529CF10FF2F04EE
+
+            Issued to: Microsoft Time-Stamp service
+            Issued by: Microsoft Time-Stamp PCA 2010
+            Expires:   Sun Nov 24 04:27:00 2019
+            SHA1 hash: 5BF7960971F674D20C1BC84F42E2334F151FBECC
+
+Successfully verified: D:\GitHub\realtek-universal-audio-driver\Test\Codec_8569\HDXSSTPagatron.inf
+
+Number of files successfully Verified: 1
+Number of warnings: 0
+Number of errors: 0
