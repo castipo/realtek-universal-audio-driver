@@ -8,8 +8,8 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider 	= %ManufacturerName%
 ExtensionId = {E8D8A0B2-27DC-420B-AD33-9E1DAE0D7D8C}
-CatalogFile = dax3_ext_dolbyaudiopremium.cat
-DriverVer = 10/09/2018,3.20200.230.0
+CatalogFile = dax3_ext_dolbyaudio.cat
+DriverVer = 11/08/2018,3.20200.231.0
 
 [Manufacturer]
 %ManufacturerName% = DeviceExtensions,NTamd64
@@ -49,7 +49,7 @@ AddComponent = DolbyAPO_DAX3HSA,, DolbyAPO_ComponentInstall_DAX3HSA
 ComponentIds = VEN_DOLBY&PID_DAX3APOSVC  ; Matches with SWC\VEN_DOLBY&PID_DAX3APOSVC
 
 [DolbyAPO_ComponentInstall_DAX3HSA]
-ComponentIds = VEN_DOLBY&PID_DAX3HSA_DolbyAudioPremium  ; Matches with SWC\VEN_DOLBY&PID_DAX3HSA_DolbyAudioPremium
+ComponentIds = VEN_DOLBY&PID_DAX3HSA_DolbyAudio  ; Matches with SWC\VEN_DOLBY&PID_DAX3HSA_DolbyAudio
 
 [SourceDisksNames]
 222="APO Installation Disk",,,
@@ -59,7 +59,7 @@ Operator_Info_Lenovo.xml = 222
 HDAUDIO_DEV_0257_SUBSYS_17AA381D_PCI_SUBSYS_381317AA.xml = 222
 HDAUDIO_DEV_0257_SUBSYS_17AA3828_PCI_SUBSYS_380217AA.xml = 222
 INTELAUDIO_DEV_0257_SUBSYS_17AA3811_PCI_SUBSYS_380717AA.xml = 222
-Headphone_Default_Generic_Default_DolbyAudioPremium.xml = 222
+Headphone_Default_Generic_Default_DolbyAudio.xml = 222
 
 [DestinationDirs]
 DolbyAPO_CopyFiles = 10,system32\dolbyaposvc
@@ -69,7 +69,7 @@ Operator_Info_Lenovo.xml
 HDAUDIO_DEV_0257_SUBSYS_17AA381D_PCI_SUBSYS_381317AA.xml
 HDAUDIO_DEV_0257_SUBSYS_17AA3828_PCI_SUBSYS_380217AA.xml
 INTELAUDIO_DEV_0257_SUBSYS_17AA3811_PCI_SUBSYS_380717AA.xml
-Headphone_Default_Generic_Default_DolbyAudioPremium.xml
+Headphone_Default_Generic_Default_DolbyAudio.xml
 
 [Strings]
 ManufacturerName 	= "Dolby"
