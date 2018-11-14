@@ -35,6 +35,7 @@ DRMLevel=1300
 %MfgName% = AzaliaManufacturerID, NTamd64.10.0...15063
 
 [AzaliaManufacturerID.NTamd64.10.0...15063]
+"Realtek Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_10280944
 "Realtek Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0899&SUBSYS_10280901
 "Realtek Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_1028076D
 "Realtek Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_1028076E

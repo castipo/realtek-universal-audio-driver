@@ -159,6 +159,7 @@ DRMLevel=1300
 "Realtek Audio"      = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10280939
 "Realtek Audio"      = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10280942
 "Realtek Audio"      = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10280943
+"Realtek Audio"      = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_1028093D
 
 [IntcAzAudModelCopyFiles]
 RTKVHD64.sys
