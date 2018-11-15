@@ -24,15 +24,7 @@ IF ERRORLEVEL 1 goto Codec
 CLS
 :Codec
 >output.txt (
-%signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXSSTSamsung.inf"
-%signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXSSTVAIO.inf"
-%signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXSSTWHITE.inf"
-%signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXToshiba.inf"
-%signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXVAIO.inf"
-%signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXWHITE.inf"
-%signtool% verify /v /pa /c %CodecCat% "%Codec%\RTAIODAT.DAT"
-%signtool% verify /v /pa /c %CodecCat% "%Codec%\RtEventLog.dll"
-%signtool% verify /v /pa /c %CodecCat% "%Codec%\RTKVHD64.sys"
+%signtool% verify /v /pa /c %CodecCat% "%Codec%\Alc5679fw.dat"
 %signtool% verify /v /pa /c %CodecCat% "%Codec%\amdacpksl.sys"
 %signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXACERAIO.inf"
 %signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXACERNB.inf"
@@ -53,6 +45,7 @@ CLS
 %signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXGigabyte.inf"
 %signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXHAPAcerNB.inf"
 %signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXHAPAMD.inf"
+%signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXHAPASUS.inf"
 %signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXHAPHPNB.inf"
 %signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXHAPLenovo.inf"
 %signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXHAPSamsung.inf"
@@ -72,6 +65,7 @@ CLS
 %signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXMSI.inf"
 %signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXNEC.inf"
 %signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXNECSST.inf"
+%signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXNECWov.inf"
 %signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXNexstGo.inf"
 %signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXNexstGoSST.inf"
 %signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXPagatron.inf"
@@ -98,6 +92,15 @@ CLS
 %signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXSSTIntelRVP.inf"
 %signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXSSTMI.inf"
 %signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXSSTPagatron.inf"
+%signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXSSTSamsung.inf"
+%signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXSSTVAIO.inf"
+%signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXSSTWHITE.inf"
+%signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXToshiba.inf"
+%signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXVAIO.inf"
+%signtool% verify /v /pa /c %CodecCat% "%Codec%\HDXWHITE.inf"
+%signtool% verify /v /pa /c %CodecCat% "%Codec%\RTAIODAT.DAT"
+%signtool% verify /v /pa /c %CodecCat% "%Codec%\RtEventLog.dll"
+%signtool% verify /v /pa /c %CodecCat% "%Codec%\RTKVHD64.sys"
 )
 pause
 GOTO Start
@@ -200,7 +203,7 @@ GOTO Start
 %signtool% verify /v /pa /c %AlexaConfigExtensionCat% "%AlexaConfigExtension%\AlexaHPConfigRTK.inf"
 %signtool% verify /v /pa /c %AlexaConfigExtensionCat% "%AlexaConfigExtension%\AlexaLenovoConfig.inf"
 %signtool% verify /v /pa /c %AlexaConfigExtensionCat% "%AlexaConfigExtension%\AlexaMSIConfig.inf"
-%signtool% verify /v /pa /c %AlexaConfigExtensionCat% "%AlexaConfigExtension%\AlexaNECConfig.inf"
+%signtool% verify /v /pa /c %AlexaConfigExtensionCat% "%AlexaConfigExtension%\AlexaFujitsuConfig.inf"
 %signtool% verify /v /pa /c %AlexaConfigExtensionCat% "%AlexaConfigExtension%\AlexaPagatronConfig.inf"
 %signtool% verify /v /pa /c %AlexaConfigExtensionCat% "%AlexaConfigExtension%\AlexaWhiteConfig.inf"
 %signtool% verify /v /pa /c %AlexaConfigExtensionCat% "%AlexaConfigExtension%\AlexaLenovoNConfig.inf"
