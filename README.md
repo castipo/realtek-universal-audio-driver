@@ -2,6 +2,8 @@
 
 #### Repository Updated: 15/11/2018
 
+A repository for download the lastest UAD component from Realtek FTP server.
+
 ---------------------------------------
 
 ## Table of Contents
