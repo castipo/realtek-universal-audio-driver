@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %Provider%
 ExtensionId = {1b98ef90-ca0e-11e7-8f1a-0800200c9a66}
-DriverVer = 09/25/2018,1.1.0.53882
+DriverVer = 11/12/2018,1.1.2.54785
 CatalogFile = AVoluteSS3Ext.cat
 
 [SourceDisksNames]
@@ -55,9 +55,12 @@ SS3ProductSettings.cab
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0900&SUBSYS_104321D0
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_10431701
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1168&SUBSYS_1043879F
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431251
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_10431011
-
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431871
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_1043182E
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_1043184E
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_1043183E
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431881
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_10431011
 
 [DeviceExtension_Install]
 CopyFiles = AVoluteProdSettings.CopyList

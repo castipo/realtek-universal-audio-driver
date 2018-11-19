@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %Provider%
 ExtensionId = {E969E26C-9DF8-CE1A-C84A-19CF8594A15A}
-DriverVer = 10/29/2018,1.0.3.54475
+DriverVer = 11/09/2018,1.0.4.54743
 CatalogFile = AVoluteNH3Ext.cat
 
 [SourceDisksNames]
