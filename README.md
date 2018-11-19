@@ -2,7 +2,7 @@
 
 #### Repository Updated: 15/11/2018
 
-A non-official repository for download the lastest UAD component from Realtek FTP server.
+A non-official repository for downloading the lastest UAD components from Realtek FTP server.
 
 ---------------------------------------
 
