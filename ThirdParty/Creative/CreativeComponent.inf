@@ -3,7 +3,7 @@ Signature   = "$WINDOWS NT$"
 Class       = SoftwareComponent
 ClassGuid   = {5c4c3332-344d-483c-8739-259e934c9cc8}
 Provider    = %Creative%
-DriverVer = 10/31/2018,2.0.0.27
+DriverVer = 11/13/2018,2.0.0.28
 CatalogFile = CreativeComponent.cat
 
 [SourceDisksNames]
