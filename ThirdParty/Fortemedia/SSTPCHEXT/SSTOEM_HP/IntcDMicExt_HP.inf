@@ -5,7 +5,7 @@ ClassGuid={e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider=Fortemedia
 ExtensionId = {6BB685A9-87AA-4BE8-A345-055DB3E4452A}
 CatalogFile=IntcDMicExt.cat
-DriverVer = 09/20/2018,09.21.3229.18
+DriverVer = 10/05/2018,09.21.3229.19
 
 [Manufacturer]
 Intel(R) Corporation = Intel, NTAMD64.10.0...16273
@@ -60,9 +60,12 @@ HKR,"FX\\0",%PKEY_MFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%A
 HKR,"FX\\0",%PKEY_EFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%,%AUDIO_SIGNALPROCESSINGMODE_SPEECH%
 HKR,"FX\\0",%PKEY_MFX_KeywordDetector_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%,%AUDIO_SIGNALPROCESSINGMODE_SPEECH%
 ;HKR,"FX\\0",%PKEY_BYPASS_TP_EFFECTS%,%REG_DWORD%,0x1
-HKR,"FX\\0",%K2_ID%,0x00010001,0x03
+HKR,"FX\\0",%K2_ID%,0x00010001,0x01
 HKR,"FX\\0",%K51_ID%,0x00010001,0x32
-HKR,"FX\\0",%K7_ID%,0x00010001,0x800100
+HKR,"FX\\0",%K7_ID%,0x00010001,0x860000
+HKR,"FX\\0",%BACK_K2_ID%,0x00010001,0x01
+HKR,"FX\\0",%BACK_K7_ID%,0x00010001,0x860000
+
 HKR,"EP\\0", %PKEY_AudioEndpoint_Default_VolumeInDb%, 0x00010001, 0x140000
 
 [FortemediaSstPpDll.AddReg]
@@ -73,11 +76,17 @@ HKR,"EP\\0", %PKEY_AudioEndpoint_Default_VolumeInDb%, 0x00010001, 0x140000
 ;HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ForceSwWov",%REG_DWORD%,0x00000001
 ;HKLM,SYSTEM\CurrentControlSet\Services\IntcOED\Parameters,"VADAPIMode",%REG_DWORD%,0x00000001
 
-HKR,"GlobalSettings","FakeVolumeNodeEnable",REG_BINARY,01,00,00,00
-HKR,"GlobalSettings","MinimumFakeVolume",REG_BINARY,00,00,A0,FF
-HKR,"GlobalSettings","MaximumFakeVolume",REG_BINARY,00,00,00,00
-HKR,"GlobalSettings","DefaultFakeVolume",REG_BINARY,00,00,00,00
-HKR,"GlobalSettings","StepFakeVolume",REG_BINARY,00,80,00,00
+;HKR,"GlobalSettings","FakeVolumeNodeEnable",REG_BINARY,01,00,00,00
+;HKR,"GlobalSettings","MinimumFakeVolume",REG_BINARY,00,00,A0,FF
+;HKR,"GlobalSettings","MaximumFakeVolume",REG_BINARY,00,00,00,00
+;HKR,"GlobalSettings","DefaultFakeVolume",REG_BINARY,00,00,00,00
+;HKR,"GlobalSettings","StepFakeVolume",REG_BINARY,00,80,00,00
+
+HKR,GlobalSettings,FakeVolumeNodeEnable,1,01,00,00,00
+HKR,GlobalSettings,MinimumFakeVolume,1,00,00,00,00
+HKR,GlobalSettings,MaximumFakeVolume,1,00,00,06,00
+HKR,GlobalSettings,DefaultFakeVolume,1,00,00,06,00
+HKR,GlobalSettings,StepFakeVolume,1,00,80,00,00
 
 ;Second stage pre-processing configuration
 ;HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"secondStagePpDllConfigurationFile",...
@@ -178,6 +187,9 @@ KSNODETYPE_ANY = "{00000000-0000-0000-0000-000000000000}"
 K2_ID = "{2b24be42-a892-11dc-8314-0800200c9a66},2"
 K7_ID = "{2b24be42-a892-11dc-8314-0800200c9a66},7"
 K51_ID = "{2b24be42-a892-11dc-8314-0800200c9a66},51"
+;NewK7_ID = "{BE73ED5B-FC1C-4875-AC4F-833FFF79CDAA},7"
+BACK_K2_ID = "{BE73ED5B-FC1C-4875-AC4F-833FFF79CDAA},102"
+BACK_K7_ID = "{BE73ED5B-FC1C-4875-AC4F-833FFF79CDAA},107"
 
 REG_SZ = 0
 REG_BINARY = 0x00000001
