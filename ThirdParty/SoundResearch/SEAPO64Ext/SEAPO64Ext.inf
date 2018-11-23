@@ -4,7 +4,7 @@ Signature="$WINDOWS NT$"
 Class=Extension
 ClassGuid={e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider=%ProviderName%
-DriverVer=11/20/2018,15.42.72.2121
+DriverVer=11/21/2018,15.42.80.4502
 CatalogFile=SEAPO64Ext.cat
 
 [SourceDisksNames]
@@ -307,10 +307,10 @@ SEAPODAT.INTELAUDIO.FUNC_01&VEN_10EC&DEV_0298.zip,,,0x00000800
 %Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C850B
 %Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C85E2 
 %Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C85E3 
-%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C85E4 
-%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C85E5 
 %Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C85E6 
 %Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C85E7 
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C85E4 
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C85E5 
 %Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C8514
 %Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C8515
 %Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C8518
@@ -375,7 +375,7 @@ AddReg=SEAPO.AddReg
 AddComponent = SEAPO,,SEAPO_Install
 
 [SEAPO_Install]
-ComponentIDs=VEN_0A2E&AID_0001&VER_02000827 
+ComponentIDs=VEN_0A2E&AID_0001&VER_02000836 
 Description="Sound Research Audio Effects Component"
 
 [SEAPO.AddReg]
