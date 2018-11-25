@@ -4,6 +4,8 @@
 
 A non-official repository for downloading the lastest UAD components from Realtek FTP server.
 
+Wiki: https://github.com/alanfox2000/realtek-universal-audio-driver/wiki
+
 ---------------------------------------
 
 <h2 id="lastest-info">Lastest Infomation</h2>
