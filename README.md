@@ -33,7 +33,7 @@ Operating System: At least Windows 10 Version 1703 RS2 Build 15063 (64 Bit)
 ---------------------------------------
 ## Notice
 
-If your PC had preinstalled HDA driver with a desktop version (non-UWP) of audio enhancers, UAD will not work with that desktop version of audio enhancer(s).
+If your PC had preinstalled HDA driver with a desktop version (non-UWP) of audio enhancers, UAD will not work with that desktop platform of audio enhancer(s).
 
 Realtek HD Audio Codec Driver Patcher (A1) by Pihto (DTSi &DLL unlock) do not work on UAD
 
