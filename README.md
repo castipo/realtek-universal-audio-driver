@@ -6,9 +6,13 @@ A non-official repository for downloading the lastest UAD components from Realte
 
 Wiki: https://github.com/alanfox2000/realtek-universal-audio-driver/wiki
 
+## Requirement
+
+Operating System: At least Windows 10 Version 1703 RS2 Build 15063 (64 Bit)
+
 ---------------------------------------
 
-<h2 id="lastest-info">Lastest Infomation</h2>
+## Lastest Infomation
 
 * <a href="https://www.station-drivers.com/index.php?option=com_kunena&view=topic&catid=18&id=17&Itemid=858&lang=en">Station-Drivers - [DRIVERS] Realtek High Definition Audio Codecs (HDA/UAD)</a>
 
@@ -23,7 +27,7 @@ Wiki: https://github.com/alanfox2000/realtek-universal-audio-driver/wiki
 * <a href="https://rsload.net/soft/21650-realtek-high-definition-audio-drivers.html">RSLOAD.NET - Realtek High Definition Audio Drivers</a>
 
 ---------------------------------------
-<h2 id="notice">Notice</h2>
+## Notice
 
 If your PC had preinstalled HDA driver with a desktop version (non-UWP) of audio enhancers, UAD will not work with that desktop version of audio enhancers.
 
