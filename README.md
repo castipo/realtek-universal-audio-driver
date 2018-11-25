@@ -37,5 +37,5 @@ This repository does not include Intel Smart Sound Technology which included wit
 
 If your PC had preinstalled HDA driver with a desktop platform (non-UWP) of audio enhancers, UAD will not work with that desktop platform of audio enhancer(s).
 
-Realtek HD Audio Codec Driver Patcher (A1) by Pihto (DTSi &DLL unlock) do not work on UAD
+Realtek HD Audio Codec Driver Patcher (A1) by Pihto (DTSi &DLL unlock) does not work on UAD.
 
