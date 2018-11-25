@@ -6,6 +6,8 @@ A non-official repository for downloading the lastest UAD components from Realte
 
 Wiki: https://github.com/alanfox2000/realtek-universal-audio-driver/wiki
 
+UAD and legacy HDA standalone packages can be found at [this repository](https://github.com/alanfox2000/realtek-hda-release).
+
 ---------------------------------------
 
 ## Requirement
