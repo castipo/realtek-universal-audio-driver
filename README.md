@@ -6,6 +6,8 @@ A non-official repository for downloading the lastest UAD components from Realte
 
 Wiki: https://github.com/alanfox2000/realtek-universal-audio-driver/wiki
 
+---------------------------------------
+
 ## Requirement
 
 Operating System: At least Windows 10 Version 1703 RS2 Build 15063 (64 Bit)
