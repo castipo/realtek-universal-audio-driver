@@ -33,7 +33,7 @@ Operating System: At least Windows 10 Version 1703 RS2 Build 15063 (64 Bit)
 ---------------------------------------
 ## Notice
 
-This repository do not include Intel(R) Smart Sound Technology which included with some UAD standalone packages.
+This repository does not include Intel(R) Smart Sound Technology which included with some UAD standalone packages.
 
 If your PC had preinstalled HDA driver with a desktop version (non-UWP) of audio enhancers, UAD will not work with that desktop platform of audio enhancer(s).
 
