@@ -1,5 +1,5 @@
 @echo off
-set signtool="C:\Program Files (x86)\Windows Kits\10\bin\10.0.17134.0\x64\signtool.exe"
+set signtool="C:\Program Files (x86)\Windows Kits\10\bin\10.0.17763.0\x64\signtool.exe"
 set /p Ver=Enter Version: 
 set CodecExtOem_RTK_INTEL.PCH=%~dp0Test\CodecExtOem_RTK_INTEL.PCH_%Ver%
 set CodecExtOem_RTK_INTEL.PCHCat="%~dp0Test\CodecExtOem_RTK_INTEL.PCH_%Ver%\intcdmicext.cat"
