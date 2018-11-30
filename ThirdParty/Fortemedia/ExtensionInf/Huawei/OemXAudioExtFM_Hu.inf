@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {86F65302-34A5-441C-8E16-C05C2D9E6151}
-DriverVer   = 11/01/2018,1.0.3.53
+DriverVer   = 11/09/2018,1.0.3.54
 CatalogFile = OemXAudioExt_fm.cat
 
 [SourceDisksNames]
@@ -45,6 +45,10 @@ SAMSfpa_19E5321B10EC0256.dat=222
 SAMSfpa_19E5321C10EC0256.dat=222
 SAMSfpa_19E5321D10EC0256.dat=222
 SAMSfpa_19E5321E10EC0256.dat=222
+SAMSfpa_19E5322110EC0256.dat=222
+SAMSfpa_19E5322210EC0256.dat=222
+SAMSfpa_19E5322310EC0256.dat=222
+SAMSfpa_19E5322410EC0256.dat=222
 RTMICAR_19E5320A.dat=222
 RTMICAR_19E5320B.dat=222
 RTMICAR_19E53202.dat=222
@@ -74,6 +78,10 @@ RTMICAR_19E5321B10EC0256.dat=222
 RTMICAR_19E5321C10EC0256.dat=222
 RTMICAR_19E5321D10EC0256.dat=222
 RTMICAR_19E5321E10EC0256.dat=222
+RTMICAR_19E5322110EC0256.dat=222
+RTMICAR_19E5322210EC0256.dat=222
+RTMICAR_19E5322310EC0256.dat=222
+RTMICAR_19E5322410EC0256.dat=222
 SAMSfpi_19E53211.dat=222
 SAMSfpi_19E53212.dat=222
 SAMSfpi_19E5330010EC0256.dat=222
@@ -86,7 +94,20 @@ SAMSfpi_19E5321710EC0256.dat=222
 SAMSfpi_19E5321810EC0256.dat=222
 SAMSfpi_19E5321D10EC0256.dat=222
 SAMSfpi_19E5321E10EC0256.dat=222
+SAMSfpi_19E5322110EC0256.dat=222
+SAMSfpi_19E5322210EC0256.dat=222
+SAMSfpi_19E5322310EC0256.dat=222
+SAMSfpi_19E5322410EC0256.dat=222
 configuration_19E53E0A10EC0256.tf=222
+configuration_19E5321310EC0256.tf=222
+configuration_19E5321410EC0256.tf=222
+configuration_19E5321510EC0256.tf=222
+configuration_19E5321610EC0256.tf=222
+configuration_19E5322110EC0256.tf=222
+configuration_19E5322210EC0256.tf=222
+configuration_19E5322310EC0256.tf=222
+configuration_19E5322410EC0256.tf=222
+
 
 [DestinationDirs]
 FMDAT_19E53206.CopyList = 12 ; %windir%\system32\drivers
@@ -123,6 +144,10 @@ FMDAT_19E5321B10EC0256.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_19E5321C10EC0256.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_19E5321D10EC0256.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_19E5321E10EC0256.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_19E5322110EC0256.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_19E5322210EC0256.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_19E5322310EC0256.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_19E5322410EC0256.CopyList = 12 ; %windir%\system32\drivers
 FMPPDAT_19E53211.CopyList = 11 ; %windir%\system32
 FMPPDAT_19E53212.CopyList = 11 ; %windir%\system32
 FMPPDAT_19E5330010EC0256.CopyList = 11 ; %windir%\system32
@@ -135,6 +160,10 @@ FMPPDAT_19E5321710EC0256.CopyList = 11 ; %windir%\system32
 FMPPDAT_19E5321810EC0256.CopyList = 11 ; %windir%\system32
 FMPPDAT_19E5321D10EC0256.CopyList = 11 ; %windir%\system32
 FMPPDAT_19E5321E10EC0256.CopyList = 11 ; %windir%\system32
+FMPPDAT_19E5322110EC0256.CopyList = 11 ; %windir%\system32
+FMPPDAT_19E5322210EC0256.CopyList = 11 ; %windir%\system32
+FMPPDAT_19E5322310EC0256.CopyList = 11 ; %windir%\system32
+FMPPDAT_19E5322410EC0256.CopyList = 11 ; %windir%\system32
 
 
 [FMDAT_19E53206.CopyList]
@@ -268,6 +297,22 @@ RTMICAR.dat, RTMICAR_19E5321D10EC0256.dat
 SAMSfpa.dat, SAMSfpa_19E5321E10EC0256.dat
 RTMICAR.dat, RTMICAR_19E5321E10EC0256.dat
 
+[FMDAT_19E5322110EC0256.CopyList]
+SAMSfpa.dat, SAMSfpa_19E5322110EC0256.dat
+RTMICAR.dat, RTMICAR_19E5322110EC0256.dat
+
+[FMDAT_19E5322210EC0256.CopyList]
+SAMSfpa.dat, SAMSfpa_19E5322210EC0256.dat
+RTMICAR.dat, RTMICAR_19E5322210EC0256.dat
+
+[FMDAT_19E5322310EC0256.CopyList]
+SAMSfpa.dat, SAMSfpa_19E5322310EC0256.dat
+RTMICAR.dat, RTMICAR_19E5322310EC0256.dat
+
+[FMDAT_19E5322410EC0256.CopyList]
+SAMSfpa.dat, SAMSfpa_19E5322410EC0256.dat
+RTMICAR.dat, RTMICAR_19E5322410EC0256.dat
+
 [FMPPDAT_19E53211.CopyList]
 SAMSfpi.dat, SAMSfpi_19E53211.dat
 
@@ -279,15 +324,19 @@ SAMSfpi.dat, SAMSfpi_19E5330010EC0256.dat
 
 [FMPPDAT_19E5321310EC0256.CopyList]
 SAMSfpi.dat, SAMSfpi_19E5321310EC0256.dat
+configuration.tf, configuration_19E5321310EC0256.tf
 
 [FMPPDAT_19E5321410EC0256.CopyList]
 SAMSfpi.dat, SAMSfpi_19E5321410EC0256.dat
+configuration.tf, configuration_19E5321410EC0256.tf
 
 [FMPPDAT_19E5321510EC0256.CopyList]
 SAMSfpi.dat, SAMSfpi_19E5321510EC0256.dat
+configuration.tf, configuration_19E5321510EC0256.tf
 
 [FMPPDAT_19E5321610EC0256.CopyList]
 SAMSfpi.dat, SAMSfpi_19E5321610EC0256.dat
+configuration.tf, configuration_19E5321610EC0256.tf
 
 [FMPPDAT_19E53E0A10EC0256.CopyList]
 SAMSfpi.dat, SAMSfpi_19E53E0A10EC0256.dat
@@ -304,6 +353,22 @@ SAMSfpi.dat, SAMSfpi_19E5321D10EC0256.dat
 
 [FMPPDAT_19E5321E10EC0256.CopyList]
 SAMSfpi.dat, SAMSfpi_19E5321E10EC0256.dat
+
+[FMPPDAT_19E5322110EC0256.CopyList]
+SAMSfpi.dat, SAMSfpi_19E5322110EC0256.dat
+configuration.tf, configuration_19E5322110EC0256.tf
+
+[FMPPDAT_19E5322210EC0256.CopyList]
+SAMSfpi.dat, SAMSfpi_19E5322210EC0256.dat
+configuration.tf, configuration_19E5322210EC0256.tf
+
+[FMPPDAT_19E5322310EC0256.CopyList]
+SAMSfpi.dat, SAMSfpi_19E5322310EC0256.dat
+configuration.tf, configuration_19E5322310EC0256.tf
+
+[FMPPDAT_19E5322410EC0256.CopyList]
+SAMSfpi.dat, SAMSfpi_19E5322410EC0256.dat
+configuration.tf, configuration_19E5322410EC0256.tf
 
 
 [Manufacturer]
@@ -345,6 +410,10 @@ SAMSfpi.dat, SAMSfpi_19E5321E10EC0256.dat
 %Device.ExtensionDesc% = DeviceExtension_Install_19E5321C10EC0256,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E5321C
 %Device.ExtensionDesc% = DeviceExtension_Install_19E5321D10EC0256,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E5321D
 %Device.ExtensionDesc% = DeviceExtension_Install_19E5321E10EC0256,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E5321E
+%Device.ExtensionDesc% = DeviceExtension_Install_19E5322110EC0256,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53221
+%Device.ExtensionDesc% = DeviceExtension_Install_19E5322210EC0256,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53222
+%Device.ExtensionDesc% = DeviceExtension_Install_19E5322310EC0256,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53223
+%Device.ExtensionDesc% = DeviceExtension_Install_19E5322410EC0256,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53224
 
 
 [DeviceExtension_Install_19E53206]
@@ -511,7 +580,7 @@ AddReg = FortemediaSstPpDllNoTf.AddReg
 CopyFiles = FMDAT_19E5321310EC0256.CopyList, FMPPDAT_19E5321310EC0256.CopyList
 AddReg = CortanaKey_19E5321310EC0256_AddReg
 AddReg = PresetAddReg
-AddReg = FortemediaSstPpDllNoTf.AddReg
+AddReg = FortemediaSstPpDll.AddReg
 
 [DeviceExtension_Install_19E5321310EC0256.HW]
 
@@ -519,7 +588,7 @@ AddReg = FortemediaSstPpDllNoTf.AddReg
 CopyFiles = FMDAT_19E5321410EC0256.CopyList, FMPPDAT_19E5321410EC0256.CopyList
 AddReg = CortanaKey_19E5321410EC0256_AddReg
 AddReg = PresetAddReg
-AddReg = FortemediaSstPpDllNoTf.AddReg
+AddReg = FortemediaSstPpDll.AddReg
 
 [DeviceExtension_Install_19E5321410EC0256.HW]
 
@@ -527,7 +596,7 @@ AddReg = FortemediaSstPpDllNoTf.AddReg
 CopyFiles = FMDAT_19E5321510EC0256.CopyList, FMPPDAT_19E5321510EC0256.CopyList
 AddReg = CortanaKey_19E5321510EC0256_AddReg
 AddReg = PresetAddReg
-AddReg = FortemediaSstPpDllNoTf.AddReg
+AddReg = FortemediaSstPpDll.AddReg
 
 [DeviceExtension_Install_19E5321510EC0256.HW]
 
@@ -535,7 +604,7 @@ AddReg = FortemediaSstPpDllNoTf.AddReg
 CopyFiles = FMDAT_19E5321610EC0256.CopyList, FMPPDAT_19E5321610EC0256.CopyList
 AddReg = CortanaKey_19E5321610EC0256_AddReg
 AddReg = PresetAddReg
-AddReg = FortemediaSstPpDllNoTf.AddReg
+AddReg = FortemediaSstPpDll.AddReg
 
 [DeviceExtension_Install_19E5321610EC0256.HW]
 
@@ -606,6 +675,38 @@ AddReg = PresetAddReg
 AddReg = FortemediaSstPpDllNoTf.AddReg
 
 [DeviceExtension_Install_19E5321E10EC0256.HW]
+
+[DeviceExtension_Install_19E5322110EC0256]
+CopyFiles = FMDAT_19E5322110EC0256.CopyList, FMPPDAT_19E5322110EC0256.CopyList
+AddReg = CortanaKey_19E5322110EC0256_AddReg
+AddReg = PresetAddReg
+AddReg = FortemediaSstPpDll.AddReg
+
+[DeviceExtension_Install_19E5322110EC0256.HW]
+
+[DeviceExtension_Install_19E5322210EC0256]
+CopyFiles = FMDAT_19E5322210EC0256.CopyList, FMPPDAT_19E5322210EC0256.CopyList
+AddReg = CortanaKey_19E5322210EC0256_AddReg
+AddReg = PresetAddReg
+AddReg = FortemediaSstPpDll.AddReg
+
+[DeviceExtension_Install_19E5322210EC0256.HW]
+
+[DeviceExtension_Install_19E5322310EC0256]
+CopyFiles = FMDAT_19E5322310EC0256.CopyList, FMPPDAT_19E5322310EC0256.CopyList
+AddReg = CortanaKey_19E5322310EC0256_AddReg
+AddReg = PresetAddReg
+AddReg = FortemediaSstPpDll.AddReg
+
+[DeviceExtension_Install_19E5322310EC0256.HW]
+
+[DeviceExtension_Install_19E5322410EC0256]
+CopyFiles = FMDAT_19E5322410EC0256.CopyList, FMPPDAT_19E5322410EC0256.CopyList
+AddReg = CortanaKey_19E5322410EC0256_AddReg
+AddReg = PresetAddReg
+AddReg = FortemediaSstPpDll.AddReg
+
+[DeviceExtension_Install_19E5322410EC0256.HW]
 
 ;[FriendlyName_AddReg]
 ;HKR,,FriendlyName,,%ExtendedFriendlyName%
@@ -712,6 +813,18 @@ AddComponent = FMAPO,,FMAPO_Install
 [DeviceExtension_Install_19E5321E10EC0256.Components]
 AddComponent = FMAPO,,FMAPO_Install
 
+[DeviceExtension_Install_19E5322110EC0256.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_19E5322210EC0256.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_19E5322310EC0256.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_19E5322410EC0256.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
 [PresetAddReg]
 HKR,InterfaceSetting,RtMicInTopo,0x10008,"FMAPOPreset1"
 HKR,InterfaceSetting,RtFrontMicInTopo,0x10008,"FMAPOPreset1"
@@ -789,16 +902,16 @@ HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
 
 [CortanaKey_19E5321310EC0256_AddReg]
-HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 
 [CortanaKey_19E5321410EC0256_AddReg]
-HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 
 [CortanaKey_19E5321510EC0256_AddReg]
-HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 
 [CortanaKey_19E5321610EC0256_AddReg]
-HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 
 [CortanaKey_19E53E0A10EC0256_AddReg]
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
@@ -826,6 +939,18 @@ HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
 
 [CortanaKey_19E5321E10EC0256_AddReg]
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
+
+[CortanaKey_19E5322110EC0256_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_19E5322210EC0256_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_19E5322310EC0256_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_19E5322410EC0256_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 
 [Strings]
 OEM                  = "Fortemeida"
