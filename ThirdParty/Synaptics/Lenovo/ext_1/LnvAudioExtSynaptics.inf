@@ -1,0 +1,336 @@
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = Extension
+ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Provider    = %OEM%
+ExtensionId = {D5444778-E388-4B40-BD02-A54D3DD86172}
+DriverVer   = 11/27/2018,1.3.0.0
+CatalogFile = LnvAudioExtSynaptics.cat
+
+[SourceDisksNames]
+222 = %DiskId1%
+
+[SourceDisksFiles]
+cxapo.prop=222
+cxapo_17AA3812_Rev0003.prop=222
+CxSfPt.dat=222
+CxSfPt.17AA3812_Rev0001.DAT=222
+RTMICAR_17AA3812.DAT=222
+S540-15_AoW_Near_Field_20181116.tf=222
+
+[DestinationDirs]
+CNXT_Prop.CopyList = 11 ; %%SystemRoot%%\system32
+CNXT_Tuning.CopyList = 12 ; %SystemRoot%\system32\drivers
+CNXT_PropTuning3812.CopyList = 11 ; %%SystemRoot%%\system32
+CNXT_Tuning3812.CopyList = 12 ; %%SystemRoot%%\system32
+NHLT.CopyList = 10, system32\cAVS
+
+[CNXT_Prop.CopyList]
+cxapo.prop
+
+[CNXT_PropTuning3812.CopyList]
+cxapo.prop, cxapo_17AA3812_Rev0003.prop,,
+S540-15_AoW_Near_Field_20181116.tf
+
+[CNXT_Tuning.CopyList]
+CxSfPt.dat
+
+[CNXT_Tuning3812.CopyList]
+CxSfPt.dat, CxSfPt.17AA3812_Rev0001.DAT,, 
+RTMICAR.DAT, RTMICAR_17AA3812.DAT,,
+
+[NHLT.CopyList]
+
+[Manufacturer]
+%OEM% = DeviceExtensions,NTamd64
+
+[DeviceExtensions.NTamd64]
+%Device.ExtensionDesc% = DeviceExtension3812_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3812 ;;S540-15
+
+[DeviceExtension3812_Install]
+CopyFiles = CNXT_Tuning3812.CopyList, CNXT_PropTuning3812.CopyList
+AddReg = PresetAddReg, FriendlyName_AddReg, AlexaConfig.AddReg, Cortana3812.AddReg
+
+[DeviceExtension3812_Install.Components]
+AddComponent = ConexantAPO,,ConexantAPO_Install
+
+
+; Only My Voice
+[PresetAddReg]
+;; capture endpoint settings
+HKR,InterfaceSetting,RearMicInBlackTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                  ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInGreyTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                   ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInBlueTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                   ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInGreenTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                  ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInRedTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                    ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInOrangeTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInYellowTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInPurpleTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInPinkTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                   ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInGoldenTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInSilverTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInWhiteTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                  ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInBlackTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInGreyTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                  ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInBlueTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                  ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInGreenTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInRedTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                   ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInOrangeTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInYellowTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInPurpleTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInPinkTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                  ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInGoldenTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInSilverTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInWhiteTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RtMicInTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                         ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RtFrontMicInTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                    ;; stands for Microphone endpoint
+HKR,InterfaceSetting,DigitalMICTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                      ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RtMicArTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                         ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RtMicInSSTTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                      ;; stands for Microphone endpoint with Intel WOV DSP supported
+
+;; Preset values in property store
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2000",%REG_DWORD%,0x0 ; Disable Bypass mode
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2001",%REG_DWORD%,0x3 ; Only My Voice - VoIP mode
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2002",%REG_DWORD%,0x0 ; FFP- None mode
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2003",%REG_DWORD%,0x0 ; Focused Narrow mode
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2004",%REG_DWORD%,0x1 ; AEC on
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2005",%REG_DWORD%,0x1 ; SSP on
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2006",%REG_DWORD%,0x1a0000 ; Mic bypass gain
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2015",%REG_DWORD%,0x1 ; Hide AEC/NS/BF effects list when chaining in EFX to avoid WHQL issues
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},3000",%REG_DWORD%,0x0001 ; Enable ONLY_MY_VOICE Mode by default
+
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{FE710D99-0EE4-4A3E-A109-7993BF8D6CCD},5"   , %REG_DWORD%, 0x0000	 ; Do not disable DSP
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{FE710D99-0EE4-4A3E-A109-7993BF8D6CCD},100" , %REG_DWORD%, 0x0004	 ; Only my voice
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{FE710D99-0EE4-4A3E-A109-7993BF8D6CCD},18",%REG_DWORD%, 0x0000	 ; Reload prop file
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{FE710D99-0EE4-4A3E-A109-7993BF8D6CCD},38",%REG_DWORD%, 0x0001 	 ; External Mic bypass DSP
+
+;; render endpoint settings
+HKR,InterfaceSetting,RearLineOutTopo,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,PrimaryLineOutTopo,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,SingleLineOutTopo,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,SecondaryLineOutTopo,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,FrontPanelHeadphoneTopo,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,RearLineOutTopoSST,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,RearLineOutTopoSST2,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,RearLineOutTopoSST3,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,RearLineOutTopoDock,0x10008,"CNXTCustomizedRenderFx"
+
+;; Preset values in property store
+HKR,InterfaceSetting\CNXTCustomizedRenderFx\FX\0, "{fe710d99-0ee4-4a3e-a109-7993bf8d6ccd},5",%REG_DWORD%,0x1 ; PKEY_DSP_COMMAND_DisableDSP for CapAPO.
+
+; Conference
+[PresetConferenceAddReg]
+;; capture endpoint settings
+HKR,InterfaceSetting,RearMicInBlackTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                  ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInGreyTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                   ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInBlueTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                   ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInGreenTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                  ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInRedTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                    ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInOrangeTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInYellowTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInPurpleTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInPinkTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                   ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInGoldenTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInSilverTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInWhiteTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                  ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInBlackTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInGreyTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                  ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInBlueTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                  ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInGreenTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInRedTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                   ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInOrangeTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInYellowTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInPurpleTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInPinkTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                  ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInGoldenTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInSilverTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInWhiteTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RtMicInTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                         ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RtFrontMicInTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                    ;; stands for Microphone endpoint
+HKR,InterfaceSetting,DigitalMICTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                      ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RtMicArTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                         ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RtMicInSSTTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                      ;; stands for Microphone endpoint with Intel WOV DSP supported
+
+;; Preset values in property store
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2000",%REG_DWORD%,0x0 ; Disable Bypass mode
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2001",%REG_DWORD%,0x2 ; Conference - VoIP mode
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2002",%REG_DWORD%,0x1 ; FFP- None mode
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2003",%REG_DWORD%,0x1 ; Focused Narrow mode
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2004",%REG_DWORD%,0x1 ; AEC on
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2005",%REG_DWORD%,0x1 ; SSP on
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2006",%REG_DWORD%,0x1a0000 ; Mic bypass gain
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2015",%REG_DWORD%,0x1 ; Hide AEC/NS/BF effects list when chaining in EFX to avoid WHQL issues
+
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},3000",%REG_DWORD%,0x0002 ; Enable Multi-voices Mode by default
+
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{FE710D99-0EE4-4A3E-A109-7993BF8D6CCD},5"   , %REG_DWORD%, 0x0000	 ; Do not disable DSP
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{FE710D99-0EE4-4A3E-A109-7993BF8D6CCD},100" , %REG_DWORD%, 0x0003	 ; Multiple Voice
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{FE710D99-0EE4-4A3E-A109-7993BF8D6CCD},18",%REG_DWORD%, 0x0000 ; Reload prop file
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{FE710D99-0EE4-4A3E-A109-7993BF8D6CCD},38",%REG_DWORD%, 0x0001 ; External Mic bypass DSP
+
+;; render endpoint settings
+HKR,InterfaceSetting,RearLineOutTopo,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,PrimaryLineOutTopo,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,SingleLineOutTopo,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,SecondaryLineOutTopo,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,FrontPanelHeadphoneTopo,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,RearLineOutTopoSST,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,RearLineOutTopoSST2,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,RearLineOutTopoSST3,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,RearLineOutTopoDock,0x10008,"CNXTCustomizedRenderFx"
+
+;; Preset values in property store
+HKR,InterfaceSetting\CNXTCustomizedRenderFx\FX\0, "{fe710d99-0ee4-4a3e-a109-7993bf8d6ccd},5",%REG_DWORD%,0x1 ; PKEY_DSP_COMMAND_DisableDSP for CapAPO.
+
+; Mono
+[PresetMonoAddReg]
+;; capture endpoint settings
+HKR,InterfaceSetting,RearMicInBlackTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                  ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInGreyTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                   ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInBlueTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                   ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInGreenTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                  ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInRedTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                    ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInOrangeTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInYellowTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInPurpleTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInPinkTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                   ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInGoldenTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInSilverTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInWhiteTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                  ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInBlackTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInGreyTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                  ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInBlueTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                  ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInGreenTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInRedTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                   ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInOrangeTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInYellowTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInPurpleTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInPinkTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                  ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInGoldenTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInSilverTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInWhiteTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RtMicInTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                         ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RtFrontMicInTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                    ;; stands for Microphone endpoint
+HKR,InterfaceSetting,DigitalMICTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                      ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RtMicArTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                         ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RtMicInSSTTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                      ;; stands for Microphone endpoint with Intel WOV DSP supported
+
+;; Preset values in property store
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2000",%REG_DWORD%,0x0 ; Disable Bypass mode
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2001",%REG_DWORD%,0x4 ; Mono mode
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2002",%REG_DWORD%,0x0 ; FFP- None mode
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2003",%REG_DWORD%,0x0 ; Focused Narrow mode
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2004",%REG_DWORD%,0x1 ; AEC on
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2005",%REG_DWORD%,0x1 ; SSP on
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2006",%REG_DWORD%,0x1a0000 ; Mic bypass gain
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2015",%REG_DWORD%,0x1 ; Hide AEC/NS/BF effects list when chaining in EFX to avoid WHQL issues
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2018",%REG_DWORD%,0x1 ; Mono Mic boost on
+
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},3000",%REG_DWORD%,0x0008 ; Enable Mono Mode
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{FE710D99-0EE4-4A3E-A109-7993BF8D6CCD},18",%REG_DWORD%, 0x0000 ; Reload prop file
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{FE710D99-0EE4-4A3E-A109-7993BF8D6CCD},38",%REG_DWORD%, 0x0001 ; External Mic bypass DSP
+
+;; render endpoint settings
+HKR,InterfaceSetting,RearLineOutTopo,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,PrimaryLineOutTopo,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,SingleLineOutTopo,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,SecondaryLineOutTopo,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,FrontPanelHeadphoneTopo,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,RearLineOutTopoSST,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,RearLineOutTopoSST2,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,RearLineOutTopoSST3,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,RearLineOutTopoDock,0x10008,"CNXTCustomizedRenderFx"
+
+;; Preset values in property store
+HKR,InterfaceSetting\CNXTCustomizedRenderFx\FX\0, "{fe710d99-0ee4-4a3e-a109-7993bf8d6ccd},5",%REG_DWORD%,0x1 ; PKEY_DSP_COMMAND_DisableDSP for CapAPO.
+
+; Mono
+[PresetExtMicAddReg]
+;; capture endpoint settings
+HKR,InterfaceSetting,RearMicInBlackTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                  ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInGreyTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                   ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInBlueTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                   ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInGreenTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                  ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInRedTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                    ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInOrangeTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInYellowTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInPurpleTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInPinkTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                   ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInGoldenTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInSilverTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RearMicInWhiteTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                  ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInBlackTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInGreyTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                  ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInBlueTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                  ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInGreenTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInRedTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                   ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInOrangeTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInYellowTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInPurpleTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInPinkTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                  ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInGoldenTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInSilverTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                ;; stands for Microphone endpoint
+HKR,InterfaceSetting,FrontMicInWhiteTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                 ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RtMicInTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                         ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RtFrontMicInTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                    ;; stands for Microphone endpoint
+HKR,InterfaceSetting,DigitalMICTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                      ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RtMicArTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                         ;; stands for Microphone endpoint
+HKR,InterfaceSetting,RtMicInSSTTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset5"                      ;; stands for Microphone endpoint with Intel WOV DSP supported
+
+;; Preset values in property store
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2000",%REG_DWORD%,0x0 ; Disable Bypass mode
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2001",%REG_DWORD%,0x4 ; Mono mode
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2002",%REG_DWORD%,0x0 ; FFP- None mode
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2003",%REG_DWORD%,0x0 ; Focused Narrow mode
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2004",%REG_DWORD%,0x1 ; AEC on
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2005",%REG_DWORD%,0x1 ; SSP on
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2006",%REG_DWORD%,0x1a0000 ; Mic bypass gain
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2015",%REG_DWORD%,0x1 ; Hide AEC/NS/BF effects list when chaining in EFX to avoid WHQL issues
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2018",%REG_DWORD%,0x1 ; Mono Mic boost on
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2020",%REG_DWORD%,0x1a0000 ; Ext Mic bypass gain
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2024",%REG_DWORD%,0x1 ; RTK Ext Mic force enabled
+
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},3000",%REG_DWORD%,0x0008 ; Enable Mono Mode
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{FE710D99-0EE4-4A3E-A109-7993BF8D6CCD},18",%REG_DWORD%, 0x0000 ; Reload prop file
+
+;; render endpoint settings
+HKR,InterfaceSetting,RearLineOutTopo,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,PrimaryLineOutTopo,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,SingleLineOutTopo,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,SecondaryLineOutTopo,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,FrontPanelHeadphoneTopo,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,RearLineOutTopoSST,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,RearLineOutTopoSST2,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,RearLineOutTopoSST3,0x10008,"CNXTCustomizedRenderFx"
+HKR,InterfaceSetting,RearLineOutTopoDock,0x10008,"CNXTCustomizedRenderFx"
+
+;; Preset values in property store
+HKR,InterfaceSetting\CNXTCustomizedRenderFx\FX\0, "{fe710d99-0ee4-4a3e-a109-7993bf8d6ccd},5",%REG_DWORD%,0x1 ; PKEY_DSP_COMMAND_DisableDSP for CapAPO.
+
+[FriendlyName_AddReg]
+
+[ConexantAPO_Install]
+ComponentIDs = VEN_CONEXANT&AID_CNXTAPO3021
+Description = "Synaptics Audio Effects Component"
+
+[AlexaConfig.AddReg]
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",,"%%SystemRoot%%\system32\SynaSstPpDll.dll"
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\S540-15_AoW_Near_Field_20181116.tf"
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllConfigurationFile",,"%%SystemRoot%%\system32\cxapo.prop"
+
+[NHLT.AddReg]
+;;HKLM,SYSTEM\CurrentControlSet\Services\IntcOED\Parameters,"NhltOverridePath",,"\SystemRoot\system32\cAVS\NHLT_rvp_2_4MHz_hp.bin"
+
+[Cortana3812.AddReg]
+HKLM,System\CurrentControlSet\Control\Conexant\MicWiz,DefaultDefaultMicGain, 0x00010001, 0x00002008
+
+[Strings]
+OEM                  = "Lenovo"
+Device.ExtensionDesc = "Lenovo Audio Device Extension"
+ExtendedFriendlyName = "Realtek(R) Audio"
+DiskId1              = "Lenovo Audio Device Extension Installation Disk (SSP Tuning)"
+
+REG_BINARY = 0x00000001
+REG_DWORD = 0x00010001
+REG_MULTI_SZ = 0x00010000
+REG_MULTI_SZ_APPEND = 0x00010008
