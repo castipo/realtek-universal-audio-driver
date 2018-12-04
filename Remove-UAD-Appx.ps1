@@ -1,5 +1,5 @@
 #
-# Remove all Realtek Audio Console and related thirty party UWP apps
+# Remove all Realtek Audio Console and related third party UWP apps
 #
 # Revision: 25-11-2018
 #
