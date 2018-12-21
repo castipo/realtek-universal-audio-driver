@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %Provider%
 ExtensionId = {4DBBC440-ACCA-11E7-BE06-448A5B99B4C1}
-DriverVer   = 12/10/2018,1.5.6.0
+DriverVer   = 12/16/2018,1.5.7.0
 CatalogFile = AVoluteAWSCExt.cat
 
 [SourceDisksNames]
@@ -46,7 +46,11 @@ CassiniMLKProductSettings.cab
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0289&SUBSYS_1028093B		;;Yamato 15 
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0289&SUBSYS_1028093C		;;Yamato 17
 %Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\CTLR_DEV_9DC8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_10280949&REV_10EC  ;;Selek
-%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_10280949           ;;Selek		
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_10280949   ;;Selek
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_10280949   ;;Selek
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0899&SUBSYS_10280947      ;;Carnage G5
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0899&SUBSYS_10280948      ;;Carnage G7
+
 
 ;; Nahimic3Dell systems (Vulcan basic)
 ;;%Device.ExtensionDesc% = DeviceExtension_Install_Nahimic3Dell,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808EA

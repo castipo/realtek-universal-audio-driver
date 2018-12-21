@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {86F65302-34A5-441C-8E16-C05C2D9E6151}
-DriverVer   = 11/14/2018,1.0.3.55
+DriverVer   = 11/17/2018,1.0.3.57
 CatalogFile = OemXAudioExt_fm.cat
 
 [SourceDisksNames]
@@ -117,6 +117,7 @@ RTMICAR_103C858A.dat=222
 RTMICAR_103C860C.dat=222
 RTMICAR_103C860F.dat=222
 RTMICAR_103C861F.dat=222
+SAMSfppch_103C857F.dat=222
 
 [DestinationDirs]
 FMDAT_103C8536.CopyList = 12 ; %windir%\system32\drivers
@@ -271,6 +272,7 @@ RTMICAR.dat, RTMICAR_103C85DB.dat
 SAMSfpa.dat, SAMSfpa_103C857F.dat
 Samsfpaspk.dat, Samsfpaspk_103C857F.dat
 RTMICAR.dat, RTMICAR_103C857F.dat
+SAMSfppch.dat, SAMSfppch_103C857F.dat
 
 [FMDAT_103C85A3.CopyList]
 SAMSfpa.dat, SAMSfpa_103C85A3.dat
@@ -451,6 +453,7 @@ AddReg = RENPresetAddReg
 
 [DeviceExtension_Install_103C8570]
 CopyFiles = FMDAT_103C8570.CopyList
+AddReg = CortanaKey_103C8570_AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -458,6 +461,7 @@ AddReg = RENPresetAddReg
 
 [DeviceExtension_Install_103C8571]
 CopyFiles = FMDAT_103C8571.CopyList
+AddReg = CortanaKey_103C8571_AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -465,6 +469,7 @@ AddReg = RENPresetAddReg
 
 [DeviceExtension_Install_103C854E]
 CopyFiles = FMDAT_103C854E.CopyList
+AddReg = CortanaKey_103C854E_AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -472,6 +477,7 @@ AddReg = RENPresetAddReg
 
 [DeviceExtension_Install_103C854F]
 CopyFiles = FMDAT_103C854F.CopyList
+AddReg = CortanaKey_103C854F_AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -479,6 +485,7 @@ AddReg = RENPresetAddReg
 
 [DeviceExtension_Install_103C8548]
 CopyFiles = FMDAT_103C8548.CopyList
+AddReg = CortanaKey_103C8548_AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -486,6 +493,7 @@ AddReg = RENPresetAddReg
 
 [DeviceExtension_Install_103C853D]
 CopyFiles = FMDAT_103C853D.CopyList
+AddReg = CortanaKey_103C853D_AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -493,6 +501,7 @@ AddReg = RENPresetAddReg
 
 [DeviceExtension_Install_103C854A]
 CopyFiles = FMDAT_103C854A.CopyList
+AddReg = CortanaKey_103C854A_AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -500,6 +509,7 @@ AddReg = RENPresetAddReg
 
 [DeviceExtension_Install_103C854D]
 CopyFiles = FMDAT_103C854D.CopyList
+AddReg = CortanaKey_103C854D_AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -622,6 +632,7 @@ AddReg = RENPresetAddReg
 
 [DeviceExtension_Install_103C8586]
 CopyFiles = FMDAT_103C8586.CopyList
+AddReg = CortanaKey_103C8586_AddReg
 AddReg = MonoAddReg
 AddReg = RENPresetAddReg
 
@@ -652,6 +663,7 @@ AddReg = RENPresetAddReg
 
 [DeviceExtension_Install_103C858B]
 CopyFiles = FMDAT_103C858B.CopyList
+AddReg = CortanaKey_103C858B_AddReg
 AddReg = MonoAddReg
 AddReg = RENPresetAddReg
 
@@ -904,6 +916,39 @@ HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 
 [CortanaKey_103C861F_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C8570_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C8571_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C853D_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C8548_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C854A_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C854D_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C854F_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C854E_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C8586_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+;[CortanaKey_103C8688_AddReg]
+;HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C858B_AddReg]
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 
 [Strings]

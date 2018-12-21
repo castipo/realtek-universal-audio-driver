@@ -5,7 +5,7 @@ ClassGuid={e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider=Fortemedia
 ExtensionId = {6BB685A9-87AA-4BE8-A345-055DB3E4452A}
 CatalogFile=IntcDMicExt.cat
-DriverVer = 11/01/2018,09.21.3229.21
+DriverVer = 11/13/2018,09.21.3229.23
 
 [Manufacturer]
 Intel(R) Corporation = Intel, NTAMD64.10.0...16273
@@ -13,6 +13,7 @@ Intel(R) Corporation = Intel, NTAMD64.10.0...16273
 [Intel.NTAMD64.10.0...16273]
 %Device.ExtensionDesc% = IntcAudModelWSstPpDll, INTELAUDIO\CTLR_DEV_9DC8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_229217AA&REV_0001
 %Device.ExtensionDesc% = IntcAudModelWSstPpDll, INTELAUDIO\CTLR_DEV_9DC8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_229317AA&REV_0001
+%Device.ExtensionDesc% = IntcAudModelWSstPpDll, INTELAUDIO\CTLR_DEV_34C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_229D17AA&REV_0001
 
 [IntcAudModelWSstPpDll]
 AddReg = FortemediaSstPpDll.AddReg
@@ -36,12 +37,28 @@ AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn3.Topo_2%,IntcAudModel.DmicInput3.
 AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn3.Topo_2%,IntcAudModel.DmicInput3.Topo
 AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn3.Topo_4%,IntcAudModel.DmicInput3.Topo
 AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn3.Topo_4%,IntcAudModel.DmicInput3.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn4.Topo_1%,IntcAudModel.DmicInput4.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn4.Topo_1%,IntcAudModel.DmicInput4.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn4.Topo_2%,IntcAudModel.DmicInput4.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn4.Topo_2%,IntcAudModel.DmicInput4.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn4.Topo_4%,IntcAudModel.DmicInput4.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn4.Topo_4%,IntcAudModel.DmicInput4.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn5.Topo_1%,IntcAudModel.DmicInput5.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn5.Topo_1%,IntcAudModel.DmicInput5.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn5.Topo_2%,IntcAudModel.DmicInput5.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn5.Topo_2%,IntcAudModel.DmicInput5.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn5.Topo_4%,IntcAudModel.DmicInput5.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn5.Topo_4%,IntcAudModel.DmicInput5.Topo
 
 [IntcAudModel.DmicInput1.Topo]
 AddReg = SysRecFx.AddReg
 [IntcAudModel.DmicInput2.Topo]
 AddReg = SysRecFx.AddReg
 [IntcAudModel.DmicInput3.Topo]
+AddReg = SysRecFx.AddReg
+[IntcAudModel.DmicInput4.Topo]
+AddReg = SysRecFx.AddReg
+[IntcAudModel.DmicInput5.Topo]
 AddReg = SysRecFx.AddReg
 
 [SysRecFx.AddReg]
@@ -88,10 +105,10 @@ HKR,"GlobalSettings","StepFakeVolume",REG_BINARY,00,80,00,00
 ;HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"logToFile",%REG_DWORD%,1
 
 ;Log message details: specifies level of the messages that will be collected and dumped to file.
-;1 – ERROR – logs only error messages.
-;2 – WARNING – logs error and warning messages.
-;4 – INFORMATION – logs error, warning and information messages.
-;8 – VERBOSE – logs all of the above and many other messages.
+;1 - ERROR – logs only error messages.
+;2 - WARNING – logs error and warning messages.
+;4 - INFORMATION – logs error, warning and information messages.
+;8 - VERBOSE – logs all of the above and many other messages.
 ;HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"serviceLog",%REG_DWORD%,1
 
 [FortemediaSstPpDll.AddReg.Security]
@@ -124,6 +141,12 @@ KSNAME_DmicIn2.Topo_4 = "IntcDMicTopo_4_48_16_D1"
 KSNAME_DmicIn3.Topo_1 = "IntcDMicTopo_1 _48_16_0"
 KSNAME_DmicIn3.Topo_2 = "IntcDMicTopo_2 _48_16_0"
 KSNAME_DmicIn3.Topo_4 = "IntcDMicTopo_4 _48_16_0"
+KSNAME_DmicIn4.Topo_1 = "IntcDMicTopo_1_48_24_D0"
+KSNAME_DmicIn4.Topo_2 = "IntcDMicTopo_2_48_24_D0"
+KSNAME_DmicIn4.Topo_4 = "IntcDMicTopo_4_48_24_D0"
+KSNAME_DmicIn5.Topo_1 = "IntcDMicTopo_1_48_24_D1"
+KSNAME_DmicIn5.Topo_2 = "IntcDMicTopo_2_48_24_D1"
+KSNAME_DmicIn5.Topo_4 = "IntcDMicTopo_4_48_24_D1"
 
 Device.ExtensionDesc = "Intel Device Extension for Fortemedia"
 

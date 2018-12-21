@@ -3,7 +3,7 @@ Signature   = "$WINDOWS NT$"
 Class       = SoftwareComponent
 ClassGuid   = {5c4c3332-344d-483c-8739-259e934c9cc8}
 Provider    = %Provider%
-DriverVer = 12/06/2018,1.2.2.0
+DriverVer = 12/19/2018,1.2.3.0
 CatalogFile = A-VoluteNh3ApoSwc.cat
 
 [SourceDisksNames]

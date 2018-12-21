@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {86F65302-34A5-441C-8E16-C05C2D9E6151}
-DriverVer   = 11/09/2018,1.0.3.54
+DriverVer   = 11/16/2018,1.0.3.56
 CatalogFile = OemXAudioExt_fm.cat
 
 [SourceDisksNames]
@@ -107,6 +107,9 @@ configuration_19E5322110EC0256.tf=222
 configuration_19E5322210EC0256.tf=222
 configuration_19E5322310EC0256.tf=222
 configuration_19E5322410EC0256.tf=222
+configuration_19E5321110EC0256.tf=222
+configuration_19E5321210EC0256.tf=222
+
 
 
 [DestinationDirs]
@@ -315,9 +318,11 @@ RTMICAR.dat, RTMICAR_19E5322410EC0256.dat
 
 [FMPPDAT_19E53211.CopyList]
 SAMSfpi.dat, SAMSfpi_19E53211.dat
+configuration.tf, configuration_19E5321110EC0256.tf
 
 [FMPPDAT_19E53212.CopyList]
 SAMSfpi.dat, SAMSfpi_19E53212.dat
+configuration.tf, configuration_19E5321210EC0256.tf
 
 [FMPPDAT_19E5330010EC0256.CopyList]
 SAMSfpi.dat, SAMSfpi_19E5330010EC0256.dat
@@ -549,7 +554,7 @@ AddReg = PresetAddReg
 CopyFiles = FMDAT_19E53211.CopyList, FMPPDAT_19E53211.CopyList
 AddReg = CortanaKey_19E53211_AddReg
 AddReg = PresetAddReg
-AddReg = FortemediaSstPpDllNoTf.AddReg
+AddReg = FortemediaSstPpDll.AddReg
 
 [DeviceExtension_Install_19E53211.HW]
 
@@ -557,7 +562,7 @@ AddReg = FortemediaSstPpDllNoTf.AddReg
 CopyFiles = FMDAT_19E53212.CopyList, FMPPDAT_19E53212.CopyList
 AddReg = CortanaKey_19E53212_AddReg
 AddReg = PresetAddReg
-AddReg = FortemediaSstPpDllNoTf.AddReg
+AddReg = FortemediaSstPpDll.AddReg
 
 [DeviceExtension_Install_19E53212.HW]
 
@@ -902,16 +907,16 @@ HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
 
 [CortanaKey_19E5321310EC0256_AddReg]
-HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
 
 [CortanaKey_19E5321410EC0256_AddReg]
-HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
 
 [CortanaKey_19E5321510EC0256_AddReg]
-HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
 
 [CortanaKey_19E5321610EC0256_AddReg]
-HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
 
 [CortanaKey_19E53E0A10EC0256_AddReg]
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
@@ -941,16 +946,16 @@ HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
 
 [CortanaKey_19E5322110EC0256_AddReg]
-HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
 
 [CortanaKey_19E5322210EC0256_AddReg]
-HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
 
 [CortanaKey_19E5322310EC0256_AddReg]
-HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
 
 [CortanaKey_19E5322410EC0256_AddReg]
-HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
 
 [Strings]
 OEM                  = "Fortemeida"
