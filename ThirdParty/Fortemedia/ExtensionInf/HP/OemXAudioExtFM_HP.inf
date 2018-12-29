@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {86F65302-34A5-441C-8E16-C05C2D9E6151}
-DriverVer   = 11/17/2018,1.0.3.57
+DriverVer   = 11/21/2018,1.0.3.59
 CatalogFile = OemXAudioExt_fm.cat
 
 [SourceDisksNames]
@@ -118,6 +118,16 @@ RTMICAR_103C860C.dat=222
 RTMICAR_103C860F.dat=222
 RTMICAR_103C861F.dat=222
 SAMSfppch_103C857F.dat=222
+SAMSfppch_103C8548.dat=222
+SAMSfppch_103C861F.dat=222
+SAMSfppch_103C854F.dat=222
+SAMSfppch_103C854E.dat=222
+SAMSfppch_103C854D.dat=222
+SAMSfppch_103C854A.dat=222
+SAMSfppch_103C85B9.dat=222
+SAMSfppch_103C860F.dat=222
+SAMSfppch_103C853D.dat=222
+SAMSfppch_103C860C.dat=222
 
 [DestinationDirs]
 FMDAT_103C8536.CopyList = 12 ; %windir%\system32\drivers
@@ -212,31 +222,37 @@ RTMICAR.dat, RTMICAR_103C8571.dat
 SAMSfpa.dat, SAMSfpa_103C854E.dat
 Samsfpaspk.dat, Samsfpaspk_103C854E.dat
 RTMICAR.dat, RTMICAR_103C854E.dat
+SAMSfppch.dat, SAMSfppch_103C854E.dat
 
 [FMDAT_103C854F.CopyList]
 SAMSfpa.dat, SAMSfpa_103C854F.dat
 Samsfpaspk.dat, Samsfpaspk_103C854F.dat
 RTMICAR.dat, RTMICAR_103C854F.dat
+SAMSfppch.dat, SAMSfppch_103C854F.dat
 
 [FMDAT_103C8548.CopyList]
 SAMSfpa.dat, SAMSfpa_103C8548.dat
 Samsfpaspk.dat, Samsfpaspk_103C8548.dat
 RTMICAR.dat, RTMICAR_103C8548.dat
+SAMSfppch.dat, SAMSfppch_103C8548.dat
 
 [FMDAT_103C853D.CopyList]
 SAMSfpa.dat, SAMSfpa_103C853D.dat
 Samsfpaspk.dat, Samsfpaspk_103C853D.dat
 RTMICAR.dat, RTMICAR_103C853D.dat
+SAMSfppch.dat, SAMSfppch_103C853D.dat
 
 [FMDAT_103C854A.CopyList]
 SAMSfpa.dat, SAMSfpa_103C854A.dat
 Samsfpaspk.dat, Samsfpaspk_103C854A.dat
 RTMICAR.dat, RTMICAR_103C854A.dat
+SAMSfppch.dat, SAMSfppch_103C854A.dat
 
 [FMDAT_103C854D.CopyList]
 SAMSfpa.dat, SAMSfpa_103C854D.dat
 Samsfpaspk.dat, Samsfpaspk_103C854D.dat
 RTMICAR.dat, RTMICAR_103C854D.dat
+SAMSfppch.dat, SAMSfppch_103C854D.dat
 
 [FMDAT_103C85A5.CopyList]
 SAMSfpa.dat, SAMSfpa_103C85A5.dat
@@ -303,6 +319,7 @@ Samsfpaspk.dat, Samsfpaspk_103C85DC.dat
 SAMSfpa.dat, SAMSfpa_103C85B9.dat
 Samsfpaspk.dat, Samsfpaspk_103C85B9.dat
 RTMICAR.dat, RTMICAR_103C85B9.dat
+SAMSfppch.dat, SAMSfppch_103C85B9.dat
 
 [FMDAT_103C8585.CopyList]
 SAMSfpa.dat, SAMSfpa_103C8585.dat
@@ -335,16 +352,19 @@ Samsfpaspk.dat, Samsfpaspk_103C858B.dat
 SAMSfpa.dat, SAMSfpa_103C860C.dat
 Samsfpaspk.dat, Samsfpaspk_103C860C.dat
 RTMICAR.dat, RTMICAR_103C860C.dat
+SAMSfppch.dat, SAMSfppch_103C860C.dat
 
 [FMDAT_103C860F.CopyList]
 SAMSfpa.dat, SAMSfpa_103C860F.dat
 Samsfpaspk.dat, Samsfpaspk_103C860F.dat
 RTMICAR.dat, RTMICAR_103C860F.dat
+SAMSfppch.dat, SAMSfppch_103C860F.dat
 
 [FMDAT_103C861F.CopyList]
 SAMSfpa.dat, SAMSfpa_103C861F.dat
 Samsfpaspk.dat, Samsfpaspk_103C861F.dat
 RTMICAR.dat, RTMICAR_103C861F.dat
+SAMSfppch.dat, SAMSfppch_103C861F.dat
 
 
 [Manufacturer]
@@ -825,6 +845,7 @@ HKR,InterfaceSetting\FMAPOPreset1\FX\0,%K7_ID%,0x00010001,0x860000
 
 HKR,InterfaceSetting\FMAPOPreset1\FX\0,%BACK_K2_ID%,0x00010001,0x01
 HKR,InterfaceSetting\FMAPOPreset1\FX\0,%BACK_K7_ID%,0x00010001,0x860000
+HKR,InterfaceSetting\SysRecCustomizedFx\EP\0,"{83F774AE-6AD4-4737-98CC-6092E12453CC},22",%REG_DWORD%,0xA0000
 
 [MonoAddReg]
 HKR,InterfaceSetting,RtMicInTopo,0x10008,"FMAPOPreset1"
@@ -838,6 +859,15 @@ HKR,InterfaceSetting\FMAPOPreset1\FX\0,%K7_ID%,0x00010001,0x860000
 
 HKR,InterfaceSetting\FMAPOPreset1\FX\0,%BACK_K2_ID%,0x00010001,0x01
 HKR,InterfaceSetting\FMAPOPreset1\FX\0,%BACK_K7_ID%,0x00010001,0x860000
+HKR,InterfaceSetting\SysRecCustomizedFx\EP\0,"{83F774AE-6AD4-4737-98CC-6092E12453CC},22",%REG_DWORD%,0xA0000
+
+;[HowlingDetec.AddReg]
+;HKLM,Software\Fortemedia
+;HKLM,Software\Fortemedia\HowlingDection,"{13AE3061-F6DC-45C1-B90C-F5E992141790},10"=dword:00000000
+;HKLM,Software\Fortemedia\HowlingDection,"{13AE3061-F6DC-45C1-B90C-F5E992141790},11"=dword:00000001
+
+;[HowlingDetec.AddReg.Security]
+;"G:BUD:(A;CIOI;KA;;;BU)"
 
 
 [RENPresetAddReg]
