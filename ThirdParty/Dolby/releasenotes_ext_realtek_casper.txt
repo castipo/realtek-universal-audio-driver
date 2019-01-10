@@ -1,0 +1,9 @@
+Aug_21_2018:
+-----------------------------------
+1. Add ext_casper_g670_rs4_v226
+2. Add ext_casper_g750_rs4_v226
+
+Jun_26_2018:
+-----------------------------------
+1. Add ext_casper_g650_rs3_rs4_v219
+2. Add ext_casper_g850_rs3_rs4_v219

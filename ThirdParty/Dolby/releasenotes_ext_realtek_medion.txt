@@ -1,0 +1,88 @@
+Dec_12_2018
+-----------------------------------
+1. Add  ext_medion_AIO_rtk_rs4_rs5_v3.1212.805.10
+	Updated models: 
+		E23401
+
+Nov_21_2018
+-----------------------------------
+1. Add ext_medion_e4274_rs4_rs5_v229
+2. Add ext_medion_s4402_rs4_rs5_v228
+
+Nov_09_2018
+-----------------------------------
+1. Add ext_medion_e4274_rs4_rs5_v228
+2. Add ext_medion_s4402_rs4_rs5_v227
+
+Nov_06_2018
+-----------------------------------
+1. Add ext_medion_e4274_rs3_rs4_rs5_v227
+
+Oct_22_2018
+-----------------------------------
+1. Add ext_medion_x6805_rs4_v221
+
+Oct_08_2018
+-----------------------------------
+1. Add ext_medion_s4402_rs4_v226
+
+Sep_25_2018
+-----------------------------------
+1. Add ext_medion_e23201_rs4_v227
+
+August_30_2018
+-----------------------------------
+1. Add ext_medion_e23201_rs4_v226
+
+August_10_2018
+-----------------------------------
+1. Add ext_medion_e6245_rs3_rs4_v220
+
+July_20_2018
+-----------------------------------
+1. Add ext_medion_x6245_rs3_rs4_v219
+
+July_11_2018
+-----------------------------------
+1. Add ext_medion_x6807_rs3_rs4_v219
+
+Jun_28_2018
+-----------------------------------
+1. Restore ext_medion_e4254_v220 to fix WHQL signature
+
+Jun_08_2018
+-----------------------------------
+1. Add ext_medion_e3224_rs3_rs4_v219
+2. Add ext_medion_p7653_rs3_rs4_v219
+
+May_29_2018
+-----------------------------------
+1. Add ext_medion_e2294_v219
+
+May_25_2018
+-----------------------------------
+1. Add ext_medion_x6805_v220
+
+
+April_27_2018
+-----------------------------------
+Add ext_medion_e4254_v220
+
+
+
+April_19_2018:
+-----------------------------------
+Add ext_medion_erazer_x7861_v220
+
+April_12_2018:
+-----------------------------------
+Add ext_medion_e4254_v219
+Add ext_medion_erazer_p6705_v219
+Add ext_medion_erazer_x7861_v219
+
+April_04_2018:
+-----------------------------------
+Add ext_medion_e4254_v218
+Add ext_medion_erazer_p6705_v218
+Add ext_medion_erazer_x7861_v218
+
