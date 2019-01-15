@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {86F65302-34A5-441C-8E16-C05C2D9E6151}
-DriverVer   = 12/14/2018,1.0.3.60
+DriverVer   = 12/21/2018,1.0.3.61
 CatalogFile = OemXAudioExt_fm.cat
 
 [SourceDisksNames]
@@ -104,6 +104,8 @@ configuration_17AA2294.tf=222
 configuration_17AA2286.tf=222
 configuration_17AA2287.tf=222
 configuration_17AA2288.tf=222
+configuration_17AA5075.tf=222
+configuration_17AA5076.tf=222
 SAMSfppch_17AA2279.dat=222
 SAMSfppch_17AA2284.dat=222
 SAMSfppch_17AA2281.dat=222
@@ -111,6 +113,8 @@ SAMSfppch_17AA2286.dat=222
 SAMSfppch_17AA2287.dat=222
 SAMSfppch_17AA2288.dat=222
 SAMSfppch_17AA2294.dat=222
+SAMSfppch_17AA2292.dat=222
+SAMSfppch_17AA2293.dat=222
 
 [DestinationDirs]
 FMDAT_17AA506E.CopyList = 12 ; %windir%\system32\drivers
@@ -278,10 +282,12 @@ SAMSfppch.dat, SAMSfppch_17AA2288.dat
 [FMDAT_17AA2292.CopyList]
 SAMSfpa.dat, SAMSfpa_17AA2292.dat
 RTMICAR.dat, RTMICAR_17AA2292.dat
+SAMSfppch.dat, SAMSfppch_17AA2292.dat
 
 [FMDAT_17AA2293.CopyList]
 SAMSfpa.dat, SAMSfpa_17AA2293.dat
 RTMICAR.dat, RTMICAR_17AA2293.dat
+SAMSfppch.dat, SAMSfppch_17AA2293.dat
 
 [FMDAT_17AA2281.CopyList]
 SAMSfpa.dat, SAMSfpa_17AA2281.dat
@@ -355,9 +361,11 @@ configuration.tf, configuration_17AA2287.tf
 
 [FMPPDAT_17AA5075.CopyList]
 SAMSfpi.dat, SAMSfpi_17AA5075.dat
+configuration.tf, configuration_17AA5075.tf
 
 [FMPPDAT_17AA5076.CopyList]
 SAMSfpi.dat, SAMSfpi_17AA5076.dat
+configuration.tf, configuration_17AA5076.tf
 
 [FMPPDAT_17AA229D.CopyList]
 SAMSfpi.dat, SAMSfpi_17AA229D.dat
@@ -641,7 +649,7 @@ AddReg = FortemediaSstPpDll.AddReg
 CopyFiles = FMDAT_17AA5075.CopyList, FMPPDAT_17AA5075.CopyList
 AddReg = CortanaKey_17AA5075_AddReg
 AddReg = PresetAddReg
-AddReg = FortemediaSstPpDllNoTf.AddReg
+AddReg = FortemediaSstPpDll.AddReg
 
 [DeviceExtension_Install_17AA5075.HW]
 
@@ -649,7 +657,7 @@ AddReg = FortemediaSstPpDllNoTf.AddReg
 CopyFiles = FMDAT_17AA5076.CopyList, FMPPDAT_17AA5076.CopyList
 AddReg = CortanaKey_17AA5076_AddReg
 AddReg = PresetAddReg
-AddReg = FortemediaSstPpDllNoTf.AddReg
+AddReg = FortemediaSstPpDll.AddReg
 
 [DeviceExtension_Install_17AA5076.HW]
 
