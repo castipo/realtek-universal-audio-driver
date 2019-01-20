@@ -1,6 +1,6 @@
 # Realtek Universal Audio Driver (UAD)
 
-#### Repository Updated: 18/1/2019
+#### Repository Updated: 20/1/2019
 
 A non-official repository for downloading the lastest UAD components from Realtek FTP server.
 
