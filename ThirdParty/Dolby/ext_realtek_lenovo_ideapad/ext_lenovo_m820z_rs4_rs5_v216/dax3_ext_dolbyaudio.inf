@@ -7,17 +7,16 @@ Signature 	= "$Windows NT$"
 Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider 	= %ManufacturerName%
-ExtensionId = {07AFEE7C-7C96-410A-9A5C-E0637EA7C1F5}
+ExtensionId = {ABBECD55-99F7-11E7-BF21-6C0B849889E1}
 CatalogFile = dax3_ext_dolbyaudio.cat
-DriverVer = 11/28/2018,3.20200.229.0
+DriverVer = 01/20/2019,3.20200.216.0
 
 [Manufacturer]
 %ManufacturerName% = DeviceExtensions,NTamd64
 
 [DeviceExtensions.NTamd64]
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3830
-%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA382B
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA382D
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3123
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3123
 
 [DeviceExtension_Install.NT]
 AddReg = PresetAddReg, DolbyAPO_AddReg
@@ -56,9 +55,8 @@ ComponentIds = VEN_DOLBY&PID_DAX3HSA_DolbyAudio  ; Matches with SWC\VEN_DOLBY&PI
 
 [SourceDisksFiles]
 Operator_Info_Lenovo.xml = 222
-HDAUDIO_DEV_0230_SUBSYS_17AA3830_PCI_SUBSYS_381317AA.xml = 222
-INTELAUDIO_DEV_0230_SUBSYS_17AA382B_PCI_SUBSYS_380317AA.xml = 222
-HDAUDIO_DEV_0230_SUBSYS_17AA382D_PCI_SUBSYS_380317AA.xml = 222
+HDAUDIO_DEV_0235_SUBSYS_17AA3123_PCI_SUBSYS_312317AA.xml = 222
+INTELAUDIO_DEV_0235_SUBSYS_17AA3123_PCI_SUBSYS_312317AA.xml = 222
 Headphone_Default_Generic_Default_DolbyAudio.xml = 222
 
 [DestinationDirs]
@@ -66,9 +64,8 @@ DolbyAPO_CopyFiles = 10,system32\dolbyaposvc
 
 [DolbyAPO_CopyFiles]
 Operator_Info_Lenovo.xml
-HDAUDIO_DEV_0230_SUBSYS_17AA3830_PCI_SUBSYS_381317AA.xml
-INTELAUDIO_DEV_0230_SUBSYS_17AA382B_PCI_SUBSYS_380317AA.xml
-HDAUDIO_DEV_0230_SUBSYS_17AA382D_PCI_SUBSYS_380317AA.xml
+HDAUDIO_DEV_0235_SUBSYS_17AA3123_PCI_SUBSYS_312317AA.xml
+INTELAUDIO_DEV_0235_SUBSYS_17AA3123_PCI_SUBSYS_312317AA.xml
 Headphone_Default_Generic_Default_DolbyAudio.xml
 
 [Strings]
