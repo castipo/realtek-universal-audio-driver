@@ -9,14 +9,14 @@ ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider 	= %ManufacturerName%
 ExtensionId = {F0DBE6DB-030B-4770-ACA3-CB38ECC83C0B}
 CatalogFile = dax3_ext_dolbyaudio.cat
-DriverVer = 08/09/2018,3.20200.220.0
+DriverVer = 01/24/2019,3.20200.221.0
 
 [Manufacturer]
 %ManufacturerName% = DeviceExtensions,NTamd64
 
 [DeviceExtensions.NTamd64]
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1B0A2411
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1B0A240A
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1B0A2411
 
 [DeviceExtension_Install.NT]
 AddReg = PresetAddReg, DolbyAPO_AddReg
@@ -54,8 +54,8 @@ ComponentIds = VEN_DOLBY&PID_DAX3HSA_DolbyAudio  ; Matches with SWC\VEN_DOLBY&PI
 222="APO Installation Disk",,,
 
 [SourceDisksFiles]
-HDAUDIO_DEV_0235_SUBSYS_1B0A2411_PCI_SUBSYS_24111B0A.xml = 222
 HDAUDIO_DEV_0235_SUBSYS_1B0A240A_PCI_SUBSYS_240A1B0A.xml = 222
+HDAUDIO_DEV_0235_SUBSYS_1B0A2411_PCI_SUBSYS_24111B0A.xml = 222
 Headphone_Default_Generic_Small_DolbyAudio.xml = 222
 Headphone_Default_Generic_Medium_DolbyAudio.xml = 222
 Headphone_Default_Generic_Large_DolbyAudio.xml = 222
@@ -65,8 +65,8 @@ Headphone_Default_Generic_Default_DolbyAudio.xml = 222
 DolbyAPO_CopyFiles = 10,system32\dolbyaposvc
 
 [DolbyAPO_CopyFiles]
-HDAUDIO_DEV_0235_SUBSYS_1B0A2411_PCI_SUBSYS_24111B0A.xml
 HDAUDIO_DEV_0235_SUBSYS_1B0A240A_PCI_SUBSYS_240A1B0A.xml
+HDAUDIO_DEV_0235_SUBSYS_1B0A2411_PCI_SUBSYS_24111B0A.xml
 Headphone_Default_Generic_Small_DolbyAudio.xml
 Headphone_Default_Generic_Medium_DolbyAudio.xml
 Headphone_Default_Generic_Large_DolbyAudio.xml
