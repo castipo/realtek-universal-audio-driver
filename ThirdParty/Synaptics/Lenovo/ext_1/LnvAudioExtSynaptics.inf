@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {D5444778-E388-4B40-BD02-A54D3DD86172}
-DriverVer   = 11/27/2018,1.3.0.0
+DriverVer   = 01/24/2019,1.10.0.0
 CatalogFile = LnvAudioExtSynaptics.cat
 
 [SourceDisksNames]
@@ -12,7 +12,7 @@ CatalogFile = LnvAudioExtSynaptics.cat
 
 [SourceDisksFiles]
 cxapo.prop=222
-cxapo_17AA3812_Rev0003.prop=222
+cxapo_17AA3812_Rev0009.prop=222
 CxSfPt.dat=222
 CxSfPt.17AA3812_Rev0001.DAT=222
 RTMICAR_17AA3812.DAT=222
@@ -29,7 +29,7 @@ NHLT.CopyList = 10, system32\cAVS
 cxapo.prop
 
 [CNXT_PropTuning3812.CopyList]
-cxapo.prop, cxapo_17AA3812_Rev0003.prop,,
+cxapo.prop, cxapo_17AA3812_Rev0009.prop,,
 S540-15_AoW_Near_Field_20181116.tf
 
 [CNXT_Tuning.CopyList]
@@ -46,6 +46,8 @@ RTMICAR.DAT, RTMICAR_17AA3812.DAT,,
 
 [DeviceExtensions.NTamd64]
 %Device.ExtensionDesc% = DeviceExtension3812_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3812 ;;S540-15
+%Device.ExtensionDesc% = DeviceExtension3812_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3822 ;;S540-15
+%Device.ExtensionDesc% = DeviceExtension3812_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA382E ;;S540-15
 
 [DeviceExtension3812_Install]
 CopyFiles = CNXT_Tuning3812.CopyList, CNXT_PropTuning3812.CopyList
@@ -53,7 +55,10 @@ AddReg = PresetAddReg, FriendlyName_AddReg, AlexaConfig.AddReg, Cortana3812.AddR
 
 [DeviceExtension3812_Install.Components]
 AddComponent = ConexantAPO,,ConexantAPO_Install
+AddComponent = ConexantAPO_GenSA3Audio,, ConexantAPO_ComponentInstall_GenSA3Audio_01
 
+[ConexantAPO_ComponentInstall_GenSA3Audio_01]
+ComponentIds = VEN_14F1&PID_HSA_GenSA3Audio_01 ; Matches with SWC\VEN_14F1&PID_HSA_GenSA3Audio_01
 
 ; Only My Voice
 [PresetAddReg]
