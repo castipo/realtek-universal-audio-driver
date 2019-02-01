@@ -3,8 +3,8 @@ Signature   = "$WINDOWS NT$"
 Class       = SoftwareComponent
 ClassGuid   = {5c4c3332-344d-483c-8739-259e934c9cc8}
 Provider    = %Realtek%
-DriverVer   = 01/08/2019,11.0.6000.165
-CatalogFile = HPAudioControlHSA.cat
+DriverVer   = 01/29/2019,11.0.6000.169
+CatalogFile = RealtekHSA.cat
 
 [SourceDisksNames]
 222 = %DiskId1%
@@ -25,7 +25,7 @@ PETrust=true
 %Realtek% = HsaComponents,NTamd64
 
 [HsaComponents.NTamd64]
-%Hsa.ComponentDesc% = HsaComponent_Install,SWC\VEN_10EC&HID_0006
+%Hsa.ComponentDesc% = HsaComponent_Install,SWC\VEN_10EC&HID_0001
 
 [HsaComponent_Install]
 Include   = wdmaudio.inf
@@ -34,16 +34,16 @@ Include   = wdmaudio.inf
 AddService = ,2    ; no function driver
 
 [HsaComponent_Install.Software]
-AddSoftware=OMENAudioControl,,OMEN_Audio_Control_Install
+AddSoftware=RealtekAudioControl,,Realtek_Audio_Control_Install
 
-[OMEN_Audio_Control_Install]
+[Realtek_Audio_Control_Install]
 SoftwareType=2
-SoftwareID=pfn://AD2F1837.OMENAudioControl_v10z8vjag6ke6
+SoftwareID=pfn://RealtekSemiconductorCorp.RealtekAudioControl_dt26b99r8h8gj
 
 [Strings]
 Realtek           = "Realtek"
-Hsa.ComponentDesc = "HP Audio Hardware Support Application"
-DiskId1           = "HP Audio HSA Installation Disk"
+Hsa.ComponentDesc = "Realtek Hardware Support Application"
+DiskId1           = "Realtek HSA Installation Disk"
 
 REG_BINARY = 0x00000001
 REG_DWORD = 0x00010001
