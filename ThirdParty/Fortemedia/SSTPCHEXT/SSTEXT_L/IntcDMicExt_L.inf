@@ -5,7 +5,7 @@ ClassGuid={e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider=Fortemedia
 ExtensionId = {6BB685A9-87AA-4BE8-A345-055DB3E4452A}
 CatalogFile=IntcDMicExt.cat
-DriverVer = 12/14/2018,09.21.3229.24
+DriverVer = 01/04/2019,09.21.3229.27
 
 [Manufacturer]
 Intel(R) Corporation = Intel, NTAMD64.10.0...16273
@@ -17,6 +17,7 @@ Intel(R) Corporation = Intel, NTAMD64.10.0...16273
 %Device.ExtensionDesc% = IntcAudModelWSstPpDll, INTELAUDIO\CTLR_DEV_34C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_382E17AA&REV_0001
 %Device.ExtensionDesc% = IntcAudModelWSstPpDll, INTELAUDIO\CTLR_DEV_9DC8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_380D17AA&REV_0001
 %Device.ExtensionDesc% = IntcAudModelWSstPpDll, INTELAUDIO\CTLR_DEV_34C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_380E17AA&REV_0001
+%Device.ExtensionDesc% = IntcAudModelWSstPpDll, INTELAUDIO\CTLR_DEV_A348&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_380217AA&REV_0001
 
 [IntcAudModelWSstPpDll]
 AddReg = FortemediaSstPpDll.AddReg
@@ -62,12 +63,12 @@ AddReg = SysRecFx.AddReg
 
 [SysRecFx.AddReg]
 HKR,"FX\\0",%PKEY_FX_Association%,,%KSNODETYPE_ANY%
-;HKR,"FX\\0",%PKEY_CompositeFX_ModeEffectClsid%,%REG_MULTI_SZ%,%FORTE_RecMFX_CLSID%
-;HKR,"FX\\0",%PKEY_CompositeFX_EndpointEffectClsid%,%REG_MULTI_SZ%,%FORTE_RecEFX_CLSID%
-;HKR,"FX\\0",%PKEY_CompositeFX_KeywordDetector_ModeEffectClsid%,%REG_MULTI_SZ%,%FORTE_KWS_MFX_CLSID%
-HKR,"FX\\0",%PKEY_FX_ModeEffectClsid%,%REG_SZ%,%FORTE_RecMFX_CLSID%
-HKR,"FX\\0",%PKEY_FX_EndpointEffectClsid%,%REG_SZ%,%FORTE_RecEFX_CLSID%
-HKR,"FX\\0",%PKEY_FX_KeywordDetector_ModeEffectClsid%,%REG_SZ%,%FORTE_KWS_MFX_CLSID%
+HKR,"FX\\0",%PKEY_CompositeFX_ModeEffectClsid%,%REG_MULTI_SZ%,%FORTE_RecMFX_CLSID%
+HKR,"FX\\0",%PKEY_CompositeFX_EndpointEffectClsid%,%REG_MULTI_SZ%,%FORTE_RecEFX_CLSID%
+HKR,"FX\\0",%PKEY_CompositeFX_KeywordDetector_ModeEffectClsid%,%REG_MULTI_SZ%,%FORTE_KWS_MFX_CLSID%
+;HKR,"FX\\0",%PKEY_FX_ModeEffectClsid%,%REG_SZ%,%FORTE_RecMFX_CLSID%
+;HKR,"FX\\0",%PKEY_FX_EndpointEffectClsid%,%REG_SZ%,%FORTE_RecEFX_CLSID%
+;HKR,"FX\\0",%PKEY_FX_KeywordDetector_ModeEffectClsid%,%REG_SZ%,%FORTE_KWS_MFX_CLSID%
 HKR,"FX\\0",%PKEY_MFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%,%AUDIO_SIGNALPROCESSINGMODE_SPEECH%
 HKR,"FX\\0",%PKEY_EFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%,%AUDIO_SIGNALPROCESSINGMODE_SPEECH%
 HKR,"FX\\0",%PKEY_MFX_KeywordDetector_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%,%AUDIO_SIGNALPROCESSINGMODE_SPEECH%
