@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {86F65302-34A5-441C-8E16-C05C2D9E6151}
-DriverVer   = 12/21/2018,1.0.3.61
+DriverVer   = 01/07/2019,1.0.3.65
 CatalogFile = OemXAudioExt_fm.cat
 
 [SourceDisksNames]
@@ -93,6 +93,8 @@ SAMSfpi_17AA2287.dat=222
 SAMSfpi_17AA5075.dat=222
 SAMSfpi_17AA5076.dat=222
 SAMSfpi_17AA229D.dat=222
+SAMSfpi_17AA2292.dat=222
+SAMSfpi_17AA2293.dat=222
 configuration_17AA5077.tf=222
 configuration_17AA2266.tf=222
 configuration_17AA2267.tf=222
@@ -166,6 +168,8 @@ FMPPDAT_17AA2287.CopyList = 11 ; %windir%\system32
 FMPPDAT_17AA5075.CopyList = 11 ; %windir%\system32
 FMPPDAT_17AA5076.CopyList = 11 ; %windir%\system32
 FMPPDAT_17AA229D.CopyList = 11 ; %windir%\system32
+FMPPDAT_17AA2292.CopyList = 11 ; %windir%\system32
+FMPPDAT_17AA2293.CopyList = 11 ; %windir%\system32
 
 
 [FMDAT_17AA506E.CopyList]
@@ -369,6 +373,12 @@ configuration.tf, configuration_17AA5076.tf
 
 [FMPPDAT_17AA229D.CopyList]
 SAMSfpi.dat, SAMSfpi_17AA229D.dat
+
+[FMPPDAT_17AA2292.CopyList]
+SAMSfpi.dat, SAMSfpi_17AA2292.dat
+
+[FMPPDAT_17AA2293.CopyList]
+SAMSfpi.dat, SAMSfpi_17AA2293.dat
 
 [Manufacturer]
 %OEM% = DeviceExtensions,NTamd64
@@ -616,16 +626,18 @@ AddReg = FortemediaSstPpDll.AddReg
 [DeviceExtension_Install_17AA2288.HW]
 
 [DeviceExtension_Install_17AA2292]
-CopyFiles = FMDAT_17AA2292.CopyList
+CopyFiles = FMDAT_17AA2292.CopyList, FMPPDAT_17AA2292.CopyList
 AddReg = CortanaKey_17AA2292_AddReg
 AddReg = PresetAddReg
+AddReg = FortemediaSstPpDllNoTf.AddReg
 
 [DeviceExtension_Install_17AA2292.HW]
 
 [DeviceExtension_Install_17AA2293]
-CopyFiles = FMDAT_17AA2293.CopyList
+CopyFiles = FMDAT_17AA2293.CopyList, FMPPDAT_17AA2293.CopyList
 AddReg = CortanaKey_17AA2293_AddReg
 AddReg = PresetAddReg
+AddReg = FortemediaSstPpDllNoTf.AddReg
 
 [DeviceExtension_Install_17AA2293.HW]
 

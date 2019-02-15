@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {D5444778-E388-4B40-BD02-A54D3DD86172}
-DriverVer   = 01/24/2019,1.10.0.0
+DriverVer   = 02/15/2019,1.11.0.0
 CatalogFile = LnvAudioExtSynaptics.cat
 
 [SourceDisksNames]
