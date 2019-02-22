@@ -5,7 +5,7 @@ ClassGuid={e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider=Fortemedia
 ExtensionId = {6BB685A9-87AA-4BE8-A345-055DB3E4452A}
 CatalogFile=IntcDMicExt.cat
-DriverVer = 01/07/2019,09.21.3229.28
+DriverVer = 01/15/2019,09.21.3229.29
 
 [Manufacturer]
 Intel(R) Corporation = Intel, NTAMD64.10.0...16273
@@ -18,6 +18,7 @@ Intel(R) Corporation = Intel, NTAMD64.10.0...16273
 %Device.ExtensionDesc% = IntcAudModelWSstPpDll, INTELAUDIO\CTLR_DEV_9DC8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_380D17AA&REV_0001
 %Device.ExtensionDesc% = IntcAudModelWSstPpDll, INTELAUDIO\CTLR_DEV_34C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_380E17AA&REV_0001
 %Device.ExtensionDesc% = IntcAudModelWSstPpDll, INTELAUDIO\CTLR_DEV_A348&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_380217AA&REV_0001
+%Device.ExtensionDesc% = IntcAudModelWSstPpDll, INTELAUDIO\CTLR_DEV_34C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_381017AA&REV_0001
 
 [IntcAudModelWSstPpDll]
 AddReg = FortemediaSstPpDll.AddReg
@@ -53,12 +54,28 @@ AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn3.Topo_2%,IntcAudModel.DmicInput3.
 AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn3.Topo_2%,IntcAudModel.DmicInput3.Topo
 AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn3.Topo_4%,IntcAudModel.DmicInput3.Topo
 AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn3.Topo_4%,IntcAudModel.DmicInput3.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn4.Topo_1%,IntcAudModel.DmicInput4.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn4.Topo_1%,IntcAudModel.DmicInput4.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn4.Topo_2%,IntcAudModel.DmicInput4.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn4.Topo_2%,IntcAudModel.DmicInput4.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn4.Topo_4%,IntcAudModel.DmicInput4.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn4.Topo_4%,IntcAudModel.DmicInput4.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn5.Topo_1%,IntcAudModel.DmicInput5.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn5.Topo_1%,IntcAudModel.DmicInput5.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn5.Topo_2%,IntcAudModel.DmicInput5.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn5.Topo_2%,IntcAudModel.DmicInput5.Topo
+AddInterface=%KSCATEGORY_AUDIO%,%KSNAME_DmicIn5.Topo_4%,IntcAudModel.DmicInput5.Topo
+AddInterface=%KSCATEGORY_TOPOLOGY%,%KSNAME_DmicIn5.Topo_4%,IntcAudModel.DmicInput5.Topo
 
 [IntcAudModel.DmicInput1.Topo]
 AddReg = SysRecFx.AddReg
 [IntcAudModel.DmicInput2.Topo]
 AddReg = SysRecFx.AddReg
 [IntcAudModel.DmicInput3.Topo]
+AddReg = SysRecFx.AddReg
+[IntcAudModel.DmicInput4.Topo]
+AddReg = SysRecFx.AddReg
+[IntcAudModel.DmicInput5.Topo]
 AddReg = SysRecFx.AddReg
 
 [SysRecFx.AddReg]
@@ -73,7 +90,7 @@ HKR,"FX\\0",%PKEY_MFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%A
 HKR,"FX\\0",%PKEY_EFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%,%AUDIO_SIGNALPROCESSINGMODE_SPEECH%
 HKR,"FX\\0",%PKEY_MFX_KeywordDetector_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%,%AUDIO_SIGNALPROCESSINGMODE_SPEECH%
 ;HKR,"FX\\0",%PKEY_BYPASS_TP_EFFECTS%,%REG_DWORD%,0x1
-HKR,"FX\\0",%K2_ID%,0x00010001,0x13
+HKR,"FX\\0",%K2_ID%,0x00010001,0x03
 HKR,"FX\\0",%K51_ID%,0x00010001,0x32
 HKR,"FX\\0",%K7_ID%,0x00010001,0x800100
 HKR,"EP\\0", %PKEY_AudioEndpoint_Default_VolumeInDb%, 0x00010001, 0x140000
@@ -147,6 +164,12 @@ KSNAME_DmicIn2.Topo_4_24 = "IntcDMicTopo_4_48_24_D1"
 KSNAME_DmicIn3.Topo_1 = "IntcDMicTopo_1 _48_16_0"
 KSNAME_DmicIn3.Topo_2 = "IntcDMicTopo_2 _48_16_0"
 KSNAME_DmicIn3.Topo_4 = "IntcDMicTopo_4 _48_16_0"
+KSNAME_DmicIn4.Topo_1 = "IntcDMicTopo_1_48_24_D0"
+KSNAME_DmicIn4.Topo_2 = "IntcDMicTopo_2_48_24_D0"
+KSNAME_DmicIn4.Topo_4 = "IntcDMicTopo_4_48_24_D0"
+KSNAME_DmicIn5.Topo_1 = "IntcDMicTopo_1_48_24_D1"
+KSNAME_DmicIn5.Topo_2 = "IntcDMicTopo_2_48_24_D1"
+KSNAME_DmicIn5.Topo_4 = "IntcDMicTopo_4_48_24_D1"
 
 Device.ExtensionDesc = "Intel Device Extension for Fortemedia"
 
