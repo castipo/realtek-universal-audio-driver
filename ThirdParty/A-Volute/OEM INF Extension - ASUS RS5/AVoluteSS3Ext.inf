@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %Provider%
 ExtensionId = {1b98ef90-ca0e-11e7-8f1a-0800200c9a66}
-DriverVer = 01/17/2019,1.1.5.55752
+DriverVer = 02/21/2019,1.1.7.56670
 CatalogFile = AVoluteSS3Ext.cat
 
 [SourceDisksNames]
@@ -27,6 +27,7 @@ SS3ProductSettings.cab
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_10431BC0
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_10431ED0
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_10431031
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_10431011
 %Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_10431011
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_10431B50
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_10431BD0
@@ -90,5 +91,4 @@ DiskId1              	= "A-Volute Extension Installation Disk"
 PKEY_PRODUCTID			= "{F363DF17-A750-4AC3-B7B5-2BBEFFA9085F},11"
 PKEY_ISST_PRODUCTID		= "{9B8844FE-1650-40E5-A5EA-11B8C83821A1},12"
 PRODUCTID				= "A-Volute.SonicStudio3"
-
 
