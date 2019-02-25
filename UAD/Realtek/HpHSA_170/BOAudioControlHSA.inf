@@ -3,7 +3,7 @@ Signature   = "$WINDOWS NT$"
 Class       = SoftwareComponent
 ClassGuid   = {5c4c3332-344d-483c-8739-259e934c9cc8}
 Provider    = %Realtek%
-DriverVer   = 01/29/2019,11.0.6000.169
+DriverVer   = 02/14/2019,11.0.6000.170
 CatalogFile = HPAudioControlHSA.cat
 
 [SourceDisksNames]
@@ -25,7 +25,7 @@ PETrust=true
 %Realtek% = HsaComponents,NTamd64
 
 [HsaComponents.NTamd64]
-%Hsa.ComponentDesc% = HsaComponent_Install,SWC\VEN_10EC&HID_0002
+%Hsa.ComponentDesc% = HsaComponent_Install,SWC\VEN_10EC&HID_0004
 
 [HsaComponent_Install]
 Include   = wdmaudio.inf
@@ -34,11 +34,11 @@ Include   = wdmaudio.inf
 AddService = ,2    ; no function driver
 
 [HsaComponent_Install.Software]
-AddSoftware=HPAudioControl,,HP_Audio_Control_Install
+AddSoftware=BOAudioControl,,BO_Audio_Control_Install
 
-[HP_Audio_Control_Install]
+[BO_Audio_Control_Install]
 SoftwareType=2
-SoftwareID=pfn://RealtekSemiconductorCorp.HPAudioControl_dt26b99r8h8gj
+SoftwareID=pfn://AD2F1837.BOAudioControl_v10z8vjag6ke6
 
 [Strings]
 Realtek           = "Realtek"
