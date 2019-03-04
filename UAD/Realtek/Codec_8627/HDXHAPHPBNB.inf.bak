@@ -1,0 +1,234 @@
+;
+; INF file for installing Realtek High Definition Audio Driver
+;
+
+[Version]
+CatalogFile=HDXRT.CAT
+Signature = "$WINDOWS NT$"
+Class=MEDIA
+ClassGuid={4d36e96c-e325-11ce-bfc1-08002be10318}
+Provider=%OrganizationName%
+DriverPackageType=PlugAndPlay
+DriverPackageDisplayName=%PackageDisplayName%
+DriverVer=01/25/2019, 6.0.1.8624
+
+[SourceDisksNames]
+222="Realtek HD Audio Installation Disk",,,
+
+[SourceDisksFiles]
+RTKVHD64.sys=222
+RTAIODAT.DAT=222
+
+amdacpksl.sys=222
+RTEventLog.dll=222
+
+[DestinationDirs]
+DefaultDestDir=10 ; %SystemRoot%
+IntcAzAudModelCopyFiles=10,system32\drivers
+RTEventLog.CopyList  = 11
+
+[SignatureAttributes]
+RTKVHD64.sys=SignatureAttributes.DRM
+amdacpksl.sys=SignatureAttributes.DRM
+
+[SignatureAttributes.DRM]
+DRMLevel=1300
+
+[Manufacturer]
+%MfgName% = AzaliaManufacturerID, NTamd64.10.0...15063
+
+[AzaliaManufacturerID.NTamd64.10.0...15063]
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0215&SUBSYS_103C858A
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0215&SUBSYS_103C858B
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0215&SUBSYS_103C8585
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0215&SUBSYS_103C8586
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0215&SUBSYS_103C8587
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0215&SUBSYS_103C8588
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0215&SUBSYS_103C8621
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0215&SUBSYS_103C8622
+
+
+[IntcAzAudModelCopyFiles]
+RTKVHD64.sys
+RTAIODAT.DAT
+amdacpksl.sys
+
+[RTEventLog.CopyList]
+RtEventLog.dll
+
+
+;;================= Windows 64 ====================
+[IntcAzAudModel.NTamd64]
+Include=ks.inf,wdmaudio.inf
+Needs=KS.Registration,WDMAUDIO.Registration
+CopyFiles = IntcAzAudModelCopyFiles, RTEventLog.CopyList
+AddReg    = HPModelAddReg, RtHdaBaseAddReg
+AddProperty  = OEMCustomBranding.AddProperty
+
+[HPModelAddReg]
+HKR,Settings,HP_Models,0x00010001,7
+
+[IntcAzAudModel.NTamd64.HW]
+AddReg=HdAudSecurity.AddReg
+AddReg=KSL_Filter_Reg
+
+[IntcAzAudModel.NTamd64.Services]
+AddService = IntcAzAudAddService, 0x00000002, IntcAzAudServiceInstall, IntcAzAudServiceEventLog
+AddService = amdacpksl, 0x00000000, KSL_Service_Install
+
+[IntcAzAudServiceInstall]
+DisplayName   = "Service for Realtek HD Audio (WDM)"
+ServiceType   = 1
+StartType     = 3
+ErrorControl  = 1
+ServiceBinary = %10%\system32\drivers\RTKVHD64.sys
+
+[KSL_Service_Install]
+DisplayName   = "Service for AMD KSL Filter Driver"
+ServiceType   = 1
+StartType     = 3
+ErrorControl  = 1
+ServiceBinary = %10%\system32\drivers\amdacpksl.sys
+
+[IntcAzAudServiceEventLog]
+AddReg=AddRegCommonEventLogSection
+
+[AddRegCommonEventLogSection]
+HKR,,"EventMessageFile",0x00020000,"%%SystemRoot%%\System32\RtEventLog.dll;%%12%%\RTKVHD64.sys"
+HKR,,"TypesSupported",0x00010001,0x00000007
+
+[KSL_Filter_Reg]
+HKR,,"LowerFilters", 0x00010008,"amdacpksl"
+
+[IntcAzAudModel.NTamd64.Wdf]
+KmdfService =  amdacpksl, amdacpksl_wdfsect
+
+[amdacpksl_wdfsect]
+KmdfLibraryVersion = 1.15
+
+[OEMCustomBranding.AddProperty]
+;; TODO: use a resource dll instead or just remove it
+;;DeviceBrandingIcon,,,,"%%SystemRoot%%\System32\RtPgEx64.dll,-200"
+DeviceVendorWebSite,,,,"http://www.realtek.com/" ; Place your URL here
+
+[HdAudSecurity.AddReg]
+; FILE_DEVICE_SOUND
+HKR,,DeviceType,0x10001,0x0000001D
+; SDDL_DEVOBJ_SYS_ALL_ADM_RWX_WORLD_RWX_RES_RWX HKR,,Security,,"D:P(A;;GA;;;SY)(A;;GRGWGX;;;BA)(A;;GRGWGX;;;WD)(A;;GRGWGX;;;RC)"
+
+
+[RtHdaBaseAddReg]
+HKR,,AssociatedFilters,,"wdmaud,swmidi,redbook"
+HKR,,Driver,,RTKVHD64.sys
+HKR,Settings,COINSTALLER_NEED_ADD_CPL_RUNKEY,0x00010001,1
+HKR,Settings,DECOUPLE,0x00010001,1
+
+HKR, DispatchSettings, UsePositionLock, 3, 01, 00, 00, 00
+
+HKR,PowerSettings,ConservationIdleTime,1,00,00,00,0     ; Not doing idle power management when on battery
+HKR,PowerSettings,PerformanceIdleTime,1,00,00,00,00     ; Not doing idle power management when on AC power
+HKR,PowerSettings,IdlePowerState,1,03,00,00,00          ; go to D3 for idle power management
+
+HKR,Settings,EQ_AGC_CONTROL,0x00010001,0
+
+HKR,Drivers,SubClasses,,"wave,midi,mixer,aux"
+
+HKR,Drivers\wave\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\midi\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\mixer\wdmaud.drv,Driver,,wdmaud.drv
+HKR,Drivers\aux\wdmaud.drv,Driver,,wdmaud.drv
+
+HKR,Drivers\wave\wdmaud.drv,Description,,%IntcAzAudioDeviceDescription%
+HKR,Drivers\midi\wdmaud.drv,Description,,%IntcAzAudioDeviceDescription%
+HKR,Drivers\mixer\wdmaud.drv,Description,,%IntcAzAudioDeviceDescription%
+HKR,Drivers\aux\wdmaud.drv,Description,,%IntcAzAudioDeviceDescription%
+
+HKR,,SetupPreferredAudioDevices,3,01,00,00,00
+
+HKR,InterfaceSetting\FriendlyName,RearLineOutWave,,%RearLineOutWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearLineOutTopo,,%RearLineOutTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearLineOutWave2,,%PrimaryLineOutWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,PrimaryLineOutTopo,,%PrimaryLineOutTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearLineOutWave3,,%SingleLineOutWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,SingleLineOutTopo,,%SingleLineOutTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,SecondaryLineOutWave,,%SecondaryLineOutWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,SecondaryLineOutTopo,,%SecondaryLineOutTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,FrontPanelHeadphoneWave,,%FrontPanelHeadphoneWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,FrontPanelHeadphoneTopo,,%FrontPanelHeadphoneTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,RtSpdifWave,,%RtSpdifWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,RtSpdifTopo,,%RtSpdifTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,RtSpdifHDMIWave,,%RtSpdifHDMIWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,RtSpdifHDMITopo,,%RtSpdifHDMITopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,RtSpdifRCAWave,,%RtSpdifRCAWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,RtSpdifRCATopo,,%RtSpdifRCATopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,RtSpdifOptWave,,%RtSpdifOptWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,RtSpdifOptTopo,,%RtSpdifOptTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,BTBPOutWave,,"Realtek HDA Bluetooth Bypass Output"
+HKR,InterfaceSetting\FriendlyName,BTBPOutTopo,,"Realtek HDA Bluetooth Bypass Output Mixer"
+HKR,InterfaceSetting\FriendlyName,BTBPInWave,,"Realtek HDA Bluetooth Bypass Iutput"
+HKR,InterfaceSetting\FriendlyName,BTBPInTopo,,"Realtek HDA Bluetooth Bypass Iutput Mixer"
+HKR,InterfaceSetting\FriendlyName,RearLineOutWaveSST,,"Realtek HD Audio output with SST"
+HKR,InterfaceSetting\FriendlyName,RearLineOutTopoSST,,"Realtek HD Audio output mixer with SST"
+HKR,InterfaceSetting\FriendlyName,RearLineOutWaveSST2,,"Realtek HDA Primary output with SST"
+HKR,InterfaceSetting\FriendlyName,RearLineOutTopoSST2,,"Realtek HDA Primary output mixer with SST"
+HKR,InterfaceSetting\FriendlyName,RearLineOutWaveSST3,,"Realtek HD Audio 2nd output with SST"
+HKR,InterfaceSetting\FriendlyName,RearLineOutTopoSST3,,"Realtek HD Audio 2nd output mixer with SST"
+HKR,InterfaceSetting\FriendlyName,RearLineOutWaveDock,,"Realtek HD Audio dock/base output"
+HKR,InterfaceSetting\FriendlyName,RearLineOutTopoDock,,"Realtek HD Audio dock/base output mixer"
+HKR,InterfaceSetting\FriendlyName,RearLineOutWaveHAP,,"Realtek HD Audio output with HAP"
+HKR,InterfaceSetting\FriendlyName,RearLineOutTopoHAP,,"Realtek HD Audio output mixer with HAP"
+HKR,InterfaceSetting,RearLineOutTopoHAP,0x10000,"SysFx","OEMSettingsOverride"
+HKR,InterfaceSetting\FriendlyName,RearLineOutWaveHAP2,,"Realtek HDA Primary output with HAP"
+HKR,InterfaceSetting\FriendlyName,RearLineOutTopoHAP2,,"Realtek HDA Primary output mixer with HAP"
+HKR,InterfaceSetting,RearLineOutTopoHAP2,0x10000,"SysFx","OEMSettingsOverride"
+HKR,InterfaceSetting\FriendlyName,RearLineOutWaveHAP3,,"Realtek HD Audio 2nd output with HAP"
+HKR,InterfaceSetting\FriendlyName,RearLineOutTopoHAP3,,"Realtek HD Audio 2nd output mixer with HAP"
+HKR,InterfaceSetting,RearLineOutTopoHAP3,0x10000,"SysFx","OEMSettingsOverride"
+
+HKR,InterfaceSetting\FriendlyName,RearLineInWave3,,%SingleLineInWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,SingleLineInTopo,,%SingleLineInTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,SecondaryLineInWave,,%SecondaryLineInWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,SecondaryLineInTopo,,%SecondaryLineInTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,PrimaryLineInWave,,%PrimaryLineInWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,PrimaryLineInTopo,,%PrimaryLineInTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,DigitalInputWave,,%DigitalInputWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,DigitalInputTopo,,%DigitalInputTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,HPRearCaptureWave,,%HPRearCaptureWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,HPRearCaptureTopo,,%HPRearCaptureTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,HPCPCCaptureWave,,%HPCPCCaptureWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,HPCPCCaptureTopo,,%HPCPCCaptureTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearLineInBlackWave,,%RearLineInBlackWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearLineInBlackTopo,,%RearLineInBlackTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearLineInGreyWave,,%RearLineInGreyWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearLineInGreyTopo,,%RearLineInGreyTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearLineInBlueWave,,%RearLineInBlueWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearLineInBlueTopo,,%RearLineInBlueTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearLineInGreenWave,,%RearLineInGreenWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearLineInGreenTopo,,%RearLineInGreenTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearLineInRedWave,,%RearLineInRedWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearLineInRedTopo,,%RearLineInRedTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearLineInOrangeWave,,%RearLineInOrangeWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearLineInOrangeTopo,,%RearLineInOrangeTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearLineInYellowWave,,%RearLineInYellowWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearLineInYellowTopo,,%RearLineInYellowTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearLineInPurpleWave,,%RearLineInPurpleWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearLineInPurpleTopo,,%RearLineInPurpleTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearLineInPinkWave,,%RearLineInPinkWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearLineInPinkTopo,,%RearLineInPinkTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearLineInGoldenWave,,%RearLineInGoldenWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearLineInGoldenTopo,,%RearLineInGoldenTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearLineInSilverWave,,%RearLineInSilverWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearLineInSilverTopo,,%RearLineInSilverTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearLineInWhiteWave,,%RearLineInWhiteWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearLineInWhiteTopo,,%RearLineInWhiteTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearMicInBlackWave,,%RearMicInBlackWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearMicInBlackTopo,,%RearMicInBlackTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearMicInGreyWave,,%RearMicInGreyWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearMicInGreyTopo,,%RearMicInGreyTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearMicInBlueWave,,%RearMicInBlueWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearMicInBlueTopo,,%RearMicInBlueTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearMicInGreenWave,,%RearMicInGreenWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearMicInGreenTopo,,%RearMicInGreenTopoDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearMicInRedWave,,%RearMicInRedWaveDeviceName%
+HKR,InterfaceSetting\FriendlyName,RearMicInRedTopo,,%RearMicInRedTopoDeviceName%
+HKR,
