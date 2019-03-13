@@ -9,7 +9,7 @@ ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider 	= %ManufacturerName%
 ExtensionId = {B3DB7BAE-71A1-4130-A6BE-19F99AF5036B}
 CatalogFile = dax3_ext_rtk_huawei.cat
-DriverVer = 02/20/2019,4.221.704.14
+DriverVer = 03/11/2019,4.312.133.02
 
 [Manufacturer]
 %ManufacturerName% = DeviceExtensions,NTamd64

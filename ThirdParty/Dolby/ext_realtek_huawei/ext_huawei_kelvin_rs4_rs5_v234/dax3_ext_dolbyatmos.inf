@@ -9,15 +9,15 @@ ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider 	= %ManufacturerName%
 ExtensionId = {15942AD2-6326-4F2D-BAF2-043883F4F8F9}
 CatalogFile = dax3_ext_dolbyatmos.cat
-DriverVer = 02/18/2019,3.20200.233.0
+DriverVer = 03/10/2019,3.20200.234.0
 
 [Manufacturer]
 %ManufacturerName% = DeviceExtensions,NTamd64
 
 [DeviceExtensions.NTamd64]
-%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53211
 %Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53E0A
 %Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53212
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53211
 
 [DeviceExtension_Install.NT]
 AddReg = PresetAddReg, DolbyAPO_AddReg
@@ -55,9 +55,9 @@ ComponentIds = VEN_DOLBY&PID_DAX3HSA_DolbyAtmos ; Matches with SWC\VEN_DOLBY&PID
 222="APO Installation Disk",,,
 
 [SourceDisksFiles]
-INTELAUDIO_DEV_0256_SUBSYS_19E53211_PCI_SUBSYS_3E0A19E5.xml = 222
 INTELAUDIO_DEV_0256_SUBSYS_19E53E0A_PCI_SUBSYS_3E0A19E5.xml = 222
 INTELAUDIO_DEV_0256_SUBSYS_19E53212_PCI_SUBSYS_3E0A19E5.xml = 222
+INTELAUDIO_DEV_0256_SUBSYS_19E53211_PCI_SUBSYS_3E0A19E5.xml = 222
 Headphone_Default_Generic_Small_DolbyAtmos.xml = 222
 Headphone_Default_Generic_Medium_DolbyAtmos.xml = 222
 Headphone_Default_Generic_Large_DolbyAtmos.xml = 222
@@ -67,9 +67,9 @@ Headphone_Default_Generic_Default_DolbyAtmos.xml = 222
 DolbyAPO_CopyFiles = 10,system32\dolbyaposvc
 
 [DolbyAPO_CopyFiles]
-INTELAUDIO_DEV_0256_SUBSYS_19E53211_PCI_SUBSYS_3E0A19E5.xml
 INTELAUDIO_DEV_0256_SUBSYS_19E53E0A_PCI_SUBSYS_3E0A19E5.xml
 INTELAUDIO_DEV_0256_SUBSYS_19E53212_PCI_SUBSYS_3E0A19E5.xml
+INTELAUDIO_DEV_0256_SUBSYS_19E53211_PCI_SUBSYS_3E0A19E5.xml
 Headphone_Default_Generic_Small_DolbyAtmos.xml
 Headphone_Default_Generic_Medium_DolbyAtmos.xml
 Headphone_Default_Generic_Large_DolbyAtmos.xml
