@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {E3FF7D04-25DC-4788-9F4D-228C14CEF325}
-DriverVer   = 01/10/2019,1.0.0.55
+DriverVer   = 03/12/2019,1.0.0.57
 CatalogFile = HpAudioExtSynaptics.cat
 
 [SourceDisksNames]
@@ -31,7 +31,7 @@ cxapo_103C856B_Rev0004.prop=222
 cxapo_103C856C_Rev0004.prop=222
 cxapo_103C8564_Rev0004.prop=222
 cxapo_103C8565_Rev0004.prop=222
-cxapo_103C84C5_Rev0006.prop=222
+cxapo_103C84C5_Rev0007.prop=222
 
 cxapo_103C84BD_Rev0005.prop=222
 cxapo_103C84C2_Rev0005.prop=222
@@ -268,8 +268,6 @@ CxSfPt.103C85D3_Rev0002.DAT=222
 CxSfPt.103C85D4_Rev0002.DAT=222
 CxSfPt.103C85D5_Rev0002.DAT=222
 CxSfPt.103C85D6_Rev0002.DAT=222
-CxSfPt.103C85EA_Rev0002.DAT=222
-CxSfPt.103C85EC_Rev0002.DAT=222
 CxSfPt.103C84B5_Rev0001.DAT=222
 CxSfPt.103C85E0_Rev0001.DAT=222
 CxSfPt.103C85E1_Rev0001.DAT=222
@@ -291,31 +289,20 @@ CxSfPt.103C8616_Rev0001.DAT=222
 CxSfPt.103C861B_Rev0001.DAT=222
 CxSfPt.103C861C_Rev0001.DAT=222
 
-CxSfPt.103C862D_Rev0001.DAT=222
-CxSfPt.103C862E_Rev0001.DAT=222
-CxSfPt.103C862F_Rev0001.DAT=222
-CxSfPt.103C8630_Rev0001.DAT=222
-CxSfPt.103C8631_Rev0001.DAT=222
-CxSfPt.103C8632_Rev0001.DAT=222
-CxSfPt.103C8633_Rev0001.DAT=222
-CxSfPt.103C8634_Rev0001.DAT=222
-CxSfPt.103C863A_Rev0001.DAT=222
-CxSfPt.103C863B_Rev0001.DAT=222
-CxSfPt.103C863C_Rev0001.DAT=222
-CxSfPt.103C863D_Rev0001.DAT=222
-
 CxSfPt.103C84E0_Rev0004.DAT=222
 
 CxSfPt.103C863E_Rev0001.DAT=222
 CxSfPt.103C863F_Rev0001.DAT=222
 
-CxSfPt.103C8640_Rev0001.dat=222
-CxSfPt.103C8641_Rev0001.dat=222
+CxSfPt.103C8640_Rev0002.dat=222
+CxSfPt.103C8641_Rev0002.dat=222
 
 CxSfPt.103C861D_Rev0001.dat=222
 CxSfPt.103C861E_Rev0001.dat=222
 
 CxSfPt.103C865E_Rev0001.dat=222
+
+
 
 [DestinationDirs]
 CNXT_Prop.CopyList = 11 ; %%SystemRoot%%\system32
@@ -575,8 +562,6 @@ CNXT_Tuning85D3.CopyList = 12 ; %SystemRoot%\system32\drivers
 CNXT_Tuning85D4.CopyList = 12 ; %SystemRoot%\system32\drivers
 CNXT_Tuning85D5.CopyList = 12 ; %SystemRoot%\system32\drivers
 CNXT_Tuning85D6.CopyList = 12 ; %SystemRoot%\system32\drivers
-CNXT_Tuning85EA.CopyList = 12 ; %SystemRoot%\system32\drivers
-CNXT_Tuning85EC.CopyList = 12 ; %SystemRoot%\system32\drivers
 CNXT_Tuning84B5.CopyList = 12 ; %SystemRoot%\system32\drivers
 CNXT_Tuning85E0.CopyList = 12 ; %SystemRoot%\system32\drivers
 CNXT_Tuning85E1.CopyList = 12 ; %SystemRoot%\system32\drivers
@@ -597,19 +582,6 @@ CNXT_Tuning8616.CopyList = 12 ; %SystemRoot%\system32\drivers
 
 CNXT_Tuning861B.CopyList = 12 ; %SystemRoot%\system32\drivers
 CNXT_Tuning861C.CopyList = 12 ; %SystemRoot%\system32\drivers
-
-CNXT_Tuning862D.CopyList = 12 ; %SystemRoot%\system32\drivers
-CNXT_Tuning862E.CopyList = 12 ; %SystemRoot%\system32\drivers
-CNXT_Tuning862F.CopyList = 12 ; %SystemRoot%\system32\drivers
-CNXT_Tuning8630.CopyList = 12 ; %SystemRoot%\system32\drivers
-CNXT_Tuning8631.CopyList = 12 ; %SystemRoot%\system32\drivers
-CNXT_Tuning8632.CopyList = 12 ; %SystemRoot%\system32\drivers
-CNXT_Tuning8633.CopyList = 12 ; %SystemRoot%\system32\drivers
-CNXT_Tuning8634.CopyList = 12 ; %SystemRoot%\system32\drivers
-CNXT_Tuning863A.CopyList = 12 ; %SystemRoot%\system32\drivers
-CNXT_Tuning863B.CopyList = 12 ; %SystemRoot%\system32\drivers
-CNXT_Tuning863C.CopyList = 12 ; %SystemRoot%\system32\drivers
-CNXT_Tuning863D.CopyList = 12 ; %SystemRoot%\system32\drivers
 
 CNXT_Tuning84E0.CopyList = 12 ; %SystemRoot%\system32\drivers
 
@@ -682,7 +654,7 @@ cxapo.prop, cxapo_103C8564_Rev0004.prop,,
 cxapo.prop, cxapo_103C8565_Rev0004.prop,,
 
 [CNXT_PropTuning84C5.CopyList]
-cxapo.prop, cxapo_103C84C5_Rev0006.prop,,
+cxapo.prop, cxapo_103C84C5_Rev0007.prop,,
 
 [CNXT_PropTuning84BD.CopyList]
 cxapo.prop, cxapo_103C84BD_Rev0005.prop,,
@@ -1275,12 +1247,6 @@ CxSfPt.dat, CxSfPt.103C85D5_Rev0002.DAT,,
 [CNXT_Tuning85D6.CopyList]
 CxSfPt.dat, CxSfPt.103C85D6_Rev0002.DAT,,
 
-[CNXT_Tuning85EA.CopyList]
-CxSfPt.dat, CxSfPt.103C85EA_Rev0002.DAT,,
-
-[CNXT_Tuning85EC.CopyList]
-CxSfPt.dat, CxSfPt.103C85EC_Rev0002.DAT,,
-
 [CNXT_Tuning84B5.CopyList]
 CxSfPt.dat, CxSfPt.103C84B5_Rev0001.DAT,,
 
@@ -1329,42 +1295,6 @@ CxSfPt.dat, CxSfPt.103C861B_Rev0001.DAT,,
 [CNXT_Tuning861C.CopyList]
 CxSfPt.dat, CxSfPt.103C861C_Rev0001.DAT,,
 
-[CNXT_Tuning862D.CopyList]
-CxSfPt.dat, CxSfPt.103C862D_Rev0001.DAT,,
-
-[CNXT_Tuning862E.CopyList]
-CxSfPt.dat, CxSfPt.103C862E_Rev0001.DAT,,
-
-[CNXT_Tuning862F.CopyList]
-CxSfPt.dat, CxSfPt.103C862F_Rev0001.DAT,,
-
-[CNXT_Tuning8630.CopyList]
-CxSfPt.dat, CxSfPt.103C8630_Rev0001.DAT,,
-
-[CNXT_Tuning8631.CopyList]
-CxSfPt.dat, CxSfPt.103C8631_Rev0001.DAT,,
-
-[CNXT_Tuning8632.CopyList]
-CxSfPt.dat, CxSfPt.103C8632_Rev0001.DAT,,
-
-[CNXT_Tuning8633.CopyList]
-CxSfPt.dat, CxSfPt.103C8633_Rev0001.DAT,,
-
-[CNXT_Tuning8634.CopyList]
-CxSfPt.dat, CxSfPt.103C8634_Rev0001.DAT,,
-
-[CNXT_Tuning863A.CopyList]
-CxSfPt.dat, CxSfPt.103C863A_Rev0001.DAT,,
-
-[CNXT_Tuning863B.CopyList]
-CxSfPt.dat, CxSfPt.103C863B_Rev0001.DAT,,
-
-[CNXT_Tuning863C.CopyList]
-CxSfPt.dat, CxSfPt.103C863C_Rev0001.DAT,,
-
-[CNXT_Tuning863D.CopyList]
-CxSfPt.dat, CxSfPt.103C863D_Rev0001.DAT,,
-
 [CNXT_Tuning84E0.CopyList] 
 CxSfPt.dat, CxSfPt.103C84E0_Rev0004.DAT,,
 
@@ -1375,10 +1305,10 @@ CxSfPt.dat, CxSfPt.103C863E_Rev0001.DAT,,
 CxSfPt.dat, CxSfPt.103C863F_Rev0001.DAT,,
 
 [CNXT_Tuning8640.CopyList]
-CxSfPt.dat, CxSfPt.103C8640_Rev0001.DAT,,
+CxSfPt.dat, CxSfPt.103C8640_Rev0002.DAT,,
 
 [CNXT_Tuning8641.CopyList]
-CxSfPt.dat, CxSfPt.103C8641_Rev0001.DAT,,
+CxSfPt.dat, CxSfPt.103C8641_Rev0002.DAT,,
 
 [CNXT_Tuning861D.CopyList]
 CxSfPt.dat, CxSfPt.103C861D_Rev0001.DAT,,
@@ -1596,8 +1526,6 @@ CxSfPt.dat, CxSfPt.103C865E_Rev0001.DAT,,
 %Device.ExtensionDesc% = DeviceExtension85D4_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C85D4 ;;Potter1.1
 %Device.ExtensionDesc% = DeviceExtension85D5_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C85D5 ;;Potter1.1
 %Device.ExtensionDesc% = DeviceExtension85D6_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C85D6 ;;Potter1.1
-%Device.ExtensionDesc% = DeviceExtension85EA_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C85EA ;;Weasley 1.1
-%Device.ExtensionDesc% = DeviceExtension85EC_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C85EC ;;Weasley 1.1
 %Device.ExtensionDesc% = DeviceExtension84B5_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C84B5 ;;Hedwig 
 %Device.ExtensionDesc% = DeviceExtension85E0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C85BD ;;Ashmore
 %Device.ExtensionDesc% = DeviceExtension85E1_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C85BE ;;Ashmore
@@ -1621,23 +1549,10 @@ CxSfPt.dat, CxSfPt.103C865E_Rev0001.DAT,,
 %Device.ExtensionDesc% = DeviceExtension861D_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_103C861D ;;Lannister1.1
 %Device.ExtensionDesc% = DeviceExtension861E_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_103C861E ;;Lannister1.1
 
-%Device.ExtensionDesc% = DeviceExtension862D_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C862D ;;OPP Potter
-%Device.ExtensionDesc% = DeviceExtension862E_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C862E ;;OPP Potter
-%Device.ExtensionDesc% = DeviceExtension862F_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C862F ;;OPP Potter
-%Device.ExtensionDesc% = DeviceExtension8630_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C8630 ;;OPP Potter
-%Device.ExtensionDesc% = DeviceExtension8631_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C8631 ;;OPP Potter
-%Device.ExtensionDesc% = DeviceExtension8632_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C8632 ;;OPP Potter
-%Device.ExtensionDesc% = DeviceExtension8633_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C8633 ;;OPP Potter
-%Device.ExtensionDesc% = DeviceExtension8634_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C8634 ;;OPP Potter
-%Device.ExtensionDesc% = DeviceExtension863A_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C863A ;;Weasley 1.1
-%Device.ExtensionDesc% = DeviceExtension863B_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C863B ;;Weasley 1.1
-%Device.ExtensionDesc% = DeviceExtension863C_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C863C ;;Weasley 1.1
-%Device.ExtensionDesc% = DeviceExtension863D_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C863D ;;Weasley 1.1
-
 %Device.ExtensionDesc% = DeviceExtension84E0_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0282&SUBSYS_103C84E0 ;;Tortilla
 
 %Device.ExtensionDesc% = DeviceExtension863E_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C863E ;;Spectre Spiderman
-%Device.ExtensionDesc% = DeviceExtension863F_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C863F ;;Spectre Spiderman
+%Device.ExtensionDesc% = DeviceExtension863F_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C863F ;;Spectre Superman
 
 %Device.ExtensionDesc% = DeviceExtension8640_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_103C8640 ;;
 %Device.ExtensionDesc% = DeviceExtension8641_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_103C8641 ;;
@@ -2392,14 +2307,6 @@ AddReg = PresetMonoAddReg
 CopyFiles = CNXT_Tuning85D6.CopyList, CNXT_Prop.CopyList 
 AddReg = PresetMonoAddReg
 
-[DeviceExtension85EA_Install] 
-CopyFiles = CNXT_Tuning85EA.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
-
-[DeviceExtension85EC_Install] 
-CopyFiles = CNXT_Tuning85EC.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
-
 [DeviceExtension84B5_Install] 
 CopyFiles = CNXT_Tuning84B5.CopyList, CNXT_Prop.CopyList 
 AddReg = PresetMonoAddReg
@@ -2471,54 +2378,6 @@ AddReg = PresetAddReg, AlexaConfig.AddReg, Cortana84BD.AddReg
 [DeviceExtension861E_Install]
 CopyFiles = CNXT_Tuning861E.CopyList, CNXT_PropTuning861E.CopyList, TF_Tuning84c5.CopyList  
 AddReg = PresetAddReg, AlexaConfig.AddReg, Cortana84BD.AddReg
-
-[DeviceExtension862D_Install] 
-CopyFiles = CNXT_Tuning862D.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
-
-[DeviceExtension862E_Install] 
-CopyFiles = CNXT_Tuning862E.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
-
-[DeviceExtension862F_Install] 
-CopyFiles = CNXT_Tuning862F.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
-
-[DeviceExtension8630_Install] 
-CopyFiles = CNXT_Tuning8630.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
-
-[DeviceExtension8631_Install] 
-CopyFiles = CNXT_Tuning8631.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
-
-[DeviceExtension8632_Install] 
-CopyFiles = CNXT_Tuning8632.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
-
-[DeviceExtension8633_Install] 
-CopyFiles = CNXT_Tuning8633.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
-
-[DeviceExtension8634_Install] 
-CopyFiles = CNXT_Tuning8634.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
-
-[DeviceExtension863A_Install] 
-CopyFiles = CNXT_Tuning863A.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
-
-[DeviceExtension863B_Install] 
-CopyFiles = CNXT_Tuning863B.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
-
-[DeviceExtension863C_Install] 
-CopyFiles = CNXT_Tuning863C.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
-
-[DeviceExtension863D_Install] 
-CopyFiles = CNXT_Tuning863D.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
 
 [DeviceExtension84E0_Install] 
 CopyFiles = CNXT_Tuning84E0.CopyList, CNXT_Prop.CopyList 
@@ -3060,12 +2919,6 @@ AddReg = FriendlyName_Addreg
 [DeviceExtension85D6_Install.HW] 
 AddReg = FriendlyName_Addreg
 
-[DeviceExtension85EA_Install.HW] 
-AddReg = FriendlyName_Addreg
-
-[DeviceExtension85EC_Install.HW] 
-AddReg = FriendlyName_Addreg
-
 [DeviceExtension84B5_Install.HW] 
 AddReg = FriendlyName_Addreg
 
@@ -3118,42 +2971,6 @@ AddReg = FriendlyName_Addreg
 AddReg = FriendlyName_Addreg
 
 [DeviceExtension861E_Install.HW] 
-AddReg = FriendlyName_Addreg
-
-[DeviceExtension862D_Install.HW] 
-AddReg = FriendlyName_Addreg
-
-[DeviceExtension862E_Install.HW] 
-AddReg = FriendlyName_Addreg
-
-[DeviceExtension862F_Install.HW] 
-AddReg = FriendlyName_Addreg
-
-[DeviceExtension8630_Install.HW] 
-AddReg = FriendlyName_Addreg
-
-[DeviceExtension8631_Install.HW] 
-AddReg = FriendlyName_Addreg
-
-[DeviceExtension8632_Install.HW] 
-AddReg = FriendlyName_Addreg
-
-[DeviceExtension8633_Install.HW] 
-AddReg = FriendlyName_Addreg
-
-[DeviceExtension8634_Install.HW] 
-AddReg = FriendlyName_Addreg
-
-[DeviceExtension863A_Install.HW] 
-AddReg = FriendlyName_Addreg
-
-[DeviceExtension863B_Install.HW] 
-AddReg = FriendlyName_Addreg
-
-[DeviceExtension863C_Install.HW] 
-AddReg = FriendlyName_Addreg
-
-[DeviceExtension863D_Install.HW] 
 AddReg = FriendlyName_Addreg
 
 [DeviceExtension84E0_Install.HW]
@@ -3690,12 +3507,6 @@ AddComponent = ConexantAPO,,ConexantAPO_Install
 [DeviceExtension85D6_Install.Components] 
 AddComponent = ConexantAPO,,ConexantAPO_Install
 
-[DeviceExtension85EA_Install.Components] 
-AddComponent = ConexantAPO,,ConexantAPO_Install
-
-[DeviceExtension85EC_Install.Components] 
-AddComponent = ConexantAPO,,ConexantAPO_Install
-
 [DeviceExtension84B5_Install.Components] 
 AddComponent = ConexantAPO,,ConexantAPO_Install
 
@@ -3748,42 +3559,6 @@ AddComponent = ConexantAPO,,ConexantAPO_Install
 AddComponent = ConexantAPO,,ConexantAPO_Install
 
 [DeviceExtension861E_Install.Components] 
-AddComponent = ConexantAPO,,ConexantAPO_Install
-
-[DeviceExtension862D_Install.Components] 
-AddComponent = ConexantAPO,,ConexantAPO_Install
-
-[DeviceExtension862E_Install.Components] 
-AddComponent = ConexantAPO,,ConexantAPO_Install
-
-[DeviceExtension862F_Install.Components] 
-AddComponent = ConexantAPO,,ConexantAPO_Install
-
-[DeviceExtension8630_Install.Components] 
-AddComponent = ConexantAPO,,ConexantAPO_Install
-
-[DeviceExtension8631_Install.Components] 
-AddComponent = ConexantAPO,,ConexantAPO_Install
-
-[DeviceExtension8632_Install.Components] 
-AddComponent = ConexantAPO,,ConexantAPO_Install
-
-[DeviceExtension8633_Install.Components] 
-AddComponent = ConexantAPO,,ConexantAPO_Install
-
-[DeviceExtension8634_Install.Components] 
-AddComponent = ConexantAPO,,ConexantAPO_Install
-
-[DeviceExtension863A_Install.Components] 
-AddComponent = ConexantAPO,,ConexantAPO_Install
-
-[DeviceExtension863B_Install.Components] 
-AddComponent = ConexantAPO,,ConexantAPO_Install
-
-[DeviceExtension863C_Install.Components] 
-AddComponent = ConexantAPO,,ConexantAPO_Install
-
-[DeviceExtension863D_Install.Components] 
 AddComponent = ConexantAPO,,ConexantAPO_Install
 
 [DeviceExtension84E0_Install.Components]
