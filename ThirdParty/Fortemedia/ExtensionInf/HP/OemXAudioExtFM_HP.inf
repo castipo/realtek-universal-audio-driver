@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {86F65302-34A5-441C-8E16-C05C2D9E6151}
-DriverVer   = 02/01/2019,1.0.3.68
+DriverVer   = 03/11/2019,1.0.3.73
 CatalogFile = OemXAudioExt_fm.cat
 
 [SourceDisksNames]
@@ -70,6 +70,7 @@ SAMSfpa_103C86A7.dat=222
 SAMSfpa_103C86A8.dat=222
 SAMSfpa_103C86A9.dat=222
 SAMSfpa_103C86AA.dat=222
+SAMSfpa_103C8549.dat=222
 Samsfpaspk_103C8536.dat=222
 Samsfpaspk_103C8537.dat=222
 Samsfpaspk_103C8538.dat=222
@@ -129,6 +130,7 @@ Samsfpaspk_103C86A7.dat=222
 Samsfpaspk_103C86A8.dat=222
 Samsfpaspk_103C86A9.dat=222
 Samsfpaspk_103C86AA.dat=222
+Samsfpaspk_103C8549.dat=222
 RTMICAR_103C8536.dat=222
 RTMICAR_103C8537.dat=222
 RTMICAR_103C8538.dat=222
@@ -177,6 +179,7 @@ RTMICAR_103C86A7.dat=222
 RTMICAR_103C86A8.dat=222
 RTMICAR_103C86A9.dat=222
 RTMICAR_103C86AA.dat=222
+RTMICAR_103C8549.dat=222
 SAMSfppch_103C857F.dat=222
 SAMSfppch_103C8548.dat=222
 SAMSfppch_103C861F.dat=222
@@ -206,6 +209,7 @@ SAMSfppch_103C86A7.dat=222
 SAMSfppch_103C86A8.dat=222
 SAMSfppch_103C86A9.dat=222
 SAMSfppch_103C86AA.dat=222
+SAMSfppch_103C8549.dat=222
 
 [DestinationDirs]
 FMDAT_103C8536.CopyList = 12 ; %windir%\system32\drivers
@@ -267,6 +271,7 @@ FMDAT_103C86A7.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_103C86A8.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_103C86A9.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_103C86AA.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_103C8549.CopyList = 12 ; %windir%\system32\drivers
 
 
 [FMDAT_103C8536.CopyList]
@@ -582,6 +587,12 @@ Samsfpaspk.dat, Samsfpaspk_103C86AA.dat
 RTMICAR.dat, RTMICAR_103C86AA.dat
 SAMSfppch.dat, SAMSfppch_103C86AA.dat
 
+[FMDAT_103C8549.CopyList]
+SAMSfpa.dat, SAMSfpa_103C8549.dat
+Samsfpaspk.dat, Samsfpaspk_103C8549.dat
+RTMICAR.dat, RTMICAR_103C8549.dat
+SAMSfppch.dat, SAMSfppch_103C8549.dat
+
 
 [Manufacturer]
 %OEM% = DeviceExtensions,NTamd64
@@ -646,6 +657,7 @@ SAMSfppch.dat, SAMSfppch_103C86AA.dat
 %Device.ExtensionDesc% = DeviceExtension_Install_103C86A8,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86A8
 %Device.ExtensionDesc% = DeviceExtension_Install_103C86A9,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86A9
 %Device.ExtensionDesc% = DeviceExtension_Install_103C86AA,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86AA
+%Device.ExtensionDesc% = DeviceExtension_Install_103C8549,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0215&SUBSYS_103C8549
 
 
 [DeviceExtension_Install_103C8536]
@@ -1109,6 +1121,14 @@ AddReg = RENPresetAddReg
 
 [DeviceExtension_Install_103C86AA.HW]
 
+[DeviceExtension_Install_103C8549]
+CopyFiles = FMDAT_103C8549.CopyList
+AddReg = CortanaKey_103C8549_AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C8549.HW]
+
 ;[FriendlyName_AddReg]
 ;HKR,,FriendlyName,,%ExtendedFriendlyName%
 
@@ -1287,6 +1307,9 @@ AddComponent = FMAPO,,FMAPO_Install
 AddComponent = FMAPO,,FMAPO_Install
 
 [DeviceExtension_Install_103C86AA.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_103C8549.Components]
 AddComponent = FMAPO,,FMAPO_Install
 
 [PresetAddReg]
@@ -1543,6 +1566,9 @@ HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 
 [CortanaKey_103C86AA_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C8549_AddReg]
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 
 [Strings]

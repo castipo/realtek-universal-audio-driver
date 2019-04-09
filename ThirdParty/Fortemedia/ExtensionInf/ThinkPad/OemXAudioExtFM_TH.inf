@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {86F65302-34A5-441C-8E16-C05C2D9E6151}
-DriverVer   = 02/01/2019,1.0.3.68
+DriverVer   = 03/11/2019,1.0.3.73
 CatalogFile = OemXAudioExt_fm.cat
 
 [SourceDisksNames]
@@ -46,6 +46,7 @@ SAMSfpa_17AA5075.dat=222
 SAMSfpa_17AA5076.dat=222
 SAMSfpa_17AA229D.dat=222
 SAMSfpa_17AA001A.dat=222
+SAMSfpa_17AA22A2.dat=222
 RTMICAR_17AA5122.dat=222
 RTMICAR_17AA5123.dat=222
 RTMICAR_17AA225F.dat=222
@@ -79,6 +80,7 @@ RTMICAR_17AA5075.dat=222
 RTMICAR_17AA5076.dat=222
 RTMICAR_17AA229D.dat=222
 RTMICAR_17AA001A.dat=222
+RTMICAR_17AA22A2.dat=222
 SAMSfpi_17AA2266.dat=222
 SAMSfpi_17AA2267.dat=222
 SAMSfpi_17AA2276.dat=222
@@ -95,6 +97,7 @@ SAMSfpi_17AA5076.dat=222
 SAMSfpi_17AA229D.dat=222
 SAMSfpi_17AA2292.dat=222
 SAMSfpi_17AA2293.dat=222
+SAMSfpi_17AA22A2.dat=222
 configuration_17AA5077.tf=222
 configuration_17AA2266.tf=222
 configuration_17AA2267.tf=222
@@ -108,6 +111,7 @@ configuration_17AA2287.tf=222
 configuration_17AA2288.tf=222
 configuration_17AA5075.tf=222
 configuration_17AA5076.tf=222
+configuration_17AA22A2.tf=222
 SAMSfppch_17AA2279.dat=222
 SAMSfppch_17AA2284.dat=222
 SAMSfppch_17AA2281.dat=222
@@ -154,6 +158,7 @@ FMDAT_17AA5075.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_17AA5076.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_17AA229D.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_17AA001A.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_17AA22A2.CopyList = 12 ; %windir%\system32\drivers
 FMPPDAT_17AA2266.CopyList = 11 ; %windir%\system32
 FMPPDAT_17AA2267.CopyList = 11 ; %windir%\system32
 FMPPDAT_17AA2276.CopyList = 11 ; %windir%\system32
@@ -170,6 +175,7 @@ FMPPDAT_17AA5076.CopyList = 11 ; %windir%\system32
 FMPPDAT_17AA229D.CopyList = 11 ; %windir%\system32
 FMPPDAT_17AA2292.CopyList = 11 ; %windir%\system32
 FMPPDAT_17AA2293.CopyList = 11 ; %windir%\system32
+FMPPDAT_17AA22A2.CopyList = 11 ; %windir%\system32
 
 
 [FMDAT_17AA506E.CopyList]
@@ -319,6 +325,10 @@ RTMICAR.dat, RTMICAR_17AA229D.dat
 SAMSfpa.dat, SAMSfpa_17AA001A.dat
 RTMICAR.dat, RTMICAR_17AA001A.dat
 
+[FMDAT_17AA22A2.CopyList]
+SAMSfpa.dat, SAMSfpa_17AA22A2.dat
+RTMICAR.dat, RTMICAR_17AA22A2.dat
+
 [FMPPDAT_17AA2266.CopyList]
 SAMSfpi.dat, SAMSfpi_17AA2266.dat
 configuration.tf, configuration_17AA2266.tf
@@ -380,6 +390,10 @@ SAMSfpi.dat, SAMSfpi_17AA2292.dat
 [FMPPDAT_17AA2293.CopyList]
 SAMSfpi.dat, SAMSfpi_17AA2293.dat
 
+[FMPPDAT_17AA22A2.CopyList]
+SAMSfpi.dat, SAMSfpi_17AA22A2.dat
+configuration.tf, configuration_17AA22A2.tf
+
 [Manufacturer]
 %OEM% = DeviceExtensions,NTamd64
 
@@ -422,6 +436,7 @@ SAMSfpi.dat, SAMSfpi_17AA2293.dat
 %Device.ExtensionDesc% = DeviceExtension_Install_17AA5076,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA5076
 %Device.ExtensionDesc% = DeviceExtension_Install_17AA229D,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA229D
 %Device.ExtensionDesc% = DeviceExtension_Install_17AA001A,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA001A
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA22A2,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA22A2
 
 
 [DeviceExtension_Install_17AA506E]
@@ -688,6 +703,14 @@ AddReg = PresetAddReg
 
 [DeviceExtension_Install_17AA001A.HW]
 
+[DeviceExtension_Install_17AA22A2]
+CopyFiles = FMDAT_17AA22A2.CopyList, FMPPDAT_17AA22A2.CopyList
+AddReg = CortanaKey_17AA22A2_AddReg
+AddReg = PresetAddReg
+AddReg = FortemediaSstPpDll.AddReg
+
+[DeviceExtension_Install_17AA22A2.HW]
+
 ;[FriendlyName_AddReg]
 ;HKR,,FriendlyName,,%ExtendedFriendlyName%
 
@@ -794,6 +817,9 @@ AddComponent = FMAPO,,FMAPO_Install
 AddComponent = FMAPO,,FMAPO_Install
 
 [DeviceExtension_Install_17AA001A.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_17AA22A2.Components]
 AddComponent = FMAPO,,FMAPO_Install
 
 [PresetAddReg]
@@ -979,6 +1005,9 @@ HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 
 [CortanaKey_17AA001A_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_17AA22A2_AddReg]
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 
 [Strings]

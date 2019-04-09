@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %MAXIM%
 ExtensionId = {A67DD185-6379-4BE1-9BB6-7038340833D9}
-DriverVer = 05/24/2018,18.29.12.160
+DriverVer = 02/27/2019,15.4.11.516
 CatalogFile = maximextension.cat
 
 [Manufacturer]
