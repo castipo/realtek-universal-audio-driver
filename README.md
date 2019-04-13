@@ -39,3 +39,9 @@ If your PC had preinstalled HDA driver with a desktop platform (non-UWP) of audi
 
 Realtek HD Audio Codec Driver Patcher (A1) by Pihto (DTSi &DLL unlock) does not work on UAD.
 
+---------------------------------------
+## Support
+
+To keep this repository maintenance, click the below donate button (PayPal)
+
+[![Foo](https://www.paypal.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VK8CDPFUMCYPN&source=url)
