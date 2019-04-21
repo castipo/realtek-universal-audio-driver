@@ -4,7 +4,7 @@ Signature="$WINDOWS NT$"
 Class=Extension
 ClassGuid={e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider=%ProviderName%
-DriverVer=01/28/2019,15.48.71.5590
+DriverVer=04/18/2019,15.55.62.3680
 CatalogFile=SEAPO32URExt.cat
 
 [SourceDisksNames]
@@ -44,7 +44,7 @@ AddReg=SEAPO.AddReg
 AddComponent = SEAPO,,SEAPO_Install
 
 [SEAPO_Install]
-ComponentIDs=VEN_0A2E&AID_0002&VER_02000840 
+ComponentIDs=VEN_0A2E&AID_0002 
 Description="Sound Research USB Audio Effects Component"
 
 [SEAPO.AddReg]
