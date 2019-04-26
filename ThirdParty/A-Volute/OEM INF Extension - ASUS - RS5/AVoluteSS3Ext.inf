@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %Provider%
 ExtensionId = {1b98ef90-ca0e-11e7-8f1a-0800200c9a66}
-DriverVer = 03/26/2019,1.1.11.57289
+DriverVer = 04/09/2019,1.2.0.57562
 CatalogFile = AVoluteSS3Ext.cat
 
 [SourceDisksNames]

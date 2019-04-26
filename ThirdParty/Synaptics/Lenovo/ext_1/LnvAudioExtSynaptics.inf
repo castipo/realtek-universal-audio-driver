@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {D5444778-E388-4B40-BD02-A54D3DD86172}
-DriverVer   = 02/15/2019,1.11.0.0
+DriverVer   = 04/25/2019,1.13.0.0
 CatalogFile = LnvAudioExtSynaptics.cat
 
 [SourceDisksNames]
@@ -48,12 +48,23 @@ RTMICAR.DAT, RTMICAR_17AA3812.DAT,,
 %Device.ExtensionDesc% = DeviceExtension3812_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3812 ;;S540-15
 %Device.ExtensionDesc% = DeviceExtension3812_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3822 ;;S540-15
 %Device.ExtensionDesc% = DeviceExtension3812_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA382E ;;S540-15
+%Device.ExtensionDesc% = DeviceExtension3812_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3831 ;;S540-15
+%Device.ExtensionDesc% = DeviceExtension3835_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3835 ;;V540s-13
+%Device.ExtensionDesc% = DeviceExtension3835_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3836 ;;V540s-14
 
 [DeviceExtension3812_Install]
 CopyFiles = CNXT_Tuning3812.CopyList, CNXT_PropTuning3812.CopyList
 AddReg = PresetAddReg, FriendlyName_AddReg, AlexaConfig.AddReg, Cortana3812.AddReg
 
+[DeviceExtension3835_Install]
+CopyFiles = CNXT_Tuning3812.CopyList
+AddReg = PresetExtMicAddReg, FriendlyName_AddReg, AlexaConfig.AddReg, Cortana3812.AddReg
+
 [DeviceExtension3812_Install.Components]
+AddComponent = ConexantAPO,,ConexantAPO_Install
+AddComponent = ConexantAPO_GenSA3Audio,, ConexantAPO_ComponentInstall_GenSA3Audio_01
+
+[DeviceExtension3835_Install.Components]
 AddComponent = ConexantAPO,,ConexantAPO_Install
 AddComponent = ConexantAPO_GenSA3Audio,, ConexantAPO_ComponentInstall_GenSA3Audio_01
 
