@@ -3,7 +3,7 @@ Signature   = "$WINDOWS NT$"
 Class       = SoftwareComponent
 ClassGuid   = {5c4c3332-344d-483c-8739-259e934c9cc8}
 Provider    = %OEM%
-DriverVer   = 11/07/2018,1.0.11.0
+DriverVer   = 03/29/2019,1.0.16.0
 CatalogFile = dtsapo4xservice.cat
 
 [SourceDisksNames]
@@ -36,6 +36,7 @@ PETrust=true
 CopyFiles = CopyList.DTSServiceX64
 
 [DTSService_Installx64.Services]
+AddService = ,2  ; to mask Infverif warning  
 AddService = DtsApo4Service, 0x00000800, DTS_Usersrv_ServiceInstall
 
 [CopyList.DTSServiceX64]
