@@ -3,7 +3,7 @@ Signature="$Windows NT$"
 Class=SoftwareComponent
 ClassGUID={5c4c3332-344d-483c-8739-259e934c9cc8}
 Provider=%ProviderName%
-DriverVer=04/18/2019,2.0.8.42
+DriverVer=05/14/2019,2.0.8.44
 CatalogFile=SEAPO32UR.cat
 
 [SourceDisksNames]

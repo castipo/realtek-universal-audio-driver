@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %Provider%
 ExtensionId = {1b98ef90-ca0e-11e7-8f1a-0800200c9a66}
-DriverVer = 04/09/2019,1.2.0.57562
+DriverVer = 05/07/2019,1.2.2.58001
 CatalogFile = AVoluteSS3Ext.cat
 
 [SourceDisksNames]
@@ -65,6 +65,10 @@ SS3ProductSettings.cab
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0900&SUBSYS_10432230
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1168&SUBSYS_1043874D
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_104387BE
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_104387C4
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1168&SUBSYS_104387C5
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1168&SUBSYS_104387C6
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0887&SUBSYS_10432260
 
 [DeviceExtension_Install]
 CopyFiles = AVoluteProdSettings.CopyList
