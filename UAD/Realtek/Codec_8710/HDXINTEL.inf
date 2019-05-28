@@ -10,7 +10,7 @@ ClassGuid={4d36e96c-e325-11ce-bfc1-08002be10318}
 Provider=%OrganizationName%
 DriverPackageType=PlugAndPlay
 DriverPackageDisplayName=%PackageDisplayName%
-DriverVer=05/07/2019, 6.0.8699.1
+DriverVer=05/28/2019, 6.0.8710.3
 
 [SourceDisksNames]
 222="Realtek HD Audio Installation Disk",,,
@@ -34,10 +34,22 @@ DRMLevel=1300
 %MfgName% = AzaliaManufacturerID, NTamd64.10.0...15063
 
 [AzaliaManufacturerID.NTamd64.10.0...15063]
-"Realtek High Definition Audio" = IntcAzAudModel, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0700&SUBSYS_10EC11B4
-"Realtek High Definition Audio" = IntcAzAudModel, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0700&SUBSYS_10EC10F2
-"Realtek High Definition Audio" = IntcAzAudModel, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0700&SUBSYS_10EC112C
-
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_10EC11DC 
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_80862080
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0701&SUBSYS_10EC1124
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0701&SUBSYS_10EC11C0
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_80862079
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0700&SUBSYS_10EC11A8
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0701&SUBSYS_10EC11A8
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0700&SUBSYS_10EC11A2
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0701&SUBSYS_10EC11A2
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0700&SUBSYS_80862073
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_80862078
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0283&SUBSYS_80862067
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_80862075
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0700&SUBSYS_10EC10F2
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0700&SUBSYS_10EC112C
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_80862072
 
 [IntcAzAudModelCopyFiles]
 RTKVHD64.sys
@@ -49,12 +61,8 @@ RTAIODAT.DAT
 Include=ks.inf,wdmaudio.inf
 Needs=KS.Registration,WDMAUDIO.Registration
 CopyFiles = IntcAzAudModelCopyFiles
-AddReg    = SSTAddReg, RtHdaBaseAddReg
+AddReg    = RtHdaBaseAddReg
 AddProperty  = OEMCustomBranding.AddProperty
-
-[SSTAddReg]
-HKR,Settings,ForceSST,0x00010001,1
-HKR,Settings,ForIRVP,0x00010001,1
 
 [IntcAzAudModel.NTamd64.HW]
 AddReg=HdAudSecurity.AddReg
@@ -343,9 +351,11 @@ HKR,InterfaceSetting\OEMMicInSettingsOverride\EP\0, %PKEY_AudioEndpoint_Supports
 
 HKR,SSTPPCfg\{7111001F-D35F-44D9-81D2-7AC685BED3D7}\SPK\EFX,Enabled,0x10001,1
 HKR,SSTPPCfg\{7111001F-D35F-44D9-81D2-7AC685BED3D7}\SPK\EFX,Position,0x10001,9
+HKR,SSTPPCfg\{7111001F-D35F-44D9-81D2-7AC685BED3D7}\SPK\EFX,IsMandatory,0x10001,1
 
 HKR,SSTPPCfg\{7111001F-D35F-44D9-81D2-77E0D5E1BCD8}\SPK\EFX,Enabled,0x10001,1
 HKR,SSTPPCfg\{7111001F-D35F-44D9-81D2-77E0D5E1BCD8}\SPK\EFX,Position,0x10001,9
+HKR,SSTPPCfg\{7111001F-D35F-44D9-81D2-77E0D5E1BCD8}\SPK\EFX,IsMandatory,0x10001,1
 
 HKR,SSTPPCfg\{E1284052-8664-4FE4-A353-3878F72704C3}\HP\EFX,Enabled,0x10001,1
 HKR,SSTPPCfg\{E1284052-8664-4FE4-A353-3878F72704C3}\HP\EFX,Position,0x10001,1
