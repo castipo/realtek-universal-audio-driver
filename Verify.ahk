@@ -5,7 +5,7 @@ SetBatchLines, -1
 ; Customize File Extension (optional)
 CustomExt = tvb
 TreeRoot = %A_WorkingDir%\UAD\Realtek
-Singtool = %A_WorkingDir%\Signtool\signtool.exe
+Singtool = C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x64\signtool.exe
 
 
 ImageListID := IL_Create(10)
@@ -20,6 +20,13 @@ gosub LoadFolder
 return
 
 Verify:
+SplashTextOn,,, Please wait...
+
+W_Array := []
+ParentItem_Array := []
+FileList := ""
+ParentFullPath = ""
+
 FileDelete, Verify.bat
 FileDelete, output.txt
 FileAppend, @echo off`r`n, Verify.bat
@@ -28,29 +35,90 @@ Gui, Submit, NoHide
 GuiControlGet, TreeView
 Gui, +OwnDialogs
 ItemID := TV_GetSelection()
-ParentItemID := TV_GetParent(ItemID)
 TV_GetText(ItemText, ItemID)
-TV_GetText(ParentItemText, ParentItemID)
+
+Loop
+{
+    If (A_Index = "1")
+    {
+        ParentItemID := TV_GetParent(ItemID)
+    }
+    else
+    {
+        ParentItemID := TV_GetParent(ParentItemID)
+    }
+    If (ParentItemID = "0")
+    {
+        break 1
+    }
+    else
+    {
+        TV_GetText(ParentItemText, ParentItemID)
+        ParentItem_Array.Push(ParentItemText)
+    }
+}
+
+Loop, % ParentItem_Array.Length()
+{
+    Index := % ParentItem_Array.Length() - A_Index + 1
+    ParentFullPath .= ParentItem_Array[Index]
+    If (Index != "1")
+    {
+        ParentFullPath .= "\"
+    }
+}
+
+ParentFullPath := StrReplace(ParentFullPath, """""")
+
 If ItemText not contains .cat
 {
-	msgbox, Please select .cat file
+	SplashTextOff
+    msgbox, Please select .cat file
     return
 }
 
 FileAppend, @echo off`r`n, Verify.bat
-Loop, Files, %TreeRoot%\%ParentItemText%\*
+Loop, Files, %TreeRoot%\%ParentFullPath%\*
 {
     If A_LoopFileExt != cat
     {
-        FileAppend, "%Singtool%" verify /c "%TreeRoot%\%ParentItemText%\%ItemText%" "%TreeRoot%\%ParentItemText%\%A_LoopFileName%"`r`n, Verify.bat
+        FileAppend, "%Singtool%" verify /c "%TreeRoot%\%ParentFullPath%\%ItemText%" "%TreeRoot%\%ParentFullPath%\%A_LoopFileName%"`r`n, Verify.bat
     }
 }
 FileAppend, )`r`n, Verify.bat
-FileAppend, pause, Verify.bat
-Run, Verify.bat
-winwaitactive %comspec%
-return
+Runwait, Verify.bat
+FileRead, OutputContent, *P65001 output.txt
+Loop, Parse, OutputContent,`r`n
+{
+    FoundPos := RegExMatch(A_LoopField, "Successfully verified:(.*)", LineContents)
+    If (FoundPos != "0")
+    {
+        FileNameW := StrReplace(LineContents, "Successfully verified: " TreeRoot "\" ParentFullPath "\")
+        W_Array.Push(FileNameW)
+    }
+}
+W_Array.Push(ItemText)
 
+Loop, Files, %TreeRoot%\%ParentFullPath%\*
+{
+    FileList .= A_LoopFileName "`r`n"
+}
+
+Loop, % W_Array.Length()
+{
+    FileNameW := W_Array[A_Index]
+    Loop, Parse, FileList,`r`n
+    {
+        FileList := StrReplace(FileList, FileNameW "`r`n")
+    }   
+}
+
+Loop, Parse, FileList,`r`n
+{
+    FileDelete, %TreeRoot%\%ParentFullPath%\%A_LoopField%
+}
+SplashTextOff
+return
 
 LoadFolder:
 Gui, Submit, NoHide
