@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {E3FF7D04-25DC-4788-9F4D-228C14CEF325}
-DriverVer   = 03/12/2019,1.0.0.57
+DriverVer   = 05/15/2019,1.1.0.2
 CatalogFile = HpAudioExtSynaptics.cat
 
 [SourceDisksNames]
@@ -16,12 +16,12 @@ cxapo.prop=222
 103c8518_configuration.tf=222
 103c84c5_configuration.tf=222
 NHLT_rvp_2_4MHz_hp.BIN=222
-cxapo_103C8503_Rev0008.prop=222
-cxapo_103C8514_Rev0009.prop=222
-cxapo_103C8515_Rev0009.prop=222
-cxapo_103C8518_Rev0010.prop=222
-cxapo_103C8519_Rev0010.prop=222
-cxapo_103C8525_Rev0010.prop=222
+cxapo_103C8503_Rev0010.prop=222
+cxapo_103C8514_Rev0012.prop=222
+cxapo_103C8515_Rev0012.prop=222
+cxapo_103C8518_Rev0011.prop=222
+cxapo_103C8519_Rev0011.prop=222
+cxapo_103C8525_Rev0011.prop=222
 
 cxapo_103C850C_Rev0004.prop=222
 cxapo_103C850D_Rev0004.prop=222
@@ -600,724 +600,1673 @@ CNXT_Tuning865E.CopyList = 12 ; %SystemRoot%\system32\drivers
 cxapo.prop
 
 [TF_Tuning850C.CopyList]
-configuration.tf, 103c850c_configuration.tf,,
+103c850c_configuration.tf,,
 
 [TF_Tuning8518.CopyList]
-configuration.tf, 103c8518_configuration.tf,,
+103c8518_configuration.tf,,
 
 [TF_Tuning84c5.CopyList]
-configuration.tf, 103c84c5_configuration.tf,,
+103c84c5_configuration.tf,,
 
 [NHLT.CopyList]
 NHLT_rvp_2_4MHz_hp.bin
 
 [CNXT_PropTuning8503.CopyList]
-cxapo.prop, cxapo_103C8503_Rev0008.prop,,
+cxapo_103C8503_Rev0010.prop,,
 
 [CNXT_PropTuning8514.CopyList]
-cxapo.prop, cxapo_103C8514_Rev0009.prop,,
+cxapo_103C8514_Rev0012.prop,,
 
 [CNXT_PropTuning8515.CopyList]
-cxapo.prop, cxapo_103C8515_Rev0009.prop,,
+cxapo_103C8515_Rev0012.prop,,
 
 [CNXT_PropTuning8518.CopyList]
-cxapo.prop, cxapo_103C8518_Rev0010.prop,,
+cxapo_103C8518_Rev0011.prop,,
 
 [CNXT_PropTuning8519.CopyList]
-cxapo.prop, cxapo_103C8519_Rev0010.prop,,
+cxapo_103C8519_Rev0011.prop,,
 
 [CNXT_PropTuning8525.CopyList]
-cxapo.prop, cxapo_103C8525_Rev0010.prop,,
+cxapo_103C8525_Rev0011.prop,,
 
 [CNXT_PropTuning850C.CopyList]
-cxapo.prop, cxapo_103C850C_Rev0004.prop,,
+cxapo_103C850C_Rev0004.prop,,
 
 [CNXT_PropTuning850D.CopyList]
-cxapo.prop, cxapo_103C850D_Rev0004.prop,,
+cxapo_103C850D_Rev0004.prop,,
 
 [CNXT_PropTuning850E.CopyList]
-cxapo.prop, cxapo_103C850E_Rev0004.prop,,
+cxapo_103C850E_Rev0004.prop,,
 
 [CNXT_PropTuning850F.CopyList]
-cxapo.prop, cxapo_103C850F_Rev0004.prop,,
+cxapo_103C850F_Rev0004.prop,,
 
 [CNXT_PropTuning856B.CopyList]
-cxapo.prop, cxapo_103C856B_Rev0004.prop,,
+cxapo_103C856B_Rev0004.prop,,
 
 [CNXT_PropTuning856C.CopyList]
-cxapo.prop, cxapo_103C856C_Rev0004.prop,,
+cxapo_103C856C_Rev0004.prop,,
 
 [CNXT_PropTuning8564.CopyList]
-cxapo.prop, cxapo_103C8564_Rev0004.prop,,
+cxapo_103C8564_Rev0004.prop,,
 
 [CNXT_PropTuning8565.CopyList]
-cxapo.prop, cxapo_103C8565_Rev0004.prop,,
+cxapo_103C8565_Rev0004.prop,,
 
 [CNXT_PropTuning84C5.CopyList]
-cxapo.prop, cxapo_103C84C5_Rev0007.prop,,
+cxapo_103C84C5_Rev0007.prop,,
 
 [CNXT_PropTuning84BD.CopyList]
-cxapo.prop, cxapo_103C84BD_Rev0005.prop,,
+cxapo_103C84BD_Rev0005.prop,,
 
 [CNXT_PropTuning84C2.CopyList]
-cxapo.prop, cxapo_103C84C2_Rev0005.prop,,
+cxapo_103C84C2_Rev0005.prop,,
 
 [CNXT_PropTuning8504.CopyList]
-cxapo.prop, cxapo_103C8504_Rev0004.prop,,
+cxapo_103C8504_Rev0004.prop,,
 
 [CNXT_PropTuning84BB.CopyList]
-cxapo.prop, cxapo_103C84BB_Rev0004.prop,,
+cxapo_103C84BB_Rev0004.prop,,
 
 [CNXT_PropTuning84BC.CopyList]
-cxapo.prop, cxapo_103C84BC_Rev0004.prop,,
+cxapo_103C84BC_Rev0004.prop,,
 
 [CNXT_PropTuning84C0.CopyList]
-cxapo.prop, cxapo_103C84C0_Rev0005.prop,,
+cxapo_103C84C0_Rev0005.prop,,
 
 [CNXT_PropTuning84C1.CopyList]
-cxapo.prop, cxapo_103C84C1_Rev0005.prop,,
+cxapo_103C84C1_Rev0005.prop,,
 
 [CNXT_PropTuning856A.CopyList]
-cxapo.prop, cxapo_103C856A_Rev0005.prop,,
+cxapo_103C856A_Rev0005.prop,,
 
 [CNXT_PropTuning8581.CopyList]
-cxapo.prop, cxapo_103C8581_Rev0002.prop,,
+cxapo_103C8581_Rev0002.prop,,
 
 [CNXT_PropTuning861D.CopyList]
-cxapo.prop, cxapo_103C861D_Rev0003.prop,,
+cxapo_103C861D_Rev0003.prop,,
 
 [CNXT_PropTuning861E.CopyList]
-cxapo.prop, cxapo_103C861E_Rev0003.prop,,
+cxapo_103C861E_Rev0003.prop,,
 
 [CNXT_PropTuning8574.CopyList]
-cxapo.prop, cxapo_103C8574_Rev0002.prop,,
+cxapo_103C8574_Rev0002.prop,,
 
 [CNXT_PropTuning8575.CopyList]
-cxapo.prop, cxapo_103C8575_Rev0002.prop,,
+cxapo_103C8575_Rev0002.prop,,
 
 [CNXT_PropTuning860A.CopyList]
-cxapo.prop, cxapo_103C860A_Rev0002.prop,,
+cxapo_103C860A_Rev0002.prop,,
 
 [CNXT_PropTuning863E.CopyList]
-cxapo.prop, cxapo_103C863E_Rev0001.prop,,
+cxapo_103C863E_Rev0001.prop,,
 
 [CNXT_PropTuning863F.CopyList]
-cxapo.prop, cxapo_103C863F_Rev0001.prop,,
+cxapo_103C863F_Rev0001.prop,,
 
 [CNXT_PropTuning8640.CopyList]
-cxapo.prop, cxapo_103C8640_Rev0001.prop,,
+cxapo_103C8640_Rev0001.prop,,
 
 [CNXT_PropTuning8641.CopyList]
-cxapo.prop, cxapo_103C8641_Rev0001.prop,,
+cxapo_103C8641_Rev0001.prop,,
 
 [CNXT_PropTuning865E.CopyList]
-cxapo.prop, cxapo_103C865E_Rev0001.prop,,
+cxapo_103C865E_Rev0001.prop,,
 
 [CNXT_Tuning.CopyList]
 CxSfPt.dat
 
 [CNXT_Tuning8453.CopyList]
-CxSfPt.dat, CxSfPt.103C8453_Rev0001.DAT,, 
+CxSfPt.103C8453_Rev0001.DAT,, 
 
 [CNXT_Tuning82BD.CopyList]
-CxSfPt.dat, CxSfPt.103C82BD_Rev0002.DAT,, 
+CxSfPt.103C82BD_Rev0002.DAT,, 
 
 [CNXT_Tuning8452.CopyList]
-CxSfPt.dat, CxSfPt.103C8452_Rev0001.DAT,, 
+CxSfPt.103C8452_Rev0001.DAT,, 
 
 [CNXT_Tuning82CB.CopyList]
-CxSfPt.dat, CxSfPt.103C82CB_Rev0006.DAT,, 
+CxSfPt.103C82CB_Rev0006.DAT,, 
 
 [CNXT_Tuning82CC.CopyList]
-CxSfPt.dat, CxSfPt.103C82CC_Rev0006.DAT,, 
+CxSfPt.103C82CC_Rev0006.DAT,, 
 
 [CNXT_Tuning84A0.CopyList] 
-CxSfPt.dat, CxSfPt.103C84A0_Rev0001.dat,,
+CxSfPt.103C84A0_Rev0001.dat,,
 
 [CNXT_Tuning84A1.CopyList] 
-CxSfPt.dat, CxSfPt.103C84A1_Rev0001.dat,,
+CxSfPt.103C84A1_Rev0001.dat,,
 
 [CNXT_Tuning84A2.CopyList] 
-CxSfPt.dat, CxSfPt.103C84A2_Rev0001.dat,,
+CxSfPt.103C84A2_Rev0001.dat,,
 
 [CNXT_Tuning84A3.CopyList] 
-CxSfPt.dat, CxSfPt.103C84A3_Rev0001.dat,,
+CxSfPt.103C84A3_Rev0001.dat,,
 
 [CNXT_Tuning84A4.CopyList] 
-CxSfPt.dat, CxSfPt.103C84A4_Rev0002.dat,,
+CxSfPt.103C84A4_Rev0002.dat,,
 
 [CNXT_Tuning84A5.CopyList] 
-CxSfPt.dat, CxSfPt.103C84A5_Rev0002.dat,,
+CxSfPt.103C84A5_Rev0002.dat,,
 
 [CNXT_Tuning84A6.CopyList] 
-CxSfPt.dat, CxSfPt.103C84A6_Rev0002.dat,,
+CxSfPt.103C84A6_Rev0002.dat,,
 
 [CNXT_Tuning84A7.CopyList] 
-CxSfPt.dat, CxSfPt.103C84A7_Rev0002.dat,,
+CxSfPt.103C84A7_Rev0002.dat,,
 
 [CNXT_Tuning84A8.CopyList] 
-CxSfPt.dat, CxSfPt.103C84A8_Rev0002.dat,,
+CxSfPt.103C84A8_Rev0002.dat,,
 
 [CNXT_Tuning84A9.CopyList] 
-CxSfPt.dat, CxSfPt.103C84A9_Rev0002.dat,,
+CxSfPt.103C84A9_Rev0002.dat,,
 
 [CNXT_Tuning84AA.CopyList] 
-CxSfPt.dat, CxSfPt.103C84AA_Rev0002.dat,,
+CxSfPt.103C84AA_Rev0002.dat,,
 
 [CNXT_Tuning84AB.CopyList] 
-CxSfPt.dat, CxSfPt.103C84AB_Rev0002.dat,,
+CxSfPt.103C84AB_Rev0002.dat,,
 
 [CNXT_Tuning84AC.CopyList] 
-CxSfPt.dat, CxSfPt.103C84AC_Rev0001.dat,,
+CxSfPt.103C84AC_Rev0001.dat,,
 
 [CNXT_Tuning84AD.CopyList] 
-CxSfPt.dat, CxSfPt.103C84AD_Rev0001.dat,,
+CxSfPt.103C84AD_Rev0001.dat,,
 
 [CNXT_Tuning84AE.CopyList] 
-CxSfPt.dat, CxSfPt.103C84AE_Rev0001.dat,,
+CxSfPt.103C84AE_Rev0001.dat,,
 
 [CNXT_Tuning84AF.CopyList] 
-CxSfPt.dat, CxSfPt.103C84AF_Rev0001.dat,,
+CxSfPt.103C84AF_Rev0001.dat,,
 
 [CNXT_Tuning84B0.CopyList] 
-CxSfPt.dat, CxSfPt.103C84B0_Rev0002.dat,,
+CxSfPt.103C84B0_Rev0002.dat,,
 
 [CNXT_Tuning84B1.CopyList] 
-CxSfPt.dat, CxSfPt.103C84B1_Rev0002.dat,,
+CxSfPt.103C84B1_Rev0002.dat,,
 
 [CNXT_Tuning84B2.CopyList] 
-CxSfPt.dat, CxSfPt.103C84B2_Rev0002.dat,,
+CxSfPt.103C84B2_Rev0002.dat,,
 
 [CNXT_Tuning84B3.CopyList] 
-CxSfPt.dat, CxSfPt.103C84B3_Rev0002.dat,,
+CxSfPt.103C84B3_Rev0002.dat,,
 
 [CNXT_Tuning84B4.CopyList] 
-CxSfPt.dat, CxSfPt.103C84B4_Rev0002.dat,,
+CxSfPt.103C84B4_Rev0002.dat,,
 
 [CNXT_Tuning84B6.CopyList] 
-CxSfPt.dat, CxSfPt.103C84B6_Rev0002.dat,,
+CxSfPt.103C84B6_Rev0002.dat,,
 
 [CNXT_Tuning84B9.CopyList] 
-CxSfPt.dat, CxSfPt.103C84B9_Rev0003.dat,,
+CxSfPt.103C84B9_Rev0003.dat,,
 
 [CNXT_Tuning84BA.CopyList] 
-CxSfPt.dat, CxSfPt.103C84BA_Rev0003.DAT,,
+CxSfPt.103C84BA_Rev0003.DAT,,
 
 [CNXT_Tuning84BE.CopyList] 
-CxSfPt.dat, CxSfPt.103C84BE_Rev0001.DAT,,
+CxSfPt.103C84BE_Rev0001.DAT,,
 
 [CNXT_Tuning84BF.CopyList] 
-CxSfPt.dat, CxSfPt.103C84BF_Rev0001.DAT,,
+CxSfPt.103C84BF_Rev0001.DAT,,
 
 [CNXT_Tuning84C3.CopyList] 
-CxSfPt.dat, CxSfPt.103C84C3_Rev0002.DAT,,
+CxSfPt.103C84C3_Rev0002.DAT,,
 
 [CNXT_Tuning84C4.CopyList] 
-CxSfPt.dat, CxSfPt.103C84C4_Rev0002.DAT,,
+CxSfPt.103C84C4_Rev0002.DAT,,
 
 [CNXT_Tuning84C8.CopyList] 
-CxSfPt.dat, CxSfPt.103C84C8_Rev0001.DAT,,
+CxSfPt.103C84C8_Rev0001.DAT,,
 
 [CNXT_Tuning84C9.CopyList] 
-CxSfPt.dat, CxSfPt.103C84C9_Rev0001.DAT,,
+CxSfPt.103C84C9_Rev0001.DAT,,
 
 [CNXT_Tuning84CA.CopyList] 
-CxSfPt.dat, CxSfPt.103C84CA_Rev0001.DAT,,
+CxSfPt.103C84CA_Rev0001.DAT,,
 
 [CNXT_Tuning84CB.CopyList] 
-CxSfPt.dat, CxSfPt.103C84CB_Rev0001.DAT,,
+CxSfPt.103C84CB_Rev0001.DAT,,
 
 [CNXT_Tuning84CC.CopyList] 
-CxSfPt.dat, CxSfPt.103C84CC_Rev0001.DAT,,
+CxSfPt.103C84CC_Rev0001.DAT,,
 
 [CNXT_Tuning84CD.CopyList] 
-CxSfPt.dat, CxSfPt.103C84CD_Rev0001.DAT,,
+CxSfPt.103C84CD_Rev0001.DAT,,
 
 [CNXT_Tuning84CE.CopyList] 
-CxSfPt.dat, CxSfPt.103C84CE_Rev0001.DAT,,
+CxSfPt.103C84CE_Rev0001.DAT,,
 
 [CNXT_Tuning84CF.CopyList] 
-CxSfPt.dat, CxSfPt.103C84CF_Rev0001.DAT,,
+CxSfPt.103C84CF_Rev0001.DAT,,
 
 [CNXT_Tuning84D0.CopyList] 
-CxSfPt.dat, CxSfPt.103C84D0_Rev0001.dat,,
+CxSfPt.103C84D0_Rev0001.dat,,
 
 [CNXT_Tuning84D1.CopyList] 
-CxSfPt.dat, CxSfPt.103C84D1_Rev0001.dat,,
+CxSfPt.103C84D1_Rev0001.dat,,
 
 [CNXT_Tuning84D2.CopyList] 
-CxSfPt.dat, CxSfPt.103C84D2_Rev0001.dat,,
+CxSfPt.103C84D2_Rev0001.dat,,
 
 [CNXT_Tuning84D3.CopyList] 
-CxSfPt.dat, CxSfPt.103C84D3_Rev0001.dat,,
+CxSfPt.103C84D3_Rev0001.dat,,
 
 [CNXT_Tuning847A.CopyList] 
-CxSfPt.dat, CxSfPt.103C847A_Rev0005.DAT,,
+CxSfPt.103C847A_Rev0005.DAT,,
 
 [CNXT_Tuning847B.CopyList] 
-CxSfPt.dat, CxSfPt.103C847B_Rev0005.DAT,,
+CxSfPt.103C847B_Rev0005.DAT,,
 
 [CNXT_Tuning847C.CopyList] 
-CxSfPt.dat, CxSfPt.103C847C_Rev0005.DAT,,
+CxSfPt.103C847C_Rev0005.DAT,,
                                                                   
 [CNXT_Tuning848A.CopyList] 
-CxSfPt.dat, CxSfPt.103C848A_Rev0004.DAT,,
+CxSfPt.103C848A_Rev0004.DAT,,
 
 [CNXT_Tuning848B.CopyList] 
-CxSfPt.dat, CxSfPt.103C848B_Rev0004.DAT,,
+CxSfPt.103C848B_Rev0004.DAT,,
 
 [CNXT_Tuning848C.CopyList] 
-CxSfPt.dat, CxSfPt.103C848C_Rev0001.DAT,,
+CxSfPt.103C848C_Rev0001.DAT,,
 
 [CNXT_Tuning848D.CopyList] 
-CxSfPt.dat, CxSfPt.103C848D_Rev0001.DAT,,
+CxSfPt.103C848D_Rev0001.DAT,,
 
 [CNXT_Tuning848E.CopyList] 
-CxSfPt.dat, CxSfPt.103C848E_Rev0001.DAT,,
+CxSfPt.103C848E_Rev0001.DAT,,
 
 [CNXT_Tuning848F.CopyList] 
-CxSfPt.dat, CxSfPt.103C848F_Rev0001.DAT,,
+CxSfPt.103C848F_Rev0001.DAT,,
 
 [CNXT_Tuning849A.CopyList] 
-CxSfPt.dat, CxSfPt.103C849A_Rev0001.dat,,
+CxSfPt.103C849A_Rev0001.dat,,
 
 [CNXT_Tuning849B.CopyList] 
-CxSfPt.dat, CxSfPt.103C849B_Rev0001.dat,,
+CxSfPt.103C849B_Rev0001.dat,,
 
 [CNXT_Tuning849C.CopyList] 
-CxSfPt.dat, CxSfPt.103C849C_Rev0001.dat,,
+CxSfPt.103C849C_Rev0001.dat,,
 
 [CNXT_Tuning849E.CopyList] 
-CxSfPt.dat, CxSfPt.103C849E_Rev0001.dat,,
+CxSfPt.103C849E_Rev0001.dat,,
 
 [CNXT_Tuning8477.CopyList] 
-CxSfPt.dat, CxSfPt.103C8477_Rev0006.DAT,,
+CxSfPt.103C8477_Rev0006.DAT,,
 
 [CNXT_Tuning8478.CopyList] 
-CxSfPt.dat, CxSfPt.103C8478_Rev0006.DAT,,
+CxSfPt.103C8478_Rev0006.DAT,,
 
 [CNXT_Tuning8479.CopyList] 
-CxSfPt.dat, CxSfPt.103C8479_Rev0006.DAT,,
+CxSfPt.103C8479_Rev0006.DAT,,
 
 [CNXT_Tuning8481.CopyList] 
-CxSfPt.dat, CxSfPt.103C8481_Rev0001.DAT,,
+CxSfPt.103C8481_Rev0001.DAT,,
 
 [CNXT_Tuning8482.CopyList] 
-CxSfPt.dat, CxSfPt.103C8482_Rev0001.DAT,,
+CxSfPt.103C8482_Rev0001.DAT,,
 
 [CNXT_Tuning8483.CopyList] 
-CxSfPt.dat, CxSfPt.103C8483_Rev0001.DAT,,
+CxSfPt.103C8483_Rev0001.DAT,,
 
 [CNXT_Tuning8484.CopyList] 
-CxSfPt.dat, CxSfPt.103C8484_Rev0001.DAT,,
+CxSfPt.103C8484_Rev0001.DAT,,
 
 [CNXT_Tuning8485.CopyList] 
-CxSfPt.dat, CxSfPt.103C8485_Rev0001.DAT,,
+CxSfPt.103C8485_Rev0001.DAT,,
 
 [CNXT_Tuning8486.CopyList] 
-CxSfPt.dat, CxSfPt.103C8486_Rev0001.DAT,,
+CxSfPt.103C8486_Rev0001.DAT,,
 
 [CNXT_Tuning8487.CopyList] 
-CxSfPt.dat, CxSfPt.103C8487_Rev0001.DAT,,
+CxSfPt.103C8487_Rev0001.DAT,,
 
 [CNXT_Tuning8488.CopyList] 
-CxSfPt.dat, CxSfPt.103C8488_Rev0001.DAT,,
+CxSfPt.103C8488_Rev0001.DAT,,
 
 [CNXT_Tuning8489.CopyList] 
-CxSfPt.dat, CxSfPt.103C8489_Rev0001.DAT,,
+CxSfPt.103C8489_Rev0001.DAT,,
 
 [CNXT_Tuning8490.CopyList] 
-CxSfPt.dat, CxSfPt.103C8490_Rev0001.DAT,,
+CxSfPt.103C8490_Rev0001.DAT,,
 
 [CNXT_Tuning8491.CopyList] 
-CxSfPt.dat, CxSfPt.103C8491_Rev0001.DAT,,
+CxSfPt.103C8491_Rev0001.DAT,,
 
 [CNXT_Tuning8492.CopyList] 
-CxSfPt.dat, CxSfPt.103C8492_Rev0001.DAT,,
+CxSfPt.103C8492_Rev0001.DAT,,
 
 [CNXT_Tuning8493.CopyList] 
-CxSfPt.dat, CxSfPt.103C8493_Rev0001.DAT,,
+CxSfPt.103C8493_Rev0001.DAT,,
 
 [CNXT_Tuning8494.CopyList] 
-CxSfPt.dat, CxSfPt.103C8494_Rev0001.DAT,,
+CxSfPt.103C8494_Rev0001.DAT,,
 
 [CNXT_Tuning8496.CopyList] 
-CxSfPt.dat, CxSfPt.103C8496_Rev0002.DAT,,
+CxSfPt.103C8496_Rev0002.DAT,,
 
 [CNXT_Tuning8497.CopyList] 
-CxSfPt.dat, CxSfPt.103C8497_Rev0002.DAT,,
+CxSfPt.103C8497_Rev0002.DAT,,
 
 [CNXT_Tuning8498.CopyList] 
-CxSfPt.dat, CxSfPt.103C8498_Rev0001.DAT,,
+CxSfPt.103C8498_Rev0001.DAT,,
 
 [CNXT_Tuning8499.CopyList] 
-CxSfPt.dat, CxSfPt.103C8499_Rev0001.DAT,,
+CxSfPt.103C8499_Rev0001.DAT,,
 
 [CNXT_Tuning8475.CopyList] 
-CxSfPt.dat, CxSfPt.103C8475_Rev0001.DAT,,
+CxSfPt.103C8475_Rev0001.DAT,,
 
 [CNXT_Tuning8448.CopyList] 
-CxSfPt.dat, CxSfPt.103C8448_Rev0001.DAT,,
+CxSfPt.103C8448_Rev0001.DAT,,
 
 [CNXT_Tuning8449.CopyList] 
-CxSfPt.dat, CxSfPt.103C8449_Rev0001.DAT,,
+CxSfPt.103C8449_Rev0001.DAT,,
 
 [CNXT_Tuning81B7.CopyList]
-CxSfPt.dat, CxSfPt.103C81B7_Rev0001.DAT,,
+CxSfPt.103C81B7_Rev0001.DAT,,
 
 [CNXT_Tuning81B8.CopyList]
-CxSfPt.dat, CxSfPt.103C81B8_Rev0001.DAT,,
+CxSfPt.103C81B8_Rev0001.DAT,,
 
 [CNXT_Tuning81B9.CopyList]
-CxSfPt.dat, CxSfPt.103C81B9_Rev0001.DAT,,
+CxSfPt.103C81B9_Rev0001.DAT,,
 
 [CNXT_Tuning838B.CopyList]
-CxSfPt.dat, CxSfPt.103C838B_Rev0001.DAT,,
+CxSfPt.103C838B_Rev0001.DAT,,
 
 [CNXT_Tuning8374.CopyList]
-CxSfPt.dat, CxSfPt.103C8374_Rev0001.DAT,,
+CxSfPt.103C8374_Rev0001.DAT,,
 
 [CNXT_Tuning8373.CopyList]
-CxSfPt.dat, CxSfPt.103C8373_Rev0001.DAT,,
+CxSfPt.103C8373_Rev0001.DAT,,
 
 [CNXT_Tuning84DA.CopyList]
-CxSfPt.dat, CxSfPt.103C84DA_Rev0001.DAT,,
+CxSfPt.103C84DA_Rev0001.DAT,,
 
 [CNXT_Tuning84DB.CopyList]
-CxSfPt.dat, CxSfPt.103C84DB_Rev0001.DAT,,
+CxSfPt.103C84DB_Rev0001.DAT,,
 
 [CNXT_Tuning84E5.CopyList]
-CxSfPt.dat, CxSfPt.103C84E5_Rev0001.DAT,,
+CxSfPt.103C84E5_Rev0001.DAT,,
 
 [CNXT_Tuning84E6.CopyList]
-CxSfPt.dat, CxSfPt.103C84E6_Rev0001.DAT,,
+CxSfPt.103C84E6_Rev0001.DAT,,
 
 [CNXT_Tuning84E7.CopyList]
-CxSfPt.dat, CxSfPt.103C84E7_Rev0003.DAT,,
+CxSfPt.103C84E7_Rev0003.DAT,,
 
 [CNXT_Tuning84E8.CopyList]
-CxSfPt.dat, CxSfPt.103C84E8_Rev0003.DAT,,
+CxSfPt.103C84E8_Rev0003.DAT,,
 
 [CNXT_Tuning84FB.CopyList]
-CxSfPt.dat, CxSfPt.103C84FB_Rev0004.DAT,,
+CxSfPt.103C84FB_Rev0004.DAT,,
 
 [CNXT_Tuning84FC.CopyList]
-CxSfPt.dat, CxSfPt.103C84FC_Rev0005.DAT,,
+CxSfPt.103C84FC_Rev0005.DAT,,
 
 [CNXT_Tuning84D9.CopyList]
-CxSfPt.dat, CxSfPt.103C84D9_Rev0001.DAT,,
+CxSfPt.103C84D9_Rev0001.DAT,,
 
 [CNXT_Tuning8500.CopyList]
-CxSfPt.dat, CxSfPt.103C8500_Rev0001.DAT,,
+CxSfPt.103C8500_Rev0001.DAT,,
 
 [CNXT_Tuning8503.CopyList]
-CxSfPt.dat, CxSfPt.103C8503_Rev0001.DAT,,
+CxSfPt.103C8503_Rev0001.DAT,,
 
 [CNXT_Tuning8504.CopyList]
-CxSfPt.dat, CxSfPt.103C8504_Rev0001.DAT,,
+CxSfPt.103C8504_Rev0001.DAT,,
 
 [CNXT_Tuning852C.CopyList]
-CxSfPt.dat, CxSfPt.103C852C_Rev0002.DAT,,
+CxSfPt.103C852C_Rev0002.DAT,,
 
 [CNXT_Tuning852D.CopyList]
-CxSfPt.dat, CxSfPt.103C852D_Rev0002.DAT,,
+CxSfPt.103C852D_Rev0002.DAT,,
 
 [CNXT_Tuning852E.CopyList]
-CxSfPt.dat, CxSfPt.103C852E_Rev0002.DAT,,
+CxSfPt.103C852E_Rev0002.DAT,,
 
 [CNXT_Tuning852F.CopyList]
-CxSfPt.dat, CxSfPt.103C852F_Rev0002.DAT,,
+CxSfPt.103C852F_Rev0002.DAT,,
 
 [CNXT_Tuning8530.CopyList]
-CxSfPt.dat, CxSfPt.103C8530_Rev0002.DAT,,
+CxSfPt.103C8530_Rev0002.DAT,,
 
 [CNXT_Tuning8531.CopyList]
-CxSfPt.dat, CxSfPt.103C8531_Rev0002.DAT,,
+CxSfPt.103C8531_Rev0002.DAT,,
 
 [CNXT_Tuning8514.CopyList] 
-CxSfPt.dat, CxSfPt.103C8514_Rev0001.DAT,,
+CxSfPt.103C8514_Rev0001.DAT,,
 
 [CNXT_Tuning8515.CopyList] 
-CxSfPt.dat, CxSfPt.103C8515_Rev0001.DAT,,
+CxSfPt.103C8515_Rev0001.DAT,,
 
 [CNXT_Tuning8518.CopyList] 
-CxSfPt.dat, CxSfPt.103C8518_Rev0001.DAT,,
+CxSfPt.103C8518_Rev0001.DAT,,
 
 [CNXT_Tuning8519.CopyList] 
-CxSfPt.dat, CxSfPt.103C8519_Rev0001.DAT,,
+CxSfPt.103C8519_Rev0001.DAT,,
 
 [CNXT_Tuning850C.CopyList] 
-CxSfPt.dat, CxSfPt.103C850C_Rev0001.DAT,,
+CxSfPt.103C850C_Rev0001.DAT,,
 
 [CNXT_Tuning850D.CopyList] 
-CxSfPt.dat, CxSfPt.103C850D_Rev0001.DAT,,
+CxSfPt.103C850D_Rev0001.DAT,,
 
 [CNXT_Tuning84C0.CopyList] 
-CxSfPt.dat, CxSfPt.103C84C0_Rev0001.DAT,,
+CxSfPt.103C84C0_Rev0001.DAT,,
 
 [CNXT_Tuning84C1.CopyList] 
-CxSfPt.dat, CxSfPt.103C84C1_Rev0001.DAT,,
+CxSfPt.103C84C1_Rev0001.DAT,,
 
 [CNXT_Tuning84BD.CopyList] 
-CxSfPt.dat, CxSfPt.103C84BD_Rev0001.DAT,,
+CxSfPt.103C84BD_Rev0001.DAT,,
 
 [CNXT_Tuning84C2.CopyList] 
-CxSfPt.dat, CxSfPt.103C84C2_Rev0001.DAT,,
+CxSfPt.103C84C2_Rev0001.DAT,,
 
 [CNXT_Tuning84BB.CopyList] 
-CxSfPt.dat, CxSfPt.103C84BB_Rev0002.DAT,,
+CxSfPt.103C84BB_Rev0002.DAT,,
 
 [CNXT_Tuning84BC.CopyList] 
-CxSfPt.dat, CxSfPt.103C84BC_Rev0002.DAT,,
+CxSfPt.103C84BC_Rev0002.DAT,,
 
 [CNXT_Tuning84C5.CopyList] 
-CxSfPt.dat, CxSfPt.103C84C5_Rev0001.DAT,,
+CxSfPt.103C84C5_Rev0001.DAT,,
 
 [CNXT_Tuning850E.CopyList] 
-CxSfPt.dat, CxSfPt.103C850E_Rev0001.DAT,,
+CxSfPt.103C850E_Rev0001.DAT,,
 
 [CNXT_Tuning850F.CopyList] 
-CxSfPt.dat, CxSfPt.103C850F_Rev0001.DAT,,
+CxSfPt.103C850F_Rev0001.DAT,,
 
 [CNXT_Tuning8535.CopyList] 
-CxSfPt.dat, CxSfPt.103C8535_Rev0001.DAT,,
+CxSfPt.103C8535_Rev0001.DAT,,
 
 [CNXT_Tuning8544.CopyList] 
-CxSfPt.dat, CxSfPt.103C8544_Rev0002.DAT,,
+CxSfPt.103C8544_Rev0002.DAT,,
 
 [CNXT_Tuning8545.CopyList] 
-CxSfPt.dat, CxSfPt.103C8545_Rev0002.DAT,,
+CxSfPt.103C8545_Rev0002.DAT,,
 
 [CNXT_Tuning8546.CopyList] 
-CxSfPt.dat, CxSfPt.103C8546_Rev0002.DAT,,
+CxSfPt.103C8546_Rev0002.DAT,,
 
 [CNXT_Tuning8547.CopyList] 
-CxSfPt.dat, CxSfPt.103C8547_Rev0002.DAT,,
+CxSfPt.103C8547_Rev0002.DAT,,
 
 [CNXT_Tuning8532.CopyList] 
-CxSfPt.dat, CxSfPt.103C8532_Rev0003.DAT,,
+CxSfPt.103C8532_Rev0003.DAT,,
 
 [CNXT_Tuning8533.CopyList] 
-CxSfPt.dat, CxSfPt.103C8533_Rev0003.DAT,,
+CxSfPt.103C8533_Rev0003.DAT,,
 
 [CNXT_Tuning8501.CopyList]               
-CxSfPt.dat, CxSfPt.103C8501_Rev0005.DAT,,
+CxSfPt.103C8501_Rev0005.DAT,,
 
 [CNXT_Tuning8508.CopyList]               
-CxSfPt.dat, CxSfPt.103C8508_Rev0004.DAT,,
+CxSfPt.103C8508_Rev0004.DAT,,
 
 [CNXT_Tuning855A.CopyList] 
-CxSfPt.dat, CxSfPt.103C855A_Rev0002.DAT,,
+CxSfPt.103C855A_Rev0002.DAT,,
 
 [CNXT_Tuning855B.CopyList] 
-CxSfPt.dat, CxSfPt.103C855B_Rev0002.DAT,,
+CxSfPt.103C855B_Rev0002.DAT,,
 
 [CNXT_Tuning855E.CopyList] 
-CxSfPt.dat, CxSfPt.103C855E_Rev0001.DAT,,
+CxSfPt.103C855E_Rev0001.DAT,,
 
 [CNXT_Tuning855F.CopyList] 
-CxSfPt.dat, CxSfPt.103C855F_Rev0001.DAT,,
+CxSfPt.103C855F_Rev0001.DAT,,
 
 [CNXT_Tuning8560.CopyList] 
-CxSfPt.dat, CxSfPt.103C8560_Rev0001.DAT,,
+CxSfPt.103C8560_Rev0001.DAT,,
 
 [CNXT_Tuning8561.CopyList] 
-CxSfPt.dat, CxSfPt.103C8561_Rev0001.DAT,,
+CxSfPt.103C8561_Rev0001.DAT,,
 
 [CNXT_Tuning8562.CopyList] 
-CxSfPt.dat, CxSfPt.103C8562_Rev0001.DAT,,
+CxSfPt.103C8562_Rev0001.DAT,,
 
 [CNXT_Tuning8563.CopyList] 
-CxSfPt.dat, CxSfPt.103C8563_Rev0001.DAT,,
+CxSfPt.103C8563_Rev0001.DAT,,
 
 [CNXT_Tuning8564.CopyList] 
-CxSfPt.dat, CxSfPt.103C8564_Rev0001.DAT,,
+CxSfPt.103C8564_Rev0001.DAT,,
 
 [CNXT_Tuning8565.CopyList] 
-CxSfPt.dat, CxSfPt.103C8565_Rev0001.DAT,,
+CxSfPt.103C8565_Rev0001.DAT,,
 
 [CNXT_Tuning8525.CopyList] 
-CxSfPt.dat, CxSfPt.103C8525_Rev0001.DAT,,
+CxSfPt.103C8525_Rev0001.DAT,,
 
 [CNXT_Tuning856A.CopyList] 
-CxSfPt.dat, CxSfPt.103C856A_Rev0001.DAT,,
+CxSfPt.103C856A_Rev0001.DAT,,
 
 [CNXT_Tuning8578.CopyList] 
-CxSfPt.dat, CxSfPt.103C8578_Rev0001.DAT,,
+CxSfPt.103C8578_Rev0001.DAT,,
 
 [CNXT_Tuning8579.CopyList] 
-CxSfPt.dat, CxSfPt.103C8579_Rev0001.DAT,,
+CxSfPt.103C8579_Rev0001.DAT,,
 
 [CNXT_Tuning857A.CopyList] 
-CxSfPt.dat, CxSfPt.103C857A_Rev0002.DAT,,
+CxSfPt.103C857A_Rev0002.DAT,,
 
 [CNXT_Tuning857B.CopyList] 
-CxSfPt.dat, CxSfPt.103C857B_Rev0002.DAT,,
+CxSfPt.103C857B_Rev0002.DAT,,
 
 [CNXT_Tuning8516.CopyList] 
-CxSfPt.dat, CxSfPt.103C8516_Rev0001.DAT,,
+CxSfPt.103C8516_Rev0001.DAT,,
 
 [CNXT_Tuning8517.CopyList] 
-CxSfPt.dat, CxSfPt.103C8517_Rev0001.DAT,,
+CxSfPt.103C8517_Rev0001.DAT,,
 
 [CNXT_Tuning851A.CopyList] 
-CxSfPt.dat, CxSfPt.103C851A_Rev0001.DAT,,
+CxSfPt.103C851A_Rev0001.DAT,,
 
 [CNXT_Tuning8566.CopyList] 
-CxSfPt.dat, CxSfPt.103C8566_Rev0001.DAT,,
+CxSfPt.103C8566_Rev0001.DAT,,
 
 [CNXT_Tuning8567.CopyList] 
-CxSfPt.dat, CxSfPt.103C8567_Rev0001.DAT,,
+CxSfPt.103C8567_Rev0001.DAT,,
 
 [CNXT_Tuning8568.CopyList] 
-CxSfPt.dat, CxSfPt.103C8568_Rev0001.DAT,,
+CxSfPt.103C8568_Rev0001.DAT,,
 
 [CNXT_Tuning8569.CopyList] 
-CxSfPt.dat, CxSfPt.103C8569_Rev0001.DAT,,
+CxSfPt.103C8569_Rev0001.DAT,,
 
 [CNXT_Tuning856B.CopyList] 
-CxSfPt.dat, CxSfPt.103C856B_Rev0001.DAT,,
+CxSfPt.103C856B_Rev0001.DAT,,
 
 [CNXT_Tuning856C.CopyList] 
-CxSfPt.dat, CxSfPt.103C856C_Rev0001.DAT,,
+CxSfPt.103C856C_Rev0001.DAT,,
 
 [CNXT_Tuning8423.CopyList] 
-CxSfPt.dat, CxSfPt.103C8423_Rev0003.DAT,,
+CxSfPt.103C8423_Rev0003.DAT,,
 
 [CNXT_Tuning84EC.CopyList] 
-CxSfPt.dat, CxSfPt.103C84EC_Rev0004.DAT,,
+CxSfPt.103C84EC_Rev0004.DAT,,
 
 [CNXT_Tuning858F.CopyList] 
-CxSfPt.dat, CxSfPt.103C858F_Rev0001.DAT,,
+CxSfPt.103C858F_Rev0001.DAT,,
 
 [CNXT_Tuning830F.CopyList]
-CxSfPt.dat, CxSfPt.103C830F_Rev0001.DAT,,
+CxSfPt.103C830F_Rev0001.DAT,,
 
 [CNXT_Tuning8310.CopyList]
-CxSfPt.dat, CxSfPt.103C8310_Rev0001.DAT,,
+CxSfPt.103C8310_Rev0001.DAT,,
 
 [CNXT_Tuning83C4.CopyList]
-CxSfPt.dat, CxSfPt.103C83C4_Rev0001.DAT,,
+CxSfPt.103C83C4_Rev0001.DAT,,
 
 [CNXT_Tuning83C5.CopyList]
-CxSfPt.dat, CxSfPt.103C83C5_Rev0001.DAT,,
+CxSfPt.103C83C5_Rev0001.DAT,,
 
 [CNXT_Tuning83C8.CopyList]
-CxSfPt.dat, CxSfPt.103C83C8_Rev0001.DAT,,
+CxSfPt.103C83C8_Rev0001.DAT,,
 
 [CNXT_Tuning83C9.CopyList]
-CxSfPt.dat, CxSfPt.103C83C9_Rev0001.DAT,,
+CxSfPt.103C83C9_Rev0001.DAT,,
 
 [CNXT_Tuning85BB.CopyList]
-CxSfPt.dat, CxSfPt.103C85BB_Rev0001.DAT,,
+CxSfPt.103C85BB_Rev0001.DAT,,
 
 [CNXT_Tuning85BC.CopyList]
-CxSfPt.dat, CxSfPt.103C85BC_Rev0001.DAT,,
+CxSfPt.103C85BC_Rev0001.DAT,,
 
 [CNXT_Tuning85BD.CopyList]
-CxSfPt.dat, CxSfPt.103C85BD_Rev0001.DAT,,
+CxSfPt.103C85BD_Rev0001.DAT,,
 
 [CNXT_Tuning85BE.CopyList]
-CxSfPt.dat, CxSfPt.103C85BE_Rev0001.DAT,,
+CxSfPt.103C85BE_Rev0001.DAT,,
 
 [CNXT_Tuning85B3.CopyList]
-CxSfPt.dat, CxSfPt.103C85B3_Rev0001.DAT,,
+CxSfPt.103C85B3_Rev0001.DAT,,
 
 [CNXT_Tuning85B4.CopyList]
-CxSfPt.dat, CxSfPt.103C85B4_Rev0001.DAT,,
+CxSfPt.103C85B4_Rev0001.DAT,,
 
 [CNXT_Tuning85B1.CopyList]
-CxSfPt.dat, CxSfPt.103C85B1_Rev0001.DAT,,
+CxSfPt.103C85B1_Rev0001.DAT,,
 
 [CNXT_Tuning85B2.CopyList]
-CxSfPt.dat, CxSfPt.103C85B2_Rev0001.DAT,,
+CxSfPt.103C85B2_Rev0001.DAT,,
 
 [CNXT_Tuning85AC.CopyList]
-CxSfPt.dat, CxSfPt.103C85AC_Rev0001.DAT,,
+CxSfPt.103C85AC_Rev0001.DAT,,
 
 [CNXT_Tuning85D3.CopyList]
-CxSfPt.dat, CxSfPt.103C85D3_Rev0002.DAT,,
+CxSfPt.103C85D3_Rev0002.DAT,,
 
 [CNXT_Tuning85D4.CopyList]
-CxSfPt.dat, CxSfPt.103C85D4_Rev0002.DAT,,
+CxSfPt.103C85D4_Rev0002.DAT,,
 
 [CNXT_Tuning85D5.CopyList]
-CxSfPt.dat, CxSfPt.103C85D5_Rev0002.DAT,,
+CxSfPt.103C85D5_Rev0002.DAT,,
 
 [CNXT_Tuning85D6.CopyList]
-CxSfPt.dat, CxSfPt.103C85D6_Rev0002.DAT,,
+CxSfPt.103C85D6_Rev0002.DAT,,
 
 [CNXT_Tuning84B5.CopyList]
-CxSfPt.dat, CxSfPt.103C84B5_Rev0001.DAT,,
+CxSfPt.103C84B5_Rev0001.DAT,,
 
 [CNXT_Tuning85E0.CopyList]
-CxSfPt.dat, CxSfPt.103C85E0_Rev0001.DAT,,
+CxSfPt.103C85E0_Rev0001.DAT,,
 
 [CNXT_Tuning85E1.CopyList]
-CxSfPt.dat, CxSfPt.103C85E1_Rev0001.DAT,,
+CxSfPt.103C85E1_Rev0001.DAT,,
 
 [CNXT_Tuning8574.CopyList]
-CxSfPt.dat, CxSfPt.103C8574_Rev0001.DAT,,
+CxSfPt.103C8574_Rev0001.DAT,,
 
 [CNXT_Tuning8575.CopyList]
-CxSfPt.dat, CxSfPt.103C8575_Rev0001.DAT,,
+CxSfPt.103C8575_Rev0001.DAT,,
 
 [CNXT_Tuning84F8.CopyList]
-CxSfPt.dat, CxSfPt.103C84F8_Rev0001.DAT,,
+CxSfPt.103C84F8_Rev0001.DAT,,
 
 [CNXT_Tuning8581.CopyList]
-CxSfPt.dat, CxSfPt.103C8581_Rev0001.DAT,,
+CxSfPt.103C8581_Rev0001.DAT,,
 
 [CNXT_Tuning8572.CopyList]
-CxSfPt.dat, CxSfPt.103C8572_Rev0001.DAT,,
+CxSfPt.103C8572_Rev0001.DAT,,
 
 [CNXT_Tuning8573.CopyList]
-CxSfPt.dat, CxSfPt.103C8573_Rev0001.DAT,,
+CxSfPt.103C8573_Rev0001.DAT,,
 
 [CNXT_Tuning83A6.CopyList]
-CxSfPt.dat, CxSfPt.103C83A6_Rev0001.DAT,,
+CxSfPt.103C83A6_Rev0001.DAT,,
 
 [CNXT_Tuning83A2.CopyList]
-CxSfPt.dat, CxSfPt.103C83A2_Rev0001.DAT,,
+CxSfPt.103C83A2_Rev0001.DAT,,
 
 [CNXT_Tuning860A.CopyList]
-CxSfPt.dat, CxSfPt.103C860A_Rev0001.DAT,,
+CxSfPt.103C860A_Rev0001.DAT,,
 
 [CNXT_Tuning8615.CopyList]
-CxSfPt.dat, CxSfPt.103C8615_Rev0001.DAT,,
+CxSfPt.103C8615_Rev0001.DAT,,
 
 [CNXT_Tuning8616.CopyList]
-CxSfPt.dat, CxSfPt.103C8616_Rev0001.DAT,,
+CxSfPt.103C8616_Rev0001.DAT,,
 
 [CNXT_Tuning861B.CopyList]
-CxSfPt.dat, CxSfPt.103C861B_Rev0001.DAT,,
+CxSfPt.103C861B_Rev0001.DAT,,
 
 [CNXT_Tuning861C.CopyList]
-CxSfPt.dat, CxSfPt.103C861C_Rev0001.DAT,,
+CxSfPt.103C861C_Rev0001.DAT,,
 
 [CNXT_Tuning84E0.CopyList] 
-CxSfPt.dat, CxSfPt.103C84E0_Rev0004.DAT,,
+CxSfPt.103C84E0_Rev0004.DAT,,
 
 [CNXT_Tuning863E.CopyList]
-CxSfPt.dat, CxSfPt.103C863E_Rev0001.DAT,,
+CxSfPt.103C863E_Rev0001.DAT,,
 
 [CNXT_Tuning863F.CopyList]
-CxSfPt.dat, CxSfPt.103C863F_Rev0001.DAT,,
+CxSfPt.103C863F_Rev0001.DAT,,
 
 [CNXT_Tuning8640.CopyList]
-CxSfPt.dat, CxSfPt.103C8640_Rev0002.DAT,,
+CxSfPt.103C8640_Rev0002.DAT,,
 
 [CNXT_Tuning8641.CopyList]
-CxSfPt.dat, CxSfPt.103C8641_Rev0002.DAT,,
+CxSfPt.103C8641_Rev0002.DAT,,
 
 [CNXT_Tuning861D.CopyList]
-CxSfPt.dat, CxSfPt.103C861D_Rev0001.DAT,,
+CxSfPt.103C861D_Rev0001.DAT,,
 
 [CNXT_Tuning861E.CopyList]
-CxSfPt.dat, CxSfPt.103C861E_Rev0001.DAT,,
+CxSfPt.103C861E_Rev0001.DAT,,
 
 [CNXT_Tuning865E.CopyList]
-CxSfPt.dat, CxSfPt.103C865E_Rev0001.DAT,,
+CxSfPt.103C865E_Rev0001.DAT,,
+
+;; SSP Tuning
+[CNXT_Prop.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo.prop"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning8503.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C8503_Rev0010.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning8514.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C8514_Rev0012.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning8515.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C8515_Rev0012.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning8518.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C8518_Rev0011.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning8519.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C8519_Rev0011.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning8525.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C8525_Rev0011.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning850C.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C850C_Rev0004.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning850D.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C850D_Rev0004.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning850E.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C850E_Rev0004.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning850F.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C850F_Rev0004.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning856B.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C856B_Rev0004.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning856C.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C856C_Rev0004.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning8564.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C8564_Rev0004.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning8565.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C8565_Rev0004.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning84C5.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C84C5_Rev0007.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning84BD.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C84BD_Rev0005.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning84C2.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C84C2_Rev0005.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning8504.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C8504_Rev0004.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning84BB.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C84BB_Rev0004.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning84BC.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C84BC_Rev0004.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning84C0.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C84C0_Rev0005.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning84C1.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C84C1_Rev0005.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning856A.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C856A_Rev0005.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning8581.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C8581_Rev0002.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning861D.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C861D_Rev0003.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning861E.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C861E_Rev0003.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning8574.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C8574_Rev0002.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning8575.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C8575_Rev0002.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning860A.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C860A_Rev0002.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning863E.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C863E_Rev0001.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning863F.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C863F_Rev0001.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning8640.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C8640_Rev0001.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning8641.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C8641_Rev0001.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_PropTuning865E.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"PropFileName",,"cxapo_103C865E_Rev0001.prop"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.dat"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning8453.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8453_Rev0001.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning82BD.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C82BD_Rev0002.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8452.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8452_Rev0001.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning82CB.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C82CB_Rev0006.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning82CC.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C82CC_Rev0006.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84A0.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84A0_Rev0001.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84A1.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84A1_Rev0001.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84A2.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84A2_Rev0001.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84A3.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84A3_Rev0001.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84A4.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84A4_Rev0002.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84A5.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84A5_Rev0002.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84A6.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84A6_Rev0002.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84A7.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84A7_Rev0002.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84A8.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84A8_Rev0002.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84A9.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84A9_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84AA.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84AA_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84AB.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84AB_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84AC.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84AC_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84AD.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84AD_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84AE.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84AE_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84AF.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84AF_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84B0.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84B0_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84B1.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84B1_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84B2.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84B2_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84B3.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84B3_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84B4.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84B4_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84B6.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84B6_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84B9.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84B9_Rev0003.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84BA.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84BA_Rev0003.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84BE.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84BE_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84BF.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84BF_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84C3.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84C3_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84C4.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84C4_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84C8.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84C8_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84C9.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84C9_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84CA.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84CA_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84CB.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84CB_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84CC.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84CC_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84CD.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84CD_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84CE.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84CE_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84CF.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84CF_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84D0.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84D0_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84D1.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84D1_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84D2.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84D2_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84D3.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84D3_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning847A.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C847A_Rev0005.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning847B.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C847B_Rev0005.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning847C.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C847C_Rev0005.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning848A.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C848A_Rev0004.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning848B.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C848B_Rev0004.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning848C.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C848C_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning848D.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C848D_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning848E.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C848E_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning848F.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C848F_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning849A.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C849A_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning849B.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C849B_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning849C.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C849C_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning849E.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C849E_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8477.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8477_Rev0006.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8478.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8478_Rev0006.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8479.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8479_Rev0006.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8481.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8481_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8482.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8482_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8483.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8483_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8484.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8484_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8485.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8485_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8486.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8486_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8487.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8487_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8488.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8488_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8489.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8489_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8490.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8490_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8491.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8491_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8492.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8492_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8493.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8493_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8494.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8494_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8496.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8496_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8497.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8497_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8498.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8498_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8499.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8499_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8475.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8475_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8448.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8448_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8449.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8449_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning81B7.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C81B7_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning81B8.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C81B8_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning81B9.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C81B9_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning838B.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C838B_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8374.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8374_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8373.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8373_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84DA.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84DA_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84DB.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84DB_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84E5.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84E5_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84E6.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84E6_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84E7.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84E7_Rev0003.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84E8.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84E8_Rev0003.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84FB.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84FB_Rev0004.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84FC.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84FC_Rev0005.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84D9.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84D9_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8500.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8500_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8503.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8503_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8504.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8504_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning852C.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C852C_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning852D.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C852D_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning852E.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C852E_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning852F.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C852F_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8530.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8530_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8531.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8531_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8514.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8514_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8515.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8515_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8518.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8518_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8519.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8519_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning850C.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C850C_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning850D.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C850D_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84C0.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84C0_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84C1.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84C1_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84BD.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84BD_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84C2.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84C2_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84BB.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84BB_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84BC.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84BC_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning84C5.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84C5_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning850E.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C850E_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning850F.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C850F_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8535.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8535_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8544.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8544_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8545.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8545_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8546.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8546_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8547.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8547_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8532.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8532_Rev0003.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8533.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8533_Rev0003.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8501.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8501_Rev0005.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8508.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8508_Rev0004.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning855A.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C855A_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning855B.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C855B_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning855E.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C855E_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning855F.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C855F_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8560.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8560_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8561.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8561_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8562.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8562_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8563.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8563_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8564.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8564_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8565.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8565_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8525.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8525_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning856A.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C856A_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8578.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8578_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8579.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8579_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning857A.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C857A_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning857B.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C857B_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+                                                                                                                  
+[CNXT_Tuning8516.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8516_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001 
+
+[CNXT_Tuning8517.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8517_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001 
+
+[CNXT_Tuning851A.CopyList.AddReg]  
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C851A_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001 
+
+[CNXT_Tuning8566.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8566_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning8567.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8567_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning8568.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8568_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning8569.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8569_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning856B.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C856B_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning856C.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C856C_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning8423.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8423_Rev0003.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning84EC.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84EC_Rev0004.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning858F.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C858F_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning830F.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C830F_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning8310.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8310_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning83C4.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C83C4_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning83C5.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C83C5_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning83C8.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C83C8_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning83C9.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C83C9_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning85BB.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt_103C829B_Rev0005.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning85BC.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C85BC_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning85BD.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C85BD_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning85BE.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C85BE_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning85B3.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C85B3_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning85B4.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C85B4_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning85B1.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C85B1_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning85B2.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C85B2_Rev0001.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning85AC.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C85AC_Rev0001.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning85D3.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C85D3_Rev0002.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning85D4.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C85D4_Rev0002.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning85D5.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C85D5_Rev0002.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning85D6.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C85D6_Rev0002.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning84B5.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84B5_Rev0001.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning85E0.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C85E0_Rev0001.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning85E1.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C85E1_Rev0001.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning8574.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8574_Rev0001.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning8575.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8575_Rev0001.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning84F8.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84F8_Rev0001.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning8581.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8581_Rev0001.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning8572.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8572_Rev0001.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning8573.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8573_Rev0001.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning83A6.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C83A6_Rev0001.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning83A2.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C83A2_Rev0001.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning860A.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C860A_Rev0001.DAT"  ;;APO prop name 
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning8615.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8615_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning8616.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8616_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning861B.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C861B_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning861C.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C861C_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning84E0.CopyList.AddReg] 
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C84E0_Rev0004.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning863E.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C863E_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning863F.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C863F_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning8640.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8640_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning8641.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C8641_Rev0002.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning861D.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C861D_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning861E.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C861E_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
+
+[CNXT_Tuning865E.CopyList.AddReg]
+HKR,GlobalSettings\ConexantOverride,"DatFileName",,"CxSfPt.103C865E_Rev0001.DAT"  ;;APO prop name
+HKR,GlobalSettings\ConexantOverride, NeedUpdate, 0x00010001, 0x00000001
 
 [Manufacturer]
 %OEM% = DeviceExtensions,NTamd64
@@ -1561,7 +2510,7 @@ CxSfPt.dat, CxSfPt.103C865E_Rev0001.DAT,,
 
 [DeviceExtension8453_Install]
 CopyFiles = CNXT_Tuning8453.CopyList, CNXT_Prop.CopyList
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning8453.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8453_Install.HW]
 AddReg = FriendlyName_AddReg
@@ -1571,17 +2520,17 @@ AddComponent = ConexantAPO,,ConexantAPO_Install
 
 [DeviceExtension82BD_Install]
 CopyFiles = CNXT_Tuning82BD.CopyList, CNXT_Prop.CopyList
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning82BD.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension82BD_Install.HW]
 AddReg = FriendlyName_AddReg
 
-[DeviceExtension82BD_Install.Components]
+[DeviceExtension82BD_Install.Components] 
 AddComponent = ConexantAPO,,ConexantAPO_Install
 
 [DeviceExtension8452_Install]
 CopyFiles = CNXT_Tuning8452.CopyList, CNXT_Prop.CopyList
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning82BD.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8452_Install.HW]
 AddReg = FriendlyName_AddReg
@@ -1591,7 +2540,7 @@ AddComponent = ConexantAPO,,ConexantAPO_Install
 
 [DeviceExtension82CB_Install]
 CopyFiles = CNXT_Tuning82CB.CopyList, CNXT_Prop.CopyList
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning82CB.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension82CB_Install.HW]
 AddReg = FriendlyName_AddReg
@@ -1601,7 +2550,7 @@ AddComponent = ConexantAPO,,ConexantAPO_Install
 
 [DeviceExtension82CC_Install]
 CopyFiles = CNXT_Tuning82CC.CopyList, CNXT_Prop.CopyList
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning82CC.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension82CC_Install.HW]
 AddReg = FriendlyName_AddReg
@@ -1610,8 +2559,8 @@ AddReg = FriendlyName_AddReg
 AddComponent = ConexantAPO,,ConexantAPO_Install
 
 [DeviceExtension_Install]
-CopyFiles = CNXT_Tuning.CopyList, , CNXT_Prop.CopyList
-AddReg = PresetAddReg
+CopyFiles = CNXT_Tuning.CopyList, CNXT_Prop.CopyList
+AddReg = PresetAddReg, CNXT_Tuning.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension_Install.HW]
 AddReg = FriendlyName_AddReg
@@ -1621,787 +2570,791 @@ AddComponent = ConexantAPO,,ConexantAPO_Install
 
 [DeviceExtension8496_Install] 
 CopyFiles = CNXT_Tuning8496.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetConferenceAddReg
+AddReg = PresetConferenceAddReg, CNXT_Tuning8496.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension848C_Install] 
 CopyFiles = CNXT_Tuning848C.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning848C.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension848D_Install] 
 CopyFiles = CNXT_Tuning848D.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning848D.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8481_Install] 
 CopyFiles = CNXT_Tuning8481.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning8481.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8482_Install] 
 CopyFiles = CNXT_Tuning8482.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning8482.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8497_Install] 
 CopyFiles = CNXT_Tuning8497.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetConferenceAddReg
-
-[DeviceExtension848E_Install] 
-CopyFiles = CNXT_Tuning848E.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetConferenceAddReg
-
-[DeviceExtension848F_Install] 
-CopyFiles = CNXT_Tuning848F.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetConferenceAddReg
-
-[DeviceExtension8483_Install] 
-CopyFiles = CNXT_Tuning8483.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetConferenceAddReg
-
-[DeviceExtension8484_Install] 
-CopyFiles = CNXT_Tuning8484.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetConferenceAddReg
+AddReg = PresetConferenceAddReg, CNXT_Tuning8497.CopyList.AddReg, CNXT_Prop.CopyList.AddReg 
+                                                                                            
+[DeviceExtension848E_Install]                                                               
+CopyFiles = CNXT_Tuning848E.CopyList, CNXT_Prop.CopyList                                    
+AddReg = PresetConferenceAddReg, CNXT_Tuning848E.CopyList.AddReg, CNXT_Prop.CopyList.AddReg 
+                                                                                            
+[DeviceExtension848F_Install]                                                               
+CopyFiles = CNXT_Tuning848F.CopyList, CNXT_Prop.CopyList                                    
+AddReg = PresetConferenceAddReg, CNXT_Tuning848F.CopyList.AddReg, CNXT_Prop.CopyList.AddReg 
+                                                                                            
+[DeviceExtension8483_Install]                                                               
+CopyFiles = CNXT_Tuning8483.CopyList, CNXT_Prop.CopyList                                    
+AddReg = PresetConferenceAddReg, CNXT_Tuning8483.CopyList.AddReg, CNXT_Prop.CopyList.AddReg 
+                                                                                            
+[DeviceExtension8484_Install]                                                               
+CopyFiles = CNXT_Tuning8484.CopyList, CNXT_Prop.CopyList                                    
+AddReg = PresetConferenceAddReg, CNXT_Tuning8484.CopyList.AddReg, CNXT_Prop.CopyList.AddReg 
 
 [DeviceExtension8490_Install] 
 CopyFiles = CNXT_Tuning8490.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning8490.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8485_Install] 
 CopyFiles = CNXT_Tuning8485.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning8485.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8486_Install] 
 CopyFiles = CNXT_Tuning8486.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetConferenceAddReg
+AddReg = PresetConferenceAddReg, CNXT_Tuning8486.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8487_Install] 
 CopyFiles = CNXT_Tuning8487.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetConferenceAddReg
-
-[DeviceExtension8491_Install] 
-CopyFiles = CNXT_Tuning8491.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetConferenceAddReg
-
-[DeviceExtension8492_Install] 
-CopyFiles = CNXT_Tuning8492.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetConferenceAddReg
-
-[DeviceExtension8488_Install] 
-CopyFiles = CNXT_Tuning8488.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetConferenceAddReg
-
-[DeviceExtension8489_Install] 
-CopyFiles = CNXT_Tuning8489.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetConferenceAddReg
-
-[DeviceExtension8493_Install] 
-CopyFiles = CNXT_Tuning8493.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetConferenceAddReg
-
-[DeviceExtension8494_Install] 
-CopyFiles = CNXT_Tuning8494.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetConferenceAddReg
+AddReg = PresetConferenceAddReg, CNXT_Tuning8487.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
+                                                                                           
+[DeviceExtension8491_Install]                                                              
+CopyFiles = CNXT_Tuning8491.CopyList, CNXT_Prop.CopyList                                   
+AddReg = PresetConferenceAddReg, CNXT_Tuning8491.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
+                                                                                           
+[DeviceExtension8492_Install]                                                              
+CopyFiles = CNXT_Tuning8492.CopyList, CNXT_Prop.CopyList                                   
+AddReg = PresetConferenceAddReg, CNXT_Tuning8492.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
+                                                                                           
+[DeviceExtension8488_Install]                                                              
+CopyFiles = CNXT_Tuning8488.CopyList, CNXT_Prop.CopyList                                   
+AddReg = PresetConferenceAddReg, CNXT_Tuning8488.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
+                                                                                           
+[DeviceExtension8489_Install]                                                              
+CopyFiles = CNXT_Tuning8489.CopyList, CNXT_Prop.CopyList                                   
+AddReg = PresetConferenceAddReg, CNXT_Tuning8489.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
+                                                                                           
+[DeviceExtension8493_Install]                                                              
+CopyFiles = CNXT_Tuning8493.CopyList, CNXT_Prop.CopyList                                   
+AddReg = PresetConferenceAddReg, CNXT_Tuning8493.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
+                                                                                           
+[DeviceExtension8494_Install]                                                              
+CopyFiles = CNXT_Tuning8494.CopyList, CNXT_Prop.CopyList                                   
+AddReg = PresetConferenceAddReg, CNXT_Tuning8494.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8478_Install] 
 CopyFiles = CNXT_Tuning8478.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning8478.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8479_Install] 
 CopyFiles = CNXT_Tuning8479.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning8479.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8477_Install] 
 CopyFiles = CNXT_Tuning8477.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning8477.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension848B_Install] 
 CopyFiles = CNXT_Tuning848B.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning848B.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension847C_Install] 
 CopyFiles = CNXT_Tuning847C.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning847C.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension848A_Install] 
 CopyFiles = CNXT_Tuning848A.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning848A.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension847B_Install] 
 CopyFiles = CNXT_Tuning847B.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning847B.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension847A_Install] 
 CopyFiles = CNXT_Tuning847A.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning847A.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84A4_Install] 
 CopyFiles = CNXT_Tuning84A4.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
-
-[DeviceExtension84A5_Install] 
-CopyFiles = CNXT_Tuning84A5.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
-
-[DeviceExtension84A6_Install] 
-CopyFiles = CNXT_Tuning84A6.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
-
-[DeviceExtension84A7_Install] 
-CopyFiles = CNXT_Tuning84A7.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
-
-[DeviceExtension84A8_Install] 
-CopyFiles = CNXT_Tuning84A8.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning84A4.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
+                                                                                     
+[DeviceExtension84A5_Install]                                                        
+CopyFiles = CNXT_Tuning84A5.CopyList, CNXT_Prop.CopyList                             
+AddReg = PresetMonoAddReg, CNXT_Tuning84A5.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
+                                                                                     
+[DeviceExtension84A6_Install]                                                        
+CopyFiles = CNXT_Tuning84A6.CopyList, CNXT_Prop.CopyList                             
+AddReg = PresetMonoAddReg, CNXT_Tuning84A6.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
+                                                                                     
+[DeviceExtension84A7_Install]                                                        
+CopyFiles = CNXT_Tuning84A7.CopyList, CNXT_Prop.CopyList                             
+AddReg = PresetMonoAddReg, CNXT_Tuning84A7.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
+                                                                                     
+[DeviceExtension84A8_Install]                                                        
+CopyFiles = CNXT_Tuning84A8.CopyList, CNXT_Prop.CopyList                             
+AddReg = PresetMonoAddReg, CNXT_Tuning84A8.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84AB_Install] 
 CopyFiles = CNXT_Tuning84AB.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning84AB.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84A9_Install] 
 CopyFiles = CNXT_Tuning84A9.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning84A9.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84AA_Install] 
 CopyFiles = CNXT_Tuning84AA.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning84AA.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84AC_Install] 
 CopyFiles = CNXT_Tuning84AC.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning84AC.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84AD_Install] 
 CopyFiles = CNXT_Tuning84AD.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning84AD.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84AE_Install] 
 CopyFiles = CNXT_Tuning84AE.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning84AE.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84AF_Install] 
 CopyFiles = CNXT_Tuning84AF.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning84AF.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84B9_Install] 
 CopyFiles = CNXT_Tuning84B9.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning84B9.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84BA_Install] 
 CopyFiles = CNXT_Tuning84BA.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning84BA.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84BE_Install] 
 CopyFiles = CNXT_Tuning84BE.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning84BE.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84BF_Install] 
 CopyFiles = CNXT_Tuning84BF.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning84BF.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84C3_Install] 
 CopyFiles = CNXT_Tuning84C3.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning84C3.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84C4_Install] 
 CopyFiles = CNXT_Tuning84C4.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning84C4.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8498_Install] 
 CopyFiles = CNXT_Tuning8498.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning8498.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8499_Install] 
 CopyFiles = CNXT_Tuning8499.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning8499.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension849A_Install] 
 CopyFiles = CNXT_Tuning849A.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
-
-[DeviceExtension849B_Install] 
-CopyFiles = CNXT_Tuning849B.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
-
-[DeviceExtension849C_Install] 
-CopyFiles = CNXT_Tuning849C.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
-
-[DeviceExtension849E_Install] 
-CopyFiles = CNXT_Tuning849E.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning849A.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
+                                                                                     
+[DeviceExtension849B_Install]                                                        
+CopyFiles = CNXT_Tuning849B.CopyList, CNXT_Prop.CopyList                             
+AddReg = PresetMonoAddReg, CNXT_Tuning849B.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
+                                                                                     
+[DeviceExtension849C_Install]                                                        
+CopyFiles = CNXT_Tuning849C.CopyList, CNXT_Prop.CopyList                             
+AddReg = PresetAddReg, CNXT_Tuning849C.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
+                                                                                     
+[DeviceExtension849E_Install]                                                        
+CopyFiles = CNXT_Tuning849E.CopyList, CNXT_Prop.CopyList                             
+AddReg = PresetMonoAddReg, CNXT_Tuning849E.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84A0_Install] 
 CopyFiles = CNXT_Tuning84A0.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
-
-[DeviceExtension84A1_Install] 
-CopyFiles = CNXT_Tuning84A1.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
-
-[DeviceExtension84A2_Install] 
-CopyFiles = CNXT_Tuning84A2.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
-
-[DeviceExtension84A3_Install] 
-CopyFiles = CNXT_Tuning84A3.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning84A0.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
+                                                                                     
+[DeviceExtension84A1_Install]                                                        
+CopyFiles = CNXT_Tuning84A1.CopyList, CNXT_Prop.CopyList                             
+AddReg = PresetMonoAddReg, CNXT_Tuning84A1.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
+                                                                                     
+[DeviceExtension84A2_Install]                                                        
+CopyFiles = CNXT_Tuning84A2.CopyList, CNXT_Prop.CopyList                             
+AddReg = PresetMonoAddReg, CNXT_Tuning84A2.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
+                                                                                     
+[DeviceExtension84A3_Install]                                                        
+CopyFiles = CNXT_Tuning84A3.CopyList, CNXT_Prop.CopyList                             
+AddReg = PresetMonoAddReg, CNXT_Tuning84A3.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84B0_Install] 
 CopyFiles = CNXT_Tuning84B0.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning84B0.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84B1_Install] 
 CopyFiles = CNXT_Tuning84B1.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning84B1.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84B2_Install] 
 CopyFiles = CNXT_Tuning84B2.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning84B2.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84B3_Install] 
 CopyFiles = CNXT_Tuning84B3.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning84B3.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84B4_Install] 
 CopyFiles = CNXT_Tuning84B4.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning84B4.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84B6_Install] 
 CopyFiles = CNXT_Tuning84B6.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning84B6.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84C8_Install] 
 CopyFiles = CNXT_Tuning84C8.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning84C8.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84C9_Install] 
 CopyFiles = CNXT_Tuning84C9.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning84C9.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84CA_Install] 
 CopyFiles = CNXT_Tuning84CA.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning84CA.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84CB_Install] 
 CopyFiles = CNXT_Tuning84CB.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning84CB.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84CC_Install] 
 CopyFiles = CNXT_Tuning84CC.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning84CC.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84CD_Install] 
 CopyFiles = CNXT_Tuning84CD.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning84CD.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84CE_Install] 
 CopyFiles = CNXT_Tuning84CE.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning84CE.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84CF_Install] 
 CopyFiles = CNXT_Tuning84CF.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning84CF.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84D0_Install] 
 CopyFiles = CNXT_Tuning84D0.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning84D0.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84D1_Install] 
 CopyFiles = CNXT_Tuning84D1.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning84D1.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84D2_Install] 
 CopyFiles = CNXT_Tuning84D2.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning84D2.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84D3_Install] 
 CopyFiles = CNXT_Tuning84D3.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning84D3.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8475_Install]
 CopyFiles = CNXT_Tuning8475.CopyList, CNXT_Prop.CopyList
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning8475.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8448_Install]
 CopyFiles = CNXT_Tuning8448.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning8448.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8449_Install]
 CopyFiles = CNXT_Tuning8449.CopyList, CNXT_Prop.CopyList
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning8449.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension81B7_Install] 
 CopyFiles = CNXT_Tuning81B7.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning81B7.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension81B8_Install] 
 CopyFiles = CNXT_Tuning81B8.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning81B8.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension81B9_Install] 
 CopyFiles = CNXT_Tuning81B9.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning81B9.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension838B_Install] 
 CopyFiles = CNXT_Tuning838B.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning838B.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8374_Install] 
 CopyFiles = CNXT_Tuning8374.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning8374.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8373_Install] 
 CopyFiles = CNXT_Tuning8373.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning8373.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84DA_Install]
 CopyFiles = CNXT_Tuning84DA.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning84DA.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84DB_Install]
 CopyFiles = CNXT_Tuning84DB.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning84DB.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84E5_Install] 
 CopyFiles = CNXT_Tuning84E5.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning84E5.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84E6_Install] 
 CopyFiles = CNXT_Tuning84E6.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning84E6.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84E7_Install] 
 CopyFiles = CNXT_Tuning84E7.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning84E7.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84E8_Install] 
 CopyFiles = CNXT_Tuning84E8.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning84E8.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84FB_Install] 
 CopyFiles = CNXT_Tuning84FB.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning84FB.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84FC_Install] 
 CopyFiles = CNXT_Tuning84FC.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning84FC.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84D9_Install] 
-CopyFiles = CNXT_Tuning84D9.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetConferenceAddReg
+CopyFiles = CNXT_Tuning84D9.CopyList, CNXT_PropTuning8503.CopyList
+AddReg = PresetExtMicAddReg, Cortana8503.AddReg, CNXT_Tuning84D9.CopyList.AddReg, CNXT_PropTuning8503.CopyList.AddReg
+AddReg = GodZillaNHLT.AddReg
 
 [DeviceExtension8500_Install] 
-CopyFiles = CNXT_Tuning8500.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetConferenceAddReg
+CopyFiles = CNXT_Tuning8500.CopyList, CNXT_PropTuning8503.CopyList
+AddReg = PresetExtMicAddReg, Cortana8503.AddReg, CNXT_Tuning8500.CopyList.AddReg, CNXT_PropTuning8503.CopyList.AddReg
+AddReg = GodZillaNHLT.AddReg
 
 [DeviceExtension8503_Install] 
 CopyFiles = CNXT_Tuning8503.CopyList, CNXT_PropTuning8503.CopyList
-AddReg = PresetExtMicAddReg, Cortana8503.AddReg
+AddReg = PresetExtMicAddReg, Cortana8503.AddReg, CNXT_Tuning8503.CopyList.AddReg, CNXT_PropTuning8503.CopyList.AddReg
+AddReg = GodZillaNHLT.AddReg
 
 [DeviceExtension8504_Install] 
-CopyFiles = CNXT_Tuning8504.CopyList, CNXT_PropTuning8504.CopyList 
-AddReg = PresetExtMicAddReg, Cortana8503.AddReg
+CopyFiles = CNXT_Tuning8504.CopyList, CNXT_PropTuning8503.CopyList 
+AddReg = PresetExtMicAddReg, Cortana8503.AddReg, CNXT_Tuning8504.CopyList.AddReg, CNXT_PropTuning8503.CopyList.AddReg
+AddReg = GodZillaNHLT.AddReg
 
 [DeviceExtension852C_Install]
 CopyFiles = CNXT_Tuning852C.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning852C.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension852D_Install]
 CopyFiles = CNXT_Tuning852D.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning852D.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension852E_Install]
 CopyFiles = CNXT_Tuning852E.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning852E.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension852F_Install]
 CopyFiles = CNXT_Tuning852F.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning852F.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8530_Install]
 CopyFiles = CNXT_Tuning8530.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning8530.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8531_Install]
 CopyFiles = CNXT_Tuning8531.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning8531.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8514_Install] 
 CopyFiles = CNXT_Tuning8514.CopyList, CNXT_PropTuning8514.CopyList, NHLT.CopyList, TF_Tuning8518.CopyList   
-AddReg = PresetExtMicAddReg, NHLT.AddReg, AlexaConfig.AddReg, Cortana8503.AddReg
+AddReg = PresetExtMicAddReg, NHLT.AddReg, AlexaConfig_8514.AddReg, Cortana8503.AddReg, CNXT_Tuning8514.CopyList.AddReg, CNXT_PropTuning8514.CopyList.AddReg
 
 [DeviceExtension8515_Install] 
 CopyFiles = CNXT_Tuning8515.CopyList, CNXT_PropTuning8515.CopyList, NHLT.CopyList, TF_Tuning8518.CopyList   
-AddReg = PresetExtMicAddReg, NHLT.AddReg, AlexaConfig.AddReg, Cortana8503.AddReg
+AddReg = PresetExtMicAddReg, NHLT.AddReg, AlexaConfig_8515.AddReg, Cortana8503.AddReg, CNXT_Tuning8515.CopyList.AddReg, CNXT_PropTuning8515.CopyList.AddReg
+
+[DeviceExtension8516_Install] 
+CopyFiles = CNXT_Tuning8516.CopyList, CNXT_PropTuning8514.CopyList, NHLT.CopyList, TF_Tuning8518.CopyList   
+AddReg = PresetExtMicAddReg, NHLT.AddReg, AlexaConfig_8514.AddReg, Cortana8503.AddReg, CNXT_Tuning8516.CopyList.AddReg, CNXT_PropTuning8514.CopyList.AddReg
+
+[DeviceExtension8517_Install] 
+CopyFiles = CNXT_Tuning8517.CopyList, CNXT_PropTuning8514.CopyList, NHLT.CopyList, TF_Tuning8518.CopyList   
+AddReg = PresetExtMicAddReg, NHLT.AddReg, AlexaConfig_8514.AddReg, Cortana8503.AddReg, CNXT_Tuning8517.CopyList.AddReg, CNXT_PropTuning8514.CopyList.AddReg
 
 [DeviceExtension8518_Install] 
 CopyFiles = CNXT_Tuning8518.CopyList, CNXT_PropTuning8518.CopyList, NHLT.CopyList, TF_Tuning8518.CopyList 
-AddReg = PresetExtMicAddReg, NHLT.AddReg, AlexaConfig.AddReg, Cortana8518.AddReg
+AddReg = PresetExtMicAddReg, NHLT.AddReg, AlexaConfig_8518.AddReg, Cortana8518.AddReg, CNXT_Tuning8518.CopyList.AddReg, CNXT_PropTuning8518.CopyList.AddReg
 
 [DeviceExtension8519_Install] 
 CopyFiles = CNXT_Tuning8519.CopyList, CNXT_PropTuning8519.CopyList, NHLT.CopyList, TF_Tuning8518.CopyList 
-AddReg = PresetExtMicAddReg, NHLT.AddReg, AlexaConfig.AddReg, Cortana8518.AddReg
+AddReg = PresetExtMicAddReg, NHLT.AddReg, AlexaConfig_8519.AddReg, Cortana8518.AddReg, CNXT_Tuning8519.CopyList.AddReg, CNXT_PropTuning8519.CopyList.AddReg
+
+[DeviceExtension863E_Install] 
+CopyFiles = CNXT_Tuning863E.CopyList, CNXT_PropTuning8518.CopyList, NHLT.CopyList, TF_Tuning8518.CopyList   
+AddReg = PresetExtMicAddReg, NHLT.AddReg, AlexaConfig_863E.AddReg, Cortana8518.AddReg, CNXT_Tuning863E.CopyList.AddReg, CNXT_PropTuning8518.CopyList.AddReg
+
+[DeviceExtension863F_Install] 
+CopyFiles = CNXT_Tuning863F.CopyList, CNXT_PropTuning8518.CopyList, NHLT.CopyList, TF_Tuning8518.CopyList   
+AddReg = PresetExtMicAddReg, NHLT.AddReg, AlexaConfig_8518.AddReg, Cortana8518.AddReg, CNXT_Tuning863F.CopyList.AddReg, CNXT_PropTuning8518.CopyList.AddReg
+
+[DeviceExtension851A_Install] 
+CopyFiles = CNXT_Tuning851A.CopyList, CNXT_PropTuning8518.CopyList, NHLT.CopyList, TF_Tuning8518.CopyList   
+AddReg = PresetExtMicAddReg, NHLT.AddReg, AlexaConfig_8518.AddReg, Cortana8518.AddReg, CNXT_Tuning851A.CopyList.AddReg, CNXT_PropTuning8518.CopyList.AddReg
 
 [DeviceExtension850C_Install] 
 CopyFiles = CNXT_Tuning850C.CopyList, CNXT_PropTuning850C.CopyList, TF_Tuning850C.CopyList 
-AddReg = PresetConferenceAddReg, AlexaConfig.AddReg, Cortana850C.AddReg
+AddReg = PresetConferenceAddReg, AlexaConfig_850C.AddReg, Cortana850C.AddReg, CNXT_Tuning850C.CopyList.AddReg, CNXT_PropTuning850C.CopyList.AddReg
 
 [DeviceExtension850D_Install] 
 CopyFiles = CNXT_Tuning850D.CopyList, CNXT_PropTuning850D.CopyList, TF_Tuning850C.CopyList
-AddReg = PresetConferenceAddReg, AlexaConfig.AddReg, Cortana850C.AddReg
+AddReg = PresetConferenceAddReg, AlexaConfig_850D.AddReg, Cortana850C.AddReg, CNXT_Tuning850D.CopyList.AddReg, CNXT_PropTuning850D.CopyList.AddReg
 
 [DeviceExtension84C0_Install] 
 CopyFiles = CNXT_Tuning84C0.CopyList, CNXT_PropTuning84C0.CopyList, TF_Tuning84c5.CopyList  
-AddReg = PresetAddReg, AlexaConfig.AddReg, Cortana84C5.AddReg
+AddReg = PresetAddReg, AlexaConfig_84C0.AddReg, Cortana84C5.AddReg, CNXT_Tuning84C0.CopyList.AddReg, CNXT_PropTuning850D.CopyList.AddReg
 
 [DeviceExtension84C1_Install] 
 CopyFiles = CNXT_Tuning84C1.CopyList, CNXT_PropTuning84C1.CopyList, TF_Tuning84c5.CopyList  
-AddReg = PresetAddReg, AlexaConfig.AddReg, Cortana84BD.AddReg
+AddReg = PresetAddReg, AlexaConfig_84C1.AddReg, Cortana84BD.AddReg, CNXT_Tuning84C1.CopyList.AddReg, CNXT_PropTuning84C1.CopyList.AddReg
 
 [DeviceExtension84BD_Install] 
 CopyFiles = CNXT_Tuning84BD.CopyList, CNXT_PropTuning84BD.CopyList, TF_Tuning84c5.CopyList 
-AddReg = PresetAddReg, AlexaConfig.AddReg, Cortana84BD.AddReg
+AddReg = PresetAddReg, AlexaConfig_84BD.AddReg, Cortana84BD.AddReg, CNXT_Tuning84BD.CopyList.AddReg, CNXT_PropTuning84BD.CopyList.AddReg
 
 [DeviceExtension84C2_Install] 
 CopyFiles = CNXT_Tuning84C2.CopyList, CNXT_PropTuning84C2.CopyList, TF_Tuning84c5.CopyList 
-AddReg = PresetAddReg, AlexaConfig.AddReg, Cortana84BD.AddReg
+AddReg = PresetAddReg, AlexaConfig_84C2.AddReg, Cortana84BD.AddReg, CNXT_Tuning84C2.CopyList.AddReg, CNXT_PropTuning84C2.CopyList.AddReg
 
 [DeviceExtension84BB_Install] 
 CopyFiles = CNXT_Tuning84BB.CopyList, CNXT_PropTuning84BB.CopyList, TF_Tuning84c5.CopyList 
-AddReg = PresetAddReg, AlexaConfig.AddReg, Cortana84BD.AddReg
+AddReg = PresetAddReg, AlexaConfig_84BB.AddReg, Cortana84BD.AddReg, CNXT_Tuning84BB.CopyList.AddReg, CNXT_PropTuning84BB.CopyList.AddReg
 
 [DeviceExtension84BC_Install] 
 CopyFiles = CNXT_Tuning84BC.CopyList, CNXT_PropTuning84BC.CopyList, TF_Tuning84c5.CopyList 
-AddReg = PresetAddReg, AlexaConfig.AddReg, Cortana84BD.AddReg
+AddReg = PresetAddReg, AlexaConfig_84BC.AddReg, Cortana84BD.AddReg, CNXT_Tuning84BC.CopyList.AddReg, CNXT_PropTuning84BC.CopyList.AddReg
 
 [DeviceExtension84C5_Install] 
 CopyFiles = CNXT_Tuning84C5.CopyList, CNXT_PropTuning84C5.CopyList, TF_Tuning84c5.CopyList 
-AddReg = PresetAddReg, AlexaConfig.AddReg
+AddReg = PresetAddReg, AlexaConfig_84C5.AddReg, CNXT_Tuning84C5.CopyList.AddReg, CNXT_PropTuning84C5.CopyList.AddReg
 
 [DeviceExtension850E_Install] 
 CopyFiles = CNXT_Tuning850E.CopyList, CNXT_PropTuning850E.CopyList 
-AddReg = PresetConferenceAddReg, Cortana84C5.AddReg
+AddReg = PresetConferenceAddReg, Cortana84C5.AddReg, CNXT_Tuning850E.CopyList.AddReg, CNXT_PropTuning850E.CopyList.AddReg
 
 [DeviceExtension850F_Install] 
 CopyFiles = CNXT_Tuning850F.CopyList, CNXT_PropTuning850F.CopyList
-AddReg = PresetConferenceAddReg, Cortana84BD.AddReg, Cortana84C5.AddReg
+AddReg = PresetConferenceAddReg, Cortana84BD.AddReg, Cortana84C5.AddReg, CNXT_Tuning850F.CopyList.AddReg
 
 [DeviceExtension8535_Install]
 CopyFiles = CNXT_Tuning8535.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetConferenceAddReg
+AddReg = PresetConferenceAddReg, CNXT_Tuning8535.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8544_Install]
 CopyFiles = CNXT_Tuning8544.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning8544.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8545_Install]
 CopyFiles = CNXT_Tuning8545.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
-
-[DeviceExtension8546_Install]
-CopyFiles = CNXT_Tuning8546.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
-
-[DeviceExtension8547_Install]
-CopyFiles = CNXT_Tuning8547.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
-
-[DeviceExtension8532_Install]
-CopyFiles = CNXT_Tuning8532.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
-
-[DeviceExtension8533_Install]
-CopyFiles = CNXT_Tuning8533.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning8545.CopyList.AddReg, CNXT_Prop.CopyList.AddReg  
+                                                                                       
+[DeviceExtension8546_Install]                                                          
+CopyFiles = CNXT_Tuning8546.CopyList, CNXT_Prop.CopyList                               
+AddReg = PresetMonoAddReg, CNXT_Tuning8546.CopyList.AddReg, CNXT_Prop.CopyList.AddReg  
+                                                                                       
+[DeviceExtension8547_Install]                                                          
+CopyFiles = CNXT_Tuning8547.CopyList, CNXT_Prop.CopyList                               
+AddReg = PresetMonoAddReg, CNXT_Tuning8547.CopyList.AddReg, CNXT_Prop.CopyList.AddReg  
+                                                                                       
+[DeviceExtension8532_Install]                                                          
+CopyFiles = CNXT_Tuning8532.CopyList, CNXT_Prop.CopyList                               
+AddReg = PresetMonoAddReg, CNXT_Tuning8532.CopyList.AddReg, CNXT_Prop.CopyList.AddReg  
+                                                                                       
+[DeviceExtension8533_Install]                                                          
+CopyFiles = CNXT_Tuning8533.CopyList, CNXT_Prop.CopyList                               
+AddReg = PresetMonoAddReg, CNXT_Tuning8533.CopyList.AddReg, CNXT_Prop.CopyList.AddReg  
 
 [DeviceExtension8501_Install]
 CopyFiles = CNXT_Tuning8501.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning8501.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8508_Install]
 CopyFiles = CNXT_Tuning8508.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning8508.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension855A_Install]
 CopyFiles = CNXT_Tuning855A.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning855A.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension855B_Install]
 CopyFiles = CNXT_Tuning855B.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning855B.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension855E_Install]
 CopyFiles = CNXT_Tuning855E.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning855E.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension855F_Install]
 CopyFiles = CNXT_Tuning855F.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning855F.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8560_Install]
 CopyFiles = CNXT_Tuning8560.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning8560.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8561_Install]
 CopyFiles = CNXT_Tuning8561.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning8561.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8562_Install]
 CopyFiles = CNXT_Tuning8562.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning8562.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8563_Install]
 CopyFiles = CNXT_Tuning8563.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning8563.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8564_Install]
 CopyFiles = CNXT_Tuning8564.CopyList, CNXT_PropTuning8564.CopyList 
-AddReg = PresetConferenceAddReg, Cortana84C5.AddReg
+AddReg = PresetConferenceAddReg, Cortana84C5.AddReg, CNXT_Tuning8564.CopyList.AddReg , CNXT_PropTuning8564.CopyList.AddReg 
 
 [DeviceExtension8565_Install]
 CopyFiles = CNXT_Tuning8565.CopyList, CNXT_PropTuning8565.CopyList
-AddReg = PresetConferenceAddReg
+AddReg = PresetConferenceAddReg, CNXT_Tuning8565.CopyList.AddReg, CNXT_PropTuning8565.CopyList.AddReg
 
 [DeviceExtension8525_Install]
 CopyFiles = CNXT_Tuning8525.CopyList, CNXT_PropTuning8525.CopyList, NHLT.CopyList, TF_Tuning8518.CopyList
-AddReg = PresetExtMicAddReg, NHLT.AddReg, AlexaConfig.AddReg, Cortana8525.AddReg
+AddReg = PresetExtMicAddReg, NHLT.AddReg, AlexaConfig_8525.AddReg, Cortana8525.AddReg, CNXT_Tuning8525.CopyList.AddReg, CNXT_PropTuning8525.CopyList.AddReg
 
 [DeviceExtension856A_Install]
 CopyFiles = CNXT_Tuning856A.CopyList, CNXT_PropTuning856A.CopyList, TF_Tuning84c5.CopyList  
-AddReg = PresetAddReg, AlexaConfig.AddReg, Cortana84BD.AddReg
+AddReg = PresetAddReg, AlexaConfig_856A.AddReg, Cortana84BD.AddReg, CNXT_Tuning856A.CopyList.AddReg, CNXT_PropTuning856A.CopyList.AddReg
 
 [DeviceExtension8578_Install]
 CopyFiles = CNXT_Tuning8578.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning8578.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8579_Install]
 CopyFiles = CNXT_Tuning8579.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning8579.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension857A_Install]
 CopyFiles = CNXT_Tuning857A.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning857A.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension857B_Install]
 CopyFiles = CNXT_Tuning857B.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
-
-[DeviceExtension8516_Install] 
-CopyFiles = CNXT_Tuning8516.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetConferenceAddReg
-
-[DeviceExtension8517_Install] 
-CopyFiles = CNXT_Tuning8517.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetConferenceAddReg
-
-[DeviceExtension851A_Install] 
-CopyFiles = CNXT_Tuning851A.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetConferenceAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning857B.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8566_Install]
 CopyFiles = CNXT_Tuning8566.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning8566.CopyList.AddReg, CNXT_Prop.CopyList.AddReg 
 
 [DeviceExtension8567_Install]
 CopyFiles = CNXT_Tuning8567.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetConferenceAddReg
+AddReg = PresetConferenceAddReg, CNXT_Tuning8567.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8568_Install]
 CopyFiles = CNXT_Tuning8568.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetConferenceAddReg
+AddReg = PresetConferenceAddReg, CNXT_Tuning8568.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8569_Install]
 CopyFiles = CNXT_Tuning8569.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetConferenceAddReg
+AddReg = PresetConferenceAddReg, CNXT_Tuning8569.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension856B_Install]
 CopyFiles = CNXT_Tuning856B.CopyList, CNXT_PropTuning856B.CopyList
-AddReg = PresetConferenceAddReg, Cortana84C5.AddReg
+AddReg = PresetConferenceAddReg, Cortana84C5.AddReg, CNXT_Tuning856B.CopyList.AddReg, CNXT_PropTuning856B.CopyList.AddReg
 
 [DeviceExtension856C_Install]
 CopyFiles = CNXT_Tuning856C.CopyList, CNXT_PropTuning856C.CopyList
-AddReg = PresetConferenceAddReg
+AddReg = PresetConferenceAddReg, CNXT_Tuning856C.CopyList.AddReg, CNXT_PropTuning856C.CopyList.AddReg
 
 [DeviceExtension8423_Install] 
 CopyFiles = CNXT_Tuning8423.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning8423.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84EC_Install] 
 CopyFiles = CNXT_Tuning84EC.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning84EC.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension858F_Install] 
 CopyFiles = CNXT_Tuning858F.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning858F.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension830F_Install]
 CopyFiles = CNXT_Tuning830F.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetConferenceAddReg
+AddReg = PresetConferenceAddReg, CNXT_Tuning830F.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8310_Install]
 CopyFiles = CNXT_Tuning8310.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetConferenceAddReg
+AddReg = PresetConferenceAddReg, CNXT_Tuning8310.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension83C4_Install]
 CopyFiles = CNXT_Tuning83C4.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetConferenceAddReg
+AddReg = PresetConferenceAddReg, CNXT_Tuning83C4.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension83C5_Install]
 CopyFiles = CNXT_Tuning83C5.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetConferenceAddReg
+AddReg = PresetConferenceAddReg, CNXT_Tuning83C5.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension83C8_Install]
 CopyFiles = CNXT_Tuning83C8.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetConferenceAddReg
+AddReg = PresetConferenceAddReg, CNXT_Tuning83C8.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension83C9_Install]
 CopyFiles = CNXT_Tuning83C9.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetConferenceAddReg
+AddReg = PresetConferenceAddReg, CNXT_Tuning83C9.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension85AC_Install] 
 CopyFiles = CNXT_Tuning85AC.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning85AC.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension85B3_Install] 
 CopyFiles = CNXT_Tuning85B3.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning85B3.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension85B4_Install] 
 CopyFiles = CNXT_Tuning85B4.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning85B4.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension85B1_Install] 
 CopyFiles = CNXT_Tuning85B1.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning85B1.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension85B2_Install] 
 CopyFiles = CNXT_Tuning85B2.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning85B2.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension85BB_Install] 
 CopyFiles = CNXT_Tuning85BB.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning85BB.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension85BC_Install] 
 CopyFiles = CNXT_Tuning85BC.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning85BC.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension85BD_Install] 
 CopyFiles = CNXT_Tuning85BD.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning85BD.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension85BE_Install] 
 CopyFiles = CNXT_Tuning85BE.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning85BE.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension85D3_Install] 
 CopyFiles = CNXT_Tuning85D3.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning85D3.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension85D4_Install] 
 CopyFiles = CNXT_Tuning85D4.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning85D4.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension85D5_Install] 
 CopyFiles = CNXT_Tuning85D5.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning85D5.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension85D6_Install] 
 CopyFiles = CNXT_Tuning85D6.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning85D6.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension84B5_Install] 
 CopyFiles = CNXT_Tuning84B5.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning84B5.CopyList.AddReg, CNXT_Prop.CopyList.AddReg 
 
 [DeviceExtension85E0_Install] 
 CopyFiles = CNXT_Tuning85E0.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning85E0.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension85E1_Install] 
 CopyFiles = CNXT_Tuning85E1.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning85E1.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8574_Install] 
 CopyFiles = CNXT_Tuning8574.CopyList, CNXT_PropTuning8574.CopyList 
-AddReg = PresetAddReg, Cortana84BD.AddReg
+AddReg = PresetAddReg, Cortana84BD.AddReg, CNXT_Tuning8574.CopyList.AddReg, CNXT_PropTuning8574.CopyList.AddReg
 
 [DeviceExtension8575_Install] 
 CopyFiles = CNXT_Tuning8575.CopyList, CNXT_PropTuning8575.CopyList 
-AddReg = PresetAddReg, Cortana84BD.AddReg
+AddReg = PresetAddReg, Cortana84BD.AddReg, CNXT_Tuning8575.CopyList.AddReg, CNXT_PropTuning8575.CopyList.AddReg
 
 [DeviceExtension84F8_Install] 
 CopyFiles = CNXT_Tuning84F8.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning84F8.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8581_Install] 
 CopyFiles = CNXT_Tuning8581.CopyList, CNXT_PropTuning8581.CopyList 
-AddReg = PresetAddReg, Cortana84C5.AddReg
+AddReg = PresetAddReg, Cortana84C5.AddReg, CNXT_Tuning8581.CopyList.AddReg, CNXT_PropTuning8581.CopyList.AddReg
 
 [DeviceExtension8572_Install] 
 CopyFiles = CNXT_Tuning8572.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning8572.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8573_Install] 
 CopyFiles = CNXT_Tuning8573.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning8573.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension83A6_Install] 
 CopyFiles = CNXT_Tuning83A6.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning83A6.CopyList.AddReg, CNXT_Prop.CopyList.AddReg 
 
 [DeviceExtension83A2_Install] 
 CopyFiles = CNXT_Tuning83A2.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning83A2.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension860A_Install] 
 CopyFiles = CNXT_Tuning860A.CopyList, CNXT_PropTuning860A.CopyList
-AddReg = PresetAddReg,Cortana84BD.AddReg
+AddReg = PresetAddReg,Cortana84BD.AddReg, CNXT_Tuning860A.CopyList.AddReg, CNXT_PropTuning860A.CopyList.AddReg
 
 [DeviceExtension8615_Install] 
 CopyFiles = CNXT_Tuning8615.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetAddReg
+AddReg = PresetAddReg,CNXT_Tuning8615.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8616_Install]
 CopyFiles = CNXT_Tuning8616.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning8616.CopyList.AddReg, CNXT_Prop.CopyList.AddReg   
 
 [DeviceExtension861B_Install] 
 CopyFiles = CNXT_Tuning861B.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning861B.CopyList.AddReg, CNXT_Prop.CopyList.AddReg   
 
 [DeviceExtension861C_Install] 
 CopyFiles = CNXT_Tuning861C.CopyList, CNXT_Prop.CopyList   
-AddReg = PresetAddReg
+AddReg = PresetAddReg, CNXT_Tuning861C.CopyList.AddReg, CNXT_Prop.CopyList.AddReg   
 
 [DeviceExtension861D_Install]
 CopyFiles = CNXT_Tuning861D.CopyList, CNXT_PropTuning861D.CopyList, TF_Tuning84c5.CopyList  
-AddReg = PresetAddReg, AlexaConfig.AddReg, Cortana84BD.AddReg
+AddReg = PresetAddReg, AlexaConfig_861D.AddReg, Cortana84BD.AddReg, CNXT_Tuning861D.CopyList.AddReg, CNXT_PropTuning861D.CopyList.AddReg
 
 [DeviceExtension861E_Install]
 CopyFiles = CNXT_Tuning861E.CopyList, CNXT_PropTuning861E.CopyList, TF_Tuning84c5.CopyList  
-AddReg = PresetAddReg, AlexaConfig.AddReg, Cortana84BD.AddReg
+AddReg = PresetAddReg, AlexaConfig_861E.AddReg, Cortana84BD.AddReg, CNXT_Tuning861E.CopyList.AddReg, CNXT_PropTuning861E.CopyList.AddReg
 
 [DeviceExtension84E0_Install] 
 CopyFiles = CNXT_Tuning84E0.CopyList, CNXT_Prop.CopyList 
-AddReg = PresetMonoAddReg
-
-[DeviceExtension863E_Install] 
-CopyFiles = CNXT_Tuning863E.CopyList, CNXT_PropTuning863E.CopyList, NHLT.CopyList, TF_Tuning8518.CopyList   
-AddReg = PresetExtMicAddReg, NHLT.AddReg, AlexaConfig.AddReg, Cortana8503.AddReg
-
-[DeviceExtension863F_Install] 
-CopyFiles = CNXT_Tuning863F.CopyList, CNXT_PropTuning863F.CopyList, NHLT.CopyList, TF_Tuning8518.CopyList   
-AddReg = PresetExtMicAddReg, NHLT.AddReg, AlexaConfig.AddReg, Cortana8503.AddReg
+AddReg = PresetMonoAddReg, CNXT_Tuning84E0.CopyList.AddReg, CNXT_Prop.CopyList.AddReg
 
 [DeviceExtension8640_Install] 
 CopyFiles = CNXT_Tuning8640.CopyList, CNXT_PropTuning8640.CopyList 
-AddReg = PresetAddReg, Cortana84C5.AddReg
+AddReg = PresetAddReg, Cortana84C5.AddReg, CNXT_Tuning8640.CopyList.AddReg, CNXT_PropTuning8640.CopyList.AddReg 
 
 [DeviceExtension8641_Install] 
 CopyFiles = CNXT_Tuning8641.CopyList, CNXT_PropTuning8641.CopyList 
-AddReg = PresetAddReg, Cortana84C5.AddReg
+AddReg = PresetAddReg, Cortana84C5.AddReg, CNXT_Tuning8641.CopyList.AddReg, CNXT_PropTuning8641.CopyList.AddReg 
 
 [DeviceExtension865E_Install] 
 CopyFiles = CNXT_Tuning865E.CopyList, CNXT_PropTuning865E.CopyList 
-AddReg = PresetAddReg, Cortana84C5.AddReg
+AddReg = PresetAddReg, Cortana84C5.AddReg, CNXT_Tuning865E.CopyList.AddReg, CNXT_PropTuning865E.CopyList.AddReg 
 
 [DeviceExtension8496_Install.HW] 
 AddReg = FriendlyName_Addreg
@@ -3627,6 +4580,7 @@ HKR,InterfaceSetting\ApoPreset5\FX\0, "{FE710D99-0EE4-4A3E-A109-7993BF8D6CCD},5"
 HKR,InterfaceSetting\ApoPreset5\FX\0, "{FE710D99-0EE4-4A3E-A109-7993BF8D6CCD},100" , %REG_DWORD%, 0x0004	 ; Only my voice
 HKR,InterfaceSetting\ApoPreset5\FX\0, "{FE710D99-0EE4-4A3E-A109-7993BF8D6CCD},18",%REG_DWORD%, 0x0000	 ; Reload prop file
 HKR,InterfaceSetting\ApoPreset5\FX\0, "{FE710D99-0EE4-4A3E-A109-7993BF8D6CCD},38",%REG_DWORD%, 0x0001 	 ; External Mic bypass DSP
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{A4A2C5A8-D979-4939-B4D5-AA85D6F08162},0" , %REG_DWORD%, 0x0030	 ; Endpoint ID set to MIC EP
 
 ;; render endpoint settings
 HKR,InterfaceSetting,RearLineOutTopo,0x10008,"CNXTCustomizedRenderFx"
@@ -3691,6 +4645,7 @@ HKR,InterfaceSetting\ApoPreset5\FX\0, "{FE710D99-0EE4-4A3E-A109-7993BF8D6CCD},5"
 HKR,InterfaceSetting\ApoPreset5\FX\0, "{FE710D99-0EE4-4A3E-A109-7993BF8D6CCD},100" , %REG_DWORD%, 0x0003	 ; Multiple Voice
 HKR,InterfaceSetting\ApoPreset5\FX\0, "{FE710D99-0EE4-4A3E-A109-7993BF8D6CCD},18",%REG_DWORD%, 0x0000 ; Reload prop file
 HKR,InterfaceSetting\ApoPreset5\FX\0, "{FE710D99-0EE4-4A3E-A109-7993BF8D6CCD},38",%REG_DWORD%, 0x0001 ; External Mic bypass DSP
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{A4A2C5A8-D979-4939-B4D5-AA85D6F08162},0" , %REG_DWORD%, 0x0030	 ; Endpoint ID set to MIC EP
 
 ;; render endpoint settings
 HKR,InterfaceSetting,RearLineOutTopo,0x10008,"CNXTCustomizedRenderFx"
@@ -3753,6 +4708,7 @@ HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},20
 HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},3000",%REG_DWORD%,0x0008 ; Enable Mono Mode
 HKR,InterfaceSetting\ApoPreset5\FX\0, "{FE710D99-0EE4-4A3E-A109-7993BF8D6CCD},18",%REG_DWORD%, 0x0000 ; Reload prop file
 HKR,InterfaceSetting\ApoPreset5\FX\0, "{FE710D99-0EE4-4A3E-A109-7993BF8D6CCD},38",%REG_DWORD%, 0x0001 ; External Mic bypass DSP
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{A4A2C5A8-D979-4939-B4D5-AA85D6F08162},0" , %REG_DWORD%, 0x0030	 ; Endpoint ID set to MIC EP
 
 ;; render endpoint settings
 HKR,InterfaceSetting,RearLineOutTopo,0x10008,"CNXTCustomizedRenderFx"
@@ -3811,11 +4767,12 @@ HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},20
 HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2006",%REG_DWORD%,0x1a0000 ; Mic bypass gain
 HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2015",%REG_DWORD%,0x1 ; Hide AEC/NS/BF effects list when chaining in EFX to avoid WHQL issues
 HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2018",%REG_DWORD%,0x1 ; Mono Mic boost on
-HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2020",%REG_DWORD%,0x1a0000 ; Ext Mic bypass gain
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2020",%REG_DWORD%,0xf0000 ; Ext Mic bypass gain
 HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},2024",%REG_DWORD%,0x1 ; RTK Ext Mic force enabled
 
 HKR,InterfaceSetting\ApoPreset5\FX\0, "{0C709614-E770-0001-4000-018664542698},3000",%REG_DWORD%,0x0008 ; Enable Mono Mode
 HKR,InterfaceSetting\ApoPreset5\FX\0, "{FE710D99-0EE4-4A3E-A109-7993BF8D6CCD},18",%REG_DWORD%, 0x0000 ; Reload prop file
+HKR,InterfaceSetting\ApoPreset5\FX\0, "{A4A2C5A8-D979-4939-B4D5-AA85D6F08162},0" , %REG_DWORD%, 0x0030	 ; Endpoint ID set to MIC EP
 
 ;; render endpoint settings
 HKR,InterfaceSetting,RearLineOutTopo,0x10008,"CNXTCustomizedRenderFx"
@@ -3839,29 +4796,132 @@ Description = "Synaptics Audio Effects Component"
 
 [AlexaConfig.AddReg]
 HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",,"%%SystemRoot%%\system32\SynaSstPpDll.dll"
-HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\cAVS\Intel(R) Audio Service\ConfigurationFiles\configuration.tf"
-HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllConfigurationFile",,"%%SystemRoot%%\system32\cxapo.prop"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\cAVS\Intel(R) Audio Service\ConfigurationFiles\configuration.tf"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"ppDllConfigurationFile",,"%%SystemRoot%%\system32\cxapo.prop"
+
+[AlexaConfig_8514.AddReg]
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",,"%%SystemRoot%%\system32\SynaSstPpDll.dll"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\cAVS\Intel(R) Audio Service\ConfigurationFiles\103c8518_configuration.tf"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"ppDllConfigurationFile",,"%%SystemRoot%%\system32\cxapo_103C8514_Rev0012.prop"
+
+[AlexaConfig_8515.AddReg]
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",,"%%SystemRoot%%\system32\SynaSstPpDll.dll"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\cAVS\Intel(R) Audio Service\ConfigurationFiles\103c8518_configuration.tf"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"ppDllConfigurationFile",,"%%SystemRoot%%\system32\cxapo_103C8515_Rev0012.prop"
+
+[AlexaConfig_8518.AddReg]
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",,"%%SystemRoot%%\system32\SynaSstPpDll.dll"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\cAVS\Intel(R) Audio Service\ConfigurationFiles\103c8518_configuration.tf"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"ppDllConfigurationFile",,"%%SystemRoot%%\system32\cxapo_103C8518_Rev0011.prop"
+
+[AlexaConfig_8519.AddReg]
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",,"%%SystemRoot%%\system32\SynaSstPpDll.dll"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\cAVS\Intel(R) Audio Service\ConfigurationFiles\103c8518_configuration.tf"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"ppDllConfigurationFile",,"%%SystemRoot%%\system32\cxapo_103C8519_Rev0011.prop"
+
+[AlexaConfig_850C.AddReg]
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",,"%%SystemRoot%%\system32\SynaSstPpDll.dll"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\cAVS\Intel(R) Audio Service\ConfigurationFiles\103c850c_configuration.tf"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"ppDllConfigurationFile",,"%%SystemRoot%%\system32\cxapo_103C850C_Rev0004.prop"
+
+[AlexaConfig_850D.AddReg]
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",,"%%SystemRoot%%\system32\SynaSstPpDll.dll"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\cAVS\Intel(R) Audio Service\ConfigurationFiles\103c850c_configuration.tf"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"ppDllConfigurationFile",,"%%SystemRoot%%\system32\cxapo_103C850D_Rev0004.prop"
+
+[AlexaConfig_84C0.AddReg]
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",,"%%SystemRoot%%\system32\SynaSstPpDll.dll"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\cAVS\Intel(R) Audio Service\ConfigurationFiles\103c84c5_configuration.tf"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"ppDllConfigurationFile",,"%%SystemRoot%%\system32\cxapo_103C84C0_Rev0005.prop"
+
+[AlexaConfig_84C1.AddReg]
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",,"%%SystemRoot%%\system32\SynaSstPpDll.dll"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\cAVS\Intel(R) Audio Service\ConfigurationFiles\103c84c5_configuration.tf"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"ppDllConfigurationFile",,"%%SystemRoot%%\system32\cxapo_103C84C1_Rev0005.prop"
+
+[AlexaConfig_84BD.AddReg]
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",,"%%SystemRoot%%\system32\SynaSstPpDll.dll"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\cAVS\Intel(R) Audio Service\ConfigurationFiles\103c84c5_configuration.tf"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"ppDllConfigurationFile",,"%%SystemRoot%%\system32\cxapo_103C84BD_Rev0005.prop"
+
+[AlexaConfig_84C2.AddReg]
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",,"%%SystemRoot%%\system32\SynaSstPpDll.dll"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\cAVS\Intel(R) Audio Service\ConfigurationFiles\103c84c5_configuration.tf"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"ppDllConfigurationFile",,"%%SystemRoot%%\system32\cxapo_103C84C2_Rev0005.prop"
+
+[AlexaConfig_84BB.AddReg]
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",,"%%SystemRoot%%\system32\SynaSstPpDll.dll"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\cAVS\Intel(R) Audio Service\ConfigurationFiles\103c84c5_configuration.tf"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"ppDllConfigurationFile",,"%%SystemRoot%%\system32\cxapo_103C84BB_Rev0004.prop"
+
+[AlexaConfig_84BC.AddReg]
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",,"%%SystemRoot%%\system32\SynaSstPpDll.dll"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\cAVS\Intel(R) Audio Service\ConfigurationFiles\103c84c5_configuration.tf"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"ppDllConfigurationFile",,"%%SystemRoot%%\system32\cxapo_103C84BC_Rev0004.prop"
+
+[AlexaConfig_84C5.AddReg]
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",,"%%SystemRoot%%\system32\SynaSstPpDll.dll"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\cAVS\Intel(R) Audio Service\ConfigurationFiles\103c84c5_configuration.tf"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"ppDllConfigurationFile",,"%%SystemRoot%%\system32\cxapo_103C84C5_Rev0007.prop"
+
+[AlexaConfig_8525.AddReg]
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",,"%%SystemRoot%%\system32\SynaSstPpDll.dll"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\cAVS\Intel(R) Audio Service\ConfigurationFiles\103c8518_configuration.tf"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"ppDllConfigurationFile",,"%%SystemRoot%%\system32\cxapo_103C8525_Rev0011.prop"
+
+[AlexaConfig_856A.AddReg]
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",,"%%SystemRoot%%\system32\SynaSstPpDll.dll"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\cAVS\Intel(R) Audio Service\ConfigurationFiles\103c84c5_configuration.tf"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"ppDllConfigurationFile",,"%%SystemRoot%%\system32\cxapo_103C856A_Rev0005.prop"
+
+[AlexaConfig_861D.AddReg]
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",,"%%SystemRoot%%\system32\SynaSstPpDll.dll"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\cAVS\Intel(R) Audio Service\ConfigurationFiles\103c84c5_configuration.tf"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"ppDllConfigurationFile",,"%%SystemRoot%%\system32\cxapo_103C861D_Rev0003.prop"
+
+[AlexaConfig_861E.AddReg]
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",,"%%SystemRoot%%\system32\SynaSstPpDll.dll"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\cAVS\Intel(R) Audio Service\ConfigurationFiles\103c84c5_configuration.tf"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"ppDllConfigurationFile",,"%%SystemRoot%%\system32\cxapo_103C861E_Rev0003.prop"
+
+[AlexaConfig_863E.AddReg]
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",,"%%SystemRoot%%\system32\SynaSstPpDll.dll"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\cAVS\Intel(R) Audio Service\ConfigurationFiles\103c8518_configuration.tf"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"ppDllConfigurationFile",,"%%SystemRoot%%\system32\cxapo_103C863E_Rev0001.prop"
+
+[AlexaConfig_863F.AddReg]
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",,"%%SystemRoot%%\system32\SynaSstPpDll.dll"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\cAVS\Intel(R) Audio Service\ConfigurationFiles\103c8518_configuration.tf"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"ppDllConfigurationFile",,"%%SystemRoot%%\system32\cxapo_103C863F_Rev0001.prop"
+
+[GodZillaNHLT.AddReg]
 
 [NHLT.AddReg]
 HKLM,SYSTEM\CurrentControlSet\Services\IntcOED\Parameters,"NhltOverridePath",,"\SystemRoot\system32\cAVS\NHLT_rvp_2_4MHz_hp.bin"
 
 [Cortana8503.AddReg]
-HKLM,System\CurrentControlSet\Control\Conexant\MicWiz,DefaultDefaultMicGain, 0x00010001, 0x00001F40
+HKR,GlobalSettings\ConexantOverride\Conexant\MicWiz,DefaultDefaultMicGain, 0x00010001, 0x00001F40
+HKLM,System\CurrentControlSet\Control\Conexant\MicWiz,SetCortanaGain,0x00010001, 0x1
 
 [Cortana850C.AddReg]
-HKLM,System\CurrentControlSet\Control\Conexant\MicWiz,DefaultDefaultMicGain, 0x00010001, 0x00002328
+HKR,GlobalSettings\ConexantOverride\Conexant\MicWiz,DefaultDefaultMicGain, 0x00010001, 0x00002328
+HKLM,System\CurrentControlSet\Control\Conexant\MicWiz,SetCortanaGain,0x00010001, 0x1
 
 [Cortana84C5.AddReg]
-HKLM,System\CurrentControlSet\Control\Conexant\MicWiz,DefaultDefaultMicGain, 0x00010001, 0x0000251C
+HKR,GlobalSettings\ConexantOverride\Conexant\MicWiz,DefaultDefaultMicGain, 0x00010001, 0x0000251C
+HKLM,System\CurrentControlSet\Control\Conexant\MicWiz,SetCortanaGain,0x00010001, 0x1
 
 [Cortana84BD.AddReg]
-HKLM,System\CurrentControlSet\Control\Conexant\MicWiz,DefaultDefaultMicGain, 0x00010001, 0x0000251C
+HKR,GlobalSettings\ConexantOverride\Conexant\MicWiz,DefaultDefaultMicGain, 0x00010001, 0x0000251C
+HKLM,System\CurrentControlSet\Control\Conexant\MicWiz,SetCortanaGain,0x00010001, 0x1
 
 [Cortana8518.AddReg]
-HKLM,System\CurrentControlSet\Control\Conexant\MicWiz,DefaultDefaultMicGain, 0x00010001, 0x00001F40
+HKR,GlobalSettings\ConexantOverride\Conexant\MicWiz,DefaultDefaultMicGain, 0x00010001, 0x00001F40
+HKLM,System\CurrentControlSet\Control\Conexant\MicWiz,SetCortanaGain,0x00010001, 0x1
 
 [Cortana8525.AddReg]
-HKLM,System\CurrentControlSet\Control\Conexant\MicWiz,DefaultDefaultMicGain, 0x00010001, 0x00002710
+HKR,GlobalSettings\ConexantOverride\Conexant\MicWiz,DefaultDefaultMicGain, 0x00010001, 0x00002710
+HKLM,System\CurrentControlSet\Control\Conexant\MicWiz,SetCortanaGain,0x00010001, 0x1
 
 [Strings]
 OEM                  = "Hp"

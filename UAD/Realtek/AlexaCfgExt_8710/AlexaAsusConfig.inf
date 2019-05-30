@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %Realtek%
 ExtensionId = {7f7901fa-ea73-4a95-bada-55bf89f37009}
-DriverVer = 05/14/2019, 1.0.8703.1
+DriverVer = 05/22/2019, 1.0.8710.1
 CatalogFile = AlexaConfig.cat
 
 [Manufacturer]
@@ -12,6 +12,8 @@ CatalogFile = AlexaConfig.cat
 
 [DeviceExtensions.NTamd64]
 %Device.ExtensionDesc% = DeviceExtensionSST,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10431771
+%Device.ExtensionDesc% = DeviceExtensionSST_IntelDAT_10A1,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431561
+%Device.ExtensionDesc% = DeviceExtensionSST_IntelDAT_10A1,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_1043173E
 %Device.ExtensionDesc% = DeviceExtensionSST_IntelDAT_10A1,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_104316B1
 %Device.ExtensionDesc% = DeviceExtensionSST_IntelDAT_10A1,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431AE1
 %Device.ExtensionDesc% = DeviceExtensionSST_IntelDAT_10A1,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431AF1

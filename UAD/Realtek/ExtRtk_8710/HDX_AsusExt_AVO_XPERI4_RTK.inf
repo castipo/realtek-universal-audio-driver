@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OrganizationName%
 ExtensionId = {C3A63EDD-2D27-4B66-B155-5E94B43D926A}
-DriverVer   = 05/20/2019, 6.0.8708.1
+DriverVer   = 05/22/2019, 6.0.8710.1
 CatalogFile = HDXRTExt.cat
 
 [Manufacturer]
@@ -95,8 +95,8 @@ HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_USE_TP_SFX_EFFECTS%,%REG_DWORD%,
 
 HKR,InterfaceSetting\SysCustomizedFx_RtkOnly\FX\0,%DelInterfaceKey%,%REG_MULTI_SZ%,%PKEY_SYSFX_LFXClsid%,%PKEY_SYSFX_GFXClsid%,%PKEY_SYSFX_SFXClsid%,%PKEY_SYSFX_MFXClsid%,%PKEY_SYSFX_EFXClsid%,%PKEY_FX_Offload_StreamEffectClsid%,%PKEY_FX_Offload_ModeEffectClsid%
 HKR,InterfaceSetting\SysCustomizedFx_RtkOnly\FX\0,%PKEY_SYSFX_Association%,,%KSNODETYPE_ANY%
-HKR,InterfaceSetting\SysCustomizedFx_RtkOnly\FX\0,%PKEY_CompositeFX_StreamEffectClsid%,%REG_MULTI_SZ%,%REALTEK_SFX_CLSID%
-HKR,InterfaceSetting\SysCustomizedFx_RtkOnly\FX\0,%PKEY_CompositeFX_ModeEffectClsid%,%REG_MULTI_SZ%,%REALTEK_MFX_CLSID%
+HKR,InterfaceSetting\SysCustomizedFx_RtkOnly\FX\0,%PKEY_CompositeFX_StreamEffectClsid%,%REG_MULTI_SZ%,%AVOLUTE_SFX_CLSID%
+HKR,InterfaceSetting\SysCustomizedFx_RtkOnly\FX\0,%PKEY_CompositeFX_ModeEffectClsid%,%REG_MULTI_SZ%,%AVOLUTE_MFX_CLSID%,%REALTEK_MFX_CLSID%
 HKR,InterfaceSetting\SysCustomizedFx_RtkOnly\FX\0,%PKEY_CompositeFX_EndpointEffectClsid%,%REG_MULTI_SZ%,%REALTEK_EFX_CLSID%
 HKR,InterfaceSetting\SysCustomizedFx_RtkOnly\FX\0,%PKEY_SFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
 HKR,InterfaceSetting\SysCustomizedFx_RtkOnly\FX\0,%PKEY_MFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
