@@ -1,0 +1,157 @@
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = Extension
+ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Provider    = %OEM%
+ExtensionId = {86F65302-34A5-441C-8E16-C05C2D9E6151}
+DriverVer   = 05/09/2019,1.0.3.85
+CatalogFile = OemXAudioExt_fm.cat
+
+[SourceDisksNames]
+222 = %DiskId1%
+
+[SourceDisksFiles]
+SAMSfpa_17AA2293.dat=222
+RTMICAR_17AA2293.dat=222
+SAMSfpi_17AA2293.dat=222
+SAMSfppch_17AA2293.dat=222
+
+[DestinationDirs]
+FMDAT_17AA2293.CopyList = 12 ; %windir%\system32\drivers
+FMPPDAT_17AA2293.CopyList = 11 ; %windir%\system32
+
+
+[FMDAT_17AA2293.CopyList]
+SAMSfpa.dat, SAMSfpa_17AA2293.dat
+RTMICAR.dat, RTMICAR_17AA2293.dat
+SAMSfppch.dat, SAMSfppch_17AA2293.dat
+
+[FMPPDAT_17AA2293.CopyList]
+SAMSfpi.dat, SAMSfpi_17AA2293.dat
+
+[Manufacturer]
+%OEM% = DeviceExtensions,NTamd64
+
+[DeviceExtensions.NTamd64]
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA2293,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA2293
+
+
+
+[DeviceExtension_Install_17AA2293]
+CopyFiles = FMDAT_17AA2293.CopyList, FMPPDAT_17AA2293.CopyList
+AddReg = CortanaKey_17AA2293_AddReg
+AddReg = PresetAddReg
+AddReg = FortemediaSstPpDllNoTf.AddReg
+
+[DeviceExtension_Install_17AA2293.HW]
+
+;[FriendlyName_AddReg]
+;HKR,,FriendlyName,,%ExtendedFriendlyName%
+
+
+[DeviceExtension_Install_17AA2293.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[PresetAddReg]
+HKR,InterfaceSetting,RtMicInTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RtFrontMicInTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RtMicArTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,DigitalMICTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RtMicInSSTTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInBlackTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInGreyTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInBlueTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInGreenTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInRedTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInOrangeTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInYellowTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInPurpleTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInPinkTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicGoldenTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicSilverTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInWhiteTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInBlackTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInGreyTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInBlueTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInGreenTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInRedTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInOrangeTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInYellowTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInPurpleTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInPinkTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInGoldenTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInSilverTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInWhiteTopo,0x10008,"FMAPOPreset1"
+
+HKR,InterfaceSetting\FMAPOPreset1\FX\0,%K2_ID%,0x00010001,0x01
+HKR,InterfaceSetting\FMAPOPreset1\FX\0,%K7_ID%,0x00010001,0x800000
+
+[DisAddReg]
+HKR,InterfaceSetting,RtMicInTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RtFrontMicInTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RtMicArTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,DigitalMICTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RtMicInSSTTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInBlackTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInGreyTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInBlueTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInGreenTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInRedTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInOrangeTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInYellowTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInPurpleTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInPinkTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicGoldenTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicSilverTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInWhiteTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInBlackTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInGreyTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInBlueTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInGreenTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInRedTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInOrangeTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInYellowTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInPurpleTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInPinkTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInGoldenTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInSilverTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInWhiteTopo,0x10008,"FMAPOPreset1"
+
+HKR,InterfaceSetting\FMAPOPreset1\FX\0,%K2_ID%,0x00010001,0x01
+HKR,InterfaceSetting\FMAPOPreset1\FX\0,%K7_ID%,0x00010001,0x800004
+
+[FortemediaSstPpDll.AddReg]
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",0x00020000,%%SystemRoot%%\system32\FM_Speech_PP64.dll
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllConfigurationFile",0x00020000,%%SystemRoot%%\system32\SAMSfpi.dat
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\configuration.tf"
+; HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ForceSwWov",%REG_DWORD%,0x00000001
+; HKLM,SYSTEM\CurrentControlSet\Services\IntcOED\Parameters,"VADAPIMode",%REG_DWORD%,0x00000001
+
+[FortemediaSstPpDllNoTf.AddReg]
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",0x00020000,%%SystemRoot%%\system32\FM_Speech_PP64.dll
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllConfigurationFile",0x00020000,%%SystemRoot%%\system32\SAMSfpi.dat
+;HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\configuration.tf"
+; HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ForceSwWov",%REG_DWORD%,0x00000001
+; HKLM,SYSTEM\CurrentControlSet\Services\IntcOED\Parameters,"VADAPIMode",%REG_DWORD%,0x00000001
+
+[FMAPO_Install]
+ComponentIDs = VEN_1319&AID_0001
+Description = "Fortemedia SAMSoft Effects Component"
+
+
+[CortanaKey_17AA2293_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[Strings]
+OEM                  = "Fortemeida"
+Device.ExtensionDesc = "Fortemedia SAMSoft Device Extension"
+ExtendedFriendlyName = "Realtek(R) Audio"
+DiskId1              = "Fortemedia SAMSoft Audio Device Extension Installation Disk"
+
+REG_BINARY = 0x00000001
+REG_DWORD = 0x00010001
+REG_MULTI_SZ = 0x00010000
+REG_MULTI_SZ_APPEND = 0x00010008
+
+K2_ID = "{2b24be42-a892-11dc-8314-0800200c9a66},2"
+K7_ID = "{2b24be42-a892-11dc-8314-0800200c9a66},7"

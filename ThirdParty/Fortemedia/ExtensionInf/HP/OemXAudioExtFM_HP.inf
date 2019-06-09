@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {86F65302-34A5-441C-8E16-C05C2D9E6151}
-DriverVer   = 03/11/2019,1.0.3.73
+DriverVer   = 05/09/2019,1.0.3.85
 CatalogFile = OemXAudioExt_fm.cat
 
 [SourceDisksNames]
@@ -180,6 +180,9 @@ RTMICAR_103C86A8.dat=222
 RTMICAR_103C86A9.dat=222
 RTMICAR_103C86AA.dat=222
 RTMICAR_103C8549.dat=222
+RTMICAR_103C8586.dat=222
+RTMICAR_103C8588.dat=222
+RTMICAR_103C858B.dat=222
 SAMSfppch_103C857F.dat=222
 SAMSfppch_103C8548.dat=222
 SAMSfppch_103C861F.dat=222
@@ -275,323 +278,326 @@ FMDAT_103C8549.CopyList = 12 ; %windir%\system32\drivers
 
 
 [FMDAT_103C8536.CopyList]
-SAMSfpa.dat, SAMSfpa_103C8536.dat
-Samsfpaspk.dat, Samsfpaspk_103C8536.dat
-RTMICAR.dat, RTMICAR_103C8536.dat
+SAMSfpa_103C8536.dat
+Samsfpaspk_103C8536.dat
+RTMICAR_103C8536.dat
 
 [FMDAT_103C8537.CopyList]
-SAMSfpa.dat, SAMSfpa_103C8537.dat
-Samsfpaspk.dat, Samsfpaspk_103C8537.dat
-RTMICAR.dat, RTMICAR_103C8537.dat
+SAMSfpa_103C8537.dat
+Samsfpaspk_103C8537.dat
+RTMICAR_103C8537.dat
 
 [FMDAT_103C8538.CopyList]
-SAMSfpa.dat, SAMSfpa_103C8538.dat
-Samsfpaspk.dat, Samsfpaspk_103C8538.dat
-RTMICAR.dat, RTMICAR_103C8538.dat
+SAMSfpa_103C8538.dat
+Samsfpaspk_103C8538.dat
+RTMICAR_103C8538.dat
 
 [FMDAT_103C853F.CopyList]
-SAMSfpa.dat, SAMSfpa_103C853F.dat
-Samsfpaspk.dat, Samsfpaspk_103C853F.dat
+SAMSfpa_103C853F.dat
+Samsfpaspk_103C853F.dat
 
 [FMDAT_103C8540.CopyList]
-SAMSfpa.dat, SAMSfpa_103C8540.dat
-Samsfpaspk.dat, Samsfpaspk_103C8540.dat
+SAMSfpa_103C8540.dat
+Samsfpaspk_103C8540.dat
 
 [FMDAT_103C8543.CopyList]
-SAMSfpa.dat, SAMSfpa_103C8543.dat
-Samsfpaspk.dat, Samsfpaspk_103C8543.dat
+SAMSfpa_103C8543.dat
+Samsfpaspk_103C8543.dat
 
 [FMDAT_103C858D.CopyList]
-SAMSfpa.dat, SAMSfpa_103C858D.dat
-Samsfpaspk.dat, Samsfpaspk_103C858D.dat
-RTMICAR.dat, RTMICAR_103C858D.dat
+SAMSfpa_103C858D.dat
+Samsfpaspk_103C858D.dat
+RTMICAR_103C858D.dat
 
 [FMDAT_103C858E.CopyList]
-SAMSfpa.dat, SAMSfpa_103C858E.dat
-Samsfpaspk.dat, Samsfpaspk_103C858E.dat
-RTMICAR.dat, RTMICAR_103C858E.dat
+SAMSfpa_103C858E.dat
+Samsfpaspk_103C858E.dat
+RTMICAR_103C858E.dat
 
 [FMDAT_103C8570.CopyList]
-SAMSfpa.dat, SAMSfpa_103C8570.dat
-Samsfpaspk.dat, Samsfpaspk_103C8570.dat
-RTMICAR.dat, RTMICAR_103C8570.dat
+SAMSfpa_103C8570.dat
+Samsfpaspk_103C8570.dat
+RTMICAR_103C8570.dat
 
 [FMDAT_103C8571.CopyList]
-SAMSfpa.dat, SAMSfpa_103C8571.dat
-Samsfpaspk.dat, Samsfpaspk_103C8571.dat
-RTMICAR.dat, RTMICAR_103C8571.dat
+SAMSfpa_103C8571.dat
+Samsfpaspk_103C8571.dat
+RTMICAR_103C8571.dat
 
 [FMDAT_103C854E.CopyList]
-SAMSfpa.dat, SAMSfpa_103C854E.dat
-Samsfpaspk.dat, Samsfpaspk_103C854E.dat
-RTMICAR.dat, RTMICAR_103C854E.dat
-SAMSfppch.dat, SAMSfppch_103C854E.dat
+SAMSfpa_103C854E.dat
+Samsfpaspk_103C854E.dat
+RTMICAR_103C854E.dat
+SAMSfppch_103C854E.dat
 
 [FMDAT_103C854F.CopyList]
-SAMSfpa.dat, SAMSfpa_103C854F.dat
-Samsfpaspk.dat, Samsfpaspk_103C854F.dat
-RTMICAR.dat, RTMICAR_103C854F.dat
-SAMSfppch.dat, SAMSfppch_103C854F.dat
+SAMSfpa_103C854F.dat
+Samsfpaspk_103C854F.dat
+RTMICAR_103C854F.dat
+SAMSfppch_103C854F.dat
 
 [FMDAT_103C8548.CopyList]
-SAMSfpa.dat, SAMSfpa_103C8548.dat
-Samsfpaspk.dat, Samsfpaspk_103C8548.dat
-RTMICAR.dat, RTMICAR_103C8548.dat
-SAMSfppch.dat, SAMSfppch_103C8548.dat
+SAMSfpa_103C8548.dat
+Samsfpaspk_103C8548.dat
+RTMICAR_103C8548.dat
+SAMSfppch_103C8548.dat
 
 [FMDAT_103C853D.CopyList]
-SAMSfpa.dat, SAMSfpa_103C853D.dat
-Samsfpaspk.dat, Samsfpaspk_103C853D.dat
-RTMICAR.dat, RTMICAR_103C853D.dat
-SAMSfppch.dat, SAMSfppch_103C853D.dat
+SAMSfpa_103C853D.dat
+Samsfpaspk_103C853D.dat
+RTMICAR_103C853D.dat
+SAMSfppch_103C853D.dat
 
 [FMDAT_103C854A.CopyList]
-SAMSfpa.dat, SAMSfpa_103C854A.dat
-Samsfpaspk.dat, Samsfpaspk_103C854A.dat
-RTMICAR.dat, RTMICAR_103C854A.dat
-SAMSfppch.dat, SAMSfppch_103C854A.dat
+SAMSfpa_103C854A.dat
+Samsfpaspk_103C854A.dat
+RTMICAR_103C854A.dat
+SAMSfppch_103C854A.dat
 
 [FMDAT_103C854D.CopyList]
-SAMSfpa.dat, SAMSfpa_103C854D.dat
-Samsfpaspk.dat, Samsfpaspk_103C854D.dat
-RTMICAR.dat, RTMICAR_103C854D.dat
-SAMSfppch.dat, SAMSfppch_103C854D.dat
+SAMSfpa_103C854D.dat
+Samsfpaspk_103C854D.dat
+RTMICAR_103C854D.dat
+SAMSfppch_103C854D.dat
 
 [FMDAT_103C85A5.CopyList]
-SAMSfpa.dat, SAMSfpa_103C85A5.dat
-Samsfpaspk.dat, Samsfpaspk_103C85A5.dat
-RTMICAR.dat, RTMICAR_103C85A5.dat
+SAMSfpa_103C85A5.dat
+Samsfpaspk_103C85A5.dat
+RTMICAR_103C85A5.dat
 
 [FMDAT_103C85AA.CopyList]
-SAMSfpa.dat, SAMSfpa_103C85AA.dat
-Samsfpaspk.dat, Samsfpaspk_103C85AA.dat
-RTMICAR.dat, RTMICAR_103C85AA.dat
+SAMSfpa_103C85AA.dat
+Samsfpaspk_103C85AA.dat
+RTMICAR_103C85AA.dat
 
 [FMDAT_103C85AD.CopyList]
-SAMSfpa.dat, SAMSfpa_103C85AD.dat
-Samsfpaspk.dat, Samsfpaspk_103C85AD.dat
-RTMICAR.dat, RTMICAR_103C85AD.dat
+SAMSfpa_103C85AD.dat
+Samsfpaspk_103C85AD.dat
+RTMICAR_103C85AD.dat
 
 [FMDAT_103C85D7.CopyList]
-SAMSfpa.dat, SAMSfpa_103C85D7.dat
-Samsfpaspk.dat, Samsfpaspk_103C85D7.dat
-RTMICAR.dat, RTMICAR_103C85D7.dat
+SAMSfpa_103C85D7.dat
+Samsfpaspk_103C85D7.dat
+RTMICAR_103C85D7.dat
 
 [FMDAT_103C85D9.CopyList]
-SAMSfpa.dat, SAMSfpa_103C85D9.dat
-Samsfpaspk.dat, Samsfpaspk_103C85D9.dat
-RTMICAR.dat, RTMICAR_103C85D9.dat
+SAMSfpa_103C85D9.dat
+Samsfpaspk_103C85D9.dat
+RTMICAR_103C85D9.dat
 
 [FMDAT_103C85DB.CopyList]
-SAMSfpa.dat, SAMSfpa_103C85DB.dat
-Samsfpaspk.dat, Samsfpaspk_103C85DB.dat
-RTMICAR.dat, RTMICAR_103C85DB.dat
+SAMSfpa_103C85DB.dat
+Samsfpaspk_103C85DB.dat
+RTMICAR_103C85DB.dat
 
 [FMDAT_103C857F.CopyList]
-SAMSfpa.dat, SAMSfpa_103C857F.dat
-Samsfpaspk.dat, Samsfpaspk_103C857F.dat
-RTMICAR.dat, RTMICAR_103C857F.dat
-SAMSfppch.dat, SAMSfppch_103C857F.dat
+SAMSfpa_103C857F.dat
+Samsfpaspk_103C857F.dat
+RTMICAR_103C857F.dat
+SAMSfppch_103C857F.dat
 
 [FMDAT_103C85A3.CopyList]
-SAMSfpa.dat, SAMSfpa_103C85A3.dat
-Samsfpaspk.dat, Samsfpaspk_103C85A3.dat
-RTMICAR.dat, RTMICAR_103C85A3.dat
+SAMSfpa_103C85A3.dat
+Samsfpaspk_103C85A3.dat
+RTMICAR_103C85A3.dat
 
 [FMDAT_103C85A4.CopyList]
-SAMSfpa.dat, SAMSfpa_103C85A4.dat
-Samsfpaspk.dat, Samsfpaspk_103C85A4.dat
+SAMSfpa_103C85A4.dat
+Samsfpaspk_103C85A4.dat
 
 [FMDAT_103C85AE.CopyList]
-SAMSfpa.dat, SAMSfpa_103C85AE.dat
-Samsfpaspk.dat, Samsfpaspk_103C85AE.dat
+SAMSfpa_103C85AE.dat
+Samsfpaspk_103C85AE.dat
 
 [FMDAT_103C85D8.CopyList]
-SAMSfpa.dat, SAMSfpa_103C85D8.dat
-Samsfpaspk.dat, Samsfpaspk_103C85D8.dat
+SAMSfpa_103C85D8.dat
+Samsfpaspk_103C85D8.dat
 
 [FMDAT_103C85DA.CopyList]
-SAMSfpa.dat, SAMSfpa_103C85DA.dat
-Samsfpaspk.dat, Samsfpaspk_103C85DA.dat
+SAMSfpa_103C85DA.dat
+Samsfpaspk_103C85DA.dat
 
 [FMDAT_103C85DC.CopyList]
-SAMSfpa.dat, SAMSfpa_103C85DC.dat
-Samsfpaspk.dat, Samsfpaspk_103C85DC.dat
+SAMSfpa_103C85DC.dat
+Samsfpaspk_103C85DC.dat
 
 [FMDAT_103C85B9.CopyList]
-SAMSfpa.dat, SAMSfpa_103C85B9.dat
-Samsfpaspk.dat, Samsfpaspk_103C85B9.dat
-RTMICAR.dat, RTMICAR_103C85B9.dat
-SAMSfppch.dat, SAMSfppch_103C85B9.dat
+SAMSfpa_103C85B9.dat
+Samsfpaspk_103C85B9.dat
+RTMICAR_103C85B9.dat
+SAMSfppch_103C85B9.dat
 
 [FMDAT_103C8585.CopyList]
-SAMSfpa.dat, SAMSfpa_103C8585.dat
-Samsfpaspk.dat, Samsfpaspk_103C8585.dat
-RTMICAR.dat, RTMICAR_103C8585.dat
+SAMSfpa_103C8585.dat
+Samsfpaspk_103C8585.dat
+RTMICAR_103C8585.dat
 
 [FMDAT_103C8586.CopyList]
-SAMSfpa.dat, SAMSfpa_103C8586.dat
-Samsfpaspk.dat, Samsfpaspk_103C8586.dat
+SAMSfpa_103C8586.dat
+Samsfpaspk_103C8586.dat
+RTMICAR_103C8586.dat
 
 [FMDAT_103C8587.CopyList]
-SAMSfpa.dat, SAMSfpa_103C8587.dat
-Samsfpaspk.dat, Samsfpaspk_103C8587.dat
-RTMICAR.dat, RTMICAR_103C8587.dat
+SAMSfpa_103C8587.dat
+Samsfpaspk_103C8587.dat
+RTMICAR_103C8587.dat
 
 [FMDAT_103C8588.CopyList]
-SAMSfpa.dat, SAMSfpa_103C8588.dat
-Samsfpaspk.dat, Samsfpaspk_103C8588.dat
+SAMSfpa_103C8588.dat
+Samsfpaspk_103C8588.dat
+RTMICAR_103C8588.dat
 
 [FMDAT_103C858A.CopyList]
-SAMSfpa.dat, SAMSfpa_103C858A.dat
-Samsfpaspk.dat, Samsfpaspk_103C858A.dat
-RTMICAR.dat, RTMICAR_103C858A.dat
+SAMSfpa_103C858A.dat
+Samsfpaspk_103C858A.dat
+RTMICAR_103C858A.dat
 
 [FMDAT_103C858B.CopyList]
-SAMSfpa.dat, SAMSfpa_103C858B.dat
-Samsfpaspk.dat, Samsfpaspk_103C858B.dat
+SAMSfpa_103C858B.dat
+Samsfpaspk_103C858B.dat
+RTMICAR_103C858B.dat
 
 [FMDAT_103C860C.CopyList]
-SAMSfpa.dat, SAMSfpa_103C860C.dat
-Samsfpaspk.dat, Samsfpaspk_103C860C.dat
-RTMICAR.dat, RTMICAR_103C860C.dat
-SAMSfppch.dat, SAMSfppch_103C860C.dat
+SAMSfpa_103C860C.dat
+Samsfpaspk_103C860C.dat
+RTMICAR_103C860C.dat
+SAMSfppch_103C860C.dat
 
 [FMDAT_103C860F.CopyList]
-SAMSfpa.dat, SAMSfpa_103C860F.dat
-Samsfpaspk.dat, Samsfpaspk_103C860F.dat
-RTMICAR.dat, RTMICAR_103C860F.dat
-SAMSfppch.dat, SAMSfppch_103C860F.dat
+SAMSfpa_103C860F.dat
+Samsfpaspk_103C860F.dat
+RTMICAR_103C860F.dat
+SAMSfppch_103C860F.dat
 
 [FMDAT_103C861F.CopyList]
-SAMSfpa.dat, SAMSfpa_103C861F.dat
-Samsfpaspk.dat, Samsfpaspk_103C861F.dat
-RTMICAR.dat, RTMICAR_103C861F.dat
-SAMSfppch.dat, SAMSfppch_103C861F.dat
+SAMSfpa_103C861F.dat
+Samsfpaspk_103C861F.dat
+RTMICAR_103C861F.dat
+SAMSfppch_103C861F.dat
 
 [FMDAT_103C8637.CopyList]
-SAMSfpa.dat, SAMSfpa_103C8637.dat
-Samsfpaspk.dat, Samsfpaspk_103C8637.dat
-RTMICAR.dat, RTMICAR_103C8637.dat
-SAMSfppch.dat, SAMSfppch_103C8637.dat
+SAMSfpa_103C8637.dat
+Samsfpaspk_103C8637.dat
+RTMICAR_103C8637.dat
+SAMSfppch_103C8637.dat
 
 [FMDAT_103C8621.CopyList]
-SAMSfpa.dat, SAMSfpa_103C8621.dat
-Samsfpaspk.dat, Samsfpaspk_103C8621.dat
-RTMICAR.dat, RTMICAR_103C8621.dat
+SAMSfpa_103C8621.dat
+Samsfpaspk_103C8621.dat
+RTMICAR_103C8621.dat
 
 [FMDAT_103C8622.CopyList]
-SAMSfpa.dat, SAMSfpa_103C8622.dat
-Samsfpaspk.dat, Samsfpaspk_103C8622.dat
-RTMICAR.dat, RTMICAR_103C8622.dat
+SAMSfpa_103C8622.dat
+Samsfpaspk_103C8622.dat
+RTMICAR_103C8622.dat
 
 [FMDAT_103C8655.CopyList]
-SAMSfpa.dat, SAMSfpa_103C8655.dat
-Samsfpaspk.dat, Samsfpaspk_103C8655.dat
-RTMICAR.dat, RTMICAR_103C8655.dat
-SAMSfppch.dat, SAMSfppch_103C8655.dat
+SAMSfpa_103C8655.dat
+Samsfpaspk_103C8655.dat
+RTMICAR_103C8655.dat
+SAMSfppch_103C8655.dat
 
 [FMDAT_103C869B.CopyList]
-SAMSfpa.dat, SAMSfpa_103C869B.dat
-Samsfpaspk.dat, Samsfpaspk_103C869B.dat
-RTMICAR.dat, RTMICAR_103C869B.dat
-SAMSfppch.dat, SAMSfppch_103C869B.dat
+SAMSfpa_103C869B.dat
+Samsfpaspk_103C869B.dat
+RTMICAR_103C869B.dat
+SAMSfppch_103C869B.dat
 
 [FMDAT_103C869C.CopyList]
-SAMSfpa.dat, SAMSfpa_103C869C.dat
-Samsfpaspk.dat, Samsfpaspk_103C869C.dat
-RTMICAR.dat, RTMICAR_103C869C.dat
-SAMSfppch.dat, SAMSfppch_103C869C.dat
+SAMSfpa_103C869C.dat
+Samsfpaspk_103C869C.dat
+RTMICAR_103C869C.dat
+SAMSfppch_103C869C.dat
 
 [FMDAT_103C869D.CopyList]
-SAMSfpa.dat, SAMSfpa_103C869D.dat
-Samsfpaspk.dat, Samsfpaspk_103C869D.dat
-RTMICAR.dat, RTMICAR_103C869D.dat
-SAMSfppch.dat, SAMSfppch_103C869D.dat
+SAMSfpa_103C869D.dat
+Samsfpaspk_103C869D.dat
+RTMICAR_103C869D.dat
+SAMSfppch_103C869D.dat
 
 [FMDAT_103C869E.CopyList]
-SAMSfpa.dat, SAMSfpa_103C869E.dat
-Samsfpaspk.dat, Samsfpaspk_103C869E.dat
-RTMICAR.dat, RTMICAR_103C869E.dat
-SAMSfppch.dat, SAMSfppch_103C869E.dat
+SAMSfpa_103C869E.dat
+Samsfpaspk_103C869E.dat
+RTMICAR_103C869E.dat
+SAMSfppch_103C869E.dat
 
 [FMDAT_103C869F.CopyList]
-SAMSfpa.dat, SAMSfpa_103C869F.dat
-Samsfpaspk.dat, Samsfpaspk_103C869F.dat
-RTMICAR.dat, RTMICAR_103C869F.dat
-SAMSfppch.dat, SAMSfppch_103C869F.dat
+SAMSfpa_103C869F.dat
+Samsfpaspk_103C869F.dat
+RTMICAR_103C869F.dat
+SAMSfppch_103C869F.dat
 
 [FMDAT_103C86A0.CopyList]
-SAMSfpa.dat, SAMSfpa_103C86A0.dat
-Samsfpaspk.dat, Samsfpaspk_103C86A0.dat
-RTMICAR.dat, RTMICAR_103C86A0.dat
-SAMSfppch.dat, SAMSfppch_103C86A0.dat
+SAMSfpa_103C86A0.dat
+Samsfpaspk_103C86A0.dat
+RTMICAR_103C86A0.dat
+SAMSfppch_103C86A0.dat
 
 [FMDAT_103C86A1.CopyList]
-SAMSfpa.dat, SAMSfpa_103C86A1.dat
-Samsfpaspk.dat, Samsfpaspk_103C86A1.dat
-RTMICAR.dat, RTMICAR_103C86A1.dat
-SAMSfppch.dat, SAMSfppch_103C86A1.dat
+SAMSfpa_103C86A1.dat
+Samsfpaspk_103C86A1.dat
+RTMICAR_103C86A1.dat
+SAMSfppch_103C86A1.dat
 
 [FMDAT_103C86A2.CopyList]
-SAMSfpa.dat, SAMSfpa_103C86A2.dat
-Samsfpaspk.dat, Samsfpaspk_103C86A2.dat
-RTMICAR.dat, RTMICAR_103C86A2.dat
-SAMSfppch.dat, SAMSfppch_103C86A2.dat
+SAMSfpa_103C86A2.dat
+Samsfpaspk_103C86A2.dat
+RTMICAR_103C86A2.dat
+SAMSfppch_103C86A2.dat
 
 [FMDAT_103C86A3.CopyList]
-SAMSfpa.dat, SAMSfpa_103C86A3.dat
-Samsfpaspk.dat, Samsfpaspk_103C86A3.dat
-RTMICAR.dat, RTMICAR_103C86A3.dat
-SAMSfppch.dat, SAMSfppch_103C86A3.dat
+SAMSfpa_103C86A3.dat
+Samsfpaspk_103C86A3.dat
+RTMICAR_103C86A3.dat
+SAMSfppch_103C86A3.dat
 
 [FMDAT_103C86A4.CopyList]
-SAMSfpa.dat, SAMSfpa_103C86A4.dat
-Samsfpaspk.dat, Samsfpaspk_103C86A4.dat
-RTMICAR.dat, RTMICAR_103C86A4.dat
-SAMSfppch.dat, SAMSfppch_103C86A4.dat
+SAMSfpa_103C86A4.dat
+Samsfpaspk_103C86A4.dat
+RTMICAR_103C86A4.dat
+SAMSfppch_103C86A4.dat
 
 [FMDAT_103C86A5.CopyList]
-SAMSfpa.dat, SAMSfpa_103C86A5.dat
-Samsfpaspk.dat, Samsfpaspk_103C86A5.dat
-RTMICAR.dat, RTMICAR_103C86A5.dat
-SAMSfppch.dat, SAMSfppch_103C86A5.dat
+SAMSfpa_103C86A5.dat
+Samsfpaspk_103C86A5.dat
+RTMICAR_103C86A5.dat
+SAMSfppch_103C86A5.dat
 
 [FMDAT_103C86A6.CopyList]
-SAMSfpa.dat, SAMSfpa_103C86A6.dat
-Samsfpaspk.dat, Samsfpaspk_103C86A6.dat
-RTMICAR.dat, RTMICAR_103C86A6.dat
-SAMSfppch.dat, SAMSfppch_103C86A6.dat
+SAMSfpa_103C86A6.dat
+Samsfpaspk_103C86A6.dat
+RTMICAR_103C86A6.dat
+SAMSfppch_103C86A6.dat
 
 [FMDAT_103C86A7.CopyList]
-SAMSfpa.dat, SAMSfpa_103C86A7.dat
-Samsfpaspk.dat, Samsfpaspk_103C86A7.dat
-RTMICAR.dat, RTMICAR_103C86A7.dat
-SAMSfppch.dat, SAMSfppch_103C86A7.dat
+SAMSfpa_103C86A7.dat
+Samsfpaspk_103C86A7.dat
+RTMICAR_103C86A7.dat
+SAMSfppch_103C86A7.dat
 
 [FMDAT_103C86A8.CopyList]
-SAMSfpa.dat, SAMSfpa_103C86A8.dat
-Samsfpaspk.dat, Samsfpaspk_103C86A8.dat
-RTMICAR.dat, RTMICAR_103C86A8.dat
-SAMSfppch.dat, SAMSfppch_103C86A8.dat
+SAMSfpa_103C86A8.dat
+Samsfpaspk_103C86A8.dat
+RTMICAR_103C86A8.dat
+SAMSfppch_103C86A8.dat
 
 [FMDAT_103C86A9.CopyList]
-SAMSfpa.dat, SAMSfpa_103C86A9.dat
-Samsfpaspk.dat, Samsfpaspk_103C86A9.dat
-RTMICAR.dat, RTMICAR_103C86A9.dat
-SAMSfppch.dat, SAMSfppch_103C86A9.dat
+SAMSfpa_103C86A9.dat
+Samsfpaspk_103C86A9.dat
+RTMICAR_103C86A9.dat
+SAMSfppch_103C86A9.dat
 
 [FMDAT_103C86AA.CopyList]
-SAMSfpa.dat, SAMSfpa_103C86AA.dat
-Samsfpaspk.dat, Samsfpaspk_103C86AA.dat
-RTMICAR.dat, RTMICAR_103C86AA.dat
-SAMSfppch.dat, SAMSfppch_103C86AA.dat
+SAMSfpa_103C86AA.dat
+Samsfpaspk_103C86AA.dat
+RTMICAR_103C86AA.dat
+SAMSfppch_103C86AA.dat
 
 [FMDAT_103C8549.CopyList]
-SAMSfpa.dat, SAMSfpa_103C8549.dat
-Samsfpaspk.dat, Samsfpaspk_103C8549.dat
-RTMICAR.dat, RTMICAR_103C8549.dat
-SAMSfppch.dat, SAMSfppch_103C8549.dat
+SAMSfpa_103C8549.dat
+Samsfpaspk_103C8549.dat
+RTMICAR_103C8549.dat
+SAMSfppch_103C8549.dat
 
 
 [Manufacturer]
@@ -662,27 +668,39 @@ SAMSfppch.dat, SAMSfppch_103C8549.dat
 
 [DeviceExtension_Install_103C8536]
 CopyFiles = FMDAT_103C8536.CopyList
+AddReg = CortanaKey_103C8536_AddReg
+AddReg = RTMICAR_103C8536.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
-AddReg = CortanaKey_103C8536_AddReg
 
 [DeviceExtension_Install_103C8536.HW]
 
 [DeviceExtension_Install_103C8537]
 CopyFiles = FMDAT_103C8537.CopyList
+AddReg = CortanaKey_103C8537_AddReg
+AddReg = RTMICAR_103C8537.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
-AddReg = CortanaKey_103C8537_AddReg
 
 [DeviceExtension_Install_103C8537.HW]
 
 [DeviceExtension_Install_103C8538]
 CopyFiles = FMDAT_103C8538.CopyList
+AddReg = CortanaKey_103C8538_AddReg
+AddReg = RTMICAR_103C8538.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
-AddReg = CortanaKey_103C8538_AddReg
 
 [DeviceExtension_Install_103C8538.HW]
+
+[DeviceExtension_Install_103C853D]
+CopyFiles = FMDAT_103C853D.CopyList
+AddReg = CortanaKey_103C853D_AddReg
+AddReg = RTMICAR_103C853D.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C853D.HW]
 
 [DeviceExtension_Install_103C853F]
 CopyFiles = FMDAT_103C853F.CopyList
@@ -705,71 +723,28 @@ AddReg = RENPresetAddReg
 
 [DeviceExtension_Install_103C8543.HW]
 
-[DeviceExtension_Install_103C858D]
-CopyFiles = FMDAT_103C858D.CopyList
-AddReg = PresetAddReg
-AddReg = RENPresetAddReg
-
-[DeviceExtension_Install_103C858D.HW]
-
-[DeviceExtension_Install_103C858E]
-CopyFiles = FMDAT_103C858E.CopyList
-AddReg = PresetAddReg
-AddReg = RENPresetAddReg
-
-[DeviceExtension_Install_103C858E.HW]
-
-[DeviceExtension_Install_103C8570]
-CopyFiles = FMDAT_103C8570.CopyList
-AddReg = CortanaKey_103C8570_AddReg
-AddReg = PresetAddReg
-AddReg = RENPresetAddReg
-
-[DeviceExtension_Install_103C8570.HW]
-
-[DeviceExtension_Install_103C8571]
-CopyFiles = FMDAT_103C8571.CopyList
-AddReg = CortanaKey_103C8571_AddReg
-AddReg = PresetAddReg
-AddReg = RENPresetAddReg
-
-[DeviceExtension_Install_103C8571.HW]
-
-[DeviceExtension_Install_103C854E]
-CopyFiles = FMDAT_103C854E.CopyList
-AddReg = CortanaKey_103C854E_AddReg
-AddReg = PresetAddReg
-AddReg = RENPresetAddReg
-
-[DeviceExtension_Install_103C854E.HW]
-
-[DeviceExtension_Install_103C854F]
-CopyFiles = FMDAT_103C854F.CopyList
-AddReg = CortanaKey_103C854F_AddReg
-AddReg = PresetAddReg
-AddReg = RENPresetAddReg
-
-[DeviceExtension_Install_103C854F.HW]
-
 [DeviceExtension_Install_103C8548]
 CopyFiles = FMDAT_103C8548.CopyList
 AddReg = CortanaKey_103C8548_AddReg
+AddReg = RTMICAR_103C8548.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
 [DeviceExtension_Install_103C8548.HW]
 
-[DeviceExtension_Install_103C853D]
-CopyFiles = FMDAT_103C853D.CopyList
-AddReg = CortanaKey_103C853D_AddReg
+[DeviceExtension_Install_103C8549]
+CopyFiles = FMDAT_103C8549.CopyList
+AddReg = CortanaKey_103C8549_AddReg
+AddReg = RTMICAR_103C8549.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
-[DeviceExtension_Install_103C853D.HW]
+[DeviceExtension_Install_103C8549.HW]
 
 [DeviceExtension_Install_103C854A]
 CopyFiles = FMDAT_103C854A.CopyList
 AddReg = CortanaKey_103C854A_AddReg
+AddReg = RTMICAR_103C854A.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -778,70 +753,133 @@ AddReg = RENPresetAddReg
 [DeviceExtension_Install_103C854D]
 CopyFiles = FMDAT_103C854D.CopyList
 AddReg = CortanaKey_103C854D_AddReg
+AddReg = RTMICAR_103C854D.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
 [DeviceExtension_Install_103C854D.HW]
 
-[DeviceExtension_Install_103C85A5]
-CopyFiles = FMDAT_103C85A5.CopyList
-AddReg = CortanaKey_103C85A5_AddReg
+[DeviceExtension_Install_103C854E]
+CopyFiles = FMDAT_103C854E.CopyList
+AddReg = CortanaKey_103C854E_AddReg
+AddReg = RTMICAR_103C854E.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
-[DeviceExtension_Install_103C85A5.HW]
+[DeviceExtension_Install_103C854E.HW]
 
-[DeviceExtension_Install_103C85AA]
-CopyFiles = FMDAT_103C85AA.CopyList
-AddReg = CortanaKey_103C85AA_AddReg
+[DeviceExtension_Install_103C854F]
+CopyFiles = FMDAT_103C854F.CopyList
+AddReg = CortanaKey_103C854F_AddReg
+AddReg = RTMICAR_103C854F.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
-[DeviceExtension_Install_103C85AA.HW]
+[DeviceExtension_Install_103C854F.HW]
 
-[DeviceExtension_Install_103C85AD]
-CopyFiles = FMDAT_103C85AD.CopyList
-AddReg = CortanaKey_103C85AD_AddReg
+[DeviceExtension_Install_103C8570]
+CopyFiles = FMDAT_103C8570.CopyList
+AddReg = CortanaKey_103C8570_AddReg
+AddReg = RTMICAR_103C8570.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
-[DeviceExtension_Install_103C85AD.HW]
+[DeviceExtension_Install_103C8570.HW]
 
-[DeviceExtension_Install_103C85D7]
-CopyFiles = FMDAT_103C85D7.CopyList
-AddReg = CortanaKey_103C85D7_AddReg
+[DeviceExtension_Install_103C8571]
+CopyFiles = FMDAT_103C8571.CopyList
+AddReg = CortanaKey_103C8571_AddReg
+AddReg = RTMICAR_103C8571.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
-[DeviceExtension_Install_103C85D7.HW]
-
-[DeviceExtension_Install_103C85D9]
-CopyFiles = FMDAT_103C85D9.CopyList
-AddReg = CortanaKey_103C85D9_AddReg
-AddReg = PresetAddReg
-AddReg = RENPresetAddReg
-
-[DeviceExtension_Install_103C85D9.HW]
-
-[DeviceExtension_Install_103C85DB]
-CopyFiles = FMDAT_103C85DB.CopyList
-AddReg = CortanaKey_103C85DB_AddReg
-AddReg = PresetAddReg
-AddReg = RENPresetAddReg
-
-[DeviceExtension_Install_103C85DB.HW]
+[DeviceExtension_Install_103C8571.HW]
 
 [DeviceExtension_Install_103C857F]
 CopyFiles = FMDAT_103C857F.CopyList
 AddReg = CortanaKey_103C857F_AddReg
+AddReg = RTMICAR_103C857F.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
 [DeviceExtension_Install_103C857F.HW]
 
+[DeviceExtension_Install_103C8585]
+CopyFiles = FMDAT_103C8585.CopyList
+AddReg = CortanaKey_103C8585_AddReg
+AddReg = RTMICAR_103C8585.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C8585.HW]
+
+[DeviceExtension_Install_103C8586]
+CopyFiles = FMDAT_103C8586.CopyList
+AddReg = CortanaKey_103C8586_AddReg
+AddReg = RTMICAR_103C8586.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C8586.HW]
+
+[DeviceExtension_Install_103C8587]
+CopyFiles = FMDAT_103C8587.CopyList
+AddReg = CortanaKey_103C8587_AddReg
+AddReg = RTMICAR_103C8587.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C8587.HW]
+
+[DeviceExtension_Install_103C8588]
+CopyFiles = FMDAT_103C8588.CopyList
+AddReg = CortanaKey_103C8588_AddReg
+AddReg = RTMICAR_103C8588.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C8588.HW]
+
+[DeviceExtension_Install_103C858A]
+CopyFiles = FMDAT_103C858A.CopyList
+AddReg = CortanaKey_103C858A_AddReg
+AddReg = RTMICAR_103C858A.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C858A.HW]
+
+[DeviceExtension_Install_103C858B]
+CopyFiles = FMDAT_103C858B.CopyList
+AddReg = CortanaKey_103C858B_AddReg
+AddReg = RTMICAR_103C858B.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C858B.HW]
+
+[DeviceExtension_Install_103C858D]
+CopyFiles = FMDAT_103C858D.CopyList
+AddReg = CortanaKey_103C858D_AddReg
+AddReg = RTMICAR_103C858D.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C858D.HW]
+
+[DeviceExtension_Install_103C858E]
+CopyFiles = FMDAT_103C858E.CopyList
+AddReg = CortanaKey_103C858E_AddReg
+AddReg = RTMICAR_103C858E.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C858E.HW]
+
 [DeviceExtension_Install_103C85A3]
 CopyFiles = FMDAT_103C85A3.CopyList
 AddReg = CortanaKey_103C85A3_AddReg
+AddReg = RTMICAR_103C85A3.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -854,12 +892,57 @@ AddReg = RENPresetAddReg
 
 [DeviceExtension_Install_103C85A4.HW]
 
+[DeviceExtension_Install_103C85A5]
+CopyFiles = FMDAT_103C85A5.CopyList
+AddReg = CortanaKey_103C85A5_AddReg
+AddReg = RTMICAR_103C85A5.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C85A5.HW]
+
+[DeviceExtension_Install_103C85AA]
+CopyFiles = FMDAT_103C85AA.CopyList
+AddReg = CortanaKey_103C85AA_AddReg
+AddReg = RTMICAR_103C85AA.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C85AA.HW]
+
+[DeviceExtension_Install_103C85AD]
+CopyFiles = FMDAT_103C85AD.CopyList
+AddReg = CortanaKey_103C85AD_AddReg
+AddReg = RTMICAR_103C85AD.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C85AD.HW]
+
 [DeviceExtension_Install_103C85AE]
 CopyFiles = FMDAT_103C85AE.CopyList
 AddReg = MonoAddReg
 AddReg = RENPresetAddReg
 
 [DeviceExtension_Install_103C85AE.HW]
+
+[DeviceExtension_Install_103C85B9]
+CopyFiles = FMDAT_103C85B9.CopyList
+AddReg = CortanaKey_103C85B9_AddReg
+AddReg = RTMICAR_103C85B9.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C85B9.HW]
+
+[DeviceExtension_Install_103C85D7]
+CopyFiles = FMDAT_103C85D7.CopyList
+AddReg = CortanaKey_103C85D7_AddReg
+AddReg = RTMICAR_103C85D7.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C85D7.HW]
 
 [DeviceExtension_Install_103C85D8]
 CopyFiles = FMDAT_103C85D8.CopyList
@@ -868,12 +951,30 @@ AddReg = RENPresetAddReg
 
 [DeviceExtension_Install_103C85D8.HW]
 
+[DeviceExtension_Install_103C85D9]
+CopyFiles = FMDAT_103C85D9.CopyList
+AddReg = CortanaKey_103C85D9_AddReg
+AddReg = RTMICAR_103C85D9.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C85D9.HW]
+
 [DeviceExtension_Install_103C85DA]
 CopyFiles = FMDAT_103C85DA.CopyList
 AddReg = MonoAddReg
 AddReg = RENPresetAddReg
 
 [DeviceExtension_Install_103C85DA.HW]
+
+[DeviceExtension_Install_103C85DB]
+CopyFiles = FMDAT_103C85DB.CopyList
+AddReg = CortanaKey_103C85DB_AddReg
+AddReg = RTMICAR_103C85DB.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C85DB.HW]
 
 [DeviceExtension_Install_103C85DC]
 CopyFiles = FMDAT_103C85DC.CopyList
@@ -882,64 +983,10 @@ AddReg = RENPresetAddReg
 
 [DeviceExtension_Install_103C85DC.HW]
 
-[DeviceExtension_Install_103C85B9]
-CopyFiles = FMDAT_103C85B9.CopyList
-AddReg = CortanaKey_103C85B9_AddReg
-AddReg = PresetAddReg
-AddReg = RENPresetAddReg
-
-[DeviceExtension_Install_103C85B9.HW]
-
-[DeviceExtension_Install_103C8585]
-CopyFiles = FMDAT_103C8585.CopyList
-AddReg = CortanaKey_103C8585_AddReg
-AddReg = PresetAddReg
-AddReg = RENPresetAddReg
-
-[DeviceExtension_Install_103C8585.HW]
-
-[DeviceExtension_Install_103C8586]
-CopyFiles = FMDAT_103C8586.CopyList
-AddReg = CortanaKey_103C8586_AddReg
-AddReg = MonoAddReg
-AddReg = RENPresetAddReg
-
-[DeviceExtension_Install_103C8586.HW]
-
-[DeviceExtension_Install_103C8587]
-CopyFiles = FMDAT_103C8587.CopyList
-AddReg = CortanaKey_103C8587_AddReg
-AddReg = PresetAddReg
-AddReg = RENPresetAddReg
-
-[DeviceExtension_Install_103C8587.HW]
-
-[DeviceExtension_Install_103C8588]
-CopyFiles = FMDAT_103C8588.CopyList
-AddReg = MonoAddReg
-AddReg = RENPresetAddReg
-
-[DeviceExtension_Install_103C8588.HW]
-
-[DeviceExtension_Install_103C858A]
-CopyFiles = FMDAT_103C858A.CopyList
-AddReg = CortanaKey_103C858A_AddReg
-AddReg = PresetAddReg
-AddReg = RENPresetAddReg
-
-[DeviceExtension_Install_103C858A.HW]
-
-[DeviceExtension_Install_103C858B]
-CopyFiles = FMDAT_103C858B.CopyList
-AddReg = CortanaKey_103C858B_AddReg
-AddReg = MonoAddReg
-AddReg = RENPresetAddReg
-
-[DeviceExtension_Install_103C858B.HW]
-
 [DeviceExtension_Install_103C860C]
 CopyFiles = FMDAT_103C860C.CopyList
 AddReg = CortanaKey_103C860C_AddReg
+AddReg = RTMICAR_103C860C.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -948,6 +995,7 @@ AddReg = RENPresetAddReg
 [DeviceExtension_Install_103C860F]
 CopyFiles = FMDAT_103C860F.CopyList
 AddReg = CortanaKey_103C860F_AddReg
+AddReg = RTMICAR_103C860F.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -956,22 +1004,16 @@ AddReg = RENPresetAddReg
 [DeviceExtension_Install_103C861F]
 CopyFiles = FMDAT_103C861F.CopyList
 AddReg = CortanaKey_103C861F_AddReg
+AddReg = RTMICAR_103C861F.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
 [DeviceExtension_Install_103C861F.HW]
 
-[DeviceExtension_Install_103C8637]
-CopyFiles = FMDAT_103C8637.CopyList
-AddReg = CortanaKey_103C8637_AddReg
-AddReg = PresetAddReg
-AddReg = RENPresetAddReg
-
-[DeviceExtension_Install_103C8637.HW]
-
 [DeviceExtension_Install_103C8621]
 CopyFiles = FMDAT_103C8621.CopyList
 AddReg = CortanaKey_103C8621_AddReg
+AddReg = RTMICAR_103C8621.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -980,14 +1022,25 @@ AddReg = RENPresetAddReg
 [DeviceExtension_Install_103C8622]
 CopyFiles = FMDAT_103C8622.CopyList
 AddReg = CortanaKey_103C8622_AddReg
+AddReg = RTMICAR_103C8622.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
 [DeviceExtension_Install_103C8622.HW]
 
+[DeviceExtension_Install_103C8637]
+CopyFiles = FMDAT_103C8637.CopyList
+AddReg = CortanaKey_103C8637_AddReg
+AddReg = RTMICAR_103C8637.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C8637.HW]
+
 [DeviceExtension_Install_103C8655]
 CopyFiles = FMDAT_103C8655.CopyList
 AddReg = CortanaKey_103C8655_AddReg
+AddReg = RTMICAR_103C8655.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -996,6 +1049,7 @@ AddReg = RENPresetAddReg
 [DeviceExtension_Install_103C869B]
 CopyFiles = FMDAT_103C869B.CopyList
 AddReg = CortanaKey_103C869B_AddReg
+AddReg = RTMICAR_103C869B.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -1004,6 +1058,7 @@ AddReg = RENPresetAddReg
 [DeviceExtension_Install_103C869C]
 CopyFiles = FMDAT_103C869C.CopyList
 AddReg = CortanaKey_103C869C_AddReg
+AddReg = RTMICAR_103C869C.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -1012,6 +1067,7 @@ AddReg = RENPresetAddReg
 [DeviceExtension_Install_103C869D]
 CopyFiles = FMDAT_103C869D.CopyList
 AddReg = CortanaKey_103C869D_AddReg
+AddReg = RTMICAR_103C869D.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -1020,6 +1076,7 @@ AddReg = RENPresetAddReg
 [DeviceExtension_Install_103C869E]
 CopyFiles = FMDAT_103C869E.CopyList
 AddReg = CortanaKey_103C869E_AddReg
+AddReg = RTMICAR_103C869E.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -1028,6 +1085,7 @@ AddReg = RENPresetAddReg
 [DeviceExtension_Install_103C869F]
 CopyFiles = FMDAT_103C869F.CopyList
 AddReg = CortanaKey_103C869F_AddReg
+AddReg = RTMICAR_103C869F.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -1036,6 +1094,7 @@ AddReg = RENPresetAddReg
 [DeviceExtension_Install_103C86A0]
 CopyFiles = FMDAT_103C86A0.CopyList
 AddReg = CortanaKey_103C86A0_AddReg
+AddReg = RTMICAR_103C86A0.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -1044,6 +1103,7 @@ AddReg = RENPresetAddReg
 [DeviceExtension_Install_103C86A1]
 CopyFiles = FMDAT_103C86A1.CopyList
 AddReg = CortanaKey_103C86A1_AddReg
+AddReg = RTMICAR_103C86A1.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -1052,6 +1112,7 @@ AddReg = RENPresetAddReg
 [DeviceExtension_Install_103C86A2]
 CopyFiles = FMDAT_103C86A2.CopyList
 AddReg = CortanaKey_103C86A2_AddReg
+AddReg = RTMICAR_103C86A2.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -1060,6 +1121,7 @@ AddReg = RENPresetAddReg
 [DeviceExtension_Install_103C86A3]
 CopyFiles = FMDAT_103C86A3.CopyList
 AddReg = CortanaKey_103C86A3_AddReg
+AddReg = RTMICAR_103C86A3.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -1068,6 +1130,7 @@ AddReg = RENPresetAddReg
 [DeviceExtension_Install_103C86A4]
 CopyFiles = FMDAT_103C86A4.CopyList
 AddReg = CortanaKey_103C86A4_AddReg
+AddReg = RTMICAR_103C86A4.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -1076,6 +1139,7 @@ AddReg = RENPresetAddReg
 [DeviceExtension_Install_103C86A5]
 CopyFiles = FMDAT_103C86A5.CopyList
 AddReg = CortanaKey_103C86A5_AddReg
+AddReg = RTMICAR_103C86A5.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -1084,6 +1148,7 @@ AddReg = RENPresetAddReg
 [DeviceExtension_Install_103C86A6]
 CopyFiles = FMDAT_103C86A6.CopyList
 AddReg = CortanaKey_103C86A6_AddReg
+AddReg = RTMICAR_103C86A6.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -1092,6 +1157,7 @@ AddReg = RENPresetAddReg
 [DeviceExtension_Install_103C86A7]
 CopyFiles = FMDAT_103C86A7.CopyList
 AddReg = CortanaKey_103C86A7_AddReg
+AddReg = RTMICAR_103C86A7.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -1100,6 +1166,7 @@ AddReg = RENPresetAddReg
 [DeviceExtension_Install_103C86A8]
 CopyFiles = FMDAT_103C86A8.CopyList
 AddReg = CortanaKey_103C86A8_AddReg
+AddReg = RTMICAR_103C86A8.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -1108,6 +1175,7 @@ AddReg = RENPresetAddReg
 [DeviceExtension_Install_103C86A9]
 CopyFiles = FMDAT_103C86A9.CopyList
 AddReg = CortanaKey_103C86A9_AddReg
+AddReg = RTMICAR_103C86A9.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
@@ -1116,18 +1184,11 @@ AddReg = RENPresetAddReg
 [DeviceExtension_Install_103C86AA]
 CopyFiles = FMDAT_103C86AA.CopyList
 AddReg = CortanaKey_103C86AA_AddReg
+AddReg = RTMICAR_103C86AA.AddReg
 AddReg = PresetAddReg
 AddReg = RENPresetAddReg
 
 [DeviceExtension_Install_103C86AA.HW]
-
-[DeviceExtension_Install_103C8549]
-CopyFiles = FMDAT_103C8549.CopyList
-AddReg = CortanaKey_103C8549_AddReg
-AddReg = PresetAddReg
-AddReg = RENPresetAddReg
-
-[DeviceExtension_Install_103C8549.HW]
 
 ;[FriendlyName_AddReg]
 ;HKR,,FriendlyName,,%ExtendedFriendlyName%
@@ -1344,10 +1405,10 @@ HKR,InterfaceSetting,FrontMicInSilverTopo,0x10008,"FMAPOPreset1"
 HKR,InterfaceSetting,FrontMicInWhiteTopo,0x10008,"FMAPOPreset1"
 
 HKR,InterfaceSetting\FMAPOPreset1\FX\0,%K2_ID%,0x00010001,0x01
-HKR,InterfaceSetting\FMAPOPreset1\FX\0,%K7_ID%,0x00010001,0x860000
+HKR,InterfaceSetting\FMAPOPreset1\FX\0,%K7_ID%,0x00010001,0x860100
 
 HKR,InterfaceSetting\FMAPOPreset1\FX\0,%BACK_K2_ID%,0x00010001,0x01
-HKR,InterfaceSetting\FMAPOPreset1\FX\0,%BACK_K7_ID%,0x00010001,0x860000
+HKR,InterfaceSetting\FMAPOPreset1\FX\0,%BACK_K7_ID%,0x00010001,0x860100
 HKR,InterfaceSetting\SysRecCustomizedFx\EP\0,"{83F774AE-6AD4-4737-98CC-6092E12453CC},22",%REG_DWORD%,0xA0000
 
 [MonoAddReg]
@@ -1382,10 +1443,10 @@ HKR,InterfaceSetting,FrontMicInSilverTopo,0x10008,"FMAPOPreset1"
 HKR,InterfaceSetting,FrontMicInWhiteTopo,0x10008,"FMAPOPreset1"
 
 HKR,InterfaceSetting\FMAPOPreset1\FX\0,%K2_ID%,0x00010001,0x01
-HKR,InterfaceSetting\FMAPOPreset1\FX\0,%K7_ID%,0x00010001,0x860000
+HKR,InterfaceSetting\FMAPOPreset1\FX\0,%K7_ID%,0x00010001,0x860100
 
 HKR,InterfaceSetting\FMAPOPreset1\FX\0,%BACK_K2_ID%,0x00010001,0x01
-HKR,InterfaceSetting\FMAPOPreset1\FX\0,%BACK_K7_ID%,0x00010001,0x860000
+HKR,InterfaceSetting\FMAPOPreset1\FX\0,%BACK_K7_ID%,0x00010001,0x860100
 HKR,InterfaceSetting\SysRecCustomizedFx\EP\0,"{83F774AE-6AD4-4737-98CC-6092E12453CC},22",%REG_DWORD%,0xA0000
 
 ;[HowlingDetec.AddReg]
@@ -1420,6 +1481,165 @@ HKR,InterfaceSetting\FMAPOPreset2\FX\0,%NewK7_ID%,0x00010001,0x40860000
 [FMAPO_Install]
 ComponentIDs = VEN_1319&AID_0001
 Description = "Fortemedia SAMSoft Effects Component"
+
+
+[RTMICAR_103C8536.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8536.dat
+
+[RTMICAR_103C8537.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8537.dat
+
+[RTMICAR_103C8538.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8538.dat
+
+[RTMICAR_103C853D.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C853D.dat
+
+[RTMICAR_103C8548.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8548.dat
+
+[RTMICAR_103C8549.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8549.dat
+
+[RTMICAR_103C854A.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C854A.dat
+
+[RTMICAR_103C854D.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C854D.dat
+
+[RTMICAR_103C854E.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C854E.dat
+
+[RTMICAR_103C854F.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C854F.dat
+
+[RTMICAR_103C8570.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8570.dat
+
+[RTMICAR_103C8571.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8571.dat
+
+[RTMICAR_103C857F.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C857F.dat
+
+[RTMICAR_103C8585.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8585.dat
+
+[RTMICAR_103C8586.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8586.dat
+
+[RTMICAR_103C8587.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8587.dat
+
+[RTMICAR_103C8588.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8588.dat
+
+[RTMICAR_103C858A.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C858A.dat
+
+[RTMICAR_103C858B.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C858B.dat
+
+[RTMICAR_103C858D.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C858D.dat
+
+[RTMICAR_103C858E.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C858E.dat
+
+[RTMICAR_103C85A3.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C85A3.dat
+
+[RTMICAR_103C85A5.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C85A5.dat
+
+[RTMICAR_103C85AA.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C85AA.dat
+
+[RTMICAR_103C85AD.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C85AD.dat
+
+[RTMICAR_103C85B9.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C85B9.dat
+
+[RTMICAR_103C85D7.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C85D7.dat
+
+[RTMICAR_103C85D9.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C85D9.dat
+
+[RTMICAR_103C85DB.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C85DB.dat
+
+[RTMICAR_103C860C.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C860C.dat
+
+[RTMICAR_103C860F.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C860F.dat
+
+[RTMICAR_103C861F.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C861F.dat
+
+[RTMICAR_103C8621.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8621.dat
+
+[RTMICAR_103C8622.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8622.dat
+
+[RTMICAR_103C8637.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8637.dat
+
+[RTMICAR_103C8655.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8655.dat
+
+[RTMICAR_103C869B.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C869B.dat
+
+[RTMICAR_103C869C.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C869C.dat
+
+[RTMICAR_103C869D.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C869D.dat
+
+[RTMICAR_103C869E.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C869E.dat
+
+[RTMICAR_103C869F.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C869F.dat
+
+[RTMICAR_103C86A0.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C86A0.dat
+
+[RTMICAR_103C86A1.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C86A1.dat
+
+[RTMICAR_103C86A2.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C86A2.dat
+
+[RTMICAR_103C86A3.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C86A3.dat
+
+[RTMICAR_103C86A4.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C86A4.dat
+
+[RTMICAR_103C86A5.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C86A5.dat
+
+[RTMICAR_103C86A6.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C86A6.dat
+
+[RTMICAR_103C86A7.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C86A7.dat
+
+[RTMICAR_103C86A8.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C86A8.dat
+
+[RTMICAR_103C86A9.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C86A9.dat
+
+[RTMICAR_103C86AA.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C86AA.dat
+
+
 
 [CortanaKey_103C8536_AddReg]
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
@@ -1569,6 +1789,15 @@ HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 
 [CortanaKey_103C8549_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C8588_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C858D_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C858E_AddReg]
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 
 [Strings]

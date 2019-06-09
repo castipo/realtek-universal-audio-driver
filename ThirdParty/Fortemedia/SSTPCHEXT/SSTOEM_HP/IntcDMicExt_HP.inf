@@ -5,7 +5,7 @@ ClassGuid={e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider=Fortemedia
 ExtensionId = {6BB685A9-87AA-4BE8-A345-055DB3E4452A}
 CatalogFile=IntcDMicExt.cat
-DriverVer = 02/01/2019,09.21.3229.30
+DriverVer = 04/26/2019,09.21.3229.37
 
 [Manufacturer]
 Intel(R) Corporation = Intel, NTAMD64.10.0...16273
@@ -101,9 +101,9 @@ HKR,"FX\\0",%PKEY_MFX_KeywordDetector_ProcessingModes_Supported_For_Streaming%,%
 ;HKR,"FX\\0",%PKEY_BYPASS_TP_EFFECTS%,%REG_DWORD%,0x1
 HKR,"FX\\0",%K2_ID%,0x00010001,0x01
 HKR,"FX\\0",%K51_ID%,0x00010001,0x32
-HKR,"FX\\0",%K7_ID%,0x00010001,0x860000
+HKR,"FX\\0",%K7_ID%,0x00010001,0x860100
 HKR,"FX\\0",%BACK_K2_ID%,0x00010001,0x01
-HKR,"FX\\0",%BACK_K7_ID%,0x00010001,0x860000
+HKR,"FX\\0",%BACK_K7_ID%,0x00010001,0x860100
 
 HKR,"EP\\0", %PKEY_AudioEndpoint_Default_VolumeInDb%, 0x00010001, 0x140000
 

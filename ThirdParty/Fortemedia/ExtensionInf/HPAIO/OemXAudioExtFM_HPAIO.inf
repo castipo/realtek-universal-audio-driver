@@ -4,13 +4,14 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {86F65302-34A5-441C-8E16-C05C2D9E6151}
-DriverVer   = 02/08/2019,1.0.3.69
+DriverVer   = 05/03/2019,1.0.3.84
 CatalogFile = OemXAudioExt_fm.cat
 
 [SourceDisksNames]
 222 = %DiskId1%
 
 [SourceDisksFiles]
+SAMSfpi.dat=222
 SAMSfpa_103C844E.dat=222
 SAMSfpa_103C8654.dat=222
 SAMSfpa_103C84EE.dat=222
@@ -19,12 +20,12 @@ SAMSfpa_103C84F0.dat=222
 SAMSfpa_103C85BA.dat=222
 SAMSfpa_103C86B6.dat=222
 SAMSfpa_103C86B7.dat=222
+SAMSfpa_103C86C6.dat=222
+SAMSfpa_103C86C7.dat=222
 SAMSfpi_103C844E.dat=222
 SAMSfpi_103C8654.dat=222
 SAMSfpi_103C84EE.dat=222
 SAMSfpi_103C86B7.dat=222
-;SAMSfpi_103C84EF.dat=222
-;SAMSfpi_103C84F0.dat=222
 RTMICAR_103C844E.dat=222
 RTMICAR_103C8654.dat=222
 RTMICAR_103C84EE.dat=222
@@ -33,13 +34,12 @@ RTMICAR_103C84F0.dat=222
 RTMICAR_103C85BA.dat=222
 RTMICAR_103C86B6.dat=222
 RTMICAR_103C86B7.dat=222
-configuration_103C844E.tf=222
-configuration_103C84EE.tf=222
-configuration_103C8654.tf=222
-configuration_103C86B7.tf=222
+RTMICAR_103C86C6.dat=222
+RTMICAR_103C86C7.dat=222
 
 
 [DestinationDirs]
+FMPPDAT_REF.CopyList = 11 ; %windir%\system32
 FMDAT_103C844E.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_103C8654.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_103C84EE.CopyList = 12 ; %windir%\system32\drivers
@@ -48,77 +48,58 @@ FMDAT_103C84F0.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_103C85BA.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_103C86B6.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_103C86B7.CopyList = 12 ; %windir%\system32\drivers
-FMPPDAT_103C844E.CopyList = 11 ; %windir%\system32
-FMPPDAT_103C8654.CopyList = 11 ; %windir%\system32
-FMPPDAT_103C84EE.CopyList = 11 ; %windir%\system32
-FMPPDAT_103C86B7.CopyList = 11 ; %windir%\system32
-;FMPPDAT_103C84EF.CopyList = 11 ; %windir%\system32
-;FMPPDAT_103C84F0.CopyList = 11 ; %windir%\system32
-INTELTF_103C844E.CopyList = 11,cAVS\Intel(R) Audio Service\ConfigurationFiles
-INTELTF_103C84EE.CopyList = 11,cAVS\Intel(R) Audio Service\ConfigurationFiles
-INTELTF_103C8654.CopyList = 11,cAVS\Intel(R) Audio Service\ConfigurationFiles
+FMDAT_103C86C6.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_103C86C7.CopyList = 12 ; %windir%\system32\drivers
 
 
+
+[FMPPDAT_REF.CopyList]
+SAMSfpi.dat
 
 [FMDAT_103C844E.CopyList]
-SAMSfpa.dat, SAMSfpa_103C844E.dat
-RTMICAR.dat, RTMICAR_103C844E.dat
-
-[FMDAT_103C8654.CopyList]
-SAMSfpa.dat, SAMSfpa_103C8654.dat
-RTMICAR.dat, RTMICAR_103C8654.dat
+SAMSfpa_103C844E.dat
+RTMICAR_103C844E.dat
+SAMSfpi_103C844E.dat
 
 [FMDAT_103C84EE.CopyList]
-SAMSfpa.dat, SAMSfpa_103C84EE.dat
-RTMICAR.dat, RTMICAR_103C84EE.dat
+SAMSfpa_103C84EE.dat
+RTMICAR_103C84EE.dat
+SAMSfpi_103C84EE.dat
 
 [FMDAT_103C84EF.CopyList]
-SAMSfpa.dat, SAMSfpa_103C84EF.dat
-RTMICAR.dat, RTMICAR_103C84EF.dat
+SAMSfpa_103C84EF.dat
+RTMICAR_103C84EF.dat
 
 [FMDAT_103C84F0.CopyList]
-SAMSfpa.dat, SAMSfpa_103C84F0.dat
-RTMICAR.dat, RTMICAR_103C84F0.dat
+SAMSfpa_103C84F0.dat
+RTMICAR_103C84F0.dat
 
 [FMDAT_103C85BA.CopyList]
-SAMSfpa.dat, SAMSfpa_103C85BA.dat
-RTMICAR.dat, RTMICAR_103C85BA.dat
+SAMSfpa_103C85BA.dat
+RTMICAR_103C85BA.dat
+
+[FMDAT_103C8654.CopyList]
+SAMSfpa_103C8654.dat
+RTMICAR_103C8654.dat
+SAMSfpi_103C8654.dat
 
 [FMDAT_103C86B6.CopyList]
-SAMSfpa.dat, SAMSfpa_103C86B6.dat
-RTMICAR.dat, RTMICAR_103C86B6.dat
+SAMSfpa_103C86B6.dat
+RTMICAR_103C86B6.dat
 
 [FMDAT_103C86B7.CopyList]
-SAMSfpa.dat, SAMSfpa_103C86B7.dat
-RTMICAR.dat, RTMICAR_103C86B7.dat
+SAMSfpa_103C86B7.dat
+RTMICAR_103C86B7.dat
+SAMSfpi_103C86B7.dat
 
-[FMPPDAT_103C844E.CopyList]
-SAMSfpi.dat, SAMSfpi_103C844E.dat
+[FMDAT_103C86C6.CopyList]
+SAMSfpa_103C86C6.dat
+RTMICAR_103C86C6.dat
 
-[FMPPDAT_103C8654.CopyList]
-SAMSfpi.dat, SAMSfpi_103C8654.dat
+[FMDAT_103C86C7.CopyList]
+SAMSfpa_103C86C7.dat
+RTMICAR_103C86C7.dat
 
-[FMPPDAT_103C84EE.CopyList]
-SAMSfpi.dat, SAMSfpi_103C84EE.dat
-
-[FMPPDAT_103C86B7.CopyList]
-SAMSfpi.dat, SAMSfpi_103C86B7.dat
-configuration.tf, configuration_103C86B7.tf
-
-;[FMPPDAT_103C84EF.CopyList]
-;SAMSfpi.dat, SAMSfpi_103C84EF.dat
-
-;[FMPPDAT_103C84F0.CopyList]
-;SAMSfpi.dat, SAMSfpi_103C84F0.dat
-
-[INTELTF_103C844E.CopyList]
-configuration.tf, configuration_103C844E.tf
-
-[INTELTF_103C8654.CopyList]
-configuration.tf, configuration_103C8654.tf
-
-[INTELTF_103C84EE.CopyList]
-configuration.tf, configuration_103C84EE.tf
 
 [Manufacturer]
 %OEM% = DeviceExtensions,NTamd64
@@ -132,44 +113,39 @@ configuration.tf, configuration_103C84EE.tf
 %Device.ExtensionDesc% = DeviceExtension_Install_103C85BA,HDAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_103C85BA
 %Device.ExtensionDesc% = DeviceExtension_Install_103C86B6,HDAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_103C86B6
 %Device.ExtensionDesc% = DeviceExtension_Install_103C86B7,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_103C86B7
+%Device.ExtensionDesc% = DeviceExtension_Install_103C86C6,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_103C86C6
+%Device.ExtensionDesc% = DeviceExtension_Install_103C86C7,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_103C86C7
 
 [DeviceExtension_Install_103C844E]
-CopyFiles = FMDAT_103C844E.CopyList, FMPPDAT_103C844E.CopyList, INTELTF_103C844E.CopyList
-AddReg = PresetAddReg
+CopyFiles = FMDAT_103C844E.CopyList, FMPPDAT_REF.CopyList
 AddReg = CortanaKey_103C844E_AddReg
-AddReg = FortemediaSstPpDll.AddReg
+AddReg = RTMICAR_103C844E.AddReg
+AddReg = PresetAddReg
+AddReg = FortemediaSstPpDllNoTf.AddReg
 
 [DeviceExtension_Install_103C844E.HW]
 
-[DeviceExtension_Install_103C8654]
-CopyFiles = FMDAT_103C8654.CopyList, FMPPDAT_103C8654.CopyList, INTELTF_103C8654.CopyList
-CopyFiles = FMDAT_103C8654.CopyList
-AddReg = PresetAddReg
-AddReg = CortanaKey_103C8654_AddReg
-AddReg = FortemediaSstPpDll.AddReg
-
-[DeviceExtension_Install_103C8654.HW]
-
 [DeviceExtension_Install_103C84EE]
-CopyFiles = FMDAT_103C84EE.CopyList, FMPPDAT_103C84EE.CopyList, INTELTF_103C84EE.CopyList
-AddReg = PresetAddReg
+CopyFiles = FMDAT_103C84EE.CopyList, FMPPDAT_REF.CopyList
 AddReg = CortanaKey_103C84EE_AddReg
-AddReg = FortemediaSstPpDll.AddReg
+AddReg = RTMICAR_103C84EE.AddReg
+AddReg = PresetAddReg
+AddReg = FortemediaSstPpDllNoTf.AddReg
 
 [DeviceExtension_Install_103C84EE.HW]
 
 [DeviceExtension_Install_103C84EF]
-;CopyFiles = FMDAT_103C84EF.CopyList, FMPPDAT_103C84EF.CopyList
 CopyFiles = FMDAT_103C84EF.CopyList
 AddReg = CortanaKey_103C84EF_AddReg
+AddReg = RTMICAR_103C84EF.AddReg
 AddReg = PresetAddReg
 
 [DeviceExtension_Install_103C84EF.HW]
 
 [DeviceExtension_Install_103C84F0]
-;CopyFiles = FMDAT_103C84F0.CopyList, FMPPDAT_103C84F0.CopyList
 CopyFiles = FMDAT_103C84F0.CopyList
 AddReg = CortanaKey_103C84F0_AddReg
+AddReg = RTMICAR_103C84F0.AddReg
 AddReg = PresetAddReg
 
 [DeviceExtension_Install_103C84F0.HW]
@@ -177,24 +153,52 @@ AddReg = PresetAddReg
 [DeviceExtension_Install_103C85BA]
 CopyFiles = FMDAT_103C85BA.CopyList
 AddReg = CortanaKey_103C85BA_AddReg
+AddReg = RTMICAR_103C85BA.AddReg
 AddReg = PresetAddReg
 
 [DeviceExtension_Install_103C85BA.HW]
 
+[DeviceExtension_Install_103C8654]
+CopyFiles = FMDAT_103C8654.CopyList, FMPPDAT_REF.CopyList
+AddReg = CortanaKey_103C8654_AddReg
+AddReg = RTMICAR_103C8654.AddReg
+AddReg = PresetAddReg
+AddReg = FortemediaSstPpDllNoTf.AddReg
+
+[DeviceExtension_Install_103C8654.HW]
+
 [DeviceExtension_Install_103C86B6]
 CopyFiles = FMDAT_103C86B6.CopyList
 AddReg = CortanaKey_103C86B6_AddReg
+AddReg = RTMICAR_103C86B6.AddReg
 AddReg = PresetAddReg
 
 [DeviceExtension_Install_103C86B6.HW]
 
 [DeviceExtension_Install_103C86B7]
-CopyFiles = FMDAT_103C86B7.CopyList, FMPPDAT_103C86B7.CopyList
+CopyFiles = FMDAT_103C86B7.CopyList, FMPPDAT_REF.CopyList
 AddReg = CortanaKey_103C86B7_AddReg
+AddReg = RTMICAR_103C86B7.AddReg
 AddReg = PresetAddReg
-AddReg = FortemediaSstPpDll.AddReg
+AddReg = FortemediaSstPpDllNoTf.AddReg
 
 [DeviceExtension_Install_103C86B7.HW]
+
+[DeviceExtension_Install_103C86C6]
+CopyFiles = FMDAT_103C86C6.CopyList
+AddReg = CortanaKey_103C86C6_AddReg
+AddReg = RTMICAR_103C86C6.AddReg
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_103C86C6.HW]
+
+[DeviceExtension_Install_103C86C7]
+CopyFiles = FMDAT_103C86C7.CopyList
+AddReg = CortanaKey_103C86C7_AddReg
+AddReg = RTMICAR_103C86C7.AddReg
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_103C86C7.HW]
 
 ;[FriendlyName_AddReg]
 ;HKR,,FriendlyName,,%ExtendedFriendlyName%
@@ -223,6 +227,43 @@ AddComponent = FMAPO,,FMAPO_Install
 [DeviceExtension_Install_103C86B7.Components]
 AddComponent = FMAPO,,FMAPO_Install
 
+[DeviceExtension_Install_103C86C6.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_103C86C7.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[RTMICAR_103C844E.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C844E.dat
+
+[RTMICAR_103C84EE.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C84EE.dat
+
+[RTMICAR_103C84EF.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C84EF.dat
+
+[RTMICAR_103C84F0.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C84F0.dat
+
+[RTMICAR_103C85BA.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C85BA.dat
+
+[RTMICAR_103C8654.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8654.dat
+
+[RTMICAR_103C86B6.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C86B6.dat
+
+[RTMICAR_103C86B7.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C86B7.dat
+
+[RTMICAR_103C86C6.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C86C6.dat
+
+[RTMICAR_103C86C7.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C86C7.dat
+
+
 [CortanaKey_103C844E_AddReg]
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 
@@ -247,12 +288,42 @@ HKR,Settings, DefaultDefaultMicGain,0x00010001,9200
 [CortanaKey_103C86B7_AddReg]
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9200
 
+[CortanaKey_103C86C6_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C86C7_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
 [PresetAddReg]
 HKR,InterfaceSetting,RtMicInTopo,0x10008,"FMAPOPreset1"
 HKR,InterfaceSetting,RtFrontMicInTopo,0x10008,"FMAPOPreset1"
 HKR,InterfaceSetting,RtMicArTopo,0x10008,"FMAPOPreset1"
 HKR,InterfaceSetting,DigitalMICTopo,0x10008,"FMAPOPreset1"
 HKR,InterfaceSetting,RtMicInSSTTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInBlackTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInGreyTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInBlueTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInGreenTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInRedTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInOrangeTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInYellowTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInPurpleTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInPinkTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicGoldenTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicSilverTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,RearMicInWhiteTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInBlackTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInGreyTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInBlueTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInGreenTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInRedTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInOrangeTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInYellowTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInPurpleTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInPinkTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInGoldenTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInSilverTopo,0x10008,"FMAPOPreset1"
+HKR,InterfaceSetting,FrontMicInWhiteTopo,0x10008,"FMAPOPreset1"
 
 HKR,InterfaceSetting\FMAPOPreset1\FX\0,%K2_ID%,0x00010001,0x03
 HKR,InterfaceSetting\FMAPOPreset1\FX\0,%K7_ID%,0x00010001,0x800000
@@ -260,12 +331,19 @@ HKR,InterfaceSetting\FMAPOPreset1\FX\0,%K7_ID%,0x00010001,0x800000
 HKR,InterfaceSetting\FMAPOPreset1\FX\0,%BACK_K2_ID%,0x00010001,0x03
 HKR,InterfaceSetting\FMAPOPreset1\FX\0,%BACK_K7_ID%,0x00010001,0x800000
 
-[FortemediaSstPpDll.AddReg]
+; [FortemediaSstPpDll.AddReg]
+; HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",0x00020000,%%SystemRoot%%\system32\FM_Speech_PP64.dll
+; HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllConfigurationFile",0x00020000,%%SystemRoot%%\system32\SAMSfpi.dat
+; HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\cAVS\Intel(R) Audio Service\ConfigurationFiles\configuration.tf"
+; HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ForceSwWov",%REG_DWORD%,0x00000001
+; HKLM,SYSTEM\CurrentControlSet\Services\IntcOED\Parameters,"VADAPIMode",%REG_DWORD%,0x00000001
+
+[FortemediaSstPpDllNoTf.AddReg]
 HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",0x00020000,%%SystemRoot%%\system32\FM_Speech_PP64.dll
 HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllConfigurationFile",0x00020000,%%SystemRoot%%\system32\SAMSfpi.dat
-HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\cAVS\Intel(R) Audio Service\ConfigurationFiles\configuration.tf"
-HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ForceSwWov",%REG_DWORD%,0x00000001
-HKLM,SYSTEM\CurrentControlSet\Services\IntcOED\Parameters,"VADAPIMode",%REG_DWORD%,0x00000001
+; HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\cAVS\Intel(R) Audio Service\ConfigurationFiles\configuration.tf"
+; HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ForceSwWov",%REG_DWORD%,0x00000001
+; HKLM,SYSTEM\CurrentControlSet\Services\IntcOED\Parameters,"VADAPIMode",%REG_DWORD%,0x00000001
 
 
 [FMAPO_Install]
