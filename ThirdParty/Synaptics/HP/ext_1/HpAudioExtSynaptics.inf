@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {E3FF7D04-25DC-4788-9F4D-228C14CEF325}
-DriverVer   = 05/15/2019,1.1.0.2
+DriverVer   = 05/22/2019,1.1.0.3
 CatalogFile = HpAudioExtSynaptics.cat
 
 [SourceDisksNames]
@@ -3002,7 +3002,7 @@ AddReg = PresetExtMicAddReg, NHLT.AddReg, AlexaConfig_8519.AddReg, Cortana8518.A
 
 [DeviceExtension863E_Install] 
 CopyFiles = CNXT_Tuning863E.CopyList, CNXT_PropTuning8518.CopyList, NHLT.CopyList, TF_Tuning8518.CopyList   
-AddReg = PresetExtMicAddReg, NHLT.AddReg, AlexaConfig_863E.AddReg, Cortana8518.AddReg, CNXT_Tuning863E.CopyList.AddReg, CNXT_PropTuning8518.CopyList.AddReg
+AddReg = PresetExtMicAddReg, NHLT.AddReg, AlexaConfig_8518.AddReg, Cortana8518.AddReg, CNXT_Tuning863E.CopyList.AddReg, CNXT_PropTuning8518.CopyList.AddReg
 
 [DeviceExtension863F_Install] 
 CopyFiles = CNXT_Tuning863F.CopyList, CNXT_PropTuning8518.CopyList, NHLT.CopyList, TF_Tuning8518.CopyList   
@@ -4887,12 +4887,12 @@ HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"ppDllConfiguration
 [AlexaConfig_863E.AddReg]
 HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",,"%%SystemRoot%%\system32\SynaSstPpDll.dll"
 HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\cAVS\Intel(R) Audio Service\ConfigurationFiles\103c8518_configuration.tf"
-HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"ppDllConfigurationFile",,"%%SystemRoot%%\system32\cxapo_103C863E_Rev0001.prop"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"ppDllConfigurationFile",,"%%SystemRoot%%\system32\cxapo_103C8518_Rev0011.prop"
 
 [AlexaConfig_863F.AddReg]
 HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",,"%%SystemRoot%%\system32\SynaSstPpDll.dll"
 HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\cAVS\Intel(R) Audio Service\ConfigurationFiles\103c8518_configuration.tf"
-HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"ppDllConfigurationFile",,"%%SystemRoot%%\system32\cxapo_103C863F_Rev0001.prop"
+HKR,GlobalSettings\ConexantOverride\IntelAudioService\Config,"ppDllConfigurationFile",,"%%SystemRoot%%\system32\cxapo_103C8518_Rev0011.prop"
 
 [GodZillaNHLT.AddReg]
 
