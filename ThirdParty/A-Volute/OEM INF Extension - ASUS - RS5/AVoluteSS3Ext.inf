@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %Provider%
 ExtensionId = {1b98ef90-ca0e-11e7-8f1a-0800200c9a66}
-DriverVer = 05/23/2019,1.2.4.58290
+DriverVer = 06/03/2019,1.3.0.58500
 CatalogFile = AVoluteSS3Ext.cat
 
 [SourceDisksNames]
@@ -83,6 +83,12 @@ HKR,InterfaceSetting\SysRecVolCustomizedFx\EP\0,%PKEY_PRODUCTID%,,%PRODUCTID%
 HKR,InterfaceSetting\SysCustomizedFx\EP\0,%PKEY_ISST_PRODUCTID%,,%PRODUCTID%
 HKR,InterfaceSetting\SysRecCustomizedFx\EP\0,%PKEY_ISST_PRODUCTID%,,%PRODUCTID%
 HKR,InterfaceSetting\SysRecVolCustomizedFx\EP\0,%PKEY_ISST_PRODUCTID%,,%PRODUCTID%
+
+[DeviceExtension_Install.Devices]
+AddDevice = AVoluteSS3Vad,,AVoluteSS3Vad_RootDevice_Inst
+
+[AVoluteSS3Vad_RootDevice_Inst]
+HardwareIds = ROOT\AVoluteSS3Vad
 
 [DeviceExtension_Install.Components]
 AddComponent = AVOLUTE_NH3APO,,APO_Install
