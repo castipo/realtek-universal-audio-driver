@@ -1,0 +1,172 @@
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = SoftwareComponent
+ClassGuid   = {5c4c3332-344d-483c-8739-259e934c9cc8}
+Provider    = %Waves%
+DriverVer   = 06/03/2019,4.3.0.219
+CatalogFile = WavesAPO77Ac.cat
+
+[SourceDisksNames]
+222="Waves APO Installation Disk",,,
+
+[SourceDisksFiles]
+MaxxAudioRender64.dll=222
+MaxxAudioRenderAVX64.dll=222
+tbb_waves.dll=222
+MaxxAudioAPOShell64.dll=222
+WavesSvc64.exe=222
+WavesSysSvc64.exe=222
+HeadTrackerLib.dll=222
+HeadTracker.bin=222
+face.xml=222
+VoIPAutomaticDetection.xml=222
+
+[DestinationDirs]
+SfxFx.CopyList=13 ;System32\DriverStore\FileRepository\
+
+
+
+[SignatureAttributes]
+MaxxAudioRender64.dll=SignatureAttributes.PETrust
+MaxxAudioRenderAVX64.dll=SignatureAttributes.PETrust
+tbb_waves.dll=SignatureAttributes.PETrust
+
+[SignatureAttributes.PETrust]
+PETrust=true
+
+[Manufacturer]
+%Waves% = ApoComponents,NTamd64
+
+[ApoComponents.NTamd64]
+%Apo.ComponentDesc% = ApoComponent_Install,APO\VEN_WAVES&AID_MA77MV47_ACER
+
+[ApoComponent_Install]
+CopyFiles = SfxFx.CopyList
+AddReg    = WavesAPO.AddReg
+
+[ApoComponent_Install.Software]
+AddSoftware=MaxxAudioProApp,,MaxxAudioProApp_Software
+
+[MaxxAudioProApp_Software]
+SoftwareType=2
+SoftwareFlags=0
+SoftwareID = pfn://WavesAudio.20761030F5EAC_fh4rh281wavaa
+
+[ApoComponent_Install.Services]
+AddService = ,2    ; no function driver
+AddService = WavesSysSvc, 0x00000800, Waves_Service_Install
+
+[SfxFx.CopyList]
+MaxxAudioRender64.dll
+MaxxAudioRenderAVX64.dll
+tbb_waves.dll
+MaxxAudioAPOShell64.dll
+WavesSvc64.exe
+WavesSysSvc64.exe
+HeadTrackerLib.dll
+HeadTracker.bin
+face.xml
+VoIPAutomaticDetection.xml
+
+[Waves_Service_Install]
+Description   = "Waves Audio global services"
+DisplayName   = "Waves Audio Services"
+ServiceType   = 0x00000010
+StartType     = 2
+ErrorControl  = 1
+
+ServiceBinary = %13%\WavesSysSvc64.exe
+
+[WavesAPO.AddReg]
+HKCR,CLSID\%Render_Main_CLSID%,,,"MaxxAudioAPO Class"
+HKCR,CLSID\%Render_Main_CLSID%\InProcServer32,,0x00020000,%13%\maxxaudiorender64.dll
+HKCR,CLSID\%Render_Main_CLSID%\InProcServer32,ThreadingModel,,"Both"
+
+HKCR,CLSID\%Render_SpkrProtection%,,,"MaxxAudioAPO B Class"
+HKCR,CLSID\%Render_SpkrProtection%\InProcServer32,,0x00020000,%13%\maxxaudiorender64.dll
+HKCR,CLSID\%Render_SpkrProtection%\InProcServer32,ThreadingModel,,"Both"
+
+HKCR,CLSID\%Render_Nx%,,,"MaxxAudioAPO C Class"
+HKCR,CLSID\%Render_Nx%\InProcServer32,,0x00020000,%13%\maxxaudiorender64.dll
+HKCR,CLSID\%Render_Nx%\InProcServer32,ThreadingModel,,"Both"
+
+HKCR,CLSID\%SYSFX_MAXXAUDIO_AVX_A%,,0,"MaxxAudioAPO Class"
+HKCR,CLSID\%SYSFX_MAXXAUDIO_AVX_B%,,0,"MaxxAudioAPO B Class"
+HKCR,CLSID\%SYSFX_MAXXAUDIO_AVX_C%,,0,"MaxxAudioAPO C Class"
+HKCR,CLSID\%SYSFX_MAXXAUDIO_AVX_DOCK_A%,,0,"MaxxAudioAPO Dock A Class"
+HKCR,CLSID\%SYSFX_MAXXAUDIO_AVX_DOCK_B%,,0,"MaxxAudioAPO Dock B Class"
+HKCR,CLSID\%SYSFX_MAXXAUDIO_AVX_DOCK_C%,,0,"MaxxAudioAPO Dock C Class"
+
+HKCR,CLSID\%SYSFX_MAXXAUDIO_AVX_A%\InProcServer32,,0x00020000,%13%\MaxxAudioRenderAVX64.dll
+HKCR,CLSID\%SYSFX_MAXXAUDIO_AVX_B%\InProcServer32,,0x00020000,%13%\MaxxAudioRenderAVX64.dll
+HKCR,CLSID\%SYSFX_MAXXAUDIO_AVX_C%\InProcServer32,,0x00020000,%13%\MaxxAudioRenderAVX64.dll
+HKCR,CLSID\%SYSFX_MAXXAUDIO_AVX_DOCK_A%\InProcServer32,,0x00020000,%13%\MaxxAudioRenderAVX64.dll
+HKCR,CLSID\%SYSFX_MAXXAUDIO_AVX_DOCK_B%\InProcServer32,,0x00020000,%13%\MaxxAudioRenderAVX64.dll
+HKCR,CLSID\%SYSFX_MAXXAUDIO_AVX_DOCK_C%\InProcServer32,,0x00020000,%13%\MaxxAudioRenderAVX64.dll
+
+HKCR,CLSID\%SYSFX_MAXXAUDIO_AVX_A%\InProcServer32,ThreadingModel,0,Both
+HKCR,CLSID\%SYSFX_MAXXAUDIO_AVX_B%\InProcServer32,ThreadingModel,0,Both
+HKCR,CLSID\%SYSFX_MAXXAUDIO_AVX_C%\InProcServer32,ThreadingModel,0,Both
+HKCR,CLSID\%SYSFX_MAXXAUDIO_AVX_DOCK_A%\InProcServer32,ThreadingModel,0,Both
+HKCR,CLSID\%SYSFX_MAXXAUDIO_AVX_DOCK_B%\InProcServer32,ThreadingModel,0,Both
+HKCR,CLSID\%SYSFX_MAXXAUDIO_AVX_DOCK_C%\InProcServer32,ThreadingModel,0,Both
+
+HKCR,AudioEngine\AudioProcessingObjects\%Render_Main_CLSID%,"APOInterface0",,"{658A4077-B277-4D14-97E1-0356044D8110}"
+HKCR,AudioEngine\AudioProcessingObjects\%Render_Main_CLSID%,"Copyright",,"Copyright (c) Waves Audio Ltd."
+HKCR,AudioEngine\AudioProcessingObjects\%Render_Main_CLSID%,"Flags",0x00010001,0x00000009
+HKCR,AudioEngine\AudioProcessingObjects\%Render_Main_CLSID%,"FriendlyName",,"MaxxAudioAPO 7.1 - Type A"
+HKCR,AudioEngine\AudioProcessingObjects\%Render_Main_CLSID%,"MajorVersion",0x00010001,7
+HKCR,AudioEngine\AudioProcessingObjects\%Render_Main_CLSID%,"MaxInputConnections",0x00010001,1
+HKCR,AudioEngine\AudioProcessingObjects\%Render_Main_CLSID%,"MaxInstances",0x00010001,0xffffffff
+HKCR,AudioEngine\AudioProcessingObjects\%Render_Main_CLSID%,"MaxOutputConnections",0x00010001,1
+HKCR,AudioEngine\AudioProcessingObjects\%Render_Main_CLSID%,"MinInputConnections",0x00010001,1
+HKCR,AudioEngine\AudioProcessingObjects\%Render_Main_CLSID%,"MinorVersion",0x00010001,1
+HKCR,AudioEngine\AudioProcessingObjects\%Render_Main_CLSID%,"MinOutputConnections",0x00010001,1
+HKCR,AudioEngine\AudioProcessingObjects\%Render_Main_CLSID%,"NumAPOInterfaces",0x00010001,1
+
+HKCR,AudioEngine\AudioProcessingObjects\%Render_SpkrProtection%,"APOInterface0",,"{658A4077-B277-4D14-97E1-0356044D8110}"
+HKCR,AudioEngine\AudioProcessingObjects\%Render_SpkrProtection%,"Copyright",,"Copyright (c) Waves Audio Ltd."
+HKCR,AudioEngine\AudioProcessingObjects\%Render_SpkrProtection%,"Flags",0x00010001,0x0000000b
+HKCR,AudioEngine\AudioProcessingObjects\%Render_SpkrProtection%,"FriendlyName",,"MaxxAudioAPO 7.1 - Type B"
+HKCR,AudioEngine\AudioProcessingObjects\%Render_SpkrProtection%,"MajorVersion",0x00010001,7
+HKCR,AudioEngine\AudioProcessingObjects\%Render_SpkrProtection%,"MaxInputConnections",0x00010001,1
+HKCR,AudioEngine\AudioProcessingObjects\%Render_SpkrProtection%,"MaxInstances",0x00010001,0xffffffff
+HKCR,AudioEngine\AudioProcessingObjects\%Render_SpkrProtection%,"MaxOutputConnections",0x00010001,1
+HKCR,AudioEngine\AudioProcessingObjects\%Render_SpkrProtection%,"MinInputConnections",0x00010001,1
+HKCR,AudioEngine\AudioProcessingObjects\%Render_SpkrProtection%,"MinorVersion",0x00010001,1
+HKCR,AudioEngine\AudioProcessingObjects\%Render_SpkrProtection%,"MinOutputConnections",0x00010001,1
+HKCR,AudioEngine\AudioProcessingObjects\%Render_SpkrProtection%,"NumAPOInterfaces",0x00010001,1
+
+HKCR,AudioEngine\AudioProcessingObjects\%Render_Nx%,"APOInterface0",,"{658A4077-B277-4D14-97E1-0356044D8110}"
+HKCR,AudioEngine\AudioProcessingObjects\%Render_Nx%,"Copyright",,"Copyright (c) Waves Audio Ltd."
+HKCR,AudioEngine\AudioProcessingObjects\%Render_Nx%,"Flags",0x00010001,0x00000009
+HKCR,AudioEngine\AudioProcessingObjects\%Render_Nx%,"FriendlyName",,"MaxxAudioAPO 7.1 - Type C"
+HKCR,AudioEngine\AudioProcessingObjects\%Render_Nx%,"MajorVersion",0x00010001,7
+HKCR,AudioEngine\AudioProcessingObjects\%Render_Nx%,"MaxInputConnections",0x00010001,1
+HKCR,AudioEngine\AudioProcessingObjects\%Render_Nx%,"MaxInstances",0x00010001,0xffffffff
+HKCR,AudioEngine\AudioProcessingObjects\%Render_Nx%,"MaxOutputConnections",0x00010001,1
+HKCR,AudioEngine\AudioProcessingObjects\%Render_Nx%,"MinInputConnections",0x00010001,1
+HKCR,AudioEngine\AudioProcessingObjects\%Render_Nx%,"MinorVersion",0x00010001,1
+HKCR,AudioEngine\AudioProcessingObjects\%Render_Nx%,"MinOutputConnections",0x00010001,1
+HKCR,AudioEngine\AudioProcessingObjects\%Render_Nx%,"NumAPOInterfaces",0x00010001,1
+
+
+[Strings]
+Waves             = "Waves"
+Apo.ComponentDesc = "Waves APO"
+
+Render_Main_CLSID      = "{77100ea2-b92b-4e94-9542-c6dc520d2e28}"
+Render_SpkrProtection  = "{771010bd-09e1-49a8-8346-d45f5a8d986e}"
+Render_Nx              = "{771023d7-c4e1-434d-8abe-4328f62f48b8}"
+
+SYSFX_MAXXAUDIO_AVX_A         = "{77777710-1a40-4d4e-ba7a-4e0d9d5e11e9}"
+SYSFX_MAXXAUDIO_AVX_B         = "{77777711-e646-487e-8eca-0d56d8c8f49d}"
+SYSFX_MAXXAUDIO_AVX_C         = "{77777714-eae7-4420-aa26-197075b5e212}"
+SYSFX_MAXXAUDIO_AVX_DOCK_A    = "{77777712-a138-40df-8a2a-425917e4dc67}"
+SYSFX_MAXXAUDIO_AVX_DOCK_B    = "{77777713-cdc9-4325-85a1-cc6b881c3b81}"
+SYSFX_MAXXAUDIO_AVX_DOCK_C    = "{77777715-2c4b-40d4-a552-e6d4c1d9e027}"
+
+MaxxAudioGeneral = "SOFTWARE\Waves Audio\MaxxAudio\General"
+REG_BINARY = 0x00000001
+REG_DWORD = 0x00010001
+REG_MULTI_SZ = 0x00010000
