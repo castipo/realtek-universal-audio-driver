@@ -1,0 +1,218 @@
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = Extension
+ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Provider    = %OEM%
+ExtensionId = {09DC1C3E-7128-45E4-BC9F-8EC777E49F40}
+DriverVer   = 02/20/2019,1.0.18.1
+CatalogFile = dtsoemapo3hpxextpkg.cat
+
+[SourceDisksNames]
+222 = %DiskId1%
+
+[SourceDisksFiles]
+dtsapo3oemconfig.xml=222
+ASUSROG_104310C1.xml=222
+ASUSROG_104315CE.xml=222
+ASUSROG_10431391.xml=222
+ASUSROG_104313B1.xml=222
+ASUSROG_10432180.xml=222
+ASUSROG_104313F1.xml=222
+ASUSROG_10431441.xml=222
+ASUSROG_104317C1.xml=222
+ASUSROG_104318F1.xml=222
+ASUSROG_1043185E.xml=222
+
+[DestinationDirs]
+;;DTS.CopyList = 11, DTS\PC\APO3x ; %windir%\system32\DTS\PC\Apo3x
+DefaultDestDir = 11, DTS\PC\APO3x ; %windir%\system32\DTS\PC\Apo3x
+
+[Manufacturer]
+%OEM% = DeviceExtensions,NTamd64
+
+[DeviceExtensions.NTamd64]
+;; below SSIDs should be replaced by actual ones in formal release
+%Device.ExtensionDesc% = ASUSMBHPX,HDAUDIO\FUNC_01&VEN_10EC&DEV_1168&SUBSYS_10438724
+%Device.ExtensionDesc% = ASUSMBHPX,HDAUDIO\FUNC_01&VEN_10EC&DEV_1168&SUBSYS_10438786
+%Device.ExtensionDesc% = ASUSMBHPX,HDAUDIO\FUNC_01&VEN_10EC&DEV_0900&SUBSYS_1043868F
+%Device.ExtensionDesc% = ASUSMBHPX,HDAUDIO\FUNC_01&VEN_10EC&DEV_1168&SUBSYS_10438795
+%Device.ExtensionDesc% = ASUSROG_104310C1,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_104310C1
+%Device.ExtensionDesc% = ASUSROG_104315CE,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_104315CE
+%Device.ExtensionDesc% = ASUSROG_10431391,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10431391
+%Device.ExtensionDesc% = ASUSROG_104313B1,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_104313B1
+%Device.ExtensionDesc% = ASUSROG_10432180,HDAUDIO\FUNC_01&VEN_10EC&DEV_0887&SUBSYS_10432180
+%Device.ExtensionDesc% = ASUSROG_104313F1,HDAUDIO\FUNC_01&VEN_10EC&DEV_0887&SUBSYS_104313F1
+%Device.ExtensionDesc% = ASUSROG_10431441,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_10431441
+%Device.ExtensionDesc% = ASUSROG_104317C1,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_104317C1
+%Device.ExtensionDesc% = ASUSROG_104318F1,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_104318F1
+%Device.ExtensionDesc% = ASUSROG_1043185E,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1043185E
+%Device.ExtensionDesc% = ASUSROG_104318F1,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_10431AB1
+
+
+[ASUSROG_1043185E]
+CopyFiles = ASUSROG_1043185E.CopyList
+AddReg = PresetAddReg
+
+[ASUSROG_1043185E.CopyList]
+dtsapo3oemconfig.xml, ASUSROG_1043185E.xml
+
+[ASUSROG_1043185E.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+
+
+[ASUSROG_104318F1]
+CopyFiles = ASUSROG_104318F1.CopyList
+AddReg = PresetAddReg
+
+[ASUSROG_104318F1.CopyList]
+dtsapo3oemconfig.xml, ASUSROG_104318F1.xml
+
+[ASUSROG_104318F1.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+
+[ASUSROG_104317C1]
+CopyFiles = ASUSROG_104317C1.CopyList
+AddReg = PresetAddReg
+
+[ASUSROG_104317C1.CopyList]
+dtsapo3oemconfig.xml, ASUSROG_104317C1.xml
+
+[ASUSROG_104317C1.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+
+
+
+[ASUSROG_104310C1]
+CopyFiles = ASUSROG_104310C1.CopyList
+AddReg = PresetAddReg
+
+[ASUSROG_104315CE]
+CopyFiles = ASUSROG_104315CE.CopyList
+AddReg = PresetAddReg
+
+[ASUSROG_10431391]
+CopyFiles = ASUSROG_10431391.CopyList
+AddReg = PresetAddReg
+
+[ASUSROG_104313B1]
+CopyFiles = ASUSROG_104313B1.CopyList
+AddReg = PresetAddReg
+
+[ASUSROG_10432180]
+CopyFiles = ASUSROG_10432180.CopyList
+AddReg = PresetAddReg
+
+[ASUSROG_104313F1]
+CopyFiles = ASUSROG_104313F1.CopyList
+AddReg = PresetAddReg
+
+[ASUSROG_10431441]
+CopyFiles = ASUSROG_10431441.CopyList
+AddReg = PresetAddReg
+
+[ASUSROG_104310C1.CopyList]
+dtsapo3oemconfig.xml, ASUSROG_104310C1.xml
+
+[ASUSROG_104315CE.CopyList]
+dtsapo3oemconfig.xml, ASUSROG_104315CE.xml
+
+[ASUSROG_10431391.CopyList]
+dtsapo3oemconfig.xml, ASUSROG_10431391.xml
+
+[ASUSROG_104313B1.CopyList]
+dtsapo3oemconfig.xml, ASUSROG_104313B1.xml
+
+[ASUSROG_10432180.CopyList]
+dtsapo3oemconfig.xml, ASUSROG_10432180.xml
+
+[ASUSROG_104313F1.CopyList]
+dtsapo3oemconfig.xml, ASUSROG_104313F1.xml
+
+[ASUSROG_10431441.CopyList]
+dtsapo3oemconfig.xml, ASUSROG_10431441.xml
+
+[ASUSMBHPX]
+CopyFiles = DTS.CopyList
+AddReg = PresetAddReg
+
+[DTS.CopyList]
+dtsapo3oemconfig.xml
+
+[PresetAddReg]
+;; render endpoint settings
+HKR,InterfaceSetting,PrimaryLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                  ;; PrimaryLineOutTopo stands for Speakers(or Redirected headphone/speaker) endpoint
+HKR,InterfaceSetting,SingleLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                   ;; SingleLineOutTopo stands for Speakers(or Redirected headphone/speaker) endpoint
+HKR,InterfaceSetting,SecondaryLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                ;; SecondaryLineOutTopo stands for Headphone endpoint
+HKR,InterfaceSetting,RearLineOutTopoSST,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                  ;; RearLineOutTopoSST stands for Speakers(or Redirected headphone/speaker) endpoint with audio offloading DSP supported
+HKR,InterfaceSetting,RearLineOutTopoSST2,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                 ;; RearLineOutTopoSST2 stands for Speakers(or Redirected headphone/speaker) endpoint with audio offloading DSP supported
+HKR,InterfaceSetting,RearLineOutTopoSST3,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                 ;; RearLineOutTopoSST3 stands for Headphone endpoint with audio offloading DSP supported
+HKR,InterfaceSetting,RearLineOutTopoDock,%REG_MULTI_SZ_APPEND%,"ApoPreset1"   
+;; Preset values in property store
+HKR,InterfaceSetting\ApoPreset1\EP\0, "{7A8B74C8-FA66-4460-8542-D6119C59E9D4},4", %REG_DWORD%, 0x100  ;; DTS APO 3 on Realtek
+
+;;[ASUSMBHPX.HW]
+;;AddReg = FriendlyName_AddReg
+
+;;[FriendlyName_AddReg]
+;;HKR,,FriendlyName,,%ExtendedFriendlyName%
+
+;;[ASUSMBHPX.Devices]
+;;AddDevice = DTSAPO,,DTSAPO_Install
+[ASUSMBHPX.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+[ASUSROG_104310C1.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+[ASUSROG_104315CE.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+[ASUSROG_10431391.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+[ASUSROG_104313B1.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+[ASUSROG_10432180.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+[ASUSROG_104313F1.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+[ASUSROG_10431441.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+[DTSAPO_Install]
+ComponentIDs = VEN_DTSI&AID_DTSI1
+Description = "DTS Audio Effects Component"
+
+[DTSHSA_Install]
+ComponentIDs = VEN_DTSI&HID_DTSIHPXV1
+Description = "DTS Audio Hardware Support Application"
+;;Capabilities = 0x00000008
+
+
+[Strings]
+OEM                  = "DTS"
+Device.ExtensionDesc = "OEM Device Extension"
+ExtendedFriendlyName = "Device Audio"
+DiskId1              = "OEM Audio Device Extension Installation Disk (DTS)"
+
+REG_BINARY = 0x00000001
+REG_DWORD = 0x00010001
+REG_MULTI_SZ = 0x00010000
+REG_MULTI_SZ_APPEND = 0x00010008
