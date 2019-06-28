@@ -14,7 +14,7 @@ Operating System: At least Windows 10 Version 1703 RS2 Build 15063 (64 Bit)
 
 ---------------------------------------
 
-## Lastest Infomation
+## Latest Information
 
 * <a href="https://www.station-drivers.com/index.php?option=com_kunena&view=topic&catid=18&id=17&Itemid=858&lang=en">Station-Drivers - [DRIVERS] Realtek High Definition Audio Codecs (HDA/UAD)</a>
 
