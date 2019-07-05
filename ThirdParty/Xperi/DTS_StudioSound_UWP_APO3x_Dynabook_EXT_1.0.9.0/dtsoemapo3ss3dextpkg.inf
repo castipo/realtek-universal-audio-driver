@@ -1,0 +1,73 @@
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = Extension
+ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Provider    = %OEM%
+ExtensionId = {DC161FD6-6AE5-4100-8F2F-BE69BD1C3A66}  
+DriverVer   = 03/04/2019,1.0.9.0
+CatalogFile = dtsoemapo3ss3dextpkg.cat
+
+[SourceDisksNames]
+222 = %DiskId1%
+
+[SourceDisksFiles]
+SS3D_presets_11790784.xml=222
+
+[DestinationDirs]
+DefaultDestDir = 11, DTS\PC\APO3x ; %windir%\system32\DTS\PC\Apo3x
+
+;[DTS.CopyList]
+;;dtsapo3oemconfig.xml
+
+[Manufacturer]
+%OEM% = DeviceExtensions,NTamd64
+
+[DeviceExtensions.NTamd64]
+;; below SSIDs should be replaced by actual ones in formal release
+%Device.ExtensionDesc% = Model11790784,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_11790784
+
+[Model11790784]
+CopyFiles = CopyList.Model11790784
+AddReg = PresetAddReg
+
+[CopyList.Model11790784]
+dtsapo3oemconfig.xml, SS3D_presets_11790784.xml
+
+[Model11790784.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+[PresetAddReg]
+;; render endpoint settings
+HKR,InterfaceSetting,PrimaryLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                  ;; PrimaryLineOutTopo stands for Speakers(or Redirected headphone/speaker) endpoint
+HKR,InterfaceSetting,SingleLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                   ;; SingleLineOutTopo stands for Speakers(or Redirected headphone/speaker) endpoint
+HKR,InterfaceSetting,SecondaryLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                ;; SecondaryLineOutTopo stands for Headphone endpoint
+HKR,InterfaceSetting,RearLineOutTopoSST,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                  ;; RearLineOutTopoSST stands for Speakers(or Redirected headphone/speaker) endpoint with audio offloading DSP supported
+HKR,InterfaceSetting,RearLineOutTopoSST2,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                 ;; RearLineOutTopoSST2 stands for Speakers(or Redirected headphone/speaker) endpoint with audio offloading DSP supported
+HKR,InterfaceSetting,RearLineOutTopoSST3,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                 ;; RearLineOutTopoSST3 stands for Headphone endpoint with audio offloading DSP supported
+HKR,InterfaceSetting,RearLineOutTopoDock,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                 ;; RearLineOutTopoDock stands for Speakers endpoint on docking station
+
+;; Preset values in property store
+HKR,InterfaceSetting\ApoPreset1\EP\0, "{7A8B74C8-FA66-4460-8542-D6119C59E9D4},4", %REG_DWORD%, 0x100  ;; DTS APO 3 on Realtek
+
+[DTSAPO_Install]
+;;HardwareIds = APO\VEN_DTSI&AID_DTSI1
+ComponentIDs = VEN_DTSI&AID_DTSI1
+Description = "DTS Audio Effects Component"
+;;Capabilities = 0x00000008
+
+[DTSHSA_Install]
+ComponentIDs = VEN_DTSI&HID_DTSISS3D
+Description = "DTS StudioSound Hardware Support Application"
+;;Capabilities = 0x00000008
+
+[Strings]
+OEM                  = "DTS"
+Device.ExtensionDesc = "OEM Device Extension"
+ExtendedFriendlyName = "Device Audio"
+DiskId1              = "OEM Audio Device Extension Installation Disk (DTS)"
+
+REG_BINARY = 0x00000001
+REG_DWORD = 0x00010001
+REG_MULTI_SZ = 0x00010000
+REG_MULTI_SZ_APPEND = 0x00010008

@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {86F65302-34A5-441C-8E16-C05C2D9E6151}
-DriverVer   = 05/15/2019,1.0.3.87
+DriverVer   = 05/24/2019,1.0.3.88
 CatalogFile = OemXAudioExt_fm.cat
 
 [SourceDisksNames]
@@ -146,6 +146,8 @@ SAMSfpa_17AA384B10EC0257.dat=222
 SAMSfpa_17AA392D10EC0236.dat=222
 SAMSfpa_17AA384C10EC0257.dat=222
 SAMSfpa_17AA380B10EC0303.dat=222
+SAMSfpa_17AA384610EC0230.dat=222
+SAMSfpa_17AA384810EC0230.dat=222
 RTMICAR_17AA3901.dat=222
 RTMICAR_17AA3902.dat=222
 RTMICAR_17AA3903.dat=222
@@ -286,7 +288,6 @@ SAMSfppch_17AA380B10EC0303.dat=222
 
 [DestinationDirs]
 FMPPDAT_REF.CopyList = 11 ; %windir%\system32
-FMPPDAT_17AA381910EC0298.CopyList = 11 ; %windir%\system32
 FMDAT_17AA3837.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_17AA3838.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_17AA3901.CopyList = 12 ; %windir%\system32\drivers
@@ -421,6 +422,22 @@ FMDAT_17AA384B10EC0257.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_17AA392D10EC0236.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_17AA384C10EC0257.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_17AA380B10EC0303.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_17AA384610EC0230.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_17AA384810EC0230.CopyList = 12 ; %windir%\system32\drivers
+INTELTF_17AA3814.CopyList = 11 ; %windir%\system32
+INTELTF_17AA391D.CopyList = 11 ; %windir%\system32
+INTELTF_17AA391E.CopyList = 11 ; %windir%\system32
+INTELTF_10EC11AE.CopyList = 11 ; %windir%\system32
+INTELTF_10EC11AC.CopyList = 11 ; %windir%\system32
+INTELTF_17AA380510EC0257.CopyList = 11 ; %windir%\system32
+INTELTF_17AA381710EC0285.CopyList = 11 ; %windir%\system32
+INTELTF_17AA380110EC0285.CopyList = 11 ; %windir%\system32
+INTELTF_17AA381610EC0298.CopyList = 11 ; %windir%\system32
+INTELTF_17AA381710EC0298.CopyList = 11 ; %windir%\system32
+INTELTF_17AA383C10EC0257.CopyList = 11 ; %windir%\system32
+INTELTF_17AA384510EC0257.CopyList = 11 ; %windir%\system32
+INTELTF_17AA381810EC0298.CopyList = 11 ; %windir%\system32
+INTELTF_17AA381910EC0298.CopyList = 11 ; %windir%\system32
 
 
 [FMPPDAT_REF.CopyList]
@@ -950,7 +967,52 @@ SAMSfpa_17AA380B10EC0303.dat
 RTMICAR_17AA380B10EC0303.dat
 SAMSfppch_17AA380B10EC0303.dat
 
-[FMPPDAT_17AA381910EC0298.CopyList]
+[FMDAT_17AA384610EC0230.CopyList]
+SAMSfpa_17AA384610EC0230.dat
+
+[FMDAT_17AA384810EC0230.CopyList]
+SAMSfpa_17AA384810EC0230.dat
+
+[INTELTF_17AA3814.CopyList]
+configuration.tf, configuration_17AA3814.tf
+
+[INTELTF_17AA391D.CopyList]
+configuration.tf, configuration_17AA391D.tf
+
+[INTELTF_17AA391E.CopyList]
+configuration.tf, configuration_17AA391E.tf
+
+[INTELTF_10EC11AE.CopyList]
+configuration.tf, configuration_10EC11AE.tf
+
+[INTELTF_10EC11AC.CopyList]
+configuration.tf, configuration_10EC11AC.tf
+
+[INTELTF_17AA380510EC0257.CopyList]
+configuration.tf, configuration_17AA380510EC0257.tf
+
+[INTELTF_17AA381710EC0285.CopyList]
+configuration.tf, configuration_17AA381710EC0285.tf
+
+[INTELTF_17AA380110EC0285.CopyList]
+configuration.tf, configuration_17AA380110EC0285.tf
+
+[INTELTF_17AA381610EC0298.CopyList]
+configuration.tf, configuration_17AA381610EC0298.tf
+
+[INTELTF_17AA381710EC0298.CopyList]
+configuration.tf, configuration_17AA381710EC0298.tf
+
+[INTELTF_17AA383C10EC0257.CopyList]
+configuration.tf, configuration_17AA383C10EC0257.tf
+
+[INTELTF_17AA384510EC0257.CopyList]
+configuration.tf, configuration_17AA384510EC0257.tf
+
+[INTELTF_17AA381810EC0298.CopyList]
+configuration.tf, configuration_17AA381810EC0298.tf
+
+[INTELTF_17AA381910EC0298.CopyList]
 configuration.tf, configuration_17AA381910EC0298.tf
 
 
@@ -1111,6 +1173,8 @@ configuration.tf, configuration_17AA381910EC0298.tf
 %Device.ExtensionDesc% = DeviceExtension_Install_17AA392D10EC0236,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_17AA392D
 %Device.ExtensionDesc% = DeviceExtension_Install_17AA384C10EC0257,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA384C
 %Device.ExtensionDesc% = DeviceExtension_Install_17AA380B10EC0303,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0303&SUBSYS_17AA380B
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA384610EC0230,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3846
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA384810EC0230,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3848
 
 
 [DeviceExtension_Install_17AA3837]
@@ -1358,11 +1422,11 @@ AddReg = MonoAddReg
 [DeviceExtension_Install_17AA3829.HW]
 
 [DeviceExtension_Install_17AA3814]
-CopyFiles = FMDAT_17AA3814.CopyList, FMPPDAT_REF.CopyList
+CopyFiles = FMDAT_17AA3814.CopyList, FMPPDAT_REF.CopyList, INTELTF_17AA3814.CopyList
 AddReg = CortanaKey_17AA3814_AddReg
 AddReg = RTMICAR_17AA3814.AddReg
 AddReg = PresetAddReg
-AddReg = FortemediaSstPpDllNoTf.AddReg
+AddReg = FortemediaSstPpDll.AddReg
 
 [DeviceExtension_Install_17AA3814.HW]
 
@@ -1373,20 +1437,20 @@ AddReg = MonoAddReg
 [DeviceExtension_Install_17AA382A.HW]
 
 [DeviceExtension_Install_17AA391D]
-CopyFiles = FMDAT_17AA391D.CopyList, FMPPDAT_REF.CopyList
+CopyFiles = FMDAT_17AA391D.CopyList, FMPPDAT_REF.CopyList, INTELTF_17AA391D.CopyList
 AddReg = CortanaKey_17AA391D_AddReg
 AddReg = RTMICAR_17AA391D.AddReg
 AddReg = PresetAddReg
-AddReg = FortemediaSstPpDllNoTf.AddReg
+AddReg = FortemediaSstPpDll.AddReg
 
 [DeviceExtension_Install_17AA391D.HW]
 
 [DeviceExtension_Install_17AA391E]
-CopyFiles = FMDAT_17AA391E.CopyList, FMPPDAT_REF.CopyList
+CopyFiles = FMDAT_17AA391E.CopyList, FMPPDAT_REF.CopyList, INTELTF_17AA391E.CopyList
 AddReg = CortanaKey_17AA391E_AddReg
 AddReg = RTMICAR_17AA391E.AddReg
 AddReg = PresetAddReg
-AddReg = FortemediaSstPpDllNoTf.AddReg
+AddReg = FortemediaSstPpDll.AddReg
 
 [DeviceExtension_Install_17AA391E.HW]
 
@@ -1494,22 +1558,22 @@ AddReg = MonoAddReg
 ;[DeviceExtension_Install_17AA380B.HW]
 
 [DeviceExtension_Install_10EC11AC]
-CopyFiles = FMDAT_10EC11AC.CopyList, FMPPDAT_REF.CopyList
+CopyFiles = FMDAT_10EC11AC.CopyList, FMPPDAT_REF.CopyList, INTELTF_10EC11AE.CopyList
 AddReg = CortanaKey_10EC11AC_AddReg
 AddReg = RTMICAR_10EC11AC.AddReg
 ; AddReg = OffsetKey_10EC11AC_AddReg
 AddReg = PresetAddReg
-AddReg = FortemediaSstPpDllNoTf.AddReg
+AddReg = FortemediaSstPpDll.AddReg
 
 [DeviceExtension_Install_10EC11AC.HW]
 
 [DeviceExtension_Install_10EC11AE]
-CopyFiles = FMDAT_10EC11AE.CopyList, FMPPDAT_REF.CopyList
+CopyFiles = FMDAT_10EC11AE.CopyList, FMPPDAT_REF.CopyList, INTELTF_10EC11AC.CopyList
 AddReg = CortanaKey_10EC11AE_AddReg
 AddReg = RTMICAR_10EC11AE.AddReg
 ; AddReg = OffsetKey_10EC11AE_AddReg
 AddReg = PresetAddReg
-AddReg = FortemediaSstPpDllNoTf.AddReg
+AddReg = FortemediaSstPpDll.AddReg
 
 [DeviceExtension_Install_10EC11AE.HW]
 
@@ -1526,11 +1590,11 @@ AddReg = MonoAddReg
 [DeviceExtension_Install_17AA381F10EC0257.HW]
 
 [DeviceExtension_Install_17AA380510EC0257]
-CopyFiles = FMDAT_17AA380510EC0257.CopyList, FMPPDAT_REF.CopyList
+CopyFiles = FMDAT_17AA380510EC0257.CopyList, FMPPDAT_REF.CopyList, INTELTF_17AA380510EC0257.CopyList
 AddReg = CortanaKey_17AA380510EC0257_AddReg
 AddReg = RTMICAR_17AA380510EC0257.AddReg
 AddReg = PresetAddReg
-AddReg = FortemediaSstPpDllNoTf.AddReg
+AddReg = FortemediaSstPpDll.AddReg
 
 [DeviceExtension_Install_17AA380510EC0257.HW]
 
@@ -1671,20 +1735,20 @@ AddReg = MonoAddReg
 [DeviceExtension_Install_17AA382F10EC0230.HW]
 
 [DeviceExtension_Install_17AA380110EC0285]
-CopyFiles = FMDAT_17AA380110EC0285.CopyList, FMPPDAT_REF.CopyList
+CopyFiles = FMDAT_17AA380110EC0285.CopyList, FMPPDAT_REF.CopyList, INTELTF_17AA380110EC0285.CopyList
 AddReg = CortanaKey_17AA380110EC0285_AddReg
 AddReg = RTMICAR_17AA380110EC0285.AddReg
 AddReg = PresetAddReg
-AddReg = FortemediaSstPpDllNoTf.AddReg
+AddReg = FortemediaSstPpDll.AddReg
 
 [DeviceExtension_Install_17AA380110EC0285.HW]
 
 [DeviceExtension_Install_17AA381710EC0285]
-CopyFiles = FMDAT_17AA381710EC0285.CopyList, FMPPDAT_REF.CopyList
+CopyFiles = FMDAT_17AA381710EC0285.CopyList, FMPPDAT_REF.CopyList, INTELTF_17AA381710EC0285.CopyList
 AddReg = CortanaKey_17AA381710EC0285_AddReg
 AddReg = RTMICAR_17AA381710EC0285.AddReg
 AddReg = PresetAddReg
-AddReg = FortemediaSstPpDllNoTf.AddReg
+AddReg = FortemediaSstPpDll.AddReg
 
 [DeviceExtension_Install_17AA381710EC0285.HW]
 
@@ -1729,20 +1793,20 @@ AddReg = PresetAddReg
 [DeviceExtension_Install_17AA380C10EC0257.HW]
 
 [DeviceExtension_Install_17AA381610EC0298]
-CopyFiles = FMDAT_17AA381610EC0298.CopyList, FMPPDAT_REF.CopyList
+CopyFiles = FMDAT_17AA381610EC0298.CopyList, FMPPDAT_REF.CopyList, INTELTF_17AA381610EC0298.CopyList
 AddReg = CortanaKey_17AA381610EC0298_AddReg
 AddReg = RTMICAR_17AA381610EC0298.AddReg
 AddReg = PresetAddReg
-AddReg = FortemediaSstPpDllNoTf.AddReg
+AddReg = FortemediaSstPpDll.AddReg
 
 [DeviceExtension_Install_17AA381610EC0298.HW]
 
 [DeviceExtension_Install_17AA381710EC0298]
-CopyFiles = FMDAT_17AA381710EC0298.CopyList, FMPPDAT_REF.CopyList
+CopyFiles = FMDAT_17AA381710EC0298.CopyList, FMPPDAT_REF.CopyList, INTELTF_17AA381710EC0298.CopyList
 AddReg = CortanaKey_17AA381710EC0298_AddReg
 AddReg = RTMICAR_17AA381710EC0298.AddReg
 AddReg = PresetAddReg
-AddReg = FortemediaSstPpDllNoTf.AddReg
+AddReg = FortemediaSstPpDll.AddReg
 
 [DeviceExtension_Install_17AA381710EC0298.HW]
 
@@ -1833,11 +1897,11 @@ AddReg = FortemediaSstPpDllNoTf.AddReg
 [DeviceExtension_Install_17AA380310EC0285.HW]
 
 [DeviceExtension_Install_17AA381810EC0298]
-CopyFiles = FMDAT_17AA381810EC0298.CopyList, FMPPDAT_REF.CopyList
+CopyFiles = FMDAT_17AA381810EC0298.CopyList, FMPPDAT_REF.CopyList, INTELTF_17AA381810EC0298.CopyList
 AddReg = CortanaKey_17AA381810EC0298_AddReg
 AddReg = RTMICAR_17AA381810EC0298.AddReg
 AddReg = PresetAddReg
-AddReg = FortemediaSstPpDllNoTf.AddReg
+AddReg = FortemediaSstPpDll.AddReg
 
 [DeviceExtension_Install_17AA381810EC0298.HW]
 
@@ -1860,7 +1924,7 @@ AddReg = FortemediaSstPpDllNoTf.AddReg
 [DeviceExtension_Install_17AA381810EC0285.HW]
 
 [DeviceExtension_Install_17AA381910EC0298]
-CopyFiles = FMDAT_17AA381910EC0298.CopyList, FMPPDAT_REF.CopyList, FMPPDAT_17AA381910EC0298.CopyList
+CopyFiles = FMDAT_17AA381910EC0298.CopyList, FMPPDAT_REF.CopyList, INTELTF_17AA381910EC0298.CopyList
 AddReg = CortanaKey_17AA381910EC0298_AddReg
 AddReg = RTMICAR_17AA381910EC0298.AddReg
 AddReg = PresetAddReg
@@ -1996,11 +2060,11 @@ AddReg = FortemediaSstPpDllNoTf.AddReg
 [DeviceExtension_Install_17AA380710EC0285.HW]
 
 [DeviceExtension_Install_17AA383C10EC0257]
-CopyFiles = FMDAT_17AA383C10EC0257.CopyList, FMPPDAT_REF.CopyList
+CopyFiles = FMDAT_17AA383C10EC0257.CopyList, FMPPDAT_REF.CopyList, INTELTF_17AA383C10EC0257.CopyList
 AddReg = CortanaKey_17AA383C10EC0257_AddReg
 AddReg = RTMICAR_17AA383C10EC0257.AddReg
 AddReg = PresetAddReg
-AddReg = FortemediaSstPpDllNoTf.AddReg
+AddReg = FortemediaSstPpDll.AddReg
 
 [DeviceExtension_Install_17AA383C10EC0257.HW]
 
@@ -2058,11 +2122,11 @@ AddReg = PresetAddReg
 [DeviceExtension_Install_17AA384210EC0257.HW]
 
 [DeviceExtension_Install_17AA384510EC0257]
-CopyFiles = FMDAT_17AA384510EC0257.CopyList, FMPPDAT_REF.CopyList
+CopyFiles = FMDAT_17AA384510EC0257.CopyList, FMPPDAT_REF.CopyList, INTELTF_17AA384510EC0257.CopyList
 AddReg = CortanaKey_17AA384510EC0257_AddReg
 AddReg = RTMICAR_17AA384510EC0257.AddReg
 AddReg = PresetAddReg
-AddReg = FortemediaSstPpDllNoTf.AddReg
+AddReg = FortemediaSstPpDll.AddReg
 
 [DeviceExtension_Install_17AA384510EC0257.HW]
 
@@ -2117,6 +2181,18 @@ AddReg = RTMICAR_17AA380B10EC0303.AddReg
 AddReg = PresetAddReg
 
 [DeviceExtension_Install_17AA380B10EC0303.HW]
+
+[DeviceExtension_Install_17AA384610EC0230]
+CopyFiles = FMDAT_17AA384610EC0230.CopyList
+AddReg = MonoAddReg
+
+[DeviceExtension_Install_17AA384610EC0230.HW]
+
+[DeviceExtension_Install_17AA384810EC0230]
+CopyFiles = FMDAT_17AA384810EC0230.CopyList
+AddReg = MonoAddReg
+
+[DeviceExtension_Install_17AA384810EC0230.HW]
 
 ;[FriendlyName_AddReg]
 ;HKR,,FriendlyName,,%ExtendedFriendlyName%
@@ -2521,6 +2597,12 @@ AddComponent = FMAPO,,FMAPO_Install
 AddComponent = FMAPO,,FMAPO_Install
 
 [DeviceExtension_Install_17AA380B10EC0303.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_17AA384610EC0230.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_17AA384810EC0230.Components]
 AddComponent = FMAPO,,FMAPO_Install
 
 [PresetAddReg]

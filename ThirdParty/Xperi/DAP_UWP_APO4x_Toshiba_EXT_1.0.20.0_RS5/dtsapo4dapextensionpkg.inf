@@ -1,0 +1,1011 @@
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = Extension
+ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57} 
+Provider    = %OEM%
+ExtensionId = {F6127209-76BC-4E8F-8CF8-98DB96EBA05D} 
+DriverVer   = 06/13/2019,1.0.20.0
+CatalogFile = dtsapo4dapextensionpkg.cat
+
+[SourceDisksNames]
+1 = %DiskId1%,,,\TB31000001
+7 = %DiskId1%,,,\TB31000007
+13 = %DiskId1%,,,\TB31000013
+9078 = %DiskId1%,,,\TB1179078E
+786 = %DiskId1%,,,\TB11790786
+788 = %DiskId1%,,,\TB11790788
+3101 = %DiskId1%,,,\TB3100001B
+3102 = %DiskId1%,,,\TB3100002B
+31001 = %DiskId1%,,,\TB3100001F
+31033 = %DiskId1%,,,\TB31000033
+
+[SourceDisksFiles]
+
+dts_apo4_oem_config_31000001.xml=1
+dts_ctc_blob_31000001.bin=1
+dts_gpeq_44k_31000001.bin=1
+dts_gpeq_48k_31000001.bin=1
+dts_gpeq_off_44k_31000001.bin=1
+dts_gpeq_off_48k_31000001.bin=1
+dts_gpeq_mode1_48k_31000001.bin=1
+dts_gpeq_mode2_48k_31000001.bin=1
+dts_gpeq_mode3_48k_31000001.bin=1
+dts_gpeq_mode4_48k_31000001.bin=1
+dts_gpeq_mode5_48k_31000001.bin=1
+dts_gpeq_mode6_48k_31000001.bin=1
+dts_gpeq_mode7_48k_31000001.bin=1
+dts_gpeq_mode1_44k_31000001.bin=1
+dts_gpeq_mode2_44k_31000001.bin=1
+dts_gpeq_mode3_44k_31000001.bin=1
+dts_gpeq_mode4_44k_31000001.bin=1
+dts_gpeq_mode5_44k_31000001.bin=1
+dts_gpeq_mode6_44k_31000001.bin=1
+dts_gpeq_mode7_44k_31000001.bin=1
+dts_hpeq_44k_31000001.bin=1
+dts_hpeq_48k_31000001.bin=1
+dts_gpeq_ext_spk_off_44k_31000001.bin=1
+dts_gpeq_ext_spk_off_48k_31000001.bin=1
+dts_gpeq_ext_spk_mode1_48k_31000001.bin=1
+dts_gpeq_ext_spk_mode2_48k_31000001.bin=1
+dts_gpeq_ext_spk_mode3_48k_31000001.bin=1
+dts_gpeq_ext_spk_mode4_48k_31000001.bin=1
+dts_gpeq_ext_spk_mode5_48k_31000001.bin=1
+dts_gpeq_ext_spk_mode6_48k_31000001.bin=1
+dts_gpeq_ext_spk_mode7_48k_31000001.bin=1
+dts_gpeq_ext_spk_mode1_44k_31000001.bin=1
+dts_gpeq_ext_spk_mode2_44k_31000001.bin=1
+dts_gpeq_ext_spk_mode3_44k_31000001.bin=1
+dts_gpeq_ext_spk_mode4_44k_31000001.bin=1
+dts_gpeq_ext_spk_mode5_44k_31000001.bin=1
+dts_gpeq_ext_spk_mode6_44k_31000001.bin=1
+dts_gpeq_ext_spk_mode7_44k_31000001.bin=1
+dts-postprocessing_31000001.lic=1
+
+dts_apo4_oem_config_31000007.xml=7
+dts_ctc_blob_31000007.bin=7
+dts_gpeq_44k_31000007.bin=7
+dts_gpeq_48k_31000007.bin=7
+dts_gpeq_off_44k_31000007.bin=7
+dts_gpeq_off_48k_31000007.bin=7
+dts_gpeq_mode1_48k_31000007.bin=7
+dts_gpeq_mode2_48k_31000007.bin=7
+dts_gpeq_mode3_48k_31000007.bin=7
+dts_gpeq_mode4_48k_31000007.bin=7
+dts_gpeq_mode5_48k_31000007.bin=7
+dts_gpeq_mode6_48k_31000007.bin=7
+dts_gpeq_mode7_48k_31000007.bin=7
+dts_gpeq_mode1_44k_31000007.bin=7
+dts_gpeq_mode2_44k_31000007.bin=7
+dts_gpeq_mode3_44k_31000007.bin=7
+dts_gpeq_mode4_44k_31000007.bin=7
+dts_gpeq_mode5_44k_31000007.bin=7
+dts_gpeq_mode6_44k_31000007.bin=7
+dts_gpeq_mode7_44k_31000007.bin=7
+dts_hpeq_44k_31000007.bin=7
+dts_hpeq_48k_31000007.bin=7
+dts_gpeq_ext_spk_off_44k_31000007.bin=7
+dts_gpeq_ext_spk_off_48k_31000007.bin=7
+dts_gpeq_ext_spk_mode1_48k_31000007.bin=7
+dts_gpeq_ext_spk_mode2_48k_31000007.bin=7
+dts_gpeq_ext_spk_mode3_48k_31000007.bin=7
+dts_gpeq_ext_spk_mode4_48k_31000007.bin=7
+dts_gpeq_ext_spk_mode5_48k_31000007.bin=7
+dts_gpeq_ext_spk_mode6_48k_31000007.bin=7
+dts_gpeq_ext_spk_mode7_48k_31000007.bin=7
+dts_gpeq_ext_spk_mode1_44k_31000007.bin=7
+dts_gpeq_ext_spk_mode2_44k_31000007.bin=7
+dts_gpeq_ext_spk_mode3_44k_31000007.bin=7
+dts_gpeq_ext_spk_mode4_44k_31000007.bin=7
+dts_gpeq_ext_spk_mode5_44k_31000007.bin=7
+dts_gpeq_ext_spk_mode6_44k_31000007.bin=7
+dts_gpeq_ext_spk_mode7_44k_31000007.bin=7
+dts-postprocessing_31000007.lic=7
+
+dts_apo4_oem_config_1179078E.xml=9078
+dts_ctc_blob_1179078E.bin=9078
+dts_gpeq_44k_1179078E.bin=9078
+dts_gpeq_48k_1179078E.bin=9078
+dts_gpeq_off_44k_1179078E.bin=9078
+dts_gpeq_off_48k_1179078E.bin=9078
+dts_gpeq_mode1_48k_1179078E.bin=9078
+dts_gpeq_mode2_48k_1179078E.bin=9078
+dts_gpeq_mode3_48k_1179078E.bin=9078
+dts_gpeq_mode4_48k_1179078E.bin=9078
+dts_gpeq_mode5_48k_1179078E.bin=9078
+dts_gpeq_mode6_48k_1179078E.bin=9078
+dts_gpeq_mode7_48k_1179078E.bin=9078
+dts_gpeq_mode1_44k_1179078E.bin=9078
+dts_gpeq_mode2_44k_1179078E.bin=9078
+dts_gpeq_mode3_44k_1179078E.bin=9078
+dts_gpeq_mode4_44k_1179078E.bin=9078
+dts_gpeq_mode5_44k_1179078E.bin=9078
+dts_gpeq_mode6_44k_1179078E.bin=9078
+dts_gpeq_mode7_44k_1179078E.bin=9078
+dts_hpeq_44k_1179078E.bin=9078
+dts_hpeq_48k_1179078E.bin=9078
+dts_gpeq_ext_spk_off_44k_1179078E.bin=9078
+dts_gpeq_ext_spk_off_48k_1179078E.bin=9078
+dts_gpeq_ext_spk_mode1_48k_1179078E.bin=9078
+dts_gpeq_ext_spk_mode2_48k_1179078E.bin=9078
+dts_gpeq_ext_spk_mode3_48k_1179078E.bin=9078
+dts_gpeq_ext_spk_mode4_48k_1179078E.bin=9078
+dts_gpeq_ext_spk_mode5_48k_1179078E.bin=9078
+dts_gpeq_ext_spk_mode6_48k_1179078E.bin=9078
+dts_gpeq_ext_spk_mode7_48k_1179078E.bin=9078
+dts_gpeq_ext_spk_mode1_44k_1179078E.bin=9078
+dts_gpeq_ext_spk_mode2_44k_1179078E.bin=9078
+dts_gpeq_ext_spk_mode3_44k_1179078E.bin=9078
+dts_gpeq_ext_spk_mode4_44k_1179078E.bin=9078
+dts_gpeq_ext_spk_mode5_44k_1179078E.bin=9078
+dts_gpeq_ext_spk_mode6_44k_1179078E.bin=9078
+dts_gpeq_ext_spk_mode7_44k_1179078E.bin=9078
+dts-postprocessing_1179078E.lic=9078
+
+
+dts_apo4_oem_config_31000013.xml=13
+dts_ctc_blob_31000013.bin=13
+dts_gpeq_44k_31000013.bin=13
+dts_gpeq_48k_31000013.bin=13
+dts_gpeq_off_44k_31000013.bin=13
+dts_gpeq_off_48k_31000013.bin=13
+dts_gpeq_mode1_48k_31000013.bin=13
+dts_gpeq_mode2_48k_31000013.bin=13
+dts_gpeq_mode3_48k_31000013.bin=13
+dts_gpeq_mode4_48k_31000013.bin=13
+dts_gpeq_mode5_48k_31000013.bin=13
+dts_gpeq_mode6_48k_31000013.bin=13
+dts_gpeq_mode7_48k_31000013.bin=13
+dts_gpeq_mode1_44k_31000013.bin=13
+dts_gpeq_mode2_44k_31000013.bin=13
+dts_gpeq_mode3_44k_31000013.bin=13
+dts_gpeq_mode4_44k_31000013.bin=13
+dts_gpeq_mode5_44k_31000013.bin=13
+dts_gpeq_mode6_44k_31000013.bin=13
+dts_gpeq_mode7_44k_31000013.bin=13
+dts_hpeq_44k_31000013.bin=13
+dts_hpeq_48k_31000013.bin=13
+dts_gpeq_ext_spk_off_44k_31000013.bin=13
+dts_gpeq_ext_spk_off_48k_31000013.bin=13
+dts_gpeq_ext_spk_mode1_48k_31000013.bin=13
+dts_gpeq_ext_spk_mode2_48k_31000013.bin=13
+dts_gpeq_ext_spk_mode3_48k_31000013.bin=13
+dts_gpeq_ext_spk_mode4_48k_31000013.bin=13
+dts_gpeq_ext_spk_mode5_48k_31000013.bin=13
+dts_gpeq_ext_spk_mode6_48k_31000013.bin=13
+dts_gpeq_ext_spk_mode7_48k_31000013.bin=13
+dts_gpeq_ext_spk_mode1_44k_31000013.bin=13
+dts_gpeq_ext_spk_mode2_44k_31000013.bin=13
+dts_gpeq_ext_spk_mode3_44k_31000013.bin=13
+dts_gpeq_ext_spk_mode4_44k_31000013.bin=13
+dts_gpeq_ext_spk_mode5_44k_31000013.bin=13
+dts_gpeq_ext_spk_mode6_44k_31000013.bin=13
+dts_gpeq_ext_spk_mode7_44k_31000013.bin=13
+dts-postprocessing_31000013.lic=13
+
+dts_apo4_oem_config_11790786.xml=786
+dts_ctc_blob_11790786.bin=786
+dts_gpeq_44k_11790786.bin=786
+dts_gpeq_48k_11790786.bin=786
+dts_gpeq_off_44k_11790786.bin=786
+dts_gpeq_off_48k_11790786.bin=786
+dts_gpeq_mode1_48k_11790786.bin=786
+dts_gpeq_mode2_48k_11790786.bin=786
+dts_gpeq_mode3_48k_11790786.bin=786
+dts_gpeq_mode4_48k_11790786.bin=786
+dts_gpeq_mode5_48k_11790786.bin=786
+dts_gpeq_mode6_48k_11790786.bin=786
+dts_gpeq_mode7_48k_11790786.bin=786
+dts_gpeq_mode1_44k_11790786.bin=786
+dts_gpeq_mode2_44k_11790786.bin=786
+dts_gpeq_mode3_44k_11790786.bin=786
+dts_gpeq_mode4_44k_11790786.bin=786
+dts_gpeq_mode5_44k_11790786.bin=786
+dts_gpeq_mode6_44k_11790786.bin=786
+dts_gpeq_mode7_44k_11790786.bin=786
+dts_hpeq_44k_11790786.bin=786
+dts_hpeq_48k_11790786.bin=786
+dts_gpeq_ext_spk_off_44k_11790786.bin=786
+dts_gpeq_ext_spk_off_48k_11790786.bin=786
+dts_gpeq_ext_spk_mode1_48k_11790786.bin=786
+dts_gpeq_ext_spk_mode2_48k_11790786.bin=786
+dts_gpeq_ext_spk_mode3_48k_11790786.bin=786
+dts_gpeq_ext_spk_mode4_48k_11790786.bin=786
+dts_gpeq_ext_spk_mode5_48k_11790786.bin=786
+dts_gpeq_ext_spk_mode6_48k_11790786.bin=786
+dts_gpeq_ext_spk_mode7_48k_11790786.bin=786
+dts_gpeq_ext_spk_mode1_44k_11790786.bin=786
+dts_gpeq_ext_spk_mode2_44k_11790786.bin=786
+dts_gpeq_ext_spk_mode3_44k_11790786.bin=786
+dts_gpeq_ext_spk_mode4_44k_11790786.bin=786
+dts_gpeq_ext_spk_mode5_44k_11790786.bin=786
+dts_gpeq_ext_spk_mode6_44k_11790786.bin=786
+dts_gpeq_ext_spk_mode7_44k_11790786.bin=786
+dts-postprocessing_11790786.lic=786
+
+
+dts_apo4_oem_config_11790788.xml=788
+dts_ctc_blob_11790788.bin=788
+dts_gpeq_44k_11790788.bin=788
+dts_gpeq_48k_11790788.bin=788
+dts_gpeq_off_44k_11790788.bin=788
+dts_gpeq_off_48k_11790788.bin=788
+dts_gpeq_mode1_48k_11790788.bin=788
+dts_gpeq_mode2_48k_11790788.bin=788
+dts_gpeq_mode3_48k_11790788.bin=788
+dts_gpeq_mode4_48k_11790788.bin=788
+dts_gpeq_mode5_48k_11790788.bin=788
+dts_gpeq_mode6_48k_11790788.bin=788
+dts_gpeq_mode7_48k_11790788.bin=788
+dts_gpeq_mode1_44k_11790788.bin=788
+dts_gpeq_mode2_44k_11790788.bin=788
+dts_gpeq_mode3_44k_11790788.bin=788
+dts_gpeq_mode4_44k_11790788.bin=788
+dts_gpeq_mode5_44k_11790788.bin=788
+dts_gpeq_mode6_44k_11790788.bin=788
+dts_gpeq_mode7_44k_11790788.bin=788
+dts_hpeq_44k_11790788.bin=788
+dts_hpeq_48k_11790788.bin=788
+dts_gpeq_ext_spk_off_44k_11790788.bin=788
+dts_gpeq_ext_spk_off_48k_11790788.bin=788
+dts_gpeq_ext_spk_mode1_48k_11790788.bin=788
+dts_gpeq_ext_spk_mode2_48k_11790788.bin=788
+dts_gpeq_ext_spk_mode3_48k_11790788.bin=788
+dts_gpeq_ext_spk_mode4_48k_11790788.bin=788
+dts_gpeq_ext_spk_mode5_48k_11790788.bin=788
+dts_gpeq_ext_spk_mode6_48k_11790788.bin=788
+dts_gpeq_ext_spk_mode7_48k_11790788.bin=788
+dts_gpeq_ext_spk_mode1_44k_11790788.bin=788
+dts_gpeq_ext_spk_mode2_44k_11790788.bin=788
+dts_gpeq_ext_spk_mode3_44k_11790788.bin=788
+dts_gpeq_ext_spk_mode4_44k_11790788.bin=788
+dts_gpeq_ext_spk_mode5_44k_11790788.bin=788
+dts_gpeq_ext_spk_mode6_44k_11790788.bin=788
+dts_gpeq_ext_spk_mode7_44k_11790788.bin=788
+dts-postprocessing_11790788.lic=788
+
+dts_apo4_oem_config_3100001B.xml=3101
+dts_ctc_blob_3100001B.bin=3101
+dts_gpeq_44k_3100001B.bin=3101
+dts_gpeq_48k_3100001B.bin=3101
+dts_gpeq_off_44k_3100001B.bin=3101
+dts_gpeq_off_48k_3100001B.bin=3101
+dts_gpeq_mode1_48k_3100001B.bin=3101
+dts_gpeq_mode2_48k_3100001B.bin=3101
+dts_gpeq_mode3_48k_3100001B.bin=3101
+dts_gpeq_mode4_48k_3100001B.bin=3101
+dts_gpeq_mode5_48k_3100001B.bin=3101
+dts_gpeq_mode6_48k_3100001B.bin=3101
+dts_gpeq_mode7_48k_3100001B.bin=3101
+dts_gpeq_mode1_44k_3100001B.bin=3101
+dts_gpeq_mode2_44k_3100001B.bin=3101
+dts_gpeq_mode3_44k_3100001B.bin=3101
+dts_gpeq_mode4_44k_3100001B.bin=3101
+dts_gpeq_mode5_44k_3100001B.bin=3101
+dts_gpeq_mode6_44k_3100001B.bin=3101
+dts_gpeq_mode7_44k_3100001B.bin=3101
+dts_hpeq_44k_3100001B.bin=3101
+dts_hpeq_48k_3100001B.bin=3101
+dts_gpeq_ext_spk_off_44k_3100001B.bin=3101
+dts_gpeq_ext_spk_off_48k_3100001B.bin=3101
+dts_gpeq_ext_spk_mode1_48k_3100001B.bin=3101
+dts_gpeq_ext_spk_mode2_48k_3100001B.bin=3101
+dts_gpeq_ext_spk_mode3_48k_3100001B.bin=3101
+dts_gpeq_ext_spk_mode4_48k_3100001B.bin=3101
+dts_gpeq_ext_spk_mode5_48k_3100001B.bin=3101
+dts_gpeq_ext_spk_mode6_48k_3100001B.bin=3101
+dts_gpeq_ext_spk_mode7_48k_3100001B.bin=3101
+dts_gpeq_ext_spk_mode1_44k_3100001B.bin=3101
+dts_gpeq_ext_spk_mode2_44k_3100001B.bin=3101
+dts_gpeq_ext_spk_mode3_44k_3100001B.bin=3101
+dts_gpeq_ext_spk_mode4_44k_3100001B.bin=3101
+dts_gpeq_ext_spk_mode5_44k_3100001B.bin=3101
+dts_gpeq_ext_spk_mode6_44k_3100001B.bin=3101
+dts_gpeq_ext_spk_mode7_44k_3100001B.bin=3101
+dts-postprocessing_3100001B.lic=3101
+
+dts_apo4_oem_config_3100002B.xml=3102
+dts_ctc_blob_3100002B.bin=3102
+dts_gpeq_44k_3100002B.bin=3102
+dts_gpeq_48k_3100002B.bin=3102
+dts_gpeq_off_44k_3100002B.bin=3102
+dts_gpeq_off_48k_3100002B.bin=3102
+dts_gpeq_mode1_48k_3100002B.bin=3102
+dts_gpeq_mode2_48k_3100002B.bin=3102
+dts_gpeq_mode3_48k_3100002B.bin=3102
+dts_gpeq_mode4_48k_3100002B.bin=3102
+dts_gpeq_mode5_48k_3100002B.bin=3102
+dts_gpeq_mode6_48k_3100002B.bin=3102
+dts_gpeq_mode7_48k_3100002B.bin=3102
+dts_gpeq_mode1_44k_3100002B.bin=3102
+dts_gpeq_mode2_44k_3100002B.bin=3102
+dts_gpeq_mode3_44k_3100002B.bin=3102
+dts_gpeq_mode4_44k_3100002B.bin=3102
+dts_gpeq_mode5_44k_3100002B.bin=3102
+dts_gpeq_mode6_44k_3100002B.bin=3102
+dts_gpeq_mode7_44k_3100002B.bin=3102
+dts_hpeq_44k_3100002B.bin=3102
+dts_hpeq_48k_3100002B.bin=3102
+dts_gpeq_ext_spk_off_44k_3100002B.bin=3102
+dts_gpeq_ext_spk_off_48k_3100002B.bin=3102
+dts_gpeq_ext_spk_mode1_48k_3100002B.bin=3102
+dts_gpeq_ext_spk_mode2_48k_3100002B.bin=3102
+dts_gpeq_ext_spk_mode3_48k_3100002B.bin=3102
+dts_gpeq_ext_spk_mode4_48k_3100002B.bin=3102
+dts_gpeq_ext_spk_mode5_48k_3100002B.bin=3102
+dts_gpeq_ext_spk_mode6_48k_3100002B.bin=3102
+dts_gpeq_ext_spk_mode7_48k_3100002B.bin=3102
+dts_gpeq_ext_spk_mode1_44k_3100002B.bin=3102
+dts_gpeq_ext_spk_mode2_44k_3100002B.bin=3102
+dts_gpeq_ext_spk_mode3_44k_3100002B.bin=3102
+dts_gpeq_ext_spk_mode4_44k_3100002B.bin=3102
+dts_gpeq_ext_spk_mode5_44k_3100002B.bin=3102
+dts_gpeq_ext_spk_mode6_44k_3100002B.bin=3102
+dts_gpeq_ext_spk_mode7_44k_3100002B.bin=3102
+dts-postprocessing_3100002B.lic=3102
+
+dts_apo4_oem_config_3100001F.xml=31001
+dts_ctc_blob_3100001F.bin=31001
+dts_gpeq_44k_3100001F.bin=31001
+dts_gpeq_48k_3100001F.bin=31001
+dts_gpeq_off_44k_3100001F.bin=31001
+dts_gpeq_off_48k_3100001F.bin=31001
+dts_gpeq_mode1_48k_3100001F.bin=31001
+dts_gpeq_mode2_48k_3100001F.bin=31001
+dts_gpeq_mode3_48k_3100001F.bin=31001
+dts_gpeq_mode4_48k_3100001F.bin=31001
+dts_gpeq_mode5_48k_3100001F.bin=31001
+dts_gpeq_mode6_48k_3100001F.bin=31001
+dts_gpeq_mode7_48k_3100001F.bin=31001
+dts_gpeq_mode1_44k_3100001F.bin=31001
+dts_gpeq_mode2_44k_3100001F.bin=31001
+dts_gpeq_mode3_44k_3100001F.bin=31001
+dts_gpeq_mode4_44k_3100001F.bin=31001
+dts_gpeq_mode5_44k_3100001F.bin=31001
+dts_gpeq_mode6_44k_3100001F.bin=31001
+dts_gpeq_mode7_44k_3100001F.bin=31001
+dts_hpeq_44k_3100001F.bin=31001
+dts_hpeq_48k_3100001F.bin=31001
+dts_gpeq_ext_spk_off_44k_3100001F.bin=31001
+dts_gpeq_ext_spk_off_48k_3100001F.bin=31001
+dts_gpeq_ext_spk_mode1_48k_3100001F.bin=31001
+dts_gpeq_ext_spk_mode2_48k_3100001F.bin=31001
+dts_gpeq_ext_spk_mode3_48k_3100001F.bin=31001
+dts_gpeq_ext_spk_mode4_48k_3100001F.bin=31001
+dts_gpeq_ext_spk_mode5_48k_3100001F.bin=31001
+dts_gpeq_ext_spk_mode6_48k_3100001F.bin=31001
+dts_gpeq_ext_spk_mode7_48k_3100001F.bin=31001
+dts_gpeq_ext_spk_mode1_44k_3100001F.bin=31001
+dts_gpeq_ext_spk_mode2_44k_3100001F.bin=31001
+dts_gpeq_ext_spk_mode3_44k_3100001F.bin=31001
+dts_gpeq_ext_spk_mode4_44k_3100001F.bin=31001
+dts_gpeq_ext_spk_mode5_44k_3100001F.bin=31001
+dts_gpeq_ext_spk_mode6_44k_3100001F.bin=31001
+dts_gpeq_ext_spk_mode7_44k_3100001F.bin=31001
+dts-postprocessing_3100001F.lic=31001
+
+dts_apo4_oem_config_31000033.xml=31033
+dts_ctc_blob_31000033.bin=31033
+dts_gpeq_44k_31000033.bin=31033
+dts_gpeq_48k_31000033.bin=31033
+dts_gpeq_off_44k_31000033.bin=31033
+dts_gpeq_off_48k_31000033.bin=31033
+dts_gpeq_mode1_48k_31000033.bin=31033
+dts_gpeq_mode2_48k_31000033.bin=31033
+dts_gpeq_mode3_48k_31000033.bin=31033
+dts_gpeq_mode4_48k_31000033.bin=31033
+dts_gpeq_mode5_48k_31000033.bin=31033
+dts_gpeq_mode6_48k_31000033.bin=31033
+dts_gpeq_mode7_48k_31000033.bin=31033
+dts_gpeq_mode1_44k_31000033.bin=31033
+dts_gpeq_mode2_44k_31000033.bin=31033
+dts_gpeq_mode3_44k_31000033.bin=31033
+dts_gpeq_mode4_44k_31000033.bin=31033
+dts_gpeq_mode5_44k_31000033.bin=31033
+dts_gpeq_mode6_44k_31000033.bin=31033
+dts_gpeq_mode7_44k_31000033.bin=31033
+dts_hpeq_44k_31000033.bin=31033
+dts_hpeq_48k_31000033.bin=31033
+dts_gpeq_ext_spk_off_44k_31000033.bin=31033
+dts_gpeq_ext_spk_off_48k_31000033.bin=31033
+dts_gpeq_ext_spk_mode1_48k_31000033.bin=31033
+dts_gpeq_ext_spk_mode2_48k_31000033.bin=31033
+dts_gpeq_ext_spk_mode3_48k_31000033.bin=31033
+dts_gpeq_ext_spk_mode4_48k_31000033.bin=31033
+dts_gpeq_ext_spk_mode5_48k_31000033.bin=31033
+dts_gpeq_ext_spk_mode6_48k_31000033.bin=31033
+dts_gpeq_ext_spk_mode7_48k_31000033.bin=31033
+dts_gpeq_ext_spk_mode1_44k_31000033.bin=31033
+dts_gpeq_ext_spk_mode2_44k_31000033.bin=31033
+dts_gpeq_ext_spk_mode3_44k_31000033.bin=31033
+dts_gpeq_ext_spk_mode4_44k_31000033.bin=31033
+dts_gpeq_ext_spk_mode5_44k_31000033.bin=31033
+dts_gpeq_ext_spk_mode6_44k_31000033.bin=31033
+dts_gpeq_ext_spk_mode7_44k_31000033.bin=31033
+dts-postprocessing_31000033.lic=31033
+
+
+[DestinationDirs]
+DefaultDestDir = 11, DTS\PC\APO4x ; %windir%\system32\DTS\PC\APO4x
+
+[TB1179078E.CopyList]
+dts_apo4_oem_config.xml,  dts_apo4_oem_config_1179078E.xml
+dts_ctc_blob.bin, dts_ctc_blob_1179078E.bin
+dts_gpeq_44k.bin, dts_gpeq_44k_1179078E.bin
+dts_gpeq_48k.bin, dts_gpeq_48k_1179078E.bin
+dts_gpeq_off_44k.bin, dts_gpeq_off_44k_1179078E.bin
+dts_gpeq_off_48k.bin, dts_gpeq_off_48k_1179078E.bin
+dts_gpeq_mode1_48k.bin, dts_gpeq_mode1_48k_1179078E.bin
+dts_gpeq_mode2_48k.bin, dts_gpeq_mode2_48k_1179078E.bin
+dts_gpeq_mode3_48k.bin, dts_gpeq_mode3_48k_1179078E.bin
+dts_gpeq_mode4_48k.bin, dts_gpeq_mode4_48k_1179078E.bin
+dts_gpeq_mode5_48k.bin, dts_gpeq_mode5_48k_1179078E.bin
+dts_gpeq_mode6_48k.bin, dts_gpeq_mode6_48k_1179078E.bin
+dts_gpeq_mode7_48k.bin, dts_gpeq_mode7_48k_1179078E.bin
+dts_gpeq_mode1_44k.bin, dts_gpeq_mode1_44k_1179078E.bin
+dts_gpeq_mode2_44k.bin, dts_gpeq_mode2_44k_1179078E.bin
+dts_gpeq_mode3_44k.bin, dts_gpeq_mode3_44k_1179078E.bin
+dts_gpeq_mode4_44k.bin, dts_gpeq_mode4_44k_1179078E.bin
+dts_gpeq_mode5_44k.bin, dts_gpeq_mode5_44k_1179078E.bin
+dts_gpeq_mode6_44k.bin, dts_gpeq_mode6_44k_1179078E.bin
+dts_gpeq_mode7_44k.bin, dts_gpeq_mode7_44k_1179078E.bin
+dts_hpeq_44k.bin, dts_hpeq_44k_1179078E.bin
+dts_hpeq_48k.bin, dts_hpeq_48k_1179078E.bin
+dts_gpeq_ext_spk_off_44k.bin, dts_gpeq_ext_spk_off_44k_1179078E.bin
+dts_gpeq_ext_spk_off_48k.bin, dts_gpeq_ext_spk_off_48k_1179078E.bin
+dts_gpeq_ext_spk_mode1_48k.bin, dts_gpeq_ext_spk_mode1_48k_1179078E.bin
+dts_gpeq_ext_spk_mode2_48k.bin, dts_gpeq_ext_spk_mode2_48k_1179078E.bin
+dts_gpeq_ext_spk_mode3_48k.bin, dts_gpeq_ext_spk_mode3_48k_1179078E.bin
+dts_gpeq_ext_spk_mode4_48k.bin, dts_gpeq_ext_spk_mode4_48k_1179078E.bin
+dts_gpeq_ext_spk_mode5_48k.bin, dts_gpeq_ext_spk_mode5_48k_1179078E.bin
+dts_gpeq_ext_spk_mode6_48k.bin, dts_gpeq_ext_spk_mode6_48k_1179078E.bin
+dts_gpeq_ext_spk_mode7_48k.bin, dts_gpeq_ext_spk_mode7_48k_1179078E.bin
+dts_gpeq_ext_spk_mode1_44k.bin, dts_gpeq_ext_spk_mode1_44k_1179078E.bin
+dts_gpeq_ext_spk_mode2_44k.bin, dts_gpeq_ext_spk_mode2_44k_1179078E.bin
+dts_gpeq_ext_spk_mode3_44k.bin, dts_gpeq_ext_spk_mode3_44k_1179078E.bin
+dts_gpeq_ext_spk_mode4_44k.bin, dts_gpeq_ext_spk_mode4_44k_1179078E.bin
+dts_gpeq_ext_spk_mode5_44k.bin, dts_gpeq_ext_spk_mode5_44k_1179078E.bin
+dts_gpeq_ext_spk_mode6_44k.bin, dts_gpeq_ext_spk_mode6_44k_1179078E.bin
+dts_gpeq_ext_spk_mode7_44k.bin, dts_gpeq_ext_spk_mode7_44k_1179078E.bin
+dts-postprocessing.lic, dts-postprocessing_1179078E.lic
+
+
+[TB31000001.CopyList]
+dts_apo4_oem_config.xml,  dts_apo4_oem_config_31000001.xml
+dts_ctc_blob.bin, dts_ctc_blob_31000001.bin
+dts_gpeq_44k.bin, dts_gpeq_44k_31000001.bin
+dts_gpeq_48k.bin, dts_gpeq_48k_31000001.bin
+dts_gpeq_off_44k.bin, dts_gpeq_off_44k_31000001.bin
+dts_gpeq_off_48k.bin, dts_gpeq_off_48k_31000001.bin
+dts_gpeq_mode1_48k.bin, dts_gpeq_mode1_48k_31000001.bin
+dts_gpeq_mode2_48k.bin, dts_gpeq_mode2_48k_31000001.bin
+dts_gpeq_mode3_48k.bin, dts_gpeq_mode3_48k_31000001.bin
+dts_gpeq_mode4_48k.bin, dts_gpeq_mode4_48k_31000001.bin
+dts_gpeq_mode5_48k.bin, dts_gpeq_mode5_48k_31000001.bin
+dts_gpeq_mode6_48k.bin, dts_gpeq_mode6_48k_31000001.bin
+dts_gpeq_mode7_48k.bin, dts_gpeq_mode7_48k_31000001.bin
+dts_gpeq_mode1_44k.bin, dts_gpeq_mode1_44k_31000001.bin
+dts_gpeq_mode2_44k.bin, dts_gpeq_mode2_44k_31000001.bin
+dts_gpeq_mode3_44k.bin, dts_gpeq_mode3_44k_31000001.bin
+dts_gpeq_mode4_44k.bin, dts_gpeq_mode4_44k_31000001.bin
+dts_gpeq_mode5_44k.bin, dts_gpeq_mode5_44k_31000001.bin
+dts_gpeq_mode6_44k.bin, dts_gpeq_mode6_44k_31000001.bin
+dts_gpeq_mode7_44k.bin, dts_gpeq_mode7_44k_31000001.bin
+dts_hpeq_44k.bin, dts_hpeq_44k_31000001.bin
+dts_hpeq_48k.bin, dts_hpeq_48k_31000001.bin
+dts_gpeq_ext_spk_off_44k.bin, dts_gpeq_ext_spk_off_44k_31000001.bin
+dts_gpeq_ext_spk_off_48k.bin, dts_gpeq_ext_spk_off_48k_31000001.bin
+dts_gpeq_ext_spk_mode1_48k.bin, dts_gpeq_ext_spk_mode1_48k_31000001.bin
+dts_gpeq_ext_spk_mode2_48k.bin, dts_gpeq_ext_spk_mode2_48k_31000001.bin
+dts_gpeq_ext_spk_mode3_48k.bin, dts_gpeq_ext_spk_mode3_48k_31000001.bin
+dts_gpeq_ext_spk_mode4_48k.bin, dts_gpeq_ext_spk_mode4_48k_31000001.bin
+dts_gpeq_ext_spk_mode5_48k.bin, dts_gpeq_ext_spk_mode5_48k_31000001.bin
+dts_gpeq_ext_spk_mode6_48k.bin, dts_gpeq_ext_spk_mode6_48k_31000001.bin
+dts_gpeq_ext_spk_mode7_48k.bin, dts_gpeq_ext_spk_mode7_48k_31000001.bin
+dts_gpeq_ext_spk_mode1_44k.bin, dts_gpeq_ext_spk_mode1_44k_31000001.bin
+dts_gpeq_ext_spk_mode2_44k.bin, dts_gpeq_ext_spk_mode2_44k_31000001.bin
+dts_gpeq_ext_spk_mode3_44k.bin, dts_gpeq_ext_spk_mode3_44k_31000001.bin
+dts_gpeq_ext_spk_mode4_44k.bin, dts_gpeq_ext_spk_mode4_44k_31000001.bin
+dts_gpeq_ext_spk_mode5_44k.bin, dts_gpeq_ext_spk_mode5_44k_31000001.bin
+dts_gpeq_ext_spk_mode6_44k.bin, dts_gpeq_ext_spk_mode6_44k_31000001.bin
+dts_gpeq_ext_spk_mode7_44k.bin, dts_gpeq_ext_spk_mode7_44k_31000001.bin
+dts-postprocessing.lic, dts-postprocessing_31000001.lic
+
+[TB31000007.CopyList]
+dts_apo4_oem_config.xml,  dts_apo4_oem_config_31000007.xml
+dts_ctc_blob.bin, dts_ctc_blob_31000007.bin
+dts_gpeq_44k.bin, dts_gpeq_44k_31000007.bin
+dts_gpeq_48k.bin, dts_gpeq_48k_31000007.bin
+dts_gpeq_off_44k.bin, dts_gpeq_off_44k_31000007.bin
+dts_gpeq_off_48k.bin, dts_gpeq_off_48k_31000007.bin
+dts_gpeq_mode1_48k.bin, dts_gpeq_mode1_48k_31000007.bin
+dts_gpeq_mode2_48k.bin, dts_gpeq_mode2_48k_31000007.bin
+dts_gpeq_mode3_48k.bin, dts_gpeq_mode3_48k_31000007.bin
+dts_gpeq_mode4_48k.bin, dts_gpeq_mode4_48k_31000007.bin
+dts_gpeq_mode5_48k.bin, dts_gpeq_mode5_48k_31000007.bin
+dts_gpeq_mode6_48k.bin, dts_gpeq_mode6_48k_31000007.bin
+dts_gpeq_mode7_48k.bin, dts_gpeq_mode7_48k_31000007.bin
+dts_gpeq_mode1_44k.bin, dts_gpeq_mode1_44k_31000007.bin
+dts_gpeq_mode2_44k.bin, dts_gpeq_mode2_44k_31000007.bin
+dts_gpeq_mode3_44k.bin, dts_gpeq_mode3_44k_31000007.bin
+dts_gpeq_mode4_44k.bin, dts_gpeq_mode4_44k_31000007.bin
+dts_gpeq_mode5_44k.bin, dts_gpeq_mode5_44k_31000007.bin
+dts_gpeq_mode6_44k.bin, dts_gpeq_mode6_44k_31000007.bin
+dts_gpeq_mode7_44k.bin, dts_gpeq_mode7_44k_31000007.bin
+dts_hpeq_44k.bin, dts_hpeq_44k_31000007.bin
+dts_hpeq_48k.bin, dts_hpeq_48k_31000007.bin
+dts_gpeq_ext_spk_off_44k.bin, dts_gpeq_ext_spk_off_44k_31000007.bin
+dts_gpeq_ext_spk_off_48k.bin, dts_gpeq_ext_spk_off_48k_31000007.bin
+dts_gpeq_ext_spk_mode1_48k.bin, dts_gpeq_ext_spk_mode1_48k_31000007.bin
+dts_gpeq_ext_spk_mode2_48k.bin, dts_gpeq_ext_spk_mode2_48k_31000007.bin
+dts_gpeq_ext_spk_mode3_48k.bin, dts_gpeq_ext_spk_mode3_48k_31000007.bin
+dts_gpeq_ext_spk_mode4_48k.bin, dts_gpeq_ext_spk_mode4_48k_31000007.bin
+dts_gpeq_ext_spk_mode5_48k.bin, dts_gpeq_ext_spk_mode5_48k_31000007.bin
+dts_gpeq_ext_spk_mode6_48k.bin, dts_gpeq_ext_spk_mode6_48k_31000007.bin
+dts_gpeq_ext_spk_mode7_48k.bin, dts_gpeq_ext_spk_mode7_48k_31000007.bin
+dts_gpeq_ext_spk_mode1_44k.bin, dts_gpeq_ext_spk_mode1_44k_31000007.bin
+dts_gpeq_ext_spk_mode2_44k.bin, dts_gpeq_ext_spk_mode2_44k_31000007.bin
+dts_gpeq_ext_spk_mode3_44k.bin, dts_gpeq_ext_spk_mode3_44k_31000007.bin
+dts_gpeq_ext_spk_mode4_44k.bin, dts_gpeq_ext_spk_mode4_44k_31000007.bin
+dts_gpeq_ext_spk_mode5_44k.bin, dts_gpeq_ext_spk_mode5_44k_31000007.bin
+dts_gpeq_ext_spk_mode6_44k.bin, dts_gpeq_ext_spk_mode6_44k_31000007.bin
+dts_gpeq_ext_spk_mode7_44k.bin, dts_gpeq_ext_spk_mode7_44k_31000007.bin
+dts-postprocessing.lic, dts-postprocessing_31000007.lic
+
+[TB31000013.CopyList]
+dts_apo4_oem_config.xml,  dts_apo4_oem_config_31000013.xml
+dts_ctc_blob.bin, dts_ctc_blob_31000013.bin
+dts_gpeq_44k.bin, dts_gpeq_44k_31000013.bin
+dts_gpeq_48k.bin, dts_gpeq_48k_31000013.bin
+dts_gpeq_off_44k.bin, dts_gpeq_off_44k_31000013.bin
+dts_gpeq_off_48k.bin, dts_gpeq_off_48k_31000013.bin
+dts_gpeq_mode1_48k.bin, dts_gpeq_mode1_48k_31000013.bin
+dts_gpeq_mode2_48k.bin, dts_gpeq_mode2_48k_31000013.bin
+dts_gpeq_mode3_48k.bin, dts_gpeq_mode3_48k_31000013.bin
+dts_gpeq_mode4_48k.bin, dts_gpeq_mode4_48k_31000013.bin
+dts_gpeq_mode5_48k.bin, dts_gpeq_mode5_48k_31000013.bin
+dts_gpeq_mode6_48k.bin, dts_gpeq_mode6_48k_31000013.bin
+dts_gpeq_mode7_48k.bin, dts_gpeq_mode7_48k_31000013.bin
+dts_gpeq_mode1_44k.bin, dts_gpeq_mode1_44k_31000013.bin
+dts_gpeq_mode2_44k.bin, dts_gpeq_mode2_44k_31000013.bin
+dts_gpeq_mode3_44k.bin, dts_gpeq_mode3_44k_31000013.bin
+dts_gpeq_mode4_44k.bin, dts_gpeq_mode4_44k_31000013.bin
+dts_gpeq_mode5_44k.bin, dts_gpeq_mode5_44k_31000013.bin
+dts_gpeq_mode6_44k.bin, dts_gpeq_mode6_44k_31000013.bin
+dts_gpeq_mode7_44k.bin, dts_gpeq_mode7_44k_31000013.bin
+dts_hpeq_44k.bin, dts_hpeq_44k_31000013.bin
+dts_hpeq_48k.bin, dts_hpeq_48k_31000013.bin
+dts_gpeq_ext_spk_off_44k.bin, dts_gpeq_ext_spk_off_44k_31000013.bin
+dts_gpeq_ext_spk_off_48k.bin, dts_gpeq_ext_spk_off_48k_31000013.bin
+dts_gpeq_ext_spk_mode1_48k.bin, dts_gpeq_ext_spk_mode1_48k_31000013.bin
+dts_gpeq_ext_spk_mode2_48k.bin, dts_gpeq_ext_spk_mode2_48k_31000013.bin
+dts_gpeq_ext_spk_mode3_48k.bin, dts_gpeq_ext_spk_mode3_48k_31000013.bin
+dts_gpeq_ext_spk_mode4_48k.bin, dts_gpeq_ext_spk_mode4_48k_31000013.bin
+dts_gpeq_ext_spk_mode5_48k.bin, dts_gpeq_ext_spk_mode5_48k_31000013.bin
+dts_gpeq_ext_spk_mode6_48k.bin, dts_gpeq_ext_spk_mode6_48k_31000013.bin
+dts_gpeq_ext_spk_mode7_48k.bin, dts_gpeq_ext_spk_mode7_48k_31000013.bin
+dts_gpeq_ext_spk_mode1_44k.bin, dts_gpeq_ext_spk_mode1_44k_31000013.bin
+dts_gpeq_ext_spk_mode2_44k.bin, dts_gpeq_ext_spk_mode2_44k_31000013.bin
+dts_gpeq_ext_spk_mode3_44k.bin, dts_gpeq_ext_spk_mode3_44k_31000013.bin
+dts_gpeq_ext_spk_mode4_44k.bin, dts_gpeq_ext_spk_mode4_44k_31000013.bin
+dts_gpeq_ext_spk_mode5_44k.bin, dts_gpeq_ext_spk_mode5_44k_31000013.bin
+dts_gpeq_ext_spk_mode6_44k.bin, dts_gpeq_ext_spk_mode6_44k_31000013.bin
+dts_gpeq_ext_spk_mode7_44k.bin, dts_gpeq_ext_spk_mode7_44k_31000013.bin
+dts-postprocessing.lic, dts-postprocessing_31000013.lic
+
+
+[TB11790786.CopyList]
+dts_apo4_oem_config.xml,  dts_apo4_oem_config_11790786.xml
+dts_ctc_blob.bin, dts_ctc_blob_11790786.bin
+dts_gpeq_44k.bin, dts_gpeq_44k_11790786.bin
+dts_gpeq_48k.bin, dts_gpeq_48k_11790786.bin
+dts_gpeq_off_44k.bin, dts_gpeq_off_44k_11790786.bin
+dts_gpeq_off_48k.bin, dts_gpeq_off_48k_11790786.bin
+dts_gpeq_mode1_48k.bin, dts_gpeq_mode1_48k_11790786.bin
+dts_gpeq_mode2_48k.bin, dts_gpeq_mode2_48k_11790786.bin
+dts_gpeq_mode3_48k.bin, dts_gpeq_mode3_48k_11790786.bin
+dts_gpeq_mode4_48k.bin, dts_gpeq_mode4_48k_11790786.bin
+dts_gpeq_mode5_48k.bin, dts_gpeq_mode5_48k_11790786.bin
+dts_gpeq_mode6_48k.bin, dts_gpeq_mode6_48k_11790786.bin
+dts_gpeq_mode7_48k.bin, dts_gpeq_mode7_48k_11790786.bin
+dts_gpeq_mode1_44k.bin, dts_gpeq_mode1_44k_11790786.bin
+dts_gpeq_mode2_44k.bin, dts_gpeq_mode2_44k_11790786.bin
+dts_gpeq_mode3_44k.bin, dts_gpeq_mode3_44k_11790786.bin
+dts_gpeq_mode4_44k.bin, dts_gpeq_mode4_44k_11790786.bin
+dts_gpeq_mode5_44k.bin, dts_gpeq_mode5_44k_11790786.bin
+dts_gpeq_mode6_44k.bin, dts_gpeq_mode6_44k_11790786.bin
+dts_gpeq_mode7_44k.bin, dts_gpeq_mode7_44k_11790786.bin
+dts_hpeq_44k.bin, dts_hpeq_44k_11790786.bin
+dts_hpeq_48k.bin, dts_hpeq_48k_11790786.bin
+dts_gpeq_ext_spk_off_44k.bin, dts_gpeq_ext_spk_off_44k_11790786.bin
+dts_gpeq_ext_spk_off_48k.bin, dts_gpeq_ext_spk_off_48k_11790786.bin
+dts_gpeq_ext_spk_mode1_48k.bin, dts_gpeq_ext_spk_mode1_48k_11790786.bin
+dts_gpeq_ext_spk_mode2_48k.bin, dts_gpeq_ext_spk_mode2_48k_11790786.bin
+dts_gpeq_ext_spk_mode3_48k.bin, dts_gpeq_ext_spk_mode3_48k_11790786.bin
+dts_gpeq_ext_spk_mode4_48k.bin, dts_gpeq_ext_spk_mode4_48k_11790786.bin
+dts_gpeq_ext_spk_mode5_48k.bin, dts_gpeq_ext_spk_mode5_48k_11790786.bin
+dts_gpeq_ext_spk_mode6_48k.bin, dts_gpeq_ext_spk_mode6_48k_11790786.bin
+dts_gpeq_ext_spk_mode7_48k.bin, dts_gpeq_ext_spk_mode7_48k_11790786.bin
+dts_gpeq_ext_spk_mode1_44k.bin, dts_gpeq_ext_spk_mode1_44k_11790786.bin
+dts_gpeq_ext_spk_mode2_44k.bin, dts_gpeq_ext_spk_mode2_44k_11790786.bin
+dts_gpeq_ext_spk_mode3_44k.bin, dts_gpeq_ext_spk_mode3_44k_11790786.bin
+dts_gpeq_ext_spk_mode4_44k.bin, dts_gpeq_ext_spk_mode4_44k_11790786.bin
+dts_gpeq_ext_spk_mode5_44k.bin, dts_gpeq_ext_spk_mode5_44k_11790786.bin
+dts_gpeq_ext_spk_mode6_44k.bin, dts_gpeq_ext_spk_mode6_44k_11790786.bin
+dts_gpeq_ext_spk_mode7_44k.bin, dts_gpeq_ext_spk_mode7_44k_11790786.bin
+dts-postprocessing.lic, dts-postprocessing_11790786.lic
+
+[TB11790788.CopyList]
+dts_apo4_oem_config.xml,  dts_apo4_oem_config_11790788.xml
+dts_ctc_blob.bin, dts_ctc_blob_11790788.bin
+dts_gpeq_44k.bin, dts_gpeq_44k_11790788.bin
+dts_gpeq_48k.bin, dts_gpeq_48k_11790788.bin
+dts_gpeq_off_44k.bin, dts_gpeq_off_44k_11790788.bin
+dts_gpeq_off_48k.bin, dts_gpeq_off_48k_11790788.bin
+dts_gpeq_mode1_48k.bin, dts_gpeq_mode1_48k_11790788.bin
+dts_gpeq_mode2_48k.bin, dts_gpeq_mode2_48k_11790788.bin
+dts_gpeq_mode3_48k.bin, dts_gpeq_mode3_48k_11790788.bin
+dts_gpeq_mode4_48k.bin, dts_gpeq_mode4_48k_11790788.bin
+dts_gpeq_mode5_48k.bin, dts_gpeq_mode5_48k_11790788.bin
+dts_gpeq_mode6_48k.bin, dts_gpeq_mode6_48k_11790788.bin
+dts_gpeq_mode7_48k.bin, dts_gpeq_mode7_48k_11790788.bin
+dts_gpeq_mode1_44k.bin, dts_gpeq_mode1_44k_11790788.bin
+dts_gpeq_mode2_44k.bin, dts_gpeq_mode2_44k_11790788.bin
+dts_gpeq_mode3_44k.bin, dts_gpeq_mode3_44k_11790788.bin
+dts_gpeq_mode4_44k.bin, dts_gpeq_mode4_44k_11790788.bin
+dts_gpeq_mode5_44k.bin, dts_gpeq_mode5_44k_11790788.bin
+dts_gpeq_mode6_44k.bin, dts_gpeq_mode6_44k_11790788.bin
+dts_gpeq_mode7_44k.bin, dts_gpeq_mode7_44k_11790788.bin
+dts_hpeq_44k.bin, dts_hpeq_44k_11790788.bin
+dts_hpeq_48k.bin, dts_hpeq_48k_11790788.bin
+dts_gpeq_ext_spk_off_44k.bin, dts_gpeq_ext_spk_off_44k_11790788.bin
+dts_gpeq_ext_spk_off_48k.bin, dts_gpeq_ext_spk_off_48k_11790788.bin
+dts_gpeq_ext_spk_mode1_48k.bin, dts_gpeq_ext_spk_mode1_48k_11790788.bin
+dts_gpeq_ext_spk_mode2_48k.bin, dts_gpeq_ext_spk_mode2_48k_11790788.bin
+dts_gpeq_ext_spk_mode3_48k.bin, dts_gpeq_ext_spk_mode3_48k_11790788.bin
+dts_gpeq_ext_spk_mode4_48k.bin, dts_gpeq_ext_spk_mode4_48k_11790788.bin
+dts_gpeq_ext_spk_mode5_48k.bin, dts_gpeq_ext_spk_mode5_48k_11790788.bin
+dts_gpeq_ext_spk_mode6_48k.bin, dts_gpeq_ext_spk_mode6_48k_11790788.bin
+dts_gpeq_ext_spk_mode7_48k.bin, dts_gpeq_ext_spk_mode7_48k_11790788.bin
+dts_gpeq_ext_spk_mode1_44k.bin, dts_gpeq_ext_spk_mode1_44k_11790788.bin
+dts_gpeq_ext_spk_mode2_44k.bin, dts_gpeq_ext_spk_mode2_44k_11790788.bin
+dts_gpeq_ext_spk_mode3_44k.bin, dts_gpeq_ext_spk_mode3_44k_11790788.bin
+dts_gpeq_ext_spk_mode4_44k.bin, dts_gpeq_ext_spk_mode4_44k_11790788.bin
+dts_gpeq_ext_spk_mode5_44k.bin, dts_gpeq_ext_spk_mode5_44k_11790788.bin
+dts_gpeq_ext_spk_mode6_44k.bin, dts_gpeq_ext_spk_mode6_44k_11790788.bin
+dts_gpeq_ext_spk_mode7_44k.bin, dts_gpeq_ext_spk_mode7_44k_11790788.bin
+dts-postprocessing.lic, dts-postprocessing_11790788.lic
+
+[TB3100002B.CopyList]
+dts_apo4_oem_config.xml,  dts_apo4_oem_config_3100002B.xml
+dts_ctc_blob.bin, dts_ctc_blob_3100002B.bin
+dts_gpeq_44k.bin, dts_gpeq_44k_3100002B.bin
+dts_gpeq_48k.bin, dts_gpeq_48k_3100002B.bin
+dts_gpeq_off_44k.bin, dts_gpeq_off_44k_3100002B.bin
+dts_gpeq_off_48k.bin, dts_gpeq_off_48k_3100002B.bin
+dts_gpeq_mode1_48k.bin, dts_gpeq_mode1_48k_3100002B.bin
+dts_gpeq_mode2_48k.bin, dts_gpeq_mode2_48k_3100002B.bin
+dts_gpeq_mode3_48k.bin, dts_gpeq_mode3_48k_3100002B.bin
+dts_gpeq_mode4_48k.bin, dts_gpeq_mode4_48k_3100002B.bin
+dts_gpeq_mode5_48k.bin, dts_gpeq_mode5_48k_3100002B.bin
+dts_gpeq_mode6_48k.bin, dts_gpeq_mode6_48k_3100002B.bin
+dts_gpeq_mode7_48k.bin, dts_gpeq_mode7_48k_3100002B.bin
+dts_gpeq_mode1_44k.bin, dts_gpeq_mode1_44k_3100002B.bin
+dts_gpeq_mode2_44k.bin, dts_gpeq_mode2_44k_3100002B.bin
+dts_gpeq_mode3_44k.bin, dts_gpeq_mode3_44k_3100002B.bin
+dts_gpeq_mode4_44k.bin, dts_gpeq_mode4_44k_3100002B.bin
+dts_gpeq_mode5_44k.bin, dts_gpeq_mode5_44k_3100002B.bin
+dts_gpeq_mode6_44k.bin, dts_gpeq_mode6_44k_3100002B.bin
+dts_gpeq_mode7_44k.bin, dts_gpeq_mode7_44k_3100002B.bin
+dts_hpeq_44k.bin, dts_hpeq_44k_3100002B.bin
+dts_hpeq_48k.bin, dts_hpeq_48k_3100002B.bin
+dts_gpeq_ext_spk_off_44k.bin, dts_gpeq_ext_spk_off_44k_3100002B.bin
+dts_gpeq_ext_spk_off_48k.bin, dts_gpeq_ext_spk_off_48k_3100002B.bin
+dts_gpeq_ext_spk_mode1_48k.bin, dts_gpeq_ext_spk_mode1_48k_3100002B.bin
+dts_gpeq_ext_spk_mode2_48k.bin, dts_gpeq_ext_spk_mode2_48k_3100002B.bin
+dts_gpeq_ext_spk_mode3_48k.bin, dts_gpeq_ext_spk_mode3_48k_3100002B.bin
+dts_gpeq_ext_spk_mode4_48k.bin, dts_gpeq_ext_spk_mode4_48k_3100002B.bin
+dts_gpeq_ext_spk_mode5_48k.bin, dts_gpeq_ext_spk_mode5_48k_3100002B.bin
+dts_gpeq_ext_spk_mode6_48k.bin, dts_gpeq_ext_spk_mode6_48k_3100002B.bin
+dts_gpeq_ext_spk_mode7_48k.bin, dts_gpeq_ext_spk_mode7_48k_3100002B.bin
+dts_gpeq_ext_spk_mode1_44k.bin, dts_gpeq_ext_spk_mode1_44k_3100002B.bin
+dts_gpeq_ext_spk_mode2_44k.bin, dts_gpeq_ext_spk_mode2_44k_3100002B.bin
+dts_gpeq_ext_spk_mode3_44k.bin, dts_gpeq_ext_spk_mode3_44k_3100002B.bin
+dts_gpeq_ext_spk_mode4_44k.bin, dts_gpeq_ext_spk_mode4_44k_3100002B.bin
+dts_gpeq_ext_spk_mode5_44k.bin, dts_gpeq_ext_spk_mode5_44k_3100002B.bin
+dts_gpeq_ext_spk_mode6_44k.bin, dts_gpeq_ext_spk_mode6_44k_3100002B.bin
+dts_gpeq_ext_spk_mode7_44k.bin, dts_gpeq_ext_spk_mode7_44k_3100002B.bin
+dts-postprocessing.lic, dts-postprocessing_3100002B.lic
+
+[TB3100001B.CopyList]
+dts_apo4_oem_config.xml,  dts_apo4_oem_config_3100001B.xml
+dts_ctc_blob.bin, dts_ctc_blob_3100001B.bin
+dts_gpeq_44k.bin, dts_gpeq_44k_3100001B.bin
+dts_gpeq_48k.bin, dts_gpeq_48k_3100001B.bin
+dts_gpeq_off_44k.bin, dts_gpeq_off_44k_3100001B.bin
+dts_gpeq_off_48k.bin, dts_gpeq_off_48k_3100001B.bin
+dts_gpeq_mode1_48k.bin, dts_gpeq_mode1_48k_3100001B.bin
+dts_gpeq_mode2_48k.bin, dts_gpeq_mode2_48k_3100001B.bin
+dts_gpeq_mode3_48k.bin, dts_gpeq_mode3_48k_3100001B.bin
+dts_gpeq_mode4_48k.bin, dts_gpeq_mode4_48k_3100001B.bin
+dts_gpeq_mode5_48k.bin, dts_gpeq_mode5_48k_3100001B.bin
+dts_gpeq_mode6_48k.bin, dts_gpeq_mode6_48k_3100001B.bin
+dts_gpeq_mode7_48k.bin, dts_gpeq_mode7_48k_3100001B.bin
+dts_gpeq_mode1_44k.bin, dts_gpeq_mode1_44k_3100001B.bin
+dts_gpeq_mode2_44k.bin, dts_gpeq_mode2_44k_3100001B.bin
+dts_gpeq_mode3_44k.bin, dts_gpeq_mode3_44k_3100001B.bin
+dts_gpeq_mode4_44k.bin, dts_gpeq_mode4_44k_3100001B.bin
+dts_gpeq_mode5_44k.bin, dts_gpeq_mode5_44k_3100001B.bin
+dts_gpeq_mode6_44k.bin, dts_gpeq_mode6_44k_3100001B.bin
+dts_gpeq_mode7_44k.bin, dts_gpeq_mode7_44k_3100001B.bin
+dts_hpeq_44k.bin, dts_hpeq_44k_3100001B.bin
+dts_hpeq_48k.bin, dts_hpeq_48k_3100001B.bin
+dts_gpeq_ext_spk_off_44k.bin, dts_gpeq_ext_spk_off_44k_3100001B.bin
+dts_gpeq_ext_spk_off_48k.bin, dts_gpeq_ext_spk_off_48k_3100001B.bin
+dts_gpeq_ext_spk_mode1_48k.bin, dts_gpeq_ext_spk_mode1_48k_3100001B.bin
+dts_gpeq_ext_spk_mode2_48k.bin, dts_gpeq_ext_spk_mode2_48k_3100001B.bin
+dts_gpeq_ext_spk_mode3_48k.bin, dts_gpeq_ext_spk_mode3_48k_3100001B.bin
+dts_gpeq_ext_spk_mode4_48k.bin, dts_gpeq_ext_spk_mode4_48k_3100001B.bin
+dts_gpeq_ext_spk_mode5_48k.bin, dts_gpeq_ext_spk_mode5_48k_3100001B.bin
+dts_gpeq_ext_spk_mode6_48k.bin, dts_gpeq_ext_spk_mode6_48k_3100001B.bin
+dts_gpeq_ext_spk_mode7_48k.bin, dts_gpeq_ext_spk_mode7_48k_3100001B.bin
+dts_gpeq_ext_spk_mode1_44k.bin, dts_gpeq_ext_spk_mode1_44k_3100001B.bin
+dts_gpeq_ext_spk_mode2_44k.bin, dts_gpeq_ext_spk_mode2_44k_3100001B.bin
+dts_gpeq_ext_spk_mode3_44k.bin, dts_gpeq_ext_spk_mode3_44k_3100001B.bin
+dts_gpeq_ext_spk_mode4_44k.bin, dts_gpeq_ext_spk_mode4_44k_3100001B.bin
+dts_gpeq_ext_spk_mode5_44k.bin, dts_gpeq_ext_spk_mode5_44k_3100001B.bin
+dts_gpeq_ext_spk_mode6_44k.bin, dts_gpeq_ext_spk_mode6_44k_3100001B.bin
+dts_gpeq_ext_spk_mode7_44k.bin, dts_gpeq_ext_spk_mode7_44k_3100001B.bin
+dts-postprocessing.lic, dts-postprocessing_3100001B.lic
+
+[TB3100001F.CopyList]
+dts_apo4_oem_config.xml,  dts_apo4_oem_config_3100001F.xml
+dts_ctc_blob.bin, dts_ctc_blob_3100001F.bin
+dts_gpeq_44k.bin, dts_gpeq_44k_3100001F.bin
+dts_gpeq_48k.bin, dts_gpeq_48k_3100001F.bin
+dts_gpeq_off_44k.bin, dts_gpeq_off_44k_3100001F.bin
+dts_gpeq_off_48k.bin, dts_gpeq_off_48k_3100001F.bin
+dts_gpeq_mode1_48k.bin, dts_gpeq_mode1_48k_3100001F.bin
+dts_gpeq_mode2_48k.bin, dts_gpeq_mode2_48k_3100001F.bin
+dts_gpeq_mode3_48k.bin, dts_gpeq_mode3_48k_3100001F.bin
+dts_gpeq_mode4_48k.bin, dts_gpeq_mode4_48k_3100001F.bin
+dts_gpeq_mode5_48k.bin, dts_gpeq_mode5_48k_3100001F.bin
+dts_gpeq_mode6_48k.bin, dts_gpeq_mode6_48k_3100001F.bin
+dts_gpeq_mode7_48k.bin, dts_gpeq_mode7_48k_3100001F.bin
+dts_gpeq_mode1_44k.bin, dts_gpeq_mode1_44k_3100001F.bin
+dts_gpeq_mode2_44k.bin, dts_gpeq_mode2_44k_3100001F.bin
+dts_gpeq_mode3_44k.bin, dts_gpeq_mode3_44k_3100001F.bin
+dts_gpeq_mode4_44k.bin, dts_gpeq_mode4_44k_3100001F.bin
+dts_gpeq_mode5_44k.bin, dts_gpeq_mode5_44k_3100001F.bin
+dts_gpeq_mode6_44k.bin, dts_gpeq_mode6_44k_3100001F.bin
+dts_gpeq_mode7_44k.bin, dts_gpeq_mode7_44k_3100001F.bin
+dts_hpeq_44k.bin, dts_hpeq_44k_3100001F.bin
+dts_hpeq_48k.bin, dts_hpeq_48k_3100001F.bin
+dts_gpeq_ext_spk_off_44k.bin, dts_gpeq_ext_spk_off_44k_3100001F.bin
+dts_gpeq_ext_spk_off_48k.bin, dts_gpeq_ext_spk_off_48k_3100001F.bin
+dts_gpeq_ext_spk_mode1_48k.bin, dts_gpeq_ext_spk_mode1_48k_3100001F.bin
+dts_gpeq_ext_spk_mode2_48k.bin, dts_gpeq_ext_spk_mode2_48k_3100001F.bin
+dts_gpeq_ext_spk_mode3_48k.bin, dts_gpeq_ext_spk_mode3_48k_3100001F.bin
+dts_gpeq_ext_spk_mode4_48k.bin, dts_gpeq_ext_spk_mode4_48k_3100001F.bin
+dts_gpeq_ext_spk_mode5_48k.bin, dts_gpeq_ext_spk_mode5_48k_3100001F.bin
+dts_gpeq_ext_spk_mode6_48k.bin, dts_gpeq_ext_spk_mode6_48k_3100001F.bin
+dts_gpeq_ext_spk_mode7_48k.bin, dts_gpeq_ext_spk_mode7_48k_3100001F.bin
+dts_gpeq_ext_spk_mode1_44k.bin, dts_gpeq_ext_spk_mode1_44k_3100001F.bin
+dts_gpeq_ext_spk_mode2_44k.bin, dts_gpeq_ext_spk_mode2_44k_3100001F.bin
+dts_gpeq_ext_spk_mode3_44k.bin, dts_gpeq_ext_spk_mode3_44k_3100001F.bin
+dts_gpeq_ext_spk_mode4_44k.bin, dts_gpeq_ext_spk_mode4_44k_3100001F.bin
+dts_gpeq_ext_spk_mode5_44k.bin, dts_gpeq_ext_spk_mode5_44k_3100001F.bin
+dts_gpeq_ext_spk_mode6_44k.bin, dts_gpeq_ext_spk_mode6_44k_3100001F.bin
+dts_gpeq_ext_spk_mode7_44k.bin, dts_gpeq_ext_spk_mode7_44k_3100001F.bin
+dts-postprocessing.lic, dts-postprocessing_3100001F.lic
+
+[TB31000033.CopyList]
+dts_apo4_oem_config.xml,  dts_apo4_oem_config_31000033.xml
+dts_ctc_blob.bin, dts_ctc_blob_31000033.bin
+dts_gpeq_44k.bin, dts_gpeq_44k_31000033.bin
+dts_gpeq_48k.bin, dts_gpeq_48k_31000033.bin
+dts_gpeq_off_44k.bin, dts_gpeq_off_44k_31000033.bin
+dts_gpeq_off_48k.bin, dts_gpeq_off_48k_31000033.bin
+dts_gpeq_mode1_48k.bin, dts_gpeq_mode1_48k_31000033.bin
+dts_gpeq_mode2_48k.bin, dts_gpeq_mode2_48k_31000033.bin
+dts_gpeq_mode3_48k.bin, dts_gpeq_mode3_48k_31000033.bin
+dts_gpeq_mode4_48k.bin, dts_gpeq_mode4_48k_31000033.bin
+dts_gpeq_mode5_48k.bin, dts_gpeq_mode5_48k_31000033.bin
+dts_gpeq_mode6_48k.bin, dts_gpeq_mode6_48k_31000033.bin
+dts_gpeq_mode7_48k.bin, dts_gpeq_mode7_48k_31000033.bin
+dts_gpeq_mode1_44k.bin, dts_gpeq_mode1_44k_31000033.bin
+dts_gpeq_mode2_44k.bin, dts_gpeq_mode2_44k_31000033.bin
+dts_gpeq_mode3_44k.bin, dts_gpeq_mode3_44k_31000033.bin
+dts_gpeq_mode4_44k.bin, dts_gpeq_mode4_44k_31000033.bin
+dts_gpeq_mode5_44k.bin, dts_gpeq_mode5_44k_31000033.bin
+dts_gpeq_mode6_44k.bin, dts_gpeq_mode6_44k_31000033.bin
+dts_gpeq_mode7_44k.bin, dts_gpeq_mode7_44k_31000033.bin
+dts_hpeq_44k.bin, dts_hpeq_44k_31000033.bin
+dts_hpeq_48k.bin, dts_hpeq_48k_31000033.bin
+dts_gpeq_ext_spk_off_44k.bin, dts_gpeq_ext_spk_off_44k_31000033.bin
+dts_gpeq_ext_spk_off_48k.bin, dts_gpeq_ext_spk_off_48k_31000033.bin
+dts_gpeq_ext_spk_mode1_48k.bin, dts_gpeq_ext_spk_mode1_48k_31000033.bin
+dts_gpeq_ext_spk_mode2_48k.bin, dts_gpeq_ext_spk_mode2_48k_31000033.bin
+dts_gpeq_ext_spk_mode3_48k.bin, dts_gpeq_ext_spk_mode3_48k_31000033.bin
+dts_gpeq_ext_spk_mode4_48k.bin, dts_gpeq_ext_spk_mode4_48k_31000033.bin
+dts_gpeq_ext_spk_mode5_48k.bin, dts_gpeq_ext_spk_mode5_48k_31000033.bin
+dts_gpeq_ext_spk_mode6_48k.bin, dts_gpeq_ext_spk_mode6_48k_31000033.bin
+dts_gpeq_ext_spk_mode7_48k.bin, dts_gpeq_ext_spk_mode7_48k_31000033.bin
+dts_gpeq_ext_spk_mode1_44k.bin, dts_gpeq_ext_spk_mode1_44k_31000033.bin
+dts_gpeq_ext_spk_mode2_44k.bin, dts_gpeq_ext_spk_mode2_44k_31000033.bin
+dts_gpeq_ext_spk_mode3_44k.bin, dts_gpeq_ext_spk_mode3_44k_31000033.bin
+dts_gpeq_ext_spk_mode4_44k.bin, dts_gpeq_ext_spk_mode4_44k_31000033.bin
+dts_gpeq_ext_spk_mode5_44k.bin, dts_gpeq_ext_spk_mode5_44k_31000033.bin
+dts_gpeq_ext_spk_mode6_44k.bin, dts_gpeq_ext_spk_mode6_44k_31000033.bin
+dts_gpeq_ext_spk_mode7_44k.bin, dts_gpeq_ext_spk_mode7_44k_31000033.bin
+dts-postprocessing.lic, dts-postprocessing_31000033.lic
+
+[Manufacturer]
+%OEM% = DeviceExtensions,NTamd64
+
+[DeviceExtensions.NTamd64]
+%Device.ExtensionDesc% = TB1179078E,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_1179078E
+%Device.ExtensionDesc% = TB1179078E,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_11790790
+
+%Device.ExtensionDesc% = TB31000001,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_31000001
+%Device.ExtensionDesc% = TB31000001,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_31000005
+
+%Device.ExtensionDesc% = TB31000007,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_31000007
+%Device.ExtensionDesc% = TB31000007,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_31000009
+%Device.ExtensionDesc% = TB31000007,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_3100000B
+
+%Device.ExtensionDesc% = TB31000013,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_31000013
+%Device.ExtensionDesc% = TB31000013,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_31000017
+
+%Device.ExtensionDesc% = TB11790786,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_11790786
+
+%Device.ExtensionDesc% = TB11790788,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_11790788
+%Device.ExtensionDesc% = TB11790788,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_1179078A
+%Device.ExtensionDesc% = TB11790788,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_1179078C
+
+%Device.ExtensionDesc% = TB3100002B,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_3100002B
+%Device.ExtensionDesc% = TB3100002B,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_3100002D
+
+%Device.ExtensionDesc% = TB3100001B,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_3100001B
+%Device.ExtensionDesc% = TB3100001B,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_3100001D
+
+%Device.ExtensionDesc% = TB3100001F,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_3100001F
+%Device.ExtensionDesc% = TB3100001F,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_31000021
+
+%Device.ExtensionDesc% = TB31000033,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_31000033
+%Device.ExtensionDesc% = TB31000033,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_31000035
+%Device.ExtensionDesc% = TB31000033,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_3100003B
+%Device.ExtensionDesc% = TB31000033,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_3100003D
+
+[TB31000033]
+CopyFiles = TB31000033.CopyList
+AddReg = PresetAddReg
+
+[TB31000033.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSService,,DTSService_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+[TB3100001F]
+CopyFiles = TB3100001F.CopyList
+AddReg = PresetAddReg
+
+[TB3100001F.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSService,,DTSService_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+[TB3100001B]
+CopyFiles = TB3100001B.CopyList
+AddReg = PresetAddReg
+
+[TB3100001B.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSService,,DTSService_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+[TB3100002B]
+CopyFiles = TB3100002B.CopyList
+AddReg = PresetAddReg
+
+[TB3100002B.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSService,,DTSService_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+[TB11790788]
+CopyFiles = TB11790788.CopyList
+AddReg = PresetAddReg
+
+[TB11790788.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSService,,DTSService_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+[TB11790786]
+CopyFiles = TB11790786.CopyList
+AddReg = PresetAddReg
+
+[TB11790786.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSService,,DTSService_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+[TB31000013]
+CopyFiles = TB31000013.CopyList
+AddReg = PresetAddReg
+
+[TB31000013.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSService,,DTSService_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+
+[TB31000007]
+CopyFiles = TB31000007.CopyList
+AddReg = PresetAddReg
+
+[TB31000007.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSService,,DTSService_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+[TB31000001]
+CopyFiles = TB31000001.CopyList
+AddReg = PresetAddReg
+
+[TB31000001.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSService,,DTSService_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+
+
+[TB1179078E]
+CopyFiles = TB1179078E.CopyList
+AddReg = PresetAddReg
+
+[TB1179078E.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSService,,DTSService_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+
+
+
+[PresetAddReg]
+;; render endpoint settings
+HKR,InterfaceSetting,PrimaryLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                  ;; PrimaryLineOutTopo stands for Speakers(or Redirected headphone/speaker) endpoint
+HKR,InterfaceSetting,SingleLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                   ;; SingleLineOutTopo stands for Speakers(or Redirected headphone/speaker) endpoint
+HKR,InterfaceSetting,SecondaryLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                ;; SecondaryLineOutTopo stands for Headphone endpoint
+HKR,InterfaceSetting,RearLineOutTopoSST,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                  ;; RearLineOutTopoSST stands for Speakers(or Redirected headphone/speaker) endpoint with audio offloading DSP supported
+HKR,InterfaceSetting,RearLineOutTopoSST2,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                 ;; RearLineOutTopoSST2 stands for Speakers(or Redirected headphone/speaker) endpoint with audio offloading DSP supported
+HKR,InterfaceSetting,RearLineOutTopoSST3,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                 ;; RearLineOutTopoSST3 stands for Headphone endpoint with audio offloading DSP supported
+HKR,InterfaceSetting,RearLineOutTopoDock,%REG_MULTI_SZ_APPEND%,"ApoPreset1"   
+;; Preset values in property store
+;;HKR,InterfaceSetting\ApoPreset1\EP\0, "{7A8B74C8-FA66-4460-8542-D6119C59E9D4},2", %REG_SZ%, "C:\Windows\System32\DTS\PC\APO4x\dts_apo4_oem_config.xml"  
+HKR,InterfaceSetting\ApoPreset1\EP\0, "{7A8B74C8-FA66-4460-8542-D6119C59E9D4},4", %REG_DWORD%, 0x100  ;; DTS APO on Realtek
+
+
+
+[DTSAPO_Install]
+ComponentIDs = VEN_DTSI&AID_DTSI2
+Description = "DTS Audio Effects Component"
+
+[DTSService_Install]
+ComponentIDs = VEN_DTSI&HID_DTSIAPO4xSERVICE
+Description = "DTS APO4x Service Component"
+
+[DTSHSA_Install]
+ComponentIDs = VEN_DTSI&HID_DTSIDAP
+Description = "DTS Audio Hardware Support Application"
+
+[Strings]
+OEM                  = "DTS"
+Device.ExtensionDesc = "OEM Device Extension"
+DiskId1              = "OEM Audio Device Extension Installation Disk (DTS)"
+
+REG_SZ = 0x00000000
+REG_BINARY = 0x00000001
+REG_DWORD = 0x00010001
+REG_MULTI_SZ = 0x00010000
+REG_MULTI_SZ_APPEND = 0x00010008

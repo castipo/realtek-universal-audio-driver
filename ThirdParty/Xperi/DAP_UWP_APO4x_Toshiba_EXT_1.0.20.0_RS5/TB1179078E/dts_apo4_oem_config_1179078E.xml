@@ -1,0 +1,1785 @@
+<?xml version="1.0" encoding="utf-8"?>
+<srs_configuration>
+	<properties>
+		<control name="Product Name">DTS Audio Processing</control>
+		<control name="APO4-Operating Mode">APO4-Music</control>
+		<control name="APO4-Speaker Type">APO4-Internal Stereo</control>
+		<control name="APO4-Process Enable" public="true">1</control>
+		<control name="APO4-Auto Content Mode Enable">0</control>
+		<control name="APO4-ContentMode-Default">APO4-Music</control>
+		<control name="APO4-ContentMode-Media">APO4-Music</control>
+		<control name="APO4-ContentMode-Movie">APO4-Movie</control>
+		<control name="APO4-ContentMode-Notification">APO4-Music</control>
+		<control name="APO4-ContentMode-Communications">APO4-Voice</control>
+		<control name="SSID">00000000</control>
+	</properties>
+	
+	<operating_mode>
+		<control name="APO4-Operating Mode">APO4-Off</control>
+		<control name="APO4-Speaker Type">APO4-Internal Stereo</control>
+    <control name="APO4-OperatingMode-LastSetMode" public="true">APO4-Music</control>
+		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
+		<!-- Start Eagle EFX controls -->
+		<control name="Eagle-Output Device">0</control>
+		<control name="SFX:Eagle-PreDownMixer Enable" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Left Delay" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Right Delay" public="true">0</control>
+		<!-- Start SFX controls -->
+		<control name="SFX:Eagle-Bypass Enable" public="true">1</control>
+		<control name="SFX:Eagle-TBHDX Enable">0</control>
+		<control name="SFX:Eagle-AEQ Enable">0</control>
+		<control name="SFX:Eagle-MBHL Enable">0</control>
+		<!-- Start EFX controls -->
+		<control name="EFX:Eagle-TBHDX Enable">0</control>
+		<control name="EFX:Eagle-HPF Enable" public="true">1</control>
+		<control name="EFX:Eagle-HPF Freq" public="true">120</control>
+		<control name="EFX:Eagle-HPF Order" public="true">6</control>
+		<!-- MBHL -->
+		<!-- Eagle-MBHL Controls  -->
+		<control name="EFX:Eagle-MBHL Enable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Output Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Anticlip Enable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Anticlip Level" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Comp Attack" public="true">1</control>
+		<control name="EFX:Eagle-MBHL Comp Low Decay" public="true">1000</control>
+		<control name="EFX:Eagle-MBHL Comp Mid Decay" public="true">500</control>
+		<control name="EFX:Eagle-MBHL Comp High Decay" public="true">200</control>
+		<control name="EFX:Eagle-MBHL Low Ratio" public="true">4</control>
+		<control name="EFX:Eagle-MBHL Mid Ratio" public="true">4</control>
+		<control name="EFX:Eagle-MBHL High Ratio" public="true">4</control>
+		<control name="EFX:Eagle-MBHL Mode" public="true">Eagle-HL Only Mode</control>
+		<control name="EFX:Eagle-MBHL Boost" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Low Cross" public="true">600</control>
+		<control name="EFX:Eagle-MBHL Mid Cross" public="true">4000</control>
+		<control name="EFX:Eagle-MBHL Low Thresh" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Mid Thresh" public="true">0</control>
+		<control name="EFX:Eagle-MBHL High Thresh" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Low Makeup Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Mid Makeup Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL High Makeup Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Custom Low Cross" public="true">600</control>
+		<control name="EFX:Eagle-MBHL Custom Mid Cross" public="true">4000</control>
+		<control name="EFX:Eagle-AEQ Enable" public="true">1</control>
+		<control name="EFX:Eagle-AEQ Input Gain" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Output Gain" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Bypass Gain" public="true">0</control>
+		<control name="EFX:Eagle-GPEQ Blob 48k">dts_gpeq_off_48k.bin</control>
+		<control name="EFX:Eagle-GPEQ Blob 44k">dts_gpeq_off_44k.bin</control>
+		<chain_v2 position="SFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="SFX"/>
+		</chain_v2>
+		<chain_v2 position="OSFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="OSFX"/>
+		</chain_v2>
+		<chain_v2 position="EFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="EFX"/>
+		</chain_v2>
+	</operating_mode>
+	<operating_mode>
+		<control name="APO4-Operating Mode">APO4-Music</control>
+		<control name="APO4-Speaker Type">APO4-Internal Stereo</control>
+		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-Product Name" public="true">Eagle-DTS:X Ultra</control>
+		<!-- Start Eagle controls -->
+		<control name="Eagle-Output Device">0</control>
+		<control name="SFX:Eagle-PreDownMixer Enable" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Left Delay" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Right Delay" public="true">0</control>
+		<control name="SFX:Eagle-DE Enable" public="true">1</control>
+		<control name="SFX:Eagle-DE Level" public="true">19</control>
+		<control name="SFX:Eagle-DE Min Level" public="true">53</control>
+		<control name="SFX:Eagle-DE Max Level" public="true">75</control>
+		<control name="SFX:Eagle-LC Enable" public="true">0</control>
+		<control name="SFX:Eagle-LC Loudness" public="true">-16</control>
+		<control name="SFX:Eagle-LC Preset" public="true">Eagle-Medium</control>
+		<!-- Start I3DA contols -->
+		<control name="SFX:Eagle-I3DA Enable" public="true">1</control>
+		<control name="SFX:Eagle-I3DA Output Gain" public="true">0</control>
+		<control name="SFX:Eagle-I3DA Room Index" public="true">Eagle-I3DA Room Sports</control>
+		<control name="Eagle-Stereo Mode" public="true">Eagle-Off</control>
+		<control name="MFX:Eagle-I3DA Enable" public="true">0</control>
+		<control name="MFX:Eagle-I3DA Device Enable" public="true">1</control>
+		<control name="MFX:Eagle-CTC Blob">dts_ctc_blob.bin</control>
+		<!-- Start VAEQ contols -->
+		<control name="MFX:Eagle-VAEQ MODE" public="true">Eagle-VolumeAwareEQ</control>
+		<control name="MFX:Eagle-VAEQ MV DOWNSTREAM FLAG" public="true">1</control>
+		<control name="MFX:Eagle-VAEQ Target SPL" public="true">85</control>
+		<control name="MFX:Eagle-VAEQ System SPL" public="true">75</control>
+		<control name="MFX:Eagle-VAEQ Content DR" public="true">Eagle-Content Mid</control>
+		<control name="MFX:Eagle-VAEQ Max LF Gain" public="true">10</control>
+		<!-- End VAEQ controls-->
+		<!-- Start Personal EQ controls -->
+		<control name="MFX:Eagle-PEREQ MODE" public="true">Eagle-EQ Bypass</control>
+		<!-- End Personal EQ controls -->
+		<!-- Start TBHDX controls-->
+		<control name="MFX:Eagle-TBHDX Enable" public="true">1</control>
+		<control name="EFX:Eagle-TBHDX Enable">0</control>
+		<control name="SFX:Eagle-TBHDX Enable">0</control>
+		<control name="MFX:Eagle-TBHDX Mode" public="true">Eagle-TBHDX Stereo</control>
+		<control name="MFX:Eagle-TBHDX Speaker Custom Size" public="true">200</control>
+		<control name="MFX:Eagle-TBHDX Bass Level" public="true">39</control>
+		<control name="MFX:Eagle-TBHDX Bass Min Level" public="true">19</control>
+		<control name="MFX:Eagle-TBHDX Bass Max Level" public="true">80</control>
+		<control name="MFX:Eagle-TBHDX HRM Level" public="true">50</control>
+		<control name="MFX:Eagle-TBHDX Extended Bass" public="true">40</control>
+		<control name="MFX:Eagle-TBHDX Dynamics" public="true">40</control>
+		<control name="MFX:Eagle-TBHDX Input Gain" public="true">-14</control>
+		<control name="MFX:Eagle-TBHDX HP Ratio" public="true">0</control>
+		<!-- End TBHDX controls-->
+		<control name="MFX:Eagle-GEQ Enable" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band0 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band1 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band2 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band3 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band4 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band5 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band6 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band7 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band8 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band9 Gain" public="true">0</control>
+		<!-- HPF -->
+		<!-- Eagle-HPF Controls  -->
+		<control name="EFX:Eagle-HPF Enable" public="true">1</control>
+		<control name="MFX:Eagle-HPF Enable" public="true">1</control>
+		<control name="EFX:Eagle-HPF Freq" public="true">125</control>
+		<control name="EFX:Eagle-HPF Order" public="true">6</control>
+		<control name="MFX:Eagle-HPF Freq" public="true">125</control>
+		<control name="MFX:Eagle-HPF Order" public="true">6</control>
+		<!-- MBHL -->
+		<!-- Eagle-MBHL Controls  -->
+		<control name="MFX:Eagle-MBHL Enable" public="true">1</control>
+		<control name="EFX:Eagle-MBHL Enable" public="true">1</control>
+		<control name="SFX:Eagle-MBHL Enable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Output Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Anticlip Enable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Anticlip Level" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Comp Attack" public="true">1</control>
+		<control name="EFX:Eagle-MBHL Comp Low Decay" public="true">500</control>
+		<control name="EFX:Eagle-MBHL Comp Mid Decay" public="true">250</control>
+		<control name="EFX:Eagle-MBHL Comp High Decay" public="true">200</control>
+		<control name="EFX:Eagle-MBHL Low Ratio" public="true">8</control>
+		<control name="EFX:Eagle-MBHL Mid Ratio" public="true">4</control>
+		<control name="EFX:Eagle-MBHL High Ratio" public="true">4</control>
+		<control name="EFX:Eagle-MBHL Mode" public="true">Eagle-HL Only Mode</control>
+		<control name="EFX:Eagle-MBHL Boost" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Low Cross" public="true">160</control>
+		<control name="EFX:Eagle-MBHL Mid Cross" public="true">4000</control>
+		<control name="EFX:Eagle-MBHL Low Thresh" public="true">-40</control>
+		<control name="EFX:Eagle-MBHL Mid Thresh" public="true">-29</control>
+		<control name="EFX:Eagle-MBHL High Thresh" public="true">-29</control>
+		<control name="EFX:Eagle-MBHL Low Makeup Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Mid Makeup Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL High Makeup Gain" public="true">40</control>
+		<control name="EFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Custom Low Cross" public="true">500</control>
+		<control name="EFX:Eagle-MBHL Custom Mid Cross" public="true">2000</control>
+		<control name="MFX:Eagle-MBHL Output Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Anticlip Enable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Anticlip Level" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Comp Attack" public="true">1</control>
+		<control name="MFX:Eagle-MBHL Comp Low Decay" public="true">500</control>
+		<control name="MFX:Eagle-MBHL Comp Mid Decay" public="true">250</control>
+		<control name="MFX:Eagle-MBHL Comp High Decay" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Low Ratio" public="true">8</control>
+		<control name="MFX:Eagle-MBHL Mid Ratio" public="true">4</control>
+		<control name="MFX:Eagle-MBHL High Ratio" public="true">4</control>
+		<control name="MFX:Eagle-MBHL Mode" public="true">Eagle-Envelope Mode</control>
+		<control name="MFX:Eagle-MBHL Boost" public="true">49</control>
+		<control name="MFX:Eagle-MBHL Low Cross" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Mid Cross" public="true">4000</control>
+		<control name="MFX:Eagle-MBHL Low Thresh" public="true">-40</control>
+		<control name="MFX:Eagle-MBHL Mid Thresh" public="true">-30</control>
+		<control name="MFX:Eagle-MBHL High Thresh" public="true">-29</control>
+		<control name="MFX:Eagle-MBHL Low Makeup Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Mid Makeup Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL High Makeup Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Custom Low Cross" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Custom Mid Cross" public="true">4000</control>
+		<!-- AEQ -->
+		<!-- Eagle-AEQ Controls -->
+		<control name="EFX:Eagle-AEQ Enable" public="true">1</control>
+		<control name="MFX:Eagle-AEQ Enable">0</control>
+		<control name="SFX:Eagle-AEQ Enable">0</control>
+		<!-- Eagle-aeq-by-gn 1 -->
+		<control name="EFX:Eagle-AEQ Input Gain" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Output Gain" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Bypass Gain" public="true">0</control>
+		<control name="EFX:Eagle-GPEQ Blob 48k">dts_gpeq_mode1_48k.bin</control>
+		<control name="EFX:Eagle-GPEQ Blob 44k">dts_gpeq_mode1_44k.bin</control>
+		<chain_v2 position="SFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="SFX"/>
+		</chain_v2>
+		<chain_v2 position="OSFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="OSFX"/>
+		</chain_v2>
+		<chain_v2 position="MFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="MFX"/>
+		</chain_v2>
+		<chain_v2 position="OMFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="OMFX"/>
+		</chain_v2>
+		<chain_v2 position="EFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="EFX"/>
+		</chain_v2>
+	</operating_mode>
+	<operating_mode>
+		<control name="APO4-Operating Mode">APO4-Movie</control>
+		<control name="APO4-Speaker Type">APO4-Internal Stereo</control>
+		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
+		<!-- Start Eagle controls -->
+		<control name="Eagle-Output Device">0</control>
+		<control name="SFX:Eagle-PreDownMixer Enable" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Left Delay" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Right Delay" public="true">0</control>
+		<control name="SFX:Eagle-DE Enable" public="true">1</control>
+		<control name="SFX:Eagle-DE Level" public="true">29</control>
+		<control name="SFX:Eagle-DE Min Level" public="true">1</control>
+		<control name="SFX:Eagle-DE Max Level" public="true">74</control>
+		<control name="SFX:Eagle-LC Enable" public="true">0</control>
+		<control name="SFX:Eagle-LC Loudness" public="true">-16</control>
+		<control name="SFX:Eagle-LC Preset" public="true">Eagle-Medium</control>
+		<!-- Start I3DA contols -->
+		<control name="SFX:Eagle-I3DA Enable" public="true">1</control>
+		<control name="SFX:Eagle-I3DA Output Gain" public="true">0</control>
+		<control name="SFX:Eagle-I3DA Room Index" public="true">Eagle-I3DA Room Entertainment</control>
+		<control name="Eagle-Stereo Mode" public="true">Eagle-Wide</control>
+		<control name="MFX:Eagle-I3DA Enable" public="true">0</control>
+		<control name="MFX:Eagle-I3DA Device Enable" public="true">1</control>
+		<control name="MFX:Eagle-CTC Blob">dts_ctc_blob.bin</control>
+		<!-- Start VAEQ contols -->
+		<control name="MFX:Eagle-VAEQ MODE" public="true">Eagle-VolumeAwareEQ</control>
+		<control name="MFX:Eagle-VAEQ MV DOWNSTREAM FLAG" public="true">1</control>
+		<control name="MFX:Eagle-VAEQ Target SPL" public="true">85</control>
+		<control name="MFX:Eagle-VAEQ System SPL" public="true">75</control>
+		<control name="MFX:Eagle-VAEQ Content DR" public="true">Eagle-Content Mid</control>
+		<control name="MFX:Eagle-VAEQ Max LF Gain" public="true">10</control>
+		<!-- End VAEQ controls-->
+		<!-- Start Personal EQ controls -->
+		<control name="MFX:Eagle-PEREQ MODE" public="true">Eagle-EQ Bypass</control>
+		<!-- End Personal EQ controls -->
+		<!-- Start TBHDX controls-->
+		<control name="MFX:Eagle-TBHDX Enable" public="true">1</control>
+		<control name="EFX:Eagle-TBHDX Enable">0</control>
+		<control name="SFX:Eagle-TBHDX Enable">0</control>
+		<control name="MFX:Eagle-TBHDX Mode" public="true">Eagle-TBHDX Stereo</control>
+		<control name="MFX:Eagle-TBHDX Speaker Custom Size" public="true">150</control>
+		<control name="MFX:Eagle-TBHDX Bass Level" public="true">29</control>
+		<control name="MFX:Eagle-TBHDX Bass Min Level" public="true">0</control>
+		<control name="MFX:Eagle-TBHDX Bass Max Level" public="true">80</control>
+		<control name="MFX:Eagle-TBHDX HRM Level" public="true">29</control>
+		<control name="MFX:Eagle-TBHDX Extended Bass" public="true">36</control>
+		<control name="MFX:Eagle-TBHDX Dynamics" public="true">30</control>
+		<control name="MFX:Eagle-TBHDX Input Gain" public="true">-30</control>
+		<control name="MFX:Eagle-TBHDX HP Ratio" public="true">0</control>
+		<!-- End TBHDX controls-->
+		<control name="MFX:Eagle-GEQ Enable" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band0 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band1 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band2 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band3 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band4 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band5 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band6 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band7 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band8 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band9 Gain" public="true">0</control>
+		<!-- HPF -->
+		<!-- Eagle-HPF Controls  -->
+		<control name="EFX:Eagle-HPF Enable" public="true">1</control>
+		<control name="MFX:Eagle-HPF Enable" public="true">1</control>
+		<control name="EFX:Eagle-HPF Freq" public="true">125</control>
+		<control name="EFX:Eagle-HPF Order" public="true">6</control>
+		<control name="MFX:Eagle-HPF Freq" public="true">125</control>
+		<control name="MFX:Eagle-HPF Order" public="true">6</control>
+		<!-- MBHL -->
+		<!-- Eagle-MBHL Controls  -->
+		<control name="MFX:Eagle-MBHL Enable" public="true">1</control>
+		<control name="EFX:Eagle-MBHL Enable" public="true">1</control>
+		<control name="SFX:Eagle-MBHL Enable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Output Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Anticlip Enable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Anticlip Level" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Comp Attack" public="true">1</control>
+		<control name="EFX:Eagle-MBHL Comp Low Decay" public="true">500</control>
+		<control name="EFX:Eagle-MBHL Comp Mid Decay" public="true">250</control>
+		<control name="EFX:Eagle-MBHL Comp High Decay" public="true">200</control>
+		<control name="EFX:Eagle-MBHL Low Ratio" public="true">8</control>
+		<control name="EFX:Eagle-MBHL Mid Ratio" public="true">4</control>
+		<control name="EFX:Eagle-MBHL High Ratio" public="true">4</control>
+		<control name="EFX:Eagle-MBHL Mode" public="true">Eagle-HL Only Mode</control>
+		<control name="EFX:Eagle-MBHL Boost" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Low Cross" public="true">160</control>
+		<control name="EFX:Eagle-MBHL Mid Cross" public="true">4000</control>
+		<control name="EFX:Eagle-MBHL Low Thresh" public="true">-40</control>
+		<control name="EFX:Eagle-MBHL Mid Thresh" public="true">-29</control>
+		<control name="EFX:Eagle-MBHL High Thresh" public="true">-29</control>
+		<control name="EFX:Eagle-MBHL Low Makeup Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Mid Makeup Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL High Makeup Gain" public="true">40</control>
+		<control name="EFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Custom Low Cross" public="true">500</control>
+		<control name="EFX:Eagle-MBHL Custom Mid Cross" public="true">2000</control>
+		<control name="MFX:Eagle-MBHL Output Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Anticlip Enable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Anticlip Level" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Comp Attack" public="true">1</control>
+		<control name="MFX:Eagle-MBHL Comp Low Decay" public="true">500</control>
+		<control name="MFX:Eagle-MBHL Comp Mid Decay" public="true">250</control>
+		<control name="MFX:Eagle-MBHL Comp High Decay" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Low Ratio" public="true">8</control>
+		<control name="MFX:Eagle-MBHL Mid Ratio" public="true">4</control>
+		<control name="MFX:Eagle-MBHL High Ratio" public="true">4</control>
+		<control name="MFX:Eagle-MBHL Mode" public="true">Eagle-Envelope Mode</control>
+		<control name="MFX:Eagle-MBHL Boost" public="true">80</control>
+		<control name="MFX:Eagle-MBHL Low Cross" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Mid Cross" public="true">4000</control>
+		<control name="MFX:Eagle-MBHL Low Thresh" public="true">-40</control>
+		<control name="MFX:Eagle-MBHL Mid Thresh" public="true">-30</control>
+		<control name="MFX:Eagle-MBHL High Thresh" public="true">-29</control>
+		<control name="MFX:Eagle-MBHL Low Makeup Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Mid Makeup Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL High Makeup Gain" public="true">40</control>
+		<control name="MFX:Eagle-MBHL Custom Low Cross" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Custom Mid Cross" public="true">4000</control>
+		<!-- AEQ -->
+		<!-- Eagle-AEQ Controls -->
+		<control name="EFX:Eagle-AEQ Enable" public="true">1</control>
+		<control name="MFX:Eagle-AEQ Enable">0</control>
+		<control name="SFX:Eagle-AEQ Enable">0</control>
+		<!-- Eagle-aeq-by-gn 1 -->
+		<control name="EFX:Eagle-AEQ Input Gain" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Output Gain" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Bypass Gain" public="true">0</control>
+		<control name="EFX:Eagle-GPEQ Blob 48k">dts_gpeq_mode2_48k.bin</control>
+		<control name="EFX:Eagle-GPEQ Blob 44k">dts_gpeq_mode2_44k.bin</control>
+		<chain_v2 position="SFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="SFX"/>
+		</chain_v2>
+		<chain_v2 position="OSFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="OSFX"/>
+		</chain_v2>
+		<chain_v2 position="MFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="MFX"/>
+		</chain_v2>
+		<chain_v2 position="OMFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="OMFX"/>
+		</chain_v2>
+		<chain_v2 position="EFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="EFX"/>
+		</chain_v2>
+	</operating_mode>
+
+	<operating_mode>
+		<control name="APO4-Operating Mode">APO4-Game1</control>
+		<control name="APO4-Speaker Type">APO4-Internal Stereo</control>
+		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
+		<!-- Start Eagle controls -->
+		<control name="Eagle-Output Device">0</control>
+		<control name="SFX:Eagle-PreDownMixer Enable" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Left Delay" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Right Delay" public="true">0</control>
+		<control name="SFX:Eagle-DE Enable" public="true">1</control>
+		<control name="SFX:Eagle-DE Level" public="true">40</control>
+		<control name="SFX:Eagle-DE Min Level" public="true">0</control>
+		<control name="SFX:Eagle-DE Max Level" public="true">75</control>
+		<control name="SFX:Eagle-LC Enable" public="true">0</control>
+		<control name="SFX:Eagle-LC Loudness" public="true">-16</control>
+		<control name="SFX:Eagle-LC Preset" public="true">Eagle-Medium</control>
+		<!-- Start I3DA contols -->
+		<control name="SFX:Eagle-I3DA Enable" public="true">1</control>
+		<control name="SFX:Eagle-I3DA Output Gain" public="true">0</control>
+		<control name="SFX:Eagle-I3DA Room Index" public="true">Eagle-I3DA Room Sports</control>
+		<control name="Eagle-Stereo Mode" public="true">Eagle-Front</control>
+		<control name="MFX:Eagle-I3DA Enable" public="true">0</control>
+		<control name="MFX:Eagle-I3DA Device Enable" public="true">1</control>
+		<control name="MFX:Eagle-CTC Blob">dts_ctc_blob.bin</control>
+		<!-- Start VAEQ contols -->
+		<control name="MFX:Eagle-VAEQ MODE" public="true">Eagle-VolumeAwareEQ</control>
+		<control name="MFX:Eagle-VAEQ MV DOWNSTREAM FLAG" public="true">1</control>
+		<control name="MFX:Eagle-VAEQ Target SPL" public="true">85</control>
+		<control name="MFX:Eagle-VAEQ System SPL" public="true">75</control>
+		<control name="MFX:Eagle-VAEQ Content DR" public="true">Eagle-Content Mid</control>
+		<control name="MFX:Eagle-VAEQ Max LF Gain" public="true">10</control>
+		<!-- End VAEQ controls-->
+		<!-- Start Personal EQ controls -->
+		<control name="MFX:Eagle-PEREQ MODE" public="true">Eagle-EQ Bypass</control>
+		<!-- End Personal EQ controls -->
+		<!-- Start TBHDX controls-->
+		<control name="MFX:Eagle-TBHDX Enable" public="true">1</control>
+		<control name="EFX:Eagle-TBHDX Enable">0</control>
+		<control name="SFX:Eagle-TBHDX Enable">0</control>
+		<control name="MFX:Eagle-TBHDX Mode" public="true">Eagle-TBHDX Stereo</control>
+		<control name="MFX:Eagle-TBHDX Speaker Custom Size" public="true">150</control>
+		<control name="MFX:Eagle-TBHDX Bass Level" public="true">79</control>
+		<control name="MFX:Eagle-TBHDX Bass Min Level" public="true">29</control>
+		<control name="MFX:Eagle-TBHDX Bass Max Level" public="true">80</control>
+		<control name="MFX:Eagle-TBHDX HRM Level" public="true">100</control>
+		<control name="MFX:Eagle-TBHDX Extended Bass" public="true">80</control>
+		<control name="MFX:Eagle-TBHDX Dynamics" public="true">30</control>
+		<control name="MFX:Eagle-TBHDX Input Gain" public="true">-30</control>
+		<control name="MFX:Eagle-TBHDX HP Ratio" public="true">0</control>
+		<!-- End TBHDX controls-->
+		<control name="MFX:Eagle-GEQ Enable" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band0 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band1 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band2 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band3 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band4 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band5 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band6 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band7 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band8 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band9 Gain" public="true">0</control>
+		<!-- HPF -->
+		<!-- Eagle-HPF Controls  -->
+		<control name="EFX:Eagle-HPF Enable" public="true">1</control>
+		<control name="MFX:Eagle-HPF Enable" public="true">1</control>
+		<control name="EFX:Eagle-HPF Freq" public="true">125</control>
+		<control name="EFX:Eagle-HPF Order" public="true">6</control>
+		<control name="MFX:Eagle-HPF Freq" public="true">125</control>
+		<control name="MFX:Eagle-HPF Order" public="true">6</control>
+		<!-- MBHL -->
+		<!-- Eagle-MBHL Controls  -->
+		<control name="MFX:Eagle-MBHL Enable" public="true">1</control>
+		<control name="EFX:Eagle-MBHL Enable" public="true">1</control>
+		<control name="SFX:Eagle-MBHL Enable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Output Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Anticlip Enable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Anticlip Level" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Comp Attack" public="true">1</control>
+		<control name="EFX:Eagle-MBHL Comp Low Decay" public="true">500</control>
+		<control name="EFX:Eagle-MBHL Comp Mid Decay" public="true">250</control>
+		<control name="EFX:Eagle-MBHL Comp High Decay" public="true">200</control>
+		<control name="EFX:Eagle-MBHL Low Ratio" public="true">8</control>
+		<control name="EFX:Eagle-MBHL Mid Ratio" public="true">4</control>
+		<control name="EFX:Eagle-MBHL High Ratio" public="true">4</control>
+		<control name="EFX:Eagle-MBHL Mode" public="true">Eagle-HL Only Mode</control>
+		<control name="EFX:Eagle-MBHL Boost" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Low Cross" public="true">160</control>
+		<control name="EFX:Eagle-MBHL Mid Cross" public="true">4000</control>
+		<control name="EFX:Eagle-MBHL Low Thresh" public="true">-40</control>
+		<control name="EFX:Eagle-MBHL Mid Thresh" public="true">-29</control>
+		<control name="EFX:Eagle-MBHL High Thresh" public="true">-29</control>
+		<control name="EFX:Eagle-MBHL Low Makeup Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Mid Makeup Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL High Makeup Gain" public="true">40</control>
+		<control name="EFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Custom Low Cross" public="true">500</control>
+		<control name="EFX:Eagle-MBHL Custom Mid Cross" public="true">2000</control>
+		<control name="MFX:Eagle-MBHL Output Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Anticlip Enable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Anticlip Level" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Comp Attack" public="true">1</control>
+		<control name="MFX:Eagle-MBHL Comp Low Decay" public="true">500</control>
+		<control name="MFX:Eagle-MBHL Comp Mid Decay" public="true">250</control>
+		<control name="MFX:Eagle-MBHL Comp High Decay" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Low Ratio" public="true">8</control>
+		<control name="MFX:Eagle-MBHL Mid Ratio" public="true">4</control>
+		<control name="MFX:Eagle-MBHL High Ratio" public="true">4</control>
+		<control name="MFX:Eagle-MBHL Mode" public="true">Eagle-Envelope Mode</control>
+		<control name="MFX:Eagle-MBHL Boost" public="true">69</control>
+		<control name="MFX:Eagle-MBHL Low Cross" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Mid Cross" public="true">4000</control>
+		<control name="MFX:Eagle-MBHL Low Thresh" public="true">-40</control>
+		<control name="MFX:Eagle-MBHL Mid Thresh" public="true">-30</control>
+		<control name="MFX:Eagle-MBHL High Thresh" public="true">-30</control>
+		<control name="MFX:Eagle-MBHL Low Makeup Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Mid Makeup Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL High Makeup Gain" public="true">40</control>
+		<control name="MFX:Eagle-MBHL Custom Low Cross" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Custom Mid Cross" public="true">4000</control>
+		<!-- AEQ -->
+		<!-- Eagle-AEQ Controls -->
+		<control name="EFX:Eagle-AEQ Enable" public="true">1</control>
+		<control name="MFX:Eagle-AEQ Enable">0</control>
+		<control name="SFX:Eagle-AEQ Enable">0</control>
+		<!-- Eagle-aeq-by-gn 1 -->
+		<control name="EFX:Eagle-AEQ Input Gain" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Output Gain" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Bypass Gain" public="true">0</control>
+		<control name="EFX:Eagle-GPEQ Blob 48k">dts_gpeq_mode4_48k.bin</control>
+		<control name="EFX:Eagle-GPEQ Blob 44k">dts_gpeq_mode4_44k.bin</control>
+		<chain_v2 position="SFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="SFX"/>
+		</chain_v2>
+		<chain_v2 position="OSFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="OSFX"/>
+		</chain_v2>
+		<chain_v2 position="MFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="MFX"/>
+		</chain_v2>
+		<chain_v2 position="OMFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="OMFX"/>
+		</chain_v2>
+		<chain_v2 position="EFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="EFX"/>
+		</chain_v2>
+	</operating_mode>
+	
+	<operating_mode>
+		<control name="APO4-Operating Mode">APO4-Custom Audio</control>
+		<control name="APO4-Speaker Type">APO4-Internal Stereo</control>
+		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
+		<!-- Start Eagle controls -->
+		<control name="Eagle-Output Device">0</control>
+		<control name="SFX:Eagle-PreDownMixer Enable" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Left Delay" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Right Delay" public="true">0</control>
+		<control name="SFX:Eagle-DE Enable" public="true">0</control>
+		<control name="SFX:Eagle-DE Level" public="true">10</control>
+		<control name="SFX:Eagle-DE Min Level" public="true">1</control>
+		<control name="SFX:Eagle-DE Max Level" public="true">75</control>
+		<control name="SFX:Eagle-LC Enable" public="true">0</control>
+		<control name="SFX:Eagle-LC Loudness" public="true">-12</control>
+		<control name="SFX:Eagle-LC Preset" public="true">Eagle-Medium</control>
+		<!-- Start I3DA contols -->
+		<control name="SFX:Eagle-I3DA Enable" public="true">1</control>
+		<control name="SFX:Eagle-I3DA Output Gain" public="true">0</control>
+		<control name="SFX:Eagle-I3DA Room Index" public="true">Eagle-I3DA Room Sports</control>
+		<control name="Eagle-Stereo Mode" public="true">Eagle-Off</control>
+		<control name="MFX:Eagle-I3DA Enable" public="true">0</control>
+		<control name="MFX:Eagle-I3DA Device Enable" public="true">1</control>
+		<control name="MFX:Eagle-CTC Blob">dts_ctc_blob.bin</control>
+		<!-- Start VAEQ contols -->
+		<control name="MFX:Eagle-VAEQ MODE" public="true">Eagle-VolumeAwareEQ</control>
+		<control name="MFX:Eagle-VAEQ MV DOWNSTREAM FLAG" public="true">1</control>
+		<control name="MFX:Eagle-VAEQ Target SPL" public="true">85</control>
+		<control name="MFX:Eagle-VAEQ System SPL" public="true">75</control>
+		<control name="MFX:Eagle-VAEQ Content DR" public="true">Eagle-Content Mid</control>
+		<control name="MFX:Eagle-VAEQ Max LF Gain" public="true">10</control>
+		<!-- End VAEQ controls-->
+		<!-- Start Personal EQ controls -->
+		<control name="MFX:Eagle-PEREQ MODE" public="true">Eagle-EQ Bypass</control>
+		<!-- End Personal EQ controls -->
+		<!-- Start TBHDX controls-->
+		<control name="MFX:Eagle-TBHDX Enable" public="true">1</control>
+		<control name="EFX:Eagle-TBHDX Enable">0</control>
+		<control name="SFX:Eagle-TBHDX Enable">0</control>
+		<control name="MFX:Eagle-TBHDX Mode" public="true">Eagle-TBHDX Stereo</control>
+		<control name="MFX:Eagle-TBHDX Speaker Custom Size" public="true">200</control>
+		<control name="MFX:Eagle-TBHDX Bass Level" public="true">75</control>
+		<control name="MFX:Eagle-TBHDX Bass Min Level" public="true">20</control>
+		<control name="MFX:Eagle-TBHDX Bass Max Level" public="true">80</control>
+		<control name="MFX:Eagle-TBHDX HRM Level" public="true">70</control>
+		<control name="MFX:Eagle-TBHDX Extended Bass" public="true">40</control>
+		<control name="MFX:Eagle-TBHDX Dynamics" public="true">40</control>
+		<control name="MFX:Eagle-TBHDX Input Gain" public="true">-15</control>
+		<control name="MFX:Eagle-TBHDX HP Ratio" public="true">0</control>
+		<!-- End TBHDX controls-->
+		<control name="MFX:Eagle-GEQ Enable" public="true">0</control>
+    <control name="MFX:Eagle-Treble Enable" public="true">0</control>
+    <control name="MFX:Eagle-Treble Level" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band0 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band1 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band2 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band3 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band4 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band5 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band6 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band7 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band8 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band9 Gain" public="true">0</control>
+		<!-- Eagle-HPF Controls  -->
+		<control name="EFX:Eagle-HPF Enable" public="true">1</control>
+		<control name="MFX:Eagle-HPF Enable" public="true">1</control>
+		<control name="EFX:Eagle-HPF Freq" public="true">125</control>
+		<control name="EFX:Eagle-HPF Order" public="true">6</control>
+		<control name="MFX:Eagle-HPF Freq" public="true">125</control>
+		<control name="MFX:Eagle-HPF Order" public="true">6</control>
+		<!-- Eagle-MBHL Controls  -->
+		<control name="MFX:Eagle-MBHL Enable" public="true">1</control>
+		<control name="EFX:Eagle-MBHL Enable" public="true">1</control>
+		<control name="SFX:Eagle-MBHL Enable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Output Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Anticlip Enable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Anticlip Level" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Comp Attack" public="true">1</control>
+		<control name="EFX:Eagle-MBHL Comp Low Decay" public="true">1000</control>
+		<control name="EFX:Eagle-MBHL Comp Mid Decay" public="true">500</control>
+		<control name="EFX:Eagle-MBHL Comp High Decay" public="true">200</control>
+		<control name="EFX:Eagle-MBHL Low Ratio" public="true">4</control>
+		<control name="EFX:Eagle-MBHL Mid Ratio" public="true">4</control>
+		<control name="EFX:Eagle-MBHL High Ratio" public="true">4</control>
+		<control name="EFX:Eagle-MBHL Mode" public="true">Eagle-HL Only Mode</control>
+		<control name="EFX:Eagle-MBHL Boost" public="true">20</control>
+		<control name="EFX:Eagle-MBHL Low Cross" public="true">600</control>
+		<control name="EFX:Eagle-MBHL Mid Cross" public="true">4000</control>
+		<control name="EFX:Eagle-MBHL Low Thresh" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Mid Thresh" public="true">0</control>
+		<control name="EFX:Eagle-MBHL High Thresh" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Low Makeup Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Mid Makeup Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL High Makeup Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Custom Low Cross" public="true">600</control>
+		<control name="EFX:Eagle-MBHL Custom Mid Cross" public="true">4000</control>
+		<control name="MFX:Eagle-MBHL Output Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Anticlip Enable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Anticlip Level" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Comp Attack" public="true">1</control>
+		<control name="MFX:Eagle-MBHL Comp Low Decay" public="true">500</control>
+		<control name="MFX:Eagle-MBHL Comp Mid Decay" public="true">250</control>
+		<control name="MFX:Eagle-MBHL Comp High Decay" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Low Ratio" public="true">4</control>
+		<control name="MFX:Eagle-MBHL Mid Ratio" public="true">4</control>
+		<control name="MFX:Eagle-MBHL High Ratio" public="true">4</control>
+		<control name="MFX:Eagle-MBHL Mode" public="true">Eagle-Envelope Mode</control>
+		<control name="MFX:Eagle-MBHL Boost" public="true">60</control>
+		<control name="MFX:Eagle-MBHL Low Cross" public="true">600</control>
+		<control name="MFX:Eagle-MBHL Mid Cross" public="true">4000</control>
+		<control name="MFX:Eagle-MBHL Low Thresh" public="true">-30</control>
+		<control name="MFX:Eagle-MBHL Mid Thresh" public="true">-30</control>
+		<control name="MFX:Eagle-MBHL High Thresh" public="true">-30</control>
+		<control name="MFX:Eagle-MBHL Low Makeup Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Mid Makeup Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL High Makeup Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Custom Low Cross" public="true">600</control>
+		<control name="MFX:Eagle-MBHL Custom Mid Cross" public="true">4000</control>
+		<!-- Eagle-AEQ Controls -->
+		<control name="EFX:Eagle-AEQ Enable" public="true">1</control>
+		<control name="MFX:Eagle-AEQ Enable">0</control>
+		<control name="SFX:Eagle-AEQ Enable">0</control>
+		<!-- Eagle-aeq-by-gn 1 -->
+		<control name="EFX:Eagle-AEQ Input Gain" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Output Gain" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Bypass Gain" public="true">0</control>
+		<control name="EFX:Eagle-GPEQ Blob 48k">dts_gpeq_mode7_48k.bin</control>
+		<control name="EFX:Eagle-GPEQ Blob 44k">dts_gpeq_mode7_44k.bin</control>
+		<chain_v2 position="SFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="SFX"/>
+		</chain_v2>
+		<chain_v2 position="OSFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="OSFX"/>
+		</chain_v2>
+		<chain_v2 position="MFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="MFX"/>
+		</chain_v2>
+		<chain_v2 position="OMFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="OMFX"/>
+		</chain_v2>
+		<chain_v2 position="EFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="EFX"/>
+		</chain_v2>
+	</operating_mode>
+	<operating_mode>
+		<control name="APO4-Operating Mode">APO4-Off</control>
+		<control name="APO4-Speaker Type">APO4-Headphone</control>
+    <control name="APO4-OperatingMode-LastSetMode" public="true">APO4-Music</control>
+		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
+		<!-- Start Eagle EFX controls -->
+		<control name="Eagle-Output Device">1</control>
+		<control name="SFX:Eagle-PreDownMixer Enable" public="true">0</control>
+		<!-- Start SFX controls -->
+		<control name="SFX:Eagle-Bypass Enable">1</control>
+		<control name="SFX:Eagle-TBHDX Enable">0</control>
+		<control name="SFX:Eagle-MBHL Enable" public="true">0</control>
+		<control name="SFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="SFX:Eagle-AEQ Enable">0</control>
+		<chain_v2 position="SFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="SFX"/>
+		</chain_v2>
+		<chain_v2 position="OSFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="OSFX"/>
+		</chain_v2>
+	</operating_mode>
+	<operating_mode>
+		<control name="APO4-Operating Mode">APO4-Music</control>
+		<control name="APO4-Speaker Type">APO4-Headphone</control>
+		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-Product Name" public="true">Eagle-DTS:X Ultra</control>
+		<!-- Start Eagle controls -->
+		<control name="Eagle-Output Device">1</control>
+		<control name="SFX:Eagle-PreDownMixer Enable" public="true">0</control>
+		<control name="SFX:Eagle-DE Enable" public="true">1</control>
+		<control name="SFX:Eagle-DE Level" public="true">19</control>
+		<control name="SFX:Eagle-DE Min Level" public="true">0</control>
+		<control name="SFX:Eagle-DE Max Level" public="true">75</control>
+		<control name="SFX:Eagle-LC Enable" public="true">0</control>
+		<control name="SFX:Eagle-LC Loudness" public="true">-12</control>
+		<control name="SFX:Eagle-LC Preset" public="true">Eagle-Medium</control>
+		<!-- Start I3DA contols -->
+		<control name="SFX:Eagle-I3DA Enable" public="true">1</control>
+		<control name="SFX:Eagle-I3DA Room Index" public="true">Eagle-I3DA Room Sports</control>
+		<control name="Eagle-Stereo Mode" public="true">Eagle-Off</control>
+		<control name="SFX:Eagle-I3DA Output Gain" public="true">0</control>
+		<control name="MFX:Eagle-Headphone Name" public="true">uuid</control>
+		<control name="MFX:Eagle-HPEQ Blob 48k" public="true">dts_hpeq_48k.bin</control>
+		<control name="MFX:Eagle-HPEQ Blob 44k" public="true">dts_hpeq_44k.bin</control>
+		<!-- Start VAEQ contols -->
+		<control name="MFX:Eagle-VAEQ MODE" public="true">Eagle-EQ Bypass</control>
+		<control name="MFX:Eagle-VAEQ MV DOWNSTREAM FLAG" public="true">1</control>
+		<control name="MFX:Eagle-VAEQ Target SPL" public="true">85</control>
+		<control name="MFX:Eagle-VAEQ System SPL" public="true">75</control>
+		<control name="MFX:Eagle-VAEQ Content DR" public="true">Eagle-Content Mid</control>
+		<control name="MFX:Eagle-VAEQ Max LF Gain" public="true">10</control>
+		<!-- End VAEQ controls-->
+		<!-- Start Personal EQ controls -->
+		<control name="MFX:Eagle-PEREQ MODE" public="true">Eagle-EQ Bypass</control>
+		<control name="MFX:Eagle-PEREQ MV DOWNSTREAM FLAG" public="true">1</control>
+		<control name="MFX:Eagle-PEREQ Hearing Test" public="true">-628;-710;-710;-750;-770;-730;-600</control>
+		<!-- End Personal EQ controls -->
+		<!-- Start TBHDX controls-->
+		<control name="MFX:Eagle-TBHDX Enable" public="true">1</control>
+		<control name="MFX:Eagle-TBHDX Mode" public="true">Eagle-TBHDX Stereo</control>
+		<control name="MFX:Eagle-TBHDX Speaker Custom Size" public="true">200</control>
+		<control name="MFX:Eagle-TBHDX Bass Level" public="true">39</control>
+		<control name="MFX:Eagle-TBHDX Bass Min Level" public="true">19</control>
+		<control name="MFX:Eagle-TBHDX Bass Max Level" public="true">79</control>
+		<control name="MFX:Eagle-TBHDX HRM Level" public="true">50</control>
+		<control name="MFX:Eagle-TBHDX Extended Bass" public="true">40</control>
+		<control name="MFX:Eagle-TBHDX Dynamics" public="true">40</control>
+		<control name="MFX:Eagle-TBHDX Input Gain" public="true">-14</control>
+		<control name="MFX:Eagle-TBHDX HP Ratio" public="true">0</control>
+		<control name="SFX:Eagle-TBHDX Enable">0</control>
+		<!-- End TBHDX controls-->
+		<control name="MFX:Eagle-GEQ Enable" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band0 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band1 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band2 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band3 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band4 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band5 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band6 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band7 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band8 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band9 Gain" public="true">0</control>
+		<!-- HPF -->
+		<!-- Eagle-HPF Controls  -->
+		<control name="MFX:Eagle-HPF Enable" public="true">0</control>
+		<control name="MFX:Eagle-HPF Freq" public="true">60</control>
+		<control name="MFX:Eagle-HPF Order" public="true">2</control>
+		<!-- MBHL -->
+		<!-- Eagle-MBHL Controls  -->
+		<control name="SFX:Eagle-MBHL Enable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Enable" public="true">1</control>
+		<control name="MFX:Eagle-MBHL Output Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Anticlip Enable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Anticlip Level" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Comp Attack" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Comp Low Decay" public="true">500</control>
+		<control name="MFX:Eagle-MBHL Comp Mid Decay" public="true">250</control>
+		<control name="MFX:Eagle-MBHL Comp High Decay" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Low Ratio" public="true">8</control>
+		<control name="MFX:Eagle-MBHL Mid Ratio" public="true">4</control>
+		<control name="MFX:Eagle-MBHL High Ratio" public="true">4</control>
+		<control name="MFX:Eagle-MBHL Mode" public="true">Eagle-Envelope Mode</control>
+		<control name="MFX:Eagle-MBHL Boost" public="true">40</control>
+		<control name="MFX:Eagle-MBHL Low Cross" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Mid Cross" public="true">4000</control>
+		<control name="MFX:Eagle-MBHL Low Thresh" public="true">-40</control>
+		<control name="MFX:Eagle-MBHL Mid Thresh" public="true">-29</control>
+		<control name="MFX:Eagle-MBHL High Thresh" public="true">-29</control>
+		<control name="MFX:Eagle-MBHL Low Makeup Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Mid Makeup Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL High Makeup Gain" public="true">40</control>
+		<control name="MFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Custom Low Cross" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Custom Mid Cross" public="true">4000</control>
+		<!-- AEQ -->
+		<!-- Eagle-AEQ Controls  -->
+		<control name="SFX:Eagle-AEQ Enable" public="true">0</control>
+		<control name="MFX:Eagle-AEQ Enable" public="true">1</control>
+		<chain_v2 position="SFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="SFX"/>
+		</chain_v2>
+		<chain_v2 position="OSFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="OSFX"/>
+		</chain_v2>
+		<chain_v2 position="MFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="MFX"/>
+		</chain_v2>
+		<chain_v2 position="OMFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="OMFX"/>
+		</chain_v2>
+	</operating_mode>
+	<operating_mode>
+		<control name="APO4-Operating Mode">APO4-Movie</control>
+		<control name="APO4-Speaker Type">APO4-Headphone</control>
+		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
+		<!-- Start Eagle controls -->
+		<control name="Eagle-Output Device">1</control>
+		<control name="SFX:Eagle-PreDownMixer Enable" public="true">0</control>
+		<control name="SFX:Eagle-DE Enable" public="true">1</control>
+		<control name="SFX:Eagle-DE Level" public="true">29</control>
+		<control name="SFX:Eagle-DE Min Level" public="true">0</control>
+		<control name="SFX:Eagle-DE Max Level" public="true">75</control>
+		<control name="SFX:Eagle-LC Enable" public="true">0</control>
+		<control name="SFX:Eagle-LC Loudness" public="true">-12</control>
+		<control name="SFX:Eagle-LC Preset" public="true">Eagle-Medium</control>
+		<!-- Start I3DA contols -->
+		<control name="SFX:Eagle-I3DA Enable" public="true">1</control>
+		<control name="SFX:Eagle-I3DA Room Index" public="true">Eagle-I3DA Room Sports</control>
+		<control name="Eagle-Stereo Mode" public="true">Eagle-Wide</control>
+		<control name="SFX:Eagle-I3DA Output Gain" public="true">0</control>
+		<control name="MFX:Eagle-Headphone Name" public="true">uuid</control>
+		<control name="MFX:Eagle-HPEQ Blob 48k" public="true">dts_hpeq_48k.bin</control>
+		<control name="MFX:Eagle-HPEQ Blob 44k" public="true">dts_hpeq_44k.bin</control>
+		<!-- Start VAEQ contols -->
+		<control name="MFX:Eagle-VAEQ MODE" public="true">Eagle-EQ Bypass</control>
+		<control name="MFX:Eagle-VAEQ MV DOWNSTREAM FLAG" public="true">1</control>
+		<control name="MFX:Eagle-VAEQ Target SPL" public="true">85</control>
+		<control name="MFX:Eagle-VAEQ System SPL" public="true">75</control>
+		<control name="MFX:Eagle-VAEQ Content DR" public="true">Eagle-Content Mid</control>
+		<control name="MFX:Eagle-VAEQ Max LF Gain" public="true">10</control>
+		<!-- End VAEQ controls-->
+		<!-- Start Personal EQ controls -->
+		<control name="MFX:Eagle-PEREQ MODE" public="true">Eagle-EQ Bypass</control>
+		<control name="MFX:Eagle-PEREQ MV DOWNSTREAM FLAG" public="true">1</control>
+		<control name="MFX:Eagle-PEREQ Hearing Test" public="true">-628;-710;-710;-750;-770;-730;-600</control>
+		<!-- End Personal EQ controls -->
+		<!-- Start TBHDX controls-->
+		<control name="MFX:Eagle-TBHDX Enable" public="true">1</control>
+		<control name="MFX:Eagle-TBHDX Mode" public="true">Eagle-TBHDX Stereo</control>
+		<control name="MFX:Eagle-TBHDX Speaker Custom Size" public="true">150</control>
+		<control name="MFX:Eagle-TBHDX Bass Level" public="true">29</control>
+		<control name="MFX:Eagle-TBHDX Bass Min Level" public="true">0</control>
+		<control name="MFX:Eagle-TBHDX Bass Max Level" public="true">79</control>
+		<control name="MFX:Eagle-TBHDX HRM Level" public="true">29</control>
+		<control name="MFX:Eagle-TBHDX Extended Bass" public="true">40</control>
+		<control name="MFX:Eagle-TBHDX Dynamics" public="true">29</control>
+		<control name="MFX:Eagle-TBHDX Input Gain" public="true">-30</control>
+		<control name="MFX:Eagle-TBHDX HP Ratio" public="true">1</control>
+		<control name="SFX:Eagle-TBHDX Enable">0</control>
+		<!-- End TBHDX controls-->
+		<control name="MFX:Eagle-GEQ Enable" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band0 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band1 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band2 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band3 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band4 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band5 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band6 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band7 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band8 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band9 Gain" public="true">0</control>
+		<!-- Eagle-HPF Controls  -->
+		<control name="MFX:Eagle-HPF Enable" public="true">0</control>
+		<control name="MFX:Eagle-HPF Freq" public="true">60</control>
+		<control name="MFX:Eagle-HPF Order" public="true">2</control>
+		<!-- Eagle-MBHL Controls  -->
+		<control name="SFX:Eagle-MBHL Enable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Enable" public="true">1</control>
+		<control name="MFX:Eagle-MBHL Output Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Anticlip Enable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Anticlip Level" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Comp Attack" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Comp Low Decay" public="true">500</control>
+		<control name="MFX:Eagle-MBHL Comp Mid Decay" public="true">250</control>
+		<control name="MFX:Eagle-MBHL Comp High Decay" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Low Ratio" public="true">8</control>
+		<control name="MFX:Eagle-MBHL Mid Ratio" public="true">4</control>
+		<control name="MFX:Eagle-MBHL High Ratio" public="true">4</control>
+		<control name="MFX:Eagle-MBHL Mode" public="true">Eagle-Envelope Mode</control>
+		<control name="MFX:Eagle-MBHL Boost" public="true">80</control>
+		<control name="MFX:Eagle-MBHL Low Cross" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Mid Cross" public="true">4000</control>
+		<control name="MFX:Eagle-MBHL Low Thresh" public="true">-40</control>
+		<control name="MFX:Eagle-MBHL Mid Thresh" public="true">-29</control>
+		<control name="MFX:Eagle-MBHL High Thresh" public="true">-29</control>
+		<control name="MFX:Eagle-MBHL Low Makeup Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Mid Makeup Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL High Makeup Gain" public="true">40</control>
+		<control name="MFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Custom Low Cross" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Custom Mid Cross" public="true">4000</control>
+		<!-- Eagle-AEQ Controls  -->
+		<control name="SFX:Eagle-AEQ Enable" public="true">0</control>
+		<control name="MFX:Eagle-AEQ Enable" public="true">1</control>
+		<chain_v2 position="SFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="SFX"/>
+		</chain_v2>
+		<chain_v2 position="OSFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="OSFX"/>
+		</chain_v2>
+		<chain_v2 position="MFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="MFX"/>
+		</chain_v2>
+		<chain_v2 position="OMFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="OMFX"/>
+		</chain_v2>
+	</operating_mode>
+
+	<operating_mode>
+		<control name="APO4-Operating Mode">APO4-Game1</control>
+		<control name="APO4-Speaker Type">APO4-Headphone</control>
+		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
+		<!-- Start Eagle controls -->
+		<control name="Eagle-Output Device">1</control>
+		<control name="SFX:Eagle-PreDownMixer Enable" public="true">0</control>
+		<control name="SFX:Eagle-DE Enable" public="true">1</control>
+		<control name="SFX:Eagle-DE Level" public="true">40</control>
+		<control name="SFX:Eagle-DE Min Level" public="true">0</control>
+		<control name="SFX:Eagle-DE Max Level" public="true">75</control>
+		<control name="SFX:Eagle-LC Enable" public="true">0</control>
+		<control name="SFX:Eagle-LC Loudness" public="true">-12</control>
+		<control name="SFX:Eagle-LC Preset" public="true">Eagle-Medium</control>
+		<!-- Start I3DA contols -->
+		<control name="SFX:Eagle-I3DA Enable" public="true">1</control>
+		<control name="SFX:Eagle-I3DA Room Index" public="true">Eagle-I3DA Room Sports</control>
+		<control name="Eagle-Stereo Mode" public="true">Eagle-Front</control>
+		<control name="SFX:Eagle-I3DA Output Gain" public="true">0</control>
+		<control name="MFX:Eagle-Headphone Name" public="true">uuid</control>
+		<control name="MFX:Eagle-HPEQ Blob 48k" public="true">dts_hpeq_48k.bin</control>
+		<control name="MFX:Eagle-HPEQ Blob 44k" public="true">dts_hpeq_44k.bin</control>
+		<!-- Start VAEQ contols -->
+		<control name="MFX:Eagle-VAEQ MODE" public="true">Eagle-EQ Bypass</control>
+		<control name="MFX:Eagle-VAEQ MV DOWNSTREAM FLAG" public="true">1</control>
+		<control name="MFX:Eagle-VAEQ Target SPL" public="true">85</control>
+		<control name="MFX:Eagle-VAEQ System SPL" public="true">75</control>
+		<control name="MFX:Eagle-VAEQ Content DR" public="true">Eagle-Content Mid</control>
+		<control name="MFX:Eagle-VAEQ Max LF Gain" public="true">10</control>
+		<!-- End VAEQ controls-->
+		<!-- Start Personal EQ controls -->
+		<control name="MFX:Eagle-PEREQ MODE" public="true">Eagle-EQ Bypass</control>
+		<control name="MFX:Eagle-PEREQ MV DOWNSTREAM FLAG" public="true">1</control>
+		<control name="MFX:Eagle-PEREQ Hearing Test" public="true">-628;-710;-710;-750;-770;-730;-600</control>
+		<!-- End Personal EQ controls -->
+		<!-- Start TBHDX controls-->
+		<control name="MFX:Eagle-TBHDX Enable" public="true">1</control>
+		<control name="MFX:Eagle-TBHDX Mode" public="true">Eagle-TBHDX Stereo</control>
+		<control name="MFX:Eagle-TBHDX Speaker Custom Size" public="true">150</control>
+		<control name="MFX:Eagle-TBHDX Bass Level" public="true">79</control>
+		<control name="MFX:Eagle-TBHDX Bass Min Level" public="true">29</control>
+		<control name="MFX:Eagle-TBHDX Bass Max Level" public="true">79</control>
+		<control name="MFX:Eagle-TBHDX HRM Level" public="true">100</control>
+		<control name="MFX:Eagle-TBHDX Extended Bass" public="true">80</control>
+		<control name="MFX:Eagle-TBHDX Dynamics" public="true">29</control>
+		<control name="MFX:Eagle-TBHDX Input Gain" public="true">-30</control>
+		<control name="MFX:Eagle-TBHDX HP Ratio" public="true">0</control>
+		<control name="SFX:Eagle-TBHDX Enable">0</control>
+		<!-- End TBHDX controls-->
+		<control name="MFX:Eagle-GEQ Enable" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band0 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band1 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band2 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band3 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band4 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band5 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band6 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band7 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band8 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band9 Gain" public="true">0</control>
+		<!-- Eagle-HPF Controls  -->
+		<control name="MFX:Eagle-HPF Enable" public="true">0</control>
+		<control name="MFX:Eagle-HPF Freq" public="true">60</control>
+		<control name="MFX:Eagle-HPF Order" public="true">2</control>
+		<!-- Eagle-MBHL Controls  -->
+		<control name="SFX:Eagle-MBHL Enable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Enable" public="true">1</control>
+		<control name="MFX:Eagle-MBHL Output Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Anticlip Enable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Anticlip Level" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Comp Attack" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Comp Low Decay" public="true">500</control>
+		<control name="MFX:Eagle-MBHL Comp Mid Decay" public="true">250</control>
+		<control name="MFX:Eagle-MBHL Comp High Decay" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Low Ratio" public="true">8</control>
+		<control name="MFX:Eagle-MBHL Mid Ratio" public="true">4</control>
+		<control name="MFX:Eagle-MBHL High Ratio" public="true">4</control>
+		<control name="MFX:Eagle-MBHL Mode" public="true">Eagle-Envelope Mode</control>
+		<control name="MFX:Eagle-MBHL Boost" public="true">69</control>
+		<control name="MFX:Eagle-MBHL Low Cross" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Mid Cross" public="true">4000</control>
+		<control name="MFX:Eagle-MBHL Low Thresh" public="true">-40</control>
+		<control name="MFX:Eagle-MBHL Mid Thresh" public="true">-29</control>
+		<control name="MFX:Eagle-MBHL High Thresh" public="true">-29</control>
+		<control name="MFX:Eagle-MBHL Low Makeup Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Mid Makeup Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL High Makeup Gain" public="true">40</control>
+		<control name="MFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Custom Low Cross" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Custom Mid Cross" public="true">4000</control>
+		<!-- Eagle-AEQ Controls  -->
+		<control name="SFX:Eagle-AEQ Enable" public="true">0</control>
+		<control name="MFX:Eagle-AEQ Enable" public="true">1</control>
+		<chain_v2 position="SFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="SFX"/>
+		</chain_v2>
+		<chain_v2 position="OSFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="OSFX"/>
+		</chain_v2>
+		<chain_v2 position="MFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="MFX"/>
+		</chain_v2>
+		<chain_v2 position="OMFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="OMFX"/>
+		</chain_v2>
+	</operating_mode>
+
+	<operating_mode>
+		<control name="APO4-Operating Mode">APO4-Custom Audio</control>
+		<control name="APO4-Speaker Type">APO4-Headphone</control>
+		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
+		<!-- Start Eagle controls -->
+		<control name="Eagle-Output Device">1</control>
+		<control name="SFX:Eagle-PreDownMixer Enable" public="true">0</control>
+		<control name="SFX:Eagle-DE Enable" public="true">0</control>
+		<control name="SFX:Eagle-DE Level" public="true">5</control>
+		<control name="SFX:Eagle-DE Min Level" public="true">5</control>
+		<control name="SFX:Eagle-DE Max Level" public="true">75</control>
+		<control name="SFX:Eagle-LC Enable" public="true">0</control>
+		<control name="SFX:Eagle-LC Loudness" public="true">-12</control>
+		<control name="SFX:Eagle-LC Preset" public="true">Eagle-Medium</control>
+		<!-- Start I3DA contols -->
+		<control name="SFX:Eagle-I3DA Enable" public="true">1</control>
+		<control name="SFX:Eagle-I3DA Room Index" public="true">Eagle-I3DA Room Entertainment</control>
+		<control name="Eagle-Stereo Mode" public="true">Eagle-Off</control>
+		<control name="SFX:Eagle-I3DA Output Gain" public="true">0</control>
+		<control name="MFX:Eagle-Headphone Name" public="true">uuid</control>
+		<control name="MFX:Eagle-HPEQ Blob 48k" public="true">dts_hpeq_48k.bin</control>
+		<control name="MFX:Eagle-HPEQ Blob 44k" public="true">dts_hpeq_44k.bin</control>
+		<!-- Start VAEQ contols -->
+		<control name="MFX:Eagle-VAEQ MODE" public="true">Eagle-EQ Bypass</control>
+		<control name="MFX:Eagle-VAEQ MV DOWNSTREAM FLAG" public="true">1</control>
+		<control name="MFX:Eagle-VAEQ Target SPL" public="true">85</control>
+		<control name="MFX:Eagle-VAEQ System SPL" public="true">75</control>
+		<control name="MFX:Eagle-VAEQ Content DR" public="true">Eagle-Content Mid</control>
+		<control name="MFX:Eagle-VAEQ Max LF Gain" public="true">10</control>
+		<!-- End VAEQ controls-->
+		<!-- Start Personal EQ controls -->
+		<control name="MFX:Eagle-PEREQ MODE" public="true">Eagle-EQ Bypass</control>
+		<control name="MFX:Eagle-PEREQ MV DOWNSTREAM FLAG" public="true">1</control>
+		<control name="MFX:Eagle-PEREQ Hearing Test" public="true">-628;-710;-710;-750;-770;-730;-600</control>
+		<!-- End Personal EQ controls -->
+		<!-- Start TBHDX controls-->
+		<control name="MFX:Eagle-TBHDX Enable" public="true">1</control>
+		<control name="MFX:Eagle-TBHDX Mode" public="true">Eagle-TBHDX Stereo</control>
+		<control name="MFX:Eagle-TBHDX Speaker Custom Size" public="true">200</control>
+		<control name="MFX:Eagle-TBHDX Bass Level" public="true">75</control>
+		<control name="MFX:Eagle-TBHDX Bass Min Level" public="true">20</control>
+		<control name="MFX:Eagle-TBHDX Bass Max Level" public="true">80</control>
+		<control name="MFX:Eagle-TBHDX HRM Level" public="true">70</control>
+		<control name="MFX:Eagle-TBHDX Extended Bass" public="true">40</control>
+		<control name="MFX:Eagle-TBHDX Dynamics" public="true">40</control>
+		<control name="MFX:Eagle-TBHDX Input Gain" public="true">-15</control>
+		<control name="MFX:Eagle-TBHDX HP Ratio" public="true">0</control>
+		<control name="SFX:Eagle-TBHDX Enable">0</control>
+		<!-- End TBHDX controls-->
+		<control name="MFX:Eagle-GEQ Enable" public="true">0</control>
+    <control name="MFX:Eagle-Treble Enable" public="true">0</control>
+    <control name="MFX:Eagle-Treble Level" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band0 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band1 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band2 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band3 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band4 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band5 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band6 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band7 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band8 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band9 Gain" public="true">0</control>
+		<!-- Eagle-HPF Controls  -->
+		<control name="MFX:Eagle-HPF Enable" public="true">0</control>
+		<control name="MFX:Eagle-HPF Freq" public="true">60</control>
+		<control name="MFX:Eagle-HPF Order" public="true">2</control>
+		<!-- Eagle-MBHL Controls  -->
+		<control name="SFX:Eagle-MBHL Enable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Enable" public="true">1</control>
+		<control name="MFX:Eagle-MBHL Output Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Anticlip Enable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Anticlip Level" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Comp Attack" public="true">5</control>
+		<control name="MFX:Eagle-MBHL Comp Low Decay" public="true">500</control>
+		<control name="MFX:Eagle-MBHL Comp Mid Decay" public="true">250</control>
+		<control name="MFX:Eagle-MBHL Comp High Decay" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Low Ratio" public="true">4</control>
+		<control name="MFX:Eagle-MBHL Mid Ratio" public="true">4</control>
+		<control name="MFX:Eagle-MBHL High Ratio" public="true">4</control>
+		<control name="MFX:Eagle-MBHL Mode" public="true">Eagle-HL Only Mode</control>
+		<control name="MFX:Eagle-MBHL Boost" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Low Cross" public="true">300</control>
+		<control name="MFX:Eagle-MBHL Mid Cross" public="true">4000</control>
+		<control name="MFX:Eagle-MBHL Low Thresh" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Mid Thresh" public="true">0</control>
+		<control name="MFX:Eagle-MBHL High Thresh" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Low Makeup Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Mid Makeup Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL High Makeup Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Custom Low Cross" public="true">300</control>
+		<control name="MFX:Eagle-MBHL Custom Mid Cross" public="true">4000</control>
+		<!-- Eagle-AEQ Controls  -->
+		<control name="SFX:Eagle-AEQ Enable" public="true">0</control>
+		<control name="MFX:Eagle-AEQ Enable" public="true">1</control>
+		<chain_v2 position="SFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="SFX"/>
+		</chain_v2>
+		<chain_v2 position="OSFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="OSFX"/>
+		</chain_v2>
+		<chain_v2 position="MFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="MFX"/>
+		</chain_v2>
+		<chain_v2 position="OMFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="OMFX"/>
+		</chain_v2>
+	</operating_mode>
+	<operating_mode>
+		<control name="APO4-Operating Mode">APO4-Off</control>
+		<control name="APO4-Speaker Type">APO4-External Stereo</control>
+    <control name="APO4-OperatingMode-LastSetMode" public="true">APO4-Music</control>
+		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
+		<!-- Start Eagle EFX controls -->
+		<control name="Eagle-Output Device">0</control>
+		<control name="SFX:Eagle-PreDownMixer Enable" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Left Delay" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Right Delay" public="true">0</control>
+		<!-- Start SFX controls -->
+		<control name="SFX:Eagle-Bypass Enable" public="true">1</control>
+		<control name="SFX:Eagle-TBHDX Enable">0</control>
+		<control name="SFX:Eagle-AEQ Enable">0</control>
+		<control name="SFX:Eagle-MBHL Enable">0</control>
+		<!-- Start EFX controls -->
+		<control name="EFX:Eagle-TBHDX Enable">0</control>
+		<control name="EFX:Eagle-HPF Enable" public="true">0</control>
+		<control name="EFX:Eagle-HPF Freq" public="true">150</control>
+		<control name="EFX:Eagle-HPF Order" public="true">6</control>
+		<!-- MBHL -->
+		<!-- Eagle-MBHL Controls  -->
+		<control name="EFX:Eagle-MBHL Enable" public="true">1</control>
+		<control name="EFX:Eagle-MBHL Output Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Anticlip Enable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Anticlip Level" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Comp Attack" public="true">3</control>
+		<control name="EFX:Eagle-MBHL Comp Low Decay" public="true">1000</control>
+		<control name="EFX:Eagle-MBHL Comp Mid Decay" public="true">500</control>
+		<control name="EFX:Eagle-MBHL Comp High Decay" public="true">200</control>
+		<control name="EFX:Eagle-MBHL Low Ratio" public="true">4</control>
+		<control name="EFX:Eagle-MBHL Mid Ratio" public="true">4</control>
+		<control name="EFX:Eagle-MBHL High Ratio" public="true">4</control>
+		<control name="EFX:Eagle-MBHL Mode" public="true">Eagle-HL Only Mode</control>
+		<control name="EFX:Eagle-MBHL Boost" public="true">1043393</control>
+		<control name="EFX:Eagle-MBHL Low Cross" public="true">266</control>
+		<control name="EFX:Eagle-MBHL Mid Cross" public="true">2000</control>
+		<control name="EFX:Eagle-MBHL Low Thresh" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Mid Thresh" public="true">0</control>
+		<control name="EFX:Eagle-MBHL High Thresh" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Low Makeup Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Mid Makeup Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL High Makeup Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Custom Low Cross" public="true">291</control>
+		<control name="EFX:Eagle-MBHL Custom Mid Cross" public="true">6876</control>
+		<control name="EFX:Eagle-AEQ Enable" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Input Gain" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Output Gain" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Bypass Gain" public="true">0</control>
+		<control name="EFX:Eagle-GPEQ Blob 48k">dts_gpeq_ext_spk_off_48k.bin</control>
+		<control name="EFX:Eagle-GPEQ Blob 44k">dts_gpeq_ext_spk_off_44k.bin</control>
+		<chain_v2 position="SFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="SFX"/>
+		</chain_v2>
+		<chain_v2 position="OSFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="OSFX"/>
+		</chain_v2>
+		<chain_v2 position="EFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="EFX"/>
+		</chain_v2>
+	</operating_mode>
+	<operating_mode>
+		<control name="APO4-Operating Mode">APO4-Music</control>
+		<control name="APO4-Speaker Type">APO4-External Stereo</control>
+		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-Product Name" public="true">Eagle-DTS:X Ultra</control>
+		<!-- Start Eagle controls -->
+		<control name="Eagle-Output Device">0</control>
+		<control name="SFX:Eagle-PreDownMixer Enable" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Left Delay" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Right Delay" public="true">0</control>
+		<control name="SFX:Eagle-DE Enable" public="true">1</control>
+		<control name="SFX:Eagle-DE Level" public="true">19</control>
+		<control name="SFX:Eagle-DE Min Level" public="true">0</control>
+		<control name="SFX:Eagle-DE Max Level" public="true">75</control>
+		<control name="SFX:Eagle-LC Enable" public="true">0</control>
+		<control name="SFX:Eagle-LC Loudness" public="true">-10</control>
+		<control name="SFX:Eagle-LC Preset" public="true">Eagle-Medium</control>
+		<!-- Start I3DA contols -->
+		<control name="SFX:Eagle-I3DA Enable" public="true">1</control>
+		<control name="SFX:Eagle-I3DA Output Gain" public="true">0</control>
+		<control name="SFX:Eagle-I3DA Room Index" public="true">Eagle-I3DA Room Game</control>
+		<control name="Eagle-Stereo Mode" public="true">Eagle-Off</control>
+		<control name="MFX:Eagle-I3DA Enable" public="true">0</control>
+		<control name="MFX:Eagle-I3DA Device Enable" public="true">0</control>
+		<control name="MFX:Eagle-CTC Blob">dts_ctc_ext_spk_blob.bin</control>
+		<!-- Start VAEQ contols -->
+		<control name="MFX:Eagle-VAEQ MODE" public="true">Eagle-VolumeAwareEQ</control>
+		<control name="MFX:Eagle-VAEQ MV DOWNSTREAM FLAG" public="true">1</control>
+		<control name="MFX:Eagle-VAEQ Target SPL" public="true">85</control>
+		<control name="MFX:Eagle-VAEQ System SPL" public="true">75</control>
+		<control name="MFX:Eagle-VAEQ Content DR" public="true">Eagle-Content Mid</control>
+		<control name="MFX:Eagle-VAEQ Max LF Gain" public="true">10</control>
+		<!-- End VAEQ controls-->
+		<!-- Start Personal EQ controls -->
+		<control name="MFX:Eagle-PEREQ MODE" public="true">Eagle-EQ Bypass</control>
+		<!-- End Personal EQ controls -->
+		<!-- Start TBHDX controls-->
+		<control name="MFX:Eagle-TBHDX Enable" public="true">1</control>
+		<control name="EFX:Eagle-TBHDX Enable">0</control>
+		<control name="SFX:Eagle-TBHDX Enable">0</control>
+		<control name="MFX:Eagle-TBHDX Mode" public="true">Eagle-TBHDX Stereo</control>
+		<control name="MFX:Eagle-TBHDX Speaker Custom Size" public="true">200</control>
+		<control name="MFX:Eagle-TBHDX Bass Level" public="true">39</control>
+		<control name="MFX:Eagle-TBHDX Bass Min Level" public="true">19</control>
+		<control name="MFX:Eagle-TBHDX Bass Max Level" public="true">79</control>
+		<control name="MFX:Eagle-TBHDX HRM Level" public="true">50</control>
+		<control name="MFX:Eagle-TBHDX Extended Bass" public="true">40</control>
+		<control name="MFX:Eagle-TBHDX Dynamics" public="true">40</control>
+		<control name="MFX:Eagle-TBHDX Input Gain" public="true">-14</control>
+		<control name="MFX:Eagle-TBHDX HP Ratio" public="true">0</control>
+		<!-- End TBHDX controls-->
+		<control name="MFX:Eagle-GEQ Enable" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band0 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band1 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band2 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band3 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band4 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band5 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band6 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band7 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band8 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band9 Gain" public="true">0</control>
+		<!-- HPF -->
+		<!-- Eagle-HPF Controls  -->
+		<control name="EFX:Eagle-HPF Enable" public="true">1</control>
+		<control name="MFX:Eagle-HPF Enable" public="true">0</control>
+		<control name="EFX:Eagle-HPF Freq" public="true">30</control>
+		<control name="EFX:Eagle-HPF Order" public="true">2</control>
+		<control name="MFX:Eagle-HPF Freq" public="true">200</control>
+		<control name="MFX:Eagle-HPF Order" public="true">4</control>
+		<!-- MBHL -->
+		<!-- Eagle-MBHL Controls  -->
+		<control name="MFX:Eagle-MBHL Enable" public="true">1</control>
+		<control name="EFX:Eagle-MBHL Enable" public="true">1</control>
+		<control name="SFX:Eagle-MBHL Enable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Output Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Anticlip Enable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Anticlip Level" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Comp Attack" public="true">3</control>
+		<control name="EFX:Eagle-MBHL Comp Low Decay" public="true">1000</control>
+		<control name="EFX:Eagle-MBHL Comp Mid Decay" public="true">500</control>
+		<control name="EFX:Eagle-MBHL Comp High Decay" public="true">200</control>
+		<control name="EFX:Eagle-MBHL Low Ratio" public="true">4</control>
+		<control name="EFX:Eagle-MBHL Mid Ratio" public="true">4</control>
+		<control name="EFX:Eagle-MBHL High Ratio" public="true">4</control>
+		<control name="EFX:Eagle-MBHL Mode" public="true">Eagle-HL Only Mode</control>
+		<control name="EFX:Eagle-MBHL Boost" public="true">1043393</control>
+		<control name="EFX:Eagle-MBHL Low Cross" public="true">266</control>
+		<control name="EFX:Eagle-MBHL Mid Cross" public="true">2000</control>
+		<control name="EFX:Eagle-MBHL Low Thresh" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Mid Thresh" public="true">0</control>
+		<control name="EFX:Eagle-MBHL High Thresh" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Low Makeup Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Mid Makeup Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL High Makeup Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Custom Low Cross" public="true">291</control>
+		<control name="EFX:Eagle-MBHL Custom Mid Cross" public="true">6876</control>
+		<control name="MFX:Eagle-MBHL Output Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Anticlip Enable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Anticlip Level" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Comp Attack" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Comp Low Decay" public="true">500</control>
+		<control name="MFX:Eagle-MBHL Comp Mid Decay" public="true">250</control>
+		<control name="MFX:Eagle-MBHL Comp High Decay" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Low Ratio" public="true">8</control>
+		<control name="MFX:Eagle-MBHL Mid Ratio" public="true">4</control>
+		<control name="MFX:Eagle-MBHL High Ratio" public="true">4</control>
+		<control name="MFX:Eagle-MBHL Mode" public="true">Eagle-Envelope Mode</control>
+		<control name="MFX:Eagle-MBHL Boost" public="true">59</control>
+		<control name="MFX:Eagle-MBHL Low Cross" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Mid Cross" public="true">4000</control>
+		<control name="MFX:Eagle-MBHL Low Thresh" public="true">-40</control>
+		<control name="MFX:Eagle-MBHL Mid Thresh" public="true">-29</control>
+		<control name="MFX:Eagle-MBHL High Thresh" public="true">-29</control>
+		<control name="MFX:Eagle-MBHL Low Makeup Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Mid Makeup Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL High Makeup Gain" public="true">40</control>
+		<control name="MFX:Eagle-MBHL Custom Low Cross" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Custom Mid Cross" public="true">4000</control>
+		<!-- AEQ -->
+		<!-- Eagle-AEQ Controls -->
+		<control name="EFX:Eagle-AEQ Enable" public="true">0</control>
+		<control name="MFX:Eagle-AEQ Enable">0</control>
+		<control name="SFX:Eagle-AEQ Enable">0</control>
+		<!-- Eagle-aeq-by-gn 1 -->
+		<control name="EFX:Eagle-AEQ Input Gain" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Output Gain" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Bypass Gain" public="true">0</control>
+		<control name="EFX:Eagle-GPEQ Blob 48k">dts_gpeq_ext_spk_mode1_48k.bin</control>
+		<control name="EFX:Eagle-GPEQ Blob 44k">dts_gpeq_ext_spk_mode1_44k.bin</control>
+		<chain_v2 position="SFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="SFX"/>
+		</chain_v2>
+		<chain_v2 position="OSFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="OSFX"/>
+		</chain_v2>
+		<chain_v2 position="MFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="MFX"/>
+		</chain_v2>
+		<chain_v2 position="OMFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="OMFX"/>
+		</chain_v2>
+		<chain_v2 position="EFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="EFX"/>
+		</chain_v2>
+	</operating_mode>
+	<operating_mode>
+		<control name="APO4-Operating Mode">APO4-Movie</control>
+		<control name="APO4-Speaker Type">APO4-External Stereo</control>
+		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
+		<!-- Start Eagle controls -->
+		<control name="Eagle-Output Device">0</control>
+		<control name="SFX:Eagle-PreDownMixer Enable" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Left Delay" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Right Delay" public="true">0</control>
+		<control name="SFX:Eagle-DE Enable" public="true">1</control>
+		<control name="SFX:Eagle-DE Level" public="true">29</control>
+		<control name="SFX:Eagle-DE Min Level" public="true">0</control>
+		<control name="SFX:Eagle-DE Max Level" public="true">75</control>
+		<control name="SFX:Eagle-LC Enable" public="true">0</control>
+		<control name="SFX:Eagle-LC Loudness" public="true">-10</control>
+		<control name="SFX:Eagle-LC Preset" public="true">Eagle-Medium</control>
+		<!-- Start I3DA contols -->
+		<control name="SFX:Eagle-I3DA Enable" public="true">1</control>
+		<control name="SFX:Eagle-I3DA Output Gain" public="true">0</control>
+		<control name="SFX:Eagle-I3DA Room Index" public="true">Eagle-I3DA Room Game</control>
+		<control name="Eagle-Stereo Mode" public="true">Eagle-Wide</control>
+		<control name="MFX:Eagle-I3DA Enable" public="true">0</control>
+		<control name="MFX:Eagle-I3DA Device Enable" public="true">0</control>
+		<control name="MFX:Eagle-CTC Blob">dts_ctc_ext_spk_blob.bin</control>
+		<!-- Start VAEQ contols -->
+		<control name="MFX:Eagle-VAEQ MODE" public="true">Eagle-VolumeAwareEQ</control>
+		<control name="MFX:Eagle-VAEQ MV DOWNSTREAM FLAG" public="true">1</control>
+		<control name="MFX:Eagle-VAEQ Target SPL" public="true">85</control>
+		<control name="MFX:Eagle-VAEQ System SPL" public="true">75</control>
+		<control name="MFX:Eagle-VAEQ Content DR" public="true">Eagle-Content Mid</control>
+		<control name="MFX:Eagle-VAEQ Max LF Gain" public="true">10</control>
+		<!-- End VAEQ controls-->
+		<!-- Start Personal EQ controls -->
+		<control name="MFX:Eagle-PEREQ MODE" public="true">Eagle-EQ Bypass</control>
+		<!-- End Personal EQ controls -->
+		<!-- Start TBHDX controls-->
+		<control name="MFX:Eagle-TBHDX Enable" public="true">1</control>
+		<control name="EFX:Eagle-TBHDX Enable">0</control>
+		<control name="SFX:Eagle-TBHDX Enable">0</control>
+		<control name="MFX:Eagle-TBHDX Mode" public="true">Eagle-TBHDX Stereo</control>
+		<control name="MFX:Eagle-TBHDX Speaker Custom Size" public="true">150</control>
+		<control name="MFX:Eagle-TBHDX Bass Level" public="true">29</control>
+		<control name="MFX:Eagle-TBHDX Bass Min Level" public="true">0</control>
+		<control name="MFX:Eagle-TBHDX Bass Max Level" public="true">79</control>
+		<control name="MFX:Eagle-TBHDX HRM Level" public="true">29</control>
+		<control name="MFX:Eagle-TBHDX Extended Bass" public="true">40</control>
+		<control name="MFX:Eagle-TBHDX Dynamics" public="true">29</control>
+		<control name="MFX:Eagle-TBHDX Input Gain" public="true">-30</control>
+		<control name="MFX:Eagle-TBHDX HP Ratio" public="true">0</control>
+		<!-- End TBHDX controls-->
+		<control name="MFX:Eagle-GEQ Enable" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band0 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band1 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band2 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band3 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band4 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band5 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band6 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band7 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band8 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band9 Gain" public="true">0</control>
+		<!-- HPF -->
+		<!-- Eagle-HPF Controls  -->
+		<control name="EFX:Eagle-HPF Enable" public="true">1</control>
+		<control name="MFX:Eagle-HPF Enable" public="true">0</control>
+		<control name="EFX:Eagle-HPF Freq" public="true">30</control>
+		<control name="EFX:Eagle-HPF Order" public="true">2</control>
+		<control name="MFX:Eagle-HPF Freq" public="true">200</control>
+		<control name="MFX:Eagle-HPF Order" public="true">4</control>
+		<!-- MBHL -->
+		<!-- Eagle-MBHL Controls  -->
+		<control name="MFX:Eagle-MBHL Enable" public="true">1</control>
+		<control name="EFX:Eagle-MBHL Enable" public="true">1</control>
+		<control name="SFX:Eagle-MBHL Enable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Output Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Anticlip Enable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Anticlip Level" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Comp Attack" public="true">3</control>
+		<control name="EFX:Eagle-MBHL Comp Low Decay" public="true">1000</control>
+		<control name="EFX:Eagle-MBHL Comp Mid Decay" public="true">500</control>
+		<control name="EFX:Eagle-MBHL Comp High Decay" public="true">200</control>
+		<control name="EFX:Eagle-MBHL Low Ratio" public="true">4</control>
+		<control name="EFX:Eagle-MBHL Mid Ratio" public="true">4</control>
+		<control name="EFX:Eagle-MBHL High Ratio" public="true">4</control>
+		<control name="EFX:Eagle-MBHL Mode" public="true">Eagle-HL Only Mode</control>
+		<control name="EFX:Eagle-MBHL Boost" public="true">1043393</control>
+		<control name="EFX:Eagle-MBHL Low Cross" public="true">266</control>
+		<control name="EFX:Eagle-MBHL Mid Cross" public="true">2000</control>
+		<control name="EFX:Eagle-MBHL Low Thresh" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Mid Thresh" public="true">0</control>
+		<control name="EFX:Eagle-MBHL High Thresh" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Low Makeup Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Mid Makeup Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL High Makeup Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Custom Low Cross" public="true">291</control>
+		<control name="EFX:Eagle-MBHL Custom Mid Cross" public="true">6876</control>
+		<control name="MFX:Eagle-MBHL Output Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Anticlip Enable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Anticlip Level" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Comp Attack" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Comp Low Decay" public="true">500</control>
+		<control name="MFX:Eagle-MBHL Comp Mid Decay" public="true">250</control>
+		<control name="MFX:Eagle-MBHL Comp High Decay" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Low Ratio" public="true">8</control>
+		<control name="MFX:Eagle-MBHL Mid Ratio" public="true">4</control>
+		<control name="MFX:Eagle-MBHL High Ratio" public="true">4</control>
+		<control name="MFX:Eagle-MBHL Mode" public="true">Eagle-Envelope Mode</control>
+		<control name="MFX:Eagle-MBHL Boost" public="true">80</control>
+		<control name="MFX:Eagle-MBHL Low Cross" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Mid Cross" public="true">4000</control>
+		<control name="MFX:Eagle-MBHL Low Thresh" public="true">-40</control>
+		<control name="MFX:Eagle-MBHL Mid Thresh" public="true">-29</control>
+		<control name="MFX:Eagle-MBHL High Thresh" public="true">-29</control>
+		<control name="MFX:Eagle-MBHL Low Makeup Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Mid Makeup Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL High Makeup Gain" public="true">40</control>
+		<control name="MFX:Eagle-MBHL Custom Low Cross" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Custom Mid Cross" public="true">4000</control>
+		<!-- AEQ -->
+		<!-- Eagle-AEQ Controls -->
+		<control name="EFX:Eagle-AEQ Enable" public="true">0</control>
+		<control name="MFX:Eagle-AEQ Enable">0</control>
+		<control name="SFX:Eagle-AEQ Enable">0</control>
+		<!-- Eagle-aeq-by-gn 1 -->
+		<control name="EFX:Eagle-AEQ Input Gain" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Output Gain" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Bypass Gain" public="true">0</control>
+		<control name="EFX:Eagle-GPEQ Blob 48k">dts_gpeq_ext_spk_mode2_48k.bin</control>
+		<control name="EFX:Eagle-GPEQ Blob 44k">dts_gpeq_ext_spk_mode2_44k.bin</control>
+		<chain_v2 position="SFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="SFX"/>
+		</chain_v2>
+		<chain_v2 position="OSFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="OSFX"/>
+		</chain_v2>
+		<chain_v2 position="MFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="MFX"/>
+		</chain_v2>
+		<chain_v2 position="OMFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="OMFX"/>
+		</chain_v2>
+		<chain_v2 position="EFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="EFX"/>
+		</chain_v2>
+	</operating_mode>
+
+	<operating_mode>
+		<control name="APO4-Operating Mode">APO4-Game1</control>
+		<control name="APO4-Speaker Type">APO4-External Stereo</control>
+		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
+		<!-- Start Eagle controls -->
+		<control name="Eagle-Output Device">0</control>
+		<control name="SFX:Eagle-PreDownMixer Enable" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Left Delay" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Right Delay" public="true">0</control>
+		<control name="SFX:Eagle-DE Enable" public="true">1</control>
+		<control name="SFX:Eagle-DE Level" public="true">40</control>
+		<control name="SFX:Eagle-DE Min Level" public="true">0</control>
+		<control name="SFX:Eagle-DE Max Level" public="true">75</control>
+		<control name="SFX:Eagle-LC Enable" public="true">0</control>
+		<control name="SFX:Eagle-LC Loudness" public="true">-10</control>
+		<control name="SFX:Eagle-LC Preset" public="true">Eagle-Medium</control>
+		<!-- Start I3DA contols -->
+		<control name="SFX:Eagle-I3DA Enable" public="true">1</control>
+		<control name="SFX:Eagle-I3DA Output Gain" public="true">0</control>
+		<control name="SFX:Eagle-I3DA Room Index" public="true">Eagle-I3DA Room Game</control>
+		<control name="Eagle-Stereo Mode" public="true">Eagle-Front</control>
+		<control name="MFX:Eagle-I3DA Enable" public="true">0</control>
+		<control name="MFX:Eagle-I3DA Device Enable" public="true">0</control>
+		<control name="MFX:Eagle-CTC Blob">dts_ctc_ext_spk_blob.bin</control>
+		<!-- Start VAEQ contols -->
+		<control name="MFX:Eagle-VAEQ MODE" public="true">Eagle-VolumeAwareEQ</control>
+		<control name="MFX:Eagle-VAEQ MV DOWNSTREAM FLAG" public="true">1</control>
+		<control name="MFX:Eagle-VAEQ Target SPL" public="true">85</control>
+		<control name="MFX:Eagle-VAEQ System SPL" public="true">75</control>
+		<control name="MFX:Eagle-VAEQ Content DR" public="true">Eagle-Content Mid</control>
+		<control name="MFX:Eagle-VAEQ Max LF Gain" public="true">10</control>
+		<!-- End VAEQ controls-->
+		<!-- Start Personal EQ controls -->
+		<control name="MFX:Eagle-PEREQ MODE" public="true">Eagle-EQ Bypass</control>
+		<!-- End Personal EQ controls -->
+		<!-- Start TBHDX controls-->
+		<control name="MFX:Eagle-TBHDX Enable" public="true">1</control>
+		<control name="EFX:Eagle-TBHDX Enable">0</control>
+		<control name="SFX:Eagle-TBHDX Enable">0</control>
+		<control name="MFX:Eagle-TBHDX Mode" public="true">Eagle-TBHDX Stereo</control>
+		<control name="MFX:Eagle-TBHDX Speaker Custom Size" public="true">150</control>
+		<control name="MFX:Eagle-TBHDX Bass Level" public="true">79</control>
+		<control name="MFX:Eagle-TBHDX Bass Min Level" public="true">29</control>
+		<control name="MFX:Eagle-TBHDX Bass Max Level" public="true">79</control>
+		<control name="MFX:Eagle-TBHDX HRM Level" public="true">100</control>
+		<control name="MFX:Eagle-TBHDX Extended Bass" public="true">80</control>
+		<control name="MFX:Eagle-TBHDX Dynamics" public="true">29</control>
+		<control name="MFX:Eagle-TBHDX Input Gain" public="true">-30</control>
+		<control name="MFX:Eagle-TBHDX HP Ratio" public="true">0</control>
+		<!-- End TBHDX controls-->
+		<control name="MFX:Eagle-GEQ Enable" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band0 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band1 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band2 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band3 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band4 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band5 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band6 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band7 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band8 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band9 Gain" public="true">0</control>
+		<!-- HPF -->
+		<!-- Eagle-HPF Controls  -->
+		<control name="EFX:Eagle-HPF Enable" public="true">1</control>
+		<control name="MFX:Eagle-HPF Enable" public="true">0</control>
+		<control name="EFX:Eagle-HPF Freq" public="true">30</control>
+		<control name="EFX:Eagle-HPF Order" public="true">2</control>
+		<control name="MFX:Eagle-HPF Freq" public="true">200</control>
+		<control name="MFX:Eagle-HPF Order" public="true">4</control>
+		<!-- MBHL -->
+		<!-- Eagle-MBHL Controls  -->
+		<control name="MFX:Eagle-MBHL Enable" public="true">1</control>
+		<control name="EFX:Eagle-MBHL Enable" public="true">1</control>
+		<control name="SFX:Eagle-MBHL Enable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Output Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Anticlip Enable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Anticlip Level" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Comp Attack" public="true">3</control>
+		<control name="EFX:Eagle-MBHL Comp Low Decay" public="true">1000</control>
+		<control name="EFX:Eagle-MBHL Comp Mid Decay" public="true">500</control>
+		<control name="EFX:Eagle-MBHL Comp High Decay" public="true">200</control>
+		<control name="EFX:Eagle-MBHL Low Ratio" public="true">4</control>
+		<control name="EFX:Eagle-MBHL Mid Ratio" public="true">4</control>
+		<control name="EFX:Eagle-MBHL High Ratio" public="true">4</control>
+		<control name="EFX:Eagle-MBHL Mode" public="true">Eagle-HL Only Mode</control>
+		<control name="EFX:Eagle-MBHL Boost" public="true">1043393</control>
+		<control name="EFX:Eagle-MBHL Low Cross" public="true">266</control>
+		<control name="EFX:Eagle-MBHL Mid Cross" public="true">2000</control>
+		<control name="EFX:Eagle-MBHL Low Thresh" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Mid Thresh" public="true">0</control>
+		<control name="EFX:Eagle-MBHL High Thresh" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Low Makeup Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Mid Makeup Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL High Makeup Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Custom Low Cross" public="true">291</control>
+		<control name="EFX:Eagle-MBHL Custom Mid Cross" public="true">6876</control>
+		<control name="MFX:Eagle-MBHL Output Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Anticlip Enable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Anticlip Level" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Comp Attack" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Comp Low Decay" public="true">500</control>
+		<control name="MFX:Eagle-MBHL Comp Mid Decay" public="true">250</control>
+		<control name="MFX:Eagle-MBHL Comp High Decay" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Low Ratio" public="true">8</control>
+		<control name="MFX:Eagle-MBHL Mid Ratio" public="true">4</control>
+		<control name="MFX:Eagle-MBHL High Ratio" public="true">4</control>
+		<control name="MFX:Eagle-MBHL Mode" public="true">Eagle-Envelope Mode</control>
+		<control name="MFX:Eagle-MBHL Boost" public="true">69</control>
+		<control name="MFX:Eagle-MBHL Low Cross" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Mid Cross" public="true">4000</control>
+		<control name="MFX:Eagle-MBHL Low Thresh" public="true">-40</control>
+		<control name="MFX:Eagle-MBHL Mid Thresh" public="true">-29</control>
+		<control name="MFX:Eagle-MBHL High Thresh" public="true">-29</control>
+		<control name="MFX:Eagle-MBHL Low Makeup Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Mid Makeup Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL High Makeup Gain" public="true">40</control>
+		<control name="MFX:Eagle-MBHL Custom Low Cross" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Custom Mid Cross" public="true">4000</control>
+		<!-- AEQ -->
+		<!-- Eagle-AEQ Controls -->
+		<control name="EFX:Eagle-AEQ Enable" public="true">0</control>
+		<control name="MFX:Eagle-AEQ Enable">0</control>
+		<control name="SFX:Eagle-AEQ Enable">0</control>
+		<!-- Eagle-aeq-by-gn 1 -->
+		<control name="EFX:Eagle-AEQ Input Gain" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Output Gain" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Bypass Gain" public="true">0</control>
+		<control name="EFX:Eagle-GPEQ Blob 48k">dts_gpeq_ext_spk_mode4_48k.bin</control>
+		<control name="EFX:Eagle-GPEQ Blob 44k">dts_gpeq_ext_spk_mode4_44k.bin</control>
+		<chain_v2 position="SFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="SFX"/>
+		</chain_v2>
+		<chain_v2 position="OSFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="OSFX"/>
+		</chain_v2>
+		<chain_v2 position="MFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="MFX"/>
+		</chain_v2>
+		<chain_v2 position="OMFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="OMFX"/>
+		</chain_v2>
+		<chain_v2 position="EFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="EFX"/>
+		</chain_v2>
+	</operating_mode>
+	<operating_mode>
+		<control name="APO4-Operating Mode">APO4-Custom Audio</control>
+		<control name="APO4-Speaker Type">APO4-External Stereo</control>
+		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
+		<!-- Start Eagle controls -->
+		<control name="Eagle-Output Device">0</control>
+		<control name="SFX:Eagle-PreDownMixer Enable" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Left Delay" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Right Delay" public="true">0</control>
+		<control name="SFX:Eagle-DE Enable" public="true">0</control>
+		<control name="SFX:Eagle-DE Level" public="true">10</control>
+		<control name="SFX:Eagle-DE Min Level" public="true">5</control>
+		<control name="SFX:Eagle-DE Max Level" public="true">75</control>
+		<control name="SFX:Eagle-LC Enable" public="true">0</control>
+		<control name="SFX:Eagle-LC Loudness" public="true">-10</control>
+		<control name="SFX:Eagle-LC Preset" public="true">Eagle-Medium</control>
+		<!-- Start I3DA contols -->
+		<control name="SFX:Eagle-I3DA Enable" public="true">1</control>
+		<control name="SFX:Eagle-I3DA Output Gain" public="true">0</control>
+		<control name="SFX:Eagle-I3DA Room Index" public="true">Eagle-I3DA Room Game</control>
+		<control name="Eagle-Stereo Mode" public="true">Eagle-Off</control>
+		<control name="MFX:Eagle-I3DA Enable" public="true">0</control>
+		<control name="MFX:Eagle-I3DA Device Enable" public="true">0</control>
+		<control name="MFX:Eagle-CTC Blob">dts_ctc_ext_spk_blob.bin</control>
+		<!-- Start VAEQ contols -->
+		<control name="MFX:Eagle-VAEQ MODE" public="true">Eagle-VolumeAwareEQ</control>
+		<control name="MFX:Eagle-VAEQ MV DOWNSTREAM FLAG" public="true">1</control>
+		<control name="MFX:Eagle-VAEQ Target SPL" public="true">85</control>
+		<control name="MFX:Eagle-VAEQ System SPL" public="true">75</control>
+		<control name="MFX:Eagle-VAEQ Content DR" public="true">Eagle-Content Mid</control>
+		<control name="MFX:Eagle-VAEQ Max LF Gain" public="true">10</control>
+		<!-- End VAEQ controls-->
+		<!-- Start Personal EQ controls -->
+		<control name="MFX:Eagle-PEREQ MODE" public="true">Eagle-EQ Bypass</control>
+		<!-- End Personal EQ controls -->
+		<!-- Start TBHDX controls-->
+		<control name="MFX:Eagle-TBHDX Enable" public="true">1</control>
+		<control name="EFX:Eagle-TBHDX Enable">0</control>
+		<control name="SFX:Eagle-TBHDX Enable">0</control>
+		<control name="MFX:Eagle-TBHDX Mode" public="true">Eagle-TBHDX Mono</control>
+		<control name="MFX:Eagle-TBHDX Speaker Custom Size" public="true">200</control>
+		<control name="MFX:Eagle-TBHDX Bass Level" public="true">75</control>
+		<control name="MFX:Eagle-TBHDX Bass Min Level" public="true">20</control>
+		<control name="MFX:Eagle-TBHDX Bass Max Level" public="true">80</control>
+		<control name="MFX:Eagle-TBHDX HRM Level" public="true">70</control>
+		<control name="MFX:Eagle-TBHDX Extended Bass" public="true">40</control>
+		<control name="MFX:Eagle-TBHDX Dynamics" public="true">40</control>
+		<control name="MFX:Eagle-TBHDX Input Gain" public="true">-15</control>
+		<control name="MFX:Eagle-TBHDX HP Ratio" public="true">0</control>
+		<!-- End TBHDX controls-->
+		<control name="MFX:Eagle-GEQ Enable" public="true">0</control>
+    <control name="MFX:Eagle-Treble Enable" public="true">0</control>
+    <control name="MFX:Eagle-Treble Level" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band0 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band1 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band2 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band3 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band4 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band5 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band6 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band7 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band8 Gain" public="true">0</control>
+		<control name="MFX:Eagle-GEQ Band9 Gain" public="true">0</control>
+		<!-- Eagle-HPF Controls  -->
+		<control name="EFX:Eagle-HPF Enable" public="true">1</control>
+		<control name="MFX:Eagle-HPF Enable" public="true">0</control>
+		<control name="EFX:Eagle-HPF Freq" public="true">30</control>
+		<control name="EFX:Eagle-HPF Order" public="true">2</control>
+		<control name="MFX:Eagle-HPF Freq" public="true">200</control>
+		<control name="MFX:Eagle-HPF Order" public="true">4</control>
+		<!-- Eagle-MBHL Controls  -->
+		<control name="MFX:Eagle-MBHL Enable" public="true">1</control>
+		<control name="EFX:Eagle-MBHL Enable" public="true">1</control>
+		<control name="SFX:Eagle-MBHL Enable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Output Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Anticlip Enable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Anticlip Level" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Comp Attack" public="true">3</control>
+		<control name="EFX:Eagle-MBHL Comp Low Decay" public="true">1000</control>
+		<control name="EFX:Eagle-MBHL Comp Mid Decay" public="true">500</control>
+		<control name="EFX:Eagle-MBHL Comp High Decay" public="true">200</control>
+		<control name="EFX:Eagle-MBHL Low Ratio" public="true">4</control>
+		<control name="EFX:Eagle-MBHL Mid Ratio" public="true">4</control>
+		<control name="EFX:Eagle-MBHL High Ratio" public="true">4</control>
+		<control name="EFX:Eagle-MBHL Mode" public="true">Eagle-HL Only Mode</control>
+		<control name="EFX:Eagle-MBHL Boost" public="true">1043393</control>
+		<control name="EFX:Eagle-MBHL Low Cross" public="true">266</control>
+		<control name="EFX:Eagle-MBHL Mid Cross" public="true">2000</control>
+		<control name="EFX:Eagle-MBHL Low Thresh" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Mid Thresh" public="true">0</control>
+		<control name="EFX:Eagle-MBHL High Thresh" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Low Makeup Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Mid Makeup Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL High Makeup Gain" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="EFX:Eagle-MBHL Custom Low Cross" public="true">291</control>
+		<control name="EFX:Eagle-MBHL Custom Mid Cross" public="true">6876</control>
+		<control name="MFX:Eagle-MBHL Output Gain" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Anticlip Enable" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Anticlip Level" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Comp Attack" public="true">5</control>
+		<control name="MFX:Eagle-MBHL Comp Low Decay" public="true">240</control>
+		<control name="MFX:Eagle-MBHL Comp Mid Decay" public="true">215</control>
+		<control name="MFX:Eagle-MBHL Comp High Decay" public="true">200</control>
+		<control name="MFX:Eagle-MBHL Low Ratio" public="true">4</control>
+		<control name="MFX:Eagle-MBHL Mid Ratio" public="true">4</control>
+		<control name="MFX:Eagle-MBHL High Ratio" public="true">4</control>
+		<control name="MFX:Eagle-MBHL Mode" public="true">Eagle-Compressor Mode</control>
+		<control name="MFX:Eagle-MBHL Boost" public="true">70</control>
+		<control name="MFX:Eagle-MBHL Low Cross" public="true">813</control>
+		<control name="MFX:Eagle-MBHL Mid Cross" public="true">8620</control>
+		<control name="MFX:Eagle-MBHL Low Thresh" public="true">-94</control>
+		<control name="MFX:Eagle-MBHL Mid Thresh" public="true">-95</control>
+		<control name="MFX:Eagle-MBHL High Thresh" public="true">0</control>
+		<control name="MFX:Eagle-MBHL Low Makeup Gain" public="true">6</control>
+		<control name="MFX:Eagle-MBHL Mid Makeup Gain" public="true">2</control>
+		<control name="MFX:Eagle-MBHL High Makeup Gain" public="true">10</control>
+		<control name="MFX:Eagle-MBHL Custom Low Cross" public="true">825</control>
+		<control name="MFX:Eagle-MBHL Custom Mid Cross" public="true">8072</control>
+		<!-- Eagle-AEQ Controls -->
+		<control name="EFX:Eagle-AEQ Enable" public="true">0</control>
+		<control name="MFX:Eagle-AEQ Enable">0</control>
+		<control name="SFX:Eagle-AEQ Enable">0</control>
+		<!-- Eagle-aeq-by-gn 1 -->
+		<control name="EFX:Eagle-AEQ Input Gain" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Output Gain" public="true">0</control>
+		<control name="EFX:Eagle-AEQ Bypass Gain" public="true">0</control>
+		<control name="EFX:Eagle-GPEQ Blob 48k">dts_gpeq_ext_spk_mode7_48k.bin</control>
+		<control name="EFX:Eagle-GPEQ Blob 44k">dts_gpeq_ext_spk_mode7_44k.bin</control>
+		<chain_v2 position="SFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="SFX"/>
+		</chain_v2>
+		<chain_v2 position="OSFX" input="Any" output="Any">
+			<process tech_id="DTS Eagle" instance_id="OSFX"/>
+		</chain_v2>
+		<chain_v2 position="MFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="MFX"/>
+		</chain_v2>
+		<chain_v2 position="OMFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="OMFX"/>
+		</chain_v2>
+		<chain_v2 position="EFX" input="Stereo" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="EFX"/>
+		</chain_v2>
+	</operating_mode>
+</srs_configuration>
