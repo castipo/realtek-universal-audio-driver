@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %Realtek%
 ExtensionId = {7f7901fa-ea73-4a95-bada-55bf89f37009}
-DriverVer = 06/25/2019, 1.0.8742.1
+DriverVer = 07/02/2019, 1.0.8746.1
 CatalogFile = AlexaConfig.cat
 
 [Manufacturer]
