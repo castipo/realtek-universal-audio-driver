@@ -1,0 +1,158 @@
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = Extension
+ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Provider    = %Provider%
+ExtensionId = {4DBBC440-ACCA-11E7-BE06-448A5B99B4C1}
+DriverVer   = 07/01/2019,1.5.13.0
+CatalogFile = AVoluteAWSCExt.cat
+
+[SourceDisksNames]
+222 = %DiskId1%
+
+[SourceDisksFiles]
+CassiniMLKProductSettings.cab=222
+;;Nahimic3DellProductSettings.cab=222
+
+[DestinationDirs]
+AVoluteProdSettings.CopyList = 11,\A-Volute\AGSConfigurator	; Windows\System32\A-Volute\AGSConfigurator\
+;;AVoluteProdSettings_Nahimic3Dell.CopyList = 11,\A-Volute\AGSConfigurator	; Windows\System32\A-Volute\AGSConfigurator\
+
+[AVoluteProdSettings.CopyList]
+CassiniMLKProductSettings.cab
+
+;;[AVoluteProdSettings_Nahimic3Dell.CopyList]
+;;Nahimic3DellProductSettings.cab
+
+[Manufacturer]
+%Provider% = DeviceExtensions,NTamd64
+
+[DeviceExtensions.NTamd64]
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_10280876
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_10280877
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0899&SUBSYS_10280836
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0899&SUBSYS_10280833
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0289&SUBSYS_102808A1		;;Orion
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0289&SUBSYS_102808A2
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0899&SUBSYS_102808F7		;;Shadowcat CFL-R
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0899&SUBSYS_10280901		;;Centauri X R7
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0215&SUBSYS_102808C4		;;Serenity
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808ED		;;Vulcan upsell
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808EE
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808EF
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808EA		;;Vulcan basic
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808EB
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808EC
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0289&SUBSYS_1028093B		;;Yamato 15 
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0289&SUBSYS_1028093C		;;Yamato 17
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0289&SUBSYS_10280963		;;Yamato 15
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0289&SUBSYS_10280964		;;Yamato 17
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\CTLR_DEV_9DC8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_10280949&REV_10EC  ;;Selek
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_10280949   ;;Selek
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0899&SUBSYS_10280947      ;;Carnage G5
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0899&SUBSYS_102809BC		;;Carnage CML-S
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0899&SUBSYS_10280961	    ;;Starhawk CFL R
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0899&SUBSYS_1028098E	    ;;Starhawk AMD
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0899&SUBSYS_102809A3	    ;;Starhawk CML
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0215&SUBSYS_1028099B		;;Firefly
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0215&SUBSYS_1028099C		;;Firefly
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0215&SUBSYS_1028099D		;;Firefly
+
+
+;; Nahimic3Dell systems (Vulcan basic)
+;;%Device.ExtensionDesc% = DeviceExtension_Install_Nahimic3Dell,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808EA
+;;%Device.ExtensionDesc% = DeviceExtension_Install_Nahimic3Dell,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808EB
+;;%Device.ExtensionDesc% = DeviceExtension_Install_Nahimic3Dell,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808EC
+
+[DeviceExtension_Install]
+CopyFiles = AVoluteProdSettings.CopyList
+AddReg = SoundCenter_AddReg
+
+;;[DeviceExtension_Install_Nahimic3Dell]
+;;CopyFiles = AVoluteProdSettings_Nahimic3Dell.CopyList
+;;AddReg = SoundCenter_AddReg
+
+[SoundCenter_AddReg]
+;; render endpoint settings
+HKR,InterfaceSetting,RearLineOutTopo,0x10008,"PLaybackSoundCenterConfig"
+HKR,InterfaceSetting,PrimaryLineOutTopo,0x10008,"PlaybackSoundCenterConfig"
+HKR,InterfaceSetting,SingleLineOutTopo,0x10008,"PlaybackSoundCenterConfig"
+HKR,InterfaceSetting,SecondaryLineOutTopo,0x10008,"PlaybackSoundCenterConfig"
+HKR,InterfaceSetting,FrontPanelHeadphoneTopo,0x10008,"PlaybackSoundCenterConfig"
+HKR,InterfaceSetting,RtSpdifTopo,0x10008,"PlaybackSoundCenterConfig"
+HKR,InterfaceSetting,RtSpdifHDMITopo,0x10008,"PlaybackSoundCenterConfig"
+HKR,InterfaceSetting,RtSpdifRCATopo,0x10008,"PlaybackSoundCenterConfig"
+HKR,InterfaceSetting,RtSpdifOptTopo,0x10008,"PlaybackSoundCenterConfig"
+HKR,InterfaceSetting,BTBPOutTopo,0x10008,"PlaybackSoundCenterConfig"
+HKR,InterfaceSetting,RearLineOutTopoSST,0x10008,"PlaybackSoundCenterConfig"
+HKR,InterfaceSetting,RearLineOutTopoSST2,0x10008,"PlaybackSoundCenterConfig"
+HKR,InterfaceSetting,RearLineOutTopoSST3,0x10008,"PlaybackSoundCenterConfig"
+HKR,InterfaceSetting,RearLineOutTopoDock,0x10008,"PlaybackSoundCenterConfig"
+
+;; capture endpoint settings
+HKR,InterfaceSetting,RearMicInBlackTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,RearMicInGreyTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,RearMicInBlueTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,RearMicInGreenTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,RearMicInRedTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,RearMicInOrangeTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,RearMicInYellowTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,RearMicInPurpleTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,RearMicInPinkTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,RearMicInGoldenTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,RearMicInSilverTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,RearMicInWhiteTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,FrontMicInBlackTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,FrontMicInGreyTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,FrontMicInBlueTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,FrontMicInGreenTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,FrontMicInRedTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,FrontMicInOrangeTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,FrontMicInYellowTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,FrontMicInPurpleTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,FrontMicInPinkTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,FrontMicInGoldenTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,FrontMicInSilverTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,FrontMicInWhiteTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,BTBPInTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,RtMicInTopo,0x10008,"RecordSoundCenterConfig"
+;; HKR,InterfaceSetting,RtLineInTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,RtFrontMicInTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,DigitalMICTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,RtMicArTopo,0x10008,"RecordSoundCenterConfig"
+HKR,InterfaceSetting,RtMicInSSTTopo,0x10008,"RecordSoundCenterConfig"
+
+
+;; SoundCenter PropertStore Configuration
+;; Playback
+HKR,InterfaceSetting\PlaybackSoundCenterConfig\EP\0, %PKEY_SoundCenterSupported%,%REG_DWORD%,0x1
+HKR,InterfaceSetting\PlaybackSoundCenterConfig\EP\1, %PKEY_SoundCenterSupported%,%REG_DWORD%,0x1
+HKR,InterfaceSetting\PlaybackSoundCenterConfig\EP\0, %PKEY_InstalledProductId%,%REG_SZ%,%ProductId%
+HKR,InterfaceSetting\PlaybackSoundCenterConfig\EP\1, %PKEY_InstalledProductId%,%REG_SZ%,%ProductId%
+
+;; Record
+HKR,InterfaceSetting\RecordSoundCenterConfig\EP\0, %PKEY_SoundCenterSupported%,%REG_DWORD%,0x1
+HKR,InterfaceSetting\RecordSoundCenterConfig\EP\1, %PKEY_SoundCenterSupported%,%REG_DWORD%,0x1
+HKR,InterfaceSetting\RecordSoundCenterConfig\EP\0, %PKEY_InstalledProductId%,%REG_SZ%,%ProductId%
+HKR,InterfaceSetting\RecordSoundCenterConfig\EP\1, %PKEY_InstalledProductId%,%REG_SZ%,%ProductId%
+
+[DeviceExtension_Install.Components]
+AddComponent = AVOLUTE_NH3APO,,APO_Install
+
+[APO_Install]
+ComponentIDs = VEN_AVOL&AID_0400
+Description = "A-Volute Nh3 Audio Effects Component"
+
+[Strings]
+Provider              	= "A-Volute"
+Device.ExtensionDesc 	= "A-Volute APO Extension"
+DiskId1              	= "A-Volute Extension Installation Disk"
+ProductId               = "DellInc.AlienwareSoundCenter"
+PKEY_SoundCenterSupported  = "{E8B011C4-6BC4-40A4-8103-4F8A35E1345C},0"
+PKEY_InstalledProductId    = "{f33f39c8-96e6-40d9-90f4-53e886d26b7b},11"
+
+REG_SZ    = 0x00000000
+REG_DWORD = 0x00010001
+
+
+
