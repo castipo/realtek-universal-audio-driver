@@ -24,7 +24,7 @@ Operating System: At least Windows 10 Version 1703 RS2 Build 15063 (64 Bit)
 
 * <a href="https://forum.lowyat.net/topic/658002">Lowyat.NET - Realtek High Definition Audio Driver, for XP/Vista/Win7/Linux - 32/64bit</a>
 
-* <a href="https://www.tenforums.com/drivers-hardware/5993-latest-realtek-hd-audio-driver-version.html">Windows 10 Forum - Latest Realtek HD Audio Driver Version</a>
+* <a href="https://www.tenforums.com/sound-audio/135259-latest-realtek-hd-audio-driver-version-2-a.html">Windows 10 Forum - Latest Realtek HD Audio Driver Version</a>
 
 * <a href="https://rsload.net/soft/21650-realtek-high-definition-audio-drivers.html">RSLOAD.NET - Realtek High Definition Audio Drivers</a>
 
