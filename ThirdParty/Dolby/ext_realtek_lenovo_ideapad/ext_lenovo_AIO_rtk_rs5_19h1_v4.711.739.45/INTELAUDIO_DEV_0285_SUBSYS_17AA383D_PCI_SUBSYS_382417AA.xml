@@ -12,7 +12,7 @@
     </constant>
     <setting>
         <product value="DAX 3 Windows"/>
-        <sku value="Gaming"/>
+        <sku value="DolbyAtmosSpeakerSystemForGaming"/>
         <security-key value=""/>
     </setting>
     <endpoint type="internal_speaker" brand="Generic" model="Default" operating_mode="normal" fs="48000" ch_count="2">
@@ -97,7 +97,7 @@
                 <volume-modeler-enable value="0"/>
                 <volume-modeler-calibration value="0"/>
                 <output-mode-partial-surround-virtualizer-enable value="1"/>
-                <output-mode-partial-height-virtualizer-enable value="0"/>
+                <output-mode-partial-height-virtualizer-enable value="1"/>
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
@@ -199,7 +199,7 @@
                 <volume-modeler-enable value="0"/>
                 <volume-modeler-calibration value="0"/>
                 <output-mode-partial-surround-virtualizer-enable value="1"/>
-                <output-mode-partial-height-virtualizer-enable value="0"/>
+                <output-mode-partial-height-virtualizer-enable value="1"/>
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
@@ -403,7 +403,7 @@
                 <volume-modeler-enable value="0"/>
                 <volume-modeler-calibration value="0"/>
                 <output-mode-partial-surround-virtualizer-enable value="1"/>
-                <output-mode-partial-height-virtualizer-enable value="0"/>
+                <output-mode-partial-height-virtualizer-enable value="1"/>
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
@@ -505,7 +505,7 @@
                 <volume-modeler-enable value="0"/>
                 <volume-modeler-calibration value="0"/>
                 <output-mode-partial-surround-virtualizer-enable value="1"/>
-                <output-mode-partial-height-virtualizer-enable value="0"/>
+                <output-mode-partial-height-virtualizer-enable value="1"/>
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
@@ -607,7 +607,7 @@
                 <volume-modeler-enable value="0"/>
                 <volume-modeler-calibration value="0"/>
                 <output-mode-partial-surround-virtualizer-enable value="1"/>
-                <output-mode-partial-height-virtualizer-enable value="0"/>
+                <output-mode-partial-height-virtualizer-enable value="1"/>
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
@@ -709,7 +709,7 @@
                 <volume-modeler-enable value="0"/>
                 <volume-modeler-calibration value="0"/>
                 <output-mode-partial-surround-virtualizer-enable value="1"/>
-                <output-mode-partial-height-virtualizer-enable value="0"/>
+                <output-mode-partial-height-virtualizer-enable value="1"/>
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
@@ -913,7 +913,7 @@
                 <volume-modeler-enable value="0"/>
                 <volume-modeler-calibration value="0"/>
                 <output-mode-partial-surround-virtualizer-enable value="1"/>
-                <output-mode-partial-height-virtualizer-enable value="0"/>
+                <output-mode-partial-height-virtualizer-enable value="1"/>
             </tuning-cp>
             <tuning-vlldp>
                 <audio-optimizer-bands>
