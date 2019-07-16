@@ -4,29 +4,27 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %Realtek%
 ExtensionId = {7f7901fa-ea73-4a95-bada-55bf89f37009}
-DriverVer = 06/11/2019, 1.0.8726.1
+DriverVer = 07/09/2019, 1.0.8750.1
 CatalogFile = AlexaConfig.cat
 
 [Manufacturer]
 %Realtek% = DeviceExtensions,NTamd64
 
 [DeviceExtensions.NTamd64]
-%Device.ExtensionDesc% = DeviceExtensionSST17AA36F2_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA36F2
+%Device.ExtensionDesc% = DeviceExtensionSST17AA36F9_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA36F9
 
-[DeviceExtensionSST17AA36F2_Install]
-AddReg = INTELSPAPORV_RTK_17AA36F2.AddReg
-[INTELSPAPORV_RTK_17AA36F2.AddReg]
+[DeviceExtensionSST17AA36F9_Install]
+AddReg = INTELSPAPORV_RTK_17AA36F9.AddReg
+[INTELSPAPORV_RTK_17AA36F9.AddReg]
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\AIO_A940_AoW_Near_Field_20181011.tf"
 HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllName",,"%%SystemRoot%%\system32\RTKSpeechPP.dll"
 HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ppDllConfigurationFile",,"%%SystemRoot%%\system32\drivers\Gen3pKey.dat"
-HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"secondStagePpDllConfigurationFile",,"%%SystemRoot%%\system32\AIO_520-22ICB_AoW_Near_Field_20180702.tf"
-HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ForceSwWov",%REG_DWORD%,0x00000001 
-HKLM,SYSTEM\CurrentControlSet\Services\IntcOED\Parameters,"VADAPIMode",%REG_DWORD%,0x00000001
-[INTELSPAPORV_RTK_17AA36F2.AddReg.Security]
+HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ForceSwWov",%REG_DWORD%,0x00000000
+HKLM,SYSTEM\CurrentControlSet\Services\IntcOED\Parameters,"VADAPIMode",%REG_DWORD%,0x00000000
+[INTELSPAPORV_RTK_17AA36F9.AddReg.Security]
 "G:BUD:(A;CIOI;KA;;;BU)"
-[DeviceExtensionSST17AA36F2_Install.Components]
+[DeviceExtensionSST17AA36F9_Install.Components]
 AddComponent = RealtekSPIPDLL,,RealtekSPIPDLL_Install
-
-
 
 [RealtekSPIPDLL_Install]
 ComponentIDs = VEN_10EC&SSTPPDLL_0001

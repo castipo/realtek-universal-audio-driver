@@ -4,29 +4,18 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %Realtek%
 ExtensionId = {7f7901fa-ea73-4a95-bada-55bf89f37009}
-DriverVer = 06/11/2019, 1.0.8726.1
+DriverVer = 07/09/2019, 1.0.8750.1
 CatalogFile = AlexaConfig.cat
 
 [Manufacturer]
 %Realtek% = DeviceExtensions,NTamd64
 
 [DeviceExtensions.NTamd64]
-%Device.ExtensionDesc% = DeviceExtensionSST_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60D5
-%Device.ExtensionDesc% = DeviceExtensionSST_Install_noTf,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60DE
-%Device.ExtensionDesc% = DeviceExtensionSST_Install_noTf,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60E7
-%Device.ExtensionDesc% = DeviceExtensionSST_Install_noTf,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA60DC
-%Device.ExtensionDesc% = DeviceExtensionSST_Install_noTf,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA60DD
-%Device.ExtensionDesc% = DeviceExtensionSST_Install_noTf,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA60B9
-%Device.ExtensionDesc% = DeviceExtensionSST_Install_noTf,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60DF
-%Device.ExtensionDesc% = DeviceExtensionSST_Install_noTf,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60E4
-%Device.ExtensionDesc% = DeviceExtensionSST_Install_noTf,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60ED
-%Device.ExtensionDesc% = DeviceExtensionSST_Install_noTf,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60F0
-%Device.ExtensionDesc% = DeviceExtensionSST_Install_noTf,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60F1
-%Device.ExtensionDesc% = DeviceExtensionSST_Install_noTf,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60F2
-%Device.ExtensionDesc% = DeviceExtensionSST_Install_noTf,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60FA
-%Device.ExtensionDesc% = DeviceExtensionSST_Install_noTf,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60FB
-%Device.ExtensionDesc% = DeviceExtensionSST_Install_noTf,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60FE
-%Device.ExtensionDesc% = DeviceExtensionSST_Install_noTf,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60FF
+%Device.ExtensionDesc% = DeviceExtensionSST_Install_noTf,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_1E26221C
+%Device.ExtensionDesc% = DeviceExtensionSST_Install_noTf,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_1E26221D
+%Device.ExtensionDesc% = DeviceExtensionSST_Install_noTf,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_1E262136
+%Device.ExtensionDesc% = DeviceExtensionSST_Install_noTf,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_1E26212C
+%Device.ExtensionDesc% = DeviceExtensionSST_Install_noTf,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_1E262138
 
 [DeviceExtensionSST_Install]
 AddReg = INTELSPAPORV_RTK.AddReg
