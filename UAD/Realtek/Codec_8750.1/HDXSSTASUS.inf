@@ -10,7 +10,7 @@ ClassGuid={4d36e96c-e325-11ce-bfc1-08002be10318}
 Provider=%OrganizationName%
 DriverPackageType=PlugAndPlay
 DriverPackageDisplayName=%PackageDisplayName%
-DriverVer=07/02/2019, 6.0.8746.1
+DriverVer=07/09/2019, 6.0.8750.1
 
 [SourceDisksNames]
 222="Realtek HD Audio Installation Disk",,,
@@ -34,6 +34,7 @@ DRMLevel=1300
 %MfgName% = AzaliaManufacturerID, NTamd64.10.0...15063
 
 [AzaliaManufacturerID.NTamd64.10.0...15063]
+"Realtek High Definition Audio" = IntcAzAudModel,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431DD1
 "Realtek High Definition Audio" = IntcAzAudModel,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431D71
 "Realtek High Definition Audio" = IntcAzAudModel,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10431DB1
 "Realtek High Definition Audio" = IntcAzAudModel,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10431D51
