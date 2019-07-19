@@ -1,0 +1,171 @@
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = Extension
+ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Provider    = %OEM%
+ExtensionId = {6b788680-000d-4b52-a7a0-6ada904b4a07} 
+DriverVer   = 05/23/2019,1.0.4.0
+CatalogFile = dtsapo4ultraAsusextensionpkg.cat
+
+[SourceDisksNames]
+1 = %DiskId1%,,,
+;;872 = %DiskId1%,,,\ASUS104387B2
+874 = %DiskId1%,,,\ASUS1043ROG
+
+[SourceDisksFiles]
+
+;;ASUS104387C4 ROG
+
+dts_apo4_oem_config_104387C4.xml=874
+dts_apo4_oem_offline_hptuning_104387C4.db=874
+dts_ctc_blob_104387C4.bin=874
+dts_ctc_ext_spk_blob_104387C4.bin=874
+dts_gpeq_44k_104387C4.bin=874
+dts_gpeq_48k_104387C4.bin=874
+dts_gpeq_ext_spk_mode1_44k_104387C4.bin=874
+dts_gpeq_ext_spk_mode1_48k_104387C4.bin=874
+dts_gpeq_ext_spk_mode2_44k_104387C4.bin=874
+dts_gpeq_ext_spk_mode2_48k_104387C4.bin=874
+dts_gpeq_ext_spk_mode3_44k_104387C4.bin=874
+dts_gpeq_ext_spk_mode3_48k_104387C4.bin=874
+dts_gpeq_ext_spk_mode4_44k_104387C4.bin=874
+dts_gpeq_ext_spk_mode4_48k_104387C4.bin=874
+dts_gpeq_ext_spk_mode5_44k_104387C4.bin=874
+dts_gpeq_ext_spk_mode5_48k_104387C4.bin=874
+dts_gpeq_ext_spk_mode6_44k_104387C4.bin=874
+dts_gpeq_ext_spk_mode6_48k_104387C4.bin=874
+dts_gpeq_ext_spk_mode7_44k_104387C4.bin=874
+dts_gpeq_ext_spk_mode7_48k_104387C4.bin=874
+dts_gpeq_ext_spk_off_44k_104387C4.bin=874
+dts_gpeq_ext_spk_off_48k_104387C4.bin=874
+dts_gpeq_mode1_44k_104387C4.bin=874
+dts_gpeq_mode1_48k_104387C4.bin=874
+dts_gpeq_mode2_44k_104387C4.bin=874
+dts_gpeq_mode2_48k_104387C4.bin=874
+dts_gpeq_mode3_44k_104387C4.bin=874
+dts_gpeq_mode3_48k_104387C4.bin=874
+dts_gpeq_mode4_44k_104387C4.bin=874
+dts_gpeq_mode4_48k_104387C4.bin=874
+dts_gpeq_mode5_44k_104387C4.bin=874
+dts_gpeq_mode5_48k_104387C4.bin=874
+dts_gpeq_mode6_44k_104387C4.bin=874
+dts_gpeq_mode6_48k_104387C4.bin=874
+dts_gpeq_mode7_44k_104387C4.bin=874
+dts_gpeq_mode7_48k_104387C4.bin=874
+dts_gpeq_off_44k_104387C4.bin=874
+dts_gpeq_off_48k_104387C4.bin=874
+dts_hpeq_44k_104387C4.bin=874
+dts_hpeq_48k_104387C4.bin=874
+dts-postprocessing_104387C4.lic=874
+
+
+[DestinationDirs]
+DefaultDestDir = 11, DTS\PC\APO4x ; %windir%\system32\DTS\PC\APO4x
+
+
+[ASUS1043ROG.CopyList]
+dts_apo4_oem_config.xml,  dts_apo4_oem_config_104387C4.xml
+dts_apo4_oem_offline_hptuning.db,  dts_apo4_oem_offline_hptuning_104387C4.db
+dts_ctc_ext_spk_blob.bin, dts_ctc_ext_spk_blob_104387C4.bin
+dts_ctc_blob.bin, dts_ctc_blob_104387C4.bin
+dts_gpeq_44k.bin, dts_gpeq_44k_104387C4.bin
+dts_gpeq_48k.bin, dts_gpeq_48k_104387C4.bin
+dts_gpeq_off_44k.bin, dts_gpeq_off_44k_104387C4.bin
+dts_gpeq_off_48k.bin, dts_gpeq_off_48k_104387C4.bin
+dts_gpeq_mode1_48k.bin, dts_gpeq_mode1_48k_104387C4.bin
+dts_gpeq_mode2_48k.bin, dts_gpeq_mode2_48k_104387C4.bin
+dts_gpeq_mode3_48k.bin, dts_gpeq_mode3_48k_104387C4.bin
+dts_gpeq_mode4_48k.bin, dts_gpeq_mode4_48k_104387C4.bin
+dts_gpeq_mode5_48k.bin, dts_gpeq_mode5_48k_104387C4.bin
+dts_gpeq_mode6_48k.bin, dts_gpeq_mode6_48k_104387C4.bin
+dts_gpeq_mode7_48k.bin, dts_gpeq_mode7_48k_104387C4.bin
+dts_gpeq_mode1_44k.bin, dts_gpeq_mode1_44k_104387C4.bin
+dts_gpeq_mode2_44k.bin, dts_gpeq_mode2_44k_104387C4.bin
+dts_gpeq_mode3_44k.bin, dts_gpeq_mode3_44k_104387C4.bin
+dts_gpeq_mode4_44k.bin, dts_gpeq_mode4_44k_104387C4.bin
+dts_gpeq_mode5_44k.bin, dts_gpeq_mode5_44k_104387C4.bin
+dts_gpeq_mode6_44k.bin, dts_gpeq_mode6_44k_104387C4.bin
+dts_gpeq_mode7_44k.bin, dts_gpeq_mode7_44k_104387C4.bin
+dts_hpeq_44k.bin, dts_hpeq_44k_104387C4.bin
+dts_hpeq_48k.bin, dts_hpeq_48k_104387C4.bin
+dts_gpeq_ext_spk_off_44k.bin, dts_gpeq_ext_spk_off_44k_104387C4.bin
+dts_gpeq_ext_spk_off_48k.bin, dts_gpeq_ext_spk_off_48k_104387C4.bin
+dts_gpeq_ext_spk_mode1_48k.bin, dts_gpeq_ext_spk_mode1_48k_104387C4.bin
+dts_gpeq_ext_spk_mode2_48k.bin, dts_gpeq_ext_spk_mode2_48k_104387C4.bin
+dts_gpeq_ext_spk_mode3_48k.bin, dts_gpeq_ext_spk_mode3_48k_104387C4.bin
+dts_gpeq_ext_spk_mode4_48k.bin, dts_gpeq_ext_spk_mode4_48k_104387C4.bin
+dts_gpeq_ext_spk_mode5_48k.bin, dts_gpeq_ext_spk_mode5_48k_104387C4.bin
+dts_gpeq_ext_spk_mode6_48k.bin, dts_gpeq_ext_spk_mode6_48k_104387C4.bin
+dts_gpeq_ext_spk_mode7_48k.bin, dts_gpeq_ext_spk_mode7_48k_104387C4.bin
+dts_gpeq_ext_spk_mode1_44k.bin, dts_gpeq_ext_spk_mode1_44k_104387C4.bin
+dts_gpeq_ext_spk_mode2_44k.bin, dts_gpeq_ext_spk_mode2_44k_104387C4.bin
+dts_gpeq_ext_spk_mode3_44k.bin, dts_gpeq_ext_spk_mode3_44k_104387C4.bin
+dts_gpeq_ext_spk_mode4_44k.bin, dts_gpeq_ext_spk_mode4_44k_104387C4.bin
+dts_gpeq_ext_spk_mode5_44k.bin, dts_gpeq_ext_spk_mode5_44k_104387C4.bin
+dts_gpeq_ext_spk_mode6_44k.bin, dts_gpeq_ext_spk_mode6_44k_104387C4.bin
+dts_gpeq_ext_spk_mode7_44k.bin, dts_gpeq_ext_spk_mode7_44k_104387C4.bin
+dts-postprocessing.lic, dts-postprocessing_104387C4.lic
+
+[Manufacturer]
+%OEM% = DeviceExtensions,NTamd64
+
+[DeviceExtensions.NTamd64]
+;%Device.ExtensionDesc% = ASUS104387B2,HDAUDIO\FUNC_01&VEN_10EC&DEV_1168&SUBSYS_104387B2
+%Device.ExtensionDesc% = ASUS1043ROG,HDAUDIO\FUNC_01&VEN_10EC&DEV_1168&SUBSYS_1043874D
+%Device.ExtensionDesc% = ASUS1043ROG,HDAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_104387C4
+%Device.ExtensionDesc% = ASUS1043ROG,HDAUDIO\FUNC_01&VEN_10EC&DEV_1168&SUBSYS_104387C5
+%Device.ExtensionDesc% = ASUS1043ROG,HDAUDIO\FUNC_01&VEN_10EC&DEV_1168&SUBSYS_104387C6
+
+
+;[ASUS104387B2]
+;CopyFiles = ASUS104387B2.CopyList
+;AddReg = PresetAddReg
+
+;[ASUS104387B2.Components]
+;AddComponent = DTSAPO,,DTSAPO_Install
+;AddComponent = DTSService,,DTSService_Install
+;AddComponent = DTSHSA,,DTSHSA_Install
+
+[ASUS1043ROG]
+CopyFiles = ASUS1043ROG.CopyList
+AddReg = PresetAddReg
+
+[ASUS1043ROG.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSService,,DTSService_Install
+
+[PresetAddReg]
+;; render endpoint settings
+HKR,InterfaceSetting,PrimaryLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                  ;; PrimaryLineOutTopo stands for Speakers(or Redirected headphone/speaker) endpoint
+HKR,InterfaceSetting,SingleLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                   ;; SingleLineOutTopo stands for Speakers(or Redirected headphone/speaker) endpoint
+HKR,InterfaceSetting,SecondaryLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                ;; SecondaryLineOutTopo stands for Headphone endpoint
+HKR,InterfaceSetting,RearLineOutTopoSST,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                  ;; RearLineOutTopoSST stands for Speakers(or Redirected headphone/speaker) endpoint with audio offloading DSP supported
+HKR,InterfaceSetting,RearLineOutTopoSST2,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                 ;; RearLineOutTopoSST2 stands for Speakers(or Redirected headphone/speaker) endpoint with audio offloading DSP supported
+HKR,InterfaceSetting,RearLineOutTopoSST3,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                 ;; RearLineOutTopoSST3 stands for Headphone endpoint with audio offloading DSP supported
+HKR,InterfaceSetting,RearLineOutTopoDock,%REG_MULTI_SZ_APPEND%,"ApoPreset1"   
+;; Preset values in property store
+;;HKR,InterfaceSetting\ApoPreset1\EP\0, "{7A8B74C8-FA66-4460-8542-D6119C59E9D4},2", %REG_SZ%, "C:\Windows\System32\DTS\PC\APO4x\dts_apo4_oem_config.xml"  
+HKR,InterfaceSetting\ApoPreset1\EP\0, "{7A8B74C8-FA66-4460-8542-D6119C59E9D4},4", %REG_DWORD%, 0x100  ;; DTS APO on Realtek
+
+
+[DTSAPO_Install]
+ComponentIDs = VEN_DTSI&AID_DTSI2
+Description = "DTS Audio Effects Component"
+
+[DTSService_Install]
+ComponentIDs = VEN_DTSI&HID_DTSIAPO4xSERVICE
+Description = "DTS APO4x Service Component"
+
+[DTSHSA_Install]
+ComponentIDs = VEN_DTSI&HID_DTSIULTRA
+Description = "DTS Audio Hardware Support Application"
+
+[Strings]
+OEM                  = "DTS"
+Device.ExtensionDesc = "OEM Device Extension"
+DiskId1              = "OEM Audio Device Extension Installation Disk (DTS)"
+
+REG_BINARY = 0x00000001
+REG_DWORD = 0x00010001
+REG_MULTI_SZ = 0x00010000
+REG_MULTI_SZ_APPEND = 0x00010008
