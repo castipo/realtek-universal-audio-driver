@@ -9,7 +9,7 @@ ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider 	= %ManufacturerName%
 ExtensionId = {2C0454A3-AB52-4F33-8FD1-21140301103B}
 CatalogFile = dax3_ext_rtk_lenovo_cn.cat
-DriverVer = 07/14/2019,4.715.945.02
+DriverVer = 07/18/2019,4.719.322.27
 
 [Manufacturer]
 %ManufacturerName% = DeviceExtensions,NTamd64
@@ -19,18 +19,16 @@ DriverVer = 07/14/2019,4.715.945.02
 %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA3806
 %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA3806
 ; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,
-%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA381A
-%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA381A
 %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA3819
 %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA3819
-%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA381B
-%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA381B
 %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA3818
 %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA383B
 %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA383B
 %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA3803
 %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA3803
 %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA381A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA381B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA381B
 %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA3804
 %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA3804
 %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA3813
@@ -95,7 +93,9 @@ DriverVer = 07/14/2019,4.715.945.02
 %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudioSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3830
 ; %Device.ExtensionDesc% = DeviceExtension_Install_Gaming,
 ; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA383D
 %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA383D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA3807
 %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA3807
 ; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem_VLLDP120,
 
@@ -229,8 +229,8 @@ Headphone_Default_Generic_Default_DolbyAtmosSpeakerSystemForGaming.xml = 222
 ; Dolby Atmos Speaker System (VLLDP1.2)
 Headphone_Default_Generic_Default_DolbyAtmosSpeakerSystem_VLLDP1.2.xml = 222
 ; Speaker tunings
-INTELAUDIO_DEV_0285_SUBSYS_17AA383D_PCI_SUBSYS_382417AA.xml = 222
-INTELAUDIO_DEV_0285_SUBSYS_17AA3807_PCI_SUBSYS_382417AA.xml = 222
+DEV_0285_SUBSYS_17AA383D_PCI_SUBSYS_382417AA.xml = 222
+DEV_0285_SUBSYS_17AA3807_PCI_SUBSYS_382417AA.xml = 222
 DEV_0257_SUBSYS_17AA384C_PCI_SUBSYS_381617AA.xml = 222
 DEV_0257_SUBSYS_17AA3830_PCI_SUBSYS_380F17AA.xml = 222
 HDAUDIO_DEV_0274_SUBSYS_17AA3703_PCI_SUBSYS_370317AA.xml = 222
@@ -275,13 +275,12 @@ HDAUDIO_DEV_0257_SUBSYS_17AA380D_PCI_SUBSYS_381417AA.xml = 222
 INTELAUDIO_DEV_0257_SUBSYS_17AA3848_PCI_SUBSYS_382117AA.xml = 222
 INTELAUDIO_DEV_0257_SUBSYS_17AA3840_PCI_SUBSYS_381017AA.xml = 222
 DEV_0257_SUBSYS_17AA3842_PCI_SUBSYS_381617AA.xml = 222
-DEV_0298_SUBSYS_17AA381A_PCI_SUBSYS_380117AA.xml = 222
 DEV_0298_SUBSYS_17AA3819_PCI_SUBSYS_380E17AA.xml = 222
-DEV_0298_SUBSYS_17AA381B_PCI_SUBSYS_380217AA.xml = 222
 INTELAUDIO_DEV_0298_SUBSYS_17AA3818_PCI_SUBSYS_382E17AA.xml = 222
 DEV_0285_SUBSYS_17AA383B_PCI_SUBSYS_382717AA.xml = 222
 DEV_0285_SUBSYS_17AA3803_PCI_SUBSYS_382717AA.xml = 222
 INTELAUDIO_DEV_0285_SUBSYS_17AA381A_PCI_SUBSYS_380417AA.xml = 222
+DEV_0298_SUBSYS_17AA381B_PCI_SUBSYS_380217AA.xml = 222
 DEV_0285_SUBSYS_17AA3804_PCI_SUBSYS_380317AA.xml = 222
 DEV_0285_SUBSYS_17AA3813_PCI_SUBSYS_381017AA.xml = 222
 DEV_0285_SUBSYS_17AA3818_PCI_SUBSYS_380317AA.xml = 222
@@ -311,13 +310,12 @@ DEV_0285_SUBSYS_17AA3806_PCI_SUBSYS_380617AA.xml
 Headphone_Default_Generic_Default_DolbyAtmos.xml
 
 [DolbyAPO_CopyFiles_DolbyAtmosSpeakerSystem]
-DEV_0298_SUBSYS_17AA381A_PCI_SUBSYS_380117AA.xml
 DEV_0298_SUBSYS_17AA3819_PCI_SUBSYS_380E17AA.xml
-DEV_0298_SUBSYS_17AA381B_PCI_SUBSYS_380217AA.xml
 INTELAUDIO_DEV_0298_SUBSYS_17AA3818_PCI_SUBSYS_382E17AA.xml
 DEV_0285_SUBSYS_17AA383B_PCI_SUBSYS_382717AA.xml
 DEV_0285_SUBSYS_17AA3803_PCI_SUBSYS_382717AA.xml
 INTELAUDIO_DEV_0285_SUBSYS_17AA381A_PCI_SUBSYS_380417AA.xml
+DEV_0298_SUBSYS_17AA381B_PCI_SUBSYS_380217AA.xml
 DEV_0285_SUBSYS_17AA3804_PCI_SUBSYS_380317AA.xml
 DEV_0285_SUBSYS_17AA3813_PCI_SUBSYS_381017AA.xml
 DEV_0285_SUBSYS_17AA3818_PCI_SUBSYS_380317AA.xml
@@ -380,8 +378,8 @@ Headphone_Default_Generic_Default_DolbyAudioSpeakerSystem.xml
 Headphone_Default_Generic_Default_Gaming.xml
 
 [DolbyAPO_CopyFiles_DolbyAtmosSpeakerSystemForGaming]
-INTELAUDIO_DEV_0285_SUBSYS_17AA383D_PCI_SUBSYS_382417AA.xml
-INTELAUDIO_DEV_0285_SUBSYS_17AA3807_PCI_SUBSYS_382417AA.xml
+DEV_0285_SUBSYS_17AA383D_PCI_SUBSYS_382417AA.xml
+DEV_0285_SUBSYS_17AA3807_PCI_SUBSYS_382417AA.xml
 Headphone_Default_Generic_Default_DolbyAtmosSpeakerSystemForGaming.xml
 
 [DolbyAPO_CopyFiles_DolbyAtmosSpeakerSystem_VLLDP120]
