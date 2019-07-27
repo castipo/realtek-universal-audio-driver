@@ -1,0 +1,95 @@
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = Extension
+ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Provider    = %OrganizationName%
+ExtensionId = {A23F0038-653E-48E7-8F42-BB00F02085D7}
+DriverVer   = 07/23/2019, 6.0.8761.1
+CatalogFile = HDXRTExt.cat
+
+[Manufacturer]
+%MfgName% = DeviceExtensions,NTamd64.10.0...15063
+
+[DeviceExtensions.NTamd64.10.0...15063]
+;%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_12345678
+;%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_Offload_APO,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_12345678
+;%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSPMA5,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_12345678
+
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_102808B6
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_102808B7
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808B8
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808B9
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808BA
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_102808E0
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_102808E1
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_102808E2
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_102808E9
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_10280918
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_10280919
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_1028091A
+;%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_1028091B
+;%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_1028091C
+;%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_1028091D
+;%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_1028091E
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSPMA5, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_10280928
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSPMA5, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_10280929
+;%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0289&SUBSYS_10280926
+;%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0289&SUBSYS_10280927
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_1028093D
+;%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1028094B
+;%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1028094D
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1028097F
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10280980
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809A0
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809A1
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809A2
+
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1028098A
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1028098B
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_10280988
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_10280989
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_10280984
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_10280985
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_10280986
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_10280987
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_1028098C
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_1028099E
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_1028099F
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1028098D
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_102809BF
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_102809BA
+
+
+[DeviceExtension_Install_MA8_Render_DSP]
+AddReg = IntcAzAudModelAddReg_DrvPolicySSTEnablePP_FULL
+
+[DeviceExtension_Install_MA8_Render_Offload_APO]
+AddReg = IntcAzAudModelAddReg_DrvPolicySSTEnablePP_REDUCE
+
+[DeviceExtension_Install_MA8_Render_DSPMA5]
+AddReg = IntcAzAudModelAddReg_DrvPolicySSTEnablePP_MA8MA5
+
+
+[IntcAzAudModelAddReg_DrvPolicySSTEnablePP_FULL]
+HKR,Settings,DrvPolicySSTEnableMaxxAudio,0x00010001,1
+HKR,Settings,Rip,0x10001,0x1050540
+
+[IntcAzAudModelAddReg_DrvPolicySSTEnablePP_REDUCE]
+HKR,Settings,DrvPolicySSTEnableMaxxAudio,0x00010001,1
+HKR,Settings,Rip,0x10001,0x1050440
+
+[IntcAzAudModelAddReg_DrvPolicySSTEnablePP_MA8MA5]
+HKR,Settings,DrvPolicySSTEnableMaxxAudio,0x00010001,1
+HKR,Settings,Rip,0x10001,0x10506C0
+
+
+[Strings]
+OrganizationName     = "Realtek Semiconductor Corp."
+MfgName              = "Realtek"
+Realtek	             = "Realtek"
+Device.ExtensionDesc = "Realtek Device Extension"
+ExtendedFriendlyName = "Realtek(R) Audio"
+
+REG_BINARY = 0x00000001
+REG_DWORD = 0x00010001
+REG_MULTI_SZ = 0x00010000
