@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {86F65302-34A5-441C-8E16-C05C2D9E6151}
-DriverVer   = 05/24/2019,1.0.3.88
+DriverVer   = 07/01/2019,1.0.3.93
 CatalogFile = OemXAudioExt_fm.cat
 
 [SourceDisksNames]
@@ -51,6 +51,7 @@ SAMSfpa_17AA22A2.dat=222
 SAMSfpa_17AA507B.dat=222
 SAMSfpa_17AA22AA.dat=222
 SAMSfpa_17AA22AC.dat=222
+SAMSfpa_17AA22AD.dat=222
 RTMICAR_17AA5122.dat=222
 RTMICAR_17AA5123.dat=222
 RTMICAR_17AA225F.dat=222
@@ -88,6 +89,7 @@ RTMICAR_17AA22A2.dat=222
 RTMICAR_17AA507B.dat=222
 RTMICAR_17AA22AA.dat=222
 RTMICAR_17AA22AC.dat=222
+RTMICAR_17AA22AD.dat=222
 SAMSfpi_17AA2266.dat=222
 SAMSfpi_17AA2267.dat=222
 SAMSfpi_17AA2276.dat=222
@@ -108,6 +110,7 @@ SAMSfpi_17AA22A2.dat=222
 SAMSfpi_17AA507B.dat=222
 SAMSfpi_17AA22AA.dat=222
 SAMSfpi_17AA22AC.dat=222
+SAMSfpi_17AA22AD.dat=222
 SAMSfppch_17AA2279.dat=222
 SAMSfppch_17AA2284.dat=222
 SAMSfppch_17AA2281.dat=222
@@ -117,6 +120,7 @@ SAMSfppch_17AA2288.dat=222
 SAMSfppch_17AA2294.dat=222
 SAMSfppch_17AA2292.dat=222
 SAMSfppch_17AA2293.dat=222
+SAMSfppch_17AA22AD.dat=222
 configuration_17AA5077.tf=222
 configuration_17AA2266.tf=222
 configuration_17AA2267.tf=222
@@ -175,6 +179,7 @@ FMDAT_17AA22A2.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_17AA507B.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_17AA22AA.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_17AA22AC.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_17AA22AD.CopyList = 12 ; %windir%\system32\drivers
 INTELTF_17AA5077.CopyList = 11 ; %windir%\system32
 INTELTF_17AA2266.CopyList = 11 ; %windir%\system32
 INTELTF_17AA2267.CopyList = 11 ; %windir%\system32
@@ -379,6 +384,12 @@ SAMSfpa_17AA22AC.dat
 RTMICAR_17AA22AC.dat
 SAMSfpi_17AA22AC.dat
 
+[FMDAT_17AA22AD.CopyList]
+SAMSfpa_17AA22AD.dat
+RTMICAR_17AA22AD.dat
+SAMSfppch_17AA22AD.dat
+SAMSfpi_17AA22AD.dat
+
 [INTELTF_17AA5077.CopyList]
 configuration.tf, configuration_17AA5077.tf
 
@@ -475,6 +486,7 @@ configuration.tf, configuration_17AA22AC.tf
 %Device.ExtensionDesc% = DeviceExtension_Install_17AA507B,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA507B
 %Device.ExtensionDesc% = DeviceExtension_Install_17AA22AA,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA22AA
 %Device.ExtensionDesc% = DeviceExtension_Install_17AA22AC,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA22AC
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA22AD,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA22AD
 
 
 [DeviceExtension_Install_17AA001A]
@@ -805,6 +817,15 @@ AddReg = FortemediaSstPpDll.AddReg
 
 [DeviceExtension_Install_17AA22AC.HW]
 
+[DeviceExtension_Install_17AA22AD]
+CopyFiles = FMDAT_17AA22AD.CopyList, FMPPDAT_REF.CopyList
+AddReg = CortanaKey_17AA22AD_AddReg
+AddReg = RTMICAR_17AA22AD.AddReg
+AddReg = PresetAddReg
+AddReg = FortemediaSstPpDllNoTf.AddReg
+
+[DeviceExtension_Install_17AA22AD.HW]
+
 ;[FriendlyName_AddReg]
 ;HKR,,FriendlyName,,%ExtendedFriendlyName%
 
@@ -925,6 +946,9 @@ AddComponent = FMAPO,,FMAPO_Install
 [DeviceExtension_Install_17AA22AC.Components]
 AddComponent = FMAPO,,FMAPO_Install
 
+[DeviceExtension_Install_17AA22AD.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
 [PresetAddReg]
 HKR,InterfaceSetting,RtMicInTopo,0x10008,"FMAPOPreset1"
 HKR,InterfaceSetting,RtFrontMicInTopo,0x10008,"FMAPOPreset1"
@@ -1013,115 +1037,118 @@ Description = "Fortemedia SAMSoft Effects Component"
 
 
 [RTMICAR_17AA001A.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA001A.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA001A.dat
 
 [RTMICAR_17AA225D.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA225D.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA225D.dat
 
 [RTMICAR_17AA225F.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA225F.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA225F.dat
 
 [RTMICAR_17AA2261.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA2261.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA2261.dat
 
 [RTMICAR_17AA2266.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA2266.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA2266.dat
 
 [RTMICAR_17AA2267.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA2267.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA2267.dat
 
 [RTMICAR_17AA2269.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA2269.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA2269.dat
 
 [RTMICAR_17AA2271.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA2271.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA2271.dat
 
 [RTMICAR_17AA2272.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA2272.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA2272.dat
 
 [RTMICAR_17AA2274.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA2274.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA2274.dat
 
 [RTMICAR_17AA2275.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA2275.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA2275.dat
 
 [RTMICAR_17AA2276.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA2276.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA2276.dat
 
 [RTMICAR_17AA2279.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA2279.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA2279.dat
 
 [RTMICAR_17AA2281.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA2281.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA2281.dat
 
 [RTMICAR_17AA2284.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA2284.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA2284.dat
 
 [RTMICAR_17AA2286.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA2286.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA2286.dat
 
 [RTMICAR_17AA2287.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA2287.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA2287.dat
 
 [RTMICAR_17AA2288.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA2288.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA2288.dat
 
 [RTMICAR_17AA2292.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA2292.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA2292.dat
 
 [RTMICAR_17AA2293.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA2293.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA2293.dat
 
 [RTMICAR_17AA2294.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA2294.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA2294.dat
 
 [RTMICAR_17AA229D.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA229D.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA229D.dat
 
 [RTMICAR_17AA22A2.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA22A2.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA22A2.dat
 
 [RTMICAR_17AA506A.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA506A.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA506A.dat
 
 [RTMICAR_17AA506B.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA506B.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA506B.dat
 
 [RTMICAR_17AA5075.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA5075.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA5075.dat
 
 [RTMICAR_17AA5076.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA5076.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA5076.dat
 
 [RTMICAR_17AA5077.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA5077.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA5077.dat
 
 [RTMICAR_17AA511E.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA511E.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA511E.dat
 
 [RTMICAR_17AA5122.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA5122.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA5122.dat
 
 [RTMICAR_17AA5123.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA5123.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA5123.dat
 
 [RTMICAR_17AA5125.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA5125.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA5125.dat
 
 [RTMICAR_17AA5126.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA5126.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA5126.dat
 
 [RTMICAR_17AA5127.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA5127.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA5127.dat
 
 [RTMICAR_17AA507B.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA507B.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA507B.dat
 
 [RTMICAR_17AA22AA.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA22AA.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA22AA.dat
 
 [RTMICAR_17AA22AC.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_17AA22AC.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA22AC.dat
+
+[RTMICAR_17AA22AD.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA22AD.dat
 
 
 [CortanaKey_17AA5122_AddReg]
@@ -1233,6 +1260,9 @@ HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 
 [CortanaKey_17AA22AC_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_17AA22AD_AddReg]
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 
 [Strings]

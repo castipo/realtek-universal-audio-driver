@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {86F65302-34A5-441C-8E16-C05C2D9E6151}
-DriverVer   = 05/24/2019,1.0.3.88
+DriverVer   = 07/01/2019,1.0.3.93
 CatalogFile = OemXAudioExt_fm.cat
 
 [SourceDisksNames]
@@ -71,6 +71,17 @@ SAMSfpa_103C86A8.dat=222
 SAMSfpa_103C86A9.dat=222
 SAMSfpa_103C86AA.dat=222
 SAMSfpa_103C8549.dat=222
+SAMSfpa_103C86EA.dat=222
+SAMSfpa_103C8725.dat=222
+SAMSfpa_103C8728.dat=222
+SAMSfpa_103C8729.dat=222
+SAMSfpa_103C872A.dat=222
+SAMSfpa_103C873D.dat=222
+SAMSfpa_103C8730.dat=222
+SAMSfpa_103C8731.dat=222
+SAMSfpa_103C8732.dat=222
+SAMSfpa_103C8733.dat=222
+SAMSfpa_103C876B.dat=222
 Samsfpaspk_103C8536.dat=222
 Samsfpaspk_103C8537.dat=222
 Samsfpaspk_103C8538.dat=222
@@ -131,6 +142,17 @@ Samsfpaspk_103C86A8.dat=222
 Samsfpaspk_103C86A9.dat=222
 Samsfpaspk_103C86AA.dat=222
 Samsfpaspk_103C8549.dat=222
+Samsfpaspk_103C86EA.dat=222
+Samsfpaspk_103C8725.dat=222
+Samsfpaspk_103C8728.dat=222
+Samsfpaspk_103C8729.dat=222
+Samsfpaspk_103C872A.dat=222
+Samsfpaspk_103C873D.dat=222
+Samsfpaspk_103C8730.dat=222
+Samsfpaspk_103C8731.dat=222
+Samsfpaspk_103C8732.dat=222
+Samsfpaspk_103C8733.dat=222
+Samsfpaspk_103C876B.dat=222
 RTMICAR_103C8536.dat=222
 RTMICAR_103C8537.dat=222
 RTMICAR_103C8538.dat=222
@@ -183,6 +205,15 @@ RTMICAR_103C8549.dat=222
 RTMICAR_103C8586.dat=222
 RTMICAR_103C8588.dat=222
 RTMICAR_103C858B.dat=222
+RTMICAR_103C86EA.dat=222
+RTMICAR_103C8725.dat=222
+RTMICAR_103C8728.dat=222
+RTMICAR_103C8729.dat=222
+RTMICAR_103C872A.dat=222
+RTMICAR_103C873D.dat=222
+RTMICAR_103C8730.dat=222
+RTMICAR_103C8732.dat=222
+RTMICAR_103C876B.dat=222
 SAMSfppch_103C857F.dat=222
 SAMSfppch_103C8548.dat=222
 SAMSfppch_103C861F.dat=222
@@ -213,6 +244,12 @@ SAMSfppch_103C86A8.dat=222
 SAMSfppch_103C86A9.dat=222
 SAMSfppch_103C86AA.dat=222
 SAMSfppch_103C8549.dat=222
+SAMSfppch_103C86EA.dat=222
+SAMSfppch_103C8725.dat=222
+SAMSfppch_103C8728.dat=222
+SAMSfppch_103C8729.dat=222
+SAMSfppch_103C872A.dat=222
+SAMSfppch_103C873D.dat=222
 
 [DestinationDirs]
 FMDAT_103C8536.CopyList = 12 ; %windir%\system32\drivers
@@ -275,6 +312,17 @@ FMDAT_103C86A8.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_103C86A9.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_103C86AA.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_103C8549.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_103C86EA.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_103C8725.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_103C8728.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_103C8729.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_103C872A.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_103C873D.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_103C8730.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_103C8731.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_103C8732.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_103C8733.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_103C876B.CopyList = 12 ; %windir%\system32\drivers
 
 
 [FMDAT_103C8536.CopyList]
@@ -599,6 +647,65 @@ Samsfpaspk_103C8549.dat
 RTMICAR_103C8549.dat
 SAMSfppch_103C8549.dat
 
+[FMDAT_103C86EA.CopyList]
+SAMSfpa_103C86EA.dat
+Samsfpaspk_103C86EA.dat
+RTMICAR_103C86EA.dat
+SAMSfppch_103C86EA.dat
+
+[FMDAT_103C8725.CopyList]
+SAMSfpa_103C8725.dat
+Samsfpaspk_103C8725.dat
+RTMICAR_103C8725.dat
+SAMSfppch_103C8725.dat
+
+[FMDAT_103C8728.CopyList]
+SAMSfpa_103C8728.dat
+Samsfpaspk_103C8728.dat
+RTMICAR_103C8728.dat
+SAMSfppch_103C8728.dat
+
+[FMDAT_103C8729.CopyList]
+SAMSfpa_103C8729.dat
+Samsfpaspk_103C8729.dat
+RTMICAR_103C8729.dat
+SAMSfppch_103C8729.dat
+
+[FMDAT_103C872A.CopyList]
+SAMSfpa_103C872A.dat
+Samsfpaspk_103C872A.dat
+RTMICAR_103C872A.dat
+SAMSfppch_103C872A.dat
+
+[FMDAT_103C873D.CopyList]
+SAMSfpa_103C873D.dat
+Samsfpaspk_103C873D.dat
+RTMICAR_103C873D.dat
+SAMSfppch_103C873D.dat
+
+[FMDAT_103C8730.CopyList]
+SAMSfpa_103C8730.dat
+Samsfpaspk_103C8730.dat
+RTMICAR_103C8730.dat
+
+[FMDAT_103C8731.CopyList]
+SAMSfpa_103C8731.dat
+Samsfpaspk_103C8731.dat
+
+[FMDAT_103C8732.CopyList]
+SAMSfpa_103C8732.dat
+Samsfpaspk_103C8732.dat
+RTMICAR_103C8732.dat
+
+[FMDAT_103C8733.CopyList]
+SAMSfpa_103C8733.dat
+Samsfpaspk_103C8733.dat
+
+[FMDAT_103C876B.CopyList]
+SAMSfpa_103C876B.dat
+Samsfpaspk_103C876B.dat
+RTMICAR_103C876B.dat
+
 
 [Manufacturer]
 %OEM% = DeviceExtensions,NTamd64
@@ -664,6 +771,17 @@ SAMSfppch_103C8549.dat
 %Device.ExtensionDesc% = DeviceExtension_Install_103C86A9,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86A9
 %Device.ExtensionDesc% = DeviceExtension_Install_103C86AA,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86AA
 %Device.ExtensionDesc% = DeviceExtension_Install_103C8549,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0215&SUBSYS_103C8549
+%Device.ExtensionDesc% = DeviceExtension_Install_103C86EA,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C86EA
+%Device.ExtensionDesc% = DeviceExtension_Install_103C8725,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C8725
+%Device.ExtensionDesc% = DeviceExtension_Install_103C8728,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C8728
+%Device.ExtensionDesc% = DeviceExtension_Install_103C8729,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C8729
+%Device.ExtensionDesc% = DeviceExtension_Install_103C872A,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C872A
+%Device.ExtensionDesc% = DeviceExtension_Install_103C873D,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C873D
+%Device.ExtensionDesc% = DeviceExtension_Install_103C8730,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C8730
+%Device.ExtensionDesc% = DeviceExtension_Install_103C8731,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C8731
+%Device.ExtensionDesc% = DeviceExtension_Install_103C8732,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C8732
+%Device.ExtensionDesc% = DeviceExtension_Install_103C8733,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C8733
+%Device.ExtensionDesc% = DeviceExtension_Install_103C876B,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C876B
 
 
 [DeviceExtension_Install_103C8536]
@@ -1190,6 +1308,101 @@ AddReg = RENPresetAddReg
 
 [DeviceExtension_Install_103C86AA.HW]
 
+[DeviceExtension_Install_103C86EA]
+CopyFiles = FMDAT_103C86EA.CopyList
+AddReg = CortanaKey_103C86EA_AddReg
+AddReg = RTMICAR_103C86EA.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C86EA.HW]
+
+[DeviceExtension_Install_103C8725]
+CopyFiles = FMDAT_103C8725.CopyList
+AddReg = CortanaKey_103C8725_AddReg
+AddReg = RTMICAR_103C8725.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C8725.HW]
+
+[DeviceExtension_Install_103C8728]
+CopyFiles = FMDAT_103C8728.CopyList
+AddReg = CortanaKey_103C8728_AddReg
+AddReg = RTMICAR_103C8728.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C8728.HW]
+
+[DeviceExtension_Install_103C8729]
+CopyFiles = FMDAT_103C8729.CopyList
+AddReg = CortanaKey_103C8729_AddReg
+AddReg = RTMICAR_103C8729.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C8729.HW]
+
+[DeviceExtension_Install_103C872A]
+CopyFiles = FMDAT_103C872A.CopyList
+AddReg = CortanaKey_103C872A_AddReg
+AddReg = RTMICAR_103C872A.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C872A.HW]
+
+[DeviceExtension_Install_103C873D]
+CopyFiles = FMDAT_103C873D.CopyList
+AddReg = CortanaKey_103C873D_AddReg
+AddReg = RTMICAR_103C873D.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C873D.HW]
+
+[DeviceExtension_Install_103C8730]
+CopyFiles = FMDAT_103C8730.CopyList
+AddReg = CortanaKey_103C8730_AddReg
+AddReg = RTMICAR_103C8730.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C8730.HW]
+
+[DeviceExtension_Install_103C8731]
+CopyFiles = FMDAT_103C8731.CopyList
+AddReg = MonoAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C8731.HW]
+
+[DeviceExtension_Install_103C8732]
+CopyFiles = FMDAT_103C8732.CopyList
+AddReg = CortanaKey_103C8732_AddReg
+AddReg = RTMICAR_103C8732.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C8732.HW]
+
+[DeviceExtension_Install_103C8733]
+CopyFiles = FMDAT_103C8733.CopyList
+AddReg = MonoAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C8733.HW]
+
+[DeviceExtension_Install_103C876B]
+CopyFiles = FMDAT_103C876B.CopyList
+AddReg = CortanaKey_103C876B_AddReg
+AddReg = RTMICAR_103C876B.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C876B.HW]
+
 ;[FriendlyName_AddReg]
 ;HKR,,FriendlyName,,%ExtendedFriendlyName%
 
@@ -1373,6 +1586,39 @@ AddComponent = FMAPO,,FMAPO_Install
 [DeviceExtension_Install_103C8549.Components]
 AddComponent = FMAPO,,FMAPO_Install
 
+[DeviceExtension_Install_103C86EA.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_103C8725.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_103C8728.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_103C8729.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_103C872A.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_103C873D.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_103C8730.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_103C8731.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_103C8732.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_103C8733.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_103C876B.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
 [PresetAddReg]
 HKR,InterfaceSetting,RtMicInTopo,0x10008,"FMAPOPreset1"
 HKR,InterfaceSetting,RtFrontMicInTopo,0x10008,"FMAPOPreset1"
@@ -1484,161 +1730,187 @@ Description = "Fortemedia SAMSoft Effects Component"
 
 
 [RTMICAR_103C8536.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8536.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C8536.dat
 
 [RTMICAR_103C8537.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8537.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C8537.dat
 
 [RTMICAR_103C8538.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8538.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C8538.dat
 
 [RTMICAR_103C853D.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C853D.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C853D.dat
 
 [RTMICAR_103C8548.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8548.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C8548.dat
 
 [RTMICAR_103C8549.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8549.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C8549.dat
 
 [RTMICAR_103C854A.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C854A.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C854A.dat
 
 [RTMICAR_103C854D.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C854D.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C854D.dat
 
 [RTMICAR_103C854E.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C854E.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C854E.dat
 
 [RTMICAR_103C854F.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C854F.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C854F.dat
 
 [RTMICAR_103C8570.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8570.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C8570.dat
 
 [RTMICAR_103C8571.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8571.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C8571.dat
 
 [RTMICAR_103C857F.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C857F.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C857F.dat
 
 [RTMICAR_103C8585.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8585.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C8585.dat
 
 [RTMICAR_103C8586.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8586.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C8586.dat
 
 [RTMICAR_103C8587.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8587.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C8587.dat
 
 [RTMICAR_103C8588.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8588.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C8588.dat
 
 [RTMICAR_103C858A.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C858A.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C858A.dat
 
 [RTMICAR_103C858B.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C858B.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C858B.dat
 
 [RTMICAR_103C858D.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C858D.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C858D.dat
 
 [RTMICAR_103C858E.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C858E.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C858E.dat
 
 [RTMICAR_103C85A3.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C85A3.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C85A3.dat
 
 [RTMICAR_103C85A5.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C85A5.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C85A5.dat
 
 [RTMICAR_103C85AA.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C85AA.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C85AA.dat
 
 [RTMICAR_103C85AD.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C85AD.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C85AD.dat
 
 [RTMICAR_103C85B9.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C85B9.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C85B9.dat
 
 [RTMICAR_103C85D7.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C85D7.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C85D7.dat
 
 [RTMICAR_103C85D9.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C85D9.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C85D9.dat
 
 [RTMICAR_103C85DB.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C85DB.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C85DB.dat
 
 [RTMICAR_103C860C.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C860C.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C860C.dat
 
 [RTMICAR_103C860F.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C860F.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C860F.dat
 
 [RTMICAR_103C861F.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C861F.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C861F.dat
 
 [RTMICAR_103C8621.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8621.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C8621.dat
 
 [RTMICAR_103C8622.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8622.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C8622.dat
 
 [RTMICAR_103C8637.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8637.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C8637.dat
 
 [RTMICAR_103C8655.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C8655.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C8655.dat
 
 [RTMICAR_103C869B.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C869B.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C869B.dat
 
 [RTMICAR_103C869C.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C869C.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C869C.dat
 
 [RTMICAR_103C869D.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C869D.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C869D.dat
 
 [RTMICAR_103C869E.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C869E.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C869E.dat
 
 [RTMICAR_103C869F.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C869F.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C869F.dat
 
 [RTMICAR_103C86A0.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C86A0.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C86A0.dat
 
 [RTMICAR_103C86A1.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C86A1.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C86A1.dat
 
 [RTMICAR_103C86A2.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C86A2.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C86A2.dat
 
 [RTMICAR_103C86A3.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C86A3.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C86A3.dat
 
 [RTMICAR_103C86A4.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C86A4.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C86A4.dat
 
 [RTMICAR_103C86A5.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C86A5.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C86A5.dat
 
 [RTMICAR_103C86A6.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C86A6.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C86A6.dat
 
 [RTMICAR_103C86A7.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C86A7.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C86A7.dat
 
 [RTMICAR_103C86A8.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C86A8.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C86A8.dat
 
 [RTMICAR_103C86A9.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C86A9.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C86A9.dat
 
 [RTMICAR_103C86AA.AddReg]
-HKR,Settings,FMDATPATH,0x00020000,%%SystemRoot%%\system32\drivers\RTMICAR_103C86AA.dat
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C86AA.dat
 
+[RTMICAR_103C86EA.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C86EA.dat
+
+[RTMICAR_103C8725.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C8725.dat
+
+[RTMICAR_103C8728.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C8728.dat
+
+[RTMICAR_103C8729.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C8729.dat
+
+[RTMICAR_103C872A.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C872A.dat
+
+[RTMICAR_103C873D.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C873D.dat
+
+[RTMICAR_103C8730.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C8730.dat
+
+[RTMICAR_103C8732.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C8732.dat
+
+[RTMICAR_103C876B.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C876B.dat
 
 
 [CortanaKey_103C8536_AddReg]
@@ -1798,6 +2070,33 @@ HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 
 [CortanaKey_103C858E_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C86EA_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C8725_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C8728_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C8729_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C872A_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C873D_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C8730_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C8732_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C876B_AddReg]
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 
 [Strings]

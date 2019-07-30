@@ -5,7 +5,7 @@ ClassGuid={e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider=Fortemedia
 ExtensionId = {6BB685A9-87AA-4BE8-A345-055DB3E4452A}
 CatalogFile=IntcDMicExt.cat
-DriverVer = 05/10/2019,09.21.3229.38
+DriverVer = 07/01/2019,09.21.3229.41
 
 [Manufacturer]
 Intel(R) Corporation = Intel, NTAMD64.10.0...16273
@@ -16,6 +16,7 @@ Intel(R) Corporation = Intel, NTAMD64.10.0...16273
 %Device.ExtensionDesc% = IntcAudModelWSstPpDll, INTELAUDIO\CTLR_DEV_34C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_229D17AA&REV_0001
 %Device.ExtensionDesc% = IntcAudModelWSstPpDll, INTELAUDIO\CTLR_DEV_02C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_229217AA&REV_0001
 %Device.ExtensionDesc% = IntcAudModelWSstPpDll, INTELAUDIO\CTLR_DEV_02C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_229317AA&REV_0001
+%Device.ExtensionDesc% = IntcAudModelWSstPpDll, INTELAUDIO\CTLR_DEV_02C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_22AD17AA&REV_0001
 
 [IntcAudModelWSstPpDll]
 AddReg = FortemediaSstPpDll.AddReg
@@ -88,11 +89,17 @@ HKR,"EP\\0", %PKEY_AudioEndpoint_Default_VolumeInDb%, 0x00010001, 0x140000
 ;HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"ForceSwWov",%REG_DWORD%,0x00000001
 ;HKLM,SYSTEM\CurrentControlSet\Services\IntcOED\Parameters,"VADAPIMode",%REG_DWORD%,0x00000001
 
-HKR,"GlobalSettings","FakeVolumeNodeEnable",REG_BINARY,01,00,00,00
-HKR,"GlobalSettings","MinimumFakeVolume",REG_BINARY,00,00,A0,FF
-HKR,"GlobalSettings","MaximumFakeVolume",REG_BINARY,00,00,00,00
-HKR,"GlobalSettings","DefaultFakeVolume",REG_BINARY,00,00,00,00
-HKR,"GlobalSettings","StepFakeVolume",REG_BINARY,00,80,00,00
+;HKR,"GlobalSettings","FakeVolumeNodeEnable",REG_BINARY,01,00,00,00
+;HKR,"GlobalSettings","MinimumFakeVolume",REG_BINARY,00,00,A0,FF
+;HKR,"GlobalSettings","MaximumFakeVolume",REG_BINARY,00,00,00,00
+;HKR,"GlobalSettings","DefaultFakeVolume",REG_BINARY,00,00,00,00
+;HKR,"GlobalSettings","StepFakeVolume",REG_BINARY,00,80,00,00
+
+HKR,GlobalSettings,FakeVolumeNodeEnable,1,01,00,00,00
+HKR,GlobalSettings,MinimumFakeVolume,1,FF,FF,9F,FF
+HKR,GlobalSettings,MaximumFakeVolume,1,00,00,1E,00
+HKR,GlobalSettings,DefaultFakeVolume,1,00,00,14,00
+HKR,GlobalSettings,StepFakeVolume,1,00,80,00,00
 HKR,"GlobalSettings\Device0","Gain",0x10001,0x30000
 
 ;Second stage pre-processing configuration
