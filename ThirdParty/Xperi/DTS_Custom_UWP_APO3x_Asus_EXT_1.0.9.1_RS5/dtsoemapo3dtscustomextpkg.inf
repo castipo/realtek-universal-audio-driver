@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {539F16D5-56C3-4308-9B03-AFCB6BC27ADF}
-DriverVer   = 07/11/2018,1.0.9.0
+DriverVer   = 12/20/2018,1.0.9.1
 CatalogFile = dtsoemapo3dtscustomextpkg.cat
 
 [SourceDisksNames]

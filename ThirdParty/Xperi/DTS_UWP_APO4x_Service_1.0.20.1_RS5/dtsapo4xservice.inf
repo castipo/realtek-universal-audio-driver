@@ -3,7 +3,7 @@ Signature   = "$WINDOWS NT$"
 Class       = SoftwareComponent
 ClassGuid   = {5c4c3332-344d-483c-8739-259e934c9cc8}
 Provider    = %OEM%
-DriverVer   = 05/31/2019,1.0.20.0
+DriverVer   = 06/20/2019,1.0.20.1
 CatalogFile = dtsapo4xservice.cat
 
 [SourceDisksNames]
