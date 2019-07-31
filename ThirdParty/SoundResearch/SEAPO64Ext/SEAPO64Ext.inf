@@ -4,7 +4,7 @@ Signature="$WINDOWS NT$"
 Class=Extension
 ClassGuid={e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider=%ProviderName%
-DriverVer=07/29/2019,15.64.40.3045
+DriverVer=07/31/2019,15.64.58.8737
 CatalogFile=SEAPO64Ext.cat
 
 [SourceDisksNames]
@@ -78,6 +78,7 @@ SEAPODAT.INTELAUDIO.FUNC_01&VEN_10EC&DEV_0298.zip,,,0x00000800
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_103C84F0
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_103C85BA
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_103C86B6
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_103C8708
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C864A
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C864B
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C864C
@@ -276,6 +277,7 @@ SEAPODAT.INTELAUDIO.FUNC_01&VEN_10EC&DEV_0298.zip,,,0x00000800
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_103C843A
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_103C8443
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_103C86EE
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_10EC0274
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0282&SUBSYS_103C84EC
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0282&SUBSYS_103C84FB
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0282&SUBSYS_103C84DF
@@ -301,6 +303,8 @@ SEAPODAT.INTELAUDIO.FUNC_01&VEN_10EC&DEV_0298.zip,,,0x00000800
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C85FD
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C85FE
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C85FF
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C876E
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C876F
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C85DD
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_103C84E5
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_103C84E6
