@@ -34,10 +34,14 @@ DRMLevel=1300
 %MfgName% = AzaliaManufacturerID, NTamd64.10.0...15063
 
 [AzaliaManufacturerID.NTamd64.10.0...15063]
-"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0293&SUBSYS_15588D50
-"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_15588D52
-"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_15588D60
-"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_155867B3
+"Realtek High Definition Audio" = IntcAzAudModel,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_103C84EE
+"Realtek High Definition Audio" = IntcAzAudModel,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_103C86B7
+"Realtek High Definition Audio" = IntcAzAudModel,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_103C86C6
+"Realtek High Definition Audio" = IntcAzAudModel,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_103C86C7
+"Realtek High Definition Audio" = IntcAzAudModel,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86F8
+"Realtek High Definition Audio" = IntcAzAudModel,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86EF
+"Realtek High Definition Audio" = IntcAzAudModel,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86F7
+"Realtek High Definition Audio" = IntcAzAudModel,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_103C86ED
 
 
 [IntcAzAudModelCopyFiles]
@@ -50,8 +54,12 @@ RTAIODAT.DAT
 Include=ks.inf,wdmaudio.inf
 Needs=KS.Registration,WDMAUDIO.Registration
 CopyFiles = IntcAzAudModelCopyFiles
-AddReg    = RtHdaBaseAddReg
+AddReg    = HPModelAddReg, RtHdaBaseAddReg
 AddProperty  = OEMCustomBranding.AddProperty
+
+[HPModelAddReg]
+HKR,Settings,HP_Models,0x00010001,5
+HKR,Settings,ForceSST,0x00010001,1
 
 [IntcAzAudModel.NTamd64.HW]
 AddReg=HdAudSecurity.AddReg

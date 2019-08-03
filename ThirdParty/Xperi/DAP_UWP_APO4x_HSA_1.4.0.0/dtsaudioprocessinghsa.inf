@@ -3,7 +3,7 @@ Signature   = "$WINDOWS NT$"
 Class       = SoftwareComponent
 ClassGuid   = {5c4c3332-344d-483c-8739-259e934c9cc8}
 Provider    = %OEM%
-DriverVer   = 03/19/2019,1.3.0.0
+DriverVer   = 06/19/2019,1.4.0.0
 CatalogFile = dtsaudioprocessinghsa.cat
 
 [SourceDisksNames]

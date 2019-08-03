@@ -5,7 +5,7 @@ SetBatchLines, -1
 ; Customize File Extension (optional)
 CustomExt = tvb
 TreeRoot = %A_WorkingDir%\UAD\Realtek
-Singtool = C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x64\signtool.exe
+Singtool = %A_WorkingDir%\signtool\signtool.exe
 
 
 ImageListID := IL_Create(10)
