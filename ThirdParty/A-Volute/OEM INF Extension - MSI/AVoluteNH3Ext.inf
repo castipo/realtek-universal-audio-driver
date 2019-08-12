@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %Provider%
 ExtensionId = {ce86418f-53d0-b4e5-36b3-3d0907cfa3b4}
-DriverVer = 07/04/2019,1.1.19.58946
+DriverVer = 07/25/2019,1.1.21.59281
 CatalogFile = AVoluteNH3Ext.cat
 
 [SourceDisksNames]
@@ -146,6 +146,13 @@ NH3ProductSettings.cab
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1462129A
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_14621298
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_1462129C
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_146212AB
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_14621297
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_146212AA
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_146212A7
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_14621286
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_146212A5
+%Device.ExtensionDesc% = DeviceExtension_Install,USB\VID_0DB0&PID_0D64&MI_00
 
 [DeviceExtension_Install]
 CopyFiles = AVoluteProdSettings.CopyList
