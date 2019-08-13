@@ -1,0 +1,122 @@
+[Version]
+Signature = "$Windows NT$"
+Class = Extension
+ClassGuid = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Provider = %ManufacturerName%
+ExtensionId = {2722A1C5-B716-47A8-BBEF-2F451353DCBA}
+DriverVer = 05/07/2019,15.14.22.937
+CatalogFile = cridspapoextension.cat
+
+[Manufacturer]
+%ManufacturerName% = CriDspApoExtension, NTamd64
+
+[CriDspApoExtension.NTamd64]
+%CriDspApo.ExtensionDesc% = CriDspApoExtension_Install_1E262230, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_1E262230
+%CriDspApo.ExtensionDesc% = CriDspApoExtension_Install_1E262231, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_1E262231
+%CriDspApo.ExtensionDesc% = CriDspApoExtension_Install_1E262136, HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_1E262136
+%CriDspApo.ExtensionDesc% = CriDspApoExtension_Install_1E262136, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_1E262136
+
+[SourceDisksFiles]
+CriDspApo.dll = 1
+CriDspApoService.exe = 1
+diracmobile_1E262230.config = 1
+diracmobile_1E262231.config = 1
+diracmobile_1E262136.config = 1
+DiracAPI_SHARED.dll = 1
+
+[SourceDisksNames]
+1 = %DiskName%
+
+[DestinationDirs]
+CriDspApoExtension_CopyFiles = 11 ; copy to %SystemRoot%\system32
+CriDspApoExtension_CopyFiles_1E262230 = 11 ; copy to %SystemRoot%\System32
+CriDspApoExtension_CopyFiles_1E262231 = 11 ; copy to %SystemRoot%\System32
+CriDspApoExtension_CopyFiles_1E262136 = 11 ; copy to %SystemRoot%\System32
+
+[SignatureAttributes]
+CriDspApo.dll = SignatureAttributes.PETrust
+
+[SignatureAttributes.PETrust]
+PETrust=true
+
+[CriDspApoExtension_Install_1E262230]
+CopyFiles = CriDspApoExtension_CopyFiles, CriDspApoExtension_CopyFiles_1E262230
+AddReg = CriDspApo_AddReg
+
+[CriDspApoExtension_Install_1E262230.Services]
+AddService = CriDspApoService, 0x00000800, CriDspApoExtension_ServiceInstall
+
+[CriDspApoExtension_Install_1E262231]
+CopyFiles = CriDspApoExtension_CopyFiles, CriDspApoExtension_CopyFiles_1E262231
+AddReg = CriDspApo_AddReg
+
+[CriDspApoExtension_Install_1E262231.Services]
+AddService = CriDspApoService, 0x00000800, CriDspApoExtension_ServiceInstall
+
+[CriDspApoExtension_Install_1E262136]
+CopyFiles = CriDspApoExtension_CopyFiles, CriDspApoExtension_CopyFiles_1E262136
+AddReg = CriDspApo_AddReg
+
+[CriDspApoExtension_Install_1E262136.Services]
+AddService = CriDspApoService, 0x00000800, CriDspApoExtension_ServiceInstall
+
+[CriDspApoExtension_ServiceInstall]
+DisplayName   = "CriDspApo Service"
+Description   = "This service manages the parameters of CriDspApo"
+ServiceType   = 0x00000010 ; SERVICE_WIN32_OWN_PROCESS
+StartType     = 0x00000002 ; SERVICE_AUTO_START
+ErrorControl  = 0x00000001 ; SERVICE_ERROR_NORMAL
+ServiceBinary = %11%\CriDspApoService.exe
+
+[CriDspApoExtension_CopyFiles]
+CriDspApo.dll
+CriDspApoService.exe
+DiracAPI_SHARED.dll
+
+[CriDspApoExtension_CopyFiles_1E262230]
+diracmobile_1E262230.config
+
+[CriDspApoExtension_CopyFiles_1E262231]
+diracmobile_1E262231.config
+
+[CriDspApoExtension_CopyFiles_1E262136]
+diracmobile_1E262136.config
+
+[CriDspApo_AddReg]
+; APO COM registration
+HKCR,CLSID\%CRIDSPAPO_CLSID%, , , %EFX_FriendlyName%
+HKCR,CLSID\%CRIDSPAPO_CLSID%\InProcServer32, , 0x00020000, %%SystemRoot%%\System32\CriDspApo.dll
+HKCR,CLSID\%CRIDSPAPO_CLSID%\InProcServer32, ThreadingModel, , "Both"
+
+; APO registration
+HKCR,AudioEngine\AudioProcessingObjects\%CRIDSPAPO_CLSID%,"FriendlyName", , %EFX_FriendlyName%
+HKCR,AudioEngine\AudioProcessingObjects\%CRIDSPAPO_CLSID%,"Copyright", , %Copyright%
+HKCR,AudioEngine\AudioProcessingObjects\%CRIDSPAPO_CLSID%,"MajorVersion", %REG_DWORD%,2
+HKCR,AudioEngine\AudioProcessingObjects\%CRIDSPAPO_CLSID%,"MinorVersion", %REG_DWORD%,0
+HKCR,AudioEngine\AudioProcessingObjects\%CRIDSPAPO_CLSID%,"Flags", %REG_DWORD%, %APO_FLAG_DEFAULT%
+HKCR,AudioEngine\AudioProcessingObjects\%CRIDSPAPO_CLSID%,"MinInputConnections", %REG_DWORD%, 1
+HKCR,AudioEngine\AudioProcessingObjects\%CRIDSPAPO_CLSID%,"MaxInputConnections", %REG_DWORD%, 1
+HKCR,AudioEngine\AudioProcessingObjects\%CRIDSPAPO_CLSID%,"MinOutputConnections", %REG_DWORD%, 1
+HKCR,AudioEngine\AudioProcessingObjects\%CRIDSPAPO_CLSID%,"MaxOutputConnections", %REG_DWORD%, 1
+HKCR,AudioEngine\AudioProcessingObjects\%CRIDSPAPO_CLSID%,"MaxInstances", %REG_DWORD%, 0xffffffff
+HKCR,AudioEngine\AudioProcessingObjects\%CRIDSPAPO_CLSID%,"NumAPOInterfaces", %REG_DWORD%, 1
+HKCR,AudioEngine\AudioProcessingObjects\%CRIDSPAPO_CLSID%,"APOInterface0", , %CRIDSPAPO_IID%
+
+[Strings]
+ManufacturerName = "CRI Middleware Co., Ltd."
+CriDspApo.ExtensionDesc = "CriDspApo Extension"
+DiskName = "CriDspApo Extension Installation Disk"
+
+EFX_FriendlyName = "CriDspApo"
+Copyright = "Copyright (c) CRI Middleware Co., Ltd."
+
+CRIDSPAPO_CLSID = "{2d6ee0d5-3f36-49a0-9415-c34cbc4152d4}"
+CRIDSPAPO_IID = "{88d19089-9830-46a4-842e-0b275e45e51c}"
+
+REG_BINARY = 0x00000001
+REG_DWORD = 0x00010001
+REG_MULTI_SZ = 0x00010000
+
+; see audioenginebaseapo.idl for APO_FLAG enum values
+APO_FLAG_DEFAULT  = 0x0000000e
+
