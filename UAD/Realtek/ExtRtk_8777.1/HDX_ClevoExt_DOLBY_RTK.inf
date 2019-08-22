@@ -11,10 +11,6 @@ CatalogFile = HDXRTExt.cat
 %MfgName% = DeviceExtensions,NTamd64.10.0...15063
 
 [DeviceExtensions.NTamd64.10.0...15063]
-;(Dolby.DAX3, Realtek.Recording) = DeviceExtension_Install
-;(DolbyDSP.DAX3, Realtek.Recording) = DeviceExtension_DSD_Install
-;(Dolby.Game, Realtek.Recording) = DeviceExtension_DolbyGame_Install
-;(DolbyDSP.Game, Realtek.Recording) = DeviceExtension_DolbyGame_DSP_Install
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_15588D53
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0293&SUBSYS_15588D51
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_15588D61

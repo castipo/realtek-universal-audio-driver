@@ -9,7 +9,7 @@ ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider 	= %ManufacturerName%
 ExtensionId = {505728B7-5172-461A-8318-113776C2A9DE}
 CatalogFile = dax3_ext_rtk_medion.cat
-DriverVer = 08/11/2019,4.812.851.42
+DriverVer = 08/19/2019,4.820.112.26
 
 [Manufacturer]
 %ManufacturerName% = DeviceExtensions,NTamd64

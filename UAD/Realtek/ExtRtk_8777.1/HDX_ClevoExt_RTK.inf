@@ -4,17 +4,15 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OrganizationName%
 ExtensionId = {C3A63EDD-2D27-4B66-B155-5E94B43D926A}
-DriverVer   = 07/23/2019, 6.0.8761.1
+DriverVer   = 08/13/2019, 6.0.8777.1
 CatalogFile = HDXRTExt.cat
 
 [Manufacturer]
 %MfgName% = DeviceExtensions,NTamd64.10.0...15063
 
 [DeviceExtensions.NTamd64.10.0...15063]
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_15587713
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0293&SUBSYS_155840C1
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0293&SUBSYS_15588D51
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_15588D53
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_15588D61
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0293&SUBSYS_155840A1
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0293&SUBSYS_155850A3
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0293&SUBSYS_15581403

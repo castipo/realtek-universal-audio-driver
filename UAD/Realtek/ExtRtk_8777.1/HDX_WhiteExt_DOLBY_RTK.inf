@@ -4,56 +4,20 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OrganizationName%
 ExtensionId = {C3A63EDD-2D27-4B66-B155-5E94B43D926A}
-DriverVer   = 06/25/2019, 6.0.8742.1
+DriverVer   = 08/13/2019, 6.0.8777.1
 CatalogFile = HDXRTExt.cat
 
 [Manufacturer]
 %MfgName% = DeviceExtensions,NTamd64.10.0...15063
 
 [DeviceExtensions.NTamd64.10.0...15063]
-;(Dolby.DAX3, Realtek.Recording) = DeviceExtension_Install
-;(DolbyDSP.DAX3, Realtek.Recording) = DeviceExtension_DSD_Install
-;(Dolby.Game, Realtek.Recording) = DeviceExtension_DolbyGame_Install
-;(DolbyDSP.Game, Realtek.Recording) = DeviceExtension_DolbyGame_DSP_Install
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0293&SUBSYS_15588D50
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_15588D52
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_15588D60
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D051079
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_152D1200
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_152D1211
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_155897E2
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_152D1219
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0282&SUBSYS_1B506809
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0282&SUBSYS_1B506709
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_152D1186
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_152D1191
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D05105A
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1B0A2411
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_1B0A240A
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1B0A241A
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_152D1195
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_152D1202
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1558852D
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_10EC1148
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1B0A230D
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1B0A231C
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1B0A22C8
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1B0A2306
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_155867B3
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1B0A2341
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1B0A233E
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_1DC23108
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_1DC23104
-%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_1DC23108
-%Device.ExtensionDesc% = DeviceExtension_DSD_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D051056
-%Device.ExtensionDesc% = DeviceExtension_DolbyGame_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D051076
-%Device.ExtensionDesc% = DeviceExtension_DolbyGame_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D051074
-%Device.ExtensionDesc% = DeviceExtension_DolbyGame_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D051075
 %Device.ExtensionDesc% = DeviceExtension_DolbyGame_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_155867C3
-%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17C0110D
-%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10EC118C
-%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10EC118E
-%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1D721610
 
 [DeviceExtension_Install]
 AddReg = IntcAzAudModelAddReg, IntcAzAudModel_UseDolbyDAX3_AddReg
@@ -83,6 +47,7 @@ AddReg = FriendlyName_AddReg
 [IntcAzAudModelAddReg]
 ;; OmniSpeaker
 HKR,Settings,OmniSpeaker,0x00010001,0
+HKR,Settings,DCH_DAX3,0x00010001,1
 
 ;; render endpoint settings
 HKR,InterfaceSetting,RearLineOutTopo,0x10008,"SysCustomizedFx"

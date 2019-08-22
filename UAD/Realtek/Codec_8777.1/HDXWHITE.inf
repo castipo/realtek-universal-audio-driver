@@ -10,7 +10,7 @@ ClassGuid={4d36e96c-e325-11ce-bfc1-08002be10318}
 Provider=%OrganizationName%
 DriverPackageType=PlugAndPlay
 DriverPackageDisplayName=%PackageDisplayName%
-DriverVer=07/09/2019, 6.0.8750.1
+DriverVer=08/13/2019, 6.0.8777.1
 
 [SourceDisksNames]
 222="Realtek HD Audio Installation Disk",,,
@@ -34,8 +34,11 @@ DRMLevel=1300
 %MfgName% = AzaliaManufacturerID, NTamd64.10.0...15063
 
 [AzaliaManufacturerID.NTamd64.10.0...15063]
-"Realtek High Definition Audio" = IntcAzAudModel, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0293&SUBSYS_15581325
-"Realtek High Definition Audio" = IntcAzAudModel, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0293&SUBSYS_15581323
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0293&SUBSYS_15588D50
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_15588D52
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_15588D60
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_155867B3
+
 
 [IntcAzAudModelCopyFiles]
 RTKVHD64.sys
@@ -47,11 +50,8 @@ RTAIODAT.DAT
 Include=ks.inf,wdmaudio.inf
 Needs=KS.Registration,WDMAUDIO.Registration
 CopyFiles = IntcAzAudModelCopyFiles
-AddReg    = SSTAddReg, RtHdaBaseAddReg
+AddReg    = RtHdaBaseAddReg
 AddProperty  = OEMCustomBranding.AddProperty
-
-[SSTAddReg]
-HKR,Settings,ForceSST,0x00010001,1
 
 [IntcAzAudModel.NTamd64.HW]
 AddReg=HdAudSecurity.AddReg
