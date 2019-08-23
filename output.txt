@@ -1,0 +1,10 @@
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt_8777.1\AlexaAcerConfig.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt_8777.1\AlexaAsusConfig.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt_8777.1\AlexaClevoConfig.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt_8777.1\AlexaFujitsuConfig.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt_8777.1\AlexaHpConfigRTK.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt_8777.1\AlexaHpConfigRTK2.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt_8777.1\AlexaHpConfigRTKDefaultTFName.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt_8777.1\AlexaHpConfigRTKNoTF.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt_8777.1\AlexaMSIConfig.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt_8777.1\AlexaSamsungConfigRTK.inf
