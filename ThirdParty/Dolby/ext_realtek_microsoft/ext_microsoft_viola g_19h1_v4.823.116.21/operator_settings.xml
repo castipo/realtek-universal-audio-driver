@@ -51,7 +51,7 @@
                 </Applications>
             </CaptureStream>
             <DolbyEnabled value="true"/>
-            <SeparateEndpointSetting value="false"/>
+            <SeparateEndpointSetting value="true"/>
             <geq_maximum_range value="192"/>
             <default_profile value="music"/>
             <default_uitheme value="red"/>

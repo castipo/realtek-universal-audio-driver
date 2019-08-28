@@ -9,7 +9,7 @@ ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider 	= %ManufacturerName%
 ExtensionId = {2C0454A3-AB52-4F33-8FD1-21140301103B}
 CatalogFile = dax3_ext_rtk_lenovo_cn.cat
-DriverVer = 08/19/2019,4.820.113.38
+DriverVer = 08/22/2019,4.823.125.57
 
 [Manufacturer]
 %ManufacturerName% = DeviceExtensions,NTamd64
@@ -131,6 +131,8 @@ DriverVer = 08/19/2019,4.820.113.38
 %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA383D
 %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA3807
 %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA3807
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3813
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3813
 ; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem_VLLDP120,
 
 [DeviceExtension_Install_DolbyAtmos.NT]
@@ -265,6 +267,7 @@ Headphone_Default_Generic_Default_DolbyAtmosSpeakerSystem_VLLDP1.2.xml = 222
 ; Speaker tunings
 DEV_0285_SUBSYS_17AA383D_PCI_SUBSYS_382417AA.xml = 222
 DEV_0285_SUBSYS_17AA3807_PCI_SUBSYS_382417AA.xml = 222
+DEV_0287_SUBSYS_17AA3813_PCI_SUBSYS_382617AA.xml = 222
 HDAUDIO_DEV_0274_SUBSYS_17AA3703_PCI_SUBSYS_370317AA.xml = 222
 INTELAUDIO_DEV_0274_SUBSYS_17AA3702_PCI_SUBSYS_370217AA.xml = 222
 DEV_0230_SUBSYS_17AA3841_PCI_SUBSYS_380917AA.xml = 222
@@ -446,6 +449,7 @@ Headphone_Default_Generic_Default_Gaming.xml
 [DolbyAPO_CopyFiles_DolbyAtmosSpeakerSystemForGaming]
 DEV_0285_SUBSYS_17AA383D_PCI_SUBSYS_382417AA.xml
 DEV_0285_SUBSYS_17AA3807_PCI_SUBSYS_382417AA.xml
+DEV_0287_SUBSYS_17AA3813_PCI_SUBSYS_382617AA.xml
 Headphone_Default_Generic_Default_DolbyAtmosSpeakerSystemForGaming.xml
 
 [DolbyAPO_CopyFiles_DolbyAtmosSpeakerSystem_VLLDP120]

@@ -9,7 +9,7 @@ ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider 	= %ManufacturerName%
 ExtensionId = {8952B4B4-22C3-43EB-AA3F-0147584F21D0}
 CatalogFile = dax3_ext_rtk_razer.cat
-DriverVer = 07/03/2019,4.704.329.46
+DriverVer = 08/22/2019,4.823.616.59
 
 [Manufacturer]
 %ManufacturerName% = DeviceExtensions,NTamd64
@@ -21,6 +21,8 @@ DriverVer = 07/03/2019,4.704.329.46
 %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_1A583001
 %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_1A583001
 %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_1A583000
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_1A582008
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_1A582008
 ; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,
 ; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,
 ; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudioPremium,
@@ -187,6 +189,7 @@ HDAUDIO_DEV_0256_SUBSYS_1A582004_PCI_SUBSYS_20041A58.xml = 222
 INTELAUDIO_DEV_0298_SUBSYS_1A582005_PCI_SUBSYS_20051A58.xml = 222
 DEV_0298_SUBSYS_1A583001_PCI_SUBSYS_30011A58.xml = 222
 INTELAUDIO_DEV_0298_SUBSYS_1A583000_PCI_SUBSYS_30001A58.xml = 222
+DEV_0298_SUBSYS_1A582008_PCI_SUBSYS_20081A58.xml = 222
 ; Operator xml
 Operator_Info_Razer.xml = 222
 ; Operator Settings xml
@@ -212,6 +215,7 @@ HDAUDIO_DEV_0256_SUBSYS_1A582004_PCI_SUBSYS_20041A58.xml
 INTELAUDIO_DEV_0298_SUBSYS_1A582005_PCI_SUBSYS_20051A58.xml
 DEV_0298_SUBSYS_1A583001_PCI_SUBSYS_30011A58.xml
 INTELAUDIO_DEV_0298_SUBSYS_1A583000_PCI_SUBSYS_30001A58.xml
+DEV_0298_SUBSYS_1A582008_PCI_SUBSYS_20081A58.xml
 Headphone_Default_Generic_Default_DolbyAtmos.xml
 Headphone_Default_Generic_Large_DolbyAtmos.xml
 Headphone_Default_Generic_Medium_DolbyAtmos.xml
