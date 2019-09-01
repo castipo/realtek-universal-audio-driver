@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %Provider%
 ExtensionId = {4DBBC440-ACCA-11E7-BE06-448A5B99B4C1}
-DriverVer   = 07/01/2019,1.5.13.0
+DriverVer   = 08/25/2019,1.5.16.0
 CatalogFile = AVoluteAWSCExt.cat
 
 [SourceDisksNames]
@@ -57,7 +57,8 @@ CassiniMLKProductSettings.cab
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0215&SUBSYS_1028099B		;;Firefly
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0215&SUBSYS_1028099C		;;Firefly
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0215&SUBSYS_1028099D		;;Firefly
-
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0289&SUBSYS_102809CE		;;Viper 15
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0289&SUBSYS_102809D1		;;Viper 17
 
 ;; Nahimic3Dell systems (Vulcan basic)
 ;;%Device.ExtensionDesc% = DeviceExtension_Install_Nahimic3Dell,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808EA
@@ -74,7 +75,7 @@ AddReg = SoundCenter_AddReg
 
 [SoundCenter_AddReg]
 ;; render endpoint settings
-HKR,InterfaceSetting,RearLineOutTopo,0x10008,"PLaybackSoundCenterConfig"
+HKR,InterfaceSetting,RearLineOutTopo,0x10008,"PlaybackSoundCenterConfig"
 HKR,InterfaceSetting,PrimaryLineOutTopo,0x10008,"PlaybackSoundCenterConfig"
 HKR,InterfaceSetting,SingleLineOutTopo,0x10008,"PlaybackSoundCenterConfig"
 HKR,InterfaceSetting,SecondaryLineOutTopo,0x10008,"PlaybackSoundCenterConfig"
@@ -127,14 +128,18 @@ HKR,InterfaceSetting,RtMicInSSTTopo,0x10008,"RecordSoundCenterConfig"
 ;; Playback
 HKR,InterfaceSetting\PlaybackSoundCenterConfig\EP\0, %PKEY_SoundCenterSupported%,%REG_DWORD%,0x1
 HKR,InterfaceSetting\PlaybackSoundCenterConfig\EP\1, %PKEY_SoundCenterSupported%,%REG_DWORD%,0x1
+HKR,InterfaceSetting\PlaybackSoundCenterConfig\EP\2, %PKEY_SoundCenterSupported%,%REG_DWORD%,0x1
 HKR,InterfaceSetting\PlaybackSoundCenterConfig\EP\0, %PKEY_InstalledProductId%,%REG_SZ%,%ProductId%
 HKR,InterfaceSetting\PlaybackSoundCenterConfig\EP\1, %PKEY_InstalledProductId%,%REG_SZ%,%ProductId%
+HKR,InterfaceSetting\PlaybackSoundCenterConfig\EP\2, %PKEY_InstalledProductId%,%REG_SZ%,%ProductId%
 
 ;; Record
 HKR,InterfaceSetting\RecordSoundCenterConfig\EP\0, %PKEY_SoundCenterSupported%,%REG_DWORD%,0x1
 HKR,InterfaceSetting\RecordSoundCenterConfig\EP\1, %PKEY_SoundCenterSupported%,%REG_DWORD%,0x1
+HKR,InterfaceSetting\RecordSoundCenterConfig\EP\2, %PKEY_SoundCenterSupported%,%REG_DWORD%,0x1
 HKR,InterfaceSetting\RecordSoundCenterConfig\EP\0, %PKEY_InstalledProductId%,%REG_SZ%,%ProductId%
 HKR,InterfaceSetting\RecordSoundCenterConfig\EP\1, %PKEY_InstalledProductId%,%REG_SZ%,%ProductId%
+HKR,InterfaceSetting\RecordSoundCenterConfig\EP\2, %PKEY_InstalledProductId%,%REG_SZ%,%ProductId%
 
 [DeviceExtension_Install.Components]
 AddComponent = AVOLUTE_NH3APO,,APO_Install
