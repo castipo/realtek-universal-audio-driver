@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {86F65302-34A5-441C-8E16-C05C2D9E6151}
-DriverVer   = 08/09/2019,1.0.3.98
+DriverVer   = 08/16/2019,1.0.3.99
 CatalogFile = OemXAudioExt_fm.cat
 
 [SourceDisksNames]
@@ -83,6 +83,14 @@ SAMSfpa_103C8732.dat=222
 SAMSfpa_103C8733.dat=222
 SAMSfpa_103C876B.dat=222
 SAMSfpa_103C8735.dat=222
+SAMSfpa_103C8761.dat=222
+SAMSfpa_103C8762.dat=222
+SAMSfpa_103C8764.dat=222
+SAMSfpa_103C8765.dat=222
+SAMSfpa_103C877A.dat=222
+SAMSfpa_103C877B.dat=222
+SAMSfpa_103C877D.dat=222
+SAMSfpa_103C87A8.dat=222
 Samsfpaspk_103C8536.dat=222
 Samsfpaspk_103C8537.dat=222
 Samsfpaspk_103C8538.dat=222
@@ -155,6 +163,14 @@ Samsfpaspk_103C8732.dat=222
 Samsfpaspk_103C8733.dat=222
 Samsfpaspk_103C876B.dat=222
 Samsfpaspk_103C8735.dat=222
+Samsfpaspk_103C8761.dat=222
+Samsfpaspk_103C8762.dat=222
+Samsfpaspk_103C8764.dat=222
+Samsfpaspk_103C8765.dat=222
+Samsfpaspk_103C877A.dat=222
+Samsfpaspk_103C877B.dat=222
+Samsfpaspk_103C877D.dat=222
+Samsfpaspk_103C87A8.dat=222
 RTMICAR_103C8536.dat=222
 RTMICAR_103C8537.dat=222
 RTMICAR_103C8538.dat=222
@@ -210,6 +226,13 @@ RTMICAR_103C8730.dat=222
 RTMICAR_103C8732.dat=222
 RTMICAR_103C876B.dat=222
 RTMICAR_103C8735.dat=222
+RTMICAR_103C8761.dat=222
+RTMICAR_103C8762.dat=222
+RTMICAR_103C8764.dat=222
+RTMICAR_103C8765.dat=222
+RTMICAR_103C877A.dat=222
+RTMICAR_103C877B.dat=222
+RTMICAR_103C877D.dat=222
 SAMSfppch_103C857F.dat=222
 SAMSfppch_103C8548.dat=222
 SAMSfppch_103C861F.dat=222
@@ -246,6 +269,8 @@ SAMSfppch_103C8728.dat=222
 SAMSfppch_103C8729.dat=222
 SAMSfppch_103C872A.dat=222
 SAMSfppch_103C873D.dat=222
+SAMSfppch_103C877D.dat=222
+SAMSfppch_103C87A8.dat=222
 
 [DestinationDirs]
 FMDAT_103C8536.CopyList = 12 ; %windir%\system32\drivers
@@ -320,6 +345,14 @@ FMDAT_103C8732.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_103C8733.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_103C876B.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_103C8735.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_103C8761.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_103C8762.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_103C8764.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_103C8765.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_103C877A.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_103C877B.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_103C877D.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_103C87A8.CopyList = 12 ; %windir%\system32\drivers
 
 
 [FMDAT_103C8536.CopyList]
@@ -701,6 +734,47 @@ SAMSfpa_103C8735.dat
 Samsfpaspk_103C8735.dat
 RTMICAR_103C8735.dat
 
+[FMDAT_103C8761.CopyList]
+SAMSfpa_103C8761.dat
+Samsfpaspk_103C8761.dat
+RTMICAR_103C8761.dat
+
+[FMDAT_103C8762.CopyList]
+SAMSfpa_103C8762.dat
+Samsfpaspk_103C8762.dat
+RTMICAR_103C8762.dat
+
+[FMDAT_103C8764.CopyList]
+SAMSfpa_103C8764.dat
+Samsfpaspk_103C8764.dat
+RTMICAR_103C8764.dat
+
+[FMDAT_103C8765.CopyList]
+SAMSfpa_103C8765.dat
+Samsfpaspk_103C8765.dat
+RTMICAR_103C8765.dat
+
+[FMDAT_103C877A.CopyList]
+SAMSfpa_103C877A.dat
+Samsfpaspk_103C877A.dat
+RTMICAR_103C877A.dat
+
+[FMDAT_103C877B.CopyList]
+SAMSfpa_103C877B.dat
+Samsfpaspk_103C877B.dat
+RTMICAR_103C877B.dat
+
+[FMDAT_103C877D.CopyList]
+SAMSfpa_103C877D.dat
+Samsfpaspk_103C877D.dat
+RTMICAR_103C877D.dat
+SAMSfppch_103C877D.dat
+
+[FMDAT_103C87A8.CopyList]
+SAMSfpa_103C87A8.dat
+Samsfpaspk_103C87A8.dat
+SAMSfppch_103C87A8.dat
+
 
 [Manufacturer]
 %OEM% = DeviceExtensions,NTamd64
@@ -778,6 +852,14 @@ RTMICAR_103C8735.dat
 %Device.ExtensionDesc% = DeviceExtension_Install_103C8733,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C8733
 %Device.ExtensionDesc% = DeviceExtension_Install_103C876B,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C876B
 %Device.ExtensionDesc% = DeviceExtension_Install_103C8735,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C8735
+%Device.ExtensionDesc% = DeviceExtension_Install_103C8761,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C8761
+%Device.ExtensionDesc% = DeviceExtension_Install_103C8762,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C8762
+%Device.ExtensionDesc% = DeviceExtension_Install_103C8764,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C8764
+%Device.ExtensionDesc% = DeviceExtension_Install_103C8765,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C8765
+%Device.ExtensionDesc% = DeviceExtension_Install_103C877A,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C877A
+%Device.ExtensionDesc% = DeviceExtension_Install_103C877B,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C877B
+%Device.ExtensionDesc% = DeviceExtension_Install_103C877D,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C877D
+%Device.ExtensionDesc% = DeviceExtension_Install_103C87A8,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C87A8
 
 
 [DeviceExtension_Install_103C8536]
@@ -1394,6 +1476,76 @@ AddReg = RENPresetAddReg
 
 [DeviceExtension_Install_103C8735.HW]
 
+[DeviceExtension_Install_103C8761]
+CopyFiles = FMDAT_103C8761.CopyList
+AddReg = CortanaKey_103C8761_AddReg
+AddReg = RTMICAR_103C8761.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C8761.HW]
+
+[DeviceExtension_Install_103C8762]
+CopyFiles = FMDAT_103C8762.CopyList
+AddReg = CortanaKey_103C8762_AddReg
+AddReg = RTMICAR_103C8762.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C8762.HW]
+
+[DeviceExtension_Install_103C8764]
+CopyFiles = FMDAT_103C8764.CopyList
+AddReg = CortanaKey_103C8764_AddReg
+AddReg = RTMICAR_103C8764.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C8764.HW]
+
+[DeviceExtension_Install_103C8765]
+CopyFiles = FMDAT_103C8765.CopyList
+AddReg = CortanaKey_103C8765_AddReg
+AddReg = RTMICAR_103C8765.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C8765.HW]
+
+[DeviceExtension_Install_103C877A]
+CopyFiles = FMDAT_103C877A.CopyList
+AddReg = CortanaKey_103C877A_AddReg
+AddReg = RTMICAR_103C877A.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C877A.HW]
+
+[DeviceExtension_Install_103C877B]
+CopyFiles = FMDAT_103C877B.CopyList
+AddReg = CortanaKey_103C877B_AddReg
+AddReg = RTMICAR_103C877B.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C877B.HW]
+
+[DeviceExtension_Install_103C877D]
+CopyFiles = FMDAT_103C877D.CopyList
+AddReg = CortanaKey_103C877D_AddReg
+AddReg = RTMICAR_103C877D.AddReg
+AddReg = PresetAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C877D.HW]
+
+[DeviceExtension_Install_103C87A8]
+CopyFiles = FMDAT_103C87A8.CopyList
+AddReg = MonoAddReg
+AddReg = RENPresetAddReg
+
+[DeviceExtension_Install_103C87A8.HW]
+
 ;[FriendlyName_AddReg]
 ;HKR,,FriendlyName,,%ExtendedFriendlyName%
 
@@ -1611,6 +1763,30 @@ AddComponent = FMAPO,,FMAPO_Install
 AddComponent = FMAPO,,FMAPO_Install
 
 [DeviceExtension_Install_103C8735.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_103C8761.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_103C8762.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_103C8764.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_103C8765.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_103C877A.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_103C877B.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_103C877D.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_103C87A8.Components]
 AddComponent = FMAPO,,FMAPO_Install
 
 [PresetAddReg]
@@ -1888,6 +2064,27 @@ HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C876B.
 [RTMICAR_103C8735.AddReg]
 HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C8735.dat
 
+[RTMICAR_103C8761.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C8761.dat
+
+[RTMICAR_103C8762.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C8762.dat
+
+[RTMICAR_103C8764.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C8764.dat
+
+[RTMICAR_103C8765.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C8765.dat
+
+[RTMICAR_103C877A.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C877A.dat
+
+[RTMICAR_103C877B.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C877B.dat
+
+[RTMICAR_103C877D.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_103C877D.dat
+
 
 [CortanaKey_103C8536_AddReg]
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
@@ -2055,6 +2252,27 @@ HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 
 [CortanaKey_103C8735_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C8761_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C8762_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C8764_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C8765_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C877A_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C877B_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
+
+[CortanaKey_103C877D_AddReg]
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 
 [Strings]

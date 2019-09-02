@@ -5,7 +5,7 @@ ClassGuid={e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider=Fortemedia
 ExtensionId = {6BB685A9-87AA-4BE8-A345-055DB3E4452A}
 CatalogFile=IntcDMicExt.cat
-DriverVer = 07/01/2019,09.21.3229.41
+DriverVer = 08/16/2019,09.21.3229.44
 
 [Manufacturer]
 Intel(R) Corporation = Intel, NTAMD64.10.0...16273
@@ -100,7 +100,7 @@ HKR,GlobalSettings,MinimumFakeVolume,1,FF,FF,9F,FF
 HKR,GlobalSettings,MaximumFakeVolume,1,00,00,1E,00
 HKR,GlobalSettings,DefaultFakeVolume,1,00,00,14,00
 HKR,GlobalSettings,StepFakeVolume,1,00,80,00,00
-HKR,"GlobalSettings\Device0","Gain",0x10001,0x30000
+HKR,"GlobalSettings\Device0","Gain",0x10001,0x40000
 
 ;Second stage pre-processing configuration
 ;HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"secondStagePpDllConfigurationFile",...
