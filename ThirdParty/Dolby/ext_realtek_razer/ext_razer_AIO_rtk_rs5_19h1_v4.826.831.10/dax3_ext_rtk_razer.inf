@@ -7,22 +7,24 @@ Signature 	= "$Windows NT$"
 Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider 	= %ManufacturerName%
-ExtensionId = {B868A7DE-15F0-4667-9D43-F2C20EF4BF4C}
-CatalogFile = dax3_ext_rtk_samsung.cat
-DriverVer = 08/06/2019,4.807.703.04
+ExtensionId = {8952B4B4-22C3-43EB-AA3F-0147584F21D0}
+CatalogFile = dax3_ext_rtk_razer.cat
+DriverVer = 08/25/2019,4.826.831.10
 
 [Manufacturer]
 %ManufacturerName% = DeviceExtensions,NTamd64
 
 [DeviceExtensions.NTamd64]
 ; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,
-%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_144DC825
-%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_144DC824
-%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_144DC177
-%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_144DC18C
-%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_144DC186
-%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_144DC822
-%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_144DC823
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1A582004
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_1A583001
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_1A583001
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_1A583000
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_1A582007
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_1A582007
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_1A582005
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_1A582008
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_1A582008
 ; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,
 ; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,
 ; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudioPremium,
@@ -149,66 +151,52 @@ Headphone_Default_Generic_Default_DolbyAtmos.xml = 222
 Headphone_Default_Generic_Large_DolbyAtmos.xml = 222
 Headphone_Default_Generic_Medium_DolbyAtmos.xml = 222
 Headphone_Default_Generic_Small_DolbyAtmos.xml = 222 
-Headphone_Samsung_Samsung_EO-IG995_DolbyAtmos.xml = 222 
-Headphone_Samsung_Samsung_Generic_DolbyAtmos.xml = 222 
 ; Dolby Atmos Speaker System
 Headphone_Default_Generic_Default_DolbyAtmosSpeakerSystem.xml = 222
 Headphone_Default_Generic_Large_DolbyAtmosSpeakerSystem.xml = 222
 Headphone_Default_Generic_Medium_DolbyAtmosSpeakerSystem.xml = 222
 Headphone_Default_Generic_Small_DolbyAtmosSpeakerSystem.xml = 222 
-Headphone_Samsung_Samsung_EO-IG995_DolbyAtmosSpeakerSystem.xml = 222 
-Headphone_Samsung_Samsung_Generic_DolbyAtmosSpeakerSystem.xml = 222 
 ; Dolby Audio
 Headphone_Default_Generic_Default_DolbyAudio.xml = 222
 Headphone_Default_Generic_Large_DolbyAudio.xml = 222
 Headphone_Default_Generic_Medium_DolbyAudio.xml = 222
 Headphone_Default_Generic_Small_DolbyAudio.xml = 222 
-Headphone_Samsung_Samsung_EO-IG995_DolbyAudio.xml = 222 
-Headphone_Samsung_Samsung_Generic_DolbyAudio.xml = 222 
 ; Dolby Audio Premium
 Headphone_Default_Generic_Default_DolbyAudioPremium.xml = 222
 Headphone_Default_Generic_Large_DolbyAudioPremium.xml = 222
 Headphone_Default_Generic_Medium_DolbyAudioPremium.xml = 222
 Headphone_Default_Generic_Small_DolbyAudioPremium.xml = 222 
-Headphone_Samsung_Samsung_EO-IG995_DolbyAudioPremium.xml = 222 
-Headphone_Samsung_Samsung_Generic_DolbyAudioPremium.xml = 222 
 ; Dolby Audio Speaker System
 Headphone_Default_Generic_Default_DolbyAudioSpeakerSystem.xml = 222
 Headphone_Default_Generic_Large_DolbyAudioSpeakerSystem.xml = 222
 Headphone_Default_Generic_Medium_DolbyAudioSpeakerSystem.xml = 222
 Headphone_Default_Generic_Small_DolbyAudioSpeakerSystem.xml = 222
-Headphone_Samsung_Samsung_EO-IG995_DolbyAudioSpeakerSystem.xml = 222
-Headphone_Samsung_Samsung_Generic_DolbyAudioSpeakerSystem.xml = 222
 ; Gaming
 Headphone_Default_Generic_Default_Gaming.xml = 222
 Headphone_Default_Generic_Large_Gaming.xml = 222
 Headphone_Default_Generic_Medium_Gaming.xml = 222
 Headphone_Default_Generic_Small_Gaming.xml = 222 
-Headphone_Samsung_Samsung_EO-IG995_Gaming.xml = 222 
-Headphone_Samsung_Samsung_Generic_Gaming.xml = 222 
 ; Dolby Atmos Speaker System For Gaming
 Headphone_Default_Generic_Default_DolbyAtmosSpeakerSystemForGaming.xml = 222
 Headphone_Default_Generic_Large_DolbyAtmosSpeakerSystemForGaming.xml = 222
 Headphone_Default_Generic_Medium_DolbyAtmosSpeakerSystemForGaming.xml = 222
 Headphone_Default_Generic_Small_DolbyAtmosSpeakerSystemForGaming.xml = 222 
-Headphone_Samsung_Samsung_EO-IG995_DolbyAtmosSpeakerSystemForGaming.xml = 222 
-Headphone_Samsung_Samsung_Generic_DolbyAtmosSpeakerSystemForGaming.xml = 222 
 ; Dolby Atmos Speaker System (VLLDP1.2)
 Headphone_Default_Generic_Default_DolbyAtmosSpeakerSystem_VLLDP1.2.xml = 222
 Headphone_Default_Generic_Large_DolbyAtmosSpeakerSystem_VLLDP1.2.xml = 222
 Headphone_Default_Generic_Medium_DolbyAtmosSpeakerSystem_VLLDP1.2.xml = 222
 Headphone_Default_Generic_Small_DolbyAtmosSpeakerSystem_VLLDP1.2.xml = 222 
-Headphone_Samsung_Samsung_EO-IG995_DolbyAtmosSpeakerSystem_VLLDP1.2.xml = 222 
-Headphone_Samsung_Samsung_Generic_DolbyAtmosSpeakerSystem_VLLDP1.2.xml = 222 
 ; Speaker tunings
-HDAUDIO_DEV_0256_SUBSYS_144DC825_PCI_SUBSYS_C824144D.xml = 222
-HDAUDIO_DEV_0256_SUBSYS_144DC824_PCI_SUBSYS_C824144D.xml = 222
-HDAUDIO_DEV_0256_SUBSYS_144DC177_PCI_SUBSYS_C177144D.xml = 222
-HDAUDIO_DEV_0256_SUBSYS_144DC18C_PCI_SUBSYS_C18C144D.xml = 222
-HDAUDIO_DEV_0256_SUBSYS_144DC186_PCI_SUBSYS_C186144D.xml = 222
-HDAUDIO_DEV_0256_SUBSYS_144DC822_PCI_SUBSYS_C822144D.xml = 222
-HDAUDIO_DEV_0256_SUBSYS_144DC823_PCI_SUBSYS_C823144D.xml = 222
+HDAUDIO_DEV_0256_SUBSYS_1A582004_PCI_SUBSYS_20041A58.xml = 222
+DEV_0298_SUBSYS_1A583001_PCI_SUBSYS_30011A58.xml = 222
+INTELAUDIO_DEV_0298_SUBSYS_1A583000_PCI_SUBSYS_30001A58.xml = 222
+DEV_0298_SUBSYS_1A582007_PCI_SUBSYS_20071A58.xml = 222
+INTELAUDIO_DEV_0298_SUBSYS_1A582005_PCI_SUBSYS_20051A58.xml = 222
+DEV_0298_SUBSYS_1A582008_PCI_SUBSYS_20081A58.xml = 222
 ; Operator xml
+Operator_Info_Razer.xml = 222
+; Operator Settings xml
+operator_settings.xml = 222
 
 [DestinationDirs]
 DolbyAPO_CopyFiles_Common = 10,system32\dolbyaposvc
@@ -222,77 +210,62 @@ DolbyAPO_CopyFiles_DolbyAtmosSpeakerSystemForGaming = 10,system32\dolbyaposvc
 DolbyAPO_CopyFiles_DolbyAtmosSpeakerSystem_VLLDP120 = 10,system32\dolbyaposvc
 
 [DolbyAPO_CopyFiles_Common]
+Operator_Info_Razer.xml
+operator_settings.xml
 
 [DolbyAPO_CopyFiles_DolbyAtmos]
-HDAUDIO_DEV_0256_SUBSYS_144DC825_PCI_SUBSYS_C824144D.xml
-HDAUDIO_DEV_0256_SUBSYS_144DC824_PCI_SUBSYS_C824144D.xml
-HDAUDIO_DEV_0256_SUBSYS_144DC177_PCI_SUBSYS_C177144D.xml
-HDAUDIO_DEV_0256_SUBSYS_144DC18C_PCI_SUBSYS_C18C144D.xml
-HDAUDIO_DEV_0256_SUBSYS_144DC186_PCI_SUBSYS_C186144D.xml
-HDAUDIO_DEV_0256_SUBSYS_144DC822_PCI_SUBSYS_C822144D.xml
-HDAUDIO_DEV_0256_SUBSYS_144DC823_PCI_SUBSYS_C823144D.xml
+HDAUDIO_DEV_0256_SUBSYS_1A582004_PCI_SUBSYS_20041A58.xml
+DEV_0298_SUBSYS_1A583001_PCI_SUBSYS_30011A58.xml
+INTELAUDIO_DEV_0298_SUBSYS_1A583000_PCI_SUBSYS_30001A58.xml
+DEV_0298_SUBSYS_1A582007_PCI_SUBSYS_20071A58.xml
+INTELAUDIO_DEV_0298_SUBSYS_1A582005_PCI_SUBSYS_20051A58.xml
+DEV_0298_SUBSYS_1A582008_PCI_SUBSYS_20081A58.xml
 Headphone_Default_Generic_Default_DolbyAtmos.xml
 Headphone_Default_Generic_Large_DolbyAtmos.xml
 Headphone_Default_Generic_Medium_DolbyAtmos.xml
 Headphone_Default_Generic_Small_DolbyAtmos.xml 
-Headphone_Samsung_Samsung_EO-IG995_DolbyAtmos.xml 
-Headphone_Samsung_Samsung_Generic_DolbyAtmos.xml 
 
 [DolbyAPO_CopyFiles_DolbyAtmosSpeakerSystem]
 Headphone_Default_Generic_Default_DolbyAtmosSpeakerSystem.xml
 Headphone_Default_Generic_Large_DolbyAtmosSpeakerSystem.xml
 Headphone_Default_Generic_Medium_DolbyAtmosSpeakerSystem.xml
 Headphone_Default_Generic_Small_DolbyAtmosSpeakerSystem.xml 
-Headphone_Samsung_Samsung_EO-IG995_DolbyAtmosSpeakerSystem.xml 
-Headphone_Samsung_Samsung_Generic_DolbyAtmosSpeakerSystem.xml 
 
 [DolbyAPO_CopyFiles_DolbyAudio]
 Headphone_Default_Generic_Default_DolbyAudio.xml
 Headphone_Default_Generic_Large_DolbyAudio.xml
 Headphone_Default_Generic_Medium_DolbyAudio.xml
 Headphone_Default_Generic_Small_DolbyAudio.xml 
-Headphone_Samsung_Samsung_EO-IG995_DolbyAudio.xml 
-Headphone_Samsung_Samsung_Generic_DolbyAudio.xml 
 
 [DolbyAPO_CopyFiles_DolbyAudioPremium]
 Headphone_Default_Generic_Default_DolbyAudioPremium.xml
 Headphone_Default_Generic_Large_DolbyAudioPremium.xml
 Headphone_Default_Generic_Medium_DolbyAudioPremium.xml
 Headphone_Default_Generic_Small_DolbyAudioPremium.xml 
-Headphone_Samsung_Samsung_EO-IG995_DolbyAudioPremium.xml 
-Headphone_Samsung_Samsung_Generic_DolbyAudioPremium.xml 
 
 [DolbyAPO_CopyFiles_DolbyAudioSpeakerSystem]
 Headphone_Default_Generic_Default_DolbyAudioSpeakerSystem.xml
 Headphone_Default_Generic_Large_DolbyAudioSpeakerSystem.xml
 Headphone_Default_Generic_Medium_DolbyAudioSpeakerSystem.xml
 Headphone_Default_Generic_Small_DolbyAudioSpeakerSystem.xml
-Headphone_Samsung_Samsung_EO-IG995_DolbyAudioSpeakerSystem.xml
-Headphone_Samsung_Samsung_Generic_DolbyAudioSpeakerSystem.xml
 
 [DolbyAPO_CopyFiles_Gaming]
 Headphone_Default_Generic_Default_Gaming.xml
 Headphone_Default_Generic_Large_Gaming.xml
 Headphone_Default_Generic_Medium_Gaming.xml
 Headphone_Default_Generic_Small_Gaming.xml 
-Headphone_Samsung_Samsung_EO-IG995_Gaming.xml 
-Headphone_Samsung_Samsung_Generic_Gaming.xml 
 
 [DolbyAPO_CopyFiles_DolbyAtmosSpeakerSystemForGaming]
 Headphone_Default_Generic_Default_DolbyAtmosSpeakerSystemForGaming.xml
 Headphone_Default_Generic_Large_DolbyAtmosSpeakerSystemForGaming.xml
 Headphone_Default_Generic_Medium_DolbyAtmosSpeakerSystemForGaming.xml
 Headphone_Default_Generic_Small_DolbyAtmosSpeakerSystemForGaming.xml 
-Headphone_Samsung_Samsung_EO-IG995_DolbyAtmosSpeakerSystemForGaming.xml 
-Headphone_Samsung_Samsung_Generic_DolbyAtmosSpeakerSystemForGaming.xml 
 
 [DolbyAPO_CopyFiles_DolbyAtmosSpeakerSystem_VLLDP120]
 Headphone_Default_Generic_Default_DolbyAtmosSpeakerSystem_VLLDP1.2.xml
 Headphone_Default_Generic_Large_DolbyAtmosSpeakerSystem_VLLDP1.2.xml
 Headphone_Default_Generic_Medium_DolbyAtmosSpeakerSystem_VLLDP1.2.xml
 Headphone_Default_Generic_Small_DolbyAtmosSpeakerSystem_VLLDP1.2.xml
-Headphone_Samsung_Samsung_EO-IG995_DolbyAtmosSpeakerSystem_VLLDP1.2.xml
-Headphone_Samsung_Samsung_Generic_DolbyAtmosSpeakerSystem_VLLDP1.2.xml
 
 [Strings]
 ManufacturerName 	= "Dolby"

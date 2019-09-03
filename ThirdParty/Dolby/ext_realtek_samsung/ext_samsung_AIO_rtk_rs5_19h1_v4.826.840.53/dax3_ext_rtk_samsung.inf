@@ -7,15 +7,24 @@ Signature 	= "$Windows NT$"
 Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider 	= %ManufacturerName%
-ExtensionId = {49EE4500-755B-4343-81BA-3CEF169F71E0}
-CatalogFile = dax3_ext_rtk_xiaomi.cat
-DriverVer = 07/31/2019,4.801.129.14
+ExtensionId = {B868A7DE-15F0-4667-9D43-F2C20EF4BF4C}
+CatalogFile = dax3_ext_rtk_samsung.cat
+DriverVer = 08/25/2019,4.826.840.53
 
 [Manufacturer]
 %ManufacturerName% = DeviceExtensions,NTamd64
 
 [DeviceExtensions.NTamd64]
 ; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_144DC18B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_144DC18B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_144DC825
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_144DC824
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_144DC177
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_144DC18C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_144DC186
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_144DC822
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_144DC823
 ; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,
 ; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,
 ; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudioPremium,
@@ -23,10 +32,6 @@ DriverVer = 07/31/2019,4.801.129.14
 ; %Device.ExtensionDesc% = DeviceExtension_Install_Gaming,
 ; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,
 ; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem_VLLDP120,
-; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos_VLLDP120,
-%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos_VLLDP120,INTELAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_1D721806
-; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio_VLLDP120,
-%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio_VLLDP120,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1D721905
 
 [DeviceExtension_Install_DolbyAtmos.NT]
 AddReg = PresetAddReg, DolbyAPO_AddReg
@@ -59,14 +64,6 @@ CopyFiles = DolbyAPO_CopyFiles_Common, DolbyAPO_CopyFiles_DolbyAtmosSpeakerSyste
 [DeviceExtension_Install_DolbyAtmosSpeakerSystem_VLLDP120.NT]
 AddReg = PresetAddReg, DolbyAPO_AddReg
 CopyFiles = DolbyAPO_CopyFiles_Common, DolbyAPO_CopyFiles_DolbyAtmosSpeakerSystem_VLLDP120
-
-[DeviceExtension_Install_DolbyAtmos_VLLDP120.NT]
-AddReg = PresetAddReg, DolbyAPO_AddReg
-CopyFiles = DolbyAPO_CopyFiles_Common, DolbyAPO_CopyFiles_DolbyAtmos_VLLDP120
-
-[DeviceExtension_Install_DolbyAudio_VLLDP120.NT]
-AddReg = PresetAddReg, DolbyAPO_AddReg
-CopyFiles = DolbyAPO_CopyFiles_Common, DolbyAPO_CopyFiles_DolbyAudio_VLLDP120
 
 [PresetAddReg]
 ;; render endpoint settings for HDAudio
@@ -118,14 +115,6 @@ AddComponent = DolbyAPO_DAX3HSA_DolbyAtmosSpeakerSystemForGaming,, DolbyAPO_Comp
 AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
 AddComponent = DolbyAPO_DAX3HSA_DolbyAtmosSpeakerSystem,, DolbyAPO_ComponentInstall_DAX3HSA_DolbyAtmosSpeakerSystem
 
-[DeviceExtension_Install_DolbyAtmos_VLLDP120.NT.Components]
-AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
-AddComponent = DolbyAPO_DAX3HSA_DolbyAtmos,, DolbyAPO_ComponentInstall_DAX3HSA_DolbyAtmos
-
-[DeviceExtension_Install_DolbyAudio_VLLDP120.NT.Components]
-AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
-AddComponent = DolbyAPO_DAX3HSA_DolbyAtmos,, DolbyAPO_ComponentInstall_DAX3HSA_DolbyAudio
-
 ; APOSVC component
 [DolbyAPO_ComponentInstall_DAX3APOSVC]
 ComponentIds = VEN_DOLBY&PID_DAX3APOSVC  ; Matches with SWC\VEN_DOLBY&PID_DAX3APOSVC
@@ -162,95 +151,67 @@ Headphone_Default_Generic_Default_DolbyAtmos.xml = 222
 Headphone_Default_Generic_Large_DolbyAtmos.xml = 222
 Headphone_Default_Generic_Medium_DolbyAtmos.xml = 222
 Headphone_Default_Generic_Small_DolbyAtmos.xml = 222 
-Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_DolbyAtmos.xml = 222
-Headphone_Xiaomi_Xiaomi_DynamicInEar_DolbyAtmos.xml = 222
-Headphone_Xiaomi_Xiaomi_Headphone_DolbyAtmos.xml = 222
-Headphone_Xiaomi_Xiaomi_MiPistonAir_DolbyAtmos.xml = 222
+Headphone_Samsung_Samsung_EO-IG995_DolbyAtmos.xml = 222 
+Headphone_Samsung_Samsung_Generic_DolbyAtmos.xml = 222 
 ; Dolby Atmos Speaker System
 Headphone_Default_Generic_Default_DolbyAtmosSpeakerSystem.xml = 222
 Headphone_Default_Generic_Large_DolbyAtmosSpeakerSystem.xml = 222
 Headphone_Default_Generic_Medium_DolbyAtmosSpeakerSystem.xml = 222
 Headphone_Default_Generic_Small_DolbyAtmosSpeakerSystem.xml = 222 
-Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_DolbyAtmosSpeakerSystem.xml = 222
-Headphone_Xiaomi_Xiaomi_DynamicInEar_DolbyAtmosSpeakerSystem.xml = 222
-Headphone_Xiaomi_Xiaomi_Headphone_DolbyAtmosSpeakerSystem.xml = 222
-Headphone_Xiaomi_Xiaomi_MiPistonAir_DolbyAtmosSpeakerSystem.xml = 222
+Headphone_Samsung_Samsung_EO-IG995_DolbyAtmosSpeakerSystem.xml = 222 
+Headphone_Samsung_Samsung_Generic_DolbyAtmosSpeakerSystem.xml = 222 
 ; Dolby Audio
 Headphone_Default_Generic_Default_DolbyAudio.xml = 222
 Headphone_Default_Generic_Large_DolbyAudio.xml = 222
 Headphone_Default_Generic_Medium_DolbyAudio.xml = 222
 Headphone_Default_Generic_Small_DolbyAudio.xml = 222 
-Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_DolbyAudio.xml = 222
-Headphone_Xiaomi_Xiaomi_DynamicInEar_DolbyAudio.xml = 222
-Headphone_Xiaomi_Xiaomi_Headphone_DolbyAudio.xml = 222
-Headphone_Xiaomi_Xiaomi_MiPistonAir_DolbyAudio.xml = 222
+Headphone_Samsung_Samsung_EO-IG995_DolbyAudio.xml = 222 
+Headphone_Samsung_Samsung_Generic_DolbyAudio.xml = 222 
 ; Dolby Audio Premium
 Headphone_Default_Generic_Default_DolbyAudioPremium.xml = 222
 Headphone_Default_Generic_Large_DolbyAudioPremium.xml = 222
 Headphone_Default_Generic_Medium_DolbyAudioPremium.xml = 222
 Headphone_Default_Generic_Small_DolbyAudioPremium.xml = 222 
-Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_DolbyAudioPremium.xml = 222
-Headphone_Xiaomi_Xiaomi_DynamicInEar_DolbyAudioPremium.xml = 222
-Headphone_Xiaomi_Xiaomi_Headphone_DolbyAudioPremium.xml = 222
-Headphone_Xiaomi_Xiaomi_MiPistonAir_DolbyAudioPremium.xml = 222
+Headphone_Samsung_Samsung_EO-IG995_DolbyAudioPremium.xml = 222 
+Headphone_Samsung_Samsung_Generic_DolbyAudioPremium.xml = 222 
 ; Dolby Audio Speaker System
 Headphone_Default_Generic_Default_DolbyAudioSpeakerSystem.xml = 222
 Headphone_Default_Generic_Large_DolbyAudioSpeakerSystem.xml = 222
 Headphone_Default_Generic_Medium_DolbyAudioSpeakerSystem.xml = 222
 Headphone_Default_Generic_Small_DolbyAudioSpeakerSystem.xml = 222
-Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_DolbyAudioSpeakerSystem.xml = 222
-Headphone_Xiaomi_Xiaomi_DynamicInEar_DolbyAudioSpeakerSystem.xml = 222
-Headphone_Xiaomi_Xiaomi_Headphone_DolbyAudioSpeakerSystem.xml = 222
-Headphone_Xiaomi_Xiaomi_MiPistonAir_DolbyAudioSpeakerSystem.xml = 222
+Headphone_Samsung_Samsung_EO-IG995_DolbyAudioSpeakerSystem.xml = 222
+Headphone_Samsung_Samsung_Generic_DolbyAudioSpeakerSystem.xml = 222
 ; Gaming
 Headphone_Default_Generic_Default_Gaming.xml = 222
 Headphone_Default_Generic_Large_Gaming.xml = 222
 Headphone_Default_Generic_Medium_Gaming.xml = 222
 Headphone_Default_Generic_Small_Gaming.xml = 222 
-Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_Gaming.xml = 222
-Headphone_Xiaomi_Xiaomi_DynamicInEar_Gaming.xml = 222
-Headphone_Xiaomi_Xiaomi_Headphone_Gaming.xml = 222
-Headphone_Xiaomi_Xiaomi_MiPistonAir_Gaming.xml = 222
+Headphone_Samsung_Samsung_EO-IG995_Gaming.xml = 222 
+Headphone_Samsung_Samsung_Generic_Gaming.xml = 222 
 ; Dolby Atmos Speaker System For Gaming
 Headphone_Default_Generic_Default_DolbyAtmosSpeakerSystemForGaming.xml = 222
 Headphone_Default_Generic_Large_DolbyAtmosSpeakerSystemForGaming.xml = 222
 Headphone_Default_Generic_Medium_DolbyAtmosSpeakerSystemForGaming.xml = 222
 Headphone_Default_Generic_Small_DolbyAtmosSpeakerSystemForGaming.xml = 222 
-Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_DolbyAtmosSpeakerSystemForGaming.xml = 222
-Headphone_Xiaomi_Xiaomi_DynamicInEar_DolbyAtmosSpeakerSystemForGaming.xml = 222
-Headphone_Xiaomi_Xiaomi_Headphone_DolbyAtmosSpeakerSystemForGaming.xml = 222
-Headphone_Xiaomi_Xiaomi_MiPistonAir_DolbyAtmosSpeakerSystemForGaming.xml = 222
+Headphone_Samsung_Samsung_EO-IG995_DolbyAtmosSpeakerSystemForGaming.xml = 222 
+Headphone_Samsung_Samsung_Generic_DolbyAtmosSpeakerSystemForGaming.xml = 222 
 ; Dolby Atmos Speaker System (VLLDP1.2)
 Headphone_Default_Generic_Default_DolbyAtmosSpeakerSystem_VLLDP1.2.xml = 222
 Headphone_Default_Generic_Large_DolbyAtmosSpeakerSystem_VLLDP1.2.xml = 222
 Headphone_Default_Generic_Medium_DolbyAtmosSpeakerSystem_VLLDP1.2.xml = 222
 Headphone_Default_Generic_Small_DolbyAtmosSpeakerSystem_VLLDP1.2.xml = 222 
-; Dolby Atmos (VLLDP1.2)
-Headphone_Default_Generic_Default_DolbyAtmos_VLLDP1.2.xml = 222
-Headphone_Default_Generic_Large_DolbyAtmos_VLLDP1.2.xml = 222
-Headphone_Default_Generic_Medium_DolbyAtmos_VLLDP1.2.xml = 222
-Headphone_Default_Generic_Small_DolbyAtmos_VLLDP1.2.xml = 222 
-Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_DolbyAtmos_VLLDP1.2.xml = 222
-Headphone_Xiaomi_Xiaomi_DynamicInEar_DolbyAtmos_VLLDP1.2.xml = 222
-Headphone_Xiaomi_Xiaomi_Headphone_DolbyAtmos_VLLDP1.2.xml = 222
-Headphone_Xiaomi_Xiaomi_MiPistonAir_DolbyAtmos_VLLDP1.2.xml = 222
-; Dolby Audio (VLLDP1.2)
-Headphone_Default_Generic_Default_DolbyAudio_VLLDP1.2.xml = 222
-Headphone_Default_Generic_Large_DolbyAudio_VLLDP1.2.xml = 222
-Headphone_Default_Generic_Medium_DolbyAudio_VLLDP1.2.xml = 222
-Headphone_Default_Generic_Small_DolbyAudio_VLLDP1.2.xml = 222 
-Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_DolbyAudio_VLLDP1.2.xml = 222
-Headphone_Xiaomi_Xiaomi_DynamicInEar_DolbyAudio_VLLDP1.2.xml = 222
-Headphone_Xiaomi_Xiaomi_Headphone_DolbyAudio_VLLDP1.2.xml = 222
-Headphone_Xiaomi_Xiaomi_MiPistonAir_DolbyAudio_VLLDP1.2.xml = 222
+Headphone_Samsung_Samsung_EO-IG995_DolbyAtmosSpeakerSystem_VLLDP1.2.xml = 222 
+Headphone_Samsung_Samsung_Generic_DolbyAtmosSpeakerSystem_VLLDP1.2.xml = 222 
 ; Speaker tunings
-INTELAUDIO_DEV_0256_SUBSYS_1D721905_PCI_SUBSYS_19051D72.xml = 222
-INTELAUDIO_DEV_0256_SUBSYS_1D721905_PCI_SUBSYS_19051D72_settings.xml = 222
-INTELAUDIO_DEV_1220_SUBSYS_1D721806_PCI_SUBSYS_18061D72.xml = 222
+DEV_0298_SUBSYS_144DC18B_PCI_SUBSYS_C18B144D.xml = 222
+HDAUDIO_DEV_0256_SUBSYS_144DC825_PCI_SUBSYS_C824144D.xml = 222
+HDAUDIO_DEV_0256_SUBSYS_144DC824_PCI_SUBSYS_C824144D.xml = 222
+HDAUDIO_DEV_0256_SUBSYS_144DC177_PCI_SUBSYS_C177144D.xml = 222
+HDAUDIO_DEV_0256_SUBSYS_144DC18C_PCI_SUBSYS_C18C144D.xml = 222
+HDAUDIO_DEV_0256_SUBSYS_144DC186_PCI_SUBSYS_C186144D.xml = 222
+HDAUDIO_DEV_0256_SUBSYS_144DC822_PCI_SUBSYS_C822144D.xml = 222
+HDAUDIO_DEV_0256_SUBSYS_144DC823_PCI_SUBSYS_C823144D.xml = 222
 ; Operator xml
-Operator_Info_Xiaomi.xml = 222
-; Operator Settings xml
-operator_settings.xml = 222
 
 [DestinationDirs]
 DolbyAPO_CopyFiles_Common = 10,system32\dolbyaposvc
@@ -262,111 +223,80 @@ DolbyAPO_CopyFiles_DolbyAudioSpeakerSystem = 10,system32\dolbyaposvc
 DolbyAPO_CopyFiles_Gaming = 10,system32\dolbyaposvc
 DolbyAPO_CopyFiles_DolbyAtmosSpeakerSystemForGaming = 10,system32\dolbyaposvc
 DolbyAPO_CopyFiles_DolbyAtmosSpeakerSystem_VLLDP120 = 10,system32\dolbyaposvc
-DolbyAPO_CopyFiles_DolbyAtmos_VLLDP120 = 10,system32\dolbyaposvc
-DolbyAPO_CopyFiles_DolbyAudio_VLLDP120 = 10,system32\dolbyaposvc
 
 [DolbyAPO_CopyFiles_Common]
-Operator_Info_Xiaomi.xml
-operator_settings.xml
 
 [DolbyAPO_CopyFiles_DolbyAtmos]
+DEV_0298_SUBSYS_144DC18B_PCI_SUBSYS_C18B144D.xml
+HDAUDIO_DEV_0256_SUBSYS_144DC825_PCI_SUBSYS_C824144D.xml
+HDAUDIO_DEV_0256_SUBSYS_144DC824_PCI_SUBSYS_C824144D.xml
+HDAUDIO_DEV_0256_SUBSYS_144DC177_PCI_SUBSYS_C177144D.xml
+HDAUDIO_DEV_0256_SUBSYS_144DC18C_PCI_SUBSYS_C18C144D.xml
+HDAUDIO_DEV_0256_SUBSYS_144DC186_PCI_SUBSYS_C186144D.xml
+HDAUDIO_DEV_0256_SUBSYS_144DC822_PCI_SUBSYS_C822144D.xml
+HDAUDIO_DEV_0256_SUBSYS_144DC823_PCI_SUBSYS_C823144D.xml
 Headphone_Default_Generic_Default_DolbyAtmos.xml
 Headphone_Default_Generic_Large_DolbyAtmos.xml
 Headphone_Default_Generic_Medium_DolbyAtmos.xml
 Headphone_Default_Generic_Small_DolbyAtmos.xml 
-Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_DolbyAtmos.xml
-Headphone_Xiaomi_Xiaomi_DynamicInEar_DolbyAtmos.xml
-Headphone_Xiaomi_Xiaomi_Headphone_DolbyAtmos.xml
-Headphone_Xiaomi_Xiaomi_MiPistonAir_DolbyAtmos.xml
+Headphone_Samsung_Samsung_EO-IG995_DolbyAtmos.xml 
+Headphone_Samsung_Samsung_Generic_DolbyAtmos.xml 
 
 [DolbyAPO_CopyFiles_DolbyAtmosSpeakerSystem]
 Headphone_Default_Generic_Default_DolbyAtmosSpeakerSystem.xml
 Headphone_Default_Generic_Large_DolbyAtmosSpeakerSystem.xml
 Headphone_Default_Generic_Medium_DolbyAtmosSpeakerSystem.xml
 Headphone_Default_Generic_Small_DolbyAtmosSpeakerSystem.xml 
-Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_DolbyAtmosSpeakerSystem.xml
-Headphone_Xiaomi_Xiaomi_DynamicInEar_DolbyAtmosSpeakerSystem.xml
-Headphone_Xiaomi_Xiaomi_Headphone_DolbyAtmosSpeakerSystem.xml
-Headphone_Xiaomi_Xiaomi_MiPistonAir_DolbyAtmosSpeakerSystem.xml
+Headphone_Samsung_Samsung_EO-IG995_DolbyAtmosSpeakerSystem.xml 
+Headphone_Samsung_Samsung_Generic_DolbyAtmosSpeakerSystem.xml 
 
 [DolbyAPO_CopyFiles_DolbyAudio]
 Headphone_Default_Generic_Default_DolbyAudio.xml
 Headphone_Default_Generic_Large_DolbyAudio.xml
 Headphone_Default_Generic_Medium_DolbyAudio.xml
 Headphone_Default_Generic_Small_DolbyAudio.xml 
-Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_DolbyAudio.xml
-Headphone_Xiaomi_Xiaomi_DynamicInEar_DolbyAudio.xml
-Headphone_Xiaomi_Xiaomi_Headphone_DolbyAudio.xml
-Headphone_Xiaomi_Xiaomi_MiPistonAir_DolbyAudio.xml
+Headphone_Samsung_Samsung_EO-IG995_DolbyAudio.xml 
+Headphone_Samsung_Samsung_Generic_DolbyAudio.xml 
 
 [DolbyAPO_CopyFiles_DolbyAudioPremium]
 Headphone_Default_Generic_Default_DolbyAudioPremium.xml
 Headphone_Default_Generic_Large_DolbyAudioPremium.xml
 Headphone_Default_Generic_Medium_DolbyAudioPremium.xml
 Headphone_Default_Generic_Small_DolbyAudioPremium.xml 
-Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_DolbyAudioPremium.xml
-Headphone_Xiaomi_Xiaomi_DynamicInEar_DolbyAudioPremium.xml
-Headphone_Xiaomi_Xiaomi_Headphone_DolbyAudioPremium.xml
-Headphone_Xiaomi_Xiaomi_MiPistonAir_DolbyAudioPremium.xml
+Headphone_Samsung_Samsung_EO-IG995_DolbyAudioPremium.xml 
+Headphone_Samsung_Samsung_Generic_DolbyAudioPremium.xml 
 
 [DolbyAPO_CopyFiles_DolbyAudioSpeakerSystem]
 Headphone_Default_Generic_Default_DolbyAudioSpeakerSystem.xml
 Headphone_Default_Generic_Large_DolbyAudioSpeakerSystem.xml
 Headphone_Default_Generic_Medium_DolbyAudioSpeakerSystem.xml
 Headphone_Default_Generic_Small_DolbyAudioSpeakerSystem.xml
-Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_DolbyAudioSpeakerSystem.xml
-Headphone_Xiaomi_Xiaomi_DynamicInEar_DolbyAudioSpeakerSystem.xml
-Headphone_Xiaomi_Xiaomi_Headphone_DolbyAudioSpeakerSystem.xml
-Headphone_Xiaomi_Xiaomi_MiPistonAir_DolbyAudioSpeakerSystem.xml
+Headphone_Samsung_Samsung_EO-IG995_DolbyAudioSpeakerSystem.xml
+Headphone_Samsung_Samsung_Generic_DolbyAudioSpeakerSystem.xml
 
 [DolbyAPO_CopyFiles_Gaming]
 Headphone_Default_Generic_Default_Gaming.xml
 Headphone_Default_Generic_Large_Gaming.xml
 Headphone_Default_Generic_Medium_Gaming.xml
 Headphone_Default_Generic_Small_Gaming.xml 
-Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_Gaming.xml
-Headphone_Xiaomi_Xiaomi_DynamicInEar_Gaming.xml
-Headphone_Xiaomi_Xiaomi_Headphone_Gaming.xml
-Headphone_Xiaomi_Xiaomi_MiPistonAir_Gaming.xml
+Headphone_Samsung_Samsung_EO-IG995_Gaming.xml 
+Headphone_Samsung_Samsung_Generic_Gaming.xml 
 
 [DolbyAPO_CopyFiles_DolbyAtmosSpeakerSystemForGaming]
 Headphone_Default_Generic_Default_DolbyAtmosSpeakerSystemForGaming.xml
 Headphone_Default_Generic_Large_DolbyAtmosSpeakerSystemForGaming.xml
 Headphone_Default_Generic_Medium_DolbyAtmosSpeakerSystemForGaming.xml
 Headphone_Default_Generic_Small_DolbyAtmosSpeakerSystemForGaming.xml 
-Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_DolbyAtmosSpeakerSystemForGaming.xml
-Headphone_Xiaomi_Xiaomi_DynamicInEar_DolbyAtmosSpeakerSystemForGaming.xml
-Headphone_Xiaomi_Xiaomi_Headphone_DolbyAtmosSpeakerSystemForGaming.xml
-Headphone_Xiaomi_Xiaomi_MiPistonAir_DolbyAtmosSpeakerSystemForGaming.xml
+Headphone_Samsung_Samsung_EO-IG995_DolbyAtmosSpeakerSystemForGaming.xml 
+Headphone_Samsung_Samsung_Generic_DolbyAtmosSpeakerSystemForGaming.xml 
 
 [DolbyAPO_CopyFiles_DolbyAtmosSpeakerSystem_VLLDP120]
 Headphone_Default_Generic_Default_DolbyAtmosSpeakerSystem_VLLDP1.2.xml
 Headphone_Default_Generic_Large_DolbyAtmosSpeakerSystem_VLLDP1.2.xml
 Headphone_Default_Generic_Medium_DolbyAtmosSpeakerSystem_VLLDP1.2.xml
 Headphone_Default_Generic_Small_DolbyAtmosSpeakerSystem_VLLDP1.2.xml
-
-[DolbyAPO_CopyFiles_DolbyAtmos_VLLDP120]
-INTELAUDIO_DEV_1220_SUBSYS_1D721806_PCI_SUBSYS_18061D72.xml
-Headphone_Default_Generic_Default_DolbyAtmos_VLLDP1.2.xml
-Headphone_Default_Generic_Large_DolbyAtmos_VLLDP1.2.xml
-Headphone_Default_Generic_Medium_DolbyAtmos_VLLDP1.2.xml
-Headphone_Default_Generic_Small_DolbyAtmos_VLLDP1.2.xml
-Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_DolbyAtmos_VLLDP1.2.xml
-Headphone_Xiaomi_Xiaomi_DynamicInEar_DolbyAtmos_VLLDP1.2.xml
-Headphone_Xiaomi_Xiaomi_Headphone_DolbyAtmos_VLLDP1.2.xml
-Headphone_Xiaomi_Xiaomi_MiPistonAir_DolbyAtmos_VLLDP1.2.xml
-
-[DolbyAPO_CopyFiles_DolbyAudio_VLLDP120]
-INTELAUDIO_DEV_0256_SUBSYS_1D721905_PCI_SUBSYS_19051D72.xml
-INTELAUDIO_DEV_0256_SUBSYS_1D721905_PCI_SUBSYS_19051D72_settings.xml
-Headphone_Default_Generic_Default_DolbyAudio_VLLDP1.2.xml
-Headphone_Default_Generic_Large_DolbyAudio_VLLDP1.2.xml
-Headphone_Default_Generic_Medium_DolbyAudio_VLLDP1.2.xml
-Headphone_Default_Generic_Small_DolbyAudio_VLLDP1.2.xml
-Headphone_Xiaomi_Xiaomi_DynamicArmaturedInEar_DolbyAudio_VLLDP1.2.xml
-Headphone_Xiaomi_Xiaomi_DynamicInEar_DolbyAudio_VLLDP1.2.xml
-Headphone_Xiaomi_Xiaomi_Headphone_DolbyAudio_VLLDP1.2.xml
-Headphone_Xiaomi_Xiaomi_MiPistonAir_DolbyAudio_VLLDP1.2.xml
+Headphone_Samsung_Samsung_EO-IG995_DolbyAtmosSpeakerSystem_VLLDP1.2.xml
+Headphone_Samsung_Samsung_Generic_DolbyAtmosSpeakerSystem_VLLDP1.2.xml
 
 [Strings]
 ManufacturerName 	= "Dolby"
