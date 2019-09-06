@@ -1,5 +1,0 @@
-Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\Codec_8789.1\HDXFTS.inf
-Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\Codec_8789.1\HDXLVSST.inf
-Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\Codec_8789.1\HDXPanasonic.inf
-Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\Codec_8789.1\RTAIODAT.DAT
-Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\Codec_8789.1\RTKVHD64.sys
