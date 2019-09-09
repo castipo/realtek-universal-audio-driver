@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {86F65302-34A5-441C-8E16-C05C2D9E6151}
-DriverVer   = 08/02/2019,1.0.3.97
+DriverVer   = 08/23/2019,1.0.3.101
 CatalogFile = OemXAudioExt_fm.cat
 
 [SourceDisksNames]
@@ -430,7 +430,7 @@ ComponentIDs = VEN_1319&AID_0001
 Description = "Fortemedia SAMSoft Effects Component"
 
 [Strings]
-OEM                  = "Fortemeida"
+OEM                  = "Fortemedia"
 Device.ExtensionDesc = "Fortemedia SAMSoft Device Extension"
 ExtendedFriendlyName = "Realtek(R) Audio"
 DiskId1              = "Fortemedia SAMSoft Audio Device Extension Installation Disk"

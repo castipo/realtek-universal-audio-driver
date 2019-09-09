@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {86F65302-34A5-441C-8E16-C05C2D9E6151}
-DriverVer   = 08/16/2019,1.0.3.99
+DriverVer   = 08/23/2019,1.0.3.101
 CatalogFile = OemXAudioExt_fm.cat
 
 [SourceDisksNames]
@@ -177,6 +177,10 @@ SAMSfpa_17AA383E10EC0230.dat=222
 SAMSfpa_17AA386D10EC0257.dat=222
 SAMSfpa_17AA387010EC0257.dat=222
 SAMSfpa_17AA387110EC0257.dat=222
+SAMSfpa_17AA387210EC0257.dat=222
+SAMSfpa_17AA387310EC0257.dat=222
+SAMSfpa_17AA387410EC0257.dat=222
+SAMSfpa_17AA387510EC0257.dat=222
 RTMICAR_17AA3901.dat=222
 RTMICAR_17AA3902.dat=222
 RTMICAR_17AA3903.dat=222
@@ -285,6 +289,10 @@ RTMICAR_17AA383E10EC0230.dat=222
 RTMICAR_17AA386D10EC0257.dat=222
 RTMICAR_17AA387010EC0257.dat=222
 RTMICAR_17AA387110EC0257.dat=222
+RTMICAR_17AA387210EC0257.dat=222
+RTMICAR_17AA387310EC0257.dat=222
+RTMICAR_17AA387410EC0257.dat=222
+RTMICAR_17AA387510EC0257.dat=222
 SAMSfpi_17AA3814.dat=222
 SAMSfpi_17AA391D.dat=222
 SAMSfpi_17AA391E.dat=222
@@ -535,6 +543,10 @@ FMDAT_17AA383E10EC0230.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_17AA386D10EC0257.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_17AA387010EC0257.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_17AA387110EC0257.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_17AA387210EC0257.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_17AA387310EC0257.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_17AA387410EC0257.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_17AA387510EC0257.CopyList = 12 ; %windir%\system32\drivers
 INTELTF_17AA3814.CopyList = 11 ; %windir%\system32
 INTELTF_17AA391D.CopyList = 11 ; %windir%\system32
 INTELTF_17AA391E.CopyList = 11 ; %windir%\system32
@@ -1224,6 +1236,22 @@ RTMICAR_17AA387110EC0257.dat
 SAMSfppch_17AA387110EC0257.dat
 SAMSfpi_17AA387110EC0257.dat
 
+[FMDAT_17AA387210EC0257.CopyList]
+SAMSfpa_17AA387210EC0257.dat
+RTMICAR_17AA387210EC0257.dat
+
+[FMDAT_17AA387310EC0257.CopyList]
+SAMSfpa_17AA387310EC0257.dat
+RTMICAR_17AA387310EC0257.dat
+
+[FMDAT_17AA387410EC0257.CopyList]
+SAMSfpa_17AA387410EC0257.dat
+RTMICAR_17AA387410EC0257.dat
+
+[FMDAT_17AA387510EC0257.CopyList]
+SAMSfpa_17AA387510EC0257.dat
+RTMICAR_17AA387510EC0257.dat
+
 [INTELTF_17AA3814.CopyList]
 configuration.tf, configuration_17AA3814.tf
 
@@ -1464,6 +1492,10 @@ configuration.tf, configuration_1E39A01210EC0256.tf
 %Device.ExtensionDesc% = DeviceExtension_Install_17AA386D10EC0257,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA386D
 %Device.ExtensionDesc% = DeviceExtension_Install_17AA387010EC0257,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3870
 %Device.ExtensionDesc% = DeviceExtension_Install_17AA387110EC0257,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3871
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA387210EC0257,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3872
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA387310EC0257,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3873
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA387410EC0257,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3874
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA387510EC0257,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3875
 
 
 [DeviceExtension_Install_17AA3837]
@@ -2726,6 +2758,38 @@ AddReg = FortemediaSstPpDllNoTf.AddReg
 
 [DeviceExtension_Install_17AA387110EC0257.HW]
 
+[DeviceExtension_Install_17AA387210EC0257]
+CopyFiles = FMDAT_17AA387210EC0257.CopyList
+AddReg = CortanaKey_17AA387210EC0257_AddReg
+AddReg = RTMICAR_17AA387210EC0257.AddReg
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA387210EC0257.HW]
+
+[DeviceExtension_Install_17AA387310EC0257]
+CopyFiles = FMDAT_17AA387310EC0257.CopyList
+AddReg = CortanaKey_17AA387310EC0257_AddReg
+AddReg = RTMICAR_17AA387310EC0257.AddReg
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA387310EC0257.HW]
+
+[DeviceExtension_Install_17AA387410EC0257]
+CopyFiles = FMDAT_17AA387410EC0257.CopyList
+AddReg = CortanaKey_17AA387410EC0257_AddReg
+AddReg = RTMICAR_17AA387410EC0257.AddReg
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA387410EC0257.HW]
+
+[DeviceExtension_Install_17AA387510EC0257]
+CopyFiles = FMDAT_17AA387510EC0257.CopyList
+AddReg = CortanaKey_17AA387510EC0257_AddReg
+AddReg = RTMICAR_17AA387510EC0257.AddReg
+AddReg = PresetAddReg
+
+[DeviceExtension_Install_17AA387510EC0257.HW]
+
 ;[FriendlyName_AddReg]
 ;HKR,,FriendlyName,,%ExtendedFriendlyName%
 
@@ -3224,6 +3288,18 @@ AddComponent = FMAPO,,FMAPO_Install
 [DeviceExtension_Install_17AA387110EC0257.Components]
 AddComponent = FMAPO,,FMAPO_Install
 
+[DeviceExtension_Install_17AA387210EC0257.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_17AA387310EC0257.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_17AA387410EC0257.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_17AA387510EC0257.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
 
 [PresetAddReg]
 HKR,InterfaceSetting,RtMicInTopo,0x10008,"FMAPOPreset1"
@@ -3639,6 +3715,18 @@ HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA38701
 [RTMICAR_17AA387110EC0257.AddReg]
 HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA387110EC0257.dat
 
+[RTMICAR_17AA387210EC0257.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA387210EC0257.dat
+
+[RTMICAR_17AA387310EC0257.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA387310EC0257.dat
+
+[RTMICAR_17AA387410EC0257.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA387410EC0257.dat
+
+[RTMICAR_17AA387510EC0257.AddReg]
+HKR,Settings,FMDATPATH,0x00020000,\SystemRoot\system32\drivers\RTMICAR_17AA387510EC0257.dat
+
 
 [CortanaKey_17AA3901_AddReg]
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
@@ -3964,6 +4052,18 @@ HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 [CortanaKey_17AA387110EC0257_AddReg]
 HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 
+[CortanaKey_17AA387210EC0257_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
+
+[CortanaKey_17AA387310EC0257_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
+
+[CortanaKey_17AA387410EC0257_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
+
+[CortanaKey_17AA387510EC0257_AddReg]
+HKR,Settings, DefaultDefaultMicGain,0x00010001,9100
+
 
 ; [OffsetKey_10EC11AE_AddReg]
 ; HKLM,SYSTEM\CurrentControlSet\Services\IntelAudioService\Config,"hpalAlignmentOffset",%REG_DWORD%,0x00000005
@@ -3973,7 +4073,7 @@ HKR,Settings, DefaultDefaultMicGain,0x00010001,9500
 
 [Strings]
 
-OEM                  = "Fortemeida"
+OEM                  = "Fortemedia"
 Device.ExtensionDesc = "Fortemedia SAMSoft Device Extension"
 ExtendedFriendlyName = "Realtek(R) Audio"
 DiskId1              = "Fortemedia SAMSoft Audio Device Extension Installation Disk"
