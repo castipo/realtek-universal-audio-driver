@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OrganizationName%
 ExtensionId = {C3A63EDD-2D27-4B66-B155-5E94B43D926A}
-DriverVer   = 08/27/2019, 6.0.8787.1
+DriverVer   = 09/03/2019, 6.0.8791.1
 CatalogFile = HDXRTExt.cat
 
 [Manufacturer]
@@ -121,6 +121,7 @@ HKR,Settings,OmniSpeaker,0x00010001,0
 ;;For driver reference
 HKR,Settings,DCHIcePower,0x00010001,1
 HKR,Settings,DCHRealtek,0x00010001,0
+HKR,Settings,DCH_Gen3p1,0x00010001,0
 
 ;; render endpoint settings
 HKR,InterfaceSetting,RearLineOutTopo,0x10008,"SysCustomizedFx"

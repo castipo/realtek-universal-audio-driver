@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OrganizationName%
 ExtensionId = {C3A63EDD-2D27-4B66-B155-5E94B43D926A}
-DriverVer   = 08/27/2019, 6.0.8787.1
+DriverVer   = 09/03/2019, 6.0.8791.1
 CatalogFile = HDXRTExt.cat
 
 [Manufacturer]
@@ -14,7 +14,6 @@ CatalogFile = HDXRTExt.cat
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0289&SUBSYS_10431F11
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10431A0E
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10431E21
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0294&SUBSYS_10431E11
 
 [DeviceExtension_Install]
 AddReg = IntcAzAudModelAddReg
@@ -28,6 +27,7 @@ HKR,Settings,OmniSpeaker,0x00010001,1
 HKR,Settings,DCHRealtek,0x00010001,1
 HKR,Settings,DCHIcePower,0x00010001,0
 HKR,Settings,DCHNahimic,0x00010001,0
+HKR,Settings,DCH_Gen3p1,0x00010001,1
 
 ;; render endpoint settings
 HKR,InterfaceSetting,RearLineOutTopo,0x10008,"SysCustomizedFx"
