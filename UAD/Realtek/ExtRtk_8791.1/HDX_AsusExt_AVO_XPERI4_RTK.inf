@@ -4,15 +4,18 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OrganizationName%
 ExtensionId = {C3A63EDD-2D27-4B66-B155-5E94B43D926A}
-DriverVer   = 08/27/2019, 6.0.8787.1
+DriverVer   = 09/03/2019, 6.0.8791.1
 CatalogFile = HDXRTExt.cat
 
 [Manufacturer]
 %MfgName% = DeviceExtensions,NTamd64.10.0...15063
 
 [DeviceExtensions.NTamd64.10.0...15063]
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1168&SUBSYS_104387B2
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1168&SUBSYS_10438724
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_104387CF
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_10438784
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_104387C4
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1168&SUBSYS_104387C5
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1168&SUBSYS_104387C6
 
 [DeviceExtension_Install]
 AddReg = IntcAzAudModelAddReg
@@ -26,6 +29,7 @@ HKR,Settings,OmniSpeaker,0x00010001,0
 ;; Asus DTS
 HKR,Settings,AsusDTS,0x00010001,1
 HKR,Settings,DCHRealtek,0x00010001,0
+HKR,Settings,DCH_Gen3p1,0x00010001,0
 
 ;; render endpoint settings
 HKR,InterfaceSetting,RearLineOutTopo,0x10008,"SysCustomizedFx"
@@ -77,51 +81,54 @@ HKR,InterfaceSetting,RtFrontMicInTopo,0x10008,"SysRecCustomizedFx"
 HKR,InterfaceSetting,DigitalMICTopo,0x10008,"SysRecCustomizedFx"
 HKR,InterfaceSetting,RtMicArTopo,0x10008,"SysRecCustomizedFx"
 HKR,InterfaceSetting,RtMicInSSTTopo,0x10008,"SysRecCustomizedFx"
-HKR,InterfaceSetting,RtStereoMixTopo,0x10008,"SysRecCustomizedFx"
-
+HKR,InterfaceSetting,RtStereoMixTopo,0x10008,"SysRecCustomizedFxRtk"
 HKR,InterfaceSetting,RtLineInTopo,0x10008,"SysRecVolCustomizedFx"
 
 ;; APO CLSID registration for render endpoints
-HKR,InterfaceSetting\SysCustomizedFx\FX\0,%DelInterfaceKey%,%REG_MULTI_SZ%,%PKEY_SYSFX_LFXClsid%,%PKEY_SYSFX_GFXClsid%,%PKEY_SYSFX_SFXClsid%,%PKEY_SYSFX_MFXClsid%,%PKEY_SYSFX_EFXClsid%
+HKR,InterfaceSetting\SysCustomizedFx\FX\0,%DelInterfaceKey%,%REG_MULTI_SZ%,%PKEY_SYSFX_LFXClsid%,%PKEY_SYSFX_GFXClsid%,%PKEY_SYSFX_SFXClsid%,%PKEY_SYSFX_MFXClsid%,%PKEY_SYSFX_EFXClsid%,%PKEY_FX_Offload_StreamEffectClsid%,%PKEY_FX_Offload_ModeEffectClsid%
 HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_SYSFX_Association%,,%KSNODETYPE_ANY%
-HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_CompositeFX_StreamEffectClsid%,%REG_MULTI_SZ%,%REALTEK_SFX_CLSID%
-HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_CompositeFX_ModeEffectClsid%,%REG_MULTI_SZ%,%SPERI_MFX_CLSID%,%REALTEK_MFX_CLSID%
+HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_CompositeFX_StreamEffectClsid%,%REG_MULTI_SZ%,%AVOLUTE_SFX_CLSID%,%SPERI_SFX_CLSID%
+HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_CompositeFX_ModeEffectClsid%,%REG_MULTI_SZ%,%AVOLUTE_MFX_CLSID%,%SPERI_MFX_CLSID%,%REALTEK_MFX_CLSID%
 HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_CompositeFX_EndpointEffectClsid%,%REG_MULTI_SZ%,%SPERI_EFX_CLSID%,%REALTEK_EFX_CLSID%
-HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_CompositeFX_Offload_StreamEffectClsid%,%REG_MULTI_SZ%,%REALTEK_OSFX_CLSID%
-HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_CompositeFX_Offload_ModeEffectClsid%,%REG_MULTI_SZ%,%REALTEK_OMFX_CLSID%
 HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_SFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
 HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_MFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
 HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_EFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
-HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_SFX_Offload_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
-HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_MFX_Offload_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
 HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_BYPASS_TP_EFFECTS%,%REG_DWORD%,0x1
 HKR,InterfaceSetting\SysCustomizedFx\FX\0,%PKEY_USE_TP_SFX_EFFECTS%,%REG_DWORD%,0x1
 
-HKR,InterfaceSetting\SysCustomizedFx_RtkOnly\FX\0,%DelInterfaceKey%,%REG_MULTI_SZ%,%PKEY_SYSFX_LFXClsid%,%PKEY_SYSFX_GFXClsid%,%PKEY_SYSFX_SFXClsid%,%PKEY_SYSFX_MFXClsid%,%PKEY_SYSFX_EFXClsid%
+HKR,InterfaceSetting\SysCustomizedFx_RtkOnly\FX\0,%DelInterfaceKey%,%REG_MULTI_SZ%,%PKEY_SYSFX_LFXClsid%,%PKEY_SYSFX_GFXClsid%,%PKEY_SYSFX_SFXClsid%,%PKEY_SYSFX_MFXClsid%,%PKEY_SYSFX_EFXClsid%,%PKEY_FX_Offload_StreamEffectClsid%,%PKEY_FX_Offload_ModeEffectClsid%
 HKR,InterfaceSetting\SysCustomizedFx_RtkOnly\FX\0,%PKEY_SYSFX_Association%,,%KSNODETYPE_ANY%
-HKR,InterfaceSetting\SysCustomizedFx_RtkOnly\FX\0,%PKEY_CompositeFX_StreamEffectClsid%,%REG_MULTI_SZ%,%REALTEK_SFX_CLSID%
-HKR,InterfaceSetting\SysCustomizedFx_RtkOnly\FX\0,%PKEY_CompositeFX_ModeEffectClsid%,%REG_MULTI_SZ%,%REALTEK_MFX_CLSID%
+HKR,InterfaceSetting\SysCustomizedFx_RtkOnly\FX\0,%PKEY_CompositeFX_StreamEffectClsid%,%REG_MULTI_SZ%,%AVOLUTE_SFX_CLSID%
+HKR,InterfaceSetting\SysCustomizedFx_RtkOnly\FX\0,%PKEY_CompositeFX_ModeEffectClsid%,%REG_MULTI_SZ%,%AVOLUTE_MFX_CLSID%,%REALTEK_MFX_CLSID%
 HKR,InterfaceSetting\SysCustomizedFx_RtkOnly\FX\0,%PKEY_CompositeFX_EndpointEffectClsid%,%REG_MULTI_SZ%,%REALTEK_EFX_CLSID%
-HKR,InterfaceSetting\SysCustomizedFx_RtkOnly\FX\0,%PKEY_CompositeFX_Offload_StreamEffectClsid%,%REG_MULTI_SZ%,%REALTEK_OSFX_CLSID%
-HKR,InterfaceSetting\SysCustomizedFx_RtkOnly\FX\0,%PKEY_CompositeFX_Offload_ModeEffectClsid%,%REG_MULTI_SZ%,%REALTEK_OMFX_CLSID%
 HKR,InterfaceSetting\SysCustomizedFx_RtkOnly\FX\0,%PKEY_SFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
 HKR,InterfaceSetting\SysCustomizedFx_RtkOnly\FX\0,%PKEY_MFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
 HKR,InterfaceSetting\SysCustomizedFx_RtkOnly\FX\0,%PKEY_EFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
-HKR,InterfaceSetting\SysCustomizedFx_RtkOnly\FX\0,%PKEY_SFX_Offload_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
-HKR,InterfaceSetting\SysCustomizedFx_RtkOnly\FX\0,%PKEY_MFX_Offload_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
 HKR,InterfaceSetting\SysCustomizedFx_RtkOnly\FX\0,%PKEY_BYPASS_TP_EFFECTS%,%REG_DWORD%,0x1
 
 ;; APO CLSID registration for capture endpoints
-HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%DelInterfaceKey%,%REG_MULTI_SZ%,%PKEY_SYSFX_LFXClsid%,%PKEY_SYSFX_SFXClsid%,%PKEY_SYSFX_MFXClsid%,%PKEY_SYSFX_EFXClsid%
+HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%DelInterfaceKey%,%REG_MULTI_SZ%,%PKEY_SYSFX_LFXClsid%,%PKEY_SYSFX_SFXClsid%,%PKEY_SYSFX_MFXClsid%,%PKEY_SYSFX_EFXClsid%,\
+%PKEY_FX_KeywordDetector_StreamEffectClsid%,%PKEY_FX_KeywordDetector_ModeEffectClsid%,%PKEY_FX_KeywordDetector_EndpointEffectClsid%
 HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%PKEY_SYSFX_Association%,,%KSNODETYPE_ANY%
-HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%PKEY_CompositeFX_ModeEffectClsid%,%REG_MULTI_SZ%,%REALTEKREC_VOLMFX_CLSID%,%REALTEKREC_MFX_CLSID%,%REALTEKREC_INVVOLMFX_CLSID%
+HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%PKEY_CompositeFX_ModeEffectClsid%,%REG_MULTI_SZ%,%REALTEKREC_VOLMFX_CLSID%,%AVOLUTE_SFX_CLSID%,%REALTEKREC_MFX_CLSID%,%REALTEKREC_INVVOLMFX_CLSID%
 HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%PKEY_CompositeFX_EndpointEffectClsid%,%REG_MULTI_SZ%,%REALTEKREC_EFX_CLSID%
 HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%PKEY_MFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%,%AUDIO_SIGNALPROCESSINGMODE_SPEECH%
 HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%PKEY_EFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%,%AUDIO_SIGNALPROCESSINGMODE_SPEECH%
 HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%PKEY_BYPASS_TP_EFFECTS%,%REG_DWORD%,0x1
 
 ;; APO CLSID registration for capture endpoints
-HKR,InterfaceSetting\SysRecVolCustomizedFx\FX\0,%DelInterfaceKey%,%REG_MULTI_SZ%,%PKEY_SYSFX_LFXClsid%,%PKEY_SYSFX_SFXClsid%,%PKEY_SYSFX_MFXClsid%,%PKEY_SYSFX_EFXClsid%
+HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%DelInterfaceKey%,%REG_MULTI_SZ%,%PKEY_SYSFX_LFXClsid%,%PKEY_SYSFX_SFXClsid%,%PKEY_SYSFX_MFXClsid%,%PKEY_SYSFX_EFXClsid%,\
+%PKEY_FX_KeywordDetector_StreamEffectClsid%,%PKEY_FX_KeywordDetector_ModeEffectClsid%,%PKEY_FX_KeywordDetector_EndpointEffectClsid%
+HKR,InterfaceSetting\SysRecCustomizedFxRtk\FX\0,%PKEY_SYSFX_Association%,,%KSNODETYPE_ANY%
+HKR,InterfaceSetting\SysRecCustomizedFxRtk\FX\0,%PKEY_CompositeFX_ModeEffectClsid%,%REG_MULTI_SZ%,%REALTEKREC_VOLMFX_CLSID%,%REALTEKREC_MFX_CLSID%,%REALTEKREC_INVVOLMFX_CLSID%
+HKR,InterfaceSetting\SysRecCustomizedFxRtk\FX\0,%PKEY_CompositeFX_EndpointEffectClsid%,%REG_MULTI_SZ%,%REALTEKREC_EFX_CLSID%
+HKR,InterfaceSetting\SysRecCustomizedFxRtk\FX\0,%PKEY_MFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%,%AUDIO_SIGNALPROCESSINGMODE_SPEECH%
+HKR,InterfaceSetting\SysRecCustomizedFxRtk\FX\0,%PKEY_EFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%,%AUDIO_SIGNALPROCESSINGMODE_SPEECH%
+HKR,InterfaceSetting\SysRecCustomizedFxRtk\FX\0,%PKEY_BYPASS_TP_EFFECTS%,%REG_DWORD%,0x1
+
+;; APO CLSID registration for capture endpoints
+HKR,InterfaceSetting\SysRecVolCustomizedFx\FX\0,%DelInterfaceKey%,%REG_MULTI_SZ%,%PKEY_SYSFX_LFXClsid%,%PKEY_SYSFX_SFXClsid%,%PKEY_SYSFX_MFXClsid%,%PKEY_SYSFX_EFXClsid%,\
+%PKEY_FX_KeywordDetector_StreamEffectClsid%,%PKEY_FX_KeywordDetector_ModeEffectClsid%,%PKEY_FX_KeywordDetector_EndpointEffectClsid%
 HKR,InterfaceSetting\SysRecVolCustomizedFx\FX\0,%PKEY_SYSFX_Association%,,%KSNODETYPE_ANY%
 HKR,InterfaceSetting\SysRecVolCustomizedFx\FX\0,%PKEY_CompositeFX_EndpointEffectClsid%,%REG_MULTI_SZ%,%REALTEKREC_EFX_CLSID%
 HKR,InterfaceSetting\SysRecVolCustomizedFx\FX\0,%PKEY_EFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%,%AUDIO_SIGNALPROCESSINGMODE_SPEECH%
@@ -190,6 +197,9 @@ PKEY_SFX_Offload_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-
 PKEY_MFX_Offload_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-B5EC-A92A0367664B},12"
 PKEY_BYPASS_TP_EFFECTS = "{0F8412D3-DC5C-4DB3-B174-DC47A859435C},0"
 PKEY_USE_TP_SFX_EFFECTS = "{0F8412D3-DC5C-4DB3-B174-DC47A859435C},1"
+
+AVOLUTE_SFX_CLSID     = "{670173E1-78CF-11E5-A837-0800200C9A66}"
+AVOLUTE_MFX_CLSID     = "{670173E2-78CF-11E5-A837-0800200C9A66}"
 
 SPERI_SFX_CLSID        = "{07531B73-E4CA-4B94-9D0E-D3C9A7825FE5}"
 SPERI_MFX_CLSID        = "{FCDD3010-BB3F-4B24-8074-A18FC7D558F7}"
