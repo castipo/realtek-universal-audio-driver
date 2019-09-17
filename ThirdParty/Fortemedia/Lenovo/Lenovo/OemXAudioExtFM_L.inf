@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {86F65302-34A5-441C-8E16-C05C2D9E6151}
-DriverVer   = 08/23/2019,1.0.3.101
+DriverVer   = 08/30/2019,1.0.3.102
 CatalogFile = OemXAudioExt_fm.cat
 
 [SourceDisksNames]
@@ -181,6 +181,7 @@ SAMSfpa_17AA387210EC0257.dat=222
 SAMSfpa_17AA387310EC0257.dat=222
 SAMSfpa_17AA387410EC0257.dat=222
 SAMSfpa_17AA387510EC0257.dat=222
+SAMSfpa_17AA387610EC0257.dat=222
 RTMICAR_17AA3901.dat=222
 RTMICAR_17AA3902.dat=222
 RTMICAR_17AA3903.dat=222
@@ -547,6 +548,7 @@ FMDAT_17AA387210EC0257.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_17AA387310EC0257.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_17AA387410EC0257.CopyList = 12 ; %windir%\system32\drivers
 FMDAT_17AA387510EC0257.CopyList = 12 ; %windir%\system32\drivers
+FMDAT_17AA387610EC0257.CopyList = 12 ; %windir%\system32\drivers
 INTELTF_17AA3814.CopyList = 11 ; %windir%\system32
 INTELTF_17AA391D.CopyList = 11 ; %windir%\system32
 INTELTF_17AA391E.CopyList = 11 ; %windir%\system32
@@ -1252,6 +1254,9 @@ RTMICAR_17AA387410EC0257.dat
 SAMSfpa_17AA387510EC0257.dat
 RTMICAR_17AA387510EC0257.dat
 
+[FMDAT_17AA387610EC0257.CopyList]
+SAMSfpa_17AA387610EC0257.dat
+
 [INTELTF_17AA3814.CopyList]
 configuration.tf, configuration_17AA3814.tf
 
@@ -1482,9 +1487,9 @@ configuration.tf, configuration_1E39A01210EC0256.tf
 %Device.ExtensionDesc% = DeviceExtension_Install_17AA387B10EC0257,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA387B
 %Device.ExtensionDesc% = DeviceExtension_Install_17AA387C10EC0257,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA387C
 %Device.ExtensionDesc% = DeviceExtension_Install_17AA381310EC0287,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3813
-%Device.ExtensionDesc% = DeviceExtension_Install_17AA383F10EC0230,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA383F
-%Device.ExtensionDesc% = DeviceExtension_Install_17AA384010EC0230,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3840
-%Device.ExtensionDesc% = DeviceExtension_Install_17AA384110EC0230,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3841
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA383F10EC0230,HDAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA383F
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA384010EC0230,HDAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3840
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA384110EC0230,HDAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3841
 %Device.ExtensionDesc% = DeviceExtension_Install_17AA386910EC0257,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3869
 %Device.ExtensionDesc% = DeviceExtension_Install_17AA383C10EC0230,HDAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA383C
 %Device.ExtensionDesc% = DeviceExtension_Install_17AA383D10EC0230,HDAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA383D
@@ -1496,6 +1501,7 @@ configuration.tf, configuration_1E39A01210EC0256.tf
 %Device.ExtensionDesc% = DeviceExtension_Install_17AA387310EC0257,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3873
 %Device.ExtensionDesc% = DeviceExtension_Install_17AA387410EC0257,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3874
 %Device.ExtensionDesc% = DeviceExtension_Install_17AA387510EC0257,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3875
+%Device.ExtensionDesc% = DeviceExtension_Install_17AA387610EC0257,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3876
 
 
 [DeviceExtension_Install_17AA3837]
@@ -2790,6 +2796,12 @@ AddReg = PresetAddReg
 
 [DeviceExtension_Install_17AA387510EC0257.HW]
 
+[DeviceExtension_Install_17AA387610EC0257]
+CopyFiles = FMDAT_17AA387610EC0257.CopyList
+AddReg = MonoAddReg
+
+[DeviceExtension_Install_17AA387610EC0257.HW]
+
 ;[FriendlyName_AddReg]
 ;HKR,,FriendlyName,,%ExtendedFriendlyName%
 
@@ -3298,6 +3310,9 @@ AddComponent = FMAPO,,FMAPO_Install
 AddComponent = FMAPO,,FMAPO_Install
 
 [DeviceExtension_Install_17AA387510EC0257.Components]
+AddComponent = FMAPO,,FMAPO_Install
+
+[DeviceExtension_Install_17AA387610EC0257.Components]
 AddComponent = FMAPO,,FMAPO_Install
 
 
