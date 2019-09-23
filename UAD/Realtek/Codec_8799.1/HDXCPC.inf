@@ -10,7 +10,7 @@ ClassGuid={4d36e96c-e325-11ce-bfc1-08002be10318}
 Provider=%OrganizationName%
 DriverPackageType=PlugAndPlay
 DriverPackageDisplayName=%PackageDisplayName%
-DriverVer=09/10/2019, 6.0.8795.1
+DriverVer=09/17/2019, 6.0.8799.1
 
 [SourceDisksNames]
 222="Realtek HD Audio Installation Disk",,,
@@ -643,8 +643,6 @@ HKLM,%MediaCategories%\%GUID.TVIn%,Name,,%Node.TVIn%
 HKLM,%MediaCategories%\%GUID.TVIn%,Display,1,00,00,00,00
 HKLM,%MediaCategories%\%GUID.FrontAVIn%,Name,,%Node.FrontAVIn%
 HKLM,%MediaCategories%\%GUID.FrontAVIn%,Display,1,00,00,00,00
-HKLM,%MediaCategories%\%GUID.DisableAnalogCD%,Name,,%Node.DisableAnalogCD%
-HKLM,%MediaCategories%\%GUID.DisableAnalogCD%,Display,1,00,00,00,00
 HKLM,%MediaCategories%\%GUID.LimitedOutput%,Name,,%Node.LimitedOutput%
 HKLM,%MediaCategories%\%GUID.LimitedOutput%,Display,1,00,00,00,00
 HKLM,%MediaCategories%\%GUID.RTSPDIFOut%,Name,,%Node.RTSPDIFOut%
@@ -1129,8 +1127,6 @@ GUID.TVIn               ="{38FAF4E0-3EEF-47d7-AD52-F20AB10340C3}"
 Node.TVIn               ="TV In"
 GUID.FrontAVIn          ="{E27EEDDE-A24D-4f87-8EDE-5A58E7FF8D70}"
 Node.FrontAVIn          ="Front AV In"
-GUID.DisableAnalogCD	="{08FDB237-3D34-4c59-9511-56E178AE3E10}"
-Node.DisableAnalogCD	="Disable Analog CD"
 GUID.LimitedOutput	    ="{D172D8CE-0235-4b09-92EB-BDE320CFB94C}"
 Node.LimitedOutput	    ="Limited Output"
 
