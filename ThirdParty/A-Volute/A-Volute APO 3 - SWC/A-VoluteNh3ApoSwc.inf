@@ -3,7 +3,7 @@ Signature   = "$WINDOWS NT$"
 Class       = SoftwareComponent
 ClassGuid   = {5c4c3332-344d-483c-8739-259e934c9cc8}
 Provider    = %Provider%
-DriverVer = 07/09/2019,1.4.2.0
+DriverVer = 09/06/2019,1.5.1.0
 CatalogFile = A-VoluteNh3ApoSwc.cat
 
 [SourceDisksNames]
@@ -36,9 +36,9 @@ DRMLevel=1300
 PETrust=true
 
 [Manufacturer]
-%Mfg% = ApoComponents,NTamd64.10.0...15063
+%Mfg% = ApoComponents,NTamd64.10.0
 
-[ApoComponents.NTamd64.10.0...15063]
+[ApoComponents.NTamd64.10.0]
 %Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_0000
 %Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_0001
 %Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_0100
@@ -51,6 +51,7 @@ PETrust=true
 %Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_0700
 %Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_0800
 %Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_0900
+%Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_0D00
 %Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_FFFF
 
 [ApoComponent_Install]
