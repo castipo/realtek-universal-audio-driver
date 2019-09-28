@@ -1,0 +1,309 @@
+ICEsoundAPO_x64_2.7 (20/09-19):
+- Added tuning for TP412FAC, H700GV, X521FA_FL, W500G5T_GV.
+
+ICEsoundAPO_x64_2.6 (12/09-19):
+Model list based on 'ICEsound-ASUS project list_splitComp_20190911'.
+- Updated tuning for P2540FB
+
+ICEsoundAPO_x64_2.6 (06/09-19):
+- Added tuning for X409MA, X421FA_FL
+
+ICEsoundAPO_x64_2.6 (30/08-19):
+Model list based on 'ICEsound-ASUS project list_20190829.xlsx'.
+- Updated tuning for P1440FA_FB
+
+ICEsoundAPO_x64_2.6 (23/08-19):
+- Support for 4 microphones
+- Realtime effect for discovery now works
+- Legacy interface has been updated to work for 101, 550 and 304
+
+ICEsoundAPO_x64_2.4 (23/08-19):
+Model list based on 'ICEsound-ASUS project list_20190819.xlsx'.
+- Updated tuning for X532FA_FL_FAC_FLC
+
+ICEsoundAPO_x64_2.4 (05/08-19):
+- Updated tuning for X545FA_FB_FJ
+
+ICEsoundAPO_x64_2.4 (26/07-19):
+Model list based on 'ICEsound-ASUS project list_20190724.xlsx'.
+- Added tuning for X409BA, X409MA, X409JA_JB_JJ_JL, X509MA, X509JA_JB_JJ_JL 
+
+ICEsoundAPO_x64_2.4 (19/07-19):
+Model list based on 'ICEsound-ASUS project list_20190718.xlsx'.
+- Added tuning for L524FA_FB, X509BA.
+- Updated tuning for X403FA, X432FA_FL_FAC
+
+ICEsoundAPO_x64_2.4 (12/07-19):
+Model list based on 'ICEsound-ASUS project list_20190711.xlsx'.
+
+ICEsoundAPO_x64_2.4 (28/06-19):
+Model list based on 'ICEsound-ASUS project list_20190626.xlsx'.
+- Updated tuning for UX463FA_FL, UX481FA_FL
+
+ICEsoundAPO_x64_2.4 (21/06-19):
+Model list based on 'ICEsound-ASUS project list_20190619.xlsx'.
+- Fixed issue with HDMI devices
+- Support for 2.2 subwoofer format
+- Support for distinguish endpoints
+
+ICEsoundAPO_x64_2.3 (15/03-19):
+Support for all sample rates on the Microphone path.
+Support for disabling-enabling speech algorithms in default mode.
+Microphone tuning will now always be the same as is set on the Internal Speaker path.
+
+ICEsoundAPO_x64_2.2 (10/02-19):
+Added Microphone EQ for MicrophoneProcessing.
+Restored runtime parameters control for render APO.
+
+ICEsoundAPO_x64_2.1 (21/12-18):
+Added MicrophoneProcessing support for Cortana.
+
+ICEsoundAPO_x64_1.42 (21/06-19):
+Model list based on 'ICEsound-ASUS project list_20190619.xlsx'.
+- Added tuning for X545FA_FB_FJ.
+- Updated tuning for X571GD_GT.
+
+ICEsoundAPO_x64_1.42 (14/06-19):
+Model list based on 'ICEsound-ASUS project list_20190612.xlsx'.
+- Updated tuning for UX433FN_FA.
+
+ICEsoundAPO_x64_1.42 (12/06-19):
+- Added tuning for UX563FD.
+
+ICEsoundAPO_x64_1.42 (10/06-19):
+Model list based on 'ICEsound-ASUS project list_20190605.xlsx'.
+- Added tuning for X712FA_FB_19AE, UX463FA_FL.
+
+ICEsoundAPO_x64_1.42 (31/05-19):
+Model list based on 'ICEsound-ASUS project list_20190528.xlsx'.
+- Updated tuning for UX534FA_FL, UX434FA_FL_FAC_FLC
+
+ICEsoundAPO_x64_1.42 (28/05-19):
+- Updated tuning for UX481FA, UX481FL.
+
+ICEsoundAPO_x64_1.42 (24/05-19):
+- Updated tuning for UX434FA_FL, UX334FA_FL_FAC_FLC.
+
+ICEsoundAPO_x64_1.42 (21/05-19):
+- Added tuning for UX481FA, UX481FL.
+
+ICEsoundAPO_x64_1.42 (17/05-19):
+Model list based on 'ICEsound-ASUS project list_20190516-2.xlsx'.
+- Added tuning for X705BA_199E, X705BA_1C21, S340MF, D940MX.
+
+ICEsoundAPO_x64_1.42 (10/05-19):
+Model list based on 'ICEsound-ASUS project list_20190507.xlsx'.
+- Added tuning for E201NA_C.
+- Updated tuning for UX434FA_FL.
+
+ICEsoundAPO_x64_1.42 (03/05-19):
+- Updated tuning for X531FA_FL, X532FA_FL.
+
+ICEsoundAPO_x64_1.42 (26/04-19):
+Model list based on 'ICEsound-ASUS project list_20190424.xlsx'.
+- Added tuning for X571GD_GT.
+
+ICEsoundAPO_x64_1.42 (22/04-19):
+- Added tuning for UX391RA.
+- Updated tuning for UX334FA_FL, UX391FA.
+
+ICEsoundAPO_x64_1.42 (16/04-19):
+Model list based on 'ICEsound-ASUS project list_20190411.xlsx'.
+- Updated tuning for X531FA_FL, X532FA_FL.
+
+ICEsoundAPO_x64_1.42 (12/04-19):
+- Updated tuning for X431FA_FL_18AE, X431FA_FL_19A1.
+
+ICEsoundAPO_x64_1.42 (09/04-19):
+- Added tuning for UX534FA_FL.
+- Updated tuning for UX434FA_FL.
+
+ICEsoundAPO_x64_1.42 (02/04-19):
+- Added tuning for UX434FA_FL.
+- Updated tuning for MJ401TA, UX334FA_FL, UX433FN_FA.
+
+ICEsoundAPO_x64_1.42 (29/03-19):
+Model list based on 'ICEsound-ASUS project list_20190328.xlsx'.
+- Added tuning for UX334FA_FL.
+- Updated tuning for X512FA_FB_FN_FF_FJ_FL_16F1, X512UF_UA_UB.
+
+ICEsoundAPO_x64_1.42 (25/03-19):
+Model list based on 'ICEsound-ASUS project list_20190320.xlsx'.
+- Added tuning for X432FA_FL
+
+ICEsoundAPO_x64_1.42 (15/03-19):
+Model list based on 'ICEsound-ASUS project list_20190307.xlsx'.
+- Added tuning for X431FA_FL_19A1, X431FA_FL_18AE
+- Updated tuning for X409FA_FB_FJ_FL
+- Updated tuning for X509FA_FB_FJ_FL_UA_UB_UJ, X512FA_FB_FN_FF_FJ_FL_16F1, X512UF_UA_UB, X512DA_DK
+
+ICEsoundAPO_x64_1.42 (11/03-19):
+Model list based on 'ICEsound-ASUS project list_20190226.xlsx'.
+- Added tuning for X531FA_FL, X532FA_FL
+- Updated tuning for B9440UA_UAV_UAM_UAR_FAV, TP412UA_FA, MJ401TA
+- Updated tuning for UX462DA, Q406DA
+
+ICEsoundAPO_x64_1.42 (16/02-19):
+- Updated tuning for V222GA_GB_UA_UB_3150, V222GA_GB_UA_UB_31B0
+- Added tuning for MJ401TA, X509FA_FB_FJ_FL_UA_UB_UJ
+
+ICEsoundAPO_x64_1.42 (16/02-19):
+Fixed missing RTA over 24kHz issue with endpoint sampling rates above 48kHz.
+
+ICEsoundAPO_x64_1.41 (29/01-19):
+Model list based on 'ICEsound-ASUS project list_20190125.xlsx'.
+- Added tuning for UX462DA, Q406DA, UX562FDX
+- Updated tuning for UX433FN_FA, X712FA_FB
+
+ICEsoundAPO_x64_1.41 (22/01-19):
+- Updated tuning for UX462FA, Q406FA
+- Added tuning for X705QA_QR_186E, X705QA_QR_1911.
+
+ICEsoundAPO_x64_1.41 (11/01-19):
+Model list based on 'ICEsound-ASUS project list_20190109.xlsx'.
+Fixed issue with wrong sample rate and missing RTA data.
+Fixed issue with tuning installation/update procedure.
+Fixed issue with legacy I2S codecs.
+
+ICEsoundAPO_x64_1.40 (08/01-19):
+- Updated tuning for UX392FA_FN
+- Added tuning for X412UA_UB_UF_FA_FJ_FL_189E.
+
+ICEsoundAPO_x64_1.40 (02/01-19):
+Model list based on 'ICEsound-ASUS project list_20181228.xlsx'.
+- Updated tuning for UX431FA_FN_17D1, UX562FA, Q506FA_17CE
+- Added tuning for X409FA_FB_FJ_FL.
+- Added tuning for E402YA, X512DA_DK.
+
+ICEsoundAPO_x64_1.40 (05/12-18):
+Fixed issue with Conexant endpoints.
+
+ICEsoundAPO_x64_1.39 (04/12-18):
+Model list based on 'ICEsound-ASUS project list_20181128.xlsx'.
+- Added tuning for X411QA_QR, X712FA_FB.
+
+ICEsoundAPO_x64_1.39 (26/11-18):
+- Added tuning for PB50G
+- Updated tuning for X330UA_UN_FA_FN, I330_UA_UN_FA_FN
+
+ICEsoundAPO_x64_1.39 (19/11-18):
+Model list based on 'ICEsound-ASUS project list_20181116.xlsx'.
+- Added tuning for X510QA_QR, P3540FA_FB
+
+ICEsoundAPO_x64_1.39 (13/11-18):
+Model list based on 'ICEsound-ASUS project list_20181109.xlsx'.
+- Updated tuning for X430FA_FF_FN
+
+ICEsoundAPO_x64_1.39 (06/11-18):
+- Updated tuning for X540BP_BA, X510UQ_UA_UR_UN_UAR_UNR
+
+ICEsoundAPO_x64_1.39 (29/10-18):
+Updated APO+service to 1.0.0.39.
+
+ICEsoundAPO_x64_1.38 (22/10-18):
+Updated APO+service to 1.0.0.38.
+
+ICEsoundAPO_x64_1.37 (15/10-18):
+Updated APO+service to 1.0.0.37.
+
+ICEsoundAPO_x64_1.36_2 (12/10-18):
+- Updated tuning for UX461FN_FA, UX461UN_UA
+- Added tuning for UX462FA, Q406FA, X412UA_UB_UF_FA_FJ_FL
+- Updated tuning for UN65N (864D)
+
+ICEsoundAPO_x64_1.36_2 (03/10-18):
+Some bug was found in APO 1.36 so this package comprises APO 1.35 and Service 1.36.
+
+ICEsoundAPO_x64_1.36 (28/9-18):
+Updated APO+service to 1.0.0.36.
+
+ICEsoundAPO_x64_1.35 (28/9-18):
+Model list based on 'ICEsound-ASUS project list_20180927.xlsx'.
+
+ICEsoundAPO_x64_1.35 (19/9-18):
+Updated tuning for  GL752VW, Z220IC.
+
+ICEsoundAPO_x64_1.35 (15/9-18):
+Model list based on 'ICEsound-ASUS project list_20180912.xlsx'.
+
+ICEsoundAPO_x64_1.35 (06/9-18):
+Model list based on 'ICEsound-ASUS project list_20180905.xlsx'.
+
+ICEsoundAPO_x64_1.35 (24/8-18):
+Updated APO+service to version 1.0.0.35.
+Model list based on 'ICEsound-ASUS project list_20180823.xlsx'.
+
+ICEsoundAPO_x64_1.34 (21/8-18):
+Model list based on 'ICEsound-ASUS project list_20180820.xlsx'.
+
+ICEsoundAPO_x64_1.34 (10/8-18):
+Model list based on 'ICEsound-ASUS project list_20180808.xlsx'.
+
+ICEsoundAPO_x64_1.34 (03/8-18):
+Updated APO+service to version 1.0.0.34.
+Model list based on 'ICEsound-ASUS project list_20180802.xlsx'.
+
+ICEsoundAPO_x64_1.33 (20/7-18):
+Updated APO+service to version 1.0.0.33.
+
+ICEsoundAPO_x64_1.32 (23/7-18):
+Model list based on 'ICEsound-ASUS project list_20180719.xlsx'.
+
+ICEsoundAPO_x64_1.32 (18/7-18):
+Model list based on 'ICEsound-ASUS project list_20180713.xlsx'.
+
+ICEsoundAPO_x64_1.32 (9/7-18):
+Model list based on 'ICEsound-ASUS project list_20180705.xlsx'.
+
+ICEsoundAPO_x64_1.32 (2/7-18):
+Model list based on 'ICEsound-ASUS project list_20180702.xlsx'.
+Package now certified for RS4.
+
+ICEsoundAPO_x64_1.32 (22/6-18):
+Model list based on 'ICEsound-ASUS project list_20180621.xlsx'.
+
+ICEsoundAPO_x64_1.32 (15/6-18):
+Model list based on 'ICEsound-ASUS project list_20180615.xlsx'.
+
+ICEsoundAPO_x64_1.32 (11/6-18):
+Added tuning for X705.
+
+ICEsoundAPO_x64_1.32 (1/6-18):
+Model list based on 'ICEsound-ASUS project list_20180531.xlsx'.
+Removed blank tuning for unsupported models since it was mistakenly installed on supported models when the audio codec had not yet been installed.
+
+ICEsoundAPO_x64_1.32 (28/5-18):
+Model list based on 'ICEsound-ASUS project list_20180524.xlsx'.
+Added VC65 models to supported model list.
+
+ICEsoundAPO_x64_1.32 (18/5-18):
+Model list based on 'ICEsound-ASUS project list_20180517.xlsx'.
+
+ICEsoundAPO_x64_1.32 (11/5-18):
+Model list based on 'ICEsound-ASUS project list_20180510.xlsx'.
+
+ICEsoundAPO_x64_1.32 (7/5-18):
+Added tunings for X407UAR_UBR_UF.
+Model list based on 'ICEsound-ASUS project list_20180503.xlsx'.
+
+ICEsoundAPO_x64_1.32 (26/4-18):
+Model list based on 'ICEsound-ASUS project list_20180423.xlsx'.
+
+ICEsoundAPO_x64_1.32 (20/4-18):
+Model list based on 'ICEsound-ASUS project list_20180419.xlsx'.
+
+ICEsoundAPO_x64_1.32 (13/4-18):
+Added tuning for X430UN_UF_UA.
+Updated tuning for TP401CAE.
+Model list based on 'ICEsound-ASUS project list_20180413.xlsx'.
+
+ICEsoundAPO_x64_1.32 (09/4-18):
+Added tunings for TP203MAH, TP401CAE.
+Updated tunings for TP412UA, UX391UA, UX430UA_UR_UQ, X560UD and X530UNV_UF_UN_UA.
+Model list based on 'ICEsound-ASUS project list_20180330.xlsx'.
+
+ICEsoundAPO_x64_1.32 (26/3-18):
+Added tunings for UX391UA and UX430UA_UR_UQ.
+
+ICEsoundAPO_x64_1.32 (15/3-18):
+Model list based on 'ICEsound-ASUS project list_20180312.xlsx'.

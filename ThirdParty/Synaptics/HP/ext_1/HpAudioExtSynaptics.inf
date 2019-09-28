@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {E3FF7D04-25DC-4788-9F4D-228C14CEF325}
-DriverVer   = 05/22/2019,1.1.0.3
+DriverVer   = 07/23/2019,1.1.0.4
 CatalogFile = HpAudioExtSynaptics.cat
 
 [SourceDisksNames]
