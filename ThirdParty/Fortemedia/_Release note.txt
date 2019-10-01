@@ -1,4 +1,135 @@
 Release Note:
+Release Date: 20190930
+!!!! Attention !!!!
+The latest WHQL driver has a little different with old version:
+    The zip files are separated by different customers. (ex: Lenovo, HP, ThinkPad, etc)
+    And if there has special case, it will be zipped by case. (ex: ThinkPad Rainier)
+    Each zip file contains ExtOem, SSTExt (only for PCH case) and APO for each customer.
++------------------------------------------------ ExtOem ------------------------------------------------+
+ExtOem Verision with update :
+                  HP       : 1.0.3.104 RS4RS519H1 support
+                  Lenovo   : 1.0.3.104 RS4RS519H1 support
+                  Weibu    : 1.0.3.104 RS4RS519H1 support
+
+ExtOem Verision without update :                 
+                  Intel    : 1.0.3.101 RS4RS519H1 support
+                  Dell     : 1.0.3.101 RS4RS519H1 support
+                  HPAIO    : 1.0.3.102 RS4RS519H1 support
+                  Huawei   : 1.0.3.103 RS4RS519H1 support
+                  ThinkPad : 1.0.3.103 RS4RS519H1 support
+
+                  ThinkPad Rainier : 1.0.3.101 RS4RS519H1 support
+                  ThinkPad RCT/KNO : 1.0.3.101 RS4RS519H1 support
+
+
+
++-------------------------------------------------- APO -------------------------------------------------+           
+APO Version : 
+                  Lenovo    : 12.1.6003.5780 RS4RS519H1 support
+                  ThinkPad  : 12.1.6003.5780 RS4RS519H1 support
+                  HP        : 12.1.6003.5780 RS4RS519H1 support
+                  Huawei    : 12.1.6003.5780 RS4RS519H1 support
+                  HPAIO     : 12.1.6003.5774 RS4RS519H1 support
+                  Intel     : 12.1.6003.5774 RS4RS519H1 support
+                  Weibu     : 12.1.6003.5765 RS4RS519H1 support
+                  Dell      : 12.1.6003.5765 RS4RS519H1 support
+
+                  ThinkPad Rainier : 12.0.6002.5780 RS4RS519H1 support
+                  ThinkPad RCT/KNO : 12.0.6002.5780 RS4RS519H1 support
+
+  # ThinkPad_KNO_RCT_WHQL : 
+      special for ThinkPad KNO RCT projects.
+
+  # ThinkPad_Rainier_WHQL :
+      special for ThinkPad Rainier project
+      Support USB version.
+
+
+
+APO Description :
+  12.1.6003.5780 RS4RS519H1 support
+    - FMAPO64.dll 89.68.06.41
+        1. Performance improvement on v890
+        2. Solve DOA converge issue on v860
+        3. Fool-proof improvement for quick converge (Fix the issue of Cortana HWKWS and VR test at the same time)
+    - FMService 0.1.0.26
+        1 For USB HS, update DAT in IsSupport calling.
+        2 Ext Mic NS is force to “On” in restore action.
+        3 Only Int Spk NS reset in restore action.
+    - FM_Speech_PP64 80.16.100.137
+        1. Support suffix in DAT name(Need set the DAT on system32/drivers)
+        2. Check SVID to support PCH project different SSID.
+    - FMPCHAPO64 89.68.06.41
+        1. Performance improvement on v890
+        2. Solve DOA converge issue on v860
+        3. Fool-proof improvement for quick converge (Fix the issue of Cortana HWKWS and VR test at the same time)
+
++------------------------------------------------ SSTOem ------------------------------------------------+
+SSTOEM Version with update :
+                 Lenovo   : 09.21.3229.47 RS4RS519H1 support
+
+SSTOEM Version without update :
+                 Huawei   : 09.21.3229.37 RS4RS519H1 support
+                 HP       : 09.21.3229.46 RS4RS519H1 support
+                 ThinkPad : 09.21.3229.46 RS4RS519H1 support
+
+
+
++---------------------------------------------- Main Target ---------------------------------------------+
+HP
+    SAMSfpa.DAT(87A1)ID 103C86A9_Quanta_HP_400_SOURWOOD_15_103C86A910EC0236_SingleMic_Wasapi_SAMSfpa_SAMSfppch_registrykey95%_DmicTo Intel audio
+        //Update_SAMSppch.DAT (87A1)INTELAUDIO\CTLR_DEV_02C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_86A8103C&REV_0001
+    SAMSfpa.DAT(870E)ID 103C869C_Quanta_HP_400_RIMU_13_103C869C10EC0236_SingleMic_Wasapi_SAMSfpa_SAMSfppch_registrykey95%_DmicTo Intel audio
+        //Update_SAMSppch.DAT (87A0)INTELAUDIO\CTLR_DEV_02C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_869B103C&REV_0001
+    //Update_SAMSfpa.DAT(879F)ID 103C8733_Quanta_HP_400_Pecan_15"_103C873310EC0236_SingleMic_Wasapi_SAMSfpa_registrykey95%_DmicToHDA_HD audio
+    //Update_SAMSfpa.DAT(879E)ID 103C8731_Quanta_HP_400_Pecan_14"_103C873110EC0236_SingleMic_Wasapi_SAMSfpa_registrykey95%_DmicToHDA_HD audio
+    SAMSfpa.DAT(8715)ID 103C86A4_Quanta_HP_400_SOURWOOD_13_103C86A410EC0236_SingleMic_Wasapi_SAMSfpa_SAMSfppch_registrykey95%_DmicTo Intel audio
+        //Update_SAMSppch.DAT (879D)INTELAUDIO\CTLR_DEV_02C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_86A3103C&REV_0001
+    SAMSfpa.DAT(8717)ID 103C86A6_Quanta_HP_400_SOURWOOD_14_103C86A610EC0236_SingleMic_Wasapi_SAMSfpa_SAMSfppch_registrykey95%_rtmicar_DmicTo Intel audio
+        //Update_SAMSppch.DAT (879C)INTELAUDIO\CTLR_DEV_02C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_86A5103C_&REV_0001
+    SAMSfpa.DAT(8779)ID 103C87A8_Quanta_HP_400_RAMBO_14_103C87A810EC0236_SingleMic_Wasapi_SAMSfpa_SAMSfppch_DmicTo Intel audio
+        //Update_SAMSppch.DAT (879B)INTELAUDIO\CTLR_DEV_02C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_877D103C&REV_0001
+    SAMSfpa.DAT(8713)ID 103C86A1_Quanta_HP_400_REDPINE_15_103C86A110EC0236_SingleMic_Wasapi_SAMSfpa_SAMSfppch_registrykey95%_DmicTo Intel audio
+        //Update_SAMSppch.DAT (879A)INTELAUDIO\CTLR_DEV_02C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_86A0103C&REV_0001
+    SAMSfpa.DAT(8711)ID 103C869F_Quanta_HP_400_REDBAY_14_103C869F10EC0236_SingleMic_Wasapi_SAMSfpa_SAMSfppch_SAMSfaspk_registrykey95%_rtmicar_DmicTo Intel audio
+        //Update_SAMSppch.DAT (8799)INTELAUDIO\CTLR_DEV_02C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_869D103C&REV_0001
+    SAMSfpa.DAT(8710)ID 103C869E_Quanta_HP_400_REDBAY_14_103C869E10EC0236_SingleMic_Wasapi_SAMSfpa_SAMSfppch_SAMSfaspk_registrykey95%_rtmicar_DmicTo Intel audio
+        //Update_SAMSppch.DAT (8798)INTELAUDIO\CTLR_DEV_02C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_869D103C&REV_0001
+    SAMSfpa.DAT(872D) ID 103C8549_IEC_HP_800_Flamenco_103C854910EC0215_3chMic_Wasapi_SAMSfpa_SAMSfppch__SAMSfaspkregistrykey95%_rtmicar_DmicTo Intel audio
+        //Update_SAMSppch (8797) INTELAUDIO\CTLR_DEV_9DC8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_8549103C&REV_0001
+    SAMSfpa.DAT(86AE)ID 103C854F_IEC_HP_800_Crescent_15_103C854F10EC0215_3chMic_Wasapi_SAMSfpa_SAMSfppch_SAMSfaspk_registrykey95%_rtmicar_DmicTo Intel audio
+        //Update_SAMSppch.DAT (8796) INTELAUDIO\CTLR_DEV_9DC8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_8549103C&REV_0001
+    SAMSfpa.DAT(86AD) ID 103C854E_IEC_HP_800_Crescent 14u_103C854E10EC0215_3chMic_Wasapi_SAMSfpa_SAMSfppch_SAMSfaspk_registrykey95%_rtmicar_DmicTo Intel audio
+        //Update_SAMSppch.DAT (8795) INTELAUDIO\CTLR_DEV_9DC8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_8549103C&REV_0001
+    SAMSfpa.DAT(8731) ID 103C854D_IEC_HP_800_Crescent_14_103C854D10EC0215_3chMic_Wasapi_SAMSfpa_SAMSfppch_SAMSfaspk_registrykey95%_rtmicar_DmicTo Intel audio
+        //Update_SAMSppch.DAT (8794) INTELAUDIO\CTLR_DEV_9DC8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_8549103C&REV_0001
+    SAMSfpa.DAT(872C) ID 103C8655_IEC_HP_800_Shortleaf_13_103C865510EC0215_3chMic_Wasapi_SAMSfpa_SAMSfppch_SAMSfaspk_registrykey95%_rtmicar_DmicTo Intel audio
+        //Update_SAMSppch.DAT (8793)INTELAUDIO\CTLR_DEV_9DC8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_8655103C&REV_0001
+    SAMSfpa.DAT(8728) ID 103C854A_IEC_HP_800_Catalonia_13_103C854A10EC0215_3chMic_Wasapi_SAMSfpa_SAMSfppch_SAMSfaspk_registrykey95%_rtmicar_DmicTo Intel audio
+        //Update_SAMSppch.DAT (8792)INTELAUDIO\CTLR_DEV_9DC8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_854A103C&REV_0001
+    SAMSfpa.DAT(86AA) ID 103C853D_IEC_HP_800_Oreti_103C853D10EC0215_3chMic_Wasapi_SAMSfpa_SAMSfppch_SAMSfaspk_registrykey95%__rtmicar_DmicTo Intel audio
+        //Update_SAMSppch.DAT (8791) INTELAUDIO\CTLR_DEV_9D71&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_853D103C&REV_0001
+    //Update_SAMSfpa.DAT(8790) ID 103C8622_IEC_HP_700_Texada_14"_103C852210EC0215_3chMic_Wasapi_SAMSfpa_SAMSfaspk_registrykey95%_rtmicar_DmicToHDA_HD audio
+    //Update_SAMSfpa.DAT(878F) ID 103C8621_IEC_HP_700_Texada_14"_103C218510EC0215_3chMic_Wasapi_SAMSfpa_SAMSfaspk_registrykey95%_rtmicar_DmicToHDA_HD audio
+    //Update_SAMSfpa.DAT(878E) ID 103C858A_IEC_HP_700_Llarga_13"_103C858A10EC0215_3chMic_Wasapi_SAMSfpa_SAMSfaspk_registrykey95%_rtmicar_DmicToHDA_HD audio
+    //Update_SAMSfpa.DAT(878D) ID 103C8585_IEC_HP_700_Tenjin_14"_103C858510EC0215_3chMic_Wasapi_SAMSfpa_SAMSfaspk_registrykey95%_rtmicar_DmicToHDA_HD audio
+    //Update_SAMSfpa.DAT(878C) ID 103C858B_IEC_HP_700_Llarga_13"_103C858B10EC0215_3chMic_Wasapi_SAMSfpa_SAMSfaspk_registrykey95%_rtmicar_DmicToHDA_HD audio
+    //Update_SAMSfpa.DAT(878B) ID 103C8586_IEC_HP_700_Tenjin_14"_103C858610EC0215_3chMic_Wasapi_SAMSfpa_SAMSfaspk_registrykey95%_rtmicar_DmicToHDA_HD audio
+
+Lenovo
+    //update 17AA385210EC0257 Quanta_V340IIL_14_HDAID:17AA385210EC0257_gfx to wasapi; HDAudio to Intel Audio
+    //update 17AA385110EC0257 Quanta_V340IIL_15_HDAID:17AA385110EC0257_gfx to wasapi; HDAudio to Intel Audio
+    //add 17AA381110EC0287 Quanta_S750CML_PCIID17AA38118086A348_HDAID17AA381110EC0287_array90_wasapi_SAMSfpa_SAMSfPpch_registrykey95%_rtmicar_IntelAudio_DmicToPCH_SAMSfpi_supportAlexa no tf (no smartAMP/with Dolby)
+    //add 17AA381210EC0287 Quanta_S750CML_PCIID17AA38118086A348_HDAID17AA381210EC0287_array90_wasapi_SAMSfpa_SAMSfPpch_registrykey95%_rtmicar_IntelAudio_DmicToPCH_SAMSfpi_supportAlexa no tf (with smartAMP/Dolby)
+    //add 17AA387710EC0257 Quanta_V340-CML_HDAID17AA387710EC0257_array54mmKmic_Wasapi_SAMSfpa_registrykey91%_rtmicar_IntelAudio_DmicToHDA
+    //add 17AA387810EC0257 Quanta_V340-CML_HDAID17AA387810EC0257_array54mmKmic_Wasapi_SAMSfpa_registrykey91%_rtmicar_IntelAudio_DmicToHDA
+
+Weibu
+    //update SAMSfpa_1C6C122C10EC0298 Weibu_S156KTR110_Cortana mode19 tuning update
+
+======================================================================================================================================================
+
+Release Note:
 Release Date: 20190923
 !!!! Attention !!!!
 The latest WHQL driver has a little different with old version:
