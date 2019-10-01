@@ -16,7 +16,7 @@
 	<operating_mode>
 		<control name="APO4-Operating Mode">APO4-Unlicensed</control>
 		<control name="APO4-Speaker Type">APO4-Internal Stereo</control>
-		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-DSEC File">dts-postprocessing_1D721814.lic</control>
 		<control name="Eagle-Output Device">0</control>
 		<control name="Eagle-Bypass Enable" public="true">1</control>
 		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
@@ -31,7 +31,7 @@
 		<control name="APO4-Operating Mode">APO4-Off</control>
 		<control name="APO4-Speaker Type">APO4-Internal Stereo</control>
 		<control name="APO4-OperatingMode-LastSetMode" public="true">APO4-Music</control>
-		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-DSEC File">dts-postprocessing_1D721814.lic</control>
 		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
 		<!-- Start Eagle EFX controls -->
 		<control name="Eagle-Output Device">0</control>
@@ -81,8 +81,8 @@
 		<control name="MFX:Eagle-AEQ Input Gain" public="true">0</control>
 		<control name="MFX:Eagle-AEQ Output Gain" public="true">0</control>
 		<control name="MFX:Eagle-AEQ Bypass Gain" public="true">0</control>
-		<control name="MFX:Eagle-GPEQ Blob 48k">dts_gpeq_off_48k.bin</control>
-		<control name="MFX:Eagle-GPEQ Blob 44k">dts_gpeq_off_44k.bin</control>
+		<control name="MFX:Eagle-GPEQ Blob 48k">dts_gpeq_off_48k_1D721814.bin</control>
+		<control name="MFX:Eagle-GPEQ Blob 44k">dts_gpeq_off_44k_1D721814.bin</control>
 		<chain_v2 position="SFX" input="Any" output="Any">
 			<process tech_id="DTS Eagle" instance_id="SFX"/>
 		</chain_v2>
@@ -99,7 +99,7 @@
 	<operating_mode>
 		<control name="APO4-Operating Mode">APO4-Music</control>
 		<control name="APO4-Speaker Type">APO4-Internal Stereo</control>
-		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-DSEC File">dts-postprocessing_1D721814.lic</control>
 		<control name="Eagle-Product Name" public="true">Eagle-DTS Audio</control>
 		<!-- Start Eagle controls -->
 		<control name="Eagle-Output Device">0</control>
@@ -120,7 +120,7 @@
 		<control name="Eagle-Stereo Mode" public="true">Eagle-Off</control>
 		<control name="MFX:Eagle-I3DA Enable" public="true">0</control>
 		<control name="MFX:Eagle-I3DA Device Enable" public="true">0</control>
-		<control name="MFX:Eagle-CTC Blob">dts_ctc_blob.bin</control>
+		<control name="MFX:Eagle-CTC Blob">dts_ctc_blob_1D721814.bin</control>
 		<!-- Start VAEQ contols -->
 		<control name="MFX:Eagle-VAEQ MODE" public="true">Eagle-EQ Bypass</control>
 		<control name="MFX:Eagle-VAEQ MV DOWNSTREAM FLAG" public="true">1</control>
@@ -226,8 +226,8 @@
 		<control name="MFX:Eagle-AEQ Input Gain" public="true">0</control>
 		<control name="MFX:Eagle-AEQ Output Gain" public="true">0</control>
 		<control name="MFX:Eagle-AEQ Bypass Gain" public="true">0</control>
-		<control name="MFX:Eagle-GPEQ Blob 48k">dts_gpeq_mode1_48k.bin</control>
-		<control name="MFX:Eagle-GPEQ Blob 44k">dts_gpeq_mode1_44k.bin</control>
+		<control name="MFX:Eagle-GPEQ Blob 48k">dts_gpeq_mode1_48k_1D721814.bin</control>
+		<control name="MFX:Eagle-GPEQ Blob 44k">dts_gpeq_mode1_44k_1D721814.bin</control>
 		<chain_v2 position="SFX" input="Any" output="Any">
 			<process tech_id="DTS Eagle" instance_id="SFX"/>
 		</chain_v2>
@@ -244,7 +244,7 @@
 	<operating_mode>
 		<control name="APO4-Operating Mode">APO4-Movie</control>
 		<control name="APO4-Speaker Type">APO4-Internal Stereo</control>
-		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-DSEC File">dts-postprocessing_1D721814.lic</control>
 		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
 		<!-- Start Eagle controls -->
 		<control name="Eagle-Output Device">0</control>
@@ -265,7 +265,7 @@
 		<control name="Eagle-Stereo Mode" public="true">Eagle-Wide</control>
 		<control name="MFX:Eagle-I3DA Enable" public="true">0</control>
 		<control name="MFX:Eagle-I3DA Device Enable" public="true">1</control>
-		<control name="MFX:Eagle-CTC Blob">dts_ctc_blob.bin</control>
+		<control name="MFX:Eagle-CTC Blob">dts_ctc_blob_1D721814.bin</control>
 		<!-- Start VAEQ contols -->
 		<control name="MFX:Eagle-VAEQ MODE" public="true">Eagle-EQ Bypass</control>
 		<control name="MFX:Eagle-VAEQ MV DOWNSTREAM FLAG" public="true">1</control>
@@ -371,8 +371,8 @@
 		<control name="MFX:Eagle-AEQ Input Gain" public="true">0</control>
 		<control name="MFX:Eagle-AEQ Output Gain" public="true">0</control>
 		<control name="MFX:Eagle-AEQ Bypass Gain" public="true">0</control>
-		<control name="MFX:Eagle-GPEQ Blob 48k">dts_gpeq_mode2_48k.bin</control>
-		<control name="MFX:Eagle-GPEQ Blob 44k">dts_gpeq_mode2_44k.bin</control>
+		<control name="MFX:Eagle-GPEQ Blob 48k">dts_gpeq_mode2_48k_1D721814.bin</control>
+		<control name="MFX:Eagle-GPEQ Blob 44k">dts_gpeq_mode2_44k_1D721814.bin</control>
 		<chain_v2 position="SFX" input="Any" output="Any">
 			<process tech_id="DTS Eagle" instance_id="SFX"/>
 		</chain_v2>
@@ -389,7 +389,7 @@
 	<operating_mode>
 		<control name="APO4-Operating Mode">APO4-Game1</control>
 		<control name="APO4-Speaker Type">APO4-Internal Stereo</control>
-		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-DSEC File">dts-postprocessing_1D721814.lic</control>
 		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
 		<!-- Start Eagle controls -->
 		<control name="Eagle-Output Device">0</control>
@@ -410,7 +410,7 @@
 		<control name="Eagle-Stereo Mode" public="true">Eagle-Front</control>
 		<control name="MFX:Eagle-I3DA Enable" public="true">0</control>
 		<control name="MFX:Eagle-I3DA Device Enable" public="true">1</control>
-		<control name="MFX:Eagle-CTC Blob">dts_ctc_blob.bin</control>
+		<control name="MFX:Eagle-CTC Blob">dts_ctc_blob_1D721814.bin</control>
 		<!-- Start VAEQ contols -->
 		<control name="MFX:Eagle-VAEQ MODE" public="true">Eagle-EQ Bypass</control>
 		<control name="MFX:Eagle-VAEQ MV DOWNSTREAM FLAG" public="true">1</control>
@@ -516,8 +516,8 @@
 		<control name="MFX:Eagle-AEQ Input Gain" public="true">0</control>
 		<control name="MFX:Eagle-AEQ Output Gain" public="true">0</control>
 		<control name="MFX:Eagle-AEQ Bypass Gain" public="true">0</control>
-		<control name="MFX:Eagle-GPEQ Blob 48k">dts_gpeq_mode4_48k.bin</control>
-		<control name="MFX:Eagle-GPEQ Blob 44k">dts_gpeq_mode4_44k.bin</control>
+		<control name="MFX:Eagle-GPEQ Blob 48k">dts_gpeq_mode4_48k_1D721814.bin</control>
+		<control name="MFX:Eagle-GPEQ Blob 44k">dts_gpeq_mode4_44k_1D721814.bin</control>
 		<chain_v2 position="SFX" input="Any" output="Any">
 			<process tech_id="DTS Eagle" instance_id="SFX"/>
 		</chain_v2>
@@ -534,7 +534,7 @@
 	<operating_mode>
 		<control name="APO4-Operating Mode">APO4-Custom Audio</control>
 		<control name="APO4-Speaker Type">APO4-Internal Stereo</control>
-		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-DSEC File">dts-postprocessing_1D721814.lic</control>
 		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
 		<!-- Start Eagle controls -->
 		<control name="Eagle-Output Device">0</control>
@@ -555,7 +555,7 @@
 		<control name="Eagle-Stereo Mode" public="true">Eagle-Off</control>
 		<control name="MFX:Eagle-I3DA Enable" public="true">0</control>
 		<control name="MFX:Eagle-I3DA Device Enable" public="true">1</control>
-		<control name="MFX:Eagle-CTC Blob">dts_ctc_blob.bin</control>
+		<control name="MFX:Eagle-CTC Blob">dts_ctc_blob_1D721814.bin</control>
 		<!-- Start VAEQ contols -->
 		<control name="MFX:Eagle-VAEQ MODE" public="true">Eagle-EQ Bypass</control>
 		<control name="MFX:Eagle-VAEQ MV DOWNSTREAM FLAG" public="true">1</control>
@@ -660,8 +660,8 @@
 		<control name="MFX:Eagle-AEQ Input Gain" public="true">0</control>
 		<control name="MFX:Eagle-AEQ Output Gain" public="true">0</control>
 		<control name="MFX:Eagle-AEQ Bypass Gain" public="true">0</control>
-		<control name="MFX:Eagle-GPEQ Blob 48k">dts_gpeq_mode7_48k.bin</control>
-		<control name="MFX:Eagle-GPEQ Blob 44k">dts_gpeq_mode7_44k.bin</control>
+		<control name="MFX:Eagle-GPEQ Blob 48k">dts_gpeq_mode7_48k_1D721814.bin</control>
+		<control name="MFX:Eagle-GPEQ Blob 44k">dts_gpeq_mode7_44k_1D721814.bin</control>
 		<chain_v2 position="SFX" input="Any" output="Any">
 			<process tech_id="DTS Eagle" instance_id="SFX"/>
 		</chain_v2>
@@ -679,7 +679,7 @@
 		<control name="APO4-Operating Mode">APO4-Off</control>
 		<control name="APO4-Speaker Type">APO4-Headphone</control>
 		<control name="APO4-OperatingMode-LastSetMode" public="true">APO4-Music</control>
-		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-DSEC File">dts-postprocessing_1D721814.lic</control>
 		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
 		<!-- Start Eagle EFX controls -->
 		<control name="Eagle-Output Device">1</control>
@@ -700,7 +700,7 @@
 	<operating_mode>
 		<control name="APO4-Operating Mode">APO4-Music</control>
 		<control name="APO4-Speaker Type">APO4-Headphone</control>
-		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-DSEC File">dts-postprocessing_1D721814.lic</control>
 		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
 		<!-- Start Eagle controls -->
 		<control name="Eagle-Output Device">1</control>
@@ -718,8 +718,8 @@
 		<control name="Eagle-Stereo Mode" public="true">Eagle-Off</control>
 		<control name="SFX:Eagle-I3DA Output Gain" public="true">0</control>
 		<control name="MFX:Eagle-Headphone Name" public="true">uuid</control>
-		<control name="MFX:Eagle-HPEQ Blob 48k" public="true">dts_hpeq_48k.bin</control>
-		<control name="MFX:Eagle-HPEQ Blob 44k" public="true">dts_hpeq_44k.bin</control>
+		<control name="MFX:Eagle-HPEQ Blob 48k" public="true">dts_hpeq_48k_1D721814.bin</control>
+		<control name="MFX:Eagle-HPEQ Blob 44k" public="true">dts_hpeq_44k_1D721814.bin</control>
 		<!-- Start VAEQ contols -->
 		<control name="MFX:Eagle-VAEQ MODE" public="true">Eagle-EQ Bypass</control>
 		<control name="MFX:Eagle-VAEQ MV DOWNSTREAM FLAG" public="true">1</control>
@@ -810,7 +810,7 @@
 	<operating_mode>
 		<control name="APO4-Operating Mode">APO4-Movie</control>
 		<control name="APO4-Speaker Type">APO4-Headphone</control>
-		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-DSEC File">dts-postprocessing_1D721814.lic</control>
 		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
 		<!-- Start Eagle controls -->
 		<control name="Eagle-Output Device">1</control>
@@ -828,8 +828,8 @@
 		<control name="Eagle-Stereo Mode" public="true">Eagle-Wide</control>
 		<control name="SFX:Eagle-I3DA Output Gain" public="true">0</control>
 		<control name="MFX:Eagle-Headphone Name" public="true">uuid</control>
-		<control name="MFX:Eagle-HPEQ Blob 48k" public="true">dts_hpeq_48k.bin</control>
-		<control name="MFX:Eagle-HPEQ Blob 44k" public="true">dts_hpeq_44k.bin</control>
+		<control name="MFX:Eagle-HPEQ Blob 48k" public="true">dts_hpeq_48k_1D721814.bin</control>
+		<control name="MFX:Eagle-HPEQ Blob 44k" public="true">dts_hpeq_44k_1D721814.bin</control>
 		<!-- Start VAEQ contols -->
 		<control name="MFX:Eagle-VAEQ MODE" public="true">Eagle-EQ Bypass</control>
 		<control name="MFX:Eagle-VAEQ MV DOWNSTREAM FLAG" public="true">1</control>
@@ -917,7 +917,7 @@
 	<operating_mode>
 		<control name="APO4-Operating Mode">APO4-Game1</control>
 		<control name="APO4-Speaker Type">APO4-Headphone</control>
-		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-DSEC File">dts-postprocessing_1D721814.lic</control>
 		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
 		<!-- Start Eagle controls -->
 		<control name="Eagle-Output Device">1</control>
@@ -935,8 +935,8 @@
 		<control name="Eagle-Stereo Mode" public="true">Eagle-Front</control>
 		<control name="SFX:Eagle-I3DA Output Gain" public="true">0</control>
 		<control name="MFX:Eagle-Headphone Name" public="true">uuid</control>
-		<control name="MFX:Eagle-HPEQ Blob 48k" public="true">dts_hpeq_48k.bin</control>
-		<control name="MFX:Eagle-HPEQ Blob 44k" public="true">dts_hpeq_44k.bin</control>
+		<control name="MFX:Eagle-HPEQ Blob 48k" public="true">dts_hpeq_48k_1D721814.bin</control>
+		<control name="MFX:Eagle-HPEQ Blob 44k" public="true">dts_hpeq_44k_1D721814.bin</control>
 		<!-- Start VAEQ contols -->
 		<control name="MFX:Eagle-VAEQ MODE" public="true">Eagle-EQ Bypass</control>
 		<control name="MFX:Eagle-VAEQ MV DOWNSTREAM FLAG" public="true">1</control>
@@ -1024,7 +1024,7 @@
 	<operating_mode>
 		<control name="APO4-Operating Mode">APO4-Custom Audio</control>
 		<control name="APO4-Speaker Type">APO4-Headphone</control>
-		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-DSEC File">dts-postprocessing_1D721814.lic</control>
 		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
 		<!-- Start Eagle controls -->
 		<control name="Eagle-Output Device">1</control>
@@ -1042,8 +1042,8 @@
 		<control name="Eagle-Stereo Mode" public="true">Eagle-Off</control>
 		<control name="SFX:Eagle-I3DA Output Gain" public="true">0</control>
 		<control name="MFX:Eagle-Headphone Name" public="true">uuid</control>
-		<control name="MFX:Eagle-HPEQ Blob 48k" public="true">dts_hpeq_48k.bin</control>
-		<control name="MFX:Eagle-HPEQ Blob 44k" public="true">dts_hpeq_44k.bin</control>
+		<control name="MFX:Eagle-HPEQ Blob 48k" public="true">dts_hpeq_48k_1D721814.bin</control>
+		<control name="MFX:Eagle-HPEQ Blob 44k" public="true">dts_hpeq_44k_1D721814.bin</control>
 		<!-- Start VAEQ contols -->
 		<control name="MFX:Eagle-VAEQ MODE" public="true">Eagle-EQ Bypass</control>
 		<control name="MFX:Eagle-VAEQ MV DOWNSTREAM FLAG" public="true">1</control>
@@ -1134,7 +1134,7 @@
 		<control name="APO4-Operating Mode">APO4-Off</control>
 		<control name="APO4-Speaker Type">APO4-External Stereo</control>
 		<control name="APO4-OperatingMode-LastSetMode" public="true">APO4-Music</control>
-		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-DSEC File">dts-postprocessing_1D721814.lic</control>
 		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
 		<!-- Start Eagle EFX controls -->
 		<control name="Eagle-Output Device">0</control>
@@ -1181,22 +1181,19 @@
 		<control name="EFX:Eagle-AEQ Input Gain" public="true">0</control>
 		<control name="EFX:Eagle-AEQ Output Gain" public="true">0</control>
 		<control name="EFX:Eagle-AEQ Bypass Gain" public="true">0</control>
-		<control name="EFX:Eagle-GPEQ Blob 48k">dts_gpeq_ext_spk_off_48k.bin</control>
-		<control name="EFX:Eagle-GPEQ Blob 44k">dts_gpeq_ext_spk_off_44k.bin</control>
+		<control name="EFX:Eagle-GPEQ Blob 48k">dts_gpeq_ext_spk_off_48k_1D721814.bin</control>
+		<control name="EFX:Eagle-GPEQ Blob 44k">dts_gpeq_ext_spk_off_44k_1D721814.bin</control>
 		<chain_v2 position="SFX" input="Any" output="Any">
 			<process tech_id="DTS Eagle" instance_id="SFX"/>
 		</chain_v2>
 		<chain_v2 position="OSFX" input="Any" output="Any">
 			<process tech_id="DTS Eagle" instance_id="OSFX"/>
 		</chain_v2>
-		<chain_v2 position="EFX" input="Stereo" output="Stereo">
-			<process tech_id="DTS Eagle" instance_id="EFX"/>
-		</chain_v2>
 	</operating_mode>
 	<operating_mode>
 		<control name="APO4-Operating Mode">APO4-Music</control>
 		<control name="APO4-Speaker Type">APO4-External Stereo</control>
-		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-DSEC File">dts-postprocessing_1D721814.lic</control>
 		<control name="Eagle-Product Name" public="true">Eagle-DTS:X Ultra</control>
 		<!-- Start Eagle controls -->
 		<control name="Eagle-Output Device">0</control>
@@ -1217,7 +1214,7 @@
 		<control name="Eagle-Stereo Mode" public="true">Eagle-Off</control>
 		<control name="MFX:Eagle-I3DA Enable" public="true">0</control>
 		<control name="MFX:Eagle-I3DA Device Enable" public="true">0</control>
-		<control name="MFX:Eagle-CTC Blob">dts_ctc_ext_spk_blob.bin</control>
+		<control name="MFX:Eagle-CTC Blob">dts_ctc_ext_spk_blob_1D721814.bin</control>
 		<!-- Start VAEQ contols -->
 		<control name="MFX:Eagle-VAEQ MODE" public="true">Eagle-VolumeAwareEQ</control>
 		<control name="MFX:Eagle-VAEQ MV DOWNSTREAM FLAG" public="true">1</control>
@@ -1323,8 +1320,8 @@
 		<control name="EFX:Eagle-AEQ Input Gain" public="true">0</control>
 		<control name="EFX:Eagle-AEQ Output Gain" public="true">0</control>
 		<control name="EFX:Eagle-AEQ Bypass Gain" public="true">0</control>
-		<control name="EFX:Eagle-GPEQ Blob 48k">dts_gpeq_ext_spk_mode1_48k.bin</control>
-		<control name="EFX:Eagle-GPEQ Blob 44k">dts_gpeq_ext_spk_mode1_44k.bin</control>
+		<control name="EFX:Eagle-GPEQ Blob 48k">dts_gpeq_ext_spk_mode1_48k_1D721814.bin</control>
+		<control name="EFX:Eagle-GPEQ Blob 44k">dts_gpeq_ext_spk_mode1_44k_1D721814.bin</control>
 		<chain_v2 position="SFX" input="Any" output="Any">
 			<process tech_id="DTS Eagle" instance_id="SFX"/>
 		</chain_v2>
@@ -1337,14 +1334,11 @@
 		<chain_v2 position="OMFX" input="Stereo" output="Stereo">
 			<process tech_id="DTS Eagle" instance_id="OMFX"/>
 		</chain_v2>
-		<chain_v2 position="EFX" input="Stereo" output="Stereo">
-			<process tech_id="DTS Eagle" instance_id="EFX"/>
-		</chain_v2>
 	</operating_mode>
 	<operating_mode>
 		<control name="APO4-Operating Mode">APO4-Movie</control>
 		<control name="APO4-Speaker Type">APO4-External Stereo</control>
-		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-DSEC File">dts-postprocessing_1D721814.lic</control>
 		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
 		<!-- Start Eagle controls -->
 		<control name="Eagle-Output Device">0</control>
@@ -1365,7 +1359,7 @@
 		<control name="Eagle-Stereo Mode" public="true">Eagle-Wide</control>
 		<control name="MFX:Eagle-I3DA Enable" public="true">0</control>
 		<control name="MFX:Eagle-I3DA Device Enable" public="true">1</control>
-		<control name="MFX:Eagle-CTC Blob">dts_ctc_ext_spk_blob.bin</control>
+		<control name="MFX:Eagle-CTC Blob">dts_ctc_ext_spk_blob_1D721814.bin</control>
 		<!-- Start VAEQ contols -->
 		<control name="MFX:Eagle-VAEQ MODE" public="true">Eagle-VolumeAwareEQ</control>
 		<control name="MFX:Eagle-VAEQ MV DOWNSTREAM FLAG" public="true">1</control>
@@ -1471,8 +1465,8 @@
 		<control name="EFX:Eagle-AEQ Input Gain" public="true">0</control>
 		<control name="EFX:Eagle-AEQ Output Gain" public="true">0</control>
 		<control name="EFX:Eagle-AEQ Bypass Gain" public="true">0</control>
-		<control name="EFX:Eagle-GPEQ Blob 48k">dts_gpeq_ext_spk_mode2_48k.bin</control>
-		<control name="EFX:Eagle-GPEQ Blob 44k">dts_gpeq_ext_spk_mode2_44k.bin</control>
+		<control name="EFX:Eagle-GPEQ Blob 48k">dts_gpeq_ext_spk_mode2_48k_1D721814.bin</control>
+		<control name="EFX:Eagle-GPEQ Blob 44k">dts_gpeq_ext_spk_mode2_44k_1D721814.bin</control>
 		<chain_v2 position="SFX" input="Any" output="Any">
 			<process tech_id="DTS Eagle" instance_id="SFX"/>
 		</chain_v2>
@@ -1485,14 +1479,11 @@
 		<chain_v2 position="OMFX" input="Stereo" output="Stereo">
 			<process tech_id="DTS Eagle" instance_id="OMFX"/>
 		</chain_v2>
-		<chain_v2 position="EFX" input="Stereo" output="Stereo">
-			<process tech_id="DTS Eagle" instance_id="EFX"/>
-		</chain_v2>
 	</operating_mode>
 	<operating_mode>
 		<control name="APO4-Operating Mode">APO4-Game1</control>
 		<control name="APO4-Speaker Type">APO4-External Stereo</control>
-		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-DSEC File">dts-postprocessing_1D721814.lic</control>
 		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
 		<!-- Start Eagle controls -->
 		<control name="Eagle-Output Device">0</control>
@@ -1513,7 +1504,7 @@
 		<control name="Eagle-Stereo Mode" public="true">Eagle-Front</control>
 		<control name="MFX:Eagle-I3DA Enable" public="true">0</control>
 		<control name="MFX:Eagle-I3DA Device Enable" public="true">1</control>
-		<control name="MFX:Eagle-CTC Blob">dts_ctc_ext_spk_blob.bin</control>
+		<control name="MFX:Eagle-CTC Blob">dts_ctc_ext_spk_blob_1D721814.bin</control>
 		<!-- Start VAEQ contols -->
 		<control name="MFX:Eagle-VAEQ MODE" public="true">Eagle-VolumeAwareEQ</control>
 		<control name="MFX:Eagle-VAEQ MV DOWNSTREAM FLAG" public="true">1</control>
@@ -1619,8 +1610,8 @@
 		<control name="EFX:Eagle-AEQ Input Gain" public="true">0</control>
 		<control name="EFX:Eagle-AEQ Output Gain" public="true">0</control>
 		<control name="EFX:Eagle-AEQ Bypass Gain" public="true">0</control>
-		<control name="EFX:Eagle-GPEQ Blob 48k">dts_gpeq_ext_spk_mode4_48k.bin</control>
-		<control name="EFX:Eagle-GPEQ Blob 44k">dts_gpeq_ext_spk_mode4_44k.bin</control>
+		<control name="EFX:Eagle-GPEQ Blob 48k">dts_gpeq_ext_spk_mode4_48k_1D721814.bin</control>
+		<control name="EFX:Eagle-GPEQ Blob 44k">dts_gpeq_ext_spk_mode4_44k_1D721814.bin</control>
 		<chain_v2 position="SFX" input="Any" output="Any">
 			<process tech_id="DTS Eagle" instance_id="SFX"/>
 		</chain_v2>
@@ -1633,14 +1624,11 @@
 		<chain_v2 position="OMFX" input="Stereo" output="Stereo">
 			<process tech_id="DTS Eagle" instance_id="OMFX"/>
 		</chain_v2>
-		<chain_v2 position="EFX" input="Stereo" output="Stereo">
-			<process tech_id="DTS Eagle" instance_id="EFX"/>
-		</chain_v2>
 	</operating_mode>
 	<operating_mode>
 		<control name="APO4-Operating Mode">APO4-Custom Audio</control>
 		<control name="APO4-Speaker Type">APO4-External Stereo</control>
-		<control name="Eagle-DSEC File">dts-postprocessing.lic</control>
+		<control name="Eagle-DSEC File">dts-postprocessing_1D721814.lic</control>
 		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
 		<!-- Start Eagle controls -->
 		<control name="Eagle-Output Device">0</control>
@@ -1661,7 +1649,7 @@
 		<control name="Eagle-Stereo Mode" public="true">Eagle-Off</control>
 		<control name="MFX:Eagle-I3DA Enable" public="true">0</control>
 		<control name="MFX:Eagle-I3DA Device Enable" public="true">0</control>
-		<control name="MFX:Eagle-CTC Blob">dts_ctc_ext_spk_blob.bin</control>
+		<control name="MFX:Eagle-CTC Blob">dts_ctc_ext_spk_blob_1D721814.bin</control>
 		<!-- Start VAEQ contols -->
 		<control name="MFX:Eagle-VAEQ MODE" public="true">Eagle-VolumeAwareEQ</control>
 		<control name="MFX:Eagle-VAEQ MV DOWNSTREAM FLAG" public="true">1</control>
@@ -1766,8 +1754,8 @@
 		<control name="EFX:Eagle-AEQ Input Gain" public="true">0</control>
 		<control name="EFX:Eagle-AEQ Output Gain" public="true">0</control>
 		<control name="EFX:Eagle-AEQ Bypass Gain" public="true">0</control>
-		<control name="EFX:Eagle-GPEQ Blob 48k">dts_gpeq_ext_spk_mode7_48k.bin</control>
-		<control name="EFX:Eagle-GPEQ Blob 44k">dts_gpeq_ext_spk_mode7_44k.bin</control>
+		<control name="EFX:Eagle-GPEQ Blob 48k">dts_gpeq_ext_spk_mode7_48k_1D721814.bin</control>
+		<control name="EFX:Eagle-GPEQ Blob 44k">dts_gpeq_ext_spk_mode7_44k_1D721814.bin</control>
 		<chain_v2 position="SFX" input="Any" output="Any">
 			<process tech_id="DTS Eagle" instance_id="SFX"/>
 		</chain_v2>
@@ -1779,9 +1767,6 @@
 		</chain_v2>
 		<chain_v2 position="OMFX" input="Stereo" output="Stereo">
 			<process tech_id="DTS Eagle" instance_id="OMFX"/>
-		</chain_v2>
-		<chain_v2 position="EFX" input="Stereo" output="Stereo">
-			<process tech_id="DTS Eagle" instance_id="EFX"/>
 		</chain_v2>
 	</operating_mode>
 </srs_configuration>
