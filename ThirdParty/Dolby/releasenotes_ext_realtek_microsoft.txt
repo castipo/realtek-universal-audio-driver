@@ -1,3 +1,8 @@
+Oct_01_2019:
+-----------------------------------
+1. Add ext_microsoft_viola d_19h1_v228.1
+2. Add ext_microsoft_viola f_19h1_v228.1
+
 Aug_23_2019:
 -----------------------------------
 1. Add ext_microsoft_viola g_19h1_v4.823.116.21
