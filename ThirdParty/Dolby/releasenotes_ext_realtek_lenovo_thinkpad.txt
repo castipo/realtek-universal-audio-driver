@@ -1,3 +1,10 @@
+Oct_04_2019:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs5_19h1_v4.1003.752.43
+	Updated models:
+		ThinkPad 11e (Confucius)
+		ThinkPad X1 Extreme Gen 3 (Padme-3)
+
 Sep_12_2019:
 -----------------------------------
 1. Add ext_lenovo_thinkpad_kei_rs4_rs5_19h1_v216 (add 19H1 logo) 

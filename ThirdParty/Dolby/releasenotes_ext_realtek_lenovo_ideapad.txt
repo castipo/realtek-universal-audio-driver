@@ -1,3 +1,9 @@
+Oct_04_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.1003.723.25
+	Updated models:
+		ThinkBook 14-IML (V340-14IML)
+
 Oct_01_2019:
 -----------------------------------
 1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.926.708.48
