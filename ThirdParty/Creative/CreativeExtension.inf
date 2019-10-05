@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %Creative%
 ExtensionId = {1BBB99B1-03DF-4468-81DC-11A3F1BF6E7E}
-DriverVer = 05/06/2019,2.0.0.36
+DriverVer = 06/18/2019,2.0.0.38
 CatalogFile = CreativeExtension.cat
 
 [SourceDisksNames]
@@ -64,6 +64,9 @@ MBFILT.x64.CopyList=12
 %ExtensionDesc% = Extension_Install.NTx86,HDAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_10251231
 %ExtensionDesc% = Extension_Install.NTx86,HDAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_1025123F
 ;;SBC5
+%ExtensionDesc% = Extension_Install.NTx86,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D051078
+%ExtensionDesc% = Extension_Install.NTx86,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D05107A
+%ExtensionDesc% = Extension_Install.NTx86,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D05107B
 %ExtensionDesc% = Extension_Install.NTx86,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D051077
 %ExtensionDesc% = Extension_Install.NTx86,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_15588552
 %ExtensionDesc% = Extension_Install.NTx86,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_15588553
@@ -215,6 +218,9 @@ MBFILT.x64.CopyList=12
 %ExtensionDesc% = Extension_Install.NTamd64,HDAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_10251231
 %ExtensionDesc% = Extension_Install.NTamd64,HDAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_1025123F
 ;;SBC5
+%ExtensionDesc% = Extension_Install.NTamd64,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D051078
+%ExtensionDesc% = Extension_Install.NTamd64,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D05107A
+%ExtensionDesc% = Extension_Install.NTamd64,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D05107B
 %ExtensionDesc% = Extension_Install.NTamd64,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1D051077
 %ExtensionDesc% = Extension_Install.NTamd64,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_15588552
 %ExtensionDesc% = Extension_Install.NTamd64,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_15588553
