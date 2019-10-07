@@ -1,4 +1,227 @@
 Release Note:
+Release Date: 20191007
+!!!! Attention !!!!
+The latest WHQL driver has a little different with old version:
+    The zip files are separated by different customers. (ex: Lenovo, HP, ThinkPad, etc)
+    And if there has special case, it will be zipped by case. (ex: ThinkPad Rainier)
+    Each zip file contains ExtOem, SSTExt (only for PCH case) and APO for each customer.
++------------------------------------------------ ExtOem ------------------------------------------------+
+ExtOem Verision with update :
+                  HP       : 1.0.3.105 RS4RS519H1 support
+                  Lenovo   : 1.0.3.105 RS4RS519H1 support
+                  Huawei   : 1.0.3.105 RS4RS519H1 support
+                  ThinkPad : 1.0.3.105 RS4RS519H1 support
+
+ExtOem Verision without update :                 
+                  Intel    : 1.0.3.101 RS4RS519H1 support
+                  Dell     : 1.0.3.101 RS4RS519H1 support
+                  HPAIO    : 1.0.3.102 RS4RS519H1 support
+                  Weibu    : 1.0.3.104 RS4RS519H1 support
+
+                  ThinkPad Rainier : 1.0.3.101 RS4RS519H1 support
+                  ThinkPad RCT/KNO : 1.0.3.101 RS4RS519H1 support
+
+
+
++-------------------------------------------------- APO -------------------------------------------------+           
+APO Version : 
+                  Lenovo    : 12.1.6003.5780 RS4RS519H1 support
+                  ThinkPad  : 12.1.6003.5780 RS4RS519H1 support
+                  HP        : 12.1.6003.5780 RS4RS519H1 support
+                  Huawei    : 12.1.6003.5780 RS4RS519H1 support
+                  HPAIO     : 12.1.6003.5774 RS4RS519H1 support
+                  Intel     : 12.1.6003.5774 RS4RS519H1 support
+                  Weibu     : 12.1.6003.5765 RS4RS519H1 support
+                  Dell      : 12.1.6003.5765 RS4RS519H1 support
+
+                  ThinkPad Rainier : 12.0.6002.5780 RS4RS519H1 support
+                  ThinkPad RCT/KNO : 12.0.6002.5780 RS4RS519H1 support
+
+  # ThinkPad_KNO_RCT_WHQL : 
+      special for ThinkPad KNO RCT projects.
+
+  # ThinkPad_Rainier_WHQL :
+      special for ThinkPad Rainier project
+      Support USB version.
+
+
+
+APO Description :
+  12.1.6003.5780 RS4RS519H1 support
+    - FMAPO64.dll 89.68.06.41
+        1. Performance improvement on v890
+        2. Solve DOA converge issue on v860
+        3. Fool-proof improvement for quick converge (Fix the issue of Cortana HWKWS and VR test at the same time)
+    - FMService 0.1.0.26
+        1 For USB HS, update DAT in IsSupport calling.
+        2 Ext Mic NS is force to “On” in restore action.
+        3 Only Int Spk NS reset in restore action.
+    - FM_Speech_PP64 80.16.100.137
+        1. Support suffix in DAT name(Need set the DAT on system32/drivers)
+        2. Check SVID to support PCH project different SSID.
+    - FMPCHAPO64 89.68.06.41
+        1. Performance improvement on v890
+        2. Solve DOA converge issue on v860
+        3. Fool-proof improvement for quick converge (Fix the issue of Cortana HWKWS and VR test at the same time)
+
++------------------------------------------------ SSTOem ------------------------------------------------+
+SSTOEM Version with update :
+                 HP       : 09.21.3229.48 RS4RS519H1 support
+                 ThinkPad : 09.21.3229.48 RS4RS519H1 support
+
+SSTOEM Version without update :
+                 Huawei   : 09.21.3229.37 RS4RS519H1 support
+                 Lenovo   : 09.21.3229.47 RS4RS519H1 support
+
+
+
++---------------------------------------------- Main Target ---------------------------------------------+
+HP
+    //Add sst ID 06C8
+                SAMSfpa.DAT(877C) ID 103C8736_Compal_HP_1000_Mulberry  13.3" / 14"_103C873610EC0285_3chMic_Wasapi_SAMSfpa_SAMSfppch_RTMICAR_SAMSfaspk_registrykey95%_DmicTo Intel audio
+                SAMSppch.DAT (877C) INTELAUDIO\CTLR_DEV_06C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_8736103C&REV_0001
+
+    //modify  SST ID form 02C8 to 06C8
+    SAMSfpa.DAT(877E) ID 103C8783_Compal_HP_MWS_Valerian  15"_103C878310EC0285_3chMic_Wasapi_SAMSfpa_SAMSfppch_RTMICAR_SAMSfaspk_registrykey95%_DmicTo Intel audio
+    SAMSppch.DAT (877E) INTELAUDIO\CTLR_DEV_06C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_8783103C&REV_0001
+
+    //modify  SST ID form 02C8 to 06C8
+    SAMSfpa.DAT(877D) ID 103C8780_Compal_HP_MWS_Alder  17"_103C878010EC0285_3chMic_Wasapi_SAMSfpa_SAMSfppch_RTMICAR_SAMSfaspk_registrykey95%_DmicTo Intel audio
+    SAMSppch.DAT (877D) INTELAUDIO\CTLR_DEV_06C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_8780103C&REV_0001
+    =================
+                SAMSfpa.DAT(877B) ID 103C876D_Compal_HP_1000_Hickory  14"_103C876D10EC0285_4chMic_Wasapi_SAMSfpa_SAMSfppch_RTMICAR_SAMSfaspk_registrykey95%_DmicTo Intel audio
+    //Update_SAMSppch.DAT (87AF) INTELAUDIO\CTLR_DEV_02C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_876D103C&REV_0001
+
+    //Add_new model_ SAMSfpa.DAT(87AE) ID 103C87B4_Compal_HP_1000_Hickory 13.3"_103C87B410EC0285_4chMic_Wasapi_SAMSfpa_SAMSfppch_RTMICAR_SAMSfaspk_registrykey95%_DmicTo Intel audio
+    //Add_new model_ SAMSppch.DAT (87AE) INTELAUDIO\CTLR_DEV_02C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_876D103C&REV_0001
+
+    //Add_new modelSAMSfpa.DAT(87AD)ID 103C872A_IEC_HP_800_Camellia_14W_103C872A10EC0285_3chKmic_Wasapi_SAMSfpa_SAMSfppch_SAMSfaspk_registrykey95%_RTMICAR_DmicTo Intel audio
+    //Add_new modelSAMSppch.DAT (87AD)INTELAUDIO\CTLR_DEV_02C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_8724103C&REV_0001
+
+    //Modify SAMSfpa ID  form 103C872A TO 103C8724
+    //Update_SAMSfpa.DAT(87AC)ID 103C8724_IEC_HP_800_Camellia_15/15W_103C872410EC0285_3chKmic_Wasapi_SAMSfpa_SAMSfppch_SAMSfaspk_registrykey95%_RTMICAR_DmicTo Intel audio
+    //Update_SAMSppch.DAT (87AC)INTELAUDIO\CTLR_DEV_02C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_8724103C&REV_0001
+        
+                SAMSfpa.DAT(8769)ID 103C873D_IEC_HP_600_Sweetgum_13_103C873D10EC0236_2ch40mmKmic_Wasapi_SAMSfpa_SAMSfppch_SAMSfaspk_registrykey95%_RTMICAR_DmicTo Intel audio
+    //Update_SAMSppch.DAT (87AB)INTELAUDIO\CTLR_DEV_02C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_873B103C&REV_0001
+
+    //Update_SAMSfpa.DAT (87AA) 103C8732_Quanta_HP_400_Pecan_15"_103C873210EC0236_2ch40mmKmic_Wasapi_SAMSfpa_SAMSfaspk_registrykey95%_RTMICAR_DmicToHDA_HD audio
+    //Update_SAMSfpa.DAT (87A9) 103C8730_Quanta_HP_400_Pecan_14"_103C873010EC0236_2ch40mmKmic_Wasapi_SAMSfpa_SAMSfaspk_registrykey95%_RTMICAR_DmicToHDA_HD audio
+    //Update_SAMSfpa.DAT (87A8) 103C8735_IEC_HP_400_Primrose_13"_103C873510EC0236_2ch40mmKmic_Wasapi_SAMSfpa_SAMSfaspk_registrykey95%_RTMICAR_DmicToHDA_HD audio
+
+                SAMSfpa.DAT(870D)ID 103C869B_Quanta_HP_400_RIMU_13_103C869B10EC0236_2ch40mmKmic_Wasapi_SAMSfpa_SAMSfppch_SAMSfaspk_registrykey95%_RTMICAR_DmicTo Intel audio
+    //Update_SAMSppch.DAT (87A7)INTELAUDIO\CTLR_DEV_02C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_869B103C&REV_0001
+    
+                SAMSfpa.DAT(870F)ID 103C869D_Quanta_HP_400_REDBAY_14_103C869D10EC0236_2ch40mmKmic_Wasapi_SAMSfpa_SAMSfppch_SAMSfaspk_registrykey95%_RTMICAR_DmicTo Intel audio
+    //Update_SAMSppch.DAT (87A6)INTELAUDIO\CTLR_DEV_02C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_869D103C&REV_0001
+
+                SAMSfpa.DAT(8712)ID 103C86A0_Quanta_HP_400_REDPINE_15_103C86A010EC0236_2ch40mmKmic_Wasapi_SAMSfpa_SAMSfppch_SAMSfaspk_registrykey95%_RTMICAR_DmicTo Intel audio
+    //Update_SAMSppch.DAT (87A5)INTELAUDIO\CTLR_DEV_02C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_86A0103C&REV_0001
+
+                SAMSfpa.DAT(8714)ID 103C86A3_Quanta_HP_400_SOURWOOD_13_103C86A310EC0236_2ch40mmKmic_Wasapi_SAMSfpa_SAMSfppch_SAMSfaspk_registrykey95%_RTMICAR_DmicTo Intel audio
+    //Update_SAMSppch.DAT (87A4)INTELAUDIO\CTLR_DEV_02C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_86A3103C&REV_0001
+
+                SAMSfpa.DAT(8716)ID 103C86A5_Quanta_HP_400_SOURWOOD_14_103C86A510EC0236_2ch40mmKmic_Wasapi_SAMSfpa_SAMSfppch_SAMSfaspk_registrykey95%_RTMICAR_DmicTo Intel audio
+    //Update_SAMSppch.DAT (87A3)INTELAUDIO\CTLR_DEV_02C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_86A5103C&REV_0001
+
+                SAMSfpa.DAT(8718)ID 103C86A8_Quanta_HP_400_SOURWOOD_15_103C86A810EC0236_2ch40mmKmic_Wasapi_SAMSfpa_SAMSfppch_SAMSfaspk_registrykey95%_RTMICAR_DmicTo Intel audio
+    //Update_SAMSppch.DAT (87A2)INTELAUDIO\CTLR_DEV_02C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_86A8103C&REV_0001
+
+Lenovo
+    //Modify 17AA381310EC0287 Compal_Y750-15IMH_HDAID17AA381310EC0287_SAMSfpa_HDAudio to IntelAudio
+
+ThinkPad
+    New project setting files for 17AA22C0-10EC0285-V8181_LPM3_Padme3-dGPU-non touch project.(Support Intel iSST with PCH 2 channel)
+    RTK CODEC HWID:INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA22C0
+    Intel PCH HWID:INTELAUDIO\CTLR_DEV_06C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_22C017AA
+    =============================================================================================
+    RTMICAR(17AA22C0-10EC0285_LPM3_Padme3-dGPU-non touch_84mm)_INTEL_PCH.dat
+    (Cortana volume gain=95%)
+    SAMSfpi-Lenovo-84mm-17AA22C0-10EC0285-V8181(LPM3_Padme3-dGPU-non touch)_INTEL_PCH_copy V817C.dat
+    SAMSfppch-Lenovo-84mm-17AA22C0-10EC0285-V8181(LPM3_Padme3-dGPU-non touch)_INTEL_PCH_copy V817C.dat
+    SAMSfa-Lenovo-84mm-17AA22C0-10EC0285-V8181(LPM3_Padme3-dGPU-non touch)_INTEL_PCH_copy V817C.dat
+    =============================================================================================
+
+    New project setting files for 17AA22C1-10EC0285-V8182_LPM3_Padme3-dGPU-touch project.(Support Intel iSST with PCH 2 channel)
+    RTK CODEC HWID:INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA22C1
+    Intel PCH HWID:INTELAUDIO\CTLR_DEV_06C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_22C117AA
+    =============================================================================================
+    RTMICAR(17AA22C1-10EC0285_LPM3_Padme3-dGPU-touch_84mm)_INTEL_PCH.dat
+    (Cortana volume gain=95%)
+    SAMSfpi-Lenovo-84mm-17AA22C1-10EC0285-V8182(LPM3_Padme3-dGPU-touch)_INTEL_PCH_copy V817C.dat
+    SAMSfppch-Lenovo-84mm-17AA22C1-10EC0285-V8182(LPM3_Padme3-dGPU-touch)_INTEL_PCH_copy V817C.dat
+    SAMSfa-Lenovo-84mm-17AA22C1-10EC0285-V8182(LPM3_Padme3-dGPU-touch)_INTEL_PCH_copy V817C.dat
+    =============================================================================================
+
+    New project setting files for 17AA22C2-10EC0285-V8183_LPM3_Padme3-UMA-non touch project.(Support Intel iSST with PCH 2 channel)
+    RTK CODEC HWID:INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA22C2
+    Intel PCH HWID:INTELAUDIO\CTLR_DEV_06C8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_22C217AA
+    =============================================================================================
+    RTMICAR(17AA22C2-10EC0285_LPM3_Padme3-UMA-non touch_84mm)_INTEL_PCH.dat
+    (Cortana volume gain=95%)
+    SAMSfpi-Lenovo-84mm-17AA22C2-10EC0285-V8183(LPM3_Padme3-UMA-non touch)_INTEL_PCH_copy V817C.dat
+    SAMSfppch-Lenovo-84mm-17AA22C2-10EC0285-V8183(LPM3_Padme3-UMA-non touch)_INTEL_PCH_copy V817C.dat
+    SAMSfa-Lenovo-84mm-17AA22C2-10EC0285-V8183(LPM3_Padme3-UMA-non touch)_INTEL_PCH_copy V817C.dat
+    =============================================================================================
+
+
+    New project setting files for 17AA5081-10EC0257-V8184_T14-AMD project.(Support AMD with PCH 2 channel)
+    RTK CODEC HWID:HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA5081
+    Intel PCH HWID:ACP\VEN_1022&DE_15E2&SUBSYS_17AA5081
+    =============================================================================================
+    RTMICAR(17AA5081-10EC0257_T14-AMD_54mm)_AMD_PCH.dat
+    (Cortana volume gain=95%)
+    SAMSfpi-Lenovo-54mm-17AA5081-10EC0257-V8184(T14-AMD)_AMD_PCH_copy V817C.dat
+    SAMSfppch-Lenovo-54mm-17AA5081-10EC0257-V8184(T14-AMD)_AMD_PCH_copy V817C.dat
+    SAMSfa-Lenovo-54mm-17AA5081-10EC0257-V8184(T14-AMD)_AMD_PCH_copy V817C.dat
+    =============================================================================================
+
+    New project setting files for 17AA5082-10EC0257-V8185_T13-AMD project.(Support AMD with PCH 2 channel)
+    RTK CODEC HWID:HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA5082
+    Intel PCH HWID:ACP\VEN_1022&DE_15E2&SUBSYS_17AA5082
+    =============================================================================================
+    RTMICAR(17AA5082-10EC0257_T13-AMD_54mm)_AMD_PCH.dat
+    (Cortana volume gain=95%)
+    SAMSfpi-Lenovo-54mm-17AA5082-10EC0257-V8185(T13-AMD)_AMD_PCH_copy V817C.dat
+    SAMSfppch-Lenovo-54mm-17AA5082-10EC0257-V8185(T13-AMD)_AMD_PCH_copy V817C.dat
+    SAMSfpa-Lenovo-54mm-17AA5082-10EC0257-V8185(T13-AMD)_AMD_PCH_copy V817C.dat
+    =============================================================================================
+
+    New project setting files for 17AA5083-10EC0257-V8186_T14s-AMD project.(Support AMD with PCH 2 channel)
+    RTK CODEC HWID:HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA5083
+    Intel PCH HWID:ACP\VEN_1022&DE_15E2&SUBSYS_17AA5083
+    =============================================================================================
+    RTMICAR(17AA5083-10EC0257_T14s-AMD_54mm)_AMD_PCH.dat
+    (Cortana volume gain=95%)
+    SAMSfpi-Lenovo-54mm-17AA5083-10EC0257-V8186(T14s-AMD)_AMD_PCH_copy V817C.dat
+    SAMSfppch-Lenovo-54mm-17AA5083-10EC0257-V8186(T14s-AMD)_AMD_PCH_copy V817C.dat
+    SAMSfpa-Lenovo-54mm-17AA5083-10EC0257-V8186(T14s-AMD)_AMD_PCH_copy V817C.dat
+    =============================================================================================
+
+    New project setting files for 17AA5084-10EC0257-V8187_T14s2-AMD project.(Support AMD with PCH 2 channel)
+    RTK CODEC HWID:HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA5084
+    Intel PCH HWID:ACP\VEN_1022&DE_15E2&SUBSYS_17AA5084
+    =============================================================================================
+    RTMICAR(17AA5084-10EC0257_T14s2-AMD_78mm)_AMD_PCH.dat
+    (Cortana volume gain=95%)
+    SAMSfpi-Lenovo-78mm-17AA5084-10EC0257-V8187(T14s2-AMD)_AMD_PCH_copy V817C.dat
+    SAMSfppch-Lenovo-78mm-17AA5084-10EC0257-V8187(T14s2-AMD)_AMD_PCH_copy V817C.dat
+    SAMSfpa-Lenovo-78mm-17AA5084-10EC0257-V8187(T14s2-AMD)_AMD_PCH_copy V817C.dat
+    =============================================================================================
+
+Huawei
+    //Modify 19E5323510EC0256 to 1E83323510EC0256 Huawei_WrightB_SAMSfpa_rtmicar_SAMSfpi
+    //Modify 19E5323610EC0256 to 1E83323610EC0256 Huawei_WrightB_SAMSfpa_rtmicar_SAMSfpi
+    //Modify 19E5323710EC0256 to 1E83323710EC0256 Huawei_KelvinC_4ch_SAMSfpa_rtmicar_SAMSfpi_tf
+    //Modify 19E5323810EC0256 to 1E83323810EC0256 Huawei_KelvinC_4ch_SAMSfpa_rtmicar_SAMSfpi_tf
+    //Modify 19E5322110EC0256 to 1E83322110EC0256 Huawei_MachC_4ch_SAMSfpa_rtmicar_SAMSfpi_tf
+    //Modify 19E5322210EC0256 to 1E83322210EC0256 Huawei_MachC_4ch_SAMSfpa_rtmicar_SAMSfpi_tf
+    //Modify 19E5322310EC0256 to 1E83322310EC0256 Huawei_MachC_4ch_SAMSfpa_rtmicar_SAMSfpi_tf
+    //Modify 19E5322410EC0256 to 1E83322410EC0256 Huawei_MachC_4ch_SAMSfpa_rtmicar_SAMSfpi_tf
+
+======================================================================================================================================================
+
+Release Note:
 Release Date: 20190930
 !!!! Attention !!!!
 The latest WHQL driver has a little different with old version:
