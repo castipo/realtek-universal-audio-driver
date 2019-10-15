@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<srs_configuration>
+	<properties>
+		<control name="Product Name">DTS:X Ultra</control>
+		<control name="APO4-Operating Mode">APO4-Music</control>
+		<control name="APO4-Speaker Type">APO4-Internal Stereo</control>
+		<control name="APO4-Process Enable" public="true">0</control>
+		<control name="APO4-Auto Content Mode Enable">0</control>
+		<control name="APO4-ContentMode-Default">APO4-Music</control>
+		<control name="APO4-ContentMode-Media">APO4-Music</control>
+		<control name="APO4-ContentMode-Movie">APO4-Music</control>
+		<control name="APO4-ContentMode-Notification">APO4-Music</control>
+		<control name="APO4-ContentMode-Communications">APO4-Music</control>
+		<control name="SSID">104387C4</control>
+	</properties>
+	<operating_mode>
+		<control name="APO4-Operating Mode">APO4-Off</control>
+		<control name="APO4-Speaker Type">APO4-Internal Stereo</control>
+		<control name="APO4-OperatingMode-LastSetMode" public="true">APO4-Music</control>
+		<control name="Eagle-DSEC File">dts-postprocessing_104387C4.lic</control>
+		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
+		<!-- Start Eagle EFX controls -->
+		<control name="Eagle-Output Device">0</control>
+		<control name="SFX:Eagle-PreDownMixer Enable" public="true">0</control>
+		<!-- Start SFX controls -->
+		<control name="SFX:Eagle-Bypass Enable">1</control>
+		<control name="SFX:Eagle-DE Enable" public="true">0</control>
+		<control name="SFX:Eagle-LC Enable" public="true">0</control>
+		<control name="SFX:Eagle-I3DA Enable" public="true">0</control>
+		<control name="Eagle-Stereo Mode" public="true">Eagle-Off</control>
+		<control name="SFX:Eagle-HPF Enable">0</control>
+		<control name="SFX:Eagle-TBHDX Enable">0</control>
+		<control name="SFX:Eagle-MBHL Enable" public="true">0</control>
+		<control name="SFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="SFX:Eagle-AEQ Enable">0</control>
+		<chain_v2 position="SFX" input="Any" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="SFX"/>
+		</chain_v2>
+		<chain_v2 position="OSFX" input="Any" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="OSFX"/>
+		</chain_v2>
+	</operating_mode>
+	<operating_mode>
+		<control name="APO4-Operating Mode">APO4-Music</control>
+		<control name="APO4-Speaker Type">APO4-Internal Stereo</control>
+		<control name="Eagle-DSEC File">dts-postprocessing_104387C4.lic</control>
+		<control name="Eagle-Product Name" public="true">Eagle-DTS:X Ultra</control>
+		<!-- Start Eagle controls -->
+		<control name="Eagle-Output Device">0</control>
+		<control name="SFX:Eagle-PreDownMixer Enable" public="true">0</control>
+		<!-- Start SFX controls -->
+		<control name="SFX:Eagle-Bypass Enable">1</control>
+		<control name="SFX:Eagle-DE Enable" public="true">0</control>
+		<control name="SFX:Eagle-LC Enable" public="true">0</control>
+		<control name="SFX:Eagle-I3DA Enable" public="true">0</control>
+		<control name="Eagle-Stereo Mode" public="true">Eagle-Off</control>
+		<control name="SFX:Eagle-HPF Enable">0</control>
+		<control name="SFX:Eagle-TBHDX Enable">0</control>
+		<control name="SFX:Eagle-MBHL Enable" public="true">0</control>
+		<control name="SFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="SFX:Eagle-AEQ Enable">0</control>
+		<chain_v2 position="SFX" input="Any" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="SFX"/>
+		</chain_v2>
+		<chain_v2 position="OSFX" input="Any" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="OSFX"/>
+		</chain_v2>
+	</operating_mode>
+
+	<operating_mode>
+		<control name="APO4-Operating Mode">APO4-Off</control>
+		<control name="APO4-Speaker Type">APO4-Headphone</control>
+		<control name="APO4-OperatingMode-LastSetMode" public="true">APO4-Music</control>
+		<control name="Eagle-DSEC File">dts-postprocessing_104387C4.lic</control>
+		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
+		<!-- Start Eagle EFX controls -->
+		<control name="Eagle-Output Device">1</control>
+		<control name="SFX:Eagle-PreDownMixer Enable" public="true">0</control>
+		<!-- Start SFX controls -->
+		<control name="SFX:Eagle-Bypass Enable">1</control>
+		<control name="SFX:Eagle-DE Enable" public="true">0</control>
+		<control name="SFX:Eagle-LC Enable" public="true">0</control>
+		<control name="SFX:Eagle-I3DA Enable" public="true">0</control>
+		<control name="Eagle-Stereo Mode" public="true">Eagle-Off</control>
+		<control name="SFX:Eagle-HPF Enable">0</control>
+		<control name="SFX:Eagle-TBHDX Enable">0</control>
+		<control name="SFX:Eagle-MBHL Enable" public="true">0</control>
+		<control name="SFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="SFX:Eagle-AEQ Enable">0</control>
+		<chain_v2 position="SFX" input="Any" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="SFX"/>
+		</chain_v2>
+		<chain_v2 position="OSFX" input="Any" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="OSFX"/>
+		</chain_v2>
+	</operating_mode>
+	<operating_mode>
+		<control name="APO4-Operating Mode">APO4-Music</control>
+		<control name="APO4-Speaker Type">APO4-Headphone</control>
+		<control name="Eagle-DSEC File">dts-postprocessing_104387C4.lic</control>
+		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
+		<!-- Start Eagle controls -->
+		<control name="Eagle-Output Device">1</control>
+		<control name="SFX:Eagle-PreDownMixer Enable" public="true">0</control>
+		<!-- Start SFX controls -->
+		<control name="SFX:Eagle-Bypass Enable">1</control>
+		<control name="SFX:Eagle-DE Enable" public="true">0</control>
+		<control name="SFX:Eagle-LC Enable" public="true">0</control>
+		<control name="SFX:Eagle-I3DA Enable" public="true">0</control>
+		<control name="Eagle-Stereo Mode" public="true">Eagle-Off</control>
+		<control name="SFX:Eagle-HPF Enable">0</control>
+		<control name="SFX:Eagle-TBHDX Enable">0</control>
+		<control name="SFX:Eagle-MBHL Enable" public="true">0</control>
+		<control name="SFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="SFX:Eagle-AEQ Enable">0</control>
+		<chain_v2 position="SFX" input="Any" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="SFX"/>
+		</chain_v2>
+		<chain_v2 position="OSFX" input="Any" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="OSFX"/>
+		</chain_v2>
+	</operating_mode>
+
+	<operating_mode>
+		<control name="APO4-Operating Mode">APO4-Off</control>
+		<control name="APO4-Speaker Type">APO4-External Stereo</control>
+		<control name="APO4-OperatingMode-LastSetMode" public="true">APO4-Music</control>
+		<control name="Eagle-DSEC File">dts-postprocessing_104387C4.lic</control>
+		<control name="Eagle-Product Name" public="true">Eagle-UnLicensed</control>
+		<!-- Start Eagle SFX controls -->
+		<control name="Eagle-Output Device">0</control>
+		<control name="SFX:Eagle-PreDownMixer Enable" public="true">0</control>
+		<!-- Start SFX controls -->
+		<control name="SFX:Eagle-Bypass Enable">1</control>
+		<control name="SFX:Eagle-DE Enable" public="true">0</control>
+		<control name="SFX:Eagle-LC Enable" public="true">0</control>
+		<control name="SFX:Eagle-I3DA Enable" public="true">0</control>
+		<control name="Eagle-Stereo Mode" public="true">Eagle-Off</control>
+		<control name="SFX:Eagle-HPF Enable">0</control>
+		<control name="SFX:Eagle-TBHDX Enable">0</control>
+		<control name="SFX:Eagle-MBHL Enable" public="true">0</control>
+		<control name="SFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="SFX:Eagle-AEQ Enable">0</control>
+		<chain_v2 position="SFX" input="Any" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="SFX"/>
+		</chain_v2>
+		<chain_v2 position="OSFX" input="Any" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="OSFX"/>
+		</chain_v2>
+	</operating_mode>
+	<operating_mode>
+		<control name="APO4-Operating Mode">APO4-Music</control>
+		<control name="APO4-Speaker Type">APO4-External Stereo</control>
+		<control name="Eagle-DSEC File">dts-postprocessing_104387C4.lic</control>
+		<control name="Eagle-Product Name" public="true">Eagle-DTS:X Ultra</control>
+		<!-- Start Eagle controls -->
+		<control name="Eagle-Output Device">0</control>
+		<control name="SFX:Eagle-PreDownMixer Enable" public="true">0</control>
+		<!-- Start SFX controls -->
+		<control name="SFX:Eagle-Bypass Enable">1</control>
+		<control name="SFX:Eagle-DE Enable" public="true">0</control>
+		<control name="SFX:Eagle-LC Enable" public="true">0</control>
+		<control name="SFX:Eagle-I3DA Enable" public="true">0</control>
+		<control name="Eagle-Stereo Mode" public="true">Eagle-Off</control>
+		<control name="SFX:Eagle-HPF Enable">0</control>
+		<control name="SFX:Eagle-TBHDX Enable">0</control>
+		<control name="SFX:Eagle-MBHL Enable" public="true">0</control>
+		<control name="SFX:Eagle-MBHL Distortion Preventable" public="true">0</control>
+		<control name="SFX:Eagle-AEQ Enable">0</control>
+		<chain_v2 position="SFX" input="Any" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="SFX"/>
+		</chain_v2>
+		<chain_v2 position="OSFX" input="Any" output="Stereo">
+			<process tech_id="DTS Eagle" instance_id="OSFX"/>
+		</chain_v2>
+	</operating_mode>
+
+</srs_configuration>

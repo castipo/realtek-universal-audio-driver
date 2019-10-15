@@ -1,4 +1,108 @@
 Release Note:
+Release Date: 20191014
+!!!! Attention !!!!
+The latest WHQL driver has a little different with old version:
+    The zip files are separated by different customers. (ex: Lenovo, HP, ThinkPad, etc)
+    And if there has special case, it will be zipped by case. (ex: ThinkPad Rainier)
+    Each zip file contains ExtOem, SSTExt (only for PCH case) and APO for each customer.
++------------------------------------------------ ExtOem ------------------------------------------------+
+ExtOem Verision with update :
+                  HP       : 1.0.3.106 RS4RS519H1 support
+                  Lenovo   : 1.0.3.106 RS4RS519H1 support
+
+ExtOem Verision without update :                 
+                  Intel    : 1.0.3.101 RS4RS519H1 support
+                  Dell     : 1.0.3.101 RS4RS519H1 support
+                  HPAIO    : 1.0.3.102 RS4RS519H1 support
+                  Weibu    : 1.0.3.104 RS4RS519H1 support
+                  Huawei   : 1.0.3.105 RS4RS519H1 support
+                  ThinkPad : 1.0.3.105 RS4RS519H1 support
+
+                  ThinkPad Rainier : 1.0.3.101 RS4RS519H1 support
+                  ThinkPad RCT/KNO : 1.0.3.101 RS4RS519H1 support
+
+
+
++-------------------------------------------------- APO -------------------------------------------------+           
+APO Version : 
+                  Lenovo    : 12.1.6003.5780 RS4RS519H1 support
+                  ThinkPad  : 12.1.6003.5782 RS4RS519H1 support
+                  HP        : 12.1.6003.5780 RS4RS519H1 support
+                  Huawei    : 12.1.6003.5780 RS4RS519H1 support
+                  HPAIO     : 12.1.6003.5774 RS4RS519H1 support
+                  Intel     : 12.1.6003.5774 RS4RS519H1 support
+                  Weibu     : 12.1.6003.5765 RS4RS519H1 support
+                  Dell      : 12.1.6003.5765 RS4RS519H1 support
+
+                  ThinkPad Rainier : 12.0.6002.5782 RS4RS519H1 support
+                  ThinkPad RCT/KNO : 12.0.6002.5782 RS4RS519H1 support
+
+  # ThinkPad_KNO_RCT_WHQL : 
+      special for ThinkPad KNO RCT projects.
+
+  # ThinkPad_Rainier_WHQL :
+      special for ThinkPad Rainier project
+      Support USB version.
+
+
+
+APO Description :
+  12.1.6003.5782 RS4RS519H1 support
+    - FMAPO64.dll 89.78.08.41
+        1. Howling issue fix
+        2. Callback function issue fix
+        3. v890 4mic performance update
+    - FMService 0.1.0.26
+        1 For USB HS, update DAT in IsSupport calling.
+        2 Ext Mic NS is force to “On” in restore action.
+        3 Only Int Spk NS reset in restore action.
+    - FM_Speech_PP64 80.16.100.137
+        1. Support suffix in DAT name(Need set the DAT on system32/drivers)
+        2. Check SVID to support PCH project different SSID.
+    - FMPCHAPO64 89.78.08.41
+        1. Howling issue fix
+        2. Callback function issue fix
+        3. v890 4mic performance update
+
+
++------------------------------------------------ SSTOem ------------------------------------------------+
+SSTOEM Version with update :
+
+SSTOEM Version without update :
+                 Huawei   : 09.21.3229.37 RS4RS519H1 support
+                 Lenovo   : 09.21.3229.47 RS4RS519H1 support
+                 HP       : 09.21.3229.48 RS4RS519H1 support
+                 ThinkPad : 09.21.3229.48 RS4RS519H1 support
+
+
+
++---------------------------------------------- Main Target ---------------------------------------------+
+HP
+    //Update_SAMSfpa.DAT(8784)_103C853F_Quanta_HP_400_Reef_13"_103C853F10EC0236_SingleMic_Wasapi_SAMSfpa_SAMSfaspk_registrykey95%_DmicToHDA_HD audio
+    //Update_SAMSfpa.DAT(8783)_103C8543_Quanta_HP_400_Revere_15"_103C854310EC0236_SingleMic_Wasapi_SAMSfpa_SAMSfaspk_registrykey95%_DmicToHDA_HD audio
+
+    //Update & remove RTMICAR.DAT
+                SAMSfpa.DAT(8782)_103C85A4_Quanta_HP_400_Reiley_13"_103C85A410EC0236_SingleMic_Wasapi_SAMSfpa_SAMSfaspk_registrykey95%_DmicToHDA_HD audio
+
+    //Update_SAMSfpa.DAT (8781)_103C8540_Quanta_HP_400_Ramia_14"_103C854010EC0236__SingleMic_Wasapi_SAMSfpa_SAMSfaspk_registrykey95%_DmicToHDA_HD audio
+
+    /Update_SAMSfpa.DAT(8780)_103C85DC_Quanta_HP_400_Pigeon_14"_103C85DC10EC0236_SingleMic_Wasapi_SAMSfpa_SAMSfaspk_registrykey95%_DmicToHDA_HD audio
+    //Update_SAMSfpa.DAT(877F)_103C85DA_Quanta_HP_400_Pigeon_15"_103C85DA10EC0236_SingleMic_Wasapi_SAMSfpa_SAMSfaspk_registrykey95%_DmicToHDA_HD audio
+
+    //Update_SAMSfpa.DAT(877E)_103C85D8_Quanta_HP_400_Pelican_14"_103C85D810EC0236_SingleMic_Wasapi_SAMSfpa_SAMSfaspk_registrykey95%_DmicToHDA_HD audio
+    //Update_SAMSfpa.DAT(877D)_103C85AE_Quanta_HP_400_Pelican_15"_103C85AE10EC0236_SingleMic_Wasapi_SAMSfpa_SAMSfaspk_registrykey95%_DmicToHDA_HD audio
+
+
+Lenovo
+    //Modify 17AA380D10EC0287 Quanta_Aries-4B_IntelAudio to HDAudio DmicToAPU (dat wasapi no update)
+    //add 17AA384510EC0230 LCFC_S350-14IIL_HDAID17AA384510EC0230_array54mmKmic_wasapi_SAMSfpa_registrykey91%_rtmicar_HDAudio_DmicToHDA
+    //add 17AA384710EC0230 LCFC_S350-15IIL_HDAID17AA384710EC0230_array54mmKmic_wasapi_SAMSfpa_registrykey91%_rtmicar_HDAudio_DmicToHDA
+
+
+
+======================================================================================================================================================
+
+Release Note:
 Release Date: 20191007
 !!!! Attention !!!!
 The latest WHQL driver has a little different with old version:
