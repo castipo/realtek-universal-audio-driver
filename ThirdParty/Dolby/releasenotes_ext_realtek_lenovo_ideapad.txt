@@ -1,3 +1,15 @@
+Oct_15_2019:
+-----------------------------------
+1. Add ext_lenovo_330-17ikbr_rs4_rs5_19h1_v218
+2. Add ext_lenovo_s140-14iwl_rs5_19h1_v4.1014.537.19
+3. Add ext_lenovo_s140-15iwl_rs5_19h1_v4.1014.620.32
+4. Add ext_lenovo_v540s-13_rs5_19h1_v4.1014.638.26
+5. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.1014.252.9
+	Updated models:
+		S350-14IML
+		S350-15IML
+		Yoga Slim 7-14IARE-05
+		
 Oct_04_2019:
 -----------------------------------
 1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.1003.723.25
