@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OrganizationName%
 ExtensionId = {C3A63EDD-2D27-4B66-B155-5E94B43D926A}
-DriverVer   = 10/15/2019, 6.0.8816.1
+DriverVer   = 10/22/2019, 6.0.8821.1
 CatalogFile = HDXRTExt.cat
 
 [Manufacturer]
@@ -18,132 +18,13 @@ CatalogFile = HDXRTExt.cat
 ;(Dell_MA8-Render_Offload_APO+Dell_MV5-Capture_APO_KD)		= DeviceExtension_Install_Render_Offload_APO_Capture_APO_KD
 
 ;%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_12345678 
-
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_102808BB
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10280903
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_102808B6
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_102808B7
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808B8
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808B9
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102808BA
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_102808E0
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_102808E1
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_102808E2
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_102808E9
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_10280918
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_10280919
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_1028091A
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_Offload_APO_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_10280928
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_Offload_APO_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_10280929
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1028092E
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1028092F
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10280930
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10280931
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10280932
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10280933
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1028092E
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1028092F
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10280930
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10280931
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10280932
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10280933
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_10280934
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_10280935
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10280936
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_10280937
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_10280938
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10280939
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10280942
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10280943
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_1028093D
-;;%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_1028093D
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1028093E
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1028093F
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10280940
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10280941
-
-;;%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_1028084A
-;;%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_1028084D
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1028094B
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1028094D
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0289&SUBSYS_10280926
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0289&SUBSYS_10280927
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_1028091B
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_1028091C
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_1028091D
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_1028091E
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10280972
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10280973
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0289&SUBSYS_10280926
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0289&SUBSYS_10280927
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1028097F
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10280980
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809A0
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809A1
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809A2
-
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1028098A
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1028098B
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_10280988
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_10280989
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_10280984
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_10280985
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_10280986
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_10280987
-
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1028098A
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1028098B
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_10280988
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_10280989
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_10280984
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_10280985
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_10280986
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_10280987
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_1028098C
-;;%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_1028098C
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_1028099E
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_1028099F
-
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_102809A4
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_102809A5
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_102809A6
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_102809A7
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_102809A8
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_102809A9
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_102809AA
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_102809AB
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_102809AC
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_102809AD
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_102809AE
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_102809AF
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_102809B0
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_102809B1
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_102809B2
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_102809B3
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_102809B4
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_102809B5
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_102809B6
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_102809B7
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_102809B8
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_102809B9
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1028098D
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_102809BF
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_102809BA
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_102809BB
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_102809BD
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_102809BE
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809C0
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809C1
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809C2
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0289&SUBSYS_102809C3
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0289&SUBSYS_102809C4
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809C9
-
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0289&SUBSYS_10280983
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0289&SUBSYS_102809C6
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_102809CC
-%Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_102809CD
-
+;Ben Solo AMD
+%Device.ExtensionDesc% = DeviceExtension_Install_Render_Offload_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_1028090C
+;Bucky AMD N5
+%Device.ExtensionDesc% = DeviceExtension_Install_Render_Offload_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_1028092A
+%Device.ExtensionDesc% = DeviceExtension_Install_Render_Offload_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_1028092B
+;Hellcat AMD
+%Device.ExtensionDesc% = DeviceExtension_Install_Render_Offload_APO_Capture_APO, HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809E3
 
 [DeviceExtension_Install_Render_APO_Capture_APO]
 AddReg = IntcAzAudModelAddReg, IntcAzAudModelAddReg_Render_APO, IntcAzAudModelAddReg_Capture_APO
@@ -377,7 +258,7 @@ PKEY_CompositeFX_ModeEffectClsid     = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},1
 PKEY_CompositeFX_EndpointEffectClsid = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},15"
 PKEY_CompositeFX_KeywordDetector_StreamEffectClsid   = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},16"
 PKEY_CompositeFX_KeywordDetector_ModeEffectClsid     = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},17"  
-PKEY_CompositeFX_KeywordDetector_EndpointEffectClsid = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},18"
+PKEY_CompositeFX_KeywordDetector_EndpointEffectClsid = "{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},18" 
 PKEY_CompositeFX_KeywordDetector_StreamEffectClsid_W   = "{D05E087D-1F27-461B-B229-66247FDCDE2C},16"
 PKEY_CompositeFX_KeywordDetector_ModeEffectClsid_W     = "{D05E087D-1F27-461B-B229-66247FDCDE2C},17"  
 PKEY_CompositeFX_KeywordDetector_EndpointEffectClsid_W = "{D05E087D-1F27-461B-B229-66247FDCDE2C},18"
@@ -400,7 +281,6 @@ WAVES_Nx              = "{771023D7-C4E1-434D-8ABE-4328F62F48B8}"
 WAVES_Capture_Main    = "{441007FE-74DC-4C3D-805C-0DD700DB27DC}"
 WAVES_Capture_SfB     = "{441010AF-9AE8-4032-A960-8075A35A2AA6}"
 WAVES_Capture_Speech  = "{44102B4D-D00D-4B6A-B528-F96107203B77}"
-
 REALTEK_SFX_CLSID       = "{DA2C9ECE-7418-4906-B4FA-0A00B3EB88AA}"
 REALTEK_MFX_CLSID       = "{A296D363-EE83-4af9-9BE7-729C1296150A}"
 REALTEK_EFX_CLSID       = "{A29EB043-6CE2-4ee2-B38C-F58719E0D88F}"

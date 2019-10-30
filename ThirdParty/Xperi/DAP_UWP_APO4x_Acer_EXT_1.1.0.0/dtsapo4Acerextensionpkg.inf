@@ -1,0 +1,545 @@
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = Extension
+ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Provider    = %OEM%
+ExtensionId = {60180473-c1ed-48a5-b258-e4e45478dd0a} 
+DriverVer   = 10/23/2019,1.1.0.0
+CatalogFile = dtsapo4Acerextensionpkg.cat
+
+[SourceDisksNames]
+1 = %DiskId1%,,,
+1401 = %DiskId1%,,,\Acer10251401
+1433 = %DiskId1%,,,\Acer10251433
+14211 = %DiskId1%,,,\Acer1025142B
+1419 = %DiskId1%,,,\Acer10251419
+14011 = %DiskId1%,,,\Acer1025140B
+
+
+[SourceDisksFiles]
+;;Ultra models
+
+dts_apo4_oem_config_10251401.xml=1401
+dts_ctc_blob_10251401.bin=1401
+dts_ctc_ext_spk_blob_10251401.bin=1401
+dts_gpeq_44k_10251401.bin=1401
+dts_gpeq_48k_10251401.bin=1401
+dts_gpeq_ext_spk_mode1_44k_10251401.bin=1401
+dts_gpeq_ext_spk_mode1_48k_10251401.bin=1401
+dts_gpeq_ext_spk_mode2_44k_10251401.bin=1401
+dts_gpeq_ext_spk_mode2_48k_10251401.bin=1401
+dts_gpeq_ext_spk_mode3_44k_10251401.bin=1401
+dts_gpeq_ext_spk_mode3_48k_10251401.bin=1401
+dts_gpeq_ext_spk_mode4_44k_10251401.bin=1401
+dts_gpeq_ext_spk_mode4_48k_10251401.bin=1401
+dts_gpeq_ext_spk_mode5_44k_10251401.bin=1401
+dts_gpeq_ext_spk_mode5_48k_10251401.bin=1401
+dts_gpeq_ext_spk_mode6_44k_10251401.bin=1401
+dts_gpeq_ext_spk_mode6_48k_10251401.bin=1401
+dts_gpeq_ext_spk_mode7_44k_10251401.bin=1401
+dts_gpeq_ext_spk_mode7_48k_10251401.bin=1401
+dts_gpeq_ext_spk_off_44k_10251401.bin=1401
+dts_gpeq_ext_spk_off_48k_10251401.bin=1401
+dts_gpeq_mode1_44k_10251401.bin=1401
+dts_gpeq_mode1_48k_10251401.bin=1401
+dts_gpeq_mode2_44k_10251401.bin=1401
+dts_gpeq_mode2_48k_10251401.bin=1401
+dts_gpeq_mode3_44k_10251401.bin=1401
+dts_gpeq_mode3_48k_10251401.bin=1401
+dts_gpeq_mode4_44k_10251401.bin=1401
+dts_gpeq_mode4_48k_10251401.bin=1401
+dts_gpeq_mode5_44k_10251401.bin=1401
+dts_gpeq_mode5_48k_10251401.bin=1401
+dts_gpeq_mode6_44k_10251401.bin=1401
+dts_gpeq_mode6_48k_10251401.bin=1401
+dts_gpeq_mode7_44k_10251401.bin=1401
+dts_gpeq_mode7_48k_10251401.bin=1401
+dts_gpeq_off_44k_10251401.bin=1401
+dts_gpeq_off_48k_10251401.bin=1401
+dts_hpeq_44k_10251401.bin=1401
+dts_hpeq_48k_10251401.bin=1401
+dts-postprocessing_10251401.lic=1401
+
+dts_apo4_oem_config_10251433.xml=1433
+dts_ctc_blob_10251433.bin=1433
+dts_ctc_ext_spk_blob_10251433.bin=1433
+dts_gpeq_44k_10251433.bin=1433
+dts_gpeq_48k_10251433.bin=1433
+dts_gpeq_ext_spk_mode1_44k_10251433.bin=1433
+dts_gpeq_ext_spk_mode1_48k_10251433.bin=1433
+dts_gpeq_ext_spk_mode2_44k_10251433.bin=1433
+dts_gpeq_ext_spk_mode2_48k_10251433.bin=1433
+dts_gpeq_ext_spk_mode3_44k_10251433.bin=1433
+dts_gpeq_ext_spk_mode3_48k_10251433.bin=1433
+dts_gpeq_ext_spk_mode4_44k_10251433.bin=1433
+dts_gpeq_ext_spk_mode4_48k_10251433.bin=1433
+dts_gpeq_ext_spk_mode5_44k_10251433.bin=1433
+dts_gpeq_ext_spk_mode5_48k_10251433.bin=1433
+dts_gpeq_ext_spk_mode6_44k_10251433.bin=1433
+dts_gpeq_ext_spk_mode6_48k_10251433.bin=1433
+dts_gpeq_ext_spk_mode7_44k_10251433.bin=1433
+dts_gpeq_ext_spk_mode7_48k_10251433.bin=1433
+dts_gpeq_ext_spk_off_44k_10251433.bin=1433
+dts_gpeq_ext_spk_off_48k_10251433.bin=1433
+dts_gpeq_mode1_44k_10251433.bin=1433
+dts_gpeq_mode1_48k_10251433.bin=1433
+dts_gpeq_mode2_44k_10251433.bin=1433
+dts_gpeq_mode2_48k_10251433.bin=1433
+dts_gpeq_mode3_44k_10251433.bin=1433
+dts_gpeq_mode3_48k_10251433.bin=1433
+dts_gpeq_mode4_44k_10251433.bin=1433
+dts_gpeq_mode4_48k_10251433.bin=1433
+dts_gpeq_mode5_44k_10251433.bin=1433
+dts_gpeq_mode5_48k_10251433.bin=1433
+dts_gpeq_mode6_44k_10251433.bin=1433
+dts_gpeq_mode6_48k_10251433.bin=1433
+dts_gpeq_mode7_44k_10251433.bin=1433
+dts_gpeq_mode7_48k_10251433.bin=1433
+dts_gpeq_off_44k_10251433.bin=1433
+dts_gpeq_off_48k_10251433.bin=1433
+dts_hpeq_44k_10251433.bin=1433
+dts_hpeq_48k_10251433.bin=1433
+dts-postprocessing_10251433.lic=1433
+
+
+;; DAP
+dts_apo4_oem_config_10251419.xml=1419
+dts_ctc_blob_10251419.bin=1419
+dts_ctc_ext_spk_blob_10251419.bin=1419
+dts_gpeq_44k_10251419.bin=1419
+dts_gpeq_48k_10251419.bin=1419
+dts_gpeq_ext_spk_mode1_44k_10251419.bin=1419
+dts_gpeq_ext_spk_mode1_48k_10251419.bin=1419
+dts_gpeq_ext_spk_mode2_44k_10251419.bin=1419
+dts_gpeq_ext_spk_mode2_48k_10251419.bin=1419
+dts_gpeq_ext_spk_mode3_44k_10251419.bin=1419
+dts_gpeq_ext_spk_mode3_48k_10251419.bin=1419
+dts_gpeq_ext_spk_mode4_44k_10251419.bin=1419
+dts_gpeq_ext_spk_mode4_48k_10251419.bin=1419
+dts_gpeq_ext_spk_mode5_44k_10251419.bin=1419
+dts_gpeq_ext_spk_mode5_48k_10251419.bin=1419
+dts_gpeq_ext_spk_mode6_44k_10251419.bin=1419
+dts_gpeq_ext_spk_mode6_48k_10251419.bin=1419
+dts_gpeq_ext_spk_mode7_44k_10251419.bin=1419
+dts_gpeq_ext_spk_mode7_48k_10251419.bin=1419
+dts_gpeq_ext_spk_off_44k_10251419.bin=1419
+dts_gpeq_ext_spk_off_48k_10251419.bin=1419
+dts_gpeq_mode1_44k_10251419.bin=1419
+dts_gpeq_mode1_48k_10251419.bin=1419
+dts_gpeq_mode2_44k_10251419.bin=1419
+dts_gpeq_mode2_48k_10251419.bin=1419
+dts_gpeq_mode3_44k_10251419.bin=1419
+dts_gpeq_mode3_48k_10251419.bin=1419
+dts_gpeq_mode4_44k_10251419.bin=1419
+dts_gpeq_mode4_48k_10251419.bin=1419
+dts_gpeq_mode5_44k_10251419.bin=1419
+dts_gpeq_mode5_48k_10251419.bin=1419
+dts_gpeq_mode6_44k_10251419.bin=1419
+dts_gpeq_mode6_48k_10251419.bin=1419
+dts_gpeq_mode7_44k_10251419.bin=1419
+dts_gpeq_mode7_48k_10251419.bin=1419
+dts_gpeq_off_44k_10251419.bin=1419
+dts_gpeq_off_48k_10251419.bin=1419
+dts_hpeq_44k_10251419.bin=1419
+dts_hpeq_48k_10251419.bin=1419
+dts-postprocessing_10251419.lic=1419
+
+dts_apo4_oem_config_1025142B.xml=14211
+dts_ctc_blob_1025142B.bin=14211
+dts_ctc_ext_spk_blob_1025142B.bin=14211
+dts_gpeq_44k_1025142B.bin=14211
+dts_gpeq_48k_1025142B.bin=14211
+dts_gpeq_ext_spk_mode1_44k_1025142B.bin=14211
+dts_gpeq_ext_spk_mode1_48k_1025142B.bin=14211
+dts_gpeq_ext_spk_mode2_44k_1025142B.bin=14211
+dts_gpeq_ext_spk_mode2_48k_1025142B.bin=14211
+dts_gpeq_ext_spk_mode3_44k_1025142B.bin=14211
+dts_gpeq_ext_spk_mode3_48k_1025142B.bin=14211
+dts_gpeq_ext_spk_mode4_44k_1025142B.bin=14211
+dts_gpeq_ext_spk_mode4_48k_1025142B.bin=14211
+dts_gpeq_ext_spk_mode5_44k_1025142B.bin=14211
+dts_gpeq_ext_spk_mode5_48k_1025142B.bin=14211
+dts_gpeq_ext_spk_mode6_44k_1025142B.bin=14211
+dts_gpeq_ext_spk_mode6_48k_1025142B.bin=14211
+dts_gpeq_ext_spk_mode7_44k_1025142B.bin=14211
+dts_gpeq_ext_spk_mode7_48k_1025142B.bin=14211
+dts_gpeq_ext_spk_off_44k_1025142B.bin=14211
+dts_gpeq_ext_spk_off_48k_1025142B.bin=14211
+dts_gpeq_mode1_44k_1025142B.bin=14211
+dts_gpeq_mode1_48k_1025142B.bin=14211
+dts_gpeq_mode2_44k_1025142B.bin=14211
+dts_gpeq_mode2_48k_1025142B.bin=14211
+dts_gpeq_mode3_44k_1025142B.bin=14211
+dts_gpeq_mode3_48k_1025142B.bin=14211
+dts_gpeq_mode4_44k_1025142B.bin=14211
+dts_gpeq_mode4_48k_1025142B.bin=14211
+dts_gpeq_mode5_44k_1025142B.bin=14211
+dts_gpeq_mode5_48k_1025142B.bin=14211
+dts_gpeq_mode6_44k_1025142B.bin=14211
+dts_gpeq_mode6_48k_1025142B.bin=14211
+dts_gpeq_mode7_44k_1025142B.bin=14211
+dts_gpeq_mode7_48k_1025142B.bin=14211
+dts_gpeq_off_44k_1025142B.bin=14211
+dts_gpeq_off_48k_1025142B.bin=14211
+dts_hpeq_44k_1025142B.bin=14211
+dts_hpeq_48k_1025142B.bin=14211
+dts-postprocessing_1025142B.lic=14211
+
+dts_apo4_oem_config_1025140B.xml=14011
+dts_ctc_blob_1025140B.bin=14011
+dts_ctc_ext_spk_blob_1025140B.bin=14011
+dts_gpeq_44k_1025140B.bin=14011
+dts_gpeq_48k_1025140B.bin=14011
+dts_gpeq_ext_spk_mode1_44k_1025140B.bin=14011
+dts_gpeq_ext_spk_mode1_48k_1025140B.bin=14011
+dts_gpeq_ext_spk_mode2_44k_1025140B.bin=14011
+dts_gpeq_ext_spk_mode2_48k_1025140B.bin=14011
+dts_gpeq_ext_spk_mode3_44k_1025140B.bin=14011
+dts_gpeq_ext_spk_mode3_48k_1025140B.bin=14011
+dts_gpeq_ext_spk_mode4_44k_1025140B.bin=14011
+dts_gpeq_ext_spk_mode4_48k_1025140B.bin=14011
+dts_gpeq_ext_spk_mode5_44k_1025140B.bin=14011
+dts_gpeq_ext_spk_mode5_48k_1025140B.bin=14011
+dts_gpeq_ext_spk_mode6_44k_1025140B.bin=14011
+dts_gpeq_ext_spk_mode6_48k_1025140B.bin=14011
+dts_gpeq_ext_spk_mode7_44k_1025140B.bin=14011
+dts_gpeq_ext_spk_mode7_48k_1025140B.bin=14011
+dts_gpeq_ext_spk_off_44k_1025140B.bin=14011
+dts_gpeq_ext_spk_off_48k_1025140B.bin=14011
+dts_gpeq_mode1_44k_1025140B.bin=14011
+dts_gpeq_mode1_48k_1025140B.bin=14011
+dts_gpeq_mode2_44k_1025140B.bin=14011
+dts_gpeq_mode2_48k_1025140B.bin=14011
+dts_gpeq_mode3_44k_1025140B.bin=14011
+dts_gpeq_mode3_48k_1025140B.bin=14011
+dts_gpeq_mode4_44k_1025140B.bin=14011
+dts_gpeq_mode4_48k_1025140B.bin=14011
+dts_gpeq_mode5_44k_1025140B.bin=14011
+dts_gpeq_mode5_48k_1025140B.bin=14011
+dts_gpeq_mode6_44k_1025140B.bin=14011
+dts_gpeq_mode6_48k_1025140B.bin=14011
+dts_gpeq_mode7_44k_1025140B.bin=14011
+dts_gpeq_mode7_48k_1025140B.bin=14011
+dts_gpeq_off_44k_1025140B.bin=14011
+dts_gpeq_off_48k_1025140B.bin=14011
+dts_hpeq_44k_1025140B.bin=14011
+dts_hpeq_48k_1025140B.bin=14011
+dts-postprocessing_1025140B.lic=14011
+
+
+
+[DestinationDirs]
+DefaultDestDir = 11, DTS\PC\APO4x ; %windir%\system32\DTS\PC\APO4x
+
+[Acer10251401.CopyList]
+dts_apo4_oem_config_10251401.xml
+;;dts_apo4_oem_offline_hptuning_10251401.db
+dts_ctc_blob_10251401.bin
+dts_gpeq_44k_10251401.bin
+dts_gpeq_48k_10251401.bin
+dts_gpeq_off_44k_10251401.bin
+dts_gpeq_off_48k_10251401.bin
+dts_gpeq_mode1_48k_10251401.bin
+dts_gpeq_mode2_48k_10251401.bin
+dts_gpeq_mode3_48k_10251401.bin
+dts_gpeq_mode4_48k_10251401.bin
+dts_gpeq_mode5_48k_10251401.bin
+dts_gpeq_mode6_48k_10251401.bin
+dts_gpeq_mode7_48k_10251401.bin
+dts_gpeq_mode1_44k_10251401.bin
+dts_gpeq_mode2_44k_10251401.bin
+dts_gpeq_mode3_44k_10251401.bin
+dts_gpeq_mode4_44k_10251401.bin
+dts_gpeq_mode5_44k_10251401.bin
+dts_gpeq_mode6_44k_10251401.bin
+dts_gpeq_mode7_44k_10251401.bin
+dts_hpeq_44k_10251401.bin
+dts_hpeq_48k_10251401.bin
+dts_gpeq_ext_spk_off_44k_10251401.bin
+dts_gpeq_ext_spk_off_48k_10251401.bin
+dts_gpeq_ext_spk_mode1_48k_10251401.bin
+dts_gpeq_ext_spk_mode2_48k_10251401.bin
+dts_gpeq_ext_spk_mode3_48k_10251401.bin
+dts_gpeq_ext_spk_mode4_48k_10251401.bin
+dts_gpeq_ext_spk_mode5_48k_10251401.bin
+dts_gpeq_ext_spk_mode6_48k_10251401.bin
+dts_gpeq_ext_spk_mode7_48k_10251401.bin
+dts_gpeq_ext_spk_mode1_44k_10251401.bin
+dts_gpeq_ext_spk_mode2_44k_10251401.bin
+dts_gpeq_ext_spk_mode3_44k_10251401.bin
+dts_gpeq_ext_spk_mode4_44k_10251401.bin
+dts_gpeq_ext_spk_mode5_44k_10251401.bin
+dts_gpeq_ext_spk_mode6_44k_10251401.bin
+dts_gpeq_ext_spk_mode7_44k_10251401.bin
+dts-postprocessing_10251401.lic
+
+[Acer10251433.CopyList]
+dts_apo4_oem_config_10251433.xml
+;;dts_apo4_oem_offline_hptuning_10251433.db
+dts_ctc_blob_10251433.bin
+dts_gpeq_44k_10251433.bin
+dts_gpeq_48k_10251433.bin
+dts_gpeq_off_44k_10251433.bin
+dts_gpeq_off_48k_10251433.bin
+dts_gpeq_mode1_48k_10251433.bin
+dts_gpeq_mode2_48k_10251433.bin
+dts_gpeq_mode3_48k_10251433.bin
+dts_gpeq_mode4_48k_10251433.bin
+dts_gpeq_mode5_48k_10251433.bin
+dts_gpeq_mode6_48k_10251433.bin
+dts_gpeq_mode7_48k_10251433.bin
+dts_gpeq_mode1_44k_10251433.bin
+dts_gpeq_mode2_44k_10251433.bin
+dts_gpeq_mode3_44k_10251433.bin
+dts_gpeq_mode4_44k_10251433.bin
+dts_gpeq_mode5_44k_10251433.bin
+dts_gpeq_mode6_44k_10251433.bin
+dts_gpeq_mode7_44k_10251433.bin
+dts_hpeq_44k_10251433.bin
+dts_hpeq_48k_10251433.bin
+dts_gpeq_ext_spk_off_44k_10251433.bin
+dts_gpeq_ext_spk_off_48k_10251433.bin
+dts_gpeq_ext_spk_mode1_48k_10251433.bin
+dts_gpeq_ext_spk_mode2_48k_10251433.bin
+dts_gpeq_ext_spk_mode3_48k_10251433.bin
+dts_gpeq_ext_spk_mode4_48k_10251433.bin
+dts_gpeq_ext_spk_mode5_48k_10251433.bin
+dts_gpeq_ext_spk_mode6_48k_10251433.bin
+dts_gpeq_ext_spk_mode7_48k_10251433.bin
+dts_gpeq_ext_spk_mode1_44k_10251433.bin
+dts_gpeq_ext_spk_mode2_44k_10251433.bin
+dts_gpeq_ext_spk_mode3_44k_10251433.bin
+dts_gpeq_ext_spk_mode4_44k_10251433.bin
+dts_gpeq_ext_spk_mode5_44k_10251433.bin
+dts_gpeq_ext_spk_mode6_44k_10251433.bin
+dts_gpeq_ext_spk_mode7_44k_10251433.bin
+dts-postprocessing_10251433.lic
+
+[Acer10251419.CopyList]
+dts_apo4_oem_config_10251419.xml
+;;dts_apo4_oem_offline_hptuning_10251419.db
+dts_ctc_blob_10251419.bin
+dts_gpeq_44k_10251419.bin
+dts_gpeq_48k_10251419.bin
+dts_gpeq_off_44k_10251419.bin
+dts_gpeq_off_48k_10251419.bin
+dts_gpeq_mode1_48k_10251419.bin
+dts_gpeq_mode2_48k_10251419.bin
+dts_gpeq_mode3_48k_10251419.bin
+dts_gpeq_mode4_48k_10251419.bin
+dts_gpeq_mode5_48k_10251419.bin
+dts_gpeq_mode6_48k_10251419.bin
+dts_gpeq_mode7_48k_10251419.bin
+dts_gpeq_mode1_44k_10251419.bin
+dts_gpeq_mode2_44k_10251419.bin
+dts_gpeq_mode3_44k_10251419.bin
+dts_gpeq_mode4_44k_10251419.bin
+dts_gpeq_mode5_44k_10251419.bin
+dts_gpeq_mode6_44k_10251419.bin
+dts_gpeq_mode7_44k_10251419.bin
+dts_hpeq_44k_10251419.bin
+dts_hpeq_48k_10251419.bin
+dts_gpeq_ext_spk_off_44k_10251419.bin
+dts_gpeq_ext_spk_off_48k_10251419.bin
+dts_gpeq_ext_spk_mode1_48k_10251419.bin
+dts_gpeq_ext_spk_mode2_48k_10251419.bin
+dts_gpeq_ext_spk_mode3_48k_10251419.bin
+dts_gpeq_ext_spk_mode4_48k_10251419.bin
+dts_gpeq_ext_spk_mode5_48k_10251419.bin
+dts_gpeq_ext_spk_mode6_48k_10251419.bin
+dts_gpeq_ext_spk_mode7_48k_10251419.bin
+dts_gpeq_ext_spk_mode1_44k_10251419.bin
+dts_gpeq_ext_spk_mode2_44k_10251419.bin
+dts_gpeq_ext_spk_mode3_44k_10251419.bin
+dts_gpeq_ext_spk_mode4_44k_10251419.bin
+dts_gpeq_ext_spk_mode5_44k_10251419.bin
+dts_gpeq_ext_spk_mode6_44k_10251419.bin
+dts_gpeq_ext_spk_mode7_44k_10251419.bin
+dts-postprocessing_10251419.lic
+
+[Acer1025140B.CopyList]
+dts_apo4_oem_config_1025140B.xml
+;;dts_apo4_oem_offline_hptuning_1025140B.db
+dts_ctc_blob_1025140B.bin
+dts_gpeq_44k_1025140B.bin
+dts_gpeq_48k_1025140B.bin
+dts_gpeq_off_44k_1025140B.bin
+dts_gpeq_off_48k_1025140B.bin
+dts_gpeq_mode1_48k_1025140B.bin
+dts_gpeq_mode2_48k_1025140B.bin
+dts_gpeq_mode3_48k_1025140B.bin
+dts_gpeq_mode4_48k_1025140B.bin
+dts_gpeq_mode5_48k_1025140B.bin
+dts_gpeq_mode6_48k_1025140B.bin
+dts_gpeq_mode7_48k_1025140B.bin
+dts_gpeq_mode1_44k_1025140B.bin
+dts_gpeq_mode2_44k_1025140B.bin
+dts_gpeq_mode3_44k_1025140B.bin
+dts_gpeq_mode4_44k_1025140B.bin
+dts_gpeq_mode5_44k_1025140B.bin
+dts_gpeq_mode6_44k_1025140B.bin
+dts_gpeq_mode7_44k_1025140B.bin
+dts_hpeq_44k_1025140B.bin
+dts_hpeq_48k_1025140B.bin
+dts_gpeq_ext_spk_off_44k_1025140B.bin
+dts_gpeq_ext_spk_off_48k_1025140B.bin
+dts_gpeq_ext_spk_mode1_48k_1025140B.bin
+dts_gpeq_ext_spk_mode2_48k_1025140B.bin
+dts_gpeq_ext_spk_mode3_48k_1025140B.bin
+dts_gpeq_ext_spk_mode4_48k_1025140B.bin
+dts_gpeq_ext_spk_mode5_48k_1025140B.bin
+dts_gpeq_ext_spk_mode6_48k_1025140B.bin
+dts_gpeq_ext_spk_mode7_48k_1025140B.bin
+dts_gpeq_ext_spk_mode1_44k_1025140B.bin
+dts_gpeq_ext_spk_mode2_44k_1025140B.bin
+dts_gpeq_ext_spk_mode3_44k_1025140B.bin
+dts_gpeq_ext_spk_mode4_44k_1025140B.bin
+dts_gpeq_ext_spk_mode5_44k_1025140B.bin
+dts_gpeq_ext_spk_mode6_44k_1025140B.bin
+dts_gpeq_ext_spk_mode7_44k_1025140B.bin
+dts-postprocessing_1025140B.lic
+
+[Acer1025142B.CopyList]
+dts_apo4_oem_config_1025142B.xml
+;;dts_apo4_oem_offline_hptuning_1025142B.db
+dts_ctc_blob_1025142B.bin
+dts_gpeq_44k_1025142B.bin
+dts_gpeq_48k_1025142B.bin
+dts_gpeq_off_44k_1025142B.bin
+dts_gpeq_off_48k_1025142B.bin
+dts_gpeq_mode1_48k_1025142B.bin
+dts_gpeq_mode2_48k_1025142B.bin
+dts_gpeq_mode3_48k_1025142B.bin
+dts_gpeq_mode4_48k_1025142B.bin
+dts_gpeq_mode5_48k_1025142B.bin
+dts_gpeq_mode6_48k_1025142B.bin
+dts_gpeq_mode7_48k_1025142B.bin
+dts_gpeq_mode1_44k_1025142B.bin
+dts_gpeq_mode2_44k_1025142B.bin
+dts_gpeq_mode3_44k_1025142B.bin
+dts_gpeq_mode4_44k_1025142B.bin
+dts_gpeq_mode5_44k_1025142B.bin
+dts_gpeq_mode6_44k_1025142B.bin
+dts_gpeq_mode7_44k_1025142B.bin
+dts_hpeq_44k_1025142B.bin
+dts_hpeq_48k_1025142B.bin
+dts_gpeq_ext_spk_off_44k_1025142B.bin
+dts_gpeq_ext_spk_off_48k_1025142B.bin
+dts_gpeq_ext_spk_mode1_48k_1025142B.bin
+dts_gpeq_ext_spk_mode2_48k_1025142B.bin
+dts_gpeq_ext_spk_mode3_48k_1025142B.bin
+dts_gpeq_ext_spk_mode4_48k_1025142B.bin
+dts_gpeq_ext_spk_mode5_48k_1025142B.bin
+dts_gpeq_ext_spk_mode6_48k_1025142B.bin
+dts_gpeq_ext_spk_mode7_48k_1025142B.bin
+dts_gpeq_ext_spk_mode1_44k_1025142B.bin
+dts_gpeq_ext_spk_mode2_44k_1025142B.bin
+dts_gpeq_ext_spk_mode3_44k_1025142B.bin
+dts_gpeq_ext_spk_mode4_44k_1025142B.bin
+dts_gpeq_ext_spk_mode5_44k_1025142B.bin
+dts_gpeq_ext_spk_mode6_44k_1025142B.bin
+dts_gpeq_ext_spk_mode7_44k_1025142B.bin
+dts-postprocessing_1025142B.lic
+
+
+[Manufacturer]
+%OEM% = DeviceExtensions,NTamd64
+
+[DeviceExtensions.NTamd64]
+%Device.ExtensionDesc% = Acer10251401,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_10251401
+%Device.ExtensionDesc% = Acer10251433,HDAUDIO\FUNC_01&VEN_10EC&DEV_0662&SUBSYS_10251433
+;; MBAC-725 DAP
+%Device.ExtensionDesc% = Acer10251419,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_10251419
+%Device.ExtensionDesc% = Acer1025140B,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_1025140B
+%Device.ExtensionDesc% = Acer1025140B,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_1025140C
+%Device.ExtensionDesc% = Acer1025140B,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_1025141F
+%Device.ExtensionDesc% = Acer1025142B,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1025142B
+
+
+
+[Acer10251401]
+CopyFiles = Acer10251401.CopyList
+AddReg = PresetAddReg
+
+[Acer10251401.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSService,,DTSService_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+
+[Acer10251433]
+CopyFiles = Acer10251433.CopyList
+AddReg = PresetAddReg
+
+[Acer10251433.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSService,,DTSService_Install
+AddComponent = DTSHSA,,DTSHSA_Install
+
+
+[Acer10251419]
+CopyFiles = Acer10251419.CopyList
+AddReg = PresetAddReg
+
+[Acer10251419.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSService,,DTSService_Install
+AddComponent = DTSHSA,,DTSDAPHSA_Install
+
+[Acer1025140B]
+CopyFiles = Acer1025140B.CopyList
+AddReg = PresetAddReg
+
+[Acer1025140B.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSService,,DTSService_Install
+AddComponent = DTSHSA,,DTSDAPHSA_Install
+
+[Acer1025142B]
+CopyFiles = Acer1025142B.CopyList
+AddReg = PresetAddReg
+
+[Acer1025142B.Components]
+AddComponent = DTSAPO,,DTSAPO_Install
+AddComponent = DTSService,,DTSService_Install
+AddComponent = DTSHSA,,DTSDAPHSA_Install
+
+[PresetAddReg]
+;; render endpoint settings
+HKR,InterfaceSetting,PrimaryLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                  ;; PrimaryLineOutTopo stands for Speakers(or Redirected headphone/speaker) endpoint
+HKR,InterfaceSetting,SingleLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                   ;; SingleLineOutTopo stands for Speakers(or Redirected headphone/speaker) endpoint
+HKR,InterfaceSetting,SecondaryLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                ;; SecondaryLineOutTopo stands for Headphone endpoint
+HKR,InterfaceSetting,RearLineOutTopoSST,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                  ;; RearLineOutTopoSST stands for Speakers(or Redirected headphone/speaker) endpoint with audio offloading DSP supported
+HKR,InterfaceSetting,RearLineOutTopoSST2,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                 ;; RearLineOutTopoSST2 stands for Speakers(or Redirected headphone/speaker) endpoint with audio offloading DSP supported
+HKR,InterfaceSetting,RearLineOutTopoSST3,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                 ;; RearLineOutTopoSST3 stands for Headphone endpoint with audio offloading DSP supported
+HKR,InterfaceSetting,RearLineOutTopoDock,%REG_MULTI_SZ_APPEND%,"ApoPreset1"   
+;; Preset values in property store
+;;HKR,InterfaceSetting\ApoPreset1\EP\0, "{7A8B74C8-FA66-4460-8542-D6119C59E9D4},2", %REG_SZ%, "C:\Windows\System32\DTS\PC\APO4x\dts_apo4_oem_config.xml"  
+HKR,InterfaceSetting\ApoPreset1\EP\0, "{7A8B74C8-FA66-4460-8542-D6119C59E9D4},4", %REG_DWORD%, 0x100  ;; DTS APO on Realtek
+
+
+[DTSAPO_Install]
+ComponentIDs = VEN_DTSI&AID_DTSI2
+Description = "DTS Audio Effects Component"
+
+[DTSService_Install]
+ComponentIDs = VEN_DTSI&HID_DTSIAPO4xSERVICE
+Description = "DTS APO4x Service Component"
+
+[DTSHSA_Install]
+ComponentIDs = VEN_DTSI&HID_DTSIULTRA
+Description = "DTS Audio Hardware Support Application"
+
+[DTSDAPHSA_Install]
+ComponentIDs = VEN_DTSI&HID_DTSIDAP
+Description = "DTS Audio Hardware Support Application"
+
+[Strings]
+OEM                  = "DTS"
+Device.ExtensionDesc = "OEM Device Extension"
+DiskId1              = "OEM Audio Device Extension Installation Disk (DTS)"
+
+REG_BINARY = 0x00000001
+REG_DWORD = 0x00010001
+REG_MULTI_SZ = 0x00010000
+REG_MULTI_SZ_APPEND = 0x00010008
