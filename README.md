@@ -35,7 +35,7 @@ This repository does not include Intel Smart Sound Technology driver (ISST) whic
 
 If your PC had preinstalled HDA driver with a desktop platform (non-UWP) of audio enhancers, UAD will not work with that desktop platform of audio enhancer(s).
 
-For Surface laptop, download UAD which labal as Microsoft at [this repository](https://github.com/alanfox2000/realtek-hda-release/releases)
+For Surface laptop, download UAD which labeled as Microsoft at [this repository](https://github.com/alanfox2000/realtek-hda-release/releases)
 
 Realtek HD Audio Codec Driver Patcher (A1) by Pihto (DTSi &DLL unlock) does not work on UAD.
 
