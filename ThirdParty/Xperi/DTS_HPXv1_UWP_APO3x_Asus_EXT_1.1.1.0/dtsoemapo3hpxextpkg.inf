@@ -3,8 +3,8 @@ Signature   = "$WINDOWS NT$"
 Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
-ExtensionId = {09DC1C3E-7128-45E4-BC9F-8EC777E49F40}
-DriverVer   = 02/20/2019,1.0.18.1
+ExtensionId = {E8CF48F9-F7A1-427F-8A7E-407990B25687}
+DriverVer   = 09/03/2019,1.1.1.0
 CatalogFile = dtsoemapo3hpxextpkg.cat
 
 [SourceDisksNames]
@@ -54,7 +54,7 @@ CopyFiles = ASUSROG_1043185E.CopyList
 AddReg = PresetAddReg
 
 [ASUSROG_1043185E.CopyList]
-dtsapo3oemconfig.xml, ASUSROG_1043185E.xml
+dtsapo3oemconfig_1043185E.xml, ASUSROG_1043185E.xml
 
 [ASUSROG_1043185E.Components]
 AddComponent = DTSAPO,,DTSAPO_Install
@@ -67,7 +67,7 @@ CopyFiles = ASUSROG_104318F1.CopyList
 AddReg = PresetAddReg
 
 [ASUSROG_104318F1.CopyList]
-dtsapo3oemconfig.xml, ASUSROG_104318F1.xml
+dtsapo3oemconfig_104318F1.xml, ASUSROG_104318F1.xml
 
 [ASUSROG_104318F1.Components]
 AddComponent = DTSAPO,,DTSAPO_Install
@@ -79,7 +79,7 @@ CopyFiles = ASUSROG_104317C1.CopyList
 AddReg = PresetAddReg
 
 [ASUSROG_104317C1.CopyList]
-dtsapo3oemconfig.xml, ASUSROG_104317C1.xml
+dtsapo3oemconfig_104317C1.xml, ASUSROG_104317C1.xml
 
 [ASUSROG_104317C1.Components]
 AddComponent = DTSAPO,,DTSAPO_Install
@@ -117,25 +117,25 @@ CopyFiles = ASUSROG_10431441.CopyList
 AddReg = PresetAddReg
 
 [ASUSROG_104310C1.CopyList]
-dtsapo3oemconfig.xml, ASUSROG_104310C1.xml
+dtsapo3oemconfig_104310C1.xml, ASUSROG_104310C1.xml
 
 [ASUSROG_104315CE.CopyList]
-dtsapo3oemconfig.xml, ASUSROG_104315CE.xml
+dtsapo3oemconfig_104315CE.xml, ASUSROG_104315CE.xml
 
 [ASUSROG_10431391.CopyList]
-dtsapo3oemconfig.xml, ASUSROG_10431391.xml
+dtsapo3oemconfig_10431391.xml, ASUSROG_10431391.xml
 
 [ASUSROG_104313B1.CopyList]
-dtsapo3oemconfig.xml, ASUSROG_104313B1.xml
+dtsapo3oemconfig_104313B1.xml, ASUSROG_104313B1.xml
 
 [ASUSROG_10432180.CopyList]
-dtsapo3oemconfig.xml, ASUSROG_10432180.xml
+dtsapo3oemconfig_10432180.xml, ASUSROG_10432180.xml
 
 [ASUSROG_104313F1.CopyList]
-dtsapo3oemconfig.xml, ASUSROG_104313F1.xml
+dtsapo3oemconfig_104313F1.xml, ASUSROG_104313F1.xml
 
 [ASUSROG_10431441.CopyList]
-dtsapo3oemconfig.xml, ASUSROG_10431441.xml
+dtsapo3oemconfig_10431441.xml, ASUSROG_10431441.xml
 
 [ASUSMBHPX]
 CopyFiles = DTS.CopyList
