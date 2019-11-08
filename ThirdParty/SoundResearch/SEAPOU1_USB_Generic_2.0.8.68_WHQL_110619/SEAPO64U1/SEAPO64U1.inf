@@ -1,0 +1,397 @@
+; Copyright (c) Sound Research 2017
+[Version]
+Signature="$Windows NT$"
+Class=MEDIA
+ClassGUID={4d36e96c-e325-11ce-bfc1-08002be10318}
+provider=%ProviderName%
+DriverVer=10/16/2019,2.0.8.68
+CatalogFile=SEAPO64U1.cat
+
+[SourceDisksNames]
+222=%DiskDescription%,"",222
+
+[SourceDisksFiles]
+SEAPO64U1.dll=222
+SECOMN64U1.dll=222
+SEHDRA64U1.dll=222
+HPIMMA64U1.dll=222
+SEHDHF64U1.dll=222
+SECOMN64U1.exe=222
+SEAPODATU1.zip=222
+SEAPODATU1.USB.VID_03F0&PID_3D41&MI_00.zip=222
+SEAPODATU1.USB.VID_03F0&PID_3D41&MI_03.zip=222
+
+[DestinationDirs]
+SfxFx.CopyList=11     ; %windir%\system32
+SECOMNU1Service.CopyList=11
+
+[SignatureAttributes]
+SEAPO64U1.dll=SignatureAttributes.PETrust
+SECOMN64U1.dll=SignatureAttributes.PETrust
+SEHDRA64U1.dll=SignatureAttributes.PETrust
+HPIMMA64U1.dll=SignatureAttributes.PETrust
+SEHDHF64U1.dll=SignatureAttributes.PETrust
+
+[SignatureAttributes.DRM]
+DRMLevel=1300
+
+[SignatureAttributes.PETrust]
+PETrust=true
+
+[Manufacturer]
+%MfgName%=MfgModelSection,NTamd64
+
+[MfgModelSection.NTamd64]
+%USB\VID_03F0&PID_3D41&MI_00.DeviceDesc%=SRUSBAudio.SysFx,USB\VID_03F0&PID_3D41&MI_00
+%USB\VID_03F0&PID_3D41&MI_03.DeviceDesc%=SRUSBAudio.SysFx,USB\VID_03F0&PID_3D41&MI_03
+
+[SRUSBAudio.SysFx]
+Include=ks.inf,wdmaudio.inf,wdma_usb.inf
+Needs=KS.Registration,WDMAUDIO.Registration,USBAudioOEM.CopyFiles,USBAudioOEM.AddReg
+CopyFiles=SfxFx.CopyList
+AddReg=SfxFx.COM.AddReg
+CopyFiles=SECOMNU1Service.CopyList
+
+[SRUSBAudio.SysFx.Services]
+Include=wdma_usb.inf
+Needs=USBAudio.NT.Services
+AddService=SECOMNU1Service,0x00000800,SECOMNU1Service_Install
+
+[SfxFx.CopyList]
+SEAPO64U1.dll
+SECOMN64U1.dll
+SEHDRA64U1.dll
+HPIMMA64U1.dll
+SEHDHF64U1.dll
+SEAPODATU1.zip,,,0x00000800 ; COPYFLG_NODECOMP
+SEAPODATU1.USB.VID_03F0&PID_3D41&MI_00.zip,,,0x00000800 ; COPYFLG_NODECOMP
+SEAPODATU1.USB.VID_03F0&PID_3D41&MI_03.zip,,,0x00000800 ; COPYFLG_NODECOMP
+
+[SECOMNU1Service.CopyList]
+SECOMN64U1.exe
+
+[SECOMNU1Service_Install]
+Description="Sound Research SECOMNU1 Service"
+DisplayName="Sound Research SECOMNU1 Service"
+ServiceType=0x00000010
+StartType=2
+ErrorControl=1
+ServiceBinary="""%%SystemRoot%%\System32\SECOMN64U1.exe"""
+
+[SfxFx.COM.AddReg]
+HKCR,CLSID\%SYSFX_SFX_CLSID%,,0,%SYSFX_SFX_CLASS_FriendlyName%
+HKCR,CLSID\%SYSFX_SFX_CLSID%\InprocServer32,,0x00020000,%%SystemRoot%%\System32\SEAPO64U1.dll
+HKCR,CLSID\%SYSFX_SFX_CLSID%\InprocServer32,ThreadingModel,0,"Both"
+
+HKCR,CLSID\%SYSFX_MFX_CLSID%,,0,%SYSFX_MFX_CLASS_FriendlyName%
+HKCR,CLSID\%SYSFX_MFX_CLSID%\InprocServer32,,0x00020000,%%SystemRoot%%\System32\SEAPO64U1.dll
+HKCR,CLSID\%SYSFX_MFX_CLSID%\InprocServer32,ThreadingModel,0,"Both"
+
+HKCR,CLSID\%SYSFX_EFX_CLSID%,,0,%SYSFX_EFX_CLASS_FriendlyName%
+HKCR,CLSID\%SYSFX_EFX_CLSID%\InprocServer32,,0x00020000,%%SystemRoot%%\System32\SEAPO64U1.dll
+HKCR,CLSID\%SYSFX_EFX_CLSID%\InprocServer32,ThreadingModel,0,"Both"
+
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_SFX_CLSID%, "FriendlyName", ,%SYSFX_SFX_FriendlyName%
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_SFX_CLSID%, "Copyright", ,%SRCopyRight%
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_SFX_CLSID%, "MajorVersion", 0x00010001, 1
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_SFX_CLSID%, "MinorVersion", 0x00010001, 0
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_SFX_CLSID%, "Flags", 0x00010001, %SFX_APO_FLAG_DEFAULT%
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_SFX_CLSID%, "MinInputConnections", 0x00010001, 1
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_SFX_CLSID%, "MaxInputConnections", 0x00010001, 1
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_SFX_CLSID%, "MinOutputConnections", 0x00010001, 1
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_SFX_CLSID%, "MaxOutputConnections", 0x00010001, 1
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_SFX_CLSID%, "MaxInstances", 0x00010001, 0xffffffff
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_SFX_CLSID%, "NumAPOInterfaces", 0x00010001, 1
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_SFX_CLSID%, "APOInterface0", ,"{4B1BA6F3-9529-4238-B28D-527056269F3F}"
+
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_MFX_CLSID%, "FriendlyName", ,%SYSFX_MFX_FriendlyName%
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_MFX_CLSID%, "Copyright", ,%SRCopyRight%
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_MFX_CLSID%, "MajorVersion", 0x00010001, 1
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_MFX_CLSID%, "MinorVersion", 0x00010001, 0
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_MFX_CLSID%, "Flags", 0x00010001, %MFX_APO_FLAG_DEFAULT%
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_MFX_CLSID%, "MinInputConnections", 0x00010001, 1
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_MFX_CLSID%, "MaxInputConnections", 0x00010001, 1
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_MFX_CLSID%, "MinOutputConnections", 0x00010001, 1
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_MFX_CLSID%, "MaxOutputConnections", 0x00010001, 1
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_MFX_CLSID%, "MaxInstances", 0x00010001, 0xffffffff
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_MFX_CLSID%, "NumAPOInterfaces", 0x00010001, 1
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_MFX_CLSID%, "APOInterface0", ,"{D9BC780A-3BE4-4DD5-8332-4FF7A7237663}"
+
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_EFX_CLSID%, "FriendlyName", ,%SYSFX_EFX_FriendlyName%
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_EFX_CLSID%, "Copyright", ,%SRCopyRight%
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_EFX_CLSID%, "MajorVersion", 0x00010001, 1
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_EFX_CLSID%, "MinorVersion", 0x00010001, 0
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_EFX_CLSID%, "Flags", 0x00010001, %EFX_APO_FLAG_DEFAULT%
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_EFX_CLSID%, "MinInputConnections", 0x00010001, 1
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_EFX_CLSID%, "MaxInputConnections", 0x00010001, 1
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_EFX_CLSID%, "MinOutputConnections", 0x00010001, 1
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_EFX_CLSID%, "MaxOutputConnections", 0x00010001, 1
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_EFX_CLSID%, "MaxInstances", 0x00010001, 0xffffffff
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_EFX_CLSID%, "NumAPOInterfaces", 0x00010001, 1
+HKCR,AudioEngine\AudioProcessingObjects\%SYSFX_EFX_CLSID%, "APOInterface0", ,"{0A7665B8-219A-4D73-8DAA-D973EB855391}"
+
+[SysFx.AddReg]
+HKR,"FX\\0",%PKEY_ItemNameDisplay%,,%SYSFX_FriendlyName%
+;HKR,"FX\\0",%PKEY_FX_StreamEffectClsid%,,%SYSFX_SFX_CLSID%
+HKR,"FX\\0",%PKEY_FX_EndpointEffectClsid%,,%SYSFX_EFX_CLSID%
+HKR,"FX\\0",%PKEY_SFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+HKR,"FX\\0",%PKEY_EFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+HKR,"FX\\0",%PKEY_SYSFX_Association%,,%KSNODETYPE_SPEAKER%
+HKR,"FX\\0",%PKEY_AudioEndpoint_Disable_SysFx%,%REG_DWORD%,0x00000000
+
+HKR,"FX\\1",%PKEY_ItemNameDisplay%,,%SYSFX_FriendlyName%
+;HKR,"FX\\1",%PKEY_FX_StreamEffectClsid%,,%SYSFX_SFX_CLSID%
+HKR,"FX\\1",%PKEY_FX_EndpointEffectClsid%,,%SYSFX_EFX_CLSID%
+HKR,"FX\\1",%PKEY_SFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+HKR,"FX\\1",%PKEY_EFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+HKR,"FX\\1",%PKEY_SYSFX_Association%,,%KSNODETYPE_HEADPHONES%
+HKR,"FX\\1",%PKEY_AudioEndpoint_Disable_SysFx%,%REG_DWORD%,0x00000000
+
+HKR,"FX\\2",%PKEY_ItemNameDisplay%,,%SYSFX_FriendlyName%
+;HKR,"FX\\2",%PKEY_FX_StreamEffectClsid%,,%SYSFX_SFX_CLSID%
+HKR,"FX\\2",%PKEY_FX_EndpointEffectClsid%,,%SYSFX_EFX_CLSID%
+HKR,"FX\\2",%PKEY_SFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+HKR,"FX\\2",%PKEY_EFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+HKR,"FX\\2",%PKEY_SYSFX_Association%,,%KSNODETYPE_HEAD_MOUNTED_DISPLAY_AUDIO%
+HKR,"FX\\2",%PKEY_AudioEndpoint_Disable_SysFx%,%REG_DWORD%,0x00000000
+
+HKR,"FX\\3",%PKEY_ItemNameDisplay%,,%SYSFX_FriendlyName%
+;HKR,"FX\\3",%PKEY_FX_StreamEffectClsid%,,%SYSFX_SFX_CLSID%
+HKR,"FX\\3",%PKEY_FX_EndpointEffectClsid%,,%SYSFX_EFX_CLSID%
+HKR,"FX\\3",%PKEY_SFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+HKR,"FX\\3",%PKEY_EFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+HKR,"FX\\3",%PKEY_SYSFX_Association%,,%KSNODETYPE_DESKTOP_SPEAKER%
+HKR,"FX\\3",%PKEY_AudioEndpoint_Disable_SysFx%,%REG_DWORD%,0x00000000
+
+HKR,"FX\\4",%PKEY_ItemNameDisplay%,,%SYSFX_FriendlyName%
+;HKR,"FX\\4",%PKEY_FX_StreamEffectClsid%,,%SYSFX_SFX_CLSID%
+HKR,"FX\\4",%PKEY_FX_EndpointEffectClsid%,,%SYSFX_EFX_CLSID%
+HKR,"FX\\4",%PKEY_SFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+HKR,"FX\\4",%PKEY_EFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+HKR,"FX\\4",%PKEY_SYSFX_Association%,,%KSNODETYPE_ROOM_SPEAKER%
+HKR,"FX\\4",%PKEY_AudioEndpoint_Disable_SysFx%,%REG_DWORD%,0x00000000
+
+HKR,"FX\\5",%PKEY_ItemNameDisplay%,,%SYSFX_FriendlyName%
+;HKR,"FX\\5",%PKEY_FX_StreamEffectClsid%,,%SYSFX_SFX_CLSID%
+HKR,"FX\\5",%PKEY_FX_EndpointEffectClsid%,,%SYSFX_EFX_CLSID%
+HKR,"FX\\5",%PKEY_SFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+HKR,"FX\\5",%PKEY_EFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+HKR,"FX\\5",%PKEY_SYSFX_Association%,,%KSNODETYPE_COMMUNICATION_SPEAKER%
+HKR,"FX\\5",%PKEY_AudioEndpoint_Disable_SysFx%,%REG_DWORD%,0x00000000
+
+HKR,"FX\\6",%PKEY_ItemNameDisplay%,,%SYSFX_FriendlyName%
+;HKR,"FX\\6",%PKEY_FX_StreamEffectClsid%,,%SYSFX_SFX_CLSID%
+HKR,"FX\\6",%PKEY_FX_EndpointEffectClsid%,,%SYSFX_EFX_CLSID%
+HKR,"FX\\6",%PKEY_SFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+HKR,"FX\\6",%PKEY_EFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+HKR,"FX\\6",%PKEY_SYSFX_Association%,,%KSNODETYPE_HANDSET%
+HKR,"FX\\6",%PKEY_AudioEndpoint_Disable_SysFx%,%REG_DWORD%,0x00000000
+
+HKR,"FX\\7",%PKEY_ItemNameDisplay%,,%SYSFX_FriendlyName%
+;HKR,"FX\\7",%PKEY_FX_StreamEffectClsid%,,%SYSFX_SFX_CLSID%
+HKR,"FX\\7",%PKEY_FX_EndpointEffectClsid%,,%SYSFX_EFX_CLSID%
+HKR,"FX\\7",%PKEY_SFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+HKR,"FX\\7",%PKEY_EFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+HKR,"FX\\7",%PKEY_SYSFX_Association%,,%KSNODETYPE_HEADSET%
+HKR,"FX\\7",%PKEY_AudioEndpoint_Disable_SysFx%,%REG_DWORD%,0x00000000
+
+HKR,"FX\\8",%PKEY_ItemNameDisplay%,,%SYSFX_FriendlyName%
+;HKR,"FX\\8",%PKEY_FX_StreamEffectClsid%,,%SYSFX_SFX_CLSID%
+HKR,"FX\\8",%PKEY_FX_EndpointEffectClsid%,,%SYSFX_EFX_CLSID%
+HKR,"FX\\8",%PKEY_SFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+HKR,"FX\\8",%PKEY_EFX_ProcessingModes_Supported_For_Streaming%,0x00010000,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%
+HKR,"FX\\8",%PKEY_SYSFX_Association%,,%KSNODETYPE_ECHO_CANCELING_SPEAKERPHONE%
+HKR,"FX\\8",%PKEY_AudioEndpoint_Disable_SysFx%,%REG_DWORD%,0x00000000
+
+[SRUSBAudio.SysFx.Interfaces]
+AddInterface=%KSCATEGORY_AUDIO%,"GLOBAL",SRUSBAudio.SysFx.PrimaryHeadphonesWave
+AddInterface=%KSCATEGORY_RENDER%,"GLOBAL",SRUSBAudio.SysFx.PrimaryHeadphonesWave
+AddInterface=%KSCATEGORY_AUDIO%,"GLOBAL",SRUSBAudio.SysFx.PrimaryHeadphonesTopo
+AddInterface=%KSCATEGORY_TOPOLOGY%,"GLOBAL",SRUSBAudio.SysFx.PrimaryHeadphonesTopo
+
+[SRUSBAudio.SysFx.PrimaryHeadphonesWave]
+AddReg=SRUSBAudio.SysFx.PrimaryHeadphonesWave.AddReg
+
+[SRUSBAudio.SysFx.PrimaryHeadphonesWave.AddReg]
+HKR,"EP\\0",FriendlyName,,%PrimarySpeakersWaveDeviceName%
+HKR,"EP\\0",CLSID,,%Proxy.CLSID%
+HKR,"EP\\0",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_SPEAKER%
+HKR,"EP\\0",%PKEY_SEAPO_IsSupported%,%REG_DWORD%,0x00000001
+
+HKR,"EP\\1",FriendlyName,,%PrimarySpeakersWaveDeviceName%
+HKR,"EP\\1",CLSID,,%Proxy.CLSID%
+HKR,"EP\\1",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HEADPHONES%
+HKR,"EP\\1",%PKEY_SEAPO_IsSupported%,%REG_DWORD%,0x00000001
+
+HKR,"EP\\2",FriendlyName,,%PrimarySpeakersWaveDeviceName%
+HKR,"EP\\2",CLSID,,%Proxy.CLSID%
+HKR,"EP\\2",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HEAD_MOUNTED_DISPLAY_AUDIO%
+HKR,"EP\\2",%PKEY_SEAPO_IsSupported%,%REG_DWORD%,0x00000001
+
+HKR,"EP\\3",FriendlyName,,%PrimarySpeakersWaveDeviceName%
+HKR,"EP\\3",CLSID,,%Proxy.CLSID%
+HKR,"EP\\3",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_DESKTOP_SPEAKER%
+HKR,"EP\\3",%PKEY_SEAPO_IsSupported%,%REG_DWORD%,0x00000001
+
+HKR,"EP\\4",FriendlyName,,%PrimarySpeakersWaveDeviceName%
+HKR,"EP\\4",CLSID,,%Proxy.CLSID%
+HKR,"EP\\4",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ROOM_SPEAKER%
+HKR,"EP\\4",%PKEY_SEAPO_IsSupported%,%REG_DWORD%,0x00000001
+
+HKR,"EP\\5",FriendlyName,,%PrimarySpeakersWaveDeviceName%
+HKR,"EP\\5",CLSID,,%Proxy.CLSID%
+HKR,"EP\\5",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_COMMUNICATION_SPEAKER%
+HKR,"EP\\5",%PKEY_SEAPO_IsSupported%,%REG_DWORD%,0x00000001
+
+HKR,"EP\\6",FriendlyName,,%PrimarySpeakersWaveDeviceName%
+HKR,"EP\\6",CLSID,,%Proxy.CLSID%
+HKR,"EP\\6",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HANDSET%
+HKR,"EP\\6",%PKEY_SEAPO_IsSupported%,%REG_DWORD%,0x00000001
+
+HKR,"EP\\7",FriendlyName,,%PrimarySpeakersWaveDeviceName%
+HKR,"EP\\7",CLSID,,%Proxy.CLSID%
+HKR,"EP\\7",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HEADSET%
+HKR,"EP\\7",%PKEY_SEAPO_IsSupported%,%REG_DWORD%,0x00000001
+
+HKR,"EP\\8",FriendlyName,,%PrimarySpeakersWaveDeviceName%
+HKR,"EP\\8",CLSID,,%Proxy.CLSID%
+HKR,"EP\\8",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ECHO_CANCELING_SPEAKERPHONE%
+HKR,"EP\\8",%PKEY_SEAPO_IsSupported%,%REG_DWORD%,0x00000001
+
+[SRUSBAudio.SysFx.PrimaryHeadphonesTopo]
+AddReg=SRUSBAudio.PrimaryHeadphonesTopo.AddReg,SysFx.AddReg
+
+[SRUSBAudio.PrimaryHeadphonesTopo.AddReg]
+HKR,"EP\\0",FriendlyName,,%PrimarySpeakersTopoDeviceName%
+HKR,"EP\\0",CLSID,,%Proxy.CLSID%
+HKR,"EP\\0",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_SPEAKER%
+HKR,"EP\\0",%PKEY_SEAPO_IsSupported%,%REG_DWORD%,0x00000001
+
+HKR,"EP\\1",FriendlyName,,%PrimarySpeakersTopoDeviceName%
+HKR,"EP\\1",CLSID,,%Proxy.CLSID%
+HKR,"EP\\1",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HEADPHONES%
+HKR,"EP\\1",%PKEY_SEAPO_IsSupported%,%REG_DWORD%,0x00000001
+
+HKR,"EP\\2",FriendlyName,,%PrimarySpeakersTopoDeviceName%
+HKR,"EP\\2",CLSID,,%Proxy.CLSID%
+HKR,"EP\\2",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HEAD_MOUNTED_DISPLAY_AUDIO%
+HKR,"EP\\2",%PKEY_SEAPO_IsSupported%,%REG_DWORD%,0x00000001
+
+HKR,"EP\\3",FriendlyName,,%PrimarySpeakersTopoDeviceName%
+HKR,"EP\\3",CLSID,,%Proxy.CLSID%
+HKR,"EP\\3",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_DESKTOP_SPEAKER%
+HKR,"EP\\3",%PKEY_SEAPO_IsSupported%,%REG_DWORD%,0x00000001
+
+HKR,"EP\\4",FriendlyName,,%PrimarySpeakersTopoDeviceName%
+HKR,"EP\\4",CLSID,,%Proxy.CLSID%
+HKR,"EP\\4",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ROOM_SPEAKER%
+HKR,"EP\\4",%PKEY_SEAPO_IsSupported%,%REG_DWORD%,0x00000001
+
+HKR,"EP\\5",FriendlyName,,%PrimarySpeakersTopoDeviceName%
+HKR,"EP\\5",CLSID,,%Proxy.CLSID%
+HKR,"EP\\5",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_COMMUNICATION_SPEAKER%
+HKR,"EP\\5",%PKEY_SEAPO_IsSupported%,%REG_DWORD%,0x00000001
+
+HKR,"EP\\6",FriendlyName,,%PrimarySpeakersTopoDeviceName%
+HKR,"EP\\6",CLSID,,%Proxy.CLSID%
+HKR,"EP\\6",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HANDSET%
+HKR,"EP\\6",%PKEY_SEAPO_IsSupported%,%REG_DWORD%,0x00000001
+
+HKR,"EP\\7",FriendlyName,,%PrimarySpeakersTopoDeviceName%
+HKR,"EP\\7",CLSID,,%Proxy.CLSID%
+HKR,"EP\\7",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_HEADSET%
+HKR,"EP\\7",%PKEY_SEAPO_IsSupported%,%REG_DWORD%,0x00000001
+
+HKR,"EP\\8",FriendlyName,,%PrimarySpeakersTopoDeviceName%
+HKR,"EP\\8",CLSID,,%Proxy.CLSID%
+HKR,"EP\\8",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ECHO_CANCELING_SPEAKERPHONE%
+HKR,"EP\\8",%PKEY_SEAPO_IsSupported%,%REG_DWORD%,0x00000001
+
+[Strings]
+; see audioenginebaseapo.idl for APO_FLAG enum values
+SFX_APO_FLAG_DEFAULT = 0x0000000D
+MFX_APO_FLAG_DEFAULT = 0x0000000F
+EFX_APO_FLAG_DEFAULT = 0x0000000F
+
+REG_DWORD = 0x00010001
+
+ProviderName   ="Sound Research Corp."
+MfgName        ="Sound Research Corp."
+SRCopyRight    ="Copyright (c) Sound Research Corp."
+DiskDescription="Installation Media"
+
+USB\VID_03F0&PID_3D41&MI_00.DeviceDesc="Sombra (Sound Research)"
+USB\VID_03F0&PID_3D41&MI_03.DeviceDesc="Sombra (Sound Research)"
+
+MediaCategories="SYSTEM\CurrentControlSet\Control\MediaCategories"
+
+KSNAME_WaveHeadphones    ="WaveHeadphones"
+KSNAME_TopologyHeadphones="TopologyHeadphones"
+
+PrimarySpeakersWaveDeviceName ="Sound Research Speakers"
+PrimarySpeakersTopoDeviceName ="Sound Research Speakers Topo"
+
+PKEY_SYSFX_Association="{D04E05A6-594B-4FB6-A80D-01AF5EED7D1D},0"
+
+PKEY_FX_StreamEffectClsid  ="{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},5"
+PKEY_FX_ModeEffectClsid    ="{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},6"
+PKEY_FX_EndpointEffectClsid="{D04E05A6-594B-4fb6-A80D-01AF5EED7D1D},7"
+
+PKEY_ItemNameDisplay="{B725F130-47EF-101A-A5F1-02608C9EEBAC},10"
+
+SYSFX_FriendlyName="Sound Research Audio Enhancement"
+
+SYSFX_SFX_CLSID="{95D5CF70-0B1E-4371-9A13-34102E1F62B0}"
+SYSFX_MFX_CLSID="{04A4ED52-315C-4C18-929F-F87CA2646CEC}"
+SYSFX_EFX_CLSID="{2D1B55AC-A08B-483C-A7E8-6E97825C2BAD}"
+
+SYSFX_TypeLib_CLSID="{854E2844-3053-4C07-80F8-119B4DB14BC6}"
+
+SYSFX_SFX_FriendlyName="SEAPOLFXSFX"
+SYSFX_MFX_FriendlyName="SEAPOGFXMFX"
+SYSFX_EFX_FriendlyName="SEAPOEFX"
+
+SYSFX_SFX_CLASS_FriendlyName="SEAPOSFX Class"
+SYSFX_MFX_CLASS_FriendlyName="SEAPOMFX Class"
+SYSFX_EFX_CLASS_FriendlyName="SEAPOEFX Class"
+
+KSCATEGORY_AUDIO     ="{6994AD04-93EF-11D0-A3CC-00A0C9223196}"
+KSCATEGORY_RENDER    ="{65E8773E-8F56-11D0-A3B9-00A0C9223196}"
+KSCATEGORY_CAPTURE   ="{65E8773D-8F56-11D0-A3B9-00A0C9223196}"
+KSCATEGORY_REALTIME  ="{EB115FFC-10C8-4964-831D-6DCB02E6F23F}"
+KSCATEGORY_TOPOLOGY  ="{DDA54A40-1E4C-11D1-A050-405705C10000}"
+
+KSNODETYPE_ANY       ="{00000000-0000-0000-0000-000000000000}"
+KSNODETYPE_SPEAKER   ="{DFF21CE1-F70F-11D0-B917-00A0C9223196}"
+KSNODETYPE_HEADPHONES="{DFF21CE2-F70F-11D0-B917-00A0C9223196}"
+KSNODETYPE_HEAD_MOUNTED_DISPLAY_AUDIO="{DFF21CE3-F70F-11D0-B917-00A0C9223196}"
+KSNODETYPE_DESKTOP_SPEAKER="{DFF21CE4-F70F-11D0-B917-00A0C9223196}"
+KSNODETYPE_ROOM_SPEAKER="{DFF21CE5-F70F-11D0-B917-00A0C9223196}"
+KSNODETYPE_COMMUNICATION_SPEAKER="{DFF21CE6-F70F-11D0-B917-00A0C9223196}"
+KSNODETYPE_LOW_FREQUENCY_EFFECTS_SPEAKER="{DFF21CE6-F70F-11D0-B917-00A0C9223196}"
+KSNODETYPE_HANDSET="{DFF21DE1-F70F-11D0-B917-00A0C9223196}"
+KSNODETYPE_HEADSET="{DFF21DE2-F70F-11D0-B917-00A0C9223196}"
+KSNODETYPE_ECHO_CANCELING_SPEAKERPHONE="{DFF21DE5-F70F-11D0-B917-00A0C9223196}"
+
+PKEY_AudioEndpoint_Disable_SysFx="{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},5"
+
+Proxy.CLSID="{17CCA71B-ECD7-11D0-B908-00A0C9223196}"
+
+PKEY_SFX_ProcessingModes_Supported_For_Streaming="{D3993A3F-99C2-4402-B5EC-A92A0367664B},5"
+PKEY_MFX_ProcessingModes_Supported_For_Streaming="{D3993A3F-99C2-4402-B5EC-A92A0367664B},6"
+PKEY_EFX_ProcessingModes_Supported_For_Streaming="{D3993A3F-99C2-4402-B5EC-A92A0367664B},7"
+
+PKEY_SEAPO_IsSupported="{{6A6414E7-39E4-491F-8B8C-C9028AC7D659}, 1}"
+
+AUDIO_SIGNALPROCESSINGMODE_RAW="{9E90EA20-B493-4FD1-A1A8-7E1361A956CF}"
+AUDIO_SIGNALPROCESSINGMODE_DEFAULT="{C18E2F7E-933D-4965-B7D1-1EEF228D2AF3}"
+AUDIO_SIGNALPROCESSINGMODE_COMMUNICATIONS="{98951333-B9CD-48B1-A0A3-FF40682D73F7}"
+AUDIO_SIGNALPROCESSINGMODE_SPEECH="{FC1CFC9B-B9D6-4CFA-B5E0-4BB2166878B2}"
+AUDIO_SIGNALPROCESSINGMODE_NOTIFICATION="{9CF2A70B-F377-403B-BD6B-360863E0355C}"
+AUDIO_SIGNALPROCESSINGMODE_MEDIA="{4780004E-7133-41D8-8C74-660DADD2C0EE}"
+AUDIO_SIGNALPROCESSINGMODE_MOVIE="{B26FEB0D-EC94-477C-9494-D1AB8E753F6E}"
+
+PKEY_AudioEndpoint_Association="{1DA5D803-D492-4EDD-8C23-E0C0FFEE7F0E},2"
+PKEY_AudioEndpoint_FormFactor="{1da5d803-d492-4edd-8c23-e0c0ffee7f0e},0"
+PKEY_AudioEndpoint_JackSubType="{1da5d803-d492-4edd-8c23-e0c0ffee7f0e},8"
+PKEY_AudioEngine_OEMFormat="{E4870E26-3CC5-4CD2-BA46-CA0A9A70ED04},3"
