@@ -10,7 +10,7 @@ ClassGuid={4d36e96c-e325-11ce-bfc1-08002be10318}
 Provider=%OrganizationName%
 DriverPackageType=PlugAndPlay
 DriverPackageDisplayName=%PackageDisplayName%
-DriverVer=10/31/2019, 6.0.8827.1
+DriverVer=11/05/2019, 6.0.8832.1
 
 [SourceDisksNames]
 222="Realtek HD Audio Installation Disk",,,
