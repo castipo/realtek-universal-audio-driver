@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %MAXIM%
 ExtensionId = {AAD66885-D20F-461F-88ED-6F473E2A923E}
-DriverVer = 01/24/2019,17.50.55.481
+DriverVer = 10/08/2019,18.48.20.251
 CatalogFile = maximextension.cat
 
 [Manufacturer]
@@ -13,6 +13,8 @@ CatalogFile = maximextension.cat
 [DeviceExtensions.NTamd64]
 %Device.ExtensionDesc% = DeviceExtension_1025133F_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_1025133F
 %Device.ExtensionDesc% = DeviceExtension_10251344_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_10251344
+%Device.ExtensionDesc% = DeviceExtension_1025141D_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_1025141D
+%Device.ExtensionDesc% = DeviceExtension_1025141E_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_1025141E
 
 [DeviceExtension_1025133F_Install]
 AddReg = IntcAzAudModelAddReg, IntcAzAudModel_1025133F_AddReg
@@ -20,10 +22,22 @@ AddReg = IntcAzAudModelAddReg, IntcAzAudModel_1025133F_AddReg
 [DeviceExtension_10251344_Install]
 AddReg = IntcAzAudModelAddReg, IntcAzAudModel_1025133F_AddReg
 
+[DeviceExtension_1025141D_Install]
+AddReg = IntcAzAudModelAddReg, IntcAzAudModel_1025133F_AddReg
+
+[DeviceExtension_1025141E_Install]
+AddReg = IntcAzAudModelAddReg, IntcAzAudModel_1025133F_AddReg
+
 [DeviceExtension_1025133F_Install.Components]
 AddComponent = MaximSRV,,MaximSRV_Install
 
 [DeviceExtension_10251344_Install.Components]
+AddComponent = MaximSRV,,MaximSRV_Install
+
+[DeviceExtension_1025141D_Install.Components]
+AddComponent = MaximSRV,,MaximSRV_Install
+
+[DeviceExtension_1025141E_Install.Components]
 AddComponent = MaximSRV,,MaximSRV_Install
 
 [IntcAzAudModelAddReg]
