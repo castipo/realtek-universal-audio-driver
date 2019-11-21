@@ -6,6 +6,11 @@ Changes
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 DATE		EXT version	       APO version	Changes
 -------------------------------------------------------------------------------------------------------------------------------------------------------
+11/21/2019      15.74.34.3325          2.0.8.64         cPC Bibury tuning update to fix distortion under iSST
+                                                        cNB Aldrin now use Irwin tuning 111919
+                                                        cNB Irwin preset update 111919
+                                                        cNB Baffin now use tuning 111819
+                                                        cPC Volfoni music preset update B&O MV tuning disable auto level and eq 9k
 11/17/2019      15.73.93.3847          2.0.8.64         cPC Volfoni remove MBDRC settings in music preset (Jonny's preset)
                                                         cNB Hawking now use Hedwig tuning
                                                         CMIT 400 Pimrose now use tuning 111519
@@ -408,11 +413,11 @@ DATE		EXT version	       APO version	Changes
 06/09/2018	15.28.52.9462		2.0.8.19	Spiderman
 
 =======================================================================================================================================
-All supported IDs as of 11/18/2019
+All supported IDs as of 11/21/2019
 ---------------------------------------------------------------------------------------------------------------------------------------
 PROJECT NAME		MUSIC PRESET FILE	FULL HWID
 ---------------------------------------------------------------------------------------------------------------------------------------
-Aldrin LPAP		Aldrin 111619		HDAUDIO\FUNC_01&VEN_10EC&DEV_0245&SUBSYS_103C876E ;  AMD Renoir FP6 ALC3315
+Aldrin LPAP		Irwin 111919		HDAUDIO\FUNC_01&VEN_10EC&DEV_0245&SUBSYS_103C876E ;  AMD Renoir FP6 ALC3315
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0245&SUBSYS_103C876F ;  AMD Renoir FP6 ALC3315
 Andaman 14 HDA		Andaman 040519		HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C864A ; Andaman 14  Intel Kaby  ALC3247
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C864B ; Andaman 14  Intel Whisky ALC3247
@@ -423,6 +428,10 @@ Ashmore LPAP		Hedwig 011118		HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C85E0 ;
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C85E1 ; Ashmore Picasso DIS
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C879E ; Ashmore Dali ALC3247
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C879F ; Ashmore Dali ALC3247
+Baffin iSST		Baffin 111819		INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C86E5 ; Baffin ALC3292
+						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C86E6 ; Baffin ALC3292
+						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C86E7 ; Baffin ALC3292
+						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C86E8 ; Baffin ALC3292
 Bedarra1.0 HDA		Burrito 010518		HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C867A ; Bedarra1.0 14 EMMC ALC3247
 Bolton APO		Lannister 020718	HDAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_103C84E5 ; Bolton1.1 Soney UMA
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_103C84E6 ; Bolton1.1 Soney DIS
@@ -619,7 +628,7 @@ Hedwig Ashmore iSST	Hedwig 011118		INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_1
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C865F ; Hedwig WHL/KBL/GML
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C8629 ; Ramla WHL + UMA
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C862A ; Ramla WHL + AMD
-Irwin iSST		Irwin 111219		INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C8757 ;  Irwin ALC3315
+Irwin iSST		Irwin 111919		INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C8757 ;  Irwin ALC3315
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C875B ;  Irwin ALC3315
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0245&SUBSYS_103C8757 ;  Irwin ALC3315
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0245&SUBSYS_103C875B ;  Irwin ALC3315
@@ -718,11 +727,7 @@ Okinawa iSST		Okinawa 121118		INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C85
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C86B0 ; Okinawa 17 DIS ALC3292
 Placeholder HDA		Spiderman 090518	HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_103C8773 ; Gemini Lake-R ALC3314
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C8721 ; Solaris ALC3315 WCOS
-Placeholder iSST	Spiderman 090518	INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C86E5 ; Baffin ALC3292
-						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C86E6 ; Baffin ALC3292
-						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C86E7 ; Baffin ALC3292
-						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C86E8 ; Baffin ALC3292
-						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C8756 ; Borman ALC3315
+Placeholder iSST	Spiderman 090518	INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C8756 ; Borman ALC3315
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C875A ; Borman ALC3315
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C875D ; Borman ALC3315
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C875C ;  Cernan ALC3315
@@ -858,11 +863,11 @@ Weasley APO		Potter_Weasley		HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C84AC ;
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C863C ; Weasley S 15 Stoney   UMA
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C863D ; Weasley S 15 Stoney   R17M
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C867F
-Bibury APO		Bibury 101619		HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86F1 ; Bibury AMD Renoir Weaver
+Bibury APO		Bibury 112119		HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86F1 ; Bibury AMD Renoir Weaver
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86F2 ; Bibury AMD Dali Monk-D
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86F3 ; Bibury AMD Picasso Monk-P
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86F0 ; Bibury Intel GLK Timber
-Bibury iSST		Bibury 101619		INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86F7 ; Bibury Intel CML-S Village
+Bibury iSST		Bibury 112119		INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86F7 ; Bibury Intel CML-S Village
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86F8 ; Bibury Intel CML-U Mill-C
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86EF ; Bibury Intel WHL-U Mill-W
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C87A4 ; Bibury Intel ICL
@@ -954,7 +959,7 @@ Tower			Desktop 092416		HDAUDIO\FUNC_01&VEN_10EC&DEV_0671&SUBSYS_103C843B
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0222&SUBSYS_103C8751 ; Z2 Tower G5 Entry
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0222&SUBSYS_103C8752 ; Z2 SFF G5 Premium
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0222&SUBSYS_103C8753 ; Z2 SFF G5 Entry
-Volfoni			Volfoni B&O MV tuning disable auto level	INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_103C86C6
+Volfoni			Volfoni B&O MV tuning disable auto level and eq 9k	INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_103C86C6
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_103C86C7
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_10EC0274
 2020 800 series 13 14	800 13 14 102819	INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C8723  ; 800 Camellia 13  ALC3292
