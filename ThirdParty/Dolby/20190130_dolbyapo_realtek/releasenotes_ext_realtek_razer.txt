@@ -1,0 +1,43 @@
+Dec_12_2018:
+-----------------------------------
+1. Add ext_razer_blade(charlotte2)_rs4_rs5_v227
+
+Nov_30_2018:
+-----------------------------------
+1. Add ext_razer_blade(charlotte2)_rs4_rs5_v226
+
+Oct_11_2018:
+-----------------------------------
+1. Add ext_razer_blade_stealth(hazel4)_rs4_v226
+
+Oct_08_2018:
+-----------------------------------
+1. Add ext_razer_blade_stealth(lynette)_rs4_v227
+
+Sep_10_2018:
+-----------------------------------
+1. Add ext_razer_blade_stealth(lynette)_rs4_v226
+
+Aug_27_2018:
+-----------------------------------
+1. Add ext_razer_dana_rs4_v222
+
+Aug_01_2018:
+-----------------------------------
+1. Add ext_razer_dana_rs3_rs4_v220
+
+May_25_2018:
+-----------------------------------
+1. Add ext_razer_blade_v222
+
+May_11_2018:
+-----------------------------------
+1. Add ext_razer_dana_v219
+
+May_7_2018:
+-----------------------------------
+1. Add ext_razer_blade_v221
+
+March_21_2018:
+-----------------------------------
+1. Add ext_razer_blade_v220
