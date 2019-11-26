@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {3ED78669-04CF-413C-A8DF-553436CEA20F}
-DriverVer   = 10/29/2019,1.5.2.322
+DriverVer   = 11/21/2019,1.5.2.331
 CatalogFile = DellAudioExtWaves.cat
 
 [SourceDisksNames]

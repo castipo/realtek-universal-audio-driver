@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OrganizationName%
 ExtensionId = {C3A63EDD-2D27-4B66-B155-5E94B43D926A}
-DriverVer   = 11/12/2019, 6.0.8838.1
+DriverVer   = 11/19/2019, 6.0.8844.1
 CatalogFile = HDXRTExt.cat
 
 [Manufacturer]
@@ -182,11 +182,20 @@ CatalogFile = HDXRTExt.cat
 ;Shuri 
 %Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809D6
 %Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809D7
+%Device.ExtensionDesc% = DeviceExtension_Install_Render_Offload_APO_Capture_APO_KD,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809D8
+%Device.ExtensionDesc% = DeviceExtension_Install_Render_Offload_APO_Capture_APO_KD,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809D9
+%Device.ExtensionDesc% = DeviceExtension_Install_Render_Offload_APO_Capture_APO_KD,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809FB
+%Device.ExtensionDesc% = DeviceExtension_Install_Render_Offload_APO_Capture_APO_KD,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809FC
 ;Hellcat
 %Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_102809DA
 %Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_102809DB
 %Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809DC
 %Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809E0
+%Device.ExtensionDesc% = DeviceExtension_Install_Render_Offload_APO_Capture_APO_KD,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809DF
+%Device.ExtensionDesc% = DeviceExtension_Install_Render_Offload_APO_Capture_APO_KD,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_10280A05
+%Device.ExtensionDesc% = DeviceExtension_Install_Render_Offload_APO_Capture_APO_KD,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_102809DD
+%Device.ExtensionDesc% = DeviceExtension_Install_Render_Offload_APO_Capture_APO_KD,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_102809DE
+%Device.ExtensionDesc% = DeviceExtension_Install_Render_Offload_APO_Capture_APO_KD,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809DE
 ;Stradale
 %Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_1028098F
 %Device.ExtensionDesc% = DeviceExtension_Install_Render_DSP_Capture_APO_KD, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_10280990

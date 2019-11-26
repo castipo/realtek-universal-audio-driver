@@ -11,7 +11,7 @@ ClassGUID={4d36e96c-e325-11ce-bfc1-08002be10318}
 Provider=%OrganizationName%
 DriverPackageType=PlugAndPlay
 DriverPackageDisplayName=%PackageDisplayName%
-DriverVer=10/25/2019,6.3.9600.2239
+DriverVer=11/08/2019,6.3.9600.2240
 
 [Manufacturer]
 %MfgName%=RtkUsbAudio,NTamd64.10.0...16299
@@ -173,7 +173,7 @@ DisplayName    = %RtkUsbAD.SvcDesc%
 ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
 StartType      = 3                  ; SERVICE_DEMAND_START
 ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
-ServiceBinary  = %10%\system32\drivers\RtUsbA64.2239.sys
+ServiceBinary  = %10%\system32\drivers\RtUsbA64.2240.sys
 
 ;============================================================================
 
@@ -181,7 +181,7 @@ ServiceBinary  = %10%\system32\drivers\RtUsbA64.2239.sys
 ;; Usb audio specific registry update sutff
 HKR,,SetupPreferredAudioDevices,3,01,00,00,00
 HKR,,AssociatedFilters,,"wdmaud,redbook"
-HKR,,Driver,,RtUsbA64.2239.sys
+HKR,,Driver,,RtUsbA64.2240.sys
 
 HKR,,CLSID,,%Proxy.CLSID%
 
@@ -198,8 +198,8 @@ HKR,Drivers\mixer\wdmaud.drv,Description,,%USBGenericDesc%
 HKR,Drivers\aux\wdmaud.drv,Description,,%USBGenericDesc%
 
 [RtkUsbAD.CopyList]
-RtUsbA64.2239.sys, RtUsbA64.sys ;change the sys filename
-RTUSBAIODAT.2239.DAT, RTUSBAIODAT.DAT ;change the DAT filename
+RtUsbA64.2240.sys, RtUsbA64.sys ;change the sys filename
+RTUSBAIODAT.2240.DAT, RTUSBAIODAT.DAT ;change the DAT filename
 
 [SysFx.AddReg]
 HKR,"EP\\0",%PKEY_AudioEndpoint_Association%,,%KSNODETYPE_ANY%
