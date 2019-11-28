@@ -1,0 +1,119 @@
+;===================================================================
+; Dolby DAX APO driver package
+; Copyright (c)2018, Dolby Laboratories, INC.
+;===================================================================
+[Version]
+Signature 	= "$Windows NT$"
+Class       = Extension
+ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Provider 	= %ManufacturerName%
+ExtensionId = {ABBECD5E-99F7-11E7-BF21-6C0B849889E1}
+CatalogFile = dax3_ext_rtk_dolbyatmossoundsystem.cat
+DriverVer = 04/24/2019,3.20201.233.0
+
+[Manufacturer]
+%ManufacturerName% = DeviceExtensions,NTamd64
+
+[DeviceExtensions.NTamd64]
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53205
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53204
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53203
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53202
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53224
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53223
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53222
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53221
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53216
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53215
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53214
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53213
+
+[DeviceExtension_Install.NT]
+AddReg = PresetAddReg, DolbyAPO_AddReg
+CopyFiles = DolbyAPO_CopyFiles
+
+[PresetAddReg]
+;; render endpoint settings
+HKR,InterfaceSetting,PrimaryLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                  ;; PrimaryLineOutTopo stands for Speakers(or Redirected headphone/speaker) endpoint
+HKR,InterfaceSetting,SingleLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                   ;; SingleLineOutTopo stands for Speakers(or Redirected headphone/speaker) endpoint
+HKR,InterfaceSetting,SecondaryLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset2"                ;; SecondaryLineOutTopo stands for Headphone endpoint
+;; ISST topologies
+HKR,InterfaceSetting,RearLineOutTopoSST,%REG_MULTI_SZ_APPEND%,"ApoPreset1"
+HKR,InterfaceSetting,RearLineOutTopoSST2,%REG_MULTI_SZ_APPEND%,"ApoPreset1"
+HKR,InterfaceSetting,RearLineOutTopoSST3,%REG_MULTI_SZ_APPEND%,"ApoPreset1"
+;; AMD topologies
+HKR,InterfaceSetting,RearLineOutTopoHAP,%REG_MULTI_SZ_APPEND%,"ApoPreset1"
+HKR,InterfaceSetting,RearLineOutTopoHAP3,%REG_MULTI_SZ_APPEND%,"ApoPreset1"
+
+[DolbyAPO_AddReg]
+; Add Dolby enabled device indicator string here.
+HKR, InterfaceSetting\ApoPreset1\EP\0, "{6CA6A085-3041-482B-9113-C61E7F250356},0",         ,"0.4.0"
+HKR, InterfaceSetting\ApoPreset2\EP\0, "{6CA6A085-3041-482B-9113-C61E7F250356},0",         ,"0.4.0"
+
+[DeviceExtension_Install.NT.Components]
+AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
+AddComponent = DolbyAPO_DAX3HSA,, DolbyAPO_ComponentInstall_DAX3HSA
+
+[DolbyAPO_ComponentInstall_DAX3APOSVC]
+ComponentIds = VEN_DOLBY&PID_DAX3APOSVC  ; Matches with SWC\VEN_DOLBY&PID_DAX3APOSVC
+
+[DolbyAPO_ComponentInstall_DAX3HSA]
+ComponentIds = VEN_DOLBY&PID_DAX3HSA_DolbyAtmosSoundSystem  ; Matches with SWC\VEN_DOLBY&PID_DAX3HSA_DolbyAtmosSoundSystem
+
+[SourceDisksNames]
+222="APO Installation Disk",,,
+
+[SourceDisksFiles]
+HDAUDIO_DEV_0256_SUBSYS_19E53205_PCI_SUBSYS_3E0419E5_settings.xml = 222
+HDAUDIO_DEV_0256_SUBSYS_19E53205_PCI_SUBSYS_3E0419E5.xml = 222
+HDAUDIO_DEV_0256_SUBSYS_19E53204_PCI_SUBSYS_3E0419E5_settings.xml = 222
+HDAUDIO_DEV_0256_SUBSYS_19E53204_PCI_SUBSYS_3E0419E5.xml = 222
+HDAUDIO_DEV_0256_SUBSYS_19E53203_PCI_SUBSYS_3E0419E5_settings.xml = 222
+HDAUDIO_DEV_0256_SUBSYS_19E53203_PCI_SUBSYS_3E0419E5.xml = 222
+HDAUDIO_DEV_0256_SUBSYS_19E53202_PCI_SUBSYS_3E0419E5_settings.xml = 222
+HDAUDIO_DEV_0256_SUBSYS_19E53202_PCI_SUBSYS_3E0419E5.xml = 222
+INTELAUDIO_DEV_0256_SUBSYS_19E53224_PCI_SUBSYS_3E1319E5.xml = 222
+INTELAUDIO_DEV_0256_SUBSYS_19E53223_PCI_SUBSYS_3E1319E5.xml = 222
+INTELAUDIO_DEV_0256_SUBSYS_19E53222_PCI_SUBSYS_3E1319E5.xml = 222
+INTELAUDIO_DEV_0256_SUBSYS_19E53221_PCI_SUBSYS_3E1319E5.xml = 222
+INTELAUDIO_DEV_0256_SUBSYS_19E53216_PCI_SUBSYS_3E1219E5.xml = 222
+INTELAUDIO_DEV_0256_SUBSYS_19E53215_PCI_SUBSYS_3E1219E5.xml = 222
+INTELAUDIO_DEV_0256_SUBSYS_19E53214_PCI_SUBSYS_3E1219E5.xml = 222
+INTELAUDIO_DEV_0256_SUBSYS_19E53213_PCI_SUBSYS_3E1219E5.xml = 222
+operator_settings.xml = 222
+Headphone_Default_Generic_Small_SnG.xml = 222
+Headphone_Default_Generic_Medium_SnG.xml = 222
+Headphone_Default_Generic_Large_SnG.xml = 222
+Headphone_Default_Generic_Default_SnG.xml = 222
+
+[DestinationDirs]
+DolbyAPO_CopyFiles = 10,system32\dolbyaposvc
+
+[DolbyAPO_CopyFiles]
+HDAUDIO_DEV_0256_SUBSYS_19E53205_PCI_SUBSYS_3E0419E5_settings.xml
+HDAUDIO_DEV_0256_SUBSYS_19E53205_PCI_SUBSYS_3E0419E5.xml
+HDAUDIO_DEV_0256_SUBSYS_19E53204_PCI_SUBSYS_3E0419E5_settings.xml
+HDAUDIO_DEV_0256_SUBSYS_19E53204_PCI_SUBSYS_3E0419E5.xml
+HDAUDIO_DEV_0256_SUBSYS_19E53203_PCI_SUBSYS_3E0419E5_settings.xml
+HDAUDIO_DEV_0256_SUBSYS_19E53203_PCI_SUBSYS_3E0419E5.xml
+HDAUDIO_DEV_0256_SUBSYS_19E53202_PCI_SUBSYS_3E0419E5_settings.xml
+HDAUDIO_DEV_0256_SUBSYS_19E53202_PCI_SUBSYS_3E0419E5.xml
+INTELAUDIO_DEV_0256_SUBSYS_19E53224_PCI_SUBSYS_3E1319E5.xml
+INTELAUDIO_DEV_0256_SUBSYS_19E53223_PCI_SUBSYS_3E1319E5.xml
+INTELAUDIO_DEV_0256_SUBSYS_19E53222_PCI_SUBSYS_3E1319E5.xml
+INTELAUDIO_DEV_0256_SUBSYS_19E53221_PCI_SUBSYS_3E1319E5.xml
+INTELAUDIO_DEV_0256_SUBSYS_19E53216_PCI_SUBSYS_3E1219E5.xml
+INTELAUDIO_DEV_0256_SUBSYS_19E53215_PCI_SUBSYS_3E1219E5.xml
+INTELAUDIO_DEV_0256_SUBSYS_19E53214_PCI_SUBSYS_3E1219E5.xml
+INTELAUDIO_DEV_0256_SUBSYS_19E53213_PCI_SUBSYS_3E1219E5.xml
+operator_settings.xml
+Headphone_Default_Generic_Small_SnG.xml
+Headphone_Default_Generic_Medium_SnG.xml
+Headphone_Default_Generic_Large_SnG.xml
+Headphone_Default_Generic_Default_SnG.xml
+
+[Strings]
+ManufacturerName 	= "Dolby"
+Device.ExtensionDesc = "Dolby Device Extension"
+
+REG_MULTI_SZ_APPEND                           = 0x00010008

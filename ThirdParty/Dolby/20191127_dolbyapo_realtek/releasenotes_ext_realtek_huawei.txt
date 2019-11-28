@@ -1,0 +1,286 @@
+May_22_2019:
+-----------------------------------
+1. Add ext_huawei_AIO_rtk_rs5_19h1_v4.520.918.57
+	Updated models:
+		Wright-B
+		Kelvin-C
+
+May_17_2019:
+-----------------------------------
+1. Add ext_huawei_AIO_rtk_rs5_19h1_v4.516.211.00
+	Updated models:
+		Faraday		
+
+May_14_2019:
+-----------------------------------
+1. Add ext_huawei_AIO_rtk_rs5_19h1_v4.514.214.03
+	Updated models:
+		Hubble Halley 
+		
+Apr_26_2019:
+-----------------------------------
+1. Remove ext_huawei_mach_hybrid_dsp_v216
+2. Add ext_huawei_kepler_rs4_rs5_19h1_v233
+3. Add ext_huawei_mach_rs4_rs5_19h1_v233
+4. Add ext_huawei_wright_rs4_rs5_19h1_v228
+
+Apr_24_2019:
+-----------------------------------
+1. Add ext_huawei_euler_rs4_rs5_19h1_v231
+2. Add ext_huawei_kelvin_rs4_rs5_19h1_v237
+3. Add ext_huawei_AIO_rtk_rs4_rs5_19h1_v4.424.757.31
+	Updated models:
+		Hubble Halley 
+	
+Apr_22_2019:
+-----------------------------------
+1. Add ext_huawei_AIO_rtk_rs4_rs5_v4.422.558.56
+	Updated models:
+		Faraday
+
+Apr_19_2019:
+-----------------------------------
+1. Add ext_huawei_wright_rs4_rs5_v227
+
+Apr_16_2019:
+-----------------------------------
+1. Add ext_huawei_kelvin_rs4_rs5_v235
+2. Add ext_huawei_mach_rs4_rs5_v231
+3. Add ext_huawei_AIO_rtk_rs4_rs5_v4.416.326.19
+	Updated models:
+		Hubble Halley	
+		Nobel
+
+Apr_09_2019:
+-----------------------------------
+1. Add ext_huawei_AIO_rtk_rs4_rs5_v4.408.841.01
+	Updated models:
+		Bohr
+
+Mar_22_2019:
+-----------------------------------
+1. Add ext_huawei_euler_rs4_rs5_v230
+
+Mar_18_2019:
+-----------------------------------
+1. Add ext_huawei_euler_rs4_rs5_v229: use default.xml by wrong version
+
+Mar_15_2019:
+-----------------------------------
+1. Add ext_huawei_mach_rs4_rs5_v230
+2. Add ext_huawei_AIO_rtk_rs4_rs5_v4.314.753.32
+	Updated models:
+		Kepler-R and Volta-R	
+		
+Mar_12_2019:
+-----------------------------------
+1. Add ext_huawei_kelvin_rs4_rs5_v234
+2. Add ext_huawei_AIO_rtk_rs4_rs5_v4.312.133.02
+	Updated models:
+		Kepler-R and Volta-R		
+
+Feb_26_2019:
+-----------------------------------
+1. Add ext_huawei_wright_rs4_rs5_v226
+
+Feb_22_2019:
+-----------------------------------
+1. Add ext_huawei_mach_rs4_rs5_v229
+2. Add ext_huawei_AIO_rtk_rs4_rs5_v4.221.704.14
+	Updated models:
+		Hubble Halley
+		Nobel
+		Bohr
+
+Feb_19_2019:
+-----------------------------------
+1. Add ext_huawei_kelvin_rs4_rs5_v233
+2. Add ext_huawei_mach_rs4_rs5_v228
+
+Feb_15_2019:
+-----------------------------------
+1. Add ext_huawei_AIO_rtk_rs4_rs5_v4.214.516.57
+	Updated models:
+		Bohr
+		Nobel
+	
+Feb_1_2019:
+-----------------------------------
+1. Add ext_huawei_kelvin_rs4_rs5_v232
+
+Jan_29_2019:
+-----------------------------------
+1. Add ext_huawei_wright_rs4_rs5_v225
+
+Jan_17_2019:
+-----------------------------------
+1. Add ext_huawei_kelvin_rs4_rs5_v231
+2. Add ext_huawei_AIO_rtk_rs4_rs5_v4.117.641.35
+	Updated models:
+		Hubble Halley
+		
+Jan_09_2019:
+-----------------------------------
+1. Add ext_huawei_AIO_rtk_rs4_rs5_v4.109.517.56
+	Updated models:
+		Kepler-R and Volta-R
+
+Jan_03_2019:
+-----------------------------------
+1. Add ext_huawei_AIO_rtk_rs4_rs5_v4.102.959.19
+	Updated models:
+		Hubble Halley
+
+Dec_20_2018:
+-----------------------------------
+1. Add ext_huawei_mach_rs4_rs5_v227
+2. Add ext_huawei_kelvin_rs4_rs5_v230
+
+Dec_13_2018:
+-----------------------------------
+1. Remove ext_huawei_hubble_halley_rs4_rs5_v227
+2. Add ext_huawei_AIO_rtk_rs4_rs5_v3.1213.951.33
+	Updated models:
+		Hubble Halley
+
+Dec_12_2018:
+-----------------------------------
+1. Add ext_huawei_hubble_halley_rs4_rs5_v227
+
+Dec_07_2018:
+-----------------------------------
+1. Add ext_huawei_kepler_rs4_rs5_v232
+2. Add ext_huawei_AIO_rtk_rs4_rs5_v3.1207.827.01
+	Updated models:
+		Kepler-R and Volta-R
+
+Dec_03_2018:
+-----------------------------------
+1. Add ext_huawei_kelvin_rs4_rs5_v229
+
+Nov_30_2018:
+-----------------------------------
+1. Add ext_huawei_kepler_rs4_rs5_v231
+
+Nov_29_2018:
+-----------------------------------
+1. Add ext_huawei_mach_rs4_rs5_v226
+
+Nov_21_2018:
+-----------------------------------
+1. Add ext_huawei_kepler_rs4_rs5_v230
+
+Nov_06_2018:
+-----------------------------------
+1. Add ext_huawei_hubble_halley_rs3_rs4_rs5_v226
+
+Nov_02_2018:
+-----------------------------------
+1. Add ext_huawei_kelvin_rs3_rs4_v228
+
+Oct_23_2018:
+-----------------------------------
+1. Add ext_huawei_wright_rs3_rs4_v224
+
+Oct_17_2018:
+-----------------------------------
+1. Add ext_huawei_wright_rs4_v223
+
+Oct_17_2018:
+-----------------------------------
+1. Add ext_huawei_kelvin_rs4_v227
+
+Sep_27_2018:
+-----------------------------------
+1. Add ext_huawei_mach_rs4_v225
+
+Sep_12_2018:
+-----------------------------------
+1. Add ext_huawei_kepler_rs4_v229
+
+Aug_30_2018:
+-----------------------------------
+1. Add ext_huawei_mach_rs4_v224
+
+Aug_22_2018:
+-----------------------------------
+1. Add ext_huawei_wright_rs4_v222
+
+Aug_20_2018:
+-----------------------------------
+1. Add ext_huawei_kelvin_rs4_v226
+
+Aug_09_2018:
+-----------------------------------
+1. Add ext_huawei_wright_rs3_rs4_v221
+
+Aug_03_2018:
+-----------------------------------
+1. Temparorily remove ext_huawei_wright_rs3_rs4_v220: (Will merge back after DAX3 2.2 official GA)
+
+July_19_2018:
+-----------------------------------
+1. Add ext_huawei_wright_rs3_rs4_v220
+
+July_06_2018:
+-----------------------------------
+1. Add ext_huawei_wright_rs3_rs4_v219
+
+Jun_21_2018:
+-----------------------------------
+1. Rename ext_huawei_mach_rs3_rs4_v221 to ext_huawei_mach_rs3_v221
+
+Jun_12_2018:
+-----------------------------------
+1. Add ext_huawei_mach_rs3_rs4_v221
+
+May_29_2018:
+-----------------------------------
+1. Add ext_huawei_mach_v220
+
+May_08_2018:
+-----------------------------------
+1. Add ext_huawei_mach_hybrid_dsp_v216
+
+March_12_2018:
+-----------------------------------
+add ext_huawei_kepler_v222
+
+February_27_2018:
+-----------------------------------
+add ext_huawei_kepler_v221
+
+February_26_2018:
+-----------------------------------
+add ext_huawei_mach_v219
+
+February_12_2018:
+-----------------------------------
+add ext_huawei_kepler_v220
+
+February_9_2018:
+add ext_huawei_mach_v218
+
+January_25_2018:
+-----------------------------------
+add ext_huawei_kepler_v219
+remove ext_huawei_kepler v218
+
+January_15_2018:
+-----------------------------------
+Update: ext_huawei_mach_v217
+
+January_09_2018:
+-----------------------------------
+add ext_huawei_kepler_v218
+remove ext_huawei_kepler v217
+
+December_27_2017:
+-----------------------------------
+Update ext_huawei_kepler to: 2.0.217.0
+	Update tuning.
+
+December_21_2017:
+-----------------------------------
+ext_huawei_kepler: 2.0.216.0
+ext_huawei_mach: 2.0.216.0

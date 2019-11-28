@@ -1,0 +1,42 @@
+Nov_02_2018:
+-----------------------------------
+1. Add ext_gigabyte_aorus_rx9v8_rs3_rs4_v223
+
+Jun_10_2018:
+-----------------------------------
+1. Add ext_gigabyte_aorus_rx9v8_rs3_rs4_v222
+2. Add ext_gigabyte_aorus_x5xv8_rs3_rs4_v221
+
+Jun_08_2018:
+-----------------------------------
+1. Add ext_gigabyte_p65wv8_rs3_rs4_v222
+2. Add ext_gigabyte_p64k8_rs3_rs4_v222
+
+March_19_2018:
+-----------------------------------
+1. Add ext_gigabyte_aorus_rx7y8_v221
+2. Add ext_gigabyte_aorus_rx9v8_v222
+3. Add ext_gigabyte_aorus_x5xv8_v221
+4. Add ext_gigabyte_p64k8_v221
+5. Add ext_gigabyte_p65wv8_v221
+
+March_12_2018:
+-----------------------------------
+1. Add ext_gigabyte_aorus_rx7y8_v220
+
+February_27_2018:
+-----------------------------------
+1. Add ext_gigabyte_p65wv8_v220_2
+
+February_23_2018:
+-----------------------------------
+1. Add ext_gigabyte_aorus_rx9v8_v221
+2. Add ext_gigabyte_p64k8_v220
+
+February_23_2018:
+-----------------------------------
+1. Add ext_gigabyte_aorus_rx9v8_v220
+2. Add ext_gigabyte_aorus_x5xv8_v220
+3. Add ext_gigabyte_p65wv8_v220
+
+
