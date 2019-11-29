@@ -10,7 +10,7 @@ ClassGuid={4d36e96c-e325-11ce-bfc1-08002be10318}
 Provider=%OrganizationName%
 DriverPackageType=PlugAndPlay
 DriverPackageDisplayName=%PackageDisplayName%
-DriverVer=10/31/2019, 6.0.8827.1
+DriverVer=11/26/2019, 6.0.8849.1
 
 [SourceDisksNames]
 222="Realtek HD Audio Installation Disk",,,
@@ -114,6 +114,9 @@ DRMLevel=1300
 "Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1E266301
 "Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1E266302
 "Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1E266303
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1E266101
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1E266102
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1E266103
 
 "Realtek High Definition Audio" = IntcAzAudModel, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_1E26221A
 "Realtek High Definition Audio" = IntcAzAudModel, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_1E26221B
@@ -140,6 +143,13 @@ DRMLevel=1300
 "Realtek High Definition Audio" = IntcAzAudModel, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1E267504
 "Realtek High Definition Audio" = IntcAzAudModel, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1E267505
 
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1E26FD06
+"Realtek High Definition Audio" = IntcAzAudModel, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1E26FD06
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_1E26EF07
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_1E26E707
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_1E26A707
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_1E262708
+"Realtek High Definition Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1E260109
 [IntcAzAudModelCopyFiles]
 RTKVHD64.sys
 RTAIODAT.DAT
