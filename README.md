@@ -1,12 +1,12 @@
 # Realtek Universal Audio Driver (UAD)
 
-A non-official repository for downloading the lastest UAD components from Realtek FTP server.
+A non-official repository for downloading the lastest UAD components from Realtek FTP server. INFs extract from standalone driver packages labled with "WHQL".
 
 Wiki: https://github.com/alanfox2000/realtek-universal-audio-driver/wiki
 
 UAD and legacy HDA standalone packages can be found at [this repository](https://github.com/alanfox2000/realtek-hda-release).
 
-[![License: GPL v3](https://github.com/alanfox2000/realtek-universal-audio-driver/blob/master/LICENSE)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://raw.githubusercontent.com/alanfox2000/realtek-hda-release/master/LICENSE)
 
 ---------------------------------------
 
@@ -40,6 +40,13 @@ If your PC had preinstalled HDA driver with a desktop platform (non-UWP) of audi
 For Surface laptop, download UAD which labeled as Microsoft at [this repository](https://github.com/alanfox2000/realtek-hda-release/releases).
 
 Realtek HD Audio Codec Driver Patcher (A1) by Pihto (DTSi &DLL unlock) does not work on UAD.
+
+---------------------------------------
+#### Credits:
+
+File Hosting: Amazon S3 Server
+
+File Source: Realtek Semiconductor Corp. (ftp://ftp3.realtek.com)
 
 ---------------------------------------
 ## Support
