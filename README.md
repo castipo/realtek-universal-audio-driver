@@ -1,6 +1,6 @@
 # Realtek Universal Audio Driver (UAD)
 
-A non-official repository for downloading the lastest UAD components from Realtek FTP server. INFs extract from standalone driver packages labled with "WHQL".
+A non-official repository for downloading the lastest UAD components from Realtek FTP server. INFs were extracted from standalone driver packages labled with "WHQL".
 
 Wiki: https://github.com/alanfox2000/realtek-universal-audio-driver/wiki
 
