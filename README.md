@@ -6,6 +6,8 @@ Wiki: https://github.com/alanfox2000/realtek-universal-audio-driver/wiki
 
 UAD and legacy HDA standalone packages can be found at [this repository](https://github.com/alanfox2000/realtek-hda-release).
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://raw.githubusercontent.com/alanfox2000/realtek-hda-release/master/LICENSE)
+
 ---------------------------------------
 
 ## Requirement
