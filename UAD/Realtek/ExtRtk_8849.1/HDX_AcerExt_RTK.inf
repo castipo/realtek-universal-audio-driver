@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OrganizationName%
 ExtensionId = {C3A63EDD-2D27-4B66-B155-5E94B43D926A}
-DriverVer   = 10/31/2019, 6.0.8827.1
+DriverVer   = 11/26/2019, 6.0.8849.1
 CatalogFile = HDXRTExt.cat
 
 [Manufacturer]
@@ -211,6 +211,7 @@ CatalogFile = HDXRTExt.cat
 %Device.ExtensionDesc% = DeviceExtension_Install_1025135A,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1025135A
 %Device.ExtensionDesc% = DeviceExtension_Install_1025139B,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1025139B
 %Device.ExtensionDesc% = DeviceExtension_Install_1025139B,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1025139C
+%Device.ExtensionDesc% = DeviceExtension_Install_1025139B,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10251454
 %Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10251356
 %Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_10251358
 %Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1025135D
@@ -290,6 +291,12 @@ CatalogFile = HDXRTExt.cat
 %Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1025143B
 %Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1025143C
 %Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1025143A
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_10251453
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_1025144B
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_1025144C
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_10251435
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0269&SUBSYS_1025145A
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1025142F
 
 [DeviceExtension_Install]
 AddReg = IntcAzAudModelAddReg

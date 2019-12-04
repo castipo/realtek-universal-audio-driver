@@ -10,7 +10,7 @@ ClassGuid={4d36e96c-e325-11ce-bfc1-08002be10318}
 Provider=%OrganizationName%
 DriverPackageType=PlugAndPlay
 DriverPackageDisplayName=%PackageDisplayName%
-DriverVer=10/31/2019, 6.0.8827.1
+DriverVer=11/26/2019, 6.0.8849.1
 
 [SourceDisksNames]
 222="Realtek HD Audio Installation Disk",,,
@@ -47,6 +47,9 @@ DRMLevel=1300
 "Realtek Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1025134D
 "Realtek Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1025134E
 "Realtek Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1025142B
+"Realtek Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0255&SUBSYS_1025142E
+"Realtek Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_10251455
+"Realtek Audio" = IntcAzAudModel, HDAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_1025144F
 
 [IntcAzAudModelCopyFiles]
 RTKVHD64.sys
