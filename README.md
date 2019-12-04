@@ -1,4 +1,4 @@
-# Realtek Universal Audio Driver (UAD)
+## Realtek Universal Audio Driver (UAD)
 
 A non-official repository for downloading the lastest UAD components from Realtek FTP server. INFs were extracted from standalone driver packages labeled with "WHQL".
 
@@ -9,14 +9,12 @@ UAD and legacy HDA standalone packages can be found at [this repository](https:/
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://raw.githubusercontent.com/alanfox2000/realtek-hda-release/master/LICENSE)
 
 ---------------------------------------
-
-## Requirement
+### Requirement:
 
 Operating System: At least Windows 10 Version 1703 RS2 Build 15063 (64 Bit)
 
 ---------------------------------------
-
-## Latest Information
+### Latest Information:
 
 * <a href="https://www.station-drivers.com/index.php?option=com_kunena&view=topic&catid=18&id=17&Itemid=858&lang=en">Station-Drivers - [DRIVERS] Realtek High Definition Audio Codecs (HDA/UAD)</a>
 
@@ -31,7 +29,7 @@ Operating System: At least Windows 10 Version 1703 RS2 Build 15063 (64 Bit)
 * <a href="https://rsload.net/soft/21650-realtek-high-definition-audio-drivers.html">RSLOAD.NET - Realtek High Definition Audio Drivers</a>
 
 ---------------------------------------
-## Notice
+### Notice:
 
 This repository does not include Intel Smart Sound Technology driver (ISST) which included with some UAD standalone packages. Independent ISST driver dirver can be found on [here](https://www.station-drivers.com/index.php?option=com_kunena&view=topic&defaultmenu=860&Itemid=858&catid=18&id=238&lang=en&limitstart=6).
 
@@ -42,15 +40,13 @@ For Surface laptop, download UAD which labeled as Microsoft at [this repository]
 Realtek HD Audio Codec Driver Patcher (A1) by Pihto (DTSi &DLL unlock) does not work on UAD.
 
 ---------------------------------------
-#### Credits:
+### Credits:
 
 File Hosting: Amazon S3 Server
 
 File Source: Realtek Semiconductor Corp. (ftp://ftp3.realtek.com)
 
 ---------------------------------------
-## Support
+### Support:
 
 If you want to ![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg) for daily checking drivers update, you can [![Donate to this project using Paypal](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VK8CDPFUMCYPN&source=url) to the maintainer.
-
-
