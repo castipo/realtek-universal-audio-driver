@@ -1,3 +1,7 @@
+::
+:: Require PowerShell Module - CatalogTools
+:: https://github.com/mattifestation/CatalogTools
+::
 if "%~1"=="" (
 goto blank
 )
