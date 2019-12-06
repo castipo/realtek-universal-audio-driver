@@ -1,0 +1,581 @@
+Dec_06_2019:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs5_19h1_v4.1205.713.32
+	Updated models:
+		ThinkPad E14 Gen 2-AMD
+
+Nov_13_2019:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs5_19h1_v4.1112.817.18
+	Updated models:
+		ThinkPad 11e yoga (Leia)
+		ThinkPad X13 yoga (Bumblebee-2)
+
+Nov_07_2019:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs5_19h1_v4.1107.845.7
+	Updated models:
+		ThinkPad L14
+		ThinkPad L15
+		ThinkPad 11e yoga (Leia)
+		ThinkPad Thor-TP
+
+Nov_05_2019:
+-----------------------------------
+1. Add ext_lenovo_thinkpad_leia_rs4_rs5_19h1_v216
+2. Remove ext_lenovo_thinkpad_leia_v4.1030.131.21
+3. Add ext_thinkpad_AIO_rtk_rs5_19h1_v4.1105.218.32
+	Updated models:
+		ThinkPad X13 yoga(Bumblebee-2)
+		ThinkPad T14s AMD
+		ThinkPad 11e yoga (Leia)
+
+Oct_30_2019:
+-----------------------------------
+1. Add ext_lenovo_thinkpad_leia_v4.1030.131.21
+2. Add ext_thinkpad_AIO_rtk_rs5_19h1_v4.1029.1028.10
+	Updated models:
+		ThinkPad P15
+		ThinkPad T15
+
+Oct_18_2019:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs5_19h1_v4.1018.917.53
+	Updated models:
+		ThinkPad L14
+		ThinkPad L15
+		ThinkPad P15_P15G
+		ThinkPad P17
+		ThinkPad T14 AMD
+		ThinkPad T14s AMD
+		ThinkPad T15
+		ThinkPad X13 AMD
+		ThinkPad X1 (Knockout)
+		ThinkPad X1 (Ratchet)
+	Remove models:
+		ThinkPad T14	
+		ThinkPad X13
+		
+Oct_15_2019:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs5_19h1_v4.1016.1018.32
+	Updated models:
+		ThinkPad T14
+		ThinkPad X13
+
+Oct_04_2019:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs5_19h1_v4.1003.752.43
+	Updated models:
+		ThinkPad 11e (Confucius)
+		ThinkPad X1 Extreme Gen 3 (Padme-3)
+
+Sep_12_2019:
+-----------------------------------
+1. Add ext_lenovo_thinkpad_kei_rs4_rs5_19h1_v216 (add 19H1 logo) 
+
+Aug_30_2019:
+-----------------------------------
+1. Add ext_lenovo_thinkpad_leia_rs4_rs5_19h1_v216 (add 19H1 logo) 
+2. Add ext_lenovo_thinkpad_p1(padome)_rs3_rs4_rs5_19h1_v222 (add 19H1 logo)
+
+Aug_16_2019:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs5_19h1_v4.816.532.53
+	Updated models:
+		ThinkPad T14 AMD
+		ThinkPad T14s AMD
+		ThinkPad X13 AMD
+		
+Aug_01_2019:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs5_19h1_v4.801.121.03
+	Updated models:
+		ThinkPad E14 Gen 2-AMD
+		ThinkPad E15 Gen 2-AMD
+
+Jul_24_2019:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs5_19h1_v4.723.846.43
+	Updated models:
+		ThinkPad X13 Yoga (Bumblebee-2)
+
+Jun_20_2019:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_rs5_19h1_v4.619.647.41
+	Updated models:
+		ThinkPad 11e (Confucius)
+
+Jun_18_2019:
+-----------------------------------
+1. Remove ext_lenovo_thinksmart_hub700_rs4_rs5_19h1_v226 
+   Change to USB audio driver, move to "ext_realtek_usb_lenovo" folder
+2. Add ext_thinkpad_AIO_rtk_rs3_rs4_rs5_19h1_v4.617.618.55
+	Updated models:
+		ThinkPad L580 (Lando)
+		ThinkPad T490 (Drift)
+		ThinkPad X390 (Sideswipe)
+
+Jun_10_2019:
+-----------------------------------
+1. Add ext_lenovo_thinkpad_p52(walter3)_rs3_rs4_rs5_19h1_v219
+2. Add ext_lenovo_thinkpad_p72(Chiron)_rs3_rs4_rs5_19h1_v219
+
+Jun_06_2019:
+-----------------------------------
+1. Add ext_lenovo_thinkpad_p1(padome)_rs3_rs4_rs5_v222
+
+May_07_2019:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs3_rs4_rs5_19h1_v4.415.942.28
+	Updated models:
+		N/A: add RS3, 19H1 logo
+
+May_02_2019:
+-----------------------------------
+1. Add ext_lenovo_thinksmart_hub700_rs4_rs5_19h1_v226
+
+Apr_26_2019:
+-----------------------------------
+1. Add ext_lenovo_thinksmart_hub700_rs4_rs5_19h1_v225
+
+Apr_24_2019:
+-----------------------------------
+1. Add ext_lenovo_thinkpad_a285_rs3_rs4_rs5_v220
+2. Add ext_lenovo_thinkpad_a485_rs3_rs4_rs5_v219
+
+Apr_16_2019:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_rs5_v4.415.942.28
+	Updated models:
+		ThinkPad X1 (Knockout)
+		ThinkPad X1 (Ratchet)
+
+Apr_09_2019:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_rs5_v4.408.850.06
+	Updated models:
+		ThinkPad X390 (Sideswipe)
+		ThinkPad T490s (Jazz)
+		
+Mar_29_2019:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_rs5_v4.329.204.18
+	Updated models:
+		ThinkPad T490 (Drift)
+
+Mar_28_2019:
+-----------------------------------
+1. Add ext_lenovo_thinkpad_leia_rs3_rs4_rs5_v216
+
+Mar_22_2019:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_rs5_v4.320.859.47
+	Updated models:
+		ThinkPad X1 (Knockout)
+		ThinkPad X1 (Ratchet)
+
+Mar_08_2019:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_rs5_v4.308.936.45
+	Updated models:
+		ThinkPad X1 (Knockout)
+		ThinkPad X1 (Ratchet)
+		
+Mar_05_2019:
+-----------------------------------
+1. Add ext_lenovo_thinkpad_kei_rs4_rs5_v216
+2. Add ext_thinkpad_AIO_rtk_rs4_rs5_v4.304.458.35
+	Updated models:
+		ThinkPad L590 (Lando2)
+		ThinkPad L490 (Solo2)
+		
+Feb_26_2019:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_rs5_v4.225.900.42
+	Updated models:
+		ThinkPad L490 (Solo2)
+
+Feb_22_2019:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_rs5_v4.221.517.05
+	Updated models:
+		ThinkPad X1 (Ratchet)
+		
+Feb_19_2019:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_rs5_v4.219.640.00
+	Updated models:
+		ThinkPad X1 (Knockout)
+
+Feb_15_2019:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_rs5_v4.214.529.50
+	Updated models:
+		ThinkPad T490 (Drift)
+		
+Jan_4_2019:
+-----------------------------------
+1. Remove ext_lenovo_thinkpad_x390_yoga(bumblebee)_rs3_rs4_v222
+2. Add ext_thinkpad_AIO_rtk_rs4_rs5_v4.104.514.47
+	Updated models:
+		ThinkPad X390 Yoga (Bumblebee)
+		
+Dec_28_2018:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_rs5_v3.1227.950.16
+	Updated models: 
+		ThinkPad T590 (Ironhide)
+
+Dec_20_2018:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_rs5_v3.1220.804.02
+	Updated models:
+		ThinkPad T490s (Jazz)
+		ThinkPad X1 (Knockout)
+		ThinkPad X1 (Ratchet)
+		
+Dec_19_2018:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_rs5_v3.1219.250.32
+	Updated models:
+		ThinkPad P53s (Ironhide)
+		ThinkPad T490 (Drift)
+		ThinkPad T490s (Jazz)
+		ThinkPad T590 (Ironhide)
+		ThinkPad X390 (Sideswipe)
+
+Dec_12_2018:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_rs5_v3.1211.931.19
+	Updated models:
+		ThinkPad X1 Next
+		
+Dec_10_2018:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_rs5_v3.1210.858.18
+	Updated models:
+		ThinkPad L490 (Solo2)
+		ThinkPad L590 (Lando2)
+
+Dec_07_2018:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_rs5_v3.1206.744.18
+	Updated models:
+		ThinkPad X1 Next
+		
+Dec_04_2018:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_rs5_v3.1204.731.27
+	Updated models:
+		ThinkPad Knockout
+		
+Nov_30_2018:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_rs5_v3.1129.825.49
+	Updated models:
+		ThinkPad X390 Yoga (Bumblebee)
+
+Nov_26_2018:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_rs5_v3.1123.747.57
+	Updated models:
+		ThinkPad X1 (Ratchet)
+
+Nov_16_2018:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_rs5_v3.1114.927.56
+	Updated models:
+		ThinkPad X390 (Sideswipe)
+		ThinkPad T490s (Jazz)
+
+Nov_05_2018:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_v3.1102.729.44
+	Updated models:
+		ThinkPad X390 Yoga (Bumblebee)
+
+Oct_31_2018:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_v3.1031.154.00
+	Updated models:
+		ThinkPad L390 (Kylo2)
+
+Oct_29_2018:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_v3.1029.634.04
+	Updated models:
+		ThinkPad T490s (Jazz)
+		ThinkPad T590 (Ironhide)
+2. Add ext_lenovo_thinksmart_hub700_rs4_v224
+
+Oct_22_2018:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_v3.1019.717.10
+	Updated models:
+		ThinkPad X1 (Ratchet)
+		ThinkPad X1 (Knockout)
+
+Oct_17_2018:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_v3.1017.124.00
+	Updated models:
+		ThinkPad L390 (Kylo2)
+
+Oct_11_2018:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_v3.1010.525.06
+	Updated models:
+		ThinkPad L580 (Lando)
+
+Oct_08_2018:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_v3.1008.259.08
+	Updated models:
+		ThinkPad L480 (Solo)
+
+Sep_26_2018:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_v3.926.329.16:
+		Updated models:
+		ThinkPad L390 (Kylo2)
+		ThinkPad X390 (Sideswipe)
+
+Sep_25_2018:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_v3.925.538.06:
+		Updated models:
+		ThinkPad T590 (Ironhide)
+		ThinkPad T490 (Drift)
+		ThinkPad T490s (Jazz)
+
+Sep_12_2018:
+-----------------------------------
+1. Add ext_lenovo_thinksmart_hub700_rs3_rs4_v223
+
+Sep_06_2018:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_v3.906.345.18:
+		Updated models:
+		ThinkPad L390 (Kylo2)
+		ThinkPad X390 (Sideswipe)
+		ThinkPad T490s (Jazz)
+
+Aug_30_2018:
+-----------------------------------
+1. Add ext_thinkpad_AIO_rtk_rs4_v3.830.437.47:
+		Updated models:
+		ThinkPad X390 (Sideswipe)
+		ThinkPad T480 (Windu2)
+		ThinkPad L390 (Kylo2)
+2. Add ext_lenovo_thinkpad_kei_rs4_v216
+
+Aug_27_2018:
+-----------------------------------
+1. Rename ext_lenovo_thinkpad_all_in_one_realtek_rs4_v3.821.919.33 to ext_thinkpad_AIO_rtk_rs4_v3.821.919.33
+
+Aug_22_2018:
+-----------------------------------
+1. Add ext_lenovo_thinkpad_all_in_one_realtek_rs4_v3.821.919.33
+		ThinkPad X390 (Sideswipe)
+		ThinkPad T490s (Jazz)
+		ThinkPad T490 (Drift)
+		ThinkPad T590 (Ironhide)
+		ThinkPad P53s (Ironhide)
+		ThinkPad L490 (Solo2)
+		ThinkPad L590 (Lando2)
+		ThinkPad L390 (Kylo2)
+		ThinkPad T480 (Windu2)
+
+Aug_21_2018:
+-----------------------------------
+1. Add ext_lenovo_thinkpad_all_in_one_realtek_rs4_v3.820.824.44
+		ThinkPad X390 (Sideswipe)
+		ThinkPad T490s (Jazz)
+		ThinkPad T490 (Drift)
+		ThinkPad T590 (Ironhide)
+		ThinkPad P53s (Ironhide)
+		ThinkPad L490 (Solo2)
+		ThinkPad L590 (Lando2)
+		ThinkPad L390 (Kylo2)
+		ThinkPad T480 (Windu2)
+
+Aug_20_2018:
+-----------------------------------
+1. Add ext_lenovo_thinkpad_all_in_one_realtek_rs4_v3.816.736.24
+		ThinkPad X390 (Sideswipe)
+		ThinkPad T490s (Jazz)
+		ThinkPad T490 (Drift)
+		ThinkPad T590 (Ironhide)
+		ThinkPad P53s (Ironhide)
+		ThinkPad L490 (Solo2)
+		ThinkPad L590 (Lando2)
+		ThinkPad L390 (Kylo2)
+
+Aug_09_2018:
+-----------------------------------
+1. Add ext_lenovo_thinkpad_all_in_one_realtek_rs4_3.802.652.11
+		ThinkPad X390 (Sideswipe)
+		ThinkPad T490s (Jazz)
+		ThinkPad T490 (Drift)
+		ThinkPad T590 (Ironhide)
+		ThinkPad P53s (Ironhide)
+		ThinkPad L490 (Solo2)
+		ThinkPad L590 (Lando2)
+		ThinkPad L390 (Kylo2)
+
+Aug_03_2018:
+-----------------------------------
+1. Temporarily remove ext_lenovo_thinkpad_all_in_one_realtek_rs3_rs4_v219:(Will merge back after DAX3 2.2 official GA)
+		ThinkPad X390 (Sideswipe)
+		ThinkPad T490s (Jazz)
+		ThinkPad T490 (Drift)
+		ThinkPad T590 (Ironhide)
+		ThinkPad P53s (Ironhide)
+		ThinkPad L490 (Solo2)
+		ThinkPad L590 (Lando2)
+2. Remove ext_lenovo_thinkpad_l390(kylo2)_rs3_rs4_v220 and merge into all_in_on driver
+
+July_20_2018:
+-----------------------------------
+1. Add ext_lenovo_thinkpad_all_in_one_realtek_rs3_rs4_v219:
+		ThinkPad X390 (Sideswipe)
+		ThinkPad T490s (Jazz)
+		ThinkPad T490 (Drift)
+		ThinkPad T590 (Ironhide)
+		ThinkPad P53s (Ironhide)
+		ThinkPad L490 (Solo2)
+		ThinkPad L590 (Lando2)
+
+July_16_2018:
+-----------------------------------
+1. Add ext_lenovo_thinksmart_hub700_rs3_rs4_v222
+
+July_03_2018:
+-----------------------------------
+1. Add ext_lenovo_thinkpad_x390_yoga(bumblebee)_rs3_rs4_v222
+
+July_02_2018:
+-----------------------------------
+1. Add ext_lenovo_thinksmart_hub700_rs3_rs4_v221
+
+Jun_20_2018:
+-----------------------------------
+1. Add ext_lenovo_thinkpad_raven3_rs3_rs4_v216
+
+Jun_19_2018:
+-----------------------------------
+1. Add ext_lenovo_thinkpad_t480(windu2)_rs3_rs4_v217
+
+Jun_12_2018:
+-----------------------------------
+1. Add ext_lenovo_thinkpad_a285_rs3_rs4_v220
+2. Add ext_lenovo_thinkpad_a485_rs3_rs4_v219
+3. Add ext_lenovo_thinkpad_grafevo_rs3_rs4_v216
+4. Add ext_lenovo_thinkpad_kei_rs3_rs4_v215
+5. Add ext_lenovo_thinkpad_l390(kylo2)_rs3_rs4_v220
+6. Add ext_lenovo_thinkpad_leia_rs3_rs4_v216
+7. Add ext_lenovo_thinkpad_p1(padome)_rs3_rs4_v222
+8. Add ext_lenovo_thinkpad_p51(walter2)_rs3_rs4_v217
+9. Add ext_lenovo_thinkpad_p52(walter3)_rs3_rs4_v219
+10. Add ext_lenovo_thinkpad_raven3_rs3_rs4_v215
+11. Add ext_lenovo_thinkpad_yoda2_rs3_rs4_v216
+12. ext_lenovo_thinksmart_hub700_rs3_rs4_v220
+
+Jun_08_2018:
+-----------------------------------
+1. Add ext_lenovo_thinkpad_p72(Chiron)_rs3_rs4_v219
+
+Jun_08_2018:
+-----------------------------------
+1. Add ext_lenovo_thinkpad_l390(kylo2)_rs3_rs4_v219
+2. Add ext_lenovo_thinkpad_p52(walter3)_rs3_rs4_v218
+
+Jun_04_2018:
+-----------------------------------
+1. Add ext_lenovo_thinkpad_padome_rs4_v221
+2. Add ext_lenovo_a285_rs4_v218
+
+May_21_2018:
+-----------------------------------
+1. Add ext_lenovo_thinkpad_a485_v218
+2. Add ext_lenovo_thinkpad_padome_v220
+
+May_08_2018:
+-----------------------------------
+1. Add ext_thinksmart_hub700_v219
+
+May_08_2018
+-----------------------------------
+1. Add ext_lenovo_walter2_v216
+
+April_12_2018
+-----------------------------------
+1. Add ext_lenovo_walter3_v217
+
+April_10_2018
+-----------------------------------
+1. Remove ext_lenovo_finn_v216
+2. Remove ext_lenovo_kolar_v216
+3. Remove ext_lenovo_lin2_v217
+4. Remove ext_lenovo_windu2_v216
+
+April_10_2018
+-----------------------------------
+1. Move ext_lenovo_a285_v217 from ideapad folder to thinkpad folder
+2. Move ext_lenovo_kei_v214 from ideapad folder to thinkpad folder
+
+March_15_2018
+-----------------------------------
+1. Add ext_lenovo_walter2_v215
+
+March_09_2018
+-----------------------------------
+1. Add ext_lenovo_padome_v219
+2. Add ext_lenovo_walter3_v216
+
+Februay_26_2018
+-----------------------------------
+Add ext_lenovo_padome_v218
+
+January_25_2018
+-----------------------------------
+Add ext_lenovo_a485_v217 (WHQL signed)
+
+January_15_2018
+-----------------------------------
+1. Update: ext_lenovo_grafevo_v215 (WHQL signed)
+2. Add: ext_lenovo_walter3_v215
+
+January_12_2018
+-----------------------------------
+Add: ext_lenovo_grafevo_v215 (Dolby Signed)
+
+January_09_2018
+-----------------------------------
+1. Add: ext_lenovo_lin2_v217
+		Remove the un-used tuning file.
+2. Add: ext_lenovo_windu2_v216
+3. Add: ext_lenovo_kolar_v216
+
+
+January_05_2018
+-----------------------------------
+ext_lenovo_leia_v215
+
+January_03_2018
+-----------------------------------
+ext_lenovo_lin2_v216
+
+January_02_2018
+-----------------------------------
+ext_lenovo_finn_v216
+Remove ext_lenovo_yoda1
+
+December_21_2017:
+-----------------------------------
+ext_lenovo_finn: 2.0.214.0 (No WHQL signed.)
+ext_lenovo_leia: 2.0.214.0
+ext_lenovo_raven3: 2.0.214.0 (No WHQL signed.)
+ext_lenovo_yoda1: 2.0.217.0 (No WHQL signed.)
+ext_lenovo_yoda2: 2.0.215.0

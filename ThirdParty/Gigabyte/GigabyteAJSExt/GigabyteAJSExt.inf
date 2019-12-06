@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OrganizationName%
 ExtensionId = {61217785-6b8f-4c25-979c-c0d88484784e}
-DriverVer   = 06/13/2018,1.0.0.77
+DriverVer   = 10/02/2019,1.0.0.78
 CatalogFile = GigabyteAJSExt.cat
 
 [Manufacturer]
@@ -14,6 +14,7 @@ CatalogFile = GigabyteAJSExt.cat
 %Device.ExtensionDesc% = DeviceExtension_SV_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_1458A0C0
 %Device.ExtensionDesc% = DeviceExtension_SV_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_1458A0C7
 %Device.ExtensionDesc% = DeviceExtension_SV_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_1458A0CB
+%Device.ExtensionDesc% = DeviceExtension_SV_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_1220&SUBSYS_1458A0D1
 
 [DeviceExtension_SV_Install]
 ;AddReg = IntcAzAudModelAddReg
