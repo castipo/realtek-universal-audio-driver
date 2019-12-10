@@ -85,7 +85,7 @@ Loop, Files, %TreeRoot%\%ParentFullPath%\*
         FileAppend, "%Singtool%" verify /c "%TreeRoot%\%ParentFullPath%\%ItemText%" "%TreeRoot%\%ParentFullPath%\%A_LoopFileName%"`r`n, Verify.bat
     }
 }
-FileAppend, )`r`n, Verify.bat
+FileAppend, )`r`npause, Verify.bat
 Runwait, Verify.bat
 FileRead, OutputContent, *P65001 output.txt
 Loop, Parse, OutputContent,`r`n

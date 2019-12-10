@@ -1,0 +1,31 @@
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt2_8855.1\AlexaAcerConfig.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt2_8855.1\AlexaAsrockConfig.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt2_8855.1\AlexaAsusConfig.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt2_8855.1\AlexaClevoConfig.inf
+
+Number of errors: 1
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt2_8855.1\AlexaDellConfig.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt2_8855.1\AlexaFujitsuConfig.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt2_8855.1\AlexaHpConfigRTK.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt2_8855.1\AlexaHpConfigRTKDefaultTFName.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt2_8855.1\AlexaHpConfigRTKNoTF.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt2_8855.1\AlexaLenovoConfig.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt2_8855.1\AlexaLenovoConfig3122.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt2_8855.1\AlexaLenovoConfig3123.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt2_8855.1\AlexaLenovoConfig3145.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt2_8855.1\AlexaLenovoConfig3173.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt2_8855.1\AlexaLenovoConfig3179.inf
+
+Number of errors: 1
+
+Number of errors: 1
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt2_8855.1\AlexaLenovoConfig3193.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt2_8855.1\AlexaLenovoConfig36F1.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt2_8855.1\AlexaLenovoConfig36F2.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt2_8855.1\AlexaLenovoConfig36F3.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt2_8855.1\AlexaLenovoConfig36F9.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt2_8855.1\AlexaLenovoConfig3702.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt2_8855.1\AlexaLenovoNConfig.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt2_8855.1\AlexaMSIConfig.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt2_8855.1\AlexaPagatronConfig.inf
+Successfully verified: R:\GitHub\realtek-universal-audio-driver\UAD\Realtek\AlexaCfgExt2_8855.1\AlexaSamsungConfigRTK.inf
