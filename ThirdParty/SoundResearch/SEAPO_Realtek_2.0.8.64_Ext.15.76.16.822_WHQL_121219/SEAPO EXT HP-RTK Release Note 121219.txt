@@ -6,6 +6,12 @@ Changes
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 DATE		EXT version	       APO version	Changes
 -------------------------------------------------------------------------------------------------------------------------------------------------------
+12/11/2019      15.76.16.822           2.0.8.64         cNB Ice Hawking, Hedwig FIR filter taps set to 128
+12/11/2019      15.76.6.3722           2.0.8.64         cNB Able add SSID 87C8, Dezik 87C9 87CA, Strelka 87CB 87CC
+                                                        cNB Solaris add HD SSID 8721 and suport iSST SSID 8721 (ALC3315 MP device DID 0245)
+                                                        cPC BigBen re-tuneed 121019
+                                                        Placeholder iSST/APO use David default tuning
+                                                        cNB Felicette add SSID 87C7
 12/09/2019      15.75.89.7055          2.0.8.64         cNB Hershcel now use Maldives tuning file
                                                         cNB Weasley6U now use Weasley tuning file
 12/04/2019      15.75.45.8092          2.0.8.64         CMIT 400 Pimrose preset update 120219
@@ -428,7 +434,7 @@ DATE		EXT version	       APO version	Changes
 06/09/2018	15.28.52.9462		2.0.8.19	Spiderman
 
 =======================================================================================================================================
-All supported IDs as of 12/09/2019
+All supported IDs as of 12/12/2019
 ---------------------------------------------------------------------------------------------------------------------------------------
 PROJECT NAME		MUSIC PRESET FILE	FULL HWID
 ---------------------------------------------------------------------------------------------------------------------------------------
@@ -753,10 +759,11 @@ Okinawa iSST		Okinawa 121118		INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C85
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C85E5 ; Okinawa 1.0 Intel WHL
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C86AF ; Okinawa 17 UMA ALC3292
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C86B0 ; Okinawa 17 DIS ALC3292
-Placeholder HDA		Spiderman 090518	HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C8721 ; Solaris ALC3315 WCOS
-Placeholder iSST	Spiderman 090518	INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C875C ;  Cernan ALC3315
-						HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C876E ;  AMD Renoir FP6 ALC3315
+Placeholder HDA		Music Default		HDAUDIO\FUNC_01&VEN_10EC&DEV_0245&SUBSYS_103C8721 ; Solaris ALC3315 WCOS
+						HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C8721 ; Solaris ALC3315 WCOS
+Placeholder iSST	Music Default		HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C876E ;  AMD Renoir FP6 ALC3315
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C876F ;  AMD Renoir FP6 ALC3315
+						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0245&SUBSYS_103C8721 ;  Solaris ALC3315 WCOS
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C8721 ;  Solaris ALC3315 WCOS
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0245&SUBSYS_103C878D ; Kerbal ALC3315
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0245&SUBSYS_103C878E ; Kerbal ALC3315
@@ -772,6 +779,12 @@ Placeholder iSST	Spiderman 090518	INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_10
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C87B7 ; AMD Hubble ALC3247
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_103C87C5 ; AMD Felicette ALC3314
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_103C87C6 ; AMD Felicette ALC3314
+						HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_103C87C7 ; AMD Felicette ALC3314
+						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_103C87C8 ; Able ALC3314
+						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_103C87C9 ; Dezik ALC3314
+						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_103C87CA ; Dezik ALC3314
+						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_103C87CB ; Strelka ALC3314
+						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_103C87CC ; Strelka ALC3314
 Potter APO		Potter 011518		HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C84A4
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C84A5
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C84A6
@@ -893,7 +906,7 @@ Bibury iSST		Bibury 112119		INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86F7
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86F8 ; Bibury Intel CML-U Mill-C
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86EF ; Bibury Intel WHL-U Mill-W
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C87A4 ; Bibury Intel ICL
-BigBen			BigBen 100919		INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_103C86ED ; Bigben 
+BigBen			BigBen 121019		INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_103C86ED ; Bigben 
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_103C86EE ; Bigben 
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_103C8708 ; Dali
 Desktop CMIT		Desktop 2020 100119	HDAUDIO\FUNC_01&VEN_10EC&DEV_0671&SUBSYS_103C86FB ; PrincetonR  (Intel)
@@ -1031,7 +1044,7 @@ Pigeon 14		Ramia 091918		HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C85DB ;400 
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C85DC ;400 Pigeon14 ALC3247
 Pigeon 15		Revere 091918		HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C85D9 ;400 Pigeon15 ALC3247
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C85DA ;400 Pigeon15 ALC3247
-Placeholder		Chromia15 040418	INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C85A5 ; 400 Reiley14 ALC3247
+Placeholder		Music Default		INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C85A5 ; 400 Reiley14 ALC3247
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C85AA ; 400 Reiley15 ALC3247
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86A2  ; 400 Redpine 15.6 ALC3247
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86A7  ; 400 Sourwood 14 ALC3247
