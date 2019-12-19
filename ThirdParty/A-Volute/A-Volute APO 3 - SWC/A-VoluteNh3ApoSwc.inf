@@ -3,7 +3,7 @@ Signature   = "$WINDOWS NT$"
 Class       = SoftwareComponent
 ClassGuid   = {5c4c3332-344d-483c-8739-259e934c9cc8}
 Provider    = %Provider%
-DriverVer = 10/09/2019,1.6.1.0
+DriverVer = 11/27/2019,1.6.3.0
 CatalogFile = A-VoluteNh3ApoSwc.cat
 
 [SourceDisksNames]
@@ -19,6 +19,7 @@ NAHIMICV3NSControl.dll=222
 NAHIMICV3NSControlExpert.dll=222
 NahimicAPO3ConfiguratorDaemonModule.dll=222
 NahimicAPO4ConfiguratorDaemonModule.dll=222
+NahimicPnPAPO4ConfiguratorDaemonModule.dll=222
 
 [DestinationDirs]
 APO_CopyList       = 11          ; %windir%\system32
@@ -52,6 +53,14 @@ PETrust=true
 %Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_0800
 %Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_0900
 %Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_0D00
+%Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_0E00
+%Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_0F00
+%Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_1000
+%Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_1100
+%Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_1200
+%Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_1300
+%Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_1400
+%Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_1500
 %Apo.ComponentDesc% = ApoComponent_Install,SWC\VEN_AVOL&AID_FFFF
 
 [ApoComponent_Install]
@@ -79,6 +88,7 @@ NahimicService.ini
 NahimicSvc64.exe
 NahimicAPO3ConfiguratorDaemonModule.dll
 NahimicAPO4ConfiguratorDaemonModule.dll
+NahimicPnPAPO4ConfiguratorDaemonModule.dll
 
 [Service32_CopyList]
 NahimicSvc32.exe
