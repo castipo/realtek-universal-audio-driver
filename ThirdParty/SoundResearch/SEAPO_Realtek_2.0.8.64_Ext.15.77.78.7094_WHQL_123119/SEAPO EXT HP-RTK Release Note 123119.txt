@@ -6,6 +6,8 @@ Changes
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 DATE		EXT version	       APO version	Changes
 -------------------------------------------------------------------------------------------------------------------------------------------------------
+12/31/2019      15.77.78.7094          2.0.8.64         AIO BigBen retune 122719; Volfoni reduce slider max value 122719     
+                                                        cNB Baffin preset update 122019
 12/27/2019      15.77.44.3094          2.0.8.64         cPC SFF Lanyu now use tuning 122619
                                                         CMIT Emory now use tuning 122019
                                                         cNB Laika music preset update 122019
@@ -449,7 +451,7 @@ DATE		EXT version	       APO version	Changes
 06/09/2018	15.28.52.9462		2.0.8.19	Spiderman
 
 =======================================================================================================================================
-All supported IDs as of 12/27/2019
+All supported IDs as of 12/31/2019
 ---------------------------------------------------------------------------------------------------------------------------------------
 PROJECT NAME		MUSIC PRESET FILE	FULL HWID
 ---------------------------------------------------------------------------------------------------------------------------------------
@@ -464,7 +466,7 @@ Ashmore LPAP		Hedwig 011118		HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C85E0 ;
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C85E1 ; Ashmore Picasso DIS
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C879E ; Ashmore Dali ALC3247
 						HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C879F ; Ashmore Dali ALC3247
-Baffin iSST		Baffin 112519		INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C86E5 ; Baffin ALC3292
+Baffin iSST		Baffin 122019		INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C86E5 ; Baffin ALC3292
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C86E6 ; Baffin ALC3292
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C86E7 ; Baffin ALC3292
 						INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C86E8 ; Baffin ALC3292
