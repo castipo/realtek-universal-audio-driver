@@ -1,3 +1,12 @@
+Dec_31_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.1231.923.1
+	Updated models:
+		IdeaCentre AIO 5(A550-24IMB)
+		IdeaCentre AIO 5(A550-27IMB)
+		Yoga Slim 7-15IIL-05
+		AIO350-22 JBL
+
 Dec_24_2019:
 -----------------------------------
 1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.1224.909.24
