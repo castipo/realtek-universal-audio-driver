@@ -1,0 +1,331 @@
+Jan_03_2020:
+-----------------------------------
+1. Add swc_aposvc_rs4_rs5_19h1_ga262_b6152_v633: 12/26/2019,3.20602.633.0
+2. Remove swc_aposvc_rs4_rs5_19h1_ga262_b6064_v630: 12/13/2019,3.20602.630.0
+
+Dec_16_2019:
+-----------------------------------
+1. Add swc_aposvc_rs4_rs5_19h1_ga262_b6064_v630: 12/13/2019,3.20602.630.0
+2. Remove swc_aposvc_rs4_rs5_19h1_ga251_v517: 08/22/2019,3.20501.517.0
+3. Add swc_hsa_rs4_rs5_19h1_ga262_b6024_v609: 12/09/2019,3.20602.609.0
+4. Remove swc_hsa_rs4_rs5_19h1_ga25_v501: 07/18/2019,3.20500.501.0
+
+Sep_06_2019:
+-----------------------------------
+1. Add swc_aposvc_rs4_rs5_19h1_ga251_v517: 08/22/2019,3.20501.517.0
+2. Remove swc_aposvc_rs4_rs5_19h1_ga25_v513: 07/18/2019,3.20500.513.0
+
+Aug_12_2019:
+-----------------------------------
+1. Add swc_hsa_rs4_rs5_19h1_ga25_v501: 07/18/2019,3.20500.501.0
+2. Remove swc_hsa_rs3_rs4_rs5_19h1_ga242_v409: 04/29/2019,3.20402.409.0
+3. Add swc_aposvc_rs4_rs5_19h1_ga25_v513: 07/18/2019,3.20500.513.0
+4. Remove swc_aposvc_rs3_rs4_rs5_19h1_ga243_v440: 07/17/2019,3.20403.440.0
+
+Jul_19_2019:
+-----------------------------------
+1. Add swc_aposvc_rs3_rs4_rs5_19h1_ga243_v440: 07/17/2019,3.20403.440.0
+2. Remove swc_aposvc_rs3_rs4_rs5_19h1_ga243_v439: 06/30/2019,3.20403.439.0
+
+Jul_03_2019:
+-----------------------------------
+1. Add swc_aposvc_rs3_rs4_rs5_19h1_ga243_v439: 06/30/2019,3.20403.439.0
+2. Remove swc_aposvc_rs3_rs4_rs5_19h1_ga243_v437: 06/11/2019,3.20403.437.0
+
+Jun_18_2019:
+-----------------------------------
+1. Add swc_aposvc_rs3_rs4_rs5_19h1_ga243_v437: 06/11/2019,3.20403.437.0
+2. Remove swc_aposvc_rs3_rs4_rs5_19h1_ga243_v436: 06/04/2019,3.20403.436.0
+
+Jun_11_2019:
+-----------------------------------
+1. Add swc_aposvc_rs3_rs4_rs5_19h1_ga243_v436: 06/04/2019,3.20403.436.0
+2. Remove swc_aposvc_rs4_rs5_19h1_ga243_v435: 05/28/2019,3.20403.435.0
+
+May_31_2019:
+-----------------------------------
+1. Add swc_aposvc_rs4_rs5_19h1_ga243_v435: 05/28/2019,3.20403.435.0
+2. Remove swc_aposvc_rs3_rs4_rs5_19h1_ga242_v432: 04/29/2019,3.20402.432.0
+
+May_10_2019:
+-----------------------------------
+1. Add swc_aposvc_rs3_rs4_rs5_19h1_ga242_v432: 04/29/2019,3.20402.432.0
+2. Remove swc_aposvc_rs4_rs5_19h1_ga242_v430: 04/26/2019,3.20402.430.0
+3. Add swc_hsa_rs3_rs4_rs5_19h1_ga242_v409: 04/29/2019,3.20402.409.0
+4. Remove swc_hsa_rs4_rs5_19h1_ga241_v408: 04/16/2019,3.20401.408.0
+
+Apr_30_2019:
+-----------------------------------
+1. Add swc_aposvc_rs4_rs5_19h1_ga242_v430: 04/26/2019,3.20402.430.0
+2. Remove swc_aposvc_rs4_rs5_19h1_ga241_v428: 04/16/2019,3.20401.428.0
+
+Apr_26_2019:
+-----------------------------------
+1. Add swc_aposvc_rs4_rs5_19h1_ga241_v428: 04/16/2019,3.20401.428.0
+2. Remove swc_aposvc_rs4_rs5_ga24_v424: 04/08/2019,3.20400.424.0
+3. Add swc_hsa_rs4_rs5_19h1_ga241_v408: 04/16/2019,3.20401.408.0
+4. Remove swc_hsa_rs4_rs5_ga24_v407: 04/08/2019,3.20400.407.0
+
+Apr_12_2019:
+-----------------------------------
+1. Add swc_aposvc_rs4_rs5_ga24_v424: 04/08/2019,3.20400.424.0
+2. Remove swc_aposvc_rs4_rs5_ga231_v325: 3.20301.325.0
+3. Add swc_hsa_rs4_rs5_ga24_v407: 04/08/2019,3.20400.407.0
+4. Remove swc_hsa_rs4_rs5_ga231_v311: 3.20301.311.0
+
+Apr_09_2019:
+-----------------------------------
+1. Add swc_aposvc_rs4_rs5_ga231_v325: 3.20301.325.0
+2. Remove swc_aposvc_rs4_rs5_ga231_v323: 3.20301.323.0
+
+Mar_29_2019:
+-----------------------------------
+1. Add swc_aposvc_rs4_rs5_ga231_v323: 3.20301.323.0
+2. Remove swc_aposvc_rs4_rs5_ga24_v420: 3.20400.420.0
+3. Add swc_hsa_rs4_rs5_ga231_v311: 3.20301.311.0
+4. Remove swc_hsa_rs4_rs5_ga24_v405: 3.20400.405.0
+
+Mar_28_2019:
+-----------------------------------
+1. Add swc_aposvc_rs4_rs5_ga24_v420: 3.20400.420.0
+2. Remove swc_aposvc_rs4_rs5_ga231_v323: 3.20301.323.0
+3. Add swc_hsa_rs4_rs5_ga24_v405: 3.20400.405.0
+4. Remove swc_hsa_rs4_rs5_ga231_v311: 3.20301.311.0
+
+Mar_15_2019:
+-----------------------------------
+1. Add swc_aposvc_rs4_rs5_ga231_v323: 3.20301.323.0
+2. Remove swc_aposvc_rs4_rs5_ga231_v321: 3.20301.321.0
+
+Feb_26_2019:
+-----------------------------------
+1. Add swc_aposvc_rs4_rs5_ga231_v321: 3.20301.321.0
+2. Remove swc_aposvc_rs4_rs5_ga231_v320: 3.20301.320.0
+
+Feb_15_2019:
+-----------------------------------
+1. Add swc_aposvc_rs4_rs5_ga231_v320: 3.20301.320.0
+2. Remove swc_aposvc_rs4_rs5_ga222_v269: 3.20202.269.0
+3. Add swc_hsa_rs4_rs5_ga231_v311: 3.20301.311.0
+4. Remove swc_hsa_rs4_rs5_ga221_v255: 3.20201.255.0
+
+Feb_13_2019:
+-----------------------------------
+1. Add swc_aposvc_rs4_rs5_ga222_v269: 3.20202.269.0
+2. Remove swc_aposvc_rs4_rs5_ga231_v319: 3.20301.319.0
+3. Add swc_hsa_rs4_rs5_ga221_v255: 3.20201.255.0
+4. Remove swc_hsa_rs4_rs5_ga231_v311: 3.20301.311.0
+
+Feb_1_2019:
+-----------------------------------
+1. Remove swc_apo_dapv251: 5.0.1.1
+2. Remove swc_apo_vlldp: 5.0.1.4
+3. Remove swc_hsa_dolbyatmos: 2.0.214.0
+4. Remove swc_hsa_dolbyaudio: 2.0.214.0
+5. Remove swc_hsa_sng: 2.0.212.0
+6. Remove swc_svc_dax3api_rs3_rs4_v231: 2.3.231.0
+
+Jan_30_2019:
+-----------------------------------
+1. Add swc_aposvc_rs4_rs5_ga231_v319: 3.20301.319.0
+2. Remove swc_aposvc_rs4_rs5_ga222_v269: 3.20202.269.0
+3. Add swc_hsa_rs4_rs5_ga231_v311: 3.20301.311.0
+4. Remove swc_hsa_rs4_rs5_ga221_v255: 3.20201.255.0
+
+Jan_18_2019:
+-----------------------------------
+1. Add swc_aposvc_rs4_rs5_ga222_v269: 3.20202.269.0
+2. Remove swc_aposvc_rs4_rs5_ga222_v265: 3.20202.265.0
+
+Jan_17_2019:
+-----------------------------------
+1. swc_aposvc_rs4_rs5_ga222_v268: 3.20202.268.0 (Special build for synaptics_lenovo_S540-14 AMD)
+
+Dec_21_2018:
+-----------------------------------
+1. Add swc_aposvc_rs4_rs5_ga222_v265: 3.20202.265.0
+2. Remove swc_aposvc_rs4_rs5_ga221_v262: 3.20201.262.0
+
+Nov_21_2018:
+-----------------------------------
+1. Add swc_aposvc_rs4_rs5_ga221_v262: 3.20201.262.0
+2. Remove swc_aposvc_rs3_rs4_rs5_ga221_v259: 3.20201.259.0
+3. Add swc_hsa_rs4_rs5_ga221_v255: 3.20201.255.0
+4. Remove swc_hsa_rs3_rs4_rs5_ga221_v249: 3.20201.249.0
+
+Nov_16_2018:
+-----------------------------------
+1. Add swc_aposvc_rs3_rs4_rs5_ga221_v259: 3.20201.259.0
+2. Remove swc_aposvc_rs3_rs4_rs5_ga221_v257: 3.20201.257.0
+
+Nov_05_2018:
+-----------------------------------
+1. Add swc_hsa_rs3_rs4_rs5_ga221_v249: 3.20201.249.0
+2. Remove swc_hsa_rs3_rs4_ga221_v249: 3.20201.249.0
+
+Oct_15_2018:
+-----------------------------------
+1. Add swc_aposvc_rs3_rs4_rs5_ga221_v257: 3.20201.257.0
+2. Remove swc_aposvc_rs3_rs4_ga221_v256: 3.20201.256.0
+
+Sep_28_2018:
+-----------------------------------
+1. Add swc_aposvc_rs3_rs4_ga221_v256: 3.20201.256.0
+2. Remove swc_aposvc_rs3_rs4_ga221_v252: 3.20201.252.0
+
+Sep_19_2018:
+-----------------------------------
+1. Add swc_aposvc_rs3_rs4_ga221_v252: 3.20201.252.0
+2. Remove swc_aposvc_rs3_rs4_ga221_v249: 3.20201.249.0
+
+Aguest_27_2018:
+-----------------------------------
+1. Add swc_aposvc_rs3_rs4_ga221_v249: 3.20201.249.0
+2. Remove swc_aposvc_rs3_rs4_ga220_v247: 3.20200.247.0
+3. Add swc_hsa_rs3_rs4_ga221_v249: 3.20201.249.0
+4. Remove swc_hsa_rs3_rs4_ga220_v247: 3.20200.247.0
+
+Aguest_09_2018:
+-----------------------------------
+1. Add swc_svc_dax3api_rs3_rs4_v231: 2.3.231.0
+2. Remove swc_svc_dax3api_rs3_rs4_v230: 2.3.230.0
+
+Aguest_08_2018:
+-----------------------------------
+1. Add swc_aposvc_rs3_rs4_ga220_v247: 3.20200.247.0
+2. Add swc_hsa_rs3_rs4_ga220_v247: 3.20200.247.0
+3. Remove old SWC 
+
+Aug_03_2018:
+-----------------------------------
+1. Add swc_svc_dax3api_rs3_rs4_v230: 2.3.230.0
+2. Remove Add swc_svc_dax3api_rs3_rs4_v239: 2.3.229.0
+
+July_16_2018:
+-----------------------------------
+1. Add swc_aposvc_rs3_rs4_v255: 2.1003.255.0
+2. Remove swc_aposvc_rs3_rs4_v251: 2.1003.251.0
+3. Add swc_hsa_rs3_rs4_v244: 2.1003.244.0
+
+July_03_2018:
+-----------------------------------
+1. Add swc_svc_dax3api_rs3_rs4_v229: 2.3.229.0
+2. Remove swc_svc_dax3api_v228: 2.3.228.0
+
+Jun_22_2018:
+-----------------------------------
+1. Add swc_aposvc_rs3_rs4_v251: 2.1003.251.0
+2. Remove swc_aposvc_rs3_rs4_v250: 2.1003.250.0
+
+Jun_15_2018:
+-----------------------------------
+1. Add swc_aposvc_rs3_rs4_v250: 2.1003.250.0
+2. Remove swc_aposvc_rs3_rs4_v248: 2.1002.248.0
+
+Jun_12_2018:
+-----------------------------------
+1. Add swc_hsa_dolbyatmos_rs3_rs4_v243: 2.1002.243.0
+2. Add swc_hsa_dolbyaudio_rs3_rs4_v243: 2.1002.243.0
+3. Add swc_hsa_dolbyaudiopremium_rs3_rs4_v243: 2.1002.243.0
+4. Remove swc_hsa_dolbyatmos_rs3_rs4_v237: 2.1001.237.0
+5. Remove swc_hsa_dolbyaudio_rs3_rs4_v237: 2.1001.237.0
+6. Remove swc_hsa_dolbyaudiopremium_rs3_rs4_v237: 2.1001.237.0
+
+Jun_11_2018:
+-----------------------------------
+1. Add swc_hsa_dolbyatmos: 2.0.214.0
+
+Jun_08_2018:
+-----------------------------------
+1. Add swc_hsa_gaming_rs3_rs4_v243: 2.1002.243.0
+2. Add swc_hsa_dolbyatmosspeakersystem_rs3_rs4_v243: 2.1002.243.0
+3. Add swc_aposvc_rs3_rs4_v248: 2.1002.248.0
+4. Remove swc_hsa_gaming_rs3_rs4_v237: 2.1001.237.0
+5. Remove swc_hsa_dolbyatmosspeakersystem_rs3_rs4_v237: 2.1001.237.0
+6. Remove swc_aposvc_rs3_rs4_v247: 2.1002.247.0
+
+Jun_08_2018:
+-----------------------------------
+1. Add swc_hsa_dolbyatmos_rs3_rs4_v237
+2. Add swc_hsa_dolbyatmosspeakersystem_rs3_rs4_v237
+3. Add swc_hsa_dolbyaudiopremium_rs3_rs4_v237
+4. Add swc_hsa_gaming_rs3_rs4_v237
+5. Remove swc_hsa_dolbyatmos_rs4_v237
+6. Remove swc_hsa_dolbyatmosspeakersystem_rs4_v237
+7. Remove swc_hsa_dolbyaudiopremium_v237
+8. Remove swc_hsa_gaming_rs4_v241
+
+Jun_07_2018:
+-----------------------------------
+1. Add swc_hsa_dolbyaudio_rs3_rs4_v237: 2.1001.237.0
+2. Remove swc_hsa_dolbyaudio_v237: 2.1001.237.0
+
+Jun_06_2018:
+-----------------------------------
+1. Add swc_aposvc_rs3_rs4_v247: 2.1002.247.0
+2. Remove swc_aposvc_v245: 2.1002.245.0
+
+Jun_05_2018:
+-----------------------------------
+1. Add swc_hsa_gaming_rs4_v241: 2.1002.241.0
+2. Remove swc_hsa_gaming_rs4_v237: 2.1001.237.0
+
+Jun_01_2018:
+-----------------------------------
+1. Add swc_hsa_dolbyatmos_rs4_v237: 2.1001.237.0
+2. Add swc_hsa_dolbyatmosspeakersystem_rs4_v237: 2.1001.237.0
+3. Add swc_hsa_gaming_rs4_v237: 2.1001.237.0
+4. Remove swc_hsa_dolbyatmos_v237: 2.1001.237.0
+5. Remove swc_hsa_dolbyatmosspeakersystem_v237: 2.1001.237.0
+6. Remove swc_hsa_gaming_v237: 2.1001.237.0
+
+May_31_2018:
+-----------------------------------
+1. Remove swc_aposvc_v238: 2.1001.238.0
+2. Add swc_aposvc_v245: 2.1002.245.0 
+
+May_23_2018:
+-----------------------------------
+1. Remove swc_svc_dax3api_v227: 2.3.227.0
+
+May_18_2018:
+-----------------------------------
+1. Fix typo in version number, change swc_svc_dax3api_v238 to swc_svc_dax3api_v228: 2.3.228.0
+
+May_16_2018:
+-----------------------------------
+1. Add swc_svc_dax3api_v238: 2.3.238.0
+
+April_20_2018:
+-----------------------------------
+1. Add swc_aposvc_v238: 2.1001.238.0
+2. Add swc_svc_dax3api_v227: 2.3.227.0
+
+April_04_2018:
+-----------------------------------
+Add swc_aposvc_v237: 2.1001.237.0
+Add swc_hsa_dolbyatmos_v237: 2.1001.237.0
+Add swc_hsa_dolbyatmosspeakersystem_v237: 2.1001.237.0
+Add swc_hsa_dolbyaudio_v237: 2.1001.237.0
+Add swc_hsa_dolbyaudiopremium_v237: 2.1001.237.0
+Add swc_hsa_gaming_v237: 2.1001.237.0
+
+February_23_2018:
+-----------------------------------
+Add swc_aposvc_v233: 2.1001.233.0
+Add swc_hsa_gaming_v225: 2.1001.225.0
+
+January_11_2018:
+-----------------------------------
+Update swc_svc_dax3api_v225: 2.2.225.0
+
+December_21_2017:
+-----------------------------------
+swc_apo_dapv251: 5.0.1.1
+swc_apo_vlldp: 5.0.1.4
+
+swc_svc_dax3api: 2.1.221.0
+
+swc_hsa_dolbyatmos: 2.0.214.0
+swc_hsa_dolbyaudio: 2.0.214.0
+swc_hsa_sng: 2.0.214.0
