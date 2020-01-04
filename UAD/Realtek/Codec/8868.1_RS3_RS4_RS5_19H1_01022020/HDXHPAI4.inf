@@ -10,7 +10,7 @@ ClassGuid={4d36e96c-e325-11ce-bfc1-08002be10318}
 Provider=%OrganizationName%
 DriverPackageType=PlugAndPlay
 DriverPackageDisplayName=%PackageDisplayName%
-DriverVer=12/17/2019, 6.0.8862.1
+DriverVer=12/30/2019, 6.0.8868.1
 
 [SourceDisksNames]
 222="Realtek HD Audio Installation Disk",,,
@@ -34,16 +34,27 @@ DRMLevel=1300
 %MfgName% = AzaliaManufacturerID, NTamd64.10.0...15063
 
 [AzaliaManufacturerID.NTamd64.10.0...15063]
-"Realtek High Definition Audio" = IntcAzAudModel,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_103C84EE
-"Realtek High Definition Audio" = IntcAzAudModel,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_103C86B7
-"Realtek High Definition Audio" = IntcAzAudModel,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_103C86C6
-"Realtek High Definition Audio" = IntcAzAudModel,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_103C86C7
-"Realtek High Definition Audio" = IntcAzAudModel,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86F8
-"Realtek High Definition Audio" = IntcAzAudModel,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86EF
-"Realtek High Definition Audio" = IntcAzAudModel,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86F7
-"Realtek High Definition Audio" = IntcAzAudModel,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_103C86ED
-"Realtek High Definition Audio" = IntcAzAudModel,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C87A4
-
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_103C84EF
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_103C84F0
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_103C84EE
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C8582
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_103C85BA
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_103C8708
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_103C86B6
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_103C86E4
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0225&SUBSYS_103C86B7
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86B8
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86B9
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C8664
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86F1
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C87F9
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C87FA
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86F2
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86F3
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C8665
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C8705
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_103C86EE
+"Realtek High Definition Audio" = IntcAzAudModel,HDAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_103C86F0
 
 
 [IntcAzAudModelCopyFiles]
@@ -61,7 +72,6 @@ AddProperty  = OEMCustomBranding.AddProperty
 
 [HPModelAddReg]
 HKR,Settings,HP_Models,0x00010001,5
-HKR,Settings,ForceSST,0x00010001,1
 
 [IntcAzAudModel.NTamd64.HW]
 AddReg=HdAudSecurity.AddReg
