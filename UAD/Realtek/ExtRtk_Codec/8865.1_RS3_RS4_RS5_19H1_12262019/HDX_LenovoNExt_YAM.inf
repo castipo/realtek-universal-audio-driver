@@ -4,34 +4,28 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OrganizationName%
 ExtensionId = {C3A63EDD-2D27-4B66-B155-5E94B43D926A}
-DriverVer   = 12/30/2019, 6.0.8868.1
+DriverVer   = 12/24/2019, 6.0.8865.1
 CatalogFile = HDXRTExt.cat
 
 [Manufacturer]
 %MfgName% = DeviceExtensions,NTamd64.10.0...15063
 
 [DeviceExtensions.NTamd64.10.0...15063]
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA60B9
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA60B6
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA60D8
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA60DC
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60DE
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60DF
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60E4
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60E7
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60ED
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60F0
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60F1
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60F2
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA6105
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA6106
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA6112
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA6107
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA6108
 
-%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA60B9
-%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA60DC
-%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60DE
-%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60DF
-%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60E4
-%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60E7
-%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60ED
-
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA60C5
-%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60D5
-%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60D5
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60F0
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA60F2
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA6100
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA6101
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA6105
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA6106
 
 [DeviceExtension_Install]
 AddReg = IntcAzAudModelAddReg
@@ -117,12 +111,12 @@ HKR,InterfaceSetting\SysCustomizedFx\FX\0,%DelInterfaceKey%,%REG_MULTI_SZ%,%PKEY
 %PKEY_FX_Offload_StreamEffectClsid%,%PKEY_FX_Offload_ModeEffectClsid%,%PKEY_CompositeFX_StreamEffectClsid%,%PKEY_CompositeFX_ModeEffectClsid%,%PKEY_CompositeFX_EndpointEffectClsid%,\
 %PKEY_CompositeFX_KeywordDetector_StreamEffectClsid%,%PKEY_CompositeFX_KeywordDetector_ModeEffectClsid%,%PKEY_CompositeFX_KeywordDetector_EndpointEffectClsid%,%PKEY_CompositeFX_Offload_StreamEffectClsid%,%PKEY_CompositeFX_Offload_ModeEffectClsid%
 HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%PKEY_FX_Association%,,%KSNODETYPE_ANY%
-HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%PKEY_CompositeFX_ModeEffectClsid%,%REG_MULTI_SZ%,%REALTEKREC_VOLMFX_CLSID%,%REALTEKREC_MFX_CLSID%,%REALTEKREC_INVVOLMFX_CLSID%
-HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%PKEY_CompositeFX_EndpointEffectClsid%,%REG_MULTI_SZ%,%REALTEKREC_EFX_CLSID%
-HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%PKEY_CompositeFX_KeywordDetector_ModeEffectClsid%,%REG_MULTI_SZ%,%REALTEKREC_KDMFX_CLSID%
-HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%PKEY_MFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%,%AUDIO_SIGNALPROCESSINGMODE_SPEECH%
+;HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%PKEY_CompositeFX_ModeEffectClsid%,%REG_MULTI_SZ%,%REALTEKREC_VOLMFX_CLSID%,%REALTEKREC_MFX_CLSID%,%REALTEKREC_INVVOLMFX_CLSID%
+HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%PKEY_CompositeFX_EndpointEffectClsid%,%REG_MULTI_SZ%,%REALTEKREC_EFX_CLSID%,%YAMAHA_VC_APO_CLSID%
+;HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%PKEY_CompositeFX_KeywordDetector_ModeEffectClsid%,%REG_MULTI_SZ%,%REALTEKREC_KDMFX_CLSID%
+;HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%PKEY_MFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%,%AUDIO_SIGNALPROCESSINGMODE_SPEECH%
 HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%PKEY_EFX_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%,%AUDIO_SIGNALPROCESSINGMODE_SPEECH%
-HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%PKEY_MFX_KeywordDetector_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%,%AUDIO_SIGNALPROCESSINGMODE_SPEECH%
+;HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%PKEY_MFX_KeywordDetector_ProcessingModes_Supported_For_Streaming%,%REG_MULTI_SZ%,%AUDIO_SIGNALPROCESSINGMODE_DEFAULT%,%AUDIO_SIGNALPROCESSINGMODE_SPEECH%
 HKR,InterfaceSetting\SysRecCustomizedFx\FX\0,%PKEY_BYPASS_TP_EFFECTS%,%REG_DWORD%,0x1
 
 ;; APO CLSID registration for capture endpoints
@@ -196,6 +190,7 @@ PKEY_MFX_Offload_ProcessingModes_Supported_For_Streaming = "{D3993A3F-99C2-4402-
 PKEY_BYPASS_TP_EFFECTS = "{0F8412D3-DC5C-4DB3-B174-DC47A859435C},0"
 
 YAMAHA_EFX_CLSID  = "{84CC109C-FE50-4BB2-9803-EF20634AA22F}"
+YAMAHA_VC_APO_CLSID  = "{861650AA-64E4-4933-8C77-BED101543101}"
 
 REALTEK_SFX_CLSID    = "{DA2C9ECE-7418-4906-B4FA-0A00B3EB88AA}"
 REALTEK_MFX_CLSID    = "{A296D363-EE83-4af9-9BE7-729C1296150A}"
