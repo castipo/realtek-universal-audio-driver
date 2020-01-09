@@ -1,0 +1,1319 @@
+Jan_8_2020:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v5.108.116.49
+	Updated models:
+		ThinkCentre M90a
+		AIO350-24 JBL
+
+Jan_3_2020:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v5.103.744.36
+	Updated models:
+		AIO350-22
+
+Dec_31_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.1231.923.1
+	Updated models:
+		IdeaCentre AIO 5(A550-24IMB)
+		IdeaCentre AIO 5(A550-27IMB)
+		Yoga Slim 7-15IIL-05
+		AIO350-22 JBL
+
+Dec_24_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.1224.909.24
+	Updated models:
+		AIO350-22
+		AIO350-24
+		AIO350-22 JBL
+		AIO350-24 JBL
+		AIO350-27 JBL
+		
+Dec_20_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.1219.756.40
+	Updated models:
+		ThinkCentre M70a
+		ThinkCentre M90a
+		Y550-15IMH
+		Y550-17IMH
+		
+Dec_16_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.1213.656.17
+	Updated models:
+		Flex 5-14IIL-05
+		Yoga S950-14ITL
+		L350-15IMH
+	
+Dec_12_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.1212.135.51
+	Updated models:
+		IdeaCentre AIO 5(A550-24IMB)
+		IdeaCentre AIO 5(A550-27IMB)
+		Yoga Slim 7-15IIL-05
+		Flex 5-15IIL-05
+		Flex 5-14IIL-05
+	
+Dec_09_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.1209.831.13
+	Updated models:
+		ThinkCentre M838z
+		Yoga Slim 7-14IIL-05
+	
+Dec_06_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.1205.703.20
+	Updated models:
+		S350-14IML
+		S350-15IML
+		S350-17IML
+		Y750-15IMH
+
+Nov_29_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.1129.510.13
+	Updated models:
+		ThinkCentre M90a
+		S540-13CML
+		
+Nov_27_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.1126.940.21
+	Updated models:
+		ThinkCentre M90a
+		Flex 5-14IIL-05
+		Flex 5-15IIL-05
+		Yoga Slim 7-14IIL-05
+		Yoga Slim 7-15IIL-05
+
+Nov_22_2019:
+-----------------------------------
+1. Add ext_lenovo_s140-14iwl_rs5_19h1_v4.1121.756.38
+2. Add ext_lenovo_s140-15iwl_rs5_19h1_v4.1121.805.13
+3. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.1122.255.48
+	Updated models:
+		Yoga S950-14ITL
+		Yoga Slim 7-14IIL-05
+		Legion R5 28IMB05 (T550)
+	
+Nov_19_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.1119.621.25
+	Updated models:
+		Y740s-15IRH
+		Legion T550
+		Yoga Slim 7-14IIL-05
+		Yoga Slim 7-15IIL-05
+	Remove models:	
+		Yoga Slim 7-14IARE-05
+
+Nov_13_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.1113.703.46
+	Updated models:
+		Flex 3-11IGL-05
+		IdeaPad 1_14_05
+		IdeaPad 1_11_05
+
+Nov_05_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.1105.219.53
+	Re-export AIO driver
+
+Nov_01_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.1101.227.11
+	Updated models:
+		Y550-15IMH
+		S350-15IML
+		S350-17IML
+		ThinkCentre M70a
+
+Oct_30_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.1029.1030.23
+	Updated models:
+		IdeaPad 1_11_05 (rename from S150-11IGL)
+		IdeaPad 1_14_05 (rename from S150-14IGL)
+		S350-14IML
+		Yoga Slim 7-15IMH-05
+		Yoga Duet 7
+		Duet 3-10IGL-05
+		ThinkCentre M70a
+		
+Oct_29_2019:
+-----------------------------------
+1. Add ext_lenovo_330c-14_rs3_rs4_rs5_19h1_v218
+2. Add ext_lenovo_330c-15_rs4_rs5_19h1_v218
+3. Add ext_lenovo_s140-14iwl_rs5_19h1_v4.1023.1952.53
+4. Add ext_lenovo_s140-15iwl_rs5_19h1_v4.1023.1955.34
+5. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.1023.1947.17
+	Updated models:
+		S550-14ICL
+
+Oct_18_2019:
+-----------------------------------
+1. Add ext_lenovo_330-20ast_rs3_rs4_rs5_19h1_v4.1016.931.41
+2. Add ext_lenovo_s140-14iwl_rs5_19h1_v4.1016.927.41
+3. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.1017.542.42
+	Updated models:
+		ThinkBook 14-IML (V340-14IML)
+		Yoga C940-15IRH
+		S550-14ICL
+
+Oct_15_2019:
+-----------------------------------
+1. Add ext_lenovo_330-17ikbr_rs4_rs5_19h1_v218
+2. Add ext_lenovo_s140-14iwl_rs5_19h1_v4.1014.537.19
+3. Add ext_lenovo_s140-15iwl_rs5_19h1_v4.1014.620.32
+4. Add ext_lenovo_v540s-13_rs5_19h1_v4.1014.638.26
+5. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.1014.252.9
+	Updated models:
+		S350-14IML
+		S350-15IML
+		Yoga Slim 7-14IARE-05
+		
+Oct_04_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.1003.723.25
+	Updated models:
+		ThinkBook 14-IML (V340-14IML)
+
+Oct_01_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.926.708.48
+	Updated models:
+		S550-15IIL
+
+Sep_25_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.925.536.47
+	Updated models:
+		ThinkBook 15-IML (V340-15IML)
+
+Sep_17_2019:
+-----------------------------------
+1. Add ext_lenovo_l340-15api_rs5_19h1_v4.911.626.42
+
+Sep_12_2019:
+-----------------------------------
+1. Add ext_lenovo_l340-15api_rs4_rs5_19h1_v233 (add 19H1 logo) 
+2. Add ext_lenovo_l340-17api_rs4_rs5_19h1_v234 (add 19H1 logo) 
+3. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.911.630.21
+	Updated models:
+		S550-15IIL
+	Remove models:
+		S550-ARE
+		
+Sep_06_2019:
+-----------------------------------
+1. Add ext_lenovo_330-14ikbr_rs4_rs5_19h1_v221
+2. Add ext_lenovo_330-15icn_rs4_rs5_19h1_v223
+3. Add ext_lenovo_ideapad_y530-15ich_rs4_rs5_19h1_v223
+4. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.904.539.33
+	Updated models:
+		Flex 5-14IIL-05
+		Flex 5-15IIL-05
+		Y550-15IMH
+		Y550-17IMH
+		L350-15IMH
+
+Aug_30_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.830.602.5
+	Updated models:
+		Y740s-15IRH
+		S350-14IML
+		S350-15IML
+		S350-17IML
+		ThinkBook 15-IML (V340-15IML)
+	Remove models:
+		S350-14ADA
+		S350-15ADA
+		S350-17ADA
+	
+Aug_27_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.827.707.43
+	Updated models:
+		Flex 3-11IGL-05
+		ThinkBook 15-IML (V340-15IML)
+		
+Aug_23_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.823.125.57
+	Updated models:
+		Y750-15IMH
+
+Aug_20_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.820.113.38
+	Updated models:
+		S550-ARE
+		S350-14ADA
+		S350-15ADA
+		S350-17ADA
+		ThinkBook 14-IML (V340-14IML)
+		ThinkBook 15-IML (V340-15IML)	
+	Remove models:
+		Thinkbook 15-IIL
+		Thinkbook 14-IIL
+		ThinkBook 14s
+		ThinkBook 13s
+	
+Aug_16_2019:
+-----------------------------------
+1. Add ext_lenovo_530s-14ikb_rs4_rs5_19h1_v220 (add 19h1 signed)
+2. Add ext_lenovo_530s-15ikb_rs4_rs5_19h1_v218 (add 19h1 signed)
+3. Add ext_lenovo_l340-15irh_rs4_rs5_19h1_v229 (add 19h1 signed)
+4. Add ext_lenovo_l340-17irh_rs4_rs5_19h1_v229 (add 19h1 signed)
+5. Add ext_lenovo_yoga530ikb_rs4_rs5_19h1_v217 (add 19h1 signed)
+6. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.816.539.42
+	Updated models:
+		Yoga Slim 7-14IIL-05
+		Yoga Slim 7-15IIL-05
+		Y740s-15IRH
+
+Aug_12_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.808.305.20
+	Updated models:
+		S940-14IIL
+		S150-11IGL
+		S150-14IGL
+		
+Aug_06_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.805.846.04
+	Updated models:
+		S940-14IIL
+		S350-14IML
+		S350-15IML
+		S350-17IML
+
+Aug_01_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.801.125.03
+	Updated models:
+		Yoga C640-13IML
+
+Jul_30_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.729.514.01
+	Updated models:
+		S340-14IWL
+		S340-15IWL
+		S550-14ICL
+
+Jul_24_2019:
+-----------------------------------
+1. Add ext_lenovo_730s-13whl_rs5_19h1_v227
+2. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.723.609.31
+	Updated models:
+		S540-13CML
+
+Jul_19_2019:
+-----------------------------------
+1. Add ext_lenovo_730s-13whl_rs5_19h1_v226
+2. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.719.322.27
+	Updated models:
+		Y740s-15IRH
+		Yoga C940-15IRH
+	Removed models:		
+		S740-13IML
+
+Jul_16_2019:
+-----------------------------------
+1. Add ext_lenovo_s940-13iwl_rs4_rs5_19h1_v234
+2. Add ext_lenovo_AIO_rtk_rs4_rs5_19h1_v4.715.945.02
+	Updated models:
+		S940-14IIL
+		S550-15IIL
+		ThinkBook 14-IML (V340-14IML)
+		ThinkBook 15-IML (V340-15IML)
+		
+Jul_11_2019:
+-----------------------------------
+1. Add ext_lenovo_s940-13iwl_rs4_rs5_19h1_v233
+2. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.711.739.45
+	Updated models:
+		S740-14IIL
+		S740-15
+		S150-11AST
+		S150-14AST
+		YogaC940-13
+
+Jul_10_2019:
+-----------------------------------
+1. Add ext_lenovo_730s-13whl_rs5_19h1_v225
+2. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.709.918.44
+	Updated models:
+		S740-13IML
+		Y740s-15IRH
+		
+Jul_05_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.705.719.53
+	Updated models:
+		S740-14IIL
+		Yoga C940-15IRH
+
+Jul_03_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs5_19h1_v4.703.821.41
+	Updated models:
+		Thinkbook 14-IIL
+		Thinkbook 15-IIL
+
+Jul_02_2019:
+-----------------------------------
+1. Add ext_lenovo_yeti2_rs3_rs4_rs5_19h1_v217
+2. Add ext_lenovo_730s-13whl_rs5_19h1_v224
+
+Jun_28_2019:
+-----------------------------------
+1. Add ext_lenovo_v540s-13_rs5_19h1_v231
+2. Add ext_lenovo_v540s-14_rs5_19h1_v230
+3. Add ext_lenovo_AIO_rtk_rs4_rs5_19h1_v4.626.648.19
+	Updated models:
+		AIO340-22AST
+		AIO340-24ICB
+
+Jun_25_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs4_rs5_19h1_v4.625.514.13
+	Updated models:
+		C740-14
+		C740-15
+
+Jun_24_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs4_rs5_19h1_v4.624.106.45
+	Updated models:
+		Yoga C640-13IML
+
+Jun_20_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs4_rs5_19h1_v4.620.652.46
+	Updated models:
+		Yoga C940-15IRH
+		YogaC940-13
+
+Jun_18_2019:
+-----------------------------------
+1. Add ext_lenovo_s140-14iwl_rs4_rs5_19h1_v232
+2. Add ext_lenovo_s140-15iwl_rs4_rs5_19h1_v230
+3. Add ext_lenovo_y740-15ich_rs4_rs5_19h1_v230
+4. Add ext_lenovo_y740-17ich_rs4_rs5_19h1_v229
+5. Add ext_lenovo_AIO_rtk_rs4_rs5_19h1_v4.617.944.27
+	Updated models:
+		S540-13CML
+		Yoga C940-15IRH
+
+Jun_14_2019:
+-----------------------------------
+1. Add ext_lenovo_v540s-14_rs4_rs5_19h1_v229
+2. Add ext_lenovo_v540s-13_rs4_rs5_19h1_v230
+
+Jun_11_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs4_rs5_19h1_v4.610.905.00
+	Updated models:
+		S740-15
+
+Jun_06_2019:
+-----------------------------------
+1. Add ext_lenovo_s530-13iwl_rs4_rs5_19h1_v224
+
+Jun_04_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs4_rs5_19h1_v4.603.334.50
+	Updated models:
+		Yoga C940-15IRH
+	
+May_30_2019:
+-----------------------------------
+1. Add ext_lenovo_y540-17ich_rs4_rs5_19h1_v230
+2. Add ext_lenovo_AIO_rtk_rs4_rs5_19h1_v4.530.649.37
+	Updated models:
+		S740-15
+
+May_28_2019:
+-----------------------------------
+1. Add ext_lenovo_730s-13whl_rs4_rs5_19h1_v222
+2. Add ext_lenovo_y540-15ich_rs4_rs5_19h1_v230
+3. Add ext_lenovo_y545-15ich_rs4_rs5_19h1_v230
+
+May_23_2019:
+-----------------------------------
+1. Add ext_lenovo_s140-14iwl_rs4_rs5_19h1_v231
+2. Add ext_lenovo_s140-15iwl_rs4_rs5_19h1_v229
+3. Add ext_lenovo_AIO_rtk_rs4_rs5_19h1_v4.523.743.45
+	Updated models:
+		S740-14IIL
+
+May_22_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs4_rs5_19h1_v4.522.952.40
+	Updated models:
+		YogaC940-13 (change project name form YogaC940)
+		AIO340-22AST
+		AIO340-24ICB
+		
+May_17_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs4_rs5_19h1_v4.515.804.43
+	Updated models:
+		C740-14
+		C740-15
+		
+May_10_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs4_rs5_19h1_v4.510.658.26
+	Updated models:
+		S740-14IIL
+
+May_07_2019:
+-----------------------------------
+1. Add ext_lenovo_s540-15_rs4_rs5_19h1_v233
+2. Add ext_lenovo_AIO_rtk_rs4_rs5_19h1_v4.507.739.34
+	Updated models:
+		C740-14
+		C740-15
+		AIO340-22AST
+		AIO340-24ICB
+		
+May_02_2019:
+-----------------------------------
+1. Add ext_lenovo_aio_730s_rs4_rs5_19h1_v220
+2. Add ext_lenovo_e96z_rs3_rs4_rs5_19h1_v221
+3. Add ext_lenovo_m820z_rs4_rs5_19h1_v216
+4. Add ext_lenovo_y730_rs4_rs5_19h1_v220
+5. Add ext_lenovo_AIO_rtk_rs4_rs5_19h1_v4.502.134.32
+	Updated models:
+		S540-13CML
+		S150-11AST
+		S150-14AST
+		C740-14
+		C740-15
+
+Apr_26_2019:
+-----------------------------------
+1. Add ext_lenovo_y530_rs4_rs5_19h1_v224
+2. Add ext_lenovo_AIO_rtk_rs4_rs5_19h1_v4.426.206.52
+	Updated models:
+		A540-24ICB
+		
+Apr_24_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs4_rs5_v4.423.844.33
+	Updated models:
+		A540-24ICB
+		
+Apr_22_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs4_rs5_v4.422.612.49
+	Updated models:
+		C340-15IWL
+		S340-14IWL
+		S340-15IWL
+
+Apr_19_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs4_rs5_v4.416.936.40
+	Updated models:
+		Y740s-15IRH
+		C740-14
+
+Apr_16_2019:
+-----------------------------------
+1. Add ext_lenovo_s530-13iwl_rs4_rs5_v224
+2. Add ext_lenovo_aio 340_rs4_rs5_v227
+3. Add ext_lenovo_AIO_rtk_rs4_rs5_v4.415.1024.48
+	Updated models:
+		ThinkBook 13s
+		ThinkBook 14s
+		C740-15
+
+Apr_12_2019:
+-----------------------------------
+1. Add ext_lenovo_730s-13whl_rs4_rs5_v222
+2. Add ext_lenovo_s140-14iwl_rs4_rs5_v231
+3. Add ext_lenovo_s140-15iwl_rs4_rs5_v229
+
+Apr_09_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs4_rs5_v4.408.639.31
+	Updated models:
+		ThinkBook 14-IML (V340-14IML)
+		ThinkBook 15-IML (V340-15IML)
+
+Apr_03_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs4_rs5_v4.403.425.05
+	Updated models:
+		S540-13CML (disable volume leveler for all the profiles)
+
+Mar_29_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs4_rs5_v4.329.203.38
+	Updated models:
+		A540-24ICB
+		ThinkBook 14-IML (V340-14IML)
+		ThinkBook 15-IML (V340-15IML)
+		Yoga C640-13IML
+
+Mar_22_2019:
+-----------------------------------
+1. Add ext_lenovo_s940-13iwl_rs4_rs5_v233
+2. Add ext_lenovo_yeti2_rs3_rs4_rs5_v217
+
+Mar_18_2019:
+-----------------------------------
+1. Add ext_lenovo_330-17ikbr_rs4_rs5_v218
+2. Add ext_lenovo_730s-13whl_rs4_rs5_v221
+3. Add ext_lenovo_v540s-13_rs4_rs5_v230
+4. Add ext_lenovo_v540s-14_rs4_rs5_v229
+
+Mar_15_2019:
+-----------------------------------
+1. Add ext_lenovo_330s-14ikb_rs4_rs5_v220
+2. Add ext_lenovo_330s-15ikb_rs4_rs5_v218
+3. Add ext_lenovo_AIO_rtk_rs4_rs5_v4.314.921.06
+	Updated models:
+		A540-24ICB
+
+Mar_08_2019:
+-----------------------------------
+1. Add ext_lenovo_v540s-14_rs4_rs5_v228
+
+Mar_05_2019:
+-----------------------------------
+1. Add ext_lenovo_yoga_c730_13iwl_rs3_rs4_rs5_v220
+2. Add ext_lenovo_yoga_c730_15iwl_rs3_rs4_rs5_v220
+
+Feb_26_2019:
+-----------------------------------
+1. Add ext_lenovo_ideapad_yoga930_rs3_rs4_rs5_v228
+2. Add ext_lenovo_AIO_rtk_rs4_rs5_v4.225.937.37
+	Updated models:
+		YogaC940
+
+Feb_22_2019:
+-----------------------------------
+1. Add ext_lenovo_330c-14_rs3_rs4_rs5_v218
+2. Add ext_lenovo_330c-15_rs4_rs5_v218
+3. Add ext_lenovo_v540s-14_rs4_rs5_v227
+4. Add ext_lenovo_v540s-13_rs4_rs5_v229
+
+Feb_19_2019:
+-----------------------------------
+1. Add ext_lenovo_v540s-13_rs4_rs5_v228
+
+Feb_15_2019:
+-----------------------------------
+1. Add ext_lenovo_l340-15irh_rs4_rs5_v229
+2. Add ext_lenovo_l340-17irh_rs4_rs5_v229
+3. Add ext_lenovo_y540-15ich_rs4_rs5_v229
+4. Add ext_lenovo_y540-17ich_rs4_rs5_v229
+5. Add ext_lenovo_y545-15ich_rs4_rs5_v229
+6. Add ext_lenovo_AIO_rtk_rs4_rs5_v4.215.535.27
+	Add models:
+		S740-14IIL
+
+Feb_13_2019:
+-----------------------------------
+1. Add ext_lenovo_s940-13iwl_rs4_rs5_v232
+
+Feb_1_2019:
+-----------------------------------
+1. Add ext_lenovo_y540-15ich_rs4_rs5_v228
+2. Add ext_lenovo_y540-17ich_rs4_rs5_v228
+3. Add ext_lenovo_y545-15ich_rs4_rs5_v228
+
+Jan_30_2019:
+-----------------------------------
+1. Add ext_lenovo_330-14ikbr_rs4_rs5_v221
+2. Add ext_lenovo_530s_14ikb_rs4_rs5_v220
+3. Add ext_lenovo_530s-15ikb_rs4_rs5_v218
+4. Add ext_lenovo_s540-15_rs4_rs5_v232
+5. Add ext_lenovo_s940-13iwl_rs4_rs5_v231
+6. Add ext_lenovo_y740_15ich_rs4_rs5_v230
+7. Add ext_lenovo_y740_17ich_rs4_rs5_v229
+8. Add ext_lenovo_yoga530ikb_rs4_rs5_v217
+
+Jan_29_2019:
+-----------------------------------
+1. Add ext_lenovo_ideapad_y530-15ich_rs4_rs5_v223
+
+Jan_25_2019:
+-----------------------------------
+1. Add ext_lenovo_s140-15iwl_rs4_rs5_v228
+
+Jan_23_2019:
+-----------------------------------
+1. Add ext_lenovo_s140-14iwl_rs4_rs5_v230
+
+Jan_21_2019:
+-----------------------------------
+1. Add ext_lenovo_m820z_rs4_rs5_v216
+
+Jan_17_2019:
+-----------------------------------
+1. Add ext_lenovo_y540-15ich_rs4_rs5_v227
+2. Add ext_lenovo_y540-17ich_rs4_rs5_v227
+3. Add ext_lenovo_y545-15ich_rs4_rs5_v227
+
+Jan_16_2019:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs4_rs5_v4.111.1136.15
+	Add models:
+		Yoga S730-13IML 
+		Yoga C940-15IRH
+2. Add ext_lenovo_l340-15irh_rs4_rs5_v228
+3. Add ext_lenovo_l340-17irh_rs4_rs5_v228
+
+Jan_03_2019:
+-----------------------------------
+1. Add ext_lenovo_aio340_rs4_rs5_v226
+2. Add ext_lenovo_AIO_rtk_rs4_rs5_v4.102.1254.22
+	Updated models:
+		C740-14
+		C740-15
+
+Dec_28_2018:
+-----------------------------------
+1. Add ext_lenovo_s940-13iwl_rs4_rs5_v230
+
+Dec_21_2018:
+-----------------------------------
+1. Add ext_lenovo_aio_730s_rs4_rs5_v220
+
+Dec_19_2018:
+-----------------------------------
+1. Correct folder name to ext_lenovo_330s_14ikb_rs4_v220 form ext_lenovo_330s-14ikb_rs4_v220
+2. Add ext_lenovo_aio940_rs4_rs5_v230
+3. Add ext_lenovo_s530_13iwl_rs4_rs5_v223
+4. Add ext_lenovo_s540-15_rs4_rs5_v231
+5. Add ext_lenovo_AIO_rtk_rs4_rs5_v3.1219.230.49
+	Updated models:
+		S740-15
+
+Dec_13_2018:
+-----------------------------------
+1. Add ext_lenovo_s940-13iwl_rs4_rs5_v229
+2. Add ext_lenovo_l340_15api_rs4_rs5_v233
+3. Add ext_lenovo_l340_17api_rs4_rs5_v234
+
+Dec_12_2018:
+-----------------------------------
+1. Add ext_lenovo_l340-15irh_rs4_rs5_v227
+1. Add ext_lenovo_l340-17irh_rs4_rs5_v227
+
+Dec_10_2018:
+-----------------------------------
+1. Add ext_lenovo_s940-13iwl_rs4_rs5_v228
+2. Add ext_lenovo_AIO_rtk_rs4_rs5_v3.1210.848.38
+	Removed models:
+		S940
+
+Dec_07_2018:
+-----------------------------------
+1. Add ext_lenovo_l340_15api_rs4_rs5_v232
+2. Add ext_lenovo_l340_17api_rs4_rs5_v233
+3. Add ext_ideapad_AIO_rtk_rs4_rs5_v3.1207.649.24
+	Updated models:
+		S940
+
+Dec_05_2018:
+-----------------------------------
+1. Add ext_lenovo_y530_rs4_rs5_v223
+
+Dec_04_2018:
+-----------------------------------
+1. Add ext_lenovo_aio340_rs4_rs5_v225
+
+Nov_30_2018:
+-----------------------------------
+1. Add ext_lenovo_y740_15ich_rs4_rs5_v229
+2. Add ext_lenovo_s540-15_rs4_rs5_v230
+3. Add ext_lenovo_s140-14iwl_rs4_rs5_v229
+4. Add ext_lenovo_aio940_rs4_rs5_v229
+5. Add ext_lenovo_AIO_rtk_rs4_rs5_v3.1130.200.25
+	Updated Models:
+		S340-14IWL
+
+Nov_26_2018:
+-----------------------------------
+1. Add ext_lenovo_y530_rs4_rs5_v220
+2. Add ext_lenovo_y730_rs4_rs5_v220
+
+Nov_26_2018:
+-----------------------------------
+1. Add ext_lenovo_AIO_rtk_rs4_rs5_v3.1123.920.38
+	Updated Models:
+		S340-14IWL
+2. Add ext_lenovo_330-15icn_rs4_rs5_v223
+
+Nov_23_2018:
+-----------------------------------
+1. Add ext_lenovo_330-15icn_rs4_rs5_v222
+2. Add ext_lenovo_y740_15ich_rs4_rs5_v228
+3. Add ext_lenovo_y740_17ich_rs4_rs5_v228
+
+Nov_21_2018:
+-----------------------------------
+1. Add ext_lenovo_330-15icn_rs4_rs5_v220
+2. Add ext_lenovo_aio340_rs4_rs5_v224
+3. Add ext_lenovo_y740_15ich_rs4_rs5_v227
+4. Add ext_lenovo_y740_17ich_rs4_rs5_v227
+
+Nov_21_2018:
+-----------------------------------
+1. Add ext_lenovo_s540-15_rs4_rs5_v229
+
+Nov_16_2018:
+-----------------------------------
+1. Add ext_lenovo_l340_17api_rs4_rs5_v232
+2. Add ext_lenovo_s140-15iwl_rs4_rs5_v227
+3. Add ext_lenovo_AIO_rtk_rs4_rs5_v3.1115.931.54
+	Updated Models:
+		S340-14IWL
+
+Nov_13_2018:
+-----------------------------------
+1. Add ext_lenovo_v540s-13_rs4_rs5_v227
+2. Add ext_lenovo_v540s-14_rs4_rs5_v226
+
+Nov_12_2018:
+-----------------------------------
+1. Add ext_lenovo_l340_15api_rs4_rs5_v231
+
+Nov_09_2018:
+-----------------------------------
+1. Add ext_lenovo_aio940_rs4_rs5_v228
+2. Add ext_lenovo_AIO_rtk_rs4_rs5_v3.1109.317.28
+	Updated models:
+		C340-15IWL
+
+Nov_07_2018:
+-----------------------------------
+1. Add ext_lenovo_s540-15_rs4_rs5_v228
+2. Add ext_lenovo_AIO_rtk_rs4_rs5_v3.1107.521.08
+	Updated models:
+		S340-15IWL
+
+Nov_06_2018:
+-----------------------------------
+1. Add ext_lenovo_e96z_rs3_rs4_rs5_v221
+
+Nov_05_2018:
+-----------------------------------
+1. Add ext_lenovo_730s-13whl_rs3_rs4_rs5_v220
+2. Add ext_lenovo_aio_730s_rs3_rs4_rs5_v219
+3. Add ext_lenovo_AIO_rtk_rs3_rs4_rs5_v3.1102.835.53
+	Updated models:
+		Yoga C940
+
+Nov_02_2018:
+-----------------------------------
+1. Add ext_lenovo_s140-14iwl_rs3_rs4_v228
+
+Oct_29_2018:
+-----------------------------------
+1. Add ext_lenovo_s140-14iwl_rs4_v227
+2. Add ext_lenovo_s540-15_rs4_v227
+
+Oct_22_2018:
+-----------------------------------
+1. Add ext_lenovo_s940-13iwl_rs4_v227
+2. Add ext_lenovo_330_17ikbr_rs4_v218
+
+Oct_17_2018:
+-----------------------------------
+1. Add ext_lenovo_y740_15ich_rs4_v226
+2. Add ext_lenovo_y740_17ich_rs4_v226
+
+Oct_11_2018:
+-----------------------------------
+1. Add ext_lenovo_aio340_rs4_v223
+2. Add ext_lenovo_l340_15api_rs4_v230
+3. Add ext_lenovo_l340_17api_rs4_v230
+4. Add ext_lenovo_l340-15irh_rs4_v226
+5. Add ext_lenovo_l340-17irh_rs4_v226
+
+Oct_08_2018:
+-----------------------------------
+1. Add ext_lenovo_s940-13iwl_rs4_v226
+
+Sep_28_2018:
+-----------------------------------
+1. Add ext_lenovo_v540s-14_rs4_v226
+2. Add ext_lenovo_v540s-13_rs4_v227
+3. Add ext_lenovo_330-14ikbr_rs4_v220
+4. Add ext_lenovo_330-15ich_rs4_v219
+5. Add ext_lenovo_330-17ich_rs4_v219
+6. Add ext_lenovo_330s-14ikb_rs4_v220
+
+Sep_26_2018:
+-----------------------------------
+1. Add ext_lenovo_aio340_rs4_v222
+
+Sep_20_2018:
+-----------------------------------
+1. Add change ext_lenovo_v530s-13_rs4_v226 to ext_lenovo_v540s-13_rs4_v226
+2. Add ext_lenovo_l340_15api_rs4_v229
+3. Add ext_lenovo_l340_17api_rs4_v229
+4. Add ext_lenovo_y540_15ich_rs4_v226
+5. Add ext_lenovo_y540_17ich_rs4_v226
+6. Add ext_lenovo_y545_15ich_rs4_v226
+
+Sep_14_2018:
+-----------------------------------
+1. Add ext_lenovo_v530s-13_rs4_v226
+
+Sep_12_2018:
+-----------------------------------
+1. Add ext_lenovo_330s_14ikb_rs4_v219
+
+Sep_10_2018:
+-----------------------------------
+1. Add ext_lenovo_y730-15ich_rs4_v221
+2. Add ext_lenovo_y730-17ich_rs4_v222
+
+Sep_06_2018:
+-----------------------------------
+1. Add ext_lenovo_aio940_rs4_v227
+
+Aug_30_2018:
+-----------------------------------
+1. Add ext_lenovo_aio340_rs4_v221
+2. Add ext_lenovo_aio940_rs4_v226
+3. Add ext_lenovo_l340-15api_rs4_v228
+4. Add ext_lenovo_l340-17api_rs4_v228
+5. Add ext_lenovo_s140-14iwl_rs4_v226
+6. Add ext_lenovo_s140-15iwl_rs4_v226
+7. Add ext_lenovo_s540-15_rs4_v226
+8. Remove ext_lenovo_aio930_v220
+9. Remove ext_lenovo_aio950_v221
+
+Aug_22_2018:
+-----------------------------------
+1. Add ext_lenovo_l340_15api_rs4_v227
+2. Add ext_lenovo_l340_17api_rs4_v227
+
+Aug_20_2018:
+-----------------------------------
+1. Add ext_lenovo_330s_14ikb_rs4_v218
+2. Add ext_lenovo_330s_15ikb_rs4_v218
+3. Add ext_lenovo_330s_15nv_rs4_v217
+4. Add ext_lenovo_l340_15api_rs4_v226
+5. Add ext_lenovo_l340_17api_rs4_v226
+
+Aug_14_2018:
+-----------------------------------
+1. Add ext_lenovo_530s_14ikb_rs4_v219
+2. Add ext_lenovo_530s-15ikb_rs4_v217
+
+Aug_10_2018:
+-----------------------------------
+1. Add ext_lenovo_aio340_rs3_rs4_v220
+2. Add ext_lenovo_s530_13iwl_rs3_rs4_v222
+
+Aug_08_2018:
+-----------------------------------
+1. Add ext_lenovo_ideapad_yoga930_rs3_rs4_v228
+2. Add ext_lenovo_y730_15ich_rs3_rs4_v220
+3. Add ext_lenovo_y730_17ich_rs3_rs4_v221
+
+Aug_03_2018:
+-----------------------------------
+1. Add ext_lenovo_330c-15_rs4_v218
+2. Add ext_lenovo_730s-13whl_rs3_rs4_v219
+
+Aug_01_2018:
+-----------------------------------
+1. Add ext_lenovo_330_20ast_rs3_rs4_v216
+2. Add ext_lenovo_aio340_rs3_rs4_v219
+3. Add ext_lenovo_d330_10igm_rs3_rs4_v220
+
+July_27_2018:
+-----------------------------------
+1. Add ext_lenovo_y730_17ich_rs3_rs4_v220
+
+July_16_2018:
+-----------------------------------
+1. Add ext_lenovo_730s-13whl_rs3_rs4_v218
+
+July_11_2018:
+-----------------------------------
+1. Add ext_lenovo_s530_13iwl_rs3_rs4_v221
+
+July_06_2018:
+-----------------------------------
+1. Add ext_lenovo_330c_14_rs3_rs4_v218
+
+July_06_2018:
+-----------------------------------
+1. Add ext_lenovo_y7000p_rs3_rs4_v220
+
+July_04_2018:
+-----------------------------------
+1. Add ext_lenovo_s530_13iwl_rs3_rs4_v220
+
+Jun_28_2018:
+-----------------------------------
+1. Restore ext_lenovo_yoga_c730_13iwl_v220 to fix WHQL signature
+2. Restore ext_lenovo_yoga_c730_15iwl_v220 to fix WHQL signature
+
+
+
+Jun_27_2018:
+-----------------------------------
+1. Add ext_lenovo_ideapad_yoga930_rs4_v227
+
+Jun_26_2018:
+-----------------------------------
+1. Add ext_lenovo_730s-13whl_rs3_rs4_v217
+
+Jun_20_2018:
+-----------------------------------
+1. Add ext_lenovo_yoga530ikb_rs4_v216
+2. Add ext_lenovo_530s_14ikb_rs4_v217
+
+Jun_13_2018:
+-----------------------------------
+1. Add ext_lenovo_aio_520-22iku_rs3_rs4_v219
+2. Add ext_lenovo_aio_520-24iku_rs3_rs4_v219
+
+Jun_13_2018:
+-----------------------------------
+1. Add ext_lenovo_y730_17ich_rs3_rs4_v219
+
+Jun_12_2018:
+-----------------------------------
+1. Add ext_lenovo_y730_15ich_rs3_rs4_v219
+2. Add ext_lenovo_m920z_rs3_rs4_v216
+
+Jun_08_2018:
+-----------------------------------
+1. Add ext_lenovo_730s-13whl_rs3_rs4_v216
+
+Jun_06_2018:
+-----------------------------------
+1. Add ext_lenovo_yeti2_rs3_rs4_v217
+2. Add ext_lenovo_330_15icn_rs3_rs4_v219
+
+Jun_04_2018:
+-----------------------------------
+1. Add ext_lenovo_ideapad_y530-15ich_rs4_v221
+
+Jun_01_2018:
+-----------------------------------
+1. Add ext_lenovo_ideapad_yoga930_rs4_v226
+
+Jun_01_2018:
+-----------------------------------
+1. Add ext_lenovo_ideapad_yoga930_rs4_v225
+
+May_29_2018:
+-----------------------------------
+1. Add ext_lenovo_ideapad_y7000p_v220
+
+May_28_2018:
+-----------------------------------
+1. Add ext_lenovo_ideapad_yoga930_v224
+
+May_25_2018:
+-----------------------------------
+1. Add ext_lenovo_ideapad_yoga930_v223
+2. Add ext_lenovo_ideapad_y7000p_v219
+
+May_21_2018:
+-----------------------------------
+1. Add ext_lenovo_ideapad_530s_14ikb_v216
+2. Add ext_lenovo_ideapad_530s-15ikb_v215
+
+May_16_2018:
+-----------------------------------
+1. Add ext_lenovo_ideapad_y530-15ich_v220
+
+May_14_2018:
+-----------------------------------
+1. Add ext_lenovo_v340-14(mono speaker)_v219
+2. Add ext_lenovo_v340-14(dual speaker)_v219
+
+May_08_2018:
+-----------------------------------
+1. Add ext_lenovo_yoga930_v222
+
+May_08_2018:
+-----------------------------------
+1. Add ext_lenovo_y730_15ich_v218
+2. Add ext_lenovo_y730_17ich_v218
+
+May_08_2018:
+-----------------------------------
+1. Add ext_lenovo_e96z_v220
+
+May_02_2018:
+-----------------------------------
+1. Add ext_lenovo_y730_15ich_v217
+
+May_02_2018:
+-----------------------------------
+1. Add ext_lenovo_y730_17ich_v217
+
+April_27_2018:
+-----------------------------------
+1. Add ext_lenovo_yoga_c730_13iwl_v220
+2. Add ext_lenovo_yoga_c730_15iwl_v220
+
+
+
+April_20_2018:
+-----------------------------------
+1. Add ext_lenovo_y7000p_v218
+
+April_19_2018:
+-----------------------------------
+1. Add ext_lenovo_330_15icn_v218
+2. Add ext_lenovo_y7000p_v217
+3. Add ext_lenovo_m828z_v219
+
+April_17_2018:
+-----------------------------------
+1. Add ext_lenovo_e96z_v219
+2. Add ext_lenovo_yoga_s530_13iwl_v219
+
+April_12_2018:
+-----------------------------------
+1. Add ext_lenovo_d330_10igm_v219
+2. Add ext_lenovo_yoga_c730_13iwl_v219
+3. Add ext_lenovo_yoga_c730_15iwl_v219
+
+April_10_2018:
+-----------------------------------
+1. Remove ext_lenovo_yoga310_11iap
+
+April_10_2018:
+-----------------------------------
+1. Move ext_lenovo_a285_v217 from ideapad folder to thinkpad folder
+2. Move ext_lenovo_kei_v214 from ideapad folder to thinkpad folder
+
+March_28_2018:
+-----------------------------------
+1. Add ext_lenovo_aioc5_v216
+
+March_26_2018:
+-----------------------------------
+1. Add ext_lenovo_yoga930_v221
+2. Add ext_lenovo_y730_17ich_v216
+3. Add ext_lenovo_y730_15ich_v216
+4. Add ext_lenovo_m820z_v215
+5. Add ext_lenovo_aioc7_v216
+6. Add ext_lenovo_a285_v217
+7. Add ext_lenovo_7000p_v216
+
+March_21_2018:
+-----------------------------------
+1. Add ext_lenovo_y530_15ich_v219
+
+March_19_2018:
+-----------------------------------
+1. Add ext_lenovo_y530_v219
+2. Add ext_lenovo_y730_v219
+
+March_16_2018:
+-----------------------------------
+1. Add ext_lenovo_aio_730s_v218
+2. Add ext_lenovo_m920z_v215
+3. Add ext_lenovo_y530_15ich_v218
+4. Add ext_lenovo_aioc4_v215
+5. Add ext_lenovo_aioc5_v215
+
+March_09_2018:
+-----------------------------------
+1. Add ext_lenovo_d330_10igm_v218
+
+March_07_2018:
+-----------------------------------
+1. Add ext_lenovo_yoga930_v220
+2. Add ext_lenovo_yeti2_v216
+3. Add ext_lenovo_y730_v218
+4. Add ext_lenovo_y530_v218
+5. Add ext_lenovo_aio950_v221
+6. Add ext_lenovo_730s_13whl_v215
+
+March_02_2018:
+-----------------------------------
+1. Add ext_lenovo_330_15icn_v217
+
+February_27_2018:
+-----------------------------------
+1. Add ext_lenovo_aio930_v220
+
+February_26_2018:
+-----------------------------------
+1. Add ext_lenovo_yoga930_v219
+
+February_08_2018:
+-----------------------------------
+1. Add ext_lenovo_330c_14_v217
+2. Add ext_lenovo_330c_15_v217
+3. Add ext_lenovo_330_17ich_v217
+
+February_08_2018:
+-----------------------------------
+1. Add ext_lenovo_y530_15ich_v217
+	remove ext_lenovo_y530_15ich
+
+January_31_2018:
+-----------------------------------
+1. Add ext_lenovo_aio_730s_v217
+	remove ext_lenovo_aio_730s
+
+January_30_2018:
+-----------------------------------
+1. Add ext_lenovo_330_15ich_v217
+	remove ext_lenovo_330_15ich
+
+January_29_2018:
+-----------------------------------
+1. Add ext_lenovo_kei_v214
+	remove ext_lenovo_kei
+
+January_25_2018:
+-----------------------------------
+1. Remove ext_lenovo_a485 (it is "ThinkPad" project)
+2. Add ext_lenovo_aioc7_v215
+	Remove ext_lenovo_aioc7
+2. Add ext_lenovo_yoga530ikb_v215
+	Remove ext_lenovo_yoga530ikb_v214
+
+January_17_2018:
+-----------------------------------
+1. Add ext_lenovo_330_20ast_v215
+2. Add ext_lenovo_330s_14ikb_v217
+3. Add ext_lenovo_330s_15ikb_v217
+
+January_09_2018:
+-----------------------------------
+Add ext_lenovo_330s_15nv_v216
+
+January_05_2018:
+-----------------------------------
+Move ext_lenovo_330s_15 to ext_lenovo_330s_15ikb_v216.
+
+January_04_2018:
+-----------------------------------
+Add ext_lenovo_530s_14ikb_v215.
+	Include projects: ext_lenovo_530s_14arr
+	Change name from ext_lenovo_530s14 to ext_lenovo_530s_14ikb.
+	
+	
+January_02_2018:
+-----------------------------------
+1. Add ext_lenovo_330_14ikbr_v218
+	Include projects: 
+					ext_lenovo_330_14ast
+					ext_lenovo_330_14igm
+					ext_lenovo_330_14ikb
+2. Add ext_lenovo_330_15icn_v216
+	Include projects:
+					ext_lenovo_330_15arr
+					ext_lenovo_330_1517ikb
+					ext_lenovo_330_15ikbr
+					ext_lenovo_330_15ast
+					ext_lenovo_330_15igm
+3. Add ext_lenovo_330_17ikbr_v217
+	Include projects:
+					ext_lenovo_330_17ast
+4. Remove project: ext_lenovo_330_17arr
+5. Add ext_lenovo_yoga530ikb_v214:
+	Rename ext_lenovo_yoga530 to ext_lenovo_yoga530ikb.
+	Include project: 
+					ext_lenovo_yoga530_14arr
+					
+December_28_2017:
+-----------------------------------
+1. Move ext_lenovo_330icn to ext_lenovo_330_15icn_v215.
+	Update tuning.
+
+December_27_2017_02:
+-----------------------------------
+Update ext_lenovo_330_15ikbr: 2.0.216.0
+	Upload correct version.
+
+December_27_2017:
+-----------------------------------
+1. Update ext_lenovo_330_14ikbr to 2.0.217.0
+	Update tuning.
+2. Add ext_lenovo_yoga310_11iap: 2.0.216.0
+
+December_26_2017:
+-----------------------------------
+1. Add lenovo_330_14ast: 2.0.216.0
+2. Add lenovo_330_15ast: 2.0.216.0
+3. Add lenovo_330_17ast: 2.0.216.0
+4. Add lenovo_330_15ikbr: 2.0.216.0
+5. Add lenovo_330_17ikbr: 2.0.216.0
+6. Update ext_lenovo_aioc4 to: 2.0.214.0
+	Remove FriendlyName setting. Remove test hardwareID.
+7. Update ext_lenovo_aioc5 to: 2.0.214.0
+	Remove FriendlyName setting. Remove test hardwareID.
+8. Update ext_lenovo_aioc7 to: 2.0.214.0
+	Remove FriendlyName setting. Remove test hardwareID.
+9. Update ext_lenovo_m820z to: 2.0.214.0
+	Remove FriendlyName setting. Remove test hardwareID.
+
+
+December_22_2017:
+-----------------------------------
+1. Update ext_lenovo_m920z to 2.0.214.0.
+	1.1 Update tuning.
+	1.2 Remove the FriendlyName setting and test hardwareID.
+
+December_21_2017:
+-----------------------------------
+ext_lenovo_yeti2: 2.0.215.0
+ext_lenovo_330s_14ikb: 2.0.216.0
+ext_lenovo_330_14igm: 2.0.216.0
+ext_lenovo_330_14ikb: 2.0.216.0
+ext_lenovo_330_14ikbr: 2.0.216.0
+ext_lenovo_330_1517ikb: 2.0.216.0
+ext_lenovo_330_15arr: 2.0.216.0
+ext_lenovo_330_15ich: 2.0.216.0
+ext_lenovo_330_15igm: 2.0.216.0
+ext_lenovo_330_17arr: 2.0.216.0
+ext_lenovo_330_17ich: 2.0.216.0
+ext_lenovo_330icn: 2.0.214.0
+ext_lenovo_330s_15: 2.0.216.0
+ext_lenovo_530s_14arr: 2.0.216.0
+ext_lenovo_530s14: 2.0.214.0
+ext_lenovo_530s15: 2.0.213.0
+ext_lenovo_a285: 2.0.216.0
+ext_lenovo_a485: 2.0.216.0
+ext_lenovo_aio_730s: 2.0.216.0
+ext_lenovo_aioc4: 2.0.213.0
+ext_lenovo_aioc5: 2.0.213.0
+ext_lenovo_aioc7: 2.0.213.0
+ext_lenovo_kei: 2.0.213.0
+ext_lenovo_m820z: 2.0.213.0
+ext_lenovo_m920z: 2.0.213.0
+ext_lenovo_y530_15ich: 2.0.216.0
+ext_lenovo_yoga530: 2.0.213.0
+ext_lenovo_yoga530_14arr: 2.0.216.0
+ext_lenovo_yoga930: 2.0.218.0
+
+
+
+
+
+
+
+
