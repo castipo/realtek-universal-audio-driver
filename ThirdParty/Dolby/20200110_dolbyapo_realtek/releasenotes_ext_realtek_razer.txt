@@ -1,0 +1,134 @@
+Jan_10_2020:
+-----------------------------------
+1. Add ext_razer_AIO_rtk_rs5_19h1_v5.110.224.35
+	Updated models:
+		Blade Pro 17(DA720)
+
+Nov_05_2019:
+-----------------------------------
+1. Add ext_razer_AIO_rtk_rs5_19h1_v4.1105.220.27
+	Re-export AIO driver
+
+Nov_01_2019:
+-----------------------------------
+1. Add ext_razer_AIO_rtk_rs5_19h1_v4.1031.933.32
+	Updated models:
+		Blade Stealth (Lynette2_SLS)
+
+Oct_18_2019:
+-----------------------------------
+1. Add ext_razer_AIO_rtk_rs5_19h1_v4.1018.806.10
+	Updated models:
+		Blade Stealth (Lynette2_SLS)
+
+Sep_20_2019:
+-----------------------------------
+1. Add ext_razer_blade_stealth(lynette)_rs5_19h1_v4.918.100.16
+2. Add ext_razer_AIO_rtk_rs5_19h1_v4.919.621.40
+	Updated models:
+		Blade Stealth (Lynette2)
+		Blade15 (Charlotte4.1)
+
+Aug_27_2019:
+-----------------------------------
+1. Add ext_razer_AIO_rtk_rs5_19h1_v4.826.831.10
+	Updated models:
+		Blade(Charlotte3)
+
+Aug_23_2019:
+-----------------------------------
+1. Add ext_razer_AIO_rtk_rs5_19h1_v4.823.616.59
+	Updated models:
+		Blade 15 (Charlotte4.1)
+
+Jul_05_2019:
+-----------------------------------
+1. Add ext_razer_blade_stealth(lynette)_rs5_19h1_v228
+2. Add ext_razer_AIO_rtk_rs5_19h1_v4.704.329.46
+	Updated models:
+		Blade Pro 17(DA720)
+
+Jul_02_2019:
+-----------------------------------
+1. Add ext_razer_AIO_rtk_rs5_19h1_v4.702.535.31
+	Remove models:
+		Blade Stealth (Lynette2)
+
+Jun_28_2019:
+-----------------------------------
+1. Add ext_razer_AIO_rtk_rs5_19h1_v4.627.743.00
+	Updated models:
+		Blade Stealth (Lynette2)
+
+Mar_14_2019:
+-----------------------------------
+1. Add ext_razer_AIO_rtk_rs5_19h1_v4.513.135.28
+	Updated models:
+		Blade Stealth (Lynette2)
+
+Apr_03_2019:
+-----------------------------------
+1. Add ext_razer_AIO_rtk_rs4_rs5_v4.403.734.24
+	Updated models:
+		Blade 15(Dana3)
+		Blade(Charlotte3)
+		
+Mar_18_2019:
+-----------------------------------
+1. Add ext_razer_AIO_rtk_rs4_rs5_v4.318.916.10
+	Updated models:
+		Blade Pro 17(DA720)
+
+Mar_15_2019:
+-----------------------------------
+1. Add ext_razer_AIO_rtk_rs4_rs5_v4.314.750.51
+	Updated models:
+		Blade (Charlotte3)
+
+Feb_15_2019:
+-----------------------------------
+1. Add ext_razer_blade(charlotte2)_rs4_rs5_v229
+
+Dec_12_2018:
+-----------------------------------
+1. Add ext_razer_blade(charlotte2)_rs4_rs5_v227
+
+Nov_30_2018:
+-----------------------------------
+1. Add ext_razer_blade(charlotte2)_rs4_rs5_v226
+
+Oct_11_2018:
+-----------------------------------
+1. Add ext_razer_blade_stealth(hazel4)_rs4_v226
+
+Oct_08_2018:
+-----------------------------------
+1. Add ext_razer_blade_stealth(lynette)_rs4_v227
+
+Sep_10_2018:
+-----------------------------------
+1. Add ext_razer_blade_stealth(lynette)_rs4_v226
+
+Aug_27_2018:
+-----------------------------------
+1. Add ext_razer_dana_rs4_v222
+
+Aug_01_2018:
+-----------------------------------
+1. Add ext_razer_dana_rs3_rs4_v220
+
+May_25_2018:
+-----------------------------------
+1. Add ext_razer_blade_v222
+
+May_11_2018:
+-----------------------------------
+1. Add ext_razer_dana_v219
+
+May_7_2018:
+-----------------------------------
+1. Add ext_razer_blade_v221
+
+March_21_2018:
+-----------------------------------
+1. Add ext_razer_blade_v220

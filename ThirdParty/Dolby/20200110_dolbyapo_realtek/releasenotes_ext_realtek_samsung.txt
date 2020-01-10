@@ -1,0 +1,103 @@
+Jan_10_2020:
+-----------------------------------
+1. Add ext_samsung_AIO_rtk_rs5_19h1_v5.110.225.1
+	Updated models:
+		Samsung Space-X
+
+Dec_16_2019:
+-----------------------------------
+1. Add ext_samsung_AIO_rtk_rs5_19h1_v4.1216.901.31
+	Updated models:
+		Odyssey2R-15
+	
+Nov_13_2019:
+-----------------------------------
+1. Add ext_samsung_AIO_rtk_rs5_19h1_v4.1112.805.33
+	Add operator_settings, Re-export AIO driver
+
+Nov_05_2019:
+-----------------------------------
+1. Add ext_samsung_AIO_rtk_rs5_19h1_v4.1105.221.9
+	Re-export AIo driver
+
+Nov_01_2019:
+-----------------------------------
+1. Add ext_samsung_AIO_rtk_rs5_19h1_v4.1031.856.35
+	Updated models:
+		Space-X
+
+Aug_27_2019:
+-----------------------------------
+1. Add ext_samsung_AIO_rtk_rs5_19h1_v4.826.840.53
+	Updated models:
+		Space-X
+		
+Aug_12_2019:
+-----------------------------------
+1. Add ext_samsung_AIO_rtk_rs5_19h1_v4.807.703.04
+	Updated models:
+		Odyssey2
+
+May_22_2019:
+-----------------------------------
+1. Add ext_samsung_AIO_rtk_rs5_19h1_v4.521.937.34
+	Updated models:
+		Scarlet-15
+
+Apr_26_2019:
+-----------------------------------
+1. Add ext_samsung_AIO_rtk_rs4_rs5_19h1_v4.426.429.27
+	Updated models:
+		Odyssey2
+
+Apr_09_2019:
+-----------------------------------
+1. Add ext_samsung_AIO_rtk_rs4_rs5_v4.409.220.00
+	Updated models:
+		Stella-13
+
+Apr_03_2019:
+-----------------------------------
+1. Add ext_samsung_AIO_rtk_rs4_rs5_v4.403.316.22
+	Updated models:
+		Odyssey2-1050
+		
+Mar_08_2019:
+-----------------------------------
+1. Add ext_samsung_AIO_rtk_rs4_rs5_v4.307.817.37
+	Updated models:
+		Stella-13
+		Stella-15
+		Scarlet-15		
+
+Feb_19_2019:
+-----------------------------------
+1. Add ext_samsung_AIO_rtk_rs4_rs5_v4.219.125.17
+	Updated models:
+		Stella-13
+		Stella-15
+
+Jan_30_2019:
+-----------------------------------
+1. Add ext_samsung_AIO_rtk_rs4_rs5_v4.130.740.04
+	Updated models:
+		Odyssey2
+		Scarlet-15
+
+Jan_16_2019:
+-----------------------------------
+1. Add ext_samsung_AIO_rtk_rs4_rs5_v4.111.905.46
+	Updated models:
+		Stella-13
+		Stella-15
+		Scarlet-15
+		Odyssey2
+
+Dec_05_2018:
+-----------------------------------
+1. Add ext_samsung_AIO_rtk_rs4_rs5_v3.1205.855.18
+	Updated models:
+		Samsung Odyssey2
+		Samsung Scarlet-15
+		Samsung Stella-15
+		Samsung Stella-13
