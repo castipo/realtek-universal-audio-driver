@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OEM%
 ExtensionId = {3ED78669-04CF-413C-A8DF-553436CEA20F}
-DriverVer   = 12/18/2019,1.6.2.342
+DriverVer   = 12/31/2019,1.6.2.347
 CatalogFile = DellAudioExtWaves.cat
 
 [SourceDisksNames]
@@ -35,6 +35,7 @@ MaxxAudio_Data.cab
 %Device.ExtensionDesc% = DeviceExtension_Install_DO,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_10280971
 %Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0289&SUBSYS_10280991
 %Device.ExtensionDesc% = DeviceExtension_Install_DO,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_102809F6
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809C9
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1028098A
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1028098B
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0295&SUBSYS_102809DD
@@ -159,7 +160,6 @@ MaxxAudio_Data.cab
 %Device.ExtensionDesc% = DeviceExtension_Install_DO,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809C0
 %Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_10280A0B
 %Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_10280A0C
-%Device.ExtensionDesc% = DeviceExtension_Install_DO,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809C9
 %Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0289&SUBSYS_10280991
 %Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809EE
 %Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809E9
