@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device_data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xml_version value="3.2.0"/>
+    <dtt_version value="3.1.6"/>
+    <tuning_version value="2"/>
+    <tuning_date value="02/15/2019 09:47:30"/>
+    <constant>
+        <band_20_freq fs_44100="43,129,215,301,431,603,775,947,1206,1550,2067,2756,3618,4651,5685,7063,8958,11025,13781,18777" fs_48000="47,141,234,328,469,656,844,1031,1313,1688,2250,3000,3750,4688,5813,7125,9000,11250,13875,19688"/>
+        <ieq_detailed target="150,142,188,216,189,195,202,199,210,225,230,236,235,235,214,165,112,49,-24,-217"/>
+        <ieq_balanced target="157,167,218,218,203,188,192,192,205,213,218,209,193,159,134,97,71,22,-90,-283"/>
+        <ieq_warm target="114,146,183,169,170,128,103,90,98,126,127,140,96,85,80,66,38,-32,-132,-275"/>
+        <array_20_n192 target="-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192"/>
+        <array_20_zero target="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+    </constant>
+    <setting>
+        <geq_maximum_range value="192"/>
+        <product value="DAX 3 Windows"/>
+        <sku value="DolbyAtmos"/>
+        <operator value="Razer"/>
+        <default_profile value="music"/>
+        <default_uitheme value="blue"/>
+        <max_apo_instance_count value="5"/>
+        <capture_stream_detected value=""/>
+        <install_option value="DesktopIcon=1,TrayIcon=1,HelpImprove=2,ToastNotification=1"/>
+        <security-key value="INTELAUDIO\FUNC_01&amp;VEN_10EC&amp;DEV_0298&amp;SUBSYS_1A582002=67,81,7E,1C,F3,85,2F,2C,A2,C0,47,23,DB,39,5C,7A,F9,1C,97,57,8C,4E,AB,8F,C5,72,40,E6,1E,67,D3,5B,AF,5F,31,AD,35,60,0B,10,16,DC,31,6C,B9,A4,B5,E6,E3,0F,70,B4,2C,BB,E4,B0,F7,FF,49,4F,DD,1A,73,4A,C6,69,0E,24,52,E4,43,4D,22,70,54,BE,B4,6E,AB,D2,04,07,1F,39,BB,0C,C5,56,84,FD,42,55,1D,B5,AC,53,A3,78,7F,D2,DF,F2,FD,34,F0,97,15,27,5F,4E,2E,53,F5,20,B2,3F,D0,95,F5,8E,81,DB,1E,D2,A9,DE,3D,1A,25,6C,F4,92,6A,BC,BE,47,C4,FA,2F,36,7C,33,20,7D,EE,3A,12,F6,97,E0,75,63,10,C4,B7,2B,F8,99,79,69,BA,19,89,29,85,C2,6F,C2,3A,8F,25,72,25,26,29,14,CF,42,7E,24,2E,EF,E2,5A,3E,79,AB,3C,D0,FA,33,55,3A,63,48,3F,65,60,09,4A,83,4A,B5,1C,5C,7E,06,75,62,9B,CF,4A,7A,02,0B,CC,78,00,04,A3,B9,88,04,4A,8F,7A,EA,E7,1E,F0,3C,30,3F,9A,A0,9F,ED,B5,BF,50,F9,84,8A,0C,14,BA,3B,4A,1E,E0,FB,B5,9E,4D,DE,B1,AD,A5,4E,A7,7D,14,FB,3F,3E,58,0B,BD,58,FD,97,CB,C1,2C,8A,4D,9E,DC,ED,4B,D5,C1,7D,84,A2,F5,52,84,91,38,5D,9F,C2,06,16,40,19,BA,54,F2,AF,20,F3,1D,ED,D0,38,24,8C,82,52,31,AD,57,B4,3A,26,CC,0F,00,51,8F,DA,19,D6,AF,EB,4E,9E,48,3E,A3,3D,F3,9B,B8,EF,34,0C,51,0B,F9,CB,94,F7,9D,5E,BE,44,50,21,0D,2E,6A,1D,F7,FE,79,53,DE,E4,AC,5F,17,09,31,BB,74,CB,87,33,99,37,C8,C8,19,3B,04,D5,54,79,EB,20,EF,D7,CD,30,00,FB,FC,60,CE,EB,2B,23,0D,AD,D7,ED,46,D6,B8,53,05,7B,46,48,C4,24,7B,5E,58,0F,C6,B9,21,09,E1,CB,B1,74,E9,50,15,41,C6,39,ED,6D,B7,C6,D3,4F,F4,CC,D6,60,81,6B,B4,FF,0A,B4,99,CB,E8,13,CA,05,2D,F3,7B,61,5A,FC,61,47,54,26,8B,E7,F4,9F,3A,BE,2F,B6,E9,F1,72,EB,5E,0E,B6,CC,A8,16,D3,EE,49,B6,7A,D7,62,81,4C,78,FF,40,1F,8B,AD,E7,A4,2F,D0,44,9D,93,0A,93,EA,93,C2,B3,9C,8C,AB,B0,3D,8C,D2"/>
+    </setting>
+    <endpoint type="internal_speaker" brand="Generic" model="Default" operating_mode="normal" fs="48000" ch_count="2">
+        <profile type="dynamic">
+            <tuning-cp>
+                <audio-optimizer-enable value="0"/>
+                <audio-optimizer-bands>
+                    <gain_l preset="array_20_zero"/>
+                    <gain_r preset="array_20_zero"/>
+                    <gain_c preset="array_20_zero"/>
+                    <gain_lfe preset="array_20_zero"/>
+                    <gain_ls preset="array_20_zero"/>
+                    <gain_rs preset="array_20_zero"/>
+                    <gain_lrs preset="array_20_zero"/>
+                    <gain_rrs preset="array_20_zero"/>
+                    <gain_ltm preset="array_20_zero"/>
+                    <gain_rtm preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <bass-enhancer-enable value="0"/>
+                <bass-enhancer-boost value="0"/>
+                <bass-enhancer-cutoff-frequency value="200"/>
+                <bass-enhancer-width value="16"/>
+                <bass-extraction-enable value="0"/>
+                <bass-extraction-cutoff-frequency value="200"/>
+                <calibration-boost value="0"/>
+                <dialog-enhancer-enable value="1"/>
+                <dialog-enhancer-amount value="7"/>
+                <dialog-enhancer-ducking value="0"/>
+                <graphic-equalizer-enable value="0"/>
+                <graphic-equalizer-bands preset="array_20_zero"/>
+                <height-filter-mode value="0"/>
+                <ieq-enable value="1"/>
+                <ieq-amount value="10"/>
+                <ieq-bands-set preset="ieq_balanced"/>
+                <mi-dialog-enhancer-steering-enable value="1"/>
+                <mi-dv-leveler-steering-enable value="1"/>
+                <mi-ieq-steering-enable value="1"/>
+                <mi-surround-compressor-steering-enable value="1"/>
+                <mi-virt-steering-enable value="1"/>
+                <postgain value="0"/>
+                <pregain value="0"/>
+                <process-optimizer-enable value="0"/>
+                <process-optimizer-bands>
+                    <gain_l preset="array_20_zero"/>
+                    <gain_r preset="array_20_zero"/>
+                    <gain_c preset="array_20_zero"/>
+                    <gain_lfe preset="array_20_zero"/>
+                    <gain_ls preset="array_20_zero"/>
+                    <gain_rs preset="array_20_zero"/>
+                    <gain_lrs preset="array_20_zero"/>
+                    <gain_rrs preset="array_20_zero"/>
+                    <gain_ltm preset="array_20_zero"/>
+                    <gain_rtm preset="array_20_zero"/>
+                </process-optimizer-bands>
+                <regulator-enable value="1"/>
+                <regulator-overdrive value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-speaker-dist-enable value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <surround-boost value="96"/>
+                <surround-decoder-enable value="1"/>
+                <system-gain value="0"/>
+                <virtualizer-front-speaker-angle value="10"/>
+                <virtualizer-height-speaker-angle value="10"/>
+                <virtualizer-surround-speaker-angle value="10"/>
+                <virtual-bass-mix-freqs value="94,469"/>
+                <virtual-bass-mode value="0"/>
+                <virtual-bass-overall-gain value="0"/>
+                <virtual-bass-subgains value="-32,-144,-192"/>
+                <virtual-bass-slope-gain value="0"/>
+                <virtual-bass-src-freqs value="35,160"/>
+                <volmax-boost value="96"/>
+                <volume-leveler-enable value="1"/>
+                <volume-leveler-amount value="4"/>
+                <volume-leveler-in-target value="-320"/>
+                <volume-leveler-out-target value="-320"/>
+                <volume-modeler-enable value="0"/>
+                <volume-modeler-calibration value="0"/>
+                <output-mode-partial-surround-virtualizer-enable value="1"/>
+                <output-mode-partial-height-virtualizer-enable value="0"/>
+            </tuning-cp>
+            <tuning-vlldp>
+                <audio-optimizer-bands>
+                    <gain_l value="0,131,158,51,-59,-30,-19,-6,-25,8,46,12,16,-11,-57,-43,-19,41,104,0"/>
+                    <gain_r value="0,131,158,51,-6,-43,-49,9,-25,4,51,20,17,-19,-65,-49,-24,33,88,0"/>
+                </audio-optimizer-bands>
+                <audio-optimizer-enable value="1"/>
+                <postgain value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-overdrive value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-speaker-dist-enable value="1"/>
+                <regulator-tuning>
+                    <threshold_high value="-176,-331,-433,-286,-315,-217,-257,-83,-64,0,0,0,0,0,0,0,0,0,0,0"/>
+                    <threshold_low value="-368,-523,-625,-478,-507,-409,-449,-275,-256,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192"/>
+                    <isolated_band value="1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0"/>
+                </regulator-tuning>
+                <system-gain value="0"/>
+            </tuning-vlldp>
+        </profile>
+        <profile type="movie">
+            <tuning-cp>
+                <audio-optimizer-enable value="0"/>
+                <audio-optimizer-bands>
+                    <gain_l preset="array_20_zero"/>
+                    <gain_r preset="array_20_zero"/>
+                    <gain_c preset="array_20_zero"/>
+                    <gain_lfe preset="array_20_zero"/>
+                    <gain_ls preset="array_20_zero"/>
+                    <gain_rs preset="array_20_zero"/>
+                    <gain_lrs preset="array_20_zero"/>
+                    <gain_rrs preset="array_20_zero"/>
+                    <gain_ltm preset="array_20_zero"/>
+                    <gain_rtm preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <bass-enhancer-enable value="0"/>
+                <bass-enhancer-boost value="0"/>
+                <bass-enhancer-cutoff-frequency value="200"/>
+                <bass-enhancer-width value="16"/>
+                <bass-extraction-enable value="0"/>
+                <bass-extraction-cutoff-frequency value="200"/>
+                <calibration-boost value="0"/>
+                <dialog-enhancer-enable value="1"/>
+                <dialog-enhancer-amount value="7"/>
+                <dialog-enhancer-ducking value="0"/>
+                <graphic-equalizer-enable value="0"/>
+                <graphic-equalizer-bands preset="array_20_zero"/>
+                <height-filter-mode value="0"/>
+                <ieq-enable value="0"/>
+                <ieq-amount value="10"/>
+                <ieq-bands-set preset="ieq_balanced"/>
+                <mi-dialog-enhancer-steering-enable value="0"/>
+                <mi-dv-leveler-steering-enable value="0"/>
+                <mi-ieq-steering-enable value="0"/>
+                <mi-surround-compressor-steering-enable value="0"/>
+                <mi-virt-steering-enable value="0"/>
+                <postgain value="0"/>
+                <pregain value="0"/>
+                <process-optimizer-enable value="0"/>
+                <process-optimizer-bands>
+                    <gain_l preset="array_20_zero"/>
+                    <gain_r preset="array_20_zero"/>
+                    <gain_c preset="array_20_zero"/>
+                    <gain_lfe preset="array_20_zero"/>
+                    <gain_ls preset="array_20_zero"/>
+                    <gain_rs preset="array_20_zero"/>
+                    <gain_lrs preset="array_20_zero"/>
+                    <gain_rrs preset="array_20_zero"/>
+                    <gain_ltm preset="array_20_zero"/>
+                    <gain_rtm preset="array_20_zero"/>
+                </process-optimizer-bands>
+                <regulator-enable value="1"/>
+                <regulator-overdrive value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-speaker-dist-enable value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <surround-boost value="96"/>
+                <surround-decoder-enable value="1"/>
+                <system-gain value="0"/>
+                <virtualizer-front-speaker-angle value="10"/>
+                <virtualizer-height-speaker-angle value="10"/>
+                <virtualizer-surround-speaker-angle value="10"/>
+                <virtual-bass-mix-freqs value="94,469"/>
+                <virtual-bass-mode value="0"/>
+                <virtual-bass-overall-gain value="0"/>
+                <virtual-bass-subgains value="-32,-144,-192"/>
+                <virtual-bass-slope-gain value="0"/>
+                <virtual-bass-src-freqs value="35,160"/>
+                <volmax-boost value="96"/>
+                <volume-leveler-enable value="1"/>
+                <volume-leveler-amount value="4"/>
+                <volume-leveler-in-target value="-320"/>
+                <volume-leveler-out-target value="-320"/>
+                <volume-modeler-enable value="0"/>
+                <volume-modeler-calibration value="0"/>
+                <output-mode-partial-surround-virtualizer-enable value="1"/>
+                <output-mode-partial-height-virtualizer-enable value="0"/>
+            </tuning-cp>
+            <tuning-vlldp>
+                <audio-optimizer-bands>
+                    <gain_l value="0,131,158,51,-59,-30,-19,-6,-25,8,46,12,16,-11,-57,-43,-19,41,104,0"/>
+                    <gain_r value="0,131,158,51,-6,-43,-49,9,-25,4,51,20,17,-19,-65,-49,-24,33,88,0"/>
+                </audio-optimizer-bands>
+                <audio-optimizer-enable value="1"/>
+                <postgain value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-overdrive value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-speaker-dist-enable value="1"/>
+                <regulator-tuning>
+                    <threshold_high value="-176,-331,-433,-286,-315,-217,-257,-83,-64,0,0,0,0,0,0,0,0,0,0,0"/>
+                    <threshold_low value="-368,-523,-625,-478,-507,-409,-449,-275,-256,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192"/>
+                    <isolated_band value="1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0"/>
+                </regulator-tuning>
+                <system-gain value="0"/>
+            </tuning-vlldp>
+        </profile>
+        <profile type="music">
+            <tuning-cp>
+                <audio-optimizer-enable value="0"/>
+                <audio-optimizer-bands>
+                    <gain_l preset="array_20_zero"/>
+                    <gain_r preset="array_20_zero"/>
+                    <gain_c preset="array_20_zero"/>
+                    <gain_lfe preset="array_20_zero"/>
+                    <gain_ls preset="array_20_zero"/>
+                    <gain_rs preset="array_20_zero"/>
+                    <gain_lrs preset="array_20_zero"/>
+                    <gain_rrs preset="array_20_zero"/>
+                    <gain_ltm preset="array_20_zero"/>
+                    <gain_rtm preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <bass-enhancer-enable value="0"/>
+                <bass-enhancer-boost value="0"/>
+                <bass-enhancer-cutoff-frequency value="200"/>
+                <bass-enhancer-width value="16"/>
+                <bass-extraction-enable value="0"/>
+                <bass-extraction-cutoff-frequency value="200"/>
+                <calibration-boost value="0"/>
+                <dialog-enhancer-enable value="0"/>
+                <dialog-enhancer-amount value="7"/>
+                <dialog-enhancer-ducking value="0"/>
+                <graphic-equalizer-enable value="0"/>
+                <graphic-equalizer-bands preset="array_20_zero"/>
+                <height-filter-mode value="0"/>
+                <ieq-enable value="1"/>
+                <ieq-amount value="10"/>
+                <ieq-bands-set preset="ieq_balanced"/>
+                <mi-dialog-enhancer-steering-enable value="0"/>
+                <mi-dv-leveler-steering-enable value="0"/>
+                <mi-ieq-steering-enable value="0"/>
+                <mi-surround-compressor-steering-enable value="0"/>
+                <mi-virt-steering-enable value="0"/>
+                <postgain value="0"/>
+                <pregain value="0"/>
+                <process-optimizer-enable value="0"/>
+                <process-optimizer-bands>
+                    <gain_l preset="array_20_zero"/>
+                    <gain_r preset="array_20_zero"/>
+                    <gain_c preset="array_20_zero"/>
+                    <gain_lfe preset="array_20_zero"/>
+                    <gain_ls preset="array_20_zero"/>
+                    <gain_rs preset="array_20_zero"/>
+                    <gain_lrs preset="array_20_zero"/>
+                    <gain_rrs preset="array_20_zero"/>
+                    <gain_ltm preset="array_20_zero"/>
+                    <gain_rtm preset="array_20_zero"/>
+                </process-optimizer-bands>
+                <regulator-enable value="1"/>
+                <regulator-overdrive value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-speaker-dist-enable value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <surround-boost value="0"/>
+                <surround-decoder-enable value="0"/>
+                <system-gain value="0"/>
+                <virtualizer-front-speaker-angle value="10"/>
+                <virtualizer-height-speaker-angle value="10"/>
+                <virtualizer-surround-speaker-angle value="10"/>
+                <virtual-bass-mix-freqs value="94,469"/>
+                <virtual-bass-mode value="0"/>
+                <virtual-bass-overall-gain value="0"/>
+                <virtual-bass-subgains value="-32,-144,-192"/>
+                <virtual-bass-slope-gain value="0"/>
+                <virtual-bass-src-freqs value="35,160"/>
+                <volmax-boost value="96"/>
+                <volume-leveler-enable value="1"/>
+                <volume-leveler-amount value="2"/>
+                <volume-leveler-in-target value="-320"/>
+                <volume-leveler-out-target value="-320"/>
+                <volume-modeler-enable value="0"/>
+                <volume-modeler-calibration value="0"/>
+                <output-mode-partial-surround-virtualizer-enable value="0"/>
+                <output-mode-partial-height-virtualizer-enable value="0"/>
+            </tuning-cp>
+            <tuning-vlldp>
+                <audio-optimizer-bands>
+                    <gain_l value="0,131,158,51,-59,-30,-19,-6,-25,8,46,12,16,-11,-57,-43,-19,41,104,0"/>
+                    <gain_r value="0,131,158,51,-6,-43,-49,9,-25,4,51,20,17,-19,-65,-49,-24,33,88,0"/>
+                </audio-optimizer-bands>
+                <audio-optimizer-enable value="1"/>
+                <postgain value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-overdrive value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-speaker-dist-enable value="1"/>
+                <regulator-tuning>
+                    <threshold_high value="-176,-331,-433,-286,-315,-217,-257,-83,-64,0,0,0,0,0,0,0,0,0,0,0"/>
+                    <threshold_low value="-368,-523,-625,-478,-507,-409,-449,-275,-256,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192"/>
+                    <isolated_band value="1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0"/>
+                </regulator-tuning>
+                <system-gain value="0"/>
+            </tuning-vlldp>
+        </profile>
+        <profile type="game">
+            <tuning-cp>
+                <audio-optimizer-enable value="0"/>
+                <audio-optimizer-bands>
+                    <gain_l preset="array_20_zero"/>
+                    <gain_r preset="array_20_zero"/>
+                    <gain_c preset="array_20_zero"/>
+                    <gain_lfe preset="array_20_zero"/>
+                    <gain_ls preset="array_20_zero"/>
+                    <gain_rs preset="array_20_zero"/>
+                    <gain_lrs preset="array_20_zero"/>
+                    <gain_rrs preset="array_20_zero"/>
+                    <gain_ltm preset="array_20_zero"/>
+                    <gain_rtm preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <bass-enhancer-enable value="0"/>
+                <bass-enhancer-boost value="0"/>
+                <bass-enhancer-cutoff-frequency value="200"/>
+                <bass-enhancer-width value="16"/>
+                <bass-extraction-enable value="0"/>
+                <bass-extraction-cutoff-frequency value="200"/>
+                <calibration-boost value="0"/>
+                <dialog-enhancer-enable value="0"/>
+                <dialog-enhancer-amount value="7"/>
+                <dialog-enhancer-ducking value="0"/>
+                <graphic-equalizer-enable value="0"/>
+                <graphic-equalizer-bands preset="array_20_zero"/>
+                <height-filter-mode value="0"/>
+                <ieq-enable value="0"/>
+                <ieq-amount value="10"/>
+                <ieq-bands-set preset="ieq_balanced"/>
+                <mi-dialog-enhancer-steering-enable value="0"/>
+                <mi-dv-leveler-steering-enable value="0"/>
+                <mi-ieq-steering-enable value="0"/>
+                <mi-surround-compressor-steering-enable value="0"/>
+                <mi-virt-steering-enable value="0"/>
+                <postgain value="0"/>
+                <pregain value="0"/>
+                <process-optimizer-enable value="0"/>
+                <process-optimizer-bands>
+                    <gain_l preset="array_20_zero"/>
+                    <gain_r preset="array_20_zero"/>
+                    <gain_c preset="array_20_zero"/>
+                    <gain_lfe preset="array_20_zero"/>
+                    <gain_ls preset="array_20_zero"/>
+                    <gain_rs preset="array_20_zero"/>
+                    <gain_lrs preset="array_20_zero"/>
+                    <gain_rrs preset="array_20_zero"/>
+                    <gain_ltm preset="array_20_zero"/>
+                    <gain_rtm preset="array_20_zero"/>
+                </process-optimizer-bands>
+                <regulator-enable value="1"/>
+                <regulator-overdrive value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-speaker-dist-enable value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <surround-boost value="0"/>
+                <surround-decoder-enable value="1"/>
+                <system-gain value="0"/>
+                <virtualizer-front-speaker-angle value="10"/>
+                <virtualizer-height-speaker-angle value="10"/>
+                <virtualizer-surround-speaker-angle value="10"/>
+                <virtual-bass-mix-freqs value="94,469"/>
+                <virtual-bass-mode value="0"/>
+                <virtual-bass-overall-gain value="0"/>
+                <virtual-bass-subgains value="-32,-144,-192"/>
+                <virtual-bass-slope-gain value="0"/>
+                <virtual-bass-src-freqs value="35,160"/>
+                <volmax-boost value="96"/>
+                <volume-leveler-enable value="1"/>
+                <volume-leveler-amount value="0"/>
+                <volume-leveler-in-target value="-320"/>
+                <volume-leveler-out-target value="-320"/>
+                <volume-modeler-enable value="0"/>
+                <volume-modeler-calibration value="0"/>
+                <output-mode-partial-surround-virtualizer-enable value="1"/>
+                <output-mode-partial-height-virtualizer-enable value="0"/>
+            </tuning-cp>
+            <tuning-vlldp>
+                <audio-optimizer-bands>
+                    <gain_l value="0,131,158,51,-59,-30,-19,-6,-25,8,46,12,16,-11,-57,-43,-19,41,104,0"/>
+                    <gain_r value="0,131,158,51,-6,-43,-49,9,-25,4,51,20,17,-19,-65,-49,-24,33,88,0"/>
+                </audio-optimizer-bands>
+                <audio-optimizer-enable value="1"/>
+                <postgain value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-overdrive value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-speaker-dist-enable value="1"/>
+                <regulator-tuning>
+                    <threshold_high value="-176,-331,-433,-286,-315,-217,-257,-83,-64,0,0,0,0,0,0,0,0,0,0,0"/>
+                    <threshold_low value="-368,-523,-625,-478,-507,-409,-449,-275,-256,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192"/>
+                    <isolated_band value="1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0"/>
+                </regulator-tuning>
+                <system-gain value="0"/>
+            </tuning-vlldp>
+        </profile>
+        <profile type="voice">
+            <tuning-cp>
+                <audio-optimizer-enable value="0"/>
+                <audio-optimizer-bands>
+                    <gain_l preset="array_20_zero"/>
+                    <gain_r preset="array_20_zero"/>
+                    <gain_c preset="array_20_zero"/>
+                    <gain_lfe preset="array_20_zero"/>
+                    <gain_ls preset="array_20_zero"/>
+                    <gain_rs preset="array_20_zero"/>
+                    <gain_lrs preset="array_20_zero"/>
+                    <gain_rrs preset="array_20_zero"/>
+                    <gain_ltm preset="array_20_zero"/>
+                    <gain_rtm preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <bass-enhancer-enable value="0"/>
+                <bass-enhancer-boost value="0"/>
+                <bass-enhancer-cutoff-frequency value="200"/>
+                <bass-enhancer-width value="16"/>
+                <bass-extraction-enable value="0"/>
+                <bass-extraction-cutoff-frequency value="200"/>
+                <calibration-boost value="0"/>
+                <dialog-enhancer-enable value="1"/>
+                <dialog-enhancer-amount value="8"/>
+                <dialog-enhancer-ducking value="0"/>
+                <graphic-equalizer-enable value="0"/>
+                <graphic-equalizer-bands preset="array_20_zero"/>
+                <height-filter-mode value="0"/>
+                <ieq-enable value="0"/>
+                <ieq-amount value="10"/>
+                <ieq-bands-set preset="ieq_balanced"/>
+                <mi-dialog-enhancer-steering-enable value="0"/>
+                <mi-dv-leveler-steering-enable value="0"/>
+                <mi-ieq-steering-enable value="0"/>
+                <mi-surround-compressor-steering-enable value="0"/>
+                <mi-virt-steering-enable value="0"/>
+                <postgain value="0"/>
+                <pregain value="0"/>
+                <process-optimizer-enable value="0"/>
+                <process-optimizer-bands>
+                    <gain_l preset="array_20_zero"/>
+                    <gain_r preset="array_20_zero"/>
+                    <gain_c preset="array_20_zero"/>
+                    <gain_lfe preset="array_20_zero"/>
+                    <gain_ls preset="array_20_zero"/>
+                    <gain_rs preset="array_20_zero"/>
+                    <gain_lrs preset="array_20_zero"/>
+                    <gain_rrs preset="array_20_zero"/>
+                    <gain_ltm preset="array_20_zero"/>
+                    <gain_rtm preset="array_20_zero"/>
+                </process-optimizer-bands>
+                <regulator-enable value="1"/>
+                <regulator-overdrive value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-speaker-dist-enable value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <surround-boost value="0"/>
+                <surround-decoder-enable value="0"/>
+                <system-gain value="0"/>
+                <virtualizer-front-speaker-angle value="10"/>
+                <virtualizer-height-speaker-angle value="10"/>
+                <virtualizer-surround-speaker-angle value="10"/>
+                <virtual-bass-mix-freqs value="94,469"/>
+                <virtual-bass-mode value="0"/>
+                <virtual-bass-overall-gain value="0"/>
+                <virtual-bass-subgains value="-32,-144,-192"/>
+                <virtual-bass-slope-gain value="0"/>
+                <virtual-bass-src-freqs value="35,160"/>
+                <volmax-boost value="144"/>
+                <volume-leveler-enable value="0"/>
+                <volume-leveler-amount value="0"/>
+                <volume-leveler-in-target value="-320"/>
+                <volume-leveler-out-target value="-320"/>
+                <volume-modeler-enable value="0"/>
+                <volume-modeler-calibration value="0"/>
+                <output-mode-partial-surround-virtualizer-enable value="0"/>
+                <output-mode-partial-height-virtualizer-enable value="0"/>
+            </tuning-cp>
+            <tuning-vlldp>
+                <audio-optimizer-bands>
+                    <gain_l value="0,131,158,51,-59,-30,-19,-6,-25,8,46,12,16,-11,-57,-43,-19,41,104,0"/>
+                    <gain_r value="0,131,158,51,-6,-43,-49,9,-25,4,51,20,17,-19,-65,-49,-24,33,88,0"/>
+                </audio-optimizer-bands>
+                <audio-optimizer-enable value="1"/>
+                <postgain value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-overdrive value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-speaker-dist-enable value="1"/>
+                <regulator-tuning>
+                    <threshold_high value="-176,-331,-433,-286,-315,-217,-257,-83,-64,0,0,0,0,0,0,0,0,0,0,0"/>
+                    <threshold_low value="-368,-523,-625,-478,-507,-409,-449,-275,-256,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192"/>
+                    <isolated_band value="1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0"/>
+                </regulator-tuning>
+                <system-gain value="0"/>
+            </tuning-vlldp>
+        </profile>
+        <profile type="personalize_user1">
+            <tuning-cp>
+                <audio-optimizer-enable value="0"/>
+                <audio-optimizer-bands>
+                    <gain_l preset="array_20_zero"/>
+                    <gain_r preset="array_20_zero"/>
+                    <gain_c preset="array_20_zero"/>
+                    <gain_lfe preset="array_20_zero"/>
+                    <gain_ls preset="array_20_zero"/>
+                    <gain_rs preset="array_20_zero"/>
+                    <gain_lrs preset="array_20_zero"/>
+                    <gain_rrs preset="array_20_zero"/>
+                    <gain_ltm preset="array_20_zero"/>
+                    <gain_rtm preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <bass-enhancer-enable value="0"/>
+                <bass-enhancer-boost value="0"/>
+                <bass-enhancer-cutoff-frequency value="200"/>
+                <bass-enhancer-width value="16"/>
+                <bass-extraction-enable value="0"/>
+                <bass-extraction-cutoff-frequency value="200"/>
+                <calibration-boost value="0"/>
+                <dialog-enhancer-enable value="1"/>
+                <dialog-enhancer-amount value="9"/>
+                <dialog-enhancer-ducking value="0"/>
+                <graphic-equalizer-enable value="0"/>
+                <graphic-equalizer-bands preset="array_20_zero"/>
+                <height-filter-mode value="0"/>
+                <ieq-enable value="0"/>
+                <ieq-amount value="10"/>
+                <ieq-bands-set preset="ieq_balanced"/>
+                <mi-dialog-enhancer-steering-enable value="0"/>
+                <mi-dv-leveler-steering-enable value="0"/>
+                <mi-ieq-steering-enable value="0"/>
+                <mi-surround-compressor-steering-enable value="0"/>
+                <mi-virt-steering-enable value="0"/>
+                <postgain value="0"/>
+                <pregain value="0"/>
+                <process-optimizer-enable value="0"/>
+                <process-optimizer-bands>
+                    <gain_l preset="array_20_zero"/>
+                    <gain_r preset="array_20_zero"/>
+                    <gain_c preset="array_20_zero"/>
+                    <gain_lfe preset="array_20_zero"/>
+                    <gain_ls preset="array_20_zero"/>
+                    <gain_rs preset="array_20_zero"/>
+                    <gain_lrs preset="array_20_zero"/>
+                    <gain_rrs preset="array_20_zero"/>
+                    <gain_ltm preset="array_20_zero"/>
+                    <gain_rtm preset="array_20_zero"/>
+                </process-optimizer-bands>
+                <regulator-enable value="1"/>
+                <regulator-overdrive value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-speaker-dist-enable value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <surround-boost value="48"/>
+                <surround-decoder-enable value="1"/>
+                <system-gain value="0"/>
+                <virtualizer-front-speaker-angle value="10"/>
+                <virtualizer-height-speaker-angle value="10"/>
+                <virtualizer-surround-speaker-angle value="10"/>
+                <virtual-bass-mix-freqs value="94,469"/>
+                <virtual-bass-mode value="0"/>
+                <virtual-bass-overall-gain value="0"/>
+                <virtual-bass-subgains value="-32,-144,-192"/>
+                <virtual-bass-slope-gain value="0"/>
+                <virtual-bass-src-freqs value="35,160"/>
+                <volmax-boost value="96"/>
+                <volume-leveler-enable value="1"/>
+                <volume-leveler-amount value="2"/>
+                <volume-leveler-in-target value="-320"/>
+                <volume-leveler-out-target value="-320"/>
+                <volume-modeler-enable value="0"/>
+                <volume-modeler-calibration value="0"/>
+                <output-mode-partial-surround-virtualizer-enable value="1"/>
+                <output-mode-partial-height-virtualizer-enable value="0"/>
+            </tuning-cp>
+            <tuning-vlldp>
+                <audio-optimizer-bands>
+                    <gain_l value="0,131,158,51,-59,-30,-19,-6,-25,8,46,12,16,-11,-57,-43,-19,41,104,0"/>
+                    <gain_r value="0,131,158,51,-6,-43,-49,9,-25,4,51,20,17,-19,-65,-49,-24,33,88,0"/>
+                </audio-optimizer-bands>
+                <audio-optimizer-enable value="1"/>
+                <postgain value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-overdrive value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-speaker-dist-enable value="1"/>
+                <regulator-tuning>
+                    <threshold_high value="-176,-331,-433,-286,-315,-217,-257,-83,-64,0,0,0,0,0,0,0,0,0,0,0"/>
+                    <threshold_low value="-368,-523,-625,-478,-507,-409,-449,-275,-256,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192"/>
+                    <isolated_band value="1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0"/>
+                </regulator-tuning>
+                <system-gain value="0"/>
+            </tuning-vlldp>
+        </profile>
+        <profile type="personalize_user2">
+            <tuning-cp>
+                <audio-optimizer-enable value="0"/>
+                <audio-optimizer-bands>
+                    <gain_l preset="array_20_zero"/>
+                    <gain_r preset="array_20_zero"/>
+                    <gain_c preset="array_20_zero"/>
+                    <gain_lfe preset="array_20_zero"/>
+                    <gain_ls preset="array_20_zero"/>
+                    <gain_rs preset="array_20_zero"/>
+                    <gain_lrs preset="array_20_zero"/>
+                    <gain_rrs preset="array_20_zero"/>
+                    <gain_ltm preset="array_20_zero"/>
+                    <gain_rtm preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <bass-enhancer-enable value="0"/>
+                <bass-enhancer-boost value="0"/>
+                <bass-enhancer-cutoff-frequency value="200"/>
+                <bass-enhancer-width value="16"/>
+                <bass-extraction-enable value="0"/>
+                <bass-extraction-cutoff-frequency value="200"/>
+                <calibration-boost value="0"/>
+                <dialog-enhancer-enable value="1"/>
+                <dialog-enhancer-amount value="9"/>
+                <dialog-enhancer-ducking value="0"/>
+                <graphic-equalizer-enable value="0"/>
+                <graphic-equalizer-bands preset="array_20_zero"/>
+                <height-filter-mode value="0"/>
+                <ieq-enable value="0"/>
+                <ieq-amount value="10"/>
+                <ieq-bands-set preset="ieq_balanced"/>
+                <mi-dialog-enhancer-steering-enable value="0"/>
+                <mi-dv-leveler-steering-enable value="0"/>
+                <mi-ieq-steering-enable value="0"/>
+                <mi-surround-compressor-steering-enable value="0"/>
+                <mi-virt-steering-enable value="0"/>
+                <postgain value="0"/>
+                <pregain value="0"/>
+                <process-optimizer-enable value="0"/>
+                <process-optimizer-bands>
+                    <gain_l preset="array_20_zero"/>
+                    <gain_r preset="array_20_zero"/>
+                    <gain_c preset="array_20_zero"/>
+                    <gain_lfe preset="array_20_zero"/>
+                    <gain_ls preset="array_20_zero"/>
+                    <gain_rs preset="array_20_zero"/>
+                    <gain_lrs preset="array_20_zero"/>
+                    <gain_rrs preset="array_20_zero"/>
+                    <gain_ltm preset="array_20_zero"/>
+                    <gain_rtm preset="array_20_zero"/>
+                </process-optimizer-bands>
+                <regulator-enable value="1"/>
+                <regulator-overdrive value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-speaker-dist-enable value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <surround-boost value="48"/>
+                <surround-decoder-enable value="1"/>
+                <system-gain value="0"/>
+                <virtualizer-front-speaker-angle value="10"/>
+                <virtualizer-height-speaker-angle value="10"/>
+                <virtualizer-surround-speaker-angle value="10"/>
+                <virtual-bass-mix-freqs value="94,469"/>
+                <virtual-bass-mode value="0"/>
+                <virtual-bass-overall-gain value="0"/>
+                <virtual-bass-subgains value="-32,-144,-192"/>
+                <virtual-bass-slope-gain value="0"/>
+                <virtual-bass-src-freqs value="35,160"/>
+                <volmax-boost value="96"/>
+                <volume-leveler-enable value="1"/>
+                <volume-leveler-amount value="2"/>
+                <volume-leveler-in-target value="-320"/>
+                <volume-leveler-out-target value="-320"/>
+                <volume-modeler-enable value="0"/>
+                <volume-modeler-calibration value="0"/>
+                <output-mode-partial-surround-virtualizer-enable value="1"/>
+                <output-mode-partial-height-virtualizer-enable value="0"/>
+            </tuning-cp>
+            <tuning-vlldp>
+                <audio-optimizer-bands>
+                    <gain_l value="0,131,158,51,-59,-30,-19,-6,-25,8,46,12,16,-11,-57,-43,-19,41,104,0"/>
+                    <gain_r value="0,131,158,51,-6,-43,-49,9,-25,4,51,20,17,-19,-65,-49,-24,33,88,0"/>
+                </audio-optimizer-bands>
+                <audio-optimizer-enable value="1"/>
+                <postgain value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-overdrive value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-speaker-dist-enable value="1"/>
+                <regulator-tuning>
+                    <threshold_high value="-176,-331,-433,-286,-315,-217,-257,-83,-64,0,0,0,0,0,0,0,0,0,0,0"/>
+                    <threshold_low value="-368,-523,-625,-478,-507,-409,-449,-275,-256,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192"/>
+                    <isolated_band value="1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0"/>
+                </regulator-tuning>
+                <system-gain value="0"/>
+            </tuning-vlldp>
+        </profile>
+        <profile type="personalize_user3">
+            <tuning-cp>
+                <audio-optimizer-enable value="0"/>
+                <audio-optimizer-bands>
+                    <gain_l preset="array_20_zero"/>
+                    <gain_r preset="array_20_zero"/>
+                    <gain_c preset="array_20_zero"/>
+                    <gain_lfe preset="array_20_zero"/>
+                    <gain_ls preset="array_20_zero"/>
+                    <gain_rs preset="array_20_zero"/>
+                    <gain_lrs preset="array_20_zero"/>
+                    <gain_rrs preset="array_20_zero"/>
+                    <gain_ltm preset="array_20_zero"/>
+                    <gain_rtm preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <bass-enhancer-enable value="0"/>
+                <bass-enhancer-boost value="0"/>
+                <bass-enhancer-cutoff-frequency value="200"/>
+                <bass-enhancer-width value="16"/>
+                <bass-extraction-enable value="0"/>
+                <bass-extraction-cutoff-frequency value="200"/>
+                <calibration-boost value="0"/>
+                <dialog-enhancer-enable value="1"/>
+                <dialog-enhancer-amount value="9"/>
+                <dialog-enhancer-ducking value="0"/>
+                <graphic-equalizer-enable value="0"/>
+                <graphic-equalizer-bands preset="array_20_zero"/>
+                <height-filter-mode value="0"/>
+                <ieq-enable value="0"/>
+                <ieq-amount value="10"/>
+                <ieq-bands-set preset="ieq_balanced"/>
+                <mi-dialog-enhancer-steering-enable value="0"/>
+                <mi-dv-leveler-steering-enable value="0"/>
+                <mi-ieq-steering-enable value="0"/>
+                <mi-surround-compressor-steering-enable value="0"/>
+                <mi-virt-steering-enable value="0"/>
+                <postgain value="0"/>
+                <pregain value="0"/>
+                <process-optimizer-enable value="0"/>
+                <process-optimizer-bands>
+                    <gain_l preset="array_20_zero"/>
+                    <gain_r preset="array_20_zero"/>
+                    <gain_c preset="array_20_zero"/>
+                    <gain_lfe preset="array_20_zero"/>
+                    <gain_ls preset="array_20_zero"/>
+                    <gain_rs preset="array_20_zero"/>
+                    <gain_lrs preset="array_20_zero"/>
+                    <gain_rrs preset="array_20_zero"/>
+                    <gain_ltm preset="array_20_zero"/>
+                    <gain_rtm preset="array_20_zero"/>
+                </process-optimizer-bands>
+                <regulator-enable value="1"/>
+                <regulator-overdrive value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-speaker-dist-enable value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <surround-boost value="48"/>
+                <surround-decoder-enable value="1"/>
+                <system-gain value="0"/>
+                <virtualizer-front-speaker-angle value="10"/>
+                <virtualizer-height-speaker-angle value="10"/>
+                <virtualizer-surround-speaker-angle value="10"/>
+                <virtual-bass-mix-freqs value="94,469"/>
+                <virtual-bass-mode value="0"/>
+                <virtual-bass-overall-gain value="0"/>
+                <virtual-bass-subgains value="-32,-144,-192"/>
+                <virtual-bass-slope-gain value="0"/>
+                <virtual-bass-src-freqs value="35,160"/>
+                <volmax-boost value="96"/>
+                <volume-leveler-enable value="1"/>
+                <volume-leveler-amount value="2"/>
+                <volume-leveler-in-target value="-320"/>
+                <volume-leveler-out-target value="-320"/>
+                <volume-modeler-enable value="0"/>
+                <volume-modeler-calibration value="0"/>
+                <output-mode-partial-surround-virtualizer-enable value="1"/>
+                <output-mode-partial-height-virtualizer-enable value="0"/>
+            </tuning-cp>
+            <tuning-vlldp>
+                <audio-optimizer-bands>
+                    <gain_l value="0,131,158,51,-59,-30,-19,-6,-25,8,46,12,16,-11,-57,-43,-19,41,104,0"/>
+                    <gain_r value="0,131,158,51,-6,-43,-49,9,-25,4,51,20,17,-19,-65,-49,-24,33,88,0"/>
+                </audio-optimizer-bands>
+                <audio-optimizer-enable value="1"/>
+                <postgain value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-overdrive value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-speaker-dist-enable value="1"/>
+                <regulator-tuning>
+                    <threshold_high value="-176,-331,-433,-286,-315,-217,-257,-83,-64,0,0,0,0,0,0,0,0,0,0,0"/>
+                    <threshold_low value="-368,-523,-625,-478,-507,-409,-449,-275,-256,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192"/>
+                    <isolated_band value="1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0"/>
+                </regulator-tuning>
+                <system-gain value="0"/>
+            </tuning-vlldp>
+        </profile>
+        <profile type="off">
+            <tuning-cp>
+                <audio-optimizer-enable value="0"/>
+                <audio-optimizer-bands>
+                    <gain_l preset="array_20_zero"/>
+                    <gain_r preset="array_20_zero"/>
+                    <gain_c preset="array_20_zero"/>
+                    <gain_lfe preset="array_20_zero"/>
+                    <gain_ls preset="array_20_zero"/>
+                    <gain_rs preset="array_20_zero"/>
+                    <gain_lrs preset="array_20_zero"/>
+                    <gain_rrs preset="array_20_zero"/>
+                    <gain_ltm preset="array_20_zero"/>
+                    <gain_rtm preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <bass-enhancer-enable value="0"/>
+                <bass-enhancer-boost value="0"/>
+                <bass-enhancer-cutoff-frequency value="200"/>
+                <bass-enhancer-width value="16"/>
+                <bass-extraction-enable value="0"/>
+                <bass-extraction-cutoff-frequency value="200"/>
+                <calibration-boost value="0"/>
+                <dialog-enhancer-enable value="0"/>
+                <dialog-enhancer-amount value="0"/>
+                <dialog-enhancer-ducking value="0"/>
+                <graphic-equalizer-enable value="0"/>
+                <graphic-equalizer-bands preset="array_20_zero"/>
+                <height-filter-mode value="0"/>
+                <ieq-enable value="0"/>
+                <ieq-amount value="10"/>
+                <ieq-bands-set preset="ieq_balanced"/>
+                <mi-dialog-enhancer-steering-enable value="0"/>
+                <mi-dv-leveler-steering-enable value="0"/>
+                <mi-ieq-steering-enable value="0"/>
+                <mi-surround-compressor-steering-enable value="0"/>
+                <mi-virt-steering-enable value="0"/>
+                <postgain value="0"/>
+                <pregain value="0"/>
+                <process-optimizer-enable value="0"/>
+                <process-optimizer-bands>
+                    <gain_l preset="array_20_zero"/>
+                    <gain_r preset="array_20_zero"/>
+                    <gain_c preset="array_20_zero"/>
+                    <gain_lfe preset="array_20_zero"/>
+                    <gain_ls preset="array_20_zero"/>
+                    <gain_rs preset="array_20_zero"/>
+                    <gain_lrs preset="array_20_zero"/>
+                    <gain_rrs preset="array_20_zero"/>
+                    <gain_ltm preset="array_20_zero"/>
+                    <gain_rtm preset="array_20_zero"/>
+                </process-optimizer-bands>
+                <regulator-enable value="1"/>
+                <regulator-overdrive value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-speaker-dist-enable value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <surround-boost value="0"/>
+                <surround-decoder-enable value="0"/>
+                <system-gain value="0"/>
+                <virtualizer-front-speaker-angle value="10"/>
+                <virtualizer-height-speaker-angle value="10"/>
+                <virtualizer-surround-speaker-angle value="10"/>
+                <virtual-bass-mix-freqs value="94,469"/>
+                <virtual-bass-mode value="0"/>
+                <virtual-bass-overall-gain value="0"/>
+                <virtual-bass-subgains value="-32,-144,-192"/>
+                <virtual-bass-slope-gain value="0"/>
+                <virtual-bass-src-freqs value="35,160"/>
+                <volmax-boost value="0"/>
+                <volume-leveler-enable value="0"/>
+                <volume-leveler-amount value="0"/>
+                <volume-leveler-in-target value="-320"/>
+                <volume-leveler-out-target value="-320"/>
+                <volume-modeler-enable value="0"/>
+                <volume-modeler-calibration value="0"/>
+                <output-mode-partial-surround-virtualizer-enable value="0"/>
+                <output-mode-partial-height-virtualizer-enable value="0"/>
+            </tuning-cp>
+            <tuning-vlldp>
+                <audio-optimizer-bands>
+                    <gain_l preset="array_20_zero"/>
+                    <gain_r preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <audio-optimizer-enable value="0"/>
+                <postgain value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-overdrive value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-speaker-dist-enable value="0"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <system-gain value="0"/>
+            </tuning-vlldp>
+        </profile>
+    </endpoint>
+</device_data>

@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %Provider%
 ExtensionId = {4DBBC440-ACCA-11E7-BE06-448A5B99B4C1}
-DriverVer   = 12/19/2019,1.5.21.0
+DriverVer   = 02/02/2020,1.5.24.0
 CatalogFile = AVoluteAWSCExt.cat
 
 [SourceDisksNames]
