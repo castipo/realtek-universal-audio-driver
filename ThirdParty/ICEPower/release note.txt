@@ -1,4 +1,73 @@
-ICEsoundAPO_x64_2.7 (20/09-19):
+ICEsoundAPO_x64_2.9.3 (02/12-19):
+- Updated tuning for X420FA, X412UA_UB_UF_FA_FJ_FL_FAG_FLG_FJG_FAC_FJC_FLC.
+
+ICEsoundAPO_x64_2.9.2 (29/11-19):
+Model list based on 'ICEsound-ASUS project list_splitComp_20191127.xlsx'.
+- Added tuning for UX481FAY_FLY, X513
+- Updated tuning for W500G5T_GV.
+
+ICEsoundAPO_x64_2.9.1 (26/11-19):
+Model list based on 'ICEsound-ASUS project list_splitComp_20191122.xlsx'.
+- Added tuning for X705MAR
+- Updated tuning for W500G5T_GV.
+- Updated tuning for B9450FA .
+
+ICEsoundAPO_x64_2.9.0 (15/11-19):
+- Extended SmartBass range
+- Add runtime control of capture EFX
+- Fix various formats handling
+- Emptying buffers on pause playback for APO and Legacy machines
+
+ICEsoundAPO_x64_2.8.7 (25/11-19):
+- Added tuning for X705MAR
+- Updated tuning for W500G5T_GV.
+
+ICEsoundAPO_x64_2.8.6 (22/11-19):
+Model list based on 'ICEsound-ASUS project list_splitComp_20191122.xlsx'.
+- Updated tuning for B9450FA .
+
+ICEsoundAPO_x64_2.8.5 (19/11-19):
+- Added tuning for X421FAY_1FF1, X421FAY_1ADE
+
+ICEsoundAPO_x64_2.8.4 (15/11-19):
+Model list based on 'ICEsound-ASUS project list_splitComp_20191113.xlsx'.
+
+ICEsoundAPO_x64_2.8.3 (11/11-19):
+- Updated tuning for X421FA_FL.
+
+ICEsoundAPO_x64_2.8.2 (08/11-19):
+Model list based on 'ICEsound-ASUS project list_splitComp_20191106.xlsx'.
+
+ICEsoundAPO_x64_2.8.1 (04/11-19):
+Model list based on 'ICEsound-ASUS project list_splitComp_20191031.xlsx'.
+- Added tuning for W590G6T
+
+ICEsoundAPO_x64_2.8 (28/10-19):
+Model list based on 'ICEsound-ASUS project list_splitComp_20191024.xlsx'.
+
+ICEsoundAPO_x64_2.8 (25/10-19):
+Model list based on 'ICEsound-ASUS project list_splitComp_20191021.xlsx'.
+- Updated tuning for TP412FAC, X420FAC.
+
+ICEsoundAPO_x64_2.8 (14/10-19):
+- Added backward compatibility support with drivers using MFX+EFX over iSST platforms
+
+ICEsoundAPO_x64_2.6 (25/10-19):
+Model list based on 'ICEsound-ASUS project list_splitComp_20191021.xlsx'.
+- Updated tuning for TP412FAC, X420FAC.
+
+ICEsoundAPO_x64_2.6 (16/10-19):
+Model list based on 'ICEsound-ASUS project list_splitComp_20191009.xlsx'.
+- Added tuning for B9450FA_FB.
+
+ICEsoundAPO_x64_2.6 (09/10-19):
+Model list based on 'ICEsound-ASUS project list_splitComp_20191003.xlsx'.
+- Added tuning for X420FAC.
+
+ICEsoundAPO_x64_2.6 (01/10-19):
+- updated tuning for X521FA_FL, X421FA_FL.
+
+ICEsoundAPO_x64_2.6 (23/09-19):
 - Added tuning for TP412FAC, H700GV, X521FA_FL, W500G5T_GV.
 
 ICEsoundAPO_x64_2.6 (12/09-19):

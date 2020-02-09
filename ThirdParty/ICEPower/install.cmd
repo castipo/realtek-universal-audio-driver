@@ -1,5 +1,5 @@
 @ECHO OFF
-SET version=2.7.190920
+SET version=2.9.191202
 
 SET my_data=0
 SET ext_inf_error=0
@@ -22,7 +22,7 @@ EXIT /B 0
 
 :param_function_2
 ECHO Remove older APO %my_data% and install APO %version%!
-REG DELETE HKLM\Software\ASUS\ICEpower_APO /v "DisplayVersion"
+REG DELETE HKLM\Software\ASUS\ICEpower_APO /v "DisplayVersion" /f
 REM ECHO REG DELETE status:%ERRORLEVEL%, my_data=%my_data%
 IF %ERRORLEVEL% EQU 0 ( ECHO APO %my_data% removed! ) ELSE (EXIT /B 0)
 CALL :param_function_5
@@ -69,7 +69,7 @@ IF %ERRORLEVEL% EQU 0 ( ECHO ICEsoundService registered in system, APO %version%
 	)
 IF %ERRORLEVEL% NEQ 0 (EXIT /B %ERRORLEVEL%)
 
-REG ADD HKLM\Software\ASUS\ICEpower_APO /v "DisplayVersion" /t REG_SZ /d %version%
+REG ADD HKLM\Software\ASUS\ICEpower_APO /v "DisplayVersion" /t REG_SZ /d %version% /f
 REM ECHO Add DisplayVersion value result: %ERRORLEVEL%
 IF %ERRORLEVEL% EQU 0 ( ECHO APO %version% installed!) ELSE (ECHO Registry key can't add into system, APO %version% install failed!)
 EXIT /B %ERRORLEVEL%
