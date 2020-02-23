@@ -4,7 +4,7 @@ Class       = Extension
 ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
 Provider    = %OrganizationName%
 ExtensionId = {A23F0038-653E-48E7-8F42-BB00F02085D7}
-DriverVer   = 02/11/2020, 6.0.8895.1
+DriverVer   = 02/18/2020, 6.0.8899.1
 CatalogFile = HDXRTExt.cat
 
 [Manufacturer]
@@ -43,6 +43,7 @@ CatalogFile = HDXRTExt.cat
 %Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809A0
 %Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809A1
 %Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809A2
+%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_10280A20
 
 ;;%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1028098A
 ;;%Device.ExtensionDesc% = DeviceExtension_Install_MA8_Render_DSP, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1028098B

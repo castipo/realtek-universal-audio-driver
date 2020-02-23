@@ -10,7 +10,7 @@ ClassGuid={4d36e96c-e325-11ce-bfc1-08002be10318}
 Provider=%OrganizationName%
 DriverPackageType=PlugAndPlay
 DriverPackageDisplayName=%PackageDisplayName%
-DriverVer=02/11/2020, 6.0.8895.1
+DriverVer=02/18/2020, 6.0.8899.1
 
 [SourceDisksNames]
 222="Realtek HD Audio Installation Disk",,,
@@ -175,6 +175,7 @@ DRMLevel=1300
 "Realtek Audio"      = IntcAzAudModel, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809A0
 "Realtek Audio"      = IntcAzAudModel, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809A1
 "Realtek Audio"      = IntcAzAudModel, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_102809A2
+"Realtek Audio"      = IntcAzAudModel, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0236&SUBSYS_10280A20
 
 "Realtek Audio"      = IntcAzAudModel, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1028098A
 "Realtek Audio"      = IntcAzAudModel, INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1028098B
