@@ -13,6 +13,8 @@ UAD and legacy HDA standalone packages can be found at [this repository](https:/
 
 Operating System: At least Windows 10 Version 1703 RS2 Build 15063 (64 Bit)
 
+Hardware: [Check if Supported](https://github.com/alanfox2000/realtek-universal-audio-driver/wiki/Check-If-Support)
+
 ---------------------------------------
 ### Latest Information:
 
